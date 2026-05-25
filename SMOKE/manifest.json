@@ -1,0 +1,14 @@
+[
+  {
+    "source_url": "https://www.irs.gov/forms-pubs/about-form-990",
+    "primary": true,
+    "local_path": "SMOKE/www.irs.gov-forms-pubs-about-form-990.html",
+    "content_type": "text/html; charset=UTF-8",
+    "content_sha256": "54eb922889cfd30ed8c6b707f7d5b7e58231676c48646cf35620dc7d52c0a7ae",
+    "perma_url": null,
+    "wayback_url": "https://web.archive.org/web/20260519111839/https://www.irs.gov/forms-pubs/about-form-990",
+    "captured_at": "2026-05-25T20:54:50.719205+00:00",
+    "signed": false,
+    "smoke_test": true
+  }
+]
