@@ -1,0 +1,101 @@
+[
+  {
+    "source_url": "https://app.leg.wa.gov/RCW/default.aspx?cite=1.16.050&pdf=true",
+    "primary": false,
+    "local_path": "WA/app.leg.wa.gov-RCW-default.aspx-cite-1.16.050-pdf-true.pdf",
+    "content_type": "application/pdf",
+    "content_sha256": "aafa8420d99ad5306b940e89c07cbf53b5c700136eed31b6861acd241e30a93c",
+    "perma_url": null,
+    "wayback_url": null,
+    "captured_at": "2026-05-25T22:18:47.243014+00:00",
+    "signed": true
+  },
+  {
+    "source_url": "https://app.leg.wa.gov/RCW/default.aspx?cite=19.09.062&pdf=true",
+    "primary": false,
+    "local_path": "WA/app.leg.wa.gov-RCW-default.aspx-cite-19.09.062-pdf-true.pdf",
+    "content_type": "application/pdf",
+    "content_sha256": "9e7d67527f3c4761e64f36f0f720270399ddf9ea6d51a8bcfa048d1b18a9154c",
+    "perma_url": null,
+    "wayback_url": null,
+    "captured_at": "2026-05-25T22:18:47.243014+00:00",
+    "signed": true
+  },
+  {
+    "source_url": "https://app.leg.wa.gov/RCW/default.aspx?cite=19.09.075&pdf=true",
+    "primary": false,
+    "local_path": "WA/app.leg.wa.gov-RCW-default.aspx-cite-19.09.075-pdf-true.pdf",
+    "content_type": "application/pdf",
+    "content_sha256": "109bf067e48fd9c073c1527e0afd309d6e1edb94b417826cdeb1442ed8f62dcb",
+    "perma_url": null,
+    "wayback_url": "https://web.archive.org/web/20260525221902/https://app.leg.wa.gov/RCW/default.aspx?cite=19.09.075&pdf=true",
+    "captured_at": "2026-05-25T22:18:47.243014+00:00",
+    "signed": true
+  },
+  {
+    "source_url": "https://app.leg.wa.gov/RCW/default.aspx?cite=19.09.085&pdf=true",
+    "primary": false,
+    "local_path": "WA/app.leg.wa.gov-RCW-default.aspx-cite-19.09.085-pdf-true.pdf",
+    "content_type": "application/pdf",
+    "content_sha256": "3815c63b1074d1d452b1416b12e486ac0f51c95edf766b8faab3d818beca854f",
+    "perma_url": null,
+    "wayback_url": "https://web.archive.org/web/20260525221855/https://app.leg.wa.gov/RCW/default.aspx?cite=19.09.085&pdf=true",
+    "captured_at": "2026-05-25T22:18:47.243014+00:00",
+    "signed": true
+  },
+  {
+    "source_url": "https://app.leg.wa.gov/WAC/default.aspx?cite=434-120-042&pdf=true",
+    "primary": false,
+    "local_path": "WA/app.leg.wa.gov-WAC-default.aspx-cite-434-120-042-pdf-true.pdf",
+    "content_type": "application/pdf",
+    "content_sha256": "297d5aa6a5aea0d98f9f512e56bcd92ec4de9819d67b6b81692835c55a731f63",
+    "perma_url": null,
+    "wayback_url": "https://web.archive.org/web/20260525221921/https://app.leg.wa.gov/WAC/default.aspx?cite=434-120-042&pdf=true",
+    "captured_at": "2026-05-25T22:18:47.243014+00:00",
+    "signed": true
+  },
+  {
+    "source_url": "https://app.leg.wa.gov/WAC/default.aspx?cite=434-120-047&pdf=true",
+    "primary": false,
+    "local_path": "WA/app.leg.wa.gov-WAC-default.aspx-cite-434-120-047-pdf-true.pdf",
+    "content_type": "application/pdf",
+    "content_sha256": "e0c922d121154f873e6a59fbc318fe759a629db6961410fda940d0a154745eef",
+    "perma_url": null,
+    "wayback_url": null,
+    "captured_at": "2026-05-25T22:18:47.243014+00:00",
+    "signed": true
+  },
+  {
+    "source_url": "https://app.leg.wa.gov/WAC/default.aspx?cite=434-120-140&pdf=true",
+    "primary": false,
+    "local_path": "WA/app.leg.wa.gov-WAC-default.aspx-cite-434-120-140-pdf-true.pdf",
+    "content_type": "application/pdf",
+    "content_sha256": "607df7f5d314c40855a3dab71dd975d7d17d01dd92be22810308dbd21a70202b",
+    "perma_url": null,
+    "wayback_url": "https://web.archive.org/web/20260525221911/https://app.leg.wa.gov/WAC/default.aspx?cite=434-120-140&pdf=true",
+    "captured_at": "2026-05-25T22:18:47.243014+00:00",
+    "signed": true
+  },
+  {
+    "source_url": "https://app.leg.wa.gov/WAC/default.aspx?cite=434-120-225&pdf=true",
+    "primary": true,
+    "local_path": "WA/app.leg.wa.gov-WAC-default.aspx-cite-434-120-225-pdf-true.pdf",
+    "content_type": "application/pdf",
+    "content_sha256": "cedc9ba07d270381815894e7fb97f60045b699f19c0b6126ae75a9ba4b8d5f49",
+    "perma_url": null,
+    "wayback_url": "https://web.archive.org/web/20260525221848/https://app.leg.wa.gov/WAC/default.aspx?cite=434-120-225&pdf=true",
+    "captured_at": "2026-05-25T22:18:47.243014+00:00",
+    "signed": true
+  },
+  {
+    "source_url": "https://www.sos.wa.gov/_assets/charities/charitable-organization-renewal.pdf",
+    "primary": false,
+    "local_path": "WA/www.sos.wa.gov-_assets-charities-charitable-organization-renewal.pdf.pdf",
+    "content_type": "application/pdf",
+    "content_sha256": "d11fc94e209126b59558d3818651aff0e71c98046b3f5a987b6263e24f04a9cd",
+    "perma_url": null,
+    "wayback_url": null,
+    "captured_at": "2026-05-25T22:18:47.243014+00:00",
+    "signed": true
+  }
+]
