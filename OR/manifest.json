@@ -1,0 +1,68 @@
+[
+  {
+    "source_url": "https://oregon.public.law/rules/oar_137-010-0020",
+    "primary": false,
+    "local_path": "OR/oregon.public.law-rules-oar_137-010-0020.html",
+    "content_type": "text/html; charset=utf-8",
+    "content_sha256": "1b1e7d91990a332600a7930d451c3d3296c910a1bb5ec3b2d8f3a67f65d745c8",
+    "perma_url": null,
+    "wayback_url": "https://web.archive.org/web/20260527153741/https://oregon.public.law/rules/oar_137-010-0020",
+    "captured_at": "2026-05-27T15:42:05.929959+00:00",
+    "signed": true
+  },
+  {
+    "source_url": "https://oregon.public.law/rules/oar_137-010-0025",
+    "primary": true,
+    "local_path": "OR/oregon.public.law-rules-oar_137-010-0025.html",
+    "content_type": "text/html; charset=utf-8",
+    "content_sha256": "100e78223271d7ec7b60baab2ebee04ba6cc03f970293e2de07f968775d6d593",
+    "perma_url": null,
+    "wayback_url": "https://web.archive.org/web/20260527153714/https://oregon.public.law/rules/oar_137-010-0025",
+    "captured_at": "2026-05-27T15:42:05.929959+00:00",
+    "signed": true
+  },
+  {
+    "source_url": "https://oregon.public.law/rules/oar_137-010-0030",
+    "primary": false,
+    "local_path": "OR/oregon.public.law-rules-oar_137-010-0030.html",
+    "content_type": "text/html; charset=utf-8",
+    "content_sha256": "d8d6066fe36b0c590ad42455d2cc086cbc848a4336a588fc7326cfe7e8fa78a1",
+    "perma_url": null,
+    "wayback_url": "https://web.archive.org/web/20260527153827/https://oregon.public.law/rules/oar_137-010-0030",
+    "captured_at": "2026-05-27T15:42:05.929959+00:00",
+    "signed": true
+  },
+  {
+    "source_url": "https://oregon.public.law/rules/oar_137-010-0033",
+    "primary": false,
+    "local_path": "OR/oregon.public.law-rules-oar_137-010-0033.html",
+    "content_type": "text/html; charset=utf-8",
+    "content_sha256": "2c1ba9b32c0f5300fc6666764344fbeba6d2b42d1f7c5443ae4ecddcf97a777d",
+    "perma_url": null,
+    "wayback_url": "https://web.archive.org/web/20260527153907/https://oregon.public.law/rules/oar_137-010-0033",
+    "captured_at": "2026-05-27T15:42:05.929959+00:00",
+    "signed": true
+  },
+  {
+    "source_url": "https://www.doj.state.or.us/charitable-activities/annual-reporting-for-charities/request-filing-extension-annual-reports/",
+    "primary": false,
+    "local_path": "OR/www.doj.state.or.us-charitable-activities-annual-reporting-for-charities-request.html",
+    "content_type": "text/html; charset=UTF-8",
+    "content_sha256": "43281e0e4449b05d7daf4119fe626af666be91d333ff2d30eaf6d9dc8df14682",
+    "perma_url": null,
+    "wayback_url": "https://web.archive.org/web/20260527154007/https://www.doj.state.or.us/charitable-activities/annual-reporting-for-charities/request-filing-extension-annual-reports/",
+    "captured_at": "2026-05-27T15:42:05.929959+00:00",
+    "signed": true
+  },
+  {
+    "source_url": "https://www.doj.state.or.us/wp-content/uploads/2026/01/2025_web_ct-12.pdf",
+    "primary": false,
+    "local_path": "OR/www.doj.state.or.us-wp-content-uploads-2026-01-2025_web_ct-12.pdf.pdf",
+    "content_type": "application/pdf",
+    "content_sha256": "564842137b486847b97f2f6e6b9bb635d42fbd1964e2c10bf9389c4cefa2cf0a",
+    "perma_url": null,
+    "wayback_url": "https://web.archive.org/web/20260527153940/https://www.doj.state.or.us/wp-content/uploads/2026/01/2025_web_ct-12.pdf",
+    "captured_at": "2026-05-27T15:42:05.929959+00:00",
+    "signed": true
+  }
+]
