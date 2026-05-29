@@ -7,7 +7,7 @@
     "content_sha256": "12e4c30556c9fd9b0d63cb9e1b3abea702e40acca0a2bb6a899cc9c8ba6666f6",
     "perma_url": null,
     "wayback_url": "https://web.archive.org/web/20260529094037/https://gc.nh.gov/rsa/html/I/21/21-35.htm",
-    "captured_at": "2026-05-29T09:40:10.184705+00:00",
+    "captured_at": "2026-05-29T09:59:14.545282+00:00",
     "signed": true
   },
   {
@@ -18,7 +18,29 @@
     "content_sha256": "5200e394da4ff5aa02a716520ee53be9f401c951aa17edbe183136b928c6dae3",
     "perma_url": null,
     "wayback_url": "https://web.archive.org/web/20260523090847/https://gc.nh.gov/rsa/html/I/7/7-28.htm",
-    "captured_at": "2026-05-29T09:40:10.184705+00:00",
+    "captured_at": "2026-05-29T09:59:14.545282+00:00",
+    "signed": true
+  },
+  {
+    "source_url": "https://mm.nh.gov/files/uploads/doj/remote-docs/jus-400-adopted-rule.pdf",
+    "primary": false,
+    "local_path": "NH/mm.nh.gov-files-uploads-doj-remote-docs-jus-400-adopted-rule.pdf.pdf",
+    "content_type": "application/pdf",
+    "content_sha256": "ffad00b3bddd8ef535ccbfddae8c7d5cc1d5898ece91d60948e9cb2a7b576201",
+    "perma_url": null,
+    "wayback_url": "https://web.archive.org/web/20250601105746/https://mm.nh.gov/files/uploads/doj/remote-docs/jus-400-adopted-rule.pdf",
+    "captured_at": "2026-05-29T09:59:14.545282+00:00",
+    "signed": true
+  },
+  {
+    "source_url": "https://mm.nh.gov/files/uploads/doj/remote-docs/nhct12-instructions.pdf",
+    "primary": false,
+    "local_path": "NH/mm.nh.gov-files-uploads-doj-remote-docs-nhct12-instructions.pdf.pdf",
+    "content_type": "application/pdf",
+    "content_sha256": "c639cedf92c745bbe711cb7256d7002844b2b25b85bb9da49b1096f8ee948445",
+    "perma_url": null,
+    "wayback_url": "https://web.archive.org/web/20250601105704/https://mm.nh.gov/files/uploads/doj/remote-docs/nhct12-instructions.pdf",
+    "captured_at": "2026-05-29T09:59:14.545282+00:00",
     "signed": true
   }
 ]
