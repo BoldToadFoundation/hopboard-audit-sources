@@ -1,0 +1,24 @@
+[
+  {
+    "source_url": "https://www.leg.state.nv.us/nrs/nrs-082.html",
+    "primary": false,
+    "local_path": "NV/www.leg.state.nv.us-nrs-nrs-082.html.html",
+    "content_type": "text/html",
+    "content_sha256": "2090a8d9da8ff0482f0fc4192f2b3c76de3e474e99a156d9bf5d17e94cdaf7d6",
+    "perma_url": null,
+    "wayback_url": "https://web.archive.org/web/20260529124910/https://www.leg.state.nv.us/nrs/nrs-082.html",
+    "captured_at": "2026-05-29T12:48:30.358216+00:00",
+    "signed": true
+  },
+  {
+    "source_url": "https://www.leg.state.nv.us/nrs/nrs-082a.html",
+    "primary": true,
+    "local_path": "NV/www.leg.state.nv.us-nrs-nrs-082a.html.html",
+    "content_type": "text/html",
+    "content_sha256": "ba5828287aa474a57473e77f4e28ab23b19b04ac772a7061f6aeb1afc83b02c4",
+    "perma_url": null,
+    "wayback_url": "https://web.archive.org/web/20260529124856/https://www.leg.state.nv.us/nrs/nrs-082a.html",
+    "captured_at": "2026-05-29T12:48:30.358216+00:00",
+    "signed": true
+  }
+]
