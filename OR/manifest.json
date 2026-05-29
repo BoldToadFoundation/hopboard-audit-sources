@@ -44,6 +44,17 @@
     "signed": true
   },
   {
+    "source_url": "https://secure.sos.state.or.us/oard/viewAttachment.action?ruleVrsnRsn=10457",
+    "primary": true,
+    "local_path": "OR/secure.sos.state.or.us-oard-viewAttachment.action-ruleVrsnRsn-10457.pdf",
+    "content_type": "application/pdf",
+    "content_sha256": "abce96a90a440895cd76e41bd3d623a1e785c7d67f3be5ee24d13c70c71831fa",
+    "perma_url": null,
+    "wayback_url": null,
+    "captured_at": "2026-05-29T00:22:29.397691+00:00",
+    "signed": true
+  },
+  {
     "source_url": "https://www.doj.state.or.us/charitable-activities/annual-reporting-for-charities/request-filing-extension-annual-reports/",
     "primary": false,
     "local_path": "OR/www.doj.state.or.us-charitable-activities-annual-reporting-for-charities-request.html",
