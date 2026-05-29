@@ -1,0 +1,24 @@
+[
+  {
+    "source_url": "https://gc.nh.gov/rsa/html/I/21/21-35.htm",
+    "primary": false,
+    "local_path": "NH/gc.nh.gov-rsa-html-I-21-21-35.htm.html",
+    "content_type": "text/html",
+    "content_sha256": "12e4c30556c9fd9b0d63cb9e1b3abea702e40acca0a2bb6a899cc9c8ba6666f6",
+    "perma_url": null,
+    "wayback_url": "https://web.archive.org/web/20260529094037/https://gc.nh.gov/rsa/html/I/21/21-35.htm",
+    "captured_at": "2026-05-29T09:40:10.184705+00:00",
+    "signed": true
+  },
+  {
+    "source_url": "https://gc.nh.gov/rsa/html/I/7/7-28.htm",
+    "primary": true,
+    "local_path": "NH/gc.nh.gov-rsa-html-I-7-7-28.htm.html",
+    "content_type": "text/html",
+    "content_sha256": "5200e394da4ff5aa02a716520ee53be9f401c951aa17edbe183136b928c6dae3",
+    "perma_url": null,
+    "wayback_url": "https://web.archive.org/web/20260523090847/https://gc.nh.gov/rsa/html/I/7/7-28.htm",
+    "captured_at": "2026-05-29T09:40:10.184705+00:00",
+    "signed": true
+  }
+]
