@@ -4,10 +4,10 @@
     "primary": true,
     "local_path": "CA/oag.ca.gov-charities-renewals.html",
     "content_type": "text/html; charset=utf-8",
-    "content_sha256": "76a784de6fe7f33495b1e74990fbd50f5599f843f219b06f9608388420901362",
-    "perma_url": null,
+    "content_sha256": "cc2abb1206ac3449ae08f59e1cc097f2825b744031fece95465c2ad9375a6c1c",
+    "perma_url": "https://perma.cc/WX7D-KCH2",
     "wayback_url": "https://web.archive.org/web/20260530163327/https://oag.ca.gov/charities/renewals",
-    "captured_at": "2026-05-30T16:33:23.861203+00:00",
+    "captured_at": "2026-05-30T18:26:42.477428+00:00",
     "signed": true
   },
   {
@@ -16,9 +16,9 @@
     "local_path": "CA/www.law.cornell.edu-regulations-california-11-CCR-305.html",
     "content_type": "text/html; charset=utf-8",
     "content_sha256": "567592807b88faff3856f13c412236ab76e4277ea277df4d697526041c3a6515",
-    "perma_url": null,
+    "perma_url": "https://perma.cc/J86A-9RR6",
     "wayback_url": "https://web.archive.org/web/20260530163353/https://www.law.cornell.edu/regulations/california/11-CCR-305",
-    "captured_at": "2026-05-30T16:33:23.861203+00:00",
+    "captured_at": "2026-05-30T18:26:42.477428+00:00",
     "signed": true
   }
 ]
