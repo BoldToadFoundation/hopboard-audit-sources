@@ -1,13 +1,26 @@
 [
   {
     "source_url": "https://portal.ct.gov/dcp/charities/general-information-on-the-connecticut-solicitation-of-charitable-funds-act",
-    "primary": true,
+    "primary": false,
     "local_path": "CT/portal.ct.gov-dcp-charities-general-information-on-the-connecticut-solicitation-.html",
     "content_type": "text/html; charset=utf-8",
-    "content_sha256": "fd359a1f117f396de126b904f8931fb950f769454a14106625f6c444eddf721a",
+    "content_sha256": "b641ab31488f7d6530cea081aac3d197cc89b8f93a7356fa18963954c47c2091",
     "perma_url": null,
-    "wayback_url": null,
-    "captured_at": "2026-06-05T18:29:32.324687+00:00",
-    "signed": true
+    "wayback_url": "https://web.archive.org/web/20260605183149/https://portal.ct.gov/dcp/charities/general-information-on-the-connecticut-solicitation-of-charitable-funds-act",
+    "captured_at": "2026-06-05T19:45:37.925253+00:00",
+    "signed": true,
+    "tls_chain_unverified": false
+  },
+  {
+    "source_url": "https://www.cga.ct.gov/current/pub/chap_419d.htm",
+    "primary": true,
+    "local_path": "CT/www.cga.ct.gov-current-pub-chap_419d.htm.html",
+    "content_type": "text/html",
+    "content_sha256": "3a92b45a35199040407aceb4084b5547764d2df1ac1d9db115ced4ef374f7dcd",
+    "perma_url": null,
+    "wayback_url": "https://web.archive.org/web/20260429180727/https://www.cga.ct.gov/current/pub/chap_419d.htm",
+    "captured_at": "2026-06-05T19:45:37.925253+00:00",
+    "signed": true,
+    "tls_chain_unverified": true
   }
 ]
