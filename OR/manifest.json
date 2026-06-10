@@ -75,5 +75,17 @@
     "wayback_url": "https://web.archive.org/web/20260527153940/https://www.doj.state.or.us/wp-content/uploads/2026/01/2025_web_ct-12.pdf",
     "captured_at": "2026-05-27T15:42:05.929959+00:00",
     "signed": true
+  },
+  {
+    "source_url": "https://www.doj.state.or.us/wp-content/uploads/2026/01/2025_web_ct-12f.pdf",
+    "primary": true,
+    "local_path": "OR/www.doj.state.or.us-wp-content-uploads-2026-01-2025_web_ct-12f.pdf.pdf",
+    "content_type": "application/pdf",
+    "content_sha256": "7d9e9e410d77edfc5721b7f5f071c8ad10cd724a5e0f27a98373ff3f698b7e2f",
+    "perma_url": "https://perma.cc/D73W-PAKM",
+    "wayback_url": null,
+    "captured_at": "2026-06-10T23:13:55.681041+00:00",
+    "signed": true,
+    "tls_chain_unverified": false
   }
 ]
