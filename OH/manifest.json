@@ -1,0 +1,26 @@
+[
+  {
+    "source_url": "https://charitable.ohioago.gov/Charity-Registration/Publications/List-of-Annual-Report-Questions",
+    "primary": true,
+    "local_path": "OH/charitable.ohioago.gov-Charity-Registration-Publications-List-of-Annual-Report-Q.pdf",
+    "content_type": "application/pdf",
+    "content_sha256": "d28001a862df76e876c4c3f3f4b67f4a0419fb7abe3285cd809a55ded3825607",
+    "perma_url": "https://perma.cc/X2LT-4CV4",
+    "wayback_url": null,
+    "captured_at": "2026-06-10T22:59:29.604425+00:00",
+    "signed": true,
+    "tls_chain_unverified": false
+  },
+  {
+    "source_url": "https://www.ohioattorneygeneral.gov/Files/Publications-Files/Publications-for-Business/Online-Charitable-Registration-Information-Sheet",
+    "primary": false,
+    "local_path": "OH/www.ohioattorneygeneral.gov-Files-Publications-Files-Publications-for-Business-O.pdf",
+    "content_type": "application/pdf",
+    "content_sha256": "e4b01d2d277a6013cc886ac3898ae1795850a5d23bc3cd2bcc60240b30d8d933",
+    "perma_url": "https://perma.cc/A7QN-79YW",
+    "wayback_url": null,
+    "captured_at": "2026-06-10T22:59:29.604425+00:00",
+    "signed": true,
+    "tls_chain_unverified": false
+  }
+]
