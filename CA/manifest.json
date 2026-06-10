@@ -11,6 +11,18 @@
     "signed": true
   },
   {
+    "source_url": "https://oag.ca.gov/system/files/media/rrf1_form.pdf",
+    "primary": true,
+    "local_path": "CA/oag.ca.gov-system-files-media-rrf1_form.pdf.pdf",
+    "content_type": "application/pdf",
+    "content_sha256": "4a71d7eb06b7aa563fc487fc5f6523a5cfc3c111a1543d331d9fc36a2edea5ea",
+    "perma_url": "https://perma.cc/2K2T-XM6S",
+    "wayback_url": null,
+    "captured_at": "2026-06-10T23:01:02.207164+00:00",
+    "signed": true,
+    "tls_chain_unverified": false
+  },
+  {
     "source_url": "https://www.law.cornell.edu/regulations/california/11-CCR-305",
     "primary": false,
     "local_path": "CA/www.law.cornell.edu-regulations-california-11-CCR-305.html",
