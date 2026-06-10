@@ -50,9 +50,33 @@ mm.nh.gov + mass.gov (NEW regressions since their 05-29/05-31 captures — IP/po
 the §3.42 UA fix no longer suffices). The trendline is one-way (state portals hardening
 against datacenter egress) and erodes the capture protocol's substrate. **Standing rule:
 hitting a wall during a crank block is NOT solved ad hoc in-block — flag the state here,
-continue the crank, route to the batch session.** Egress options priced for the batch
-session live in the week-one close-out thread; GA routes to the Tony-browser path
-(`BROWSER_CAPTURE_RUNBOOK.md`).
+continue the crank, route to the batch session.**
+
+**Approved path (Tony, 2026-06-10): option (b)** — Tony-browser capture
+(`BROWSER_CAPTURE_RUNBOOK.md`) + a `--from-file` ingest flag built at the next batch
+session; browser artifacts WAIT in the drop dir until the flag exists (no informal archive
+entries); `browser_captured: true` disclosed provenance.
+
+**Option (a) — residential/alternate egress — activates on EITHER trigger (amended 2026-06-10):**
+- **Count:** walled-host total reaches ~6 of 51; OR
+- **Rate:** ≥2 NEW hosts wall in any 14-day window (slope is trend confirmation regardless
+  of level); OR a wall blocks a deadline-verification source (not just attachments) mid-crank.
+
+**Walled-hosts log** (the wall-rate data — batch sessions read THIS table, not logs; append a
+row the moment any capture 403s; note when Perma's independent crawler succeeds where we
+403 — that's the free measurement on whether (a) is even needed):
+
+| Host | Walled (observed) | Window evidence | Perma succeeds? |
+|---|---|---|---|
+| sos.ga.gov | long-standing (≤2026-05-25, GA audit "seven-source wall") | all UAs, pre-dates this ledger | untested |
+| mm.nh.gov | between 2026-05-29 (successful bare-UA capture) and 2026-06-10 | both UAs, IP/policy-level | untested |
+| mass.gov | between 2026-05-31 (successful capture) and 2026-06-10 | both UAs, incl. previously-served URLs | untested |
+
+Rate-trigger watch: mm.nh.gov + mass.gov both walled within ≤12 days of each other's last
+success — IF their actual wall dates land in the same 14-day window, the slope condition is
+already arguably met; we can't resolve the true dates from here (observed only at next
+attempt). The NEXT new wall settles it: one more host in 14 days from its observation date
+fires the trigger unambiguously.
 
 ## Going forward (protocol)
 
