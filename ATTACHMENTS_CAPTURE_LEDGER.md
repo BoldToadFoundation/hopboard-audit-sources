@@ -22,19 +22,37 @@ fetch-verified; LOCAL = verified in the pre-existing local capture.
 | GA | — **BLOCKED** — sos.ga.gov 403s ALL UAs from this machine (the GA seven-source wall). Target: How-To Guide Charities page / renewal-notice PDF | — | YES per search snippets — **NOT fetch-confirmed** | — | `required_attachments_renewal`: 6 items. **Needs Tony's-browser path or alternate egress; the ONE open catch-up item** |
 | MA | `MA/www.mass.gov-doc-form-pc-2023-update-download.pdf` (Form PC page-1 "Check all items attached" checklist) — pre-existing 2026-05-31 capture; mass.gov now 403s this machine (WAF regression, IP/policy-level — §3.42's UA fix insufficient) | 2026-05-31 | **YES** (form-embedded checklist) | LOCAL/AGENT | `required_attachments_annual`: 7 items |
 | WA | `WA/www.sos.wa.gov-_assets-charities-charitable-organization-renewal.pdf.pdf` | pre-existing | **YES** ("IRS determination letter MUST be attached"; explicitly do-NOT-enclose-990) | AGENT | `required_attachments_annual`: 4 items — **pre-flag: corpus lists "annual financial report" attachment; form says figures are keyed in + 990 not enclosed** |
-| OR | `OR/www.doj.state.or.us-...2025_web_ct-12.pdf.pdf` (CT-12 + instructions, "attach complete 990 copy… except Schedule B") | pre-existing | **YES** | AGENT | `required_attachments_annual`: 5 items — **pre-flag: corpus names CT-12F (foreign, applies to Bold Toad); captured artifact is domestic CT-12 — CT-12F instructions uncaptured** |
+| OR | `OR/www.doj.state.or.us-...2025_web_ct-12.pdf.pdf` (domestic CT-12) **+ `OR/...2025_web_ct-12f.pdf.pdf` (CT-12F, foreign — the form Bold Toad files)** | pre-existing + 2026-06-10 `ace6a5d` | **YES** (CT-12F verified directly: 33 attachment-language hits incl. auditor-report attach directive) | GREP | `required_attachments_annual`: 5 items. **Rider-1 disposition (2026-06-10 review): the domestic-only capture was a FAILED completeness check for the applicable entity class, not a mere pre-flag — cured by capturing the CT-12F rather than reasoning around it. Extraction for OR must diff against the CT-12F.** |
 | NH | `NH/mm.nh.gov-...nhct12-instructions.pdf.pdf` (explicit "Enclosures or Attachments:" section) — mm.nh.gov now 403s this machine (WAF regression since the 2026-05-29 bare-UA fix; recapture blocked, existing capture unaffected) | 2026-05-29 | **YES** | LOCAL | `required_attachments_annual`: 5 items |
 | FL | `FL/forms.fdacs.gov-10100.pdf.pdf` (FDACS-10100, embedded financial-statement options + "return it with all attachments") — Perma/Wayback queued-retry, local capture signed + hashed | 2026-06-10 `d8d0580` | **YES** | GREP | NO `_renewal` key — claims in `required_attachments.other` (8 items) + notes — key-shape awareness needed |
 
 ## Extraction-pass pre-flags (carry into the diff)
 
-1. WA + OH: corpus claims a 990/financial-report *attachment*; official artifacts say figures
-   are keyed in / explicitly not enclosed — likely corpus corrections.
-2. OR: capture the CT-12F (foreign) instructions before extracting OR — Bold Toad files CT-12F.
+**STATUS DISCIPLINE: every pre-flag below is a SINGLE-ARTIFACT OBSERVATION awaiting the
+extraction pass + review gate — NOT a settled fact, NOT a license to edit the corpus now.
+Acting on these outside the verified-write gate would be exactly the unverified-write the
+regime prohibits, however plausible the artifact makes them look (review ruling 2026-06-10).**
+
+1. WA + OH: corpus claims a 990/financial-report *attachment*; one official artifact each
+   says figures are keyed in / explicitly not enclosed — **observation, awaits diff pass;
+   do not read "portal doesn't take a 990" as established.**
+2. ~~OR: capture CT-12F~~ — RESOLVED 2026-06-10 (`ace6a5d`); see the OR row's rider-1
+   disposition. Extraction diffs against the CT-12F.
 3. CA + FL: renewal-attachment claims live outside the `_annual`/`_renewal` keys — the diff
    must be key-shape-aware or it will false-clear both states.
 4. NY + OH PARTIAL is by state design (portal-conditional) — extraction for these two yields
    "static-artifact floor + portal-conditional remainder", not a complete list.
+
+## 403 wall — protocol risk, not per-state inconvenience (2026-06-10)
+
+Three states' official hosts now block this machine: sos.ga.gov (all UAs, long-standing),
+mm.nh.gov + mass.gov (NEW regressions since their 05-29/05-31 captures — IP/policy-level;
+the §3.42 UA fix no longer suffices). The trendline is one-way (state portals hardening
+against datacenter egress) and erodes the capture protocol's substrate. **Standing rule:
+hitting a wall during a crank block is NOT solved ad hoc in-block — flag the state here,
+continue the crank, route to the batch session.** Egress options priced for the batch
+session live in the week-one close-out thread; GA routes to the Tony-browser path
+(`BROWSER_CAPTURE_RUNBOOK.md`).
 
 ## Going forward (protocol)
 
