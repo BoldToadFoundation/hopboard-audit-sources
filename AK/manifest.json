@@ -1,0 +1,50 @@
+[
+  {
+    "source_url": "https://www.akleg.gov/basis/statutes.asp#45.68",
+    "primary": false,
+    "local_path": "AK/www.akleg.gov-basis-statutes.asp-45.68.html",
+    "content_type": "text/html; charset=ISO-8859-1",
+    "content_sha256": "59c8545fa0dfb7ca52cec6a95d257d69c8b6a6b3e573e3830fc3f819c849007d",
+    "perma_url": "https://perma.cc/4VWP-52Z5",
+    "wayback_url": null,
+    "captured_at": "2026-06-11T09:55:18.080377+00:00",
+    "signed": true,
+    "tls_chain_unverified": false
+  },
+  {
+    "source_url": "https://www.law.alaska.gov/consumer/charityFAQ.html",
+    "primary": false,
+    "local_path": "AK/www.law.alaska.gov-consumer-charityFAQ.html.html",
+    "content_type": "text/html; charset=utf-8",
+    "content_sha256": "2a84a009b91258192692a12ff6b4c30516605d3fa8714089fbe0f6948b5ccd6e",
+    "perma_url": "https://perma.cc/D3XT-JZYV",
+    "wayback_url": null,
+    "captured_at": "2026-06-11T09:55:18.080377+00:00",
+    "signed": true,
+    "tls_chain_unverified": false
+  },
+  {
+    "source_url": "https://www.law.alaska.gov/consumer/charityreg.html",
+    "primary": true,
+    "local_path": "AK/www.law.alaska.gov-consumer-charityreg.html.html",
+    "content_type": "text/html",
+    "content_sha256": "e871c5cbb16b9d466120958b381067915554ad9e2eb6802735bfac9e63aa2b5e",
+    "perma_url": "https://perma.cc/49ZU-2X2A",
+    "wayback_url": null,
+    "captured_at": "2026-06-11T09:55:18.080377+00:00",
+    "signed": true,
+    "tls_chain_unverified": false
+  },
+  {
+    "source_url": "https://www.law.alaska.gov/pdf/consumer/RegIntructions-Online.pdf",
+    "primary": false,
+    "local_path": "AK/www.law.alaska.gov-pdf-consumer-RegIntructions-Online.pdf.pdf",
+    "content_type": "application/pdf",
+    "content_sha256": "57cfa4cbd0b374910c11d531b4fa2463ea8bee5380f405aab5c3ff536fd942ee",
+    "perma_url": "https://perma.cc/PQW2-5A6W",
+    "wayback_url": "https://web.archive.org/web/20260121212704/https://www.law.alaska.gov/pdf/consumer/RegIntructions-Online.pdf",
+    "captured_at": "2026-06-11T09:55:18.080377+00:00",
+    "signed": true,
+    "tls_chain_unverified": false
+  }
+]
