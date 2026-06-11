@@ -26,6 +26,12 @@ fetch-verified; LOCAL = verified in the pre-existing local capture.
 | NH | `NH/mm.nh.gov-...nhct12-instructions.pdf.pdf` (explicit "Enclosures or Attachments:" section) — mm.nh.gov now 403s this machine (WAF regression since the 2026-05-29 bare-UA fix; recapture blocked, existing capture unaffected) | 2026-05-29 | **YES** | LOCAL | `required_attachments_annual`: 5 items |
 | FL | `FL/forms.fdacs.gov-10100.pdf.pdf` (FDACS-10100, embedded financial-statement options + "return it with all attachments") — Perma/Wayback queued-retry, local capture signed + hashed | 2026-06-10 `d8d0580` | **YES** | GREP | NO `_renewal` key — claims in `required_attachments.other` (8 items) + notes — key-shape awareness needed |
 
+## Crank-block captures (states #17+, per-state at crank time)
+
+| State | Artifact (local path) | Captured | Lists attachments? | Basis | Corpus claim shape |
+|---|---|---|---|---|---|
+| ME | `ME/www.mainelegislature.org-legis-statutes-9-title9sec5004.html.html` (§5004(5) = the STATUTORY renewal-content list: AFAR + disciplinary/court disclosures w/ disposition documents + change-updates + director's-discretion item) + OPOR licensing page ("Completed Application and supporting documents; Annual Fundraising Activity Report") + AFAR PDF | 2026-06-11 `0936ef4` | **YES** (statutory enumeration captured; AFAR itself = on-form figures, NO enclosure language — WA-style keyed-in) | GREP | Seed claims live in `required_attachments` dict but are **initial-application-phrased** (form_990 TRUE note says "with initial application"); renewal-side claims are in `notes` prose — extraction diff needs key-shape awareness (CA/FL-class). Renewal side per §5004(5): NO 990/budget attachment. |
+
 ## Extraction-pass pre-flags (carry into the diff)
 
 **STATUS DISCIPLINE: every pre-flag below is a SINGLE-ARTIFACT OBSERVATION awaiting the
