@@ -31,6 +31,7 @@ fetch-verified; LOCAL = verified in the pre-existing local capture.
 | State | Artifact (local path) | Captured | Lists attachments? | Basis | Corpus claim shape |
 |---|---|---|---|---|---|
 | ME | `ME/www.mainelegislature.org-legis-statutes-9-title9sec5004.html.html` (§5004(5) = the STATUTORY renewal-content list: AFAR + disciplinary/court disclosures w/ disposition documents + change-updates + director's-discretion item) + OPOR licensing page ("Completed Application and supporting documents; Annual Fundraising Activity Report") + AFAR PDF | 2026-06-11 `0936ef4` | **YES** (statutory enumeration captured; AFAR itself = on-form figures, NO enclosure language — WA-style keyed-in) | GREP | Seed claims live in `required_attachments` dict but are **initial-application-phrased** (form_990 TRUE note says "with initial application"); renewal-side claims are in `notes` prose — extraction diff needs key-shape awareness (CA/FL-class). Renewal side per §5004(5): NO 990/budget attachment. |
+| AK | `AK/www.law.alaska.gov-consumer-charityreg.html.html` (reg page aggregates the FAQ sections: "You will not need to attach any documents to your application"; 990/audited financials only on Department request) + RegInstructions-Online PDF | 2026-06-11 `8a84206` | **YES — explicit NO-attachments regime** (verbatim on the captured reg page; AK explicitly does not take 990s — a documented ABSENCE) | GREP | Seed `required_attachments` claims should reflect none-required; extraction diff: AK is an absence row. ⚠ TWO degraded sibling artifacts, disclosed: `charityFAQ.html` capture = **200-masked F5 "Request Rejected" WAF page** (real FAQ content NOT in the local artifact; Perma `D3XT-JZYV` likely got the real page — different egress — UNVERIFIED); `statutes.asp#45.68` local capture = BASIS **JS shell** (statute text NOT captured; Perma `4VWP-52Z5` headless-render UNVERIFIED — 10-second Tony browser check). **AK statute text remains the apply precondition (06-09): routed to browser-capture path.** |
 
 ## Extraction-pass pre-flags (carry into the diff)
 
@@ -77,6 +78,18 @@ row the moment any capture 403s; note when Perma's independent crawler succeeds 
 | sos.ga.gov | long-standing (≤2026-05-25, GA audit "seven-source wall") | all UAs, pre-dates this ledger | untested |
 | mm.nh.gov | between 2026-05-29 (successful bare-UA capture) and 2026-06-10 | both UAs, IP/policy-level | untested |
 | mass.gov | between 2026-05-31 (successful capture) and 2026-06-10 | both UAs, incl. previously-served URLs | untested |
+| law.alaska.gov (PARTIAL — URL-selective) | 2026-06-11 (AK crank) | `charityFAQ.html` returns a **200-masked F5 "Request Rejected" body** to the capture client while `charityreg.html` + a PDF on the same host serve clean — URL-pattern WAF rule, not IP-level. NEW failure mode for the log: a 200 rejection page archives SILENTLY (no fetch_failed); rider-1 byte-grep is what caught it | likely (D3XT-JZYV, different egress) — UNVERIFIED |
+| (not walls, recorded for completeness) akleg.gov = JS-only publisher (httpx 200 shell, no statute text server-side); law.justia.com + touchngo.com mirrors block this machine | 2026-06-11 | — | akleg Perma 4VWP-52Z5 render UNVERIFIED |
+
+**⚠ RATE-TRIGGER QUESTION (routed to Tony, this block):** mm.nh.gov + mass.gov (observed
+2026-06-10) + law.alaska.gov-partial (observed 2026-06-11) = arguably ≥2 new hosts in a
+14-day window → the option-(a) residential-egress slope condition is ARGUABLY MET. Two
+honest caveats: (i) the law.alaska.gov rejection is URL-selective (same host serves the
+load-bearing page clean — AK's audit was NOT blocked by it); (ii) mm.nh.gov/mass.gov true
+wall dates are unresolvable. Activation of (a) is an infra/cost decision = Tony's call;
+the crank continues on (b) meanwhile. Also: a 200-masked rejection body suggests the
+capture script should grep for WAF-rejection signatures and queue those as fetch_failed —
+small hardening, priced for a batch session.
 
 Rate-trigger watch: mm.nh.gov + mass.gov both walled within ≤12 days of each other's last
 success — IF their actual wall dates land in the same 14-day window, the slope condition is
