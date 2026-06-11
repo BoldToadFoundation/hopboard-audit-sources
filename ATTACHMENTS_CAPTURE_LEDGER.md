@@ -31,7 +31,7 @@ fetch-verified; LOCAL = verified in the pre-existing local capture.
 | State | Artifact (local path) | Captured | Lists attachments? | Basis | Corpus claim shape |
 |---|---|---|---|---|---|
 | ME | `ME/www.mainelegislature.org-legis-statutes-9-title9sec5004.html.html` (§5004(5) = the STATUTORY renewal-content list: AFAR + disciplinary/court disclosures w/ disposition documents + change-updates + director's-discretion item) + OPOR licensing page ("Completed Application and supporting documents; Annual Fundraising Activity Report") + AFAR PDF | 2026-06-11 `0936ef4` | **YES** (statutory enumeration captured; AFAR itself = on-form figures, NO enclosure language — WA-style keyed-in) | GREP | Seed claims live in `required_attachments` dict but are **initial-application-phrased** (form_990 TRUE note says "with initial application"); renewal-side claims are in `notes` prose — extraction diff needs key-shape awareness (CA/FL-class). Renewal side per §5004(5): NO 990/budget attachment. |
-| AK | `AK/www.law.alaska.gov-consumer-charityreg.html.html` (reg page aggregates the FAQ sections: "You will not need to attach any documents to your application"; 990/audited financials only on Department request) + RegInstructions-Online PDF | 2026-06-11 `8a84206` | **YES — explicit NO-attachments regime** (verbatim on the captured reg page; AK explicitly does not take 990s — a documented ABSENCE) | GREP | Seed `required_attachments` claims should reflect none-required; extraction diff: AK is an absence row. ⚠ TWO degraded sibling artifacts, disclosed: `charityFAQ.html` capture = **200-masked F5 "Request Rejected" WAF page** (real FAQ content NOT in the local artifact; Perma `D3XT-JZYV` likely got the real page — different egress — UNVERIFIED); `statutes.asp#45.68` local capture = BASIS **JS shell** (statute text NOT captured; Perma `4VWP-52Z5` headless-render UNVERIFIED — 10-second Tony browser check). **AK statute text remains the apply precondition (06-09): routed to browser-capture path.** |
+| AK | `AK/www.law.alaska.gov-consumer-charityreg.html.html` (reg page aggregates the FAQ sections: "You will not need to attach any documents to your application"; 990/audited financials only on Department request) + RegInstructions-Online PDF. **STATUTE LOCALIZED 2026-06-11 PM `a6459c6`:** `AK/www.akleg.gov-basis-statutes.asp-45.68.warc.gz` — authenticated api.perma.cc WARC download of 4VWP-52Z5 (Perma headless render of the full ch. 68 text; Tony visual confirmation + byte-grep: 45.68.010(a)/(d), §45.68.120 verbatim, history tail SLA 2004/2006), ingested via the new `--from-file` flag (no hand-edited manifest), supersedes the JS-shell entry; provenance local-primary/Perma-secondary per the 2026-06-11 standard | 2026-06-11 `8a84206` | **YES — explicit NO-attachments regime** (verbatim on the captured reg page; AK explicitly does not take 990s — a documented ABSENCE) | GREP | Seed `required_attachments` claims should reflect none-required; extraction diff: AK is an absence row. ⚠ TWO degraded sibling artifacts, disclosed: `charityFAQ.html` capture = **200-masked F5 "Request Rejected" WAF page** (real FAQ content NOT in the local artifact; Perma `D3XT-JZYV` likely got the real page — different egress — UNVERIFIED); `statutes.asp#45.68` local capture = BASIS **JS shell** (statute text NOT captured; Perma `4VWP-52Z5` headless-render UNVERIFIED — 10-second Tony browser check). **AK statute text remains the apply precondition (06-09): routed to browser-capture path.** |
 
 ## Extraction-pass pre-flags (carry into the diff)
 
@@ -68,6 +68,20 @@ entries); `browser_captured: true` disclosed provenance.
 - **Count:** walled-host total reaches ~6 of 51; OR
 - **Rate:** ≥2 NEW hosts wall in any 14-day window (slope is trend confirmation regardless
   of level); OR a wall blocks a deadline-verification source (not just attachments) mid-crank.
+
+**STANDING PROCEDURE (Tony rulings 2026-06-11, egress riders a+b):**
+- **Re-probe-before-count:** a host is NOT a durable wall until it fails a re-probe ≥48h
+  after first block (this HEAVY existed partly because self-caused transient blocks were
+  logged as walls). Log the first block as PROVISIONAL with its date; promote to durable
+  only on the failed re-probe.
+- **Escalation trigger (measurement window through ~2026-06-25):** escalate to the (a1)
+  residential-egress review if ≥2 NEW durable walls appear under the 4s politeness cap,
+  OR any durable wall blocks an active-crank-path state with no archive alternative
+  (Wayback snapshot or Perma headless render both count as alternatives — the AK statute
+  proved the Perma-render channel).
+- **Politeness:** 4s floor between fetches + published robots.txt Crawl-delay honored
+  where larger (survey 2026-06-11: oag.ca.gov publishes 10s — honored; no other captured
+  host publishes above the floor).
 
 **Walled-hosts log** (the wall-rate data — batch sessions read THIS table, not logs; append a
 row the moment any capture 403s; note when Perma's independent crawler succeeds where we
