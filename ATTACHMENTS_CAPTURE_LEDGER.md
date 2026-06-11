@@ -81,15 +81,21 @@ row the moment any capture 403s; note when Perma's independent crawler succeeds 
 | law.alaska.gov (PARTIAL — URL-selective) | 2026-06-11 (AK crank) | `charityFAQ.html` returns a **200-masked F5 "Request Rejected" body** to the capture client while `charityreg.html` + a PDF on the same host serve clean — URL-pattern WAF rule, not IP-level. NEW failure mode for the log: a 200 rejection page archives SILENTLY (no fetch_failed); rider-1 byte-grep is what caught it | likely (D3XT-JZYV, different egress) — UNVERIFIED |
 | (not walls, recorded for completeness) akleg.gov = JS-only publisher (httpx 200 shell, no statute text server-side); law.justia.com + touchngo.com mirrors block this machine | 2026-06-11 | — | akleg Perma 4VWP-52Z5 render UNVERIFIED |
 
-**⚠ RATE-TRIGGER QUESTION (routed to Tony, this block):** mm.nh.gov + mass.gov (observed
-2026-06-10) + law.alaska.gov-partial (observed 2026-06-11) = arguably ≥2 new hosts in a
-14-day window → the option-(a) residential-egress slope condition is ARGUABLY MET. Two
-honest caveats: (i) the law.alaska.gov rejection is URL-selective (same host serves the
-load-bearing page clean — AK's audit was NOT blocked by it); (ii) mm.nh.gov/mass.gov true
-wall dates are unresolvable. Activation of (a) is an infra/cost decision = Tony's call;
-the crank continues on (b) meanwhile. Also: a 200-masked rejection body suggests the
-capture script should grep for WAF-rejection signatures and queue those as fetch_failed —
-small hardening, priced for a batch session.
+**⚠ RATE-TRIGGER QUESTION — WITHDRAWN 2026-06-11 PM (live re-probe re-sorted the
+evidence; Tony's behavior-vs-IP challenge was right):** mm.nh.gov and mass.gov **both
+served 200-clean to this machine with the capture UA on 2026-06-11 re-probe** (NHCT-12 PDF
+389KB; mass.gov FAQ 202KB; previously-"walled" URLs included). They were TRANSIENT
+rate/behavior-triggered blocks — very plausibly SELF-INFLICTED by the 2026-06-10
+nine-state catch-up burst (the capture pipeline had **zero inter-request delay** until
+today). Corrected wall census: **sos.ga.gov = the only durable wall** (403 re-confirmed
+2026-06-11); law.alaska.gov = URL-selective behavioral rule (not IP-class); mm.nh.gov +
+mass.gov = transient, rows retained for history with this correction. The ≥2-new-hosts
+slope condition is NOT met on corrected data. **Mitigation shipped 2026-06-11:** the
+capture script now enforces a 4s politeness gap between fetches AND refuses to archive
+200-masked WAF bodies (raises → fetch_failed queue) — both the rate-trip cause and the
+silent-archive symptom are closed. Egress ruling input: see hopboard
+docs/EGRESS_DECISION_PACKAGE_20260611.md (revised: politeness-cap-first, measure ~2 weeks,
+(a) shelved unless durable walls accumulate).
 
 Rate-trigger watch: mm.nh.gov + mass.gov both walled within ≤12 days of each other's last
 success — IF their actual wall dates land in the same 14-day window, the slope condition is
