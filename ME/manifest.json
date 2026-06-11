@@ -1,0 +1,74 @@
+[
+  {
+    "source_url": "https://legislature.maine.gov/statutes/9/title9ch385.pdf",
+    "primary": false,
+    "local_path": "ME/legislature.maine.gov-statutes-9-title9ch385.pdf.pdf",
+    "content_type": "application/pdf",
+    "content_sha256": "ef9d72564a536c87c78165b0e49a1436c75caa1d63df7c7b2d229cefd4736373",
+    "perma_url": "https://perma.cc/2X8C-QJTA",
+    "wayback_url": "https://web.archive.org/web/20260611091830/https://legislature.maine.gov/statutes/9/title9ch385.pdf",
+    "captured_at": "2026-06-11T09:17:38.986973+00:00",
+    "signed": true,
+    "tls_chain_unverified": false
+  },
+  {
+    "source_url": "https://www.maine.gov/pfr/professionallicensing/professions/charitable-solicitations-act/licensing/charitable-organizations",
+    "primary": false,
+    "local_path": "ME/www.maine.gov-pfr-professionallicensing-professions-charitable-solicitations-act.html",
+    "content_type": "text/html; charset=UTF-8",
+    "content_sha256": "917ffb44f9e7b124620cd3ef0b4c22105c9a7c7b9f8bd9456d0b6c511436a64a",
+    "perma_url": "https://perma.cc/C3NE-DY2U",
+    "wayback_url": null,
+    "captured_at": "2026-06-11T09:17:38.986973+00:00",
+    "signed": true,
+    "tls_chain_unverified": false
+  },
+  {
+    "source_url": "https://www.maine.gov/pfr/professionallicensing/sites/maine.gov.pfr.professionallicensing/files/inline-files/CHA-org-afar.pdf",
+    "primary": false,
+    "local_path": "ME/www.maine.gov-pfr-professionallicensing-sites-maine.gov.pfr.professionallicensin.pdf",
+    "content_type": "application/pdf",
+    "content_sha256": "7759d0bb4c1ffc05a8f88aadf245aabc1d6287e901cde6b46317783a90547c3a",
+    "perma_url": "https://perma.cc/G75N-FNAT",
+    "wayback_url": "https://web.archive.org/web/20260611091924/https://www.maine.gov/pfr/professionallicensing/sites/maine.gov.pfr.professionallicensing/files/inline-files/CHA-org-afar.pdf",
+    "captured_at": "2026-06-11T09:17:38.986973+00:00",
+    "signed": true,
+    "tls_chain_unverified": false
+  },
+  {
+    "source_url": "https://www.mainelegislature.org/legis/statutes/9/title9sec5004.html",
+    "primary": true,
+    "local_path": "ME/www.mainelegislature.org-legis-statutes-9-title9sec5004.html.html",
+    "content_type": "text/html",
+    "content_sha256": "3e507698ffba4fd67c647692af81ba5d34891d3103b5c169a4b6b8f6c9057f21",
+    "perma_url": "https://perma.cc/ZS3B-QTZR",
+    "wayback_url": null,
+    "captured_at": "2026-06-11T09:17:38.986973+00:00",
+    "signed": true,
+    "tls_chain_unverified": false
+  },
+  {
+    "source_url": "https://www.mainelegislature.org/legis/statutes/9/title9sec5005-B.html",
+    "primary": false,
+    "local_path": "ME/www.mainelegislature.org-legis-statutes-9-title9sec5005-B.html.html",
+    "content_type": "text/html",
+    "content_sha256": "344aef425c4c93f31e0a262dcfd578ce8ea779d2bf74c1ce1b7be43d0dd400e1",
+    "perma_url": "https://perma.cc/DBC6-UGP8",
+    "wayback_url": null,
+    "captured_at": "2026-06-11T09:17:38.986973+00:00",
+    "signed": true,
+    "tls_chain_unverified": false
+  },
+  {
+    "source_url": "https://www.mainelegislature.org/legis/statutes/9/title9sec5015-A.html",
+    "primary": false,
+    "local_path": "ME/www.mainelegislature.org-legis-statutes-9-title9sec5015-A.html.html",
+    "content_type": "text/html",
+    "content_sha256": "ba2046b6ee5846c5258fc9d49ad185810343ad748011d8f6442f6b2e8c880aff",
+    "perma_url": "https://perma.cc/WYB9-BSKU",
+    "wayback_url": null,
+    "captured_at": "2026-06-11T09:17:38.986973+00:00",
+    "signed": true,
+    "tls_chain_unverified": false
+  }
+]
