@@ -2,14 +2,16 @@
   {
     "source_url": "https://www.akleg.gov/basis/statutes.asp#45.68",
     "primary": false,
-    "local_path": "AK/www.akleg.gov-basis-statutes.asp-45.68.html",
-    "content_type": "text/html; charset=ISO-8859-1",
-    "content_sha256": "59c8545fa0dfb7ca52cec6a95d257d69c8b6a6b3e573e3830fc3f819c849007d",
-    "perma_url": "https://perma.cc/4VWP-52Z5",
+    "local_path": "AK/www.akleg.gov-basis-statutes.asp-45.68.warc.gz",
+    "content_type": "application/octet-stream",
+    "content_sha256": "d29bd21d0fdb36e29635d2c12676cd203f113f9b964e484082dfb831c2d2cc1f",
+    "perma_url": null,
     "wayback_url": null,
-    "captured_at": "2026-06-11T09:55:18.080377+00:00",
+    "captured_at": "2026-06-11T15:59:07.597780+00:00",
     "signed": true,
-    "tls_chain_unverified": false
+    "tls_chain_unverified": false,
+    "ingested_from_file": true,
+    "provenance": "perma_render_warc 4VWP-52Z5: authenticated api.perma.cc download of our own 2026-06-11 archive; Perma headless render carries the full AS ch. 68 text incl. 45.68.010(d) 'Registration under this section expires on September 1 of each year' (byte-grepped) + (a) solicitation-trigger; Tony visual confirmation 2026-06-11. Supersedes the JS-shell entry for this URL (shell file retained on disk, history in AK.sql archive_warnings)."
   },
   {
     "source_url": "https://www.law.alaska.gov/consumer/charityFAQ.html",
