@@ -38,6 +38,20 @@
     "tls_chain_unverified": false
   },
   {
+    "source_url": "https://www.law.alaska.gov/department/civil/consumer/charityreg.html#FAQ",
+    "primary": false,
+    "local_path": "AK/www.law.alaska.gov-department-civil-consumer-charityreg.html-FAQ.pdf",
+    "content_type": "application/pdf",
+    "content_sha256": "ac97ce9d552a85fc6c301b267f4ae43f6e27e8bc2c09bedb37a1787681899f94",
+    "perma_url": null,
+    "wayback_url": null,
+    "captured_at": "2026-06-12T19:39:07.349694+00:00",
+    "signed": true,
+    "tls_chain_unverified": false,
+    "ingested_from_file": true,
+    "provenance": "principal-browser-print 2026-06-12: Tony's browser print-to-PDF of the charityreg page with ALL FAQ sections EXPANDED (8 pp; footer carries source URL + print date; URL is the /department/civil/consumer/ path alias of the manifest primary /consumer/charityreg.html). Capture-incomplete remediation: Perma 49ZU-2X2A renders the FAQ collapsed (initial-state capture of click-to-expand content \u2014 the capture-incomplete class); this artifact preserves the expanded render. Also discharges the charityFAQ.html WAF-shell queued retry (FAQ content carried here + inline in the captured primary's raw HTML, byte-verified 2026-06-12)."
+  },
+  {
     "source_url": "https://www.law.alaska.gov/pdf/consumer/RegIntructions-Online.pdf",
     "primary": false,
     "local_path": "AK/www.law.alaska.gov-pdf-consumer-RegIntructions-Online.pdf.pdf",
