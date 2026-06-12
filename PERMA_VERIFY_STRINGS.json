@@ -124,5 +124,41 @@
   "D73W-PAKM": {
     "source_url": "https://www.doj.state.or.us/wp-content/uploads/2026/01/2025_web_ct-12f.pdf",
     "skip": "pdf payload \u2014 v1 text/html-only"
+  },
+  "3KN9-EV3S": {
+    "source_url": "https://sos.sc.gov/online-filings/charities-pfrs-and-raffles/charities",
+    "strings": [
+      "Application for Exemption",
+      "33-56-50"
+    ],
+    "basis": "strings verified present in local artifact SC/sos.sc.gov-online-filings-charities-pfrs-and-raffles-charities.html (authored at capture per convention, 2026-06-12)"
+  },
+  "6DTE-FC6S": {
+    "source_url": "https://sos.sc.gov/sites/sos/files/Documents/Charities/Annual%20Financial%20Report%20for%20a%20Charitable%20Organization.pdf",
+    "skip": "pdf payload \u2014 v1 text/html-only"
+  },
+  "3DL3-TLG9": {
+    "source_url": "https://sos.sc.gov/sites/sos/files/Documents/Charities/Annual%20Raffle%20Financial%20Report2024.pdf",
+    "skip": "pdf payload \u2014 v1 text/html-only. NB: this is SC's F1 DAY-OF-MONTH ORACLE (worked example 'due on November 15th') \u2014 byte-verified in the LOCAL artifact at capture 2026-06-12; the pdftotext-from-WARC v2 rider is now load-bearing for a live oracle artifact, not just nice-to-have"
+  },
+  "NUV4-MSK6": {
+    "source_url": "https://sos.sc.gov/sites/sos/files/Documents/Charities/Application_for_Registration_Exemption.pdf",
+    "skip": "pdf payload \u2014 v1 text/html-only"
+  },
+  "79MK-V4VH": {
+    "source_url": "https://sos.sc.gov/sites/sos/files/Documents/Charities/Charities%20-%20Deadlines%20PDF2021.pdf",
+    "skip": "pdf payload \u2014 v1 text/html-only"
+  },
+  "E9VF-REJQ": {
+    "source_url": "https://sos.sc.gov/sites/sos/files/Documents/Charities/Registration%20Statement%20for%20a%20Charitable%20Organization.pdf",
+    "skip": "pdf payload \u2014 v1 text/html-only"
+  },
+  "88A3-AAF3": {
+    "source_url": "https://www.scstatehouse.gov/code/t33c056.php",
+    "strings": [
+      "four and one-half months",
+      "in all cases before solicitation"
+    ],
+    "basis": "strings verified present in local artifact SC/www.scstatehouse.gov-code-t33c056.php.html (authored at capture per convention, 2026-06-12)"
   }
 }
