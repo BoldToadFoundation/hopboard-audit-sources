@@ -1,0 +1,128 @@
+{
+  "D3XT-JZYV": {
+    "source_url": "https://www.law.alaska.gov/consumer/charityFAQ.html",
+    "skip": "KNOWN-INCOMPLETE, MEASURED 2026-06-12: Perma's crawler ALSO archived the F5 'Request Rejected' WAF body (x6 in the 78KB WARC, title 'Request Rejected') \u2014 the law.alaska.gov URL-selective wall blocks Perma's egress too; refutes the 06-11 'likely clean (different egress)' prediction. FAQ content covered by the charityreg primary (inline, byte-verified) + the 2026-06-12 principal-browser-print PDF; nothing rests on this GUID. Was a MEASUREMENT entry; measurement complete."
+  },
+  "49ZU-2X2A": {
+    "source_url": "https://www.law.alaska.gov/consumer/charityreg.html",
+    "strings": [
+      "September 1",
+      "Notice of Exemption"
+    ],
+    "basis": "MEASUREMENT entry: render shows FAQ collapsed (known-incomplete); grep answers the byte-layer question"
+  },
+  "PQW2-5A6W": {
+    "source_url": "https://www.law.alaska.gov/pdf/consumer/RegIntructions-Online.pdf",
+    "skip": "pdf payload \u2014 WARC grep v1 is text/html-only (disclosed cut)"
+  },
+  "WX7D-KCH2": {
+    "source_url": "https://oag.ca.gov/charities/renewals",
+    "strings": [
+      "Fiscal Year End",
+      "RRF-1"
+    ],
+    "basis": "strings verified present in local artifact CA/oag.ca.gov-charities-renewals.html"
+  },
+  "2K2T-XM6S": {
+    "source_url": "https://oag.ca.gov/system/files/media/rrf1_form.pdf",
+    "skip": "pdf payload \u2014 v1 text/html-only"
+  },
+  "J86A-9RR6": {
+    "source_url": "https://www.law.cornell.edu/regulations/california/11-CCR-305",
+    "strings": [
+      "Registration Renewal Fee Report"
+    ],
+    "basis": "strings verified present in local artifact CA/www.law.cornell.edu-regulations-california-11-CCR-305.html"
+  },
+  "DV7A-4YVH": {
+    "source_url": "https://portal.ct.gov/dcp/charities/general-information-on-the-connecticut-solicitation-of-charitable-funds-act",
+    "strings": [
+      "need be claimed only once"
+    ],
+    "basis": "strings verified present in local artifact CT/portal.ct.gov-dcp-charities-general-information-on-the-connecticut-solicitation-.html"
+  },
+  "7ABS-UE5D": {
+    "source_url": "https://www.cga.ct.gov/current/pub/chap_419d.htm",
+    "strings": [
+      "21a-190"
+    ],
+    "basis": "strings verified present in local artifact CT/www.cga.ct.gov-current-pub-chap_419d.htm.html"
+  },
+  "4UWB-YTPW": {
+    "source_url": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleII/Chapter12/Section8F",
+    "strings": [
+      "Section 8F"
+    ],
+    "basis": "strings verified present in local artifact MA/malegislature.gov-Laws-GeneralLaws-PartI-TitleII-Chapter12-Section8F.html"
+  },
+  "5Y6J-ARR7": {
+    "source_url": "https://www.mass.gov/doc/form-pc-2023-update/download",
+    "skip": "KNOWN-INCOMPLETE 2026-06-12: JS-triggered download glitches Perma entirely (capture ledger \u00a7Perma-incompatible); local 05-31 artifact authoritative + byte-confirmed via independent channel"
+  },
+  "LJ9A-Y9EE": {
+    "source_url": "https://www.mass.gov/info-details/frequently-asked-questions-about-charitable-organizations",
+    "strings": [
+      "four and one-half months"
+    ],
+    "basis": "strings verified present in local artifact MA/www.mass.gov-info-details-frequently-asked-questions-about-charitable-organizati.html"
+  },
+  "D9QQ-CNUQ": {
+    "source_url": "https://www.mass.gov/info-details/online-charity-filing-portal",
+    "strings": [
+      "Form PC"
+    ],
+    "basis": "strings verified present in local artifact MA/www.mass.gov-info-details-online-charity-filing-portal.html"
+  },
+  "2X8C-QJTA": {
+    "source_url": "https://legislature.maine.gov/statutes/9/title9ch385.pdf",
+    "skip": "pdf payload \u2014 v1 text/html-only"
+  },
+  "C3NE-DY2U": {
+    "source_url": "https://www.maine.gov/pfr/professionallicensing/professions/charitable-solicitations-act/licensing/charitable-organizations",
+    "strings": [
+      "Charitable Organization"
+    ],
+    "basis": "strings verified present in local artifact ME/www.maine.gov-pfr-professionallicensing-professions-charitable-solicitations-act.html"
+  },
+  "G75N-FNAT": {
+    "source_url": "https://www.maine.gov/pfr/professionallicensing/sites/maine.gov.pfr.professionallicensing/files/inline-files/CHA-org-afar.pdf",
+    "skip": "pdf payload \u2014 v1 text/html-only"
+  },
+  "ZS3B-QTZR": {
+    "source_url": "https://www.mainelegislature.org/legis/statutes/9/title9sec5004.html",
+    "strings": [
+      "prior to the expiration date"
+    ],
+    "basis": "strings verified present in local artifact ME/www.mainelegislature.org-legis-statutes-9-title9sec5004.html.html"
+  },
+  "DBC6-UGP8": {
+    "source_url": "https://www.mainelegislature.org/legis/statutes/9/title9sec5005-B.html",
+    "strings": [
+      "5005-B"
+    ],
+    "basis": "strings verified present in local artifact ME/www.mainelegislature.org-legis-statutes-9-title9sec5005-B.html.html"
+  },
+  "WYB9-BSKU": {
+    "source_url": "https://www.mainelegislature.org/legis/statutes/9/title9sec5015-A.html",
+    "strings": [
+      "may establish by rule"
+    ],
+    "basis": "strings verified present in local artifact ME/www.mainelegislature.org-legis-statutes-9-title9sec5015-A.html.html"
+  },
+  "N6KA-GLX2": {
+    "source_url": "https://ag.ny.gov/sites/default/files/regulatory-documents/char500-user-guide.pdf",
+    "skip": "pdf payload \u2014 v1 text/html-only"
+  },
+  "X2LT-4CV4": {
+    "source_url": "https://charitable.ohioago.gov/Charity-Registration/Publications/List-of-Annual-Report-Questions",
+    "skip": "pdf payload \u2014 v1 text/html-only"
+  },
+  "A7QN-79YW": {
+    "source_url": "https://www.ohioattorneygeneral.gov/Files/Publications-Files/Publications-for-Business/Online-Charitable-Registration-Information-Sheet",
+    "skip": "pdf payload \u2014 v1 text/html-only"
+  },
+  "D73W-PAKM": {
+    "source_url": "https://www.doj.state.or.us/wp-content/uploads/2026/01/2025_web_ct-12f.pdf",
+    "skip": "pdf payload \u2014 v1 text/html-only"
+  }
+}

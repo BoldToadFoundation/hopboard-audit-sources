@@ -97,7 +97,7 @@ row the moment any capture 403s; note when Perma's independent crawler succeeds 
 | sos.ga.gov | long-standing (≤2026-05-25, GA audit "seven-source wall") | all UAs, pre-dates this ledger | untested |
 | mm.nh.gov | between 2026-05-29 (successful bare-UA capture) and 2026-06-10 | both UAs, IP/policy-level | untested |
 | mass.gov | between 2026-05-31 (successful capture) and 2026-06-10 | both UAs, incl. previously-served URLs | untested |
-| law.alaska.gov (PARTIAL — URL-selective) | 2026-06-11 (AK crank) | `charityFAQ.html` returns a **200-masked F5 "Request Rejected" body** to the capture client while `charityreg.html` + a PDF on the same host serve clean — URL-pattern WAF rule, not IP-level. NEW failure mode for the log: a 200 rejection page archives SILENTLY (no fetch_failed); rider-1 byte-grep is what caught it | likely (D3XT-JZYV, different egress) — UNVERIFIED. ⚠ 2026-06-12: same host's `49ZU-2X2A` "succeeded" but renders the FAQ COLLAPSED — Perma-success ≠ complete (see §Perma-incompatible content classes) |
+| law.alaska.gov (PARTIAL — URL-selective) | 2026-06-11 (AK crank) | `charityFAQ.html` returns a **200-masked F5 "Request Rejected" body** to the capture client while `charityreg.html` + a PDF on the same host serve clean — URL-pattern WAF rule, not IP-level. NEW failure mode for the log: a 200 rejection page archives SILENTLY (no fetch_failed); rider-1 byte-grep is what caught it | **MEASURED 2026-06-12: NO for `charityFAQ.html`** — D3XT-JZYV's WARC carries the F5 "Request Rejected" body (×6; the URL-selective wall blocks Perma's egress too; "likely clean, different egress" REFUTED). ⚠ same host's `49ZU-2X2A` "succeeded" and is byte-COMPLETE (2/2 load-bearing strings in WARC, rider-measured 2026-06-12) but renders the FAQ COLLAPSED — Perma-success ≠ render-complete (see §Perma-incompatible content classes) |
 | (not walls, recorded for completeness) akleg.gov = JS-only publisher (httpx 200 shell, no statute text server-side); law.justia.com + touchngo.com mirrors block this machine | 2026-06-11 | — | akleg Perma 4VWP-52Z5 render UNVERIFIED |
 
 **⚠ RATE-TRIGGER QUESTION — WITHDRAWN 2026-06-11 PM (live re-probe re-sorted the
@@ -149,8 +149,9 @@ is missing. This is the 200-masked WAF body's cousin one layer up: HTTP succeede
 
 | Perma | Source | Failure mode | Remediation |
 |---|---|---|---|
-| `49ZU-2X2A` | law.alaska.gov charityreg (AK primary) | interaction-gated: FAQ collapsed in render; byte-layer unverified | principal-browser-print PDF (FAQ expanded) ingested 2026-06-12 `510246b`; local raw HTML carries FAQ inline (byte-verified) |
+| `49ZU-2X2A` | law.alaska.gov charityreg (AK primary) | interaction-gated: FAQ collapsed in render; **byte-layer MEASURED COMPLETE 2026-06-12** (rider grep: 2/2 load-bearing strings in WARC) — render-incomplete only | principal-browser-print PDF (FAQ expanded) ingested 2026-06-12 `510246b`; local raw HTML carries FAQ inline (byte-verified) |
 | `5Y6J-ARR7` | mass.gov Form PC download (MA) | JS-triggered download: Perma capture glitched entirely | local 05-31 capture-script artifact intact + byte-confirmed 2026-06-12 via Tony's independent browser download (sha-identical) |
+| `D3XT-JZYV` | law.alaska.gov charityFAQ (AK secondary) | **WAF-shell archived BY PERMA** (measured 2026-06-12: F5 "Request Rejected" ×6 in the WARC) — the 200-masked class, Perma-side instance; the real charityFAQ.html page has never been captured by ANY channel | FAQ content covered by the charityreg primary (inline) + the FAQ-expanded browser-print PDF; charityFAQ retry remains discharged; nothing rests on this GUID |
 
 **Standing consequences:** (a) fresh captures of interaction-gated / JS-download content
 route to the browser-capture path (like GA), not Perma; (b) the Perma-verify rider carries
