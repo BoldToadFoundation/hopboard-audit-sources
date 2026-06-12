@@ -11,6 +11,20 @@
     "signed": true
   },
   {
+    "source_url": "https://perma.cc/B2Q4-5YM2",
+    "primary": false,
+    "local_path": "MA/perma.cc-B2Q4-5YM2.warc.gz",
+    "content_type": "application/octet-stream",
+    "content_sha256": "fdd518d6f849579916268eeb706903db48b7b3b96ca33f33b0c2016c35b93ad0",
+    "perma_url": null,
+    "wayback_url": null,
+    "captured_at": "2026-06-12T19:52:40.956469+00:00",
+    "signed": true,
+    "tls_chain_unverified": false,
+    "ingested_from_file": true,
+    "provenance": "perma_render_warc B2Q4-5YM2: authenticated api.perma.cc download (2026-06-12) of our own 2026-05-30 archive of the mass.gov charities FAQ (the MA safe-additive recheck operational source); WARC byte-grepped at download ('four and one-half months': 2 hits, 'Form PC': 14 hits); converts MA's Perma-only verification row to local-backed per the 2026-06-11 local-artifact-required standard (the AK-statute localization channel)"
+  },
+  {
     "source_url": "https://www.mass.gov/doc/form-pc-2023-update/download",
     "primary": false,
     "local_path": "MA/www.mass.gov-doc-form-pc-2023-update-download.pdf",

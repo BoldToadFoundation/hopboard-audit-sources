@@ -1,0 +1,16 @@
+[
+  {
+    "source_url": "https://web.archive.org/web/20260523173834/https://code.dccouncil.gov/us/dc/council/code/sections/44-1704",
+    "primary": false,
+    "local_path": "DC/web.archive.org-web-20260523173834-https-code.dccouncil.gov-us-dc-council-code-s.html",
+    "content_type": "text/html",
+    "content_sha256": "40d3d0dcadadb3b0fad2134b73d10e106bed38d52702cf45e0677f7dc6bc9a2b",
+    "perma_url": null,
+    "wayback_url": null,
+    "captured_at": "2026-06-12T19:52:26.765934+00:00",
+    "signed": true,
+    "tls_chain_unverified": false,
+    "ingested_from_file": true,
+    "provenance": "wayback_snapshot re-homing 2026-06-12: id_ raw-variant fetch of the verification row's archive_snapshot_url; origin gzip payload decompressed at ingest (id_ raw preserves Content-Encoding as crawled; gunzip applied, sweep gzip-flag added same day); load-bearing content byte-grepped at fetch ('44-1704': 6 hits); shell-signature sweep (extended 2026-06-12) clean; converts the Wayback-only row to local-backed per the 2026-06-11 local-artifact-required standard"
+  }
+]

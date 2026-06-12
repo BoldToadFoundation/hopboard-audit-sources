@@ -12,6 +12,20 @@
     "tls_chain_unverified": false
   },
   {
+    "source_url": "https://web.archive.org/web/20260523155938/https://codes.ohio.gov/ohio-revised-code/section-1716.02",
+    "primary": false,
+    "local_path": "OH/web.archive.org-web-20260523155938-https-codes.ohio.gov-ohio-revised-code-sectio.html",
+    "content_type": "text/html",
+    "content_sha256": "a575699d396fb437c64320caff19a2ec3e441799e7493b1050b368812af9dc6c",
+    "perma_url": null,
+    "wayback_url": null,
+    "captured_at": "2026-06-12T19:52:26.608544+00:00",
+    "signed": true,
+    "tls_chain_unverified": false,
+    "ingested_from_file": true,
+    "provenance": "wayback_snapshot re-homing 2026-06-12: id_ raw-variant fetch of the verification row's archive_snapshot_url; origin gzip payload decompressed at ingest (id_ raw preserves Content-Encoding as crawled; gunzip applied, sweep gzip-flag added same day); load-bearing content byte-grepped at fetch ('1716\\.02': 5 hits); shell-signature sweep (extended 2026-06-12) clean; converts the Wayback-only row to local-backed per the 2026-06-11 local-artifact-required standard"
+  },
+  {
     "source_url": "https://www.ohioattorneygeneral.gov/Files/Publications-Files/Publications-for-Business/Online-Charitable-Registration-Information-Sheet",
     "primary": false,
     "local_path": "OH/www.ohioattorneygeneral.gov-Files-Publications-Files-Publications-for-Business-O.pdf",

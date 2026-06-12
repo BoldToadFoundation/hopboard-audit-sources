@@ -1,0 +1,16 @@
+[
+  {
+    "source_url": "https://web.archive.org/web/20260519002526/https://inbiz.in.gov/business-filings/business-entityreport",
+    "primary": false,
+    "local_path": "IN/web.archive.org-web-20260519002526-https-inbiz.in.gov-business-filings-business-.html",
+    "content_type": "text/html",
+    "content_sha256": "e9deeb488f8ccf27193a85f68070e851251bd461f08a3255f8796f511d166619",
+    "perma_url": null,
+    "wayback_url": null,
+    "captured_at": "2026-06-12T19:52:26.379327+00:00",
+    "signed": true,
+    "tls_chain_unverified": false,
+    "ingested_from_file": true,
+    "provenance": "wayback_snapshot re-homing 2026-06-12: id_ raw-variant fetch of the verification row's archive_snapshot_url; load-bearing content byte-grepped at fetch ('business entity report': 17 hits); shell-signature sweep (extended 2026-06-12) clean; converts the Wayback-only row to local-backed per the 2026-06-11 local-artifact-required standard"
+  }
+]

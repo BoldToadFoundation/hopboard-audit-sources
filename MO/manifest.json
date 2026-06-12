@@ -1,0 +1,16 @@
+[
+  {
+    "source_url": "https://web.archive.org/web/20260521135408/https://revisor.mo.gov/main/OneSection.aspx?section=355.857",
+    "primary": false,
+    "local_path": "MO/web.archive.org-web-20260521135408-https-revisor.mo.gov-main-OneSection.aspx-sec.html",
+    "content_type": "text/html",
+    "content_sha256": "161dc9fbd3ff144bc18747021cf997410ef063cf432fe7d5fb844c2a622cfdfa",
+    "perma_url": null,
+    "wayback_url": null,
+    "captured_at": "2026-06-12T19:52:26.455291+00:00",
+    "signed": true,
+    "tls_chain_unverified": false,
+    "ingested_from_file": true,
+    "provenance": "wayback_snapshot re-homing 2026-06-12: id_ raw-variant fetch of the verification row's archive_snapshot_url; load-bearing content byte-grepped at fetch ('355\\.857': 12 hits); shell-signature sweep (extended 2026-06-12) clean; converts the Wayback-only row to local-backed per the 2026-06-11 local-artifact-required standard"
+  }
+]

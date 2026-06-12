@@ -10,5 +10,19 @@
     "captured_at": "2026-06-10T22:58:59.151313+00:00",
     "signed": true,
     "tls_chain_unverified": false
+  },
+  {
+    "source_url": "https://web.archive.org/web/20260523141254/https://ag.ny.gov/sites/default/files/2022-10/Regs-F.pdf",
+    "primary": false,
+    "local_path": "NY/web.archive.org-web-20260523141254-https-ag.ny.gov-sites-default-files-2022-10-R.pdf",
+    "content_type": "application/pdf",
+    "content_sha256": "2a0db5e4140cf22a5ea5a2ed556175741f48397093e68a8ff8a067f569a1bc72",
+    "perma_url": null,
+    "wayback_url": null,
+    "captured_at": "2026-06-12T19:52:40.877909+00:00",
+    "signed": true,
+    "tls_chain_unverified": false,
+    "ingested_from_file": true,
+    "provenance": "wayback_snapshot re-homing 2026-06-12: id_ raw-variant fetch of the verification row's archive_snapshot_url; PDF sanity + pdftotext byte-grep at fetch ('annual filing': 34 hits, 13A regs); converts the Wayback-only row to local-backed per the 2026-06-11 local-artifact-required standard"
   }
 ]

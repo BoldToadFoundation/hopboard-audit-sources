@@ -1,0 +1,16 @@
+[
+  {
+    "source_url": "https://web.archive.org/web/20260517221825/https://azcc.gov/faqs/BusinessServicesFAQs",
+    "primary": false,
+    "local_path": "AZ/web.archive.org-web-20260517221825-https-azcc.gov-faqs-BusinessServicesFAQs.html",
+    "content_type": "text/html",
+    "content_sha256": "3e1b0a820a68de288be6bac3e1367346b7ef0528a82d6733b5e6addad8d77651",
+    "perma_url": null,
+    "wayback_url": null,
+    "captured_at": "2026-06-12T19:52:26.144144+00:00",
+    "signed": true,
+    "tls_chain_unverified": false,
+    "ingested_from_file": true,
+    "provenance": "wayback_snapshot re-homing 2026-06-12: id_ raw-variant fetch of the verification row's archive_snapshot_url; load-bearing content byte-grepped at fetch ('annual report': 23 hits); shell-signature sweep (extended 2026-06-12) clean; converts the Wayback-only row to local-backed per the 2026-06-11 local-artifact-required standard"
+  }
+]

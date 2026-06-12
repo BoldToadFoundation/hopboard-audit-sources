@@ -1,0 +1,16 @@
+[
+  {
+    "source_url": "https://web.archive.org/web/20250920120900/https://codes.findlaw.com/ga/title-43-professions-and-businesses/ga-code-sect-43-17-5.html",
+    "primary": false,
+    "local_path": "GA/web.archive.org-web-20250920120900-https-codes.findlaw.com-ga-title-43-professio.html",
+    "content_type": "text/html",
+    "content_sha256": "c55e0d1e6b81e6672a9d44ff97cde16d923d461d7aff68352d233f779d91043e",
+    "perma_url": null,
+    "wayback_url": null,
+    "captured_at": "2026-06-12T19:52:26.302905+00:00",
+    "signed": true,
+    "tls_chain_unverified": false,
+    "ingested_from_file": true,
+    "provenance": "wayback_snapshot re-homing 2026-06-12: id_ raw-variant fetch of the verification row's archive_snapshot_url; load-bearing content byte-grepped at fetch ('43-17-5': 21 hits); shell-signature sweep (extended 2026-06-12) clean; converts the Wayback-only row to local-backed per the 2026-06-11 local-artifact-required standard"
+  }
+]
