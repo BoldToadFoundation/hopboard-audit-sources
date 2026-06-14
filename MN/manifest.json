@@ -1,0 +1,74 @@
+[
+  {
+    "source_url": "https://www.ag.state.mn.us/brochures/pubGuidetoCharitieslaws.pdf",
+    "primary": false,
+    "local_path": "MN/www.ag.state.mn.us-brochures-pubGuidetoCharitieslaws.pdf.pdf",
+    "content_type": "application/pdf",
+    "content_sha256": "7ed508e7359ea6db6f36330443f5168b6a005f1eba647b2b4182d260b0a61dc9",
+    "perma_url": "https://perma.cc/9RP3-UL2Z",
+    "wayback_url": "https://web.archive.org/web/20260122063234/https://www.ag.state.mn.us/Brochures/pubGuidetoCharitieslaws.pdf",
+    "captured_at": "2026-06-14T22:49:10.392291+00:00",
+    "signed": true,
+    "tls_chain_unverified": false
+  },
+  {
+    "source_url": "https://www.ag.state.mn.us/charity/Forms/C3_ExemptionForm.pdf",
+    "primary": false,
+    "local_path": "MN/www.ag.state.mn.us-charity-Forms-C3_ExemptionForm.pdf.pdf",
+    "content_type": "application/pdf",
+    "content_sha256": "b73a0cd1d66bd4f9cf71502128854dfa3715ab56308625c13389340041651fa4",
+    "perma_url": "https://perma.cc/H6FT-X49Z",
+    "wayback_url": "https://web.archive.org/web/20260217145606/https://www.ag.state.mn.us/Charity/Forms/C3_ExemptionForm.pdf",
+    "captured_at": "2026-06-14T22:49:10.392291+00:00",
+    "signed": true,
+    "tls_chain_unverified": false
+  },
+  {
+    "source_url": "https://www.ag.state.mn.us/charity/InfoCharitableorgandTrusts.asp",
+    "primary": false,
+    "local_path": "MN/www.ag.state.mn.us-charity-InfoCharitableorgandTrusts.asp.html",
+    "content_type": "text/html",
+    "content_sha256": "e91da72fa006837d5831920dabd6e9824f81c52bcdd4f86911b33d64f37c2ef8",
+    "perma_url": "https://perma.cc/KHP6-GX9X",
+    "wayback_url": "https://web.archive.org/web/20260614225030/https://www.ag.state.mn.us/charity/InfoCharitableorgandTrusts.asp",
+    "captured_at": "2026-06-14T22:49:10.392291+00:00",
+    "signed": true,
+    "tls_chain_unverified": false
+  },
+  {
+    "source_url": "https://www.revisor.mn.gov/statutes/cite/309.515",
+    "primary": false,
+    "local_path": "MN/www.revisor.mn.gov-statutes-cite-309.515.html",
+    "content_type": "text/html; charset=utf-8",
+    "content_sha256": "7d8af25e75e6875a0f4508eb04b512708eca9cb1fd23832817b720c986a6eddc",
+    "perma_url": "https://perma.cc/73XP-A469",
+    "wayback_url": "https://web.archive.org/web/20260614224938/https://www.revisor.mn.gov/statutes/cite/309.515",
+    "captured_at": "2026-06-14T22:49:10.392291+00:00",
+    "signed": true,
+    "tls_chain_unverified": false
+  },
+  {
+    "source_url": "https://www.revisor.mn.gov/statutes/cite/309.52",
+    "primary": false,
+    "local_path": "MN/www.revisor.mn.gov-statutes-cite-309.52.html",
+    "content_type": "text/html; charset=utf-8",
+    "content_sha256": "2d36c7fc4198b8ca5f5a8f2edd69ab6ea7f54b476e7a7e1199d8a78f451f9cfb",
+    "perma_url": "https://perma.cc/ZCE9-XURZ",
+    "wayback_url": "https://web.archive.org/web/20260614225003/https://www.revisor.mn.gov/statutes/cite/309.52",
+    "captured_at": "2026-06-14T22:49:10.392291+00:00",
+    "signed": true,
+    "tls_chain_unverified": false
+  },
+  {
+    "source_url": "https://www.revisor.mn.gov/statutes/cite/309.53",
+    "primary": true,
+    "local_path": "MN/www.revisor.mn.gov-statutes-cite-309.53.html",
+    "content_type": "text/html; charset=utf-8",
+    "content_sha256": "fe47e92e6ffaf47baec19d58d412bfaa4999728fd1e3300be21164493374f501",
+    "perma_url": "https://perma.cc/Z48D-DY2Z",
+    "wayback_url": "https://web.archive.org/web/20260614224915/https://www.revisor.mn.gov/statutes/cite/309.53",
+    "captured_at": "2026-06-14T22:49:10.392291+00:00",
+    "signed": true,
+    "tls_chain_unverified": false
+  }
+]
