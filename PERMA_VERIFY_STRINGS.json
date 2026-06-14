@@ -160,5 +160,46 @@
       "in all cases before solicitation"
     ],
     "basis": "strings verified present in local artifact SC/www.scstatehouse.gov-code-t33c056.php.html (authored at capture per convention, 2026-06-12)"
+  },
+  "Z48D-DY2Z": {
+    "source_url": "https://www.revisor.mn.gov/statutes/cite/309.53",
+    "strings": [
+      "15th day of the seventh month",
+      "not to exceed four months",
+      "in lieu of other financial statements",
+      "late fee of $50"
+    ],
+    "basis": "strings verified present in local artifact MN/www.revisor.mn.gov-statutes-cite-309.53.html (authored at capture per convention, 2026-06-14)"
+  },
+  "73XP-A469": {
+    "source_url": "https://www.revisor.mn.gov/statutes/cite/309.515",
+    "strings": [
+      "in excess of $25,000",
+      "performed wholly by persons who are unpaid",
+      "within or without this state"
+    ],
+    "basis": "strings verified present in local artifact MN/www.revisor.mn.gov-statutes-cite-309.515.html (authored at capture, 2026-06-14)"
+  },
+  "ZCE9-XURZ": {
+    "source_url": "https://www.revisor.mn.gov/statutes/cite/309.52",
+    "strings": [
+      "prior to any solicitation"
+    ],
+    "basis": "strings verified present in local artifact MN/www.revisor.mn.gov-statutes-cite-309.52.html (authored at capture, 2026-06-14)"
+  },
+  "KHP6-GX9X": {
+    "source_url": "https://www.ag.state.mn.us/charity/InfoCharitableorgandTrusts.asp",
+    "strings": [
+      "submit an exemption form"
+    ],
+    "basis": "strings verified present in local artifact MN/www.ag.state.mn.us-charity-InfoCharitableorgandTrusts.asp.html \u2014 the must_apply=TRUE HTML witness (the AG requires exempt orgs to file an exemption form); authored at capture, 2026-06-14"
+  },
+  "9RP3-UL2Z": {
+    "source_url": "https://www.ag.state.mn.us/brochures/pubGuidetoCharitieslaws.pdf",
+    "skip": "pdf payload \u2014 WARC grep v1 is text/html-only (disclosed cut). Carries the must_apply=TRUE corroboration ('Charities claiming to be exempt from registration must still file a Charitable Organization Exemption Form'); local-byte-verified via pdftotext at capture. The string-backed must_apply witness is the AG HTML page KHP6-GX9X."
+  },
+  "H6FT-X49Z": {
+    "source_url": "https://www.ag.state.mn.us/charity/Forms/C3_ExemptionForm.pdf",
+    "skip": "pdf payload \u2014 v1 text/html-only. The conjunctive-exemption checkbox ('performed wholly by volunteers and the organization does not employ a professional fundraiser'), 'No filing fee is required', two-officer signature, and one-time cadence (no annual/renew language) all local-byte-verified via pdftotext at capture."
   }
 }
