@@ -1,7 +1,7 @@
 {
   "D3XT-JZYV": {
     "source_url": "https://www.law.alaska.gov/consumer/charityFAQ.html",
-    "skip": "KNOWN-INCOMPLETE, MEASURED 2026-06-12: Perma's crawler ALSO archived the F5 'Request Rejected' WAF body (x6 in the 78KB WARC, title 'Request Rejected') \u2014 the law.alaska.gov URL-selective wall blocks Perma's egress too; refutes the 06-11 'likely clean (different egress)' prediction. FAQ content covered by the charityreg primary (inline, byte-verified) + the 2026-06-12 principal-browser-print PDF; nothing rests on this GUID. Was a MEASUREMENT entry; measurement complete."
+    "skip": "KNOWN-INCOMPLETE, MEASURED 2026-06-12: Perma's crawler ALSO archived the F5 'Request Rejected' WAF body (x6 in the 78KB WARC, title 'Request Rejected') — the law.alaska.gov URL-selective wall blocks Perma's egress too; refutes the 06-11 'likely clean (different egress)' prediction. FAQ content covered by the charityreg primary (inline, byte-verified) + the 2026-06-12 principal-browser-print PDF; nothing rests on this GUID. Was a MEASUREMENT entry; measurement complete."
   },
   "49ZU-2X2A": {
     "source_url": "https://www.law.alaska.gov/consumer/charityreg.html",
@@ -13,7 +13,7 @@
   },
   "PQW2-5A6W": {
     "source_url": "https://www.law.alaska.gov/pdf/consumer/RegIntructions-Online.pdf",
-    "skip": "pdf payload \u2014 WARC grep v1 is text/html-only (disclosed cut)"
+    "skip": "pdf payload — WARC grep v1 is text/html-only (disclosed cut)"
   },
   "WX7D-KCH2": {
     "source_url": "https://oag.ca.gov/charities/renewals",
@@ -25,7 +25,7 @@
   },
   "2K2T-XM6S": {
     "source_url": "https://oag.ca.gov/system/files/media/rrf1_form.pdf",
-    "skip": "pdf payload \u2014 v1 text/html-only"
+    "skip": "pdf payload — v1 text/html-only"
   },
   "J86A-9RR6": {
     "source_url": "https://www.law.cornell.edu/regulations/california/11-CCR-305",
@@ -57,7 +57,7 @@
   },
   "5Y6J-ARR7": {
     "source_url": "https://www.mass.gov/doc/form-pc-2023-update/download",
-    "skip": "KNOWN-INCOMPLETE 2026-06-12: JS-triggered download glitches Perma entirely (capture ledger \u00a7Perma-incompatible); local 05-31 artifact authoritative + byte-confirmed via independent channel"
+    "skip": "KNOWN-INCOMPLETE 2026-06-12: JS-triggered download glitches Perma entirely (capture ledger §Perma-incompatible); local 05-31 artifact authoritative + byte-confirmed via independent channel"
   },
   "LJ9A-Y9EE": {
     "source_url": "https://www.mass.gov/info-details/frequently-asked-questions-about-charitable-organizations",
@@ -75,7 +75,7 @@
   },
   "2X8C-QJTA": {
     "source_url": "https://legislature.maine.gov/statutes/9/title9ch385.pdf",
-    "skip": "pdf payload \u2014 v1 text/html-only"
+    "skip": "pdf payload — v1 text/html-only"
   },
   "C3NE-DY2U": {
     "source_url": "https://www.maine.gov/pfr/professionallicensing/professions/charitable-solicitations-act/licensing/charitable-organizations",
@@ -86,7 +86,7 @@
   },
   "G75N-FNAT": {
     "source_url": "https://www.maine.gov/pfr/professionallicensing/sites/maine.gov.pfr.professionallicensing/files/inline-files/CHA-org-afar.pdf",
-    "skip": "pdf payload \u2014 v1 text/html-only"
+    "skip": "pdf payload — v1 text/html-only"
   },
   "ZS3B-QTZR": {
     "source_url": "https://www.mainelegislature.org/legis/statutes/9/title9sec5004.html",
@@ -111,19 +111,19 @@
   },
   "N6KA-GLX2": {
     "source_url": "https://ag.ny.gov/sites/default/files/regulatory-documents/char500-user-guide.pdf",
-    "skip": "pdf payload \u2014 v1 text/html-only"
+    "skip": "pdf payload — v1 text/html-only"
   },
   "X2LT-4CV4": {
     "source_url": "https://charitable.ohioago.gov/Charity-Registration/Publications/List-of-Annual-Report-Questions",
-    "skip": "pdf payload \u2014 v1 text/html-only"
+    "skip": "pdf payload — v1 text/html-only"
   },
   "A7QN-79YW": {
     "source_url": "https://www.ohioattorneygeneral.gov/Files/Publications-Files/Publications-for-Business/Online-Charitable-Registration-Information-Sheet",
-    "skip": "pdf payload \u2014 v1 text/html-only"
+    "skip": "pdf payload — v1 text/html-only"
   },
   "D73W-PAKM": {
     "source_url": "https://www.doj.state.or.us/wp-content/uploads/2026/01/2025_web_ct-12f.pdf",
-    "skip": "pdf payload \u2014 v1 text/html-only"
+    "skip": "pdf payload — v1 text/html-only"
   },
   "3KN9-EV3S": {
     "source_url": "https://sos.sc.gov/online-filings/charities-pfrs-and-raffles/charities",
@@ -135,23 +135,23 @@
   },
   "6DTE-FC6S": {
     "source_url": "https://sos.sc.gov/sites/sos/files/Documents/Charities/Annual%20Financial%20Report%20for%20a%20Charitable%20Organization.pdf",
-    "skip": "pdf payload \u2014 v1 text/html-only"
+    "skip": "pdf payload — v1 text/html-only"
   },
   "3DL3-TLG9": {
     "source_url": "https://sos.sc.gov/sites/sos/files/Documents/Charities/Annual%20Raffle%20Financial%20Report2024.pdf",
-    "skip": "pdf payload \u2014 v1 text/html-only. NB: this is SC's F1 DAY-OF-MONTH ORACLE (worked example 'due on November 15th') \u2014 byte-verified in the LOCAL artifact at capture 2026-06-12; the pdftotext-from-WARC v2 rider is now load-bearing for a live oracle artifact, not just nice-to-have"
+    "skip": "pdf payload — v1 text/html-only. NB: this is SC's F1 DAY-OF-MONTH ORACLE (worked example 'due on November 15th') — byte-verified in the LOCAL artifact at capture 2026-06-12; the pdftotext-from-WARC v2 rider is now load-bearing for a live oracle artifact, not just nice-to-have"
   },
   "NUV4-MSK6": {
     "source_url": "https://sos.sc.gov/sites/sos/files/Documents/Charities/Application_for_Registration_Exemption.pdf",
-    "skip": "pdf payload \u2014 v1 text/html-only"
+    "skip": "pdf payload — v1 text/html-only"
   },
   "79MK-V4VH": {
     "source_url": "https://sos.sc.gov/sites/sos/files/Documents/Charities/Charities%20-%20Deadlines%20PDF2021.pdf",
-    "skip": "pdf payload \u2014 v1 text/html-only"
+    "skip": "pdf payload — v1 text/html-only"
   },
   "E9VF-REJQ": {
     "source_url": "https://sos.sc.gov/sites/sos/files/Documents/Charities/Registration%20Statement%20for%20a%20Charitable%20Organization.pdf",
-    "skip": "pdf payload \u2014 v1 text/html-only"
+    "skip": "pdf payload — v1 text/html-only"
   },
   "88A3-AAF3": {
     "source_url": "https://www.scstatehouse.gov/code/t33c056.php",
@@ -192,14 +192,43 @@
     "strings": [
       "submit an exemption form"
     ],
-    "basis": "strings verified present in local artifact MN/www.ag.state.mn.us-charity-InfoCharitableorgandTrusts.asp.html \u2014 the must_apply=TRUE HTML witness (the AG requires exempt orgs to file an exemption form); authored at capture, 2026-06-14"
+    "basis": "strings verified present in local artifact MN/www.ag.state.mn.us-charity-InfoCharitableorgandTrusts.asp.html — the must_apply=TRUE HTML witness (the AG requires exempt orgs to file an exemption form); authored at capture, 2026-06-14"
   },
   "9RP3-UL2Z": {
     "source_url": "https://www.ag.state.mn.us/brochures/pubGuidetoCharitieslaws.pdf",
-    "skip": "pdf payload \u2014 WARC grep v1 is text/html-only (disclosed cut). Carries the must_apply=TRUE corroboration ('Charities claiming to be exempt from registration must still file a Charitable Organization Exemption Form'); local-byte-verified via pdftotext at capture. The string-backed must_apply witness is the AG HTML page KHP6-GX9X."
+    "skip": "pdf payload — WARC grep v1 is text/html-only (disclosed cut). Carries the must_apply=TRUE corroboration ('Charities claiming to be exempt from registration must still file a Charitable Organization Exemption Form'); local-byte-verified via pdftotext at capture. The string-backed must_apply witness is the AG HTML page KHP6-GX9X."
   },
   "H6FT-X49Z": {
     "source_url": "https://www.ag.state.mn.us/charity/Forms/C3_ExemptionForm.pdf",
-    "skip": "pdf payload \u2014 v1 text/html-only. The conjunctive-exemption checkbox ('performed wholly by volunteers and the organization does not employ a professional fundraiser'), 'No filing fee is required', two-officer signature, and one-time cadence (no annual/renew language) all local-byte-verified via pdftotext at capture."
+    "skip": "pdf payload — v1 text/html-only. The conjunctive-exemption checkbox ('performed wholly by volunteers and the organization does not employ a professional fundraiser'), 'No filing fee is required', two-officer signature, and one-time cadence (no annual/renew language) all local-byte-verified via pdftotext at capture."
+  },
+  "Q9EW-VS3G": {
+    "source_url": "https://webserver.rilegislature.gov/Statutes/TITLE5/5-53.1/5-53.1-2.htm",
+    "strings": [
+      "ninety dollars",
+      "one year following the approval",
+      "prescribes a different period"
+    ],
+    "basis": "RI §5-53.1-2 — renewal cycle/anchor (annual, approval-date) + $90 fee + override clause; verbatim in local bytes (RI audit 2026-06-21)"
+  },
+  "2YS2-RJT9": {
+    "source_url": "https://webserver.rilegislature.gov/Statutes/TITLE5/5-53.1/5-53.1-3.htm",
+    "strings": [
+      "twenty-five thousand dollars",
+      "exempt"
+    ],
+    "basis": "RI §5-53.1-3 — small-org $25k exemption + self-executing; verbatim in local bytes"
+  },
+  "32M8-EQJA": {
+    "source_url": "https://webserver.rilegislature.gov/Statutes/TITLE5/5-53.1/5-53.1-4.htm",
+    "strings": [
+      "one million dollars",
+      "1,000,000"
+    ],
+    "basis": "RI §5-53.1-4 — audit threshold $1M (post-SB783, eff. 2025-07-01); verbatim in local bytes"
+  },
+  "5ZYT-YY85": {
+    "source_url": "https://rules.sos.ri.gov/organizations/subchapter/230-50-05",
+    "skip": "rules.sos.ri.gov is a JS-SPA; captured page = Securities subchapter 230-50-05, visible text a shell (part-list in embedded JSON, removed by strip_tags). Override-by-rule ABSENCE (no Charities subchapter under ch.230-RICR-50; only Securities+Franchises) is established by the LIVE portal navigation structure + domain-restricted search, recorded in scripts/phase_b_audits/RI.sql FINDING 2 + docs/RI_PRE_AUDIT_MEMO.md §10 — NOT by this frozen page. Supporting context only; not load-bearing for any verified spec value (supports the override-by-rule residual closure). RI audit 2026-06-21."
   }
 }
