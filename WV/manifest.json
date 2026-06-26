@@ -1,0 +1,26 @@
+[
+  {
+    "source_url": "https://code.wvlegislature.gov/29-19-5/",
+    "primary": true,
+    "local_path": "WV/code.wvlegislature.gov-29-19-5.html",
+    "content_type": "text/html; charset=UTF-8",
+    "content_sha256": "4921b47abe9e78f70c52f0f03758b9cb727d0cdf0c7255eecd48b6db50e8f27e",
+    "perma_url": "https://perma.cc/G44L-753L",
+    "wayback_url": null,
+    "captured_at": "2026-06-26T00:08:52.838343+00:00",
+    "signed": true,
+    "tls_chain_unverified": false
+  },
+  {
+    "source_url": "https://code.wvlegislature.gov/29-19-6/",
+    "primary": false,
+    "local_path": "WV/code.wvlegislature.gov-29-19-6.html",
+    "content_type": "text/html; charset=UTF-8",
+    "content_sha256": "7e4caf85809434e7ef3cbe9dabf68234e75dffed4d9187a2950cf2a8d22bf3aa",
+    "perma_url": "https://perma.cc/B7PE-3LZK",
+    "wayback_url": null,
+    "captured_at": "2026-06-26T00:08:52.838343+00:00",
+    "signed": true,
+    "tls_chain_unverified": false
+  }
+]
