@@ -230,5 +230,21 @@
   "5ZYT-YY85": {
     "source_url": "https://rules.sos.ri.gov/organizations/subchapter/230-50-05",
     "skip": "rules.sos.ri.gov is a JS-SPA; captured page = Securities subchapter 230-50-05, visible text a shell (part-list in embedded JSON, removed by strip_tags). Override-by-rule ABSENCE (no Charities subchapter under ch.230-RICR-50; only Securities+Franchises) is established by the LIVE portal navigation structure + domain-restricted search, recorded in scripts/phase_b_audits/RI.sql FINDING 2 + docs/RI_PRE_AUDIT_MEMO.md §10 — NOT by this frozen page. Supporting context only; not load-bearing for any verified spec value (supports the override-by-rule residual closure). RI audit 2026-06-21."
+  },
+  "G44L-753L": {
+    "source_url": "https://code.wvlegislature.gov/29-19-5/",
+    "strings": [
+      "good for one full year",
+      "refiled in the next and each following year"
+    ],
+    "basis": "strings verified present in local artifact WV/code.wvlegislature.gov-29-19-5.html (the operative ANNUAL-cycle finding, F1)"
+  },
+  "B7PE-3LZK": {
+    "source_url": "https://code.wvlegislature.gov/29-19-6/",
+    "strings": [
+      "in excess of $50,000 during a calendar year",
+      "days after contributions are in excess of $50,000"
+    ],
+    "basis": "strings verified present in local artifact WV/code.wvlegislature.gov-29-19-6.html ($50k exemption threshold + 30-day tripwire)"
   }
 }
