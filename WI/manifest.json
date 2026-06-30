@@ -1,0 +1,38 @@
+[
+  {
+    "source_url": "https://dfi.wi.gov/Pages/BusinessServices/BusinessEntities/FAQ.aspx",
+    "primary": false,
+    "local_path": "WI/dfi.wi.gov-Pages-BusinessServices-BusinessEntities-FAQ.aspx.html",
+    "content_type": "text/html; charset=utf-8",
+    "content_sha256": "b79697372c7011a7d0d5084e6e67e5048d2f95521fccd9b07026e99df5ff6a6a",
+    "perma_url": "https://perma.cc/Q8RU-NPAB",
+    "wayback_url": "https://web.archive.org/web/20260630234256/https://dfi.wi.gov/Pages/BusinessServices/BusinessEntities/FAQ.aspx",
+    "captured_at": "2026-06-30T23:41:57.157233+00:00",
+    "signed": true,
+    "tls_chain_unverified": false
+  },
+  {
+    "source_url": "https://dfi.wi.gov/Pages/BusinessServices/CharitableProfessionalOrganizations/CharitableOrganizationsFAQ.aspx",
+    "primary": false,
+    "local_path": "WI/dfi.wi.gov-Pages-BusinessServices-CharitableProfessionalOrganizations-Charitable.html",
+    "content_type": "text/html; charset=utf-8",
+    "content_sha256": "87e8254bf6143855df05f9a688d3f21eac369e6258ff8b522e638fa52be4f096",
+    "perma_url": "https://perma.cc/3SAE-K4JD",
+    "wayback_url": "https://web.archive.org/web/20260630234229/https://dfi.wi.gov/Pages/BusinessServices/CharitableProfessionalOrganizations/CharitableOrganizationsFAQ.aspx",
+    "captured_at": "2026-06-30T23:41:57.157233+00:00",
+    "signed": true,
+    "tls_chain_unverified": false
+  },
+  {
+    "source_url": "https://docs.legis.wisconsin.gov/statutes/statutes/202/ii/12",
+    "primary": true,
+    "local_path": "WI/docs.legis.wisconsin.gov-statutes-statutes-202-ii-12.html",
+    "content_type": "text/html; charset=utf-8",
+    "content_sha256": "754a9a0d8ddd06c434e5a13797649dd10271787aa3725b82b1fb6cdca161e004",
+    "perma_url": "https://perma.cc/WXP2-EURJ",
+    "wayback_url": "https://web.archive.org/web/20260630234202/https://docs.legis.wisconsin.gov/statutes/statutes/202/ii/12",
+    "captured_at": "2026-06-30T23:41:57.157233+00:00",
+    "signed": true,
+    "tls_chain_unverified": false
+  }
+]
