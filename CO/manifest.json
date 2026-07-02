@@ -5,9 +5,33 @@
     "local_path": "CO/leg.colorado.gov-sites-default-files-images-olls-crs2023-title-06.pdf.pdf",
     "content_type": "application/pdf",
     "content_sha256": "f6a1d1e14e806a4fe3f269fb9540f737dfd41f4f4c07f81afb11c016061d106a",
-    "perma_url": null,
-    "wayback_url": "https://web.archive.org/web/20260702090452/https://content.leg.colorado.gov/sites/default/files/images/olls/crs2023-title-06.pdf",
-    "captured_at": "2026-07-02T09:04:47.173946+00:00",
+    "perma_url": "https://perma.cc/9DAG-DDUM",
+    "wayback_url": null,
+    "captured_at": "2026-07-02T09:05:39.984474+00:00",
+    "signed": true,
+    "tls_chain_unverified": false
+  },
+  {
+    "source_url": "https://www.coloradosos.gov/pubs/charities/charitableHome.html",
+    "primary": false,
+    "local_path": "CO/www.coloradosos.gov-pubs-charities-charitableHome.html.html",
+    "content_type": "text/html",
+    "content_sha256": "d24422930b866a5adbc372ee3eb813f95edd038ef1e151a636aa2b243da82c40",
+    "perma_url": "https://perma.cc/M8F9-4EFE",
+    "wayback_url": "https://web.archive.org/web/20260702090549/https://www.coloradosos.gov/pubs/charities/charitableHome.html",
+    "captured_at": "2026-07-02T09:05:39.984474+00:00",
+    "signed": true,
+    "tls_chain_unverified": false
+  },
+  {
+    "source_url": "https://www.coloradosos.gov/pubs/charities/filings.html",
+    "primary": false,
+    "local_path": "CO/www.coloradosos.gov-pubs-charities-filings.html.html",
+    "content_type": "text/html",
+    "content_sha256": "a6f66a784077b10370c0aa31ddc44a803d8552df5a04a457c839d58affca29e9",
+    "perma_url": "https://perma.cc/4QUP-GS53",
+    "wayback_url": null,
+    "captured_at": "2026-07-02T09:05:39.984474+00:00",
     "signed": true,
     "tls_chain_unverified": false
   }
