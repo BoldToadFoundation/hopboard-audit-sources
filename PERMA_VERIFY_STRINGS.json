@@ -282,5 +282,21 @@
   "48XY-LAA8": {
     "source_url": "https://nebraskalegislature.gov/FloorDocs/94/PDF/Slip/LB972.pdf",
     "skip": "PDF payload — WARC grep needs text; pdftotext extraction EMPTY on the local artifact (image-scan slip law), measured 2026-07-02. Completeness rests on the manifest sha256 pin (7ecc1012...) of the local artifact + content verified by visual read at capture (LB 972 §4 repeals §§28-1440 to 28-1449, the solicitation-of-funds law) + wayback_url sibling capture."
+  },
+  "4257-DBRE": {
+    "source_url": "https://www.coloradosos.gov/pubs/charities/instructions/charity/renew.html",
+    "strings": [
+      "due at the same time that the Form 990 is due to the IRS",
+      "authorized a later date for filing the Form 990"
+    ],
+    "basis": "strings verified present in local artifact CO/www.coloradosos.gov-pubs-charities-instructions-charity-renew.html.html (SOS plain-language renewal statement — corroborates the due-date-as-extended parse of C.R.S. 6-16-104(5)(a), Tony corroboration order 2026-07-02)"
+  },
+  "RW99-CZZN": {
+    "source_url": "https://www.coloradosos.gov/pubs/charities/instructions/charity/extensions.html",
+    "strings": [
+      "request an extension with the IRS and need a full six months",
+      "request a second extension"
+    ],
+    "basis": "strings verified present in local artifact CO/www.coloradosos.gov-pubs-charities-instructions-charity-extensions.html.html (SOS extension mechanics: auto 3-month + requested second 3-month, IRS-coupled)"
   }
 }
