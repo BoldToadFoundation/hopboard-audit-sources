@@ -246,5 +246,41 @@
       "days after contributions are in excess of $50,000"
     ],
     "basis": "strings verified present in local artifact WV/code.wvlegislature.gov-29-19-6.html ($50k exemption threshold + 30-day tripwire)"
+  },
+  "9AYR-MDUY": {
+    "source_url": "https://nebraskalegislature.gov/laws/statutes.php?statute=28-1440",
+    "strings": [
+      "Repealed. Laws 1996, LB 972, § 4.",
+      "28-1440"
+    ],
+    "basis": "strings verified present in local artifact NE/nebraskalegislature.gov-laws-statutes.php-statute-28-1440.html (the operative repeal marker on the former registration statute — the reg=FALSE finding, primary)"
+  },
+  "3S5J-CM3S": {
+    "source_url": "https://nebraskalegislature.gov/laws/statutes.php?statute=87-302",
+    "strings": [
+      "LB838, § 27.",
+      "charitable purpose, uses or employs any deception"
+    ],
+    "basis": "strings verified present in local artifact NE/nebraskalegislature.gov-laws-statutes.php-statute-87-302.html (amendment-currency source line Laws 2026 LB838 + the UDTPA conduct-only charitable clause §87-302(a)(21))"
+  },
+  "74FR-AR4T": {
+    "source_url": "https://sos.nebraska.gov/licensing/information-charitable-solicitors",
+    "strings": [
+      "no longer required to register with our office",
+      "we do not have a current database"
+    ],
+    "basis": "strings verified present in local artifact NE/sos.nebraska.gov-licensing-information-charitable-solicitors.html (SOS plain-language no-registration statement, §1.4 agency-lane grounding)"
+  },
+  "FW6P-URLQ": {
+    "source_url": "https://protectthegoodlife.nebraska.gov/nonprofit-corporations",
+    "strings": [
+      "does not trigger separate registration with the Nebraska Attorney General",
+      "registered charitable solicitors, but that law was repealed"
+    ],
+    "basis": "strings verified present in local artifact NE/protectthegoodlife.nebraska.gov-nonprofit-corporations.html (AG no-registration statement + the AG's own repeal acknowledgment; both readers independently flagged the AG's 'Supreme Court decision' phrasing — operative event is the LEGISLATIVE repeal, LB 972 §4)"
+  },
+  "48XY-LAA8": {
+    "source_url": "https://nebraskalegislature.gov/FloorDocs/94/PDF/Slip/LB972.pdf",
+    "skip": "PDF payload — WARC grep needs text; pdftotext extraction EMPTY on the local artifact (image-scan slip law), measured 2026-07-02. Completeness rests on the manifest sha256 pin (7ecc1012...) of the local artifact + content verified by visual read at capture (LB 972 §4 repeals §§28-1440 to 28-1449, the solicitation-of-funds law) + wayback_url sibling capture."
   }
 }
