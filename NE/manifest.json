@@ -1,5 +1,65 @@
 [
   {
+    "source_url": "https://nebraskalegislature.gov/FloorDocs/94/PDF/Slip/LB972.pdf",
+    "primary": false,
+    "local_path": "NE/nebraskalegislature.gov-FloorDocs-94-PDF-Slip-LB972.pdf.pdf",
+    "content_type": "application/pdf",
+    "content_sha256": "7ecc1012239d2f09f8212e40bc0771c3f195af1831831f88438c507d816de62b",
+    "perma_url": "https://perma.cc/48XY-LAA8",
+    "wayback_url": "https://web.archive.org/web/20250519091435/https://www.nebraskalegislature.gov/FloorDocs/94/PDF/Slip/LB972.pdf",
+    "captured_at": "2026-07-02T09:18:52.997687+00:00",
+    "signed": true,
+    "tls_chain_unverified": false
+  },
+  {
+    "source_url": "https://nebraskalegislature.gov/laws/statutes.php?statute=28-1440",
+    "primary": true,
+    "local_path": "NE/nebraskalegislature.gov-laws-statutes.php-statute-28-1440.html",
+    "content_type": "text/html; charset=UTF-8",
+    "content_sha256": "17a3c051a2f7493b657151c7cb5c1c85da169f7d9a1a23c70a80bfb8babddb66",
+    "perma_url": "https://perma.cc/9AYR-MDUY",
+    "wayback_url": "https://web.archive.org/web/20240904205055/https://www.nebraskalegislature.gov/laws/statutes.php?statute=28-1440",
+    "captured_at": "2026-07-02T09:18:52.997687+00:00",
+    "signed": true,
+    "tls_chain_unverified": false
+  },
+  {
+    "source_url": "https://nebraskalegislature.gov/laws/statutes.php?statute=87-302",
+    "primary": false,
+    "local_path": "NE/nebraskalegislature.gov-laws-statutes.php-statute-87-302.html",
+    "content_type": "text/html; charset=UTF-8",
+    "content_sha256": "fb3a779b55811f5cac8b3942d86ef71fa1de25cbaebbd5469f9ab5b3f2c09c9c",
+    "perma_url": "https://perma.cc/3S5J-CM3S",
+    "wayback_url": "https://web.archive.org/web/20260510175913/https://www.nebraskalegislature.gov/laws/statutes.php?statute=87-302",
+    "captured_at": "2026-07-02T09:18:52.997687+00:00",
+    "signed": true,
+    "tls_chain_unverified": false
+  },
+  {
+    "source_url": "https://protectthegoodlife.nebraska.gov/nonprofit-corporations",
+    "primary": false,
+    "local_path": "NE/protectthegoodlife.nebraska.gov-nonprofit-corporations.html",
+    "content_type": "text/html; charset=UTF-8",
+    "content_sha256": "59f7b242212955c502a7a858a675811a477818015650bb4f7ef852f2bda6c1a3",
+    "perma_url": "https://perma.cc/FW6P-URLQ",
+    "wayback_url": null,
+    "captured_at": "2026-07-02T09:18:52.997687+00:00",
+    "signed": true,
+    "tls_chain_unverified": false
+  },
+  {
+    "source_url": "https://sos.nebraska.gov/licensing/information-charitable-solicitors",
+    "primary": false,
+    "local_path": "NE/sos.nebraska.gov-licensing-information-charitable-solicitors.html",
+    "content_type": "text/html; charset=UTF-8",
+    "content_sha256": "3ed270867f32e6977f5ecd6ef53e91cf464229ba4bbbd06d817b039669a77176",
+    "perma_url": "https://perma.cc/74FR-AR4T",
+    "wayback_url": "https://web.archive.org/web/20260520071123/https://sos.nebraska.gov/licensing/information-charitable-solicitors",
+    "captured_at": "2026-07-02T09:18:52.997687+00:00",
+    "signed": true,
+    "tls_chain_unverified": false
+  },
+  {
     "source_url": "https://web.archive.org/web/20260326000515/https://nebraskalegislature.gov/laws/statutes.php?statute=21-19,172",
     "primary": false,
     "local_path": "NE/web.archive.org-web-20260326000515-https-nebraskalegislature.gov-laws-statutes.p.html",
