@@ -34,5 +34,29 @@
     "captured_at": "2026-07-02T09:05:39.984474+00:00",
     "signed": true,
     "tls_chain_unverified": false
+  },
+  {
+    "source_url": "https://www.coloradosos.gov/pubs/charities/instructions/charity/extensions.html",
+    "primary": false,
+    "local_path": "CO/www.coloradosos.gov-pubs-charities-instructions-charity-extensions.html.html",
+    "content_type": "text/html",
+    "content_sha256": "90032069d8110f3e325dd84b2128ca722efbb826e491ad3faaed7cec4229a128",
+    "perma_url": "https://perma.cc/RW99-CZZN",
+    "wayback_url": "https://web.archive.org/web/20260702230411/https://www.coloradosos.gov/pubs/charities/instructions/charity/extensions.html",
+    "captured_at": "2026-07-02T23:03:45.159190+00:00",
+    "signed": true,
+    "tls_chain_unverified": false
+  },
+  {
+    "source_url": "https://www.coloradosos.gov/pubs/charities/instructions/charity/renew.html",
+    "primary": true,
+    "local_path": "CO/www.coloradosos.gov-pubs-charities-instructions-charity-renew.html.html",
+    "content_type": "text/html",
+    "content_sha256": "abb7e1705dfc3df3d6b21121b90eb242cf5cdcfe988bbbb460cba78851c6753c",
+    "perma_url": "https://perma.cc/4257-DBRE",
+    "wayback_url": "https://web.archive.org/web/20260702230351/https://www.coloradosos.gov/pubs/charities/instructions/charity/renew.html",
+    "captured_at": "2026-07-02T23:03:45.159190+00:00",
+    "signed": true,
+    "tls_chain_unverified": false
   }
 ]
