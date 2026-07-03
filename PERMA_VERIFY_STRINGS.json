@@ -298,5 +298,48 @@
       "request a second extension"
     ],
     "basis": "strings verified present in local artifact CO/www.coloradosos.gov-pubs-charities-instructions-charity-extensions.html.html (SOS extension mechanics: auto 3-month + requested second 3-month, IRS-coupled)"
+  },
+  "A33H-85WQ": {
+    "source_url": "https://www.azleg.gov/legtext/51leg/1r/laws/0234.htm",
+    "strings": [
+      "CHAPTER 234",
+      "HOUSE BILL 2457",
+      "repealing sections",
+      "solicitation of funds for charitable purposes"
+    ],
+    "basis": "AZ batch-1 2026-07-03: Word-exported HTML chaptered law (HB2457/Ch.234); enacting clause verified in tag-stripped text (raw bytes span-split; sweep strip_tags reassembles: 'repealing sections 44-6552 ... 44-6560 ... amending section 44-6561')."
+  },
+  "G2FS-7JZB": {
+    "source_url": "https://www.azleg.gov/ars/13/03722.htm",
+    "strings": [
+      "American veterans",
+      "class 3 misdemeanor"
+    ],
+    "basis": "AZ batch-1 2026-07-03: current A.R.S. 13-3722 veterans-solicitation conditional; byte-verified."
+  },
+  "D8YS-CJ6P": {
+    "source_url": "https://www.azleg.gov/ars/44/06551.htm",
+    "strings": [
+      "44-6551",
+      "Definitions",
+      "Charitable organization"
+    ],
+    "basis": "AZ batch-1 2026-07-03: live A.R.S. 44-6551 definitions (surviving anti-fraud bookend); byte-verified."
+  },
+  "4S8L-6UWX": {
+    "source_url": "https://www.azleg.gov/ars/44/06561.htm",
+    "strings": [
+      "Unlawful acts",
+      "44-1522"
+    ],
+    "basis": "AZ batch-1 2026-07-03: live A.R.S. 44-6561 unlawful-acts (AG-enforced under 44-1522; surviving anti-fraud bookend); byte-verified."
+  },
+  "HTU5-GVS3": {
+    "source_url": "https://www.azleg.gov/arstitle/",
+    "strings": [
+      "57th Legislature",
+      "updated to include the revised sections"
+    ],
+    "basis": "AZ batch-1 2026-07-03: ARS compilation currency stamp (57th Leg 1st Reg = 2025); byte-verified."
   }
 }
