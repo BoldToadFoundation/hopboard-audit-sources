@@ -12,5 +12,65 @@
     "tls_chain_unverified": false,
     "ingested_from_file": true,
     "provenance": "wayback_snapshot re-homing 2026-06-12: id_ raw-variant fetch of the verification row's archive_snapshot_url; load-bearing content byte-grepped at fetch ('annual report': 23 hits); shell-signature sweep (extended 2026-06-12) clean; converts the Wayback-only row to local-backed per the 2026-06-11 local-artifact-required standard"
+  },
+  {
+    "source_url": "https://www.azleg.gov/ars/13/03722.htm",
+    "primary": false,
+    "local_path": "AZ/www.azleg.gov-ars-13-03722.htm.html",
+    "content_type": "text/html",
+    "content_sha256": "66f80de564215b36b53343c509a0e16f67a5d9ec982b913ededaf7ddfca5c95b",
+    "perma_url": "https://perma.cc/G2FS-7JZB",
+    "wayback_url": "https://web.archive.org/web/20260703151324/https://www.azleg.gov/ars/13/03722.htm",
+    "captured_at": "2026-07-03T15:07:18.862910+00:00",
+    "signed": false,
+    "tls_chain_unverified": false
+  },
+  {
+    "source_url": "https://www.azleg.gov/ars/44/06551.htm",
+    "primary": false,
+    "local_path": "AZ/www.azleg.gov-ars-44-06551.htm.html",
+    "content_type": "text/html",
+    "content_sha256": "78a1ccd776ba1a89f033e009bd08f099edd4fd089ab1b2d47e157354e0fe8280",
+    "perma_url": "https://perma.cc/D8YS-CJ6P",
+    "wayback_url": null,
+    "captured_at": "2026-07-03T15:07:18.862910+00:00",
+    "signed": false,
+    "tls_chain_unverified": false
+  },
+  {
+    "source_url": "https://www.azleg.gov/ars/44/06561.htm",
+    "primary": false,
+    "local_path": "AZ/www.azleg.gov-ars-44-06561.htm.html",
+    "content_type": "text/html",
+    "content_sha256": "4cd0ba8f3f246ad5dc72e0568f405b88771047f4750180d3cd27bbb281804665",
+    "perma_url": "https://perma.cc/4S8L-6UWX",
+    "wayback_url": "https://web.archive.org/web/20260201005613/https://www.azleg.gov/ars/44/06561.htm",
+    "captured_at": "2026-07-03T15:07:18.862910+00:00",
+    "signed": false,
+    "tls_chain_unverified": false
+  },
+  {
+    "source_url": "https://www.azleg.gov/arstitle/",
+    "primary": false,
+    "local_path": "AZ/www.azleg.gov-arstitle.html",
+    "content_type": "text/html; charset=UTF-8",
+    "content_sha256": "5500bb6c9e4af66eddd5bdddfd44a7e7d5914692ef53e2718a0a80006f936ebf",
+    "perma_url": "https://perma.cc/HTU5-GVS3",
+    "wayback_url": "https://web.archive.org/web/20260703151525/https://www.azleg.gov/arstitle/",
+    "captured_at": "2026-07-03T15:07:18.862910+00:00",
+    "signed": false,
+    "tls_chain_unverified": false
+  },
+  {
+    "source_url": "https://www.azleg.gov/legtext/51leg/1r/laws/0234.htm",
+    "primary": true,
+    "local_path": "AZ/www.azleg.gov-legtext-51leg-1r-laws-0234.htm.html",
+    "content_type": "text/html",
+    "content_sha256": "b4d6ef7e8c89d23c0abed6a05fbbeba78c945a4e2de35bae91b606c3bad23964",
+    "perma_url": "https://perma.cc/A33H-85WQ",
+    "wayback_url": "https://web.archive.org/web/20260703150723/https://www.azleg.gov/legtext/51leg/1r/laws/0234.htm",
+    "captured_at": "2026-07-03T15:07:18.862910+00:00",
+    "signed": false,
+    "tls_chain_unverified": false
   }
 ]
