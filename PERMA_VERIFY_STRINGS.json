@@ -381,5 +381,25 @@
    "current through"
   ],
   "basis": "amendment-currency source; Idaho statutes current through the 2026 session per this official page; authored at capture 2026-07-04"
+ },
+ "N52X-GPLV": {
+  "source_url": "https://mca.legmt.gov/bills/mca/title_0300/chapter_0140/part_0140/section_0050/0300-0140-0140-0050.html",
+  "strings": [
+   "noncommercial purpose",
+   "30-14-1405",
+   "do not apply"
+  ],
+  "basis": "strings verified present in local artifact MT/mca.legmt.gov-...0300-0140.html \u2014 MCA \u00a730-14-1405(2), the EXPRESS charitable exemption from the Telemarketing Registration Act ('do not apply to ... a person engaged in solicitation for a religious, charitable, ... or other noncommercial purpose'); authored at capture 2026-07-04"
+ },
+ "R9UM-YKNP": {
+  "source_url": "https://dojmt.gov/office-of-consumer-protection/telemarketing-businesses/",
+  "strings": [
+   "does not qualify as telemarketing"
+  ],
+  "basis": "string verified present in local artifact MT/dojmt.gov-...telemarketing-businesses.html \u2014 the MT DOJ admission (agency lane): a nonprofit that 'seeks donations without selling anything ... does not qualify as telemarketing'; authored at capture 2026-07-04"
+ },
+ "L4R4-E23K": {
+  "source_url": "https://archive.legmt.gov/content/Committees/Interim/2015-2016/Revenue-and-Transportation/Meetings/Nov-2015/state-nonprofit-reporting.pdf",
+  "skip": "pdf payload (WARC grep is text/html-only). The MT Legislative Services Division study's '11 states that do not require registration ... Delaware, Idaho, ... Montana, ... Texas' admission (names all four batch states) is corroborating closure; verdict rests on the byte-verified \u00a730-14-1405 statute (N52X-GPLV) + DOJ admission (R9UM-YKNP)"
  }
 }

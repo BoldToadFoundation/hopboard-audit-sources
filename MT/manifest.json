@@ -1,0 +1,38 @@
+[
+  {
+    "source_url": "https://archive.legmt.gov/content/Committees/Interim/2015-2016/Revenue-and-Transportation/Meetings/Nov-2015/state-nonprofit-reporting.pdf",
+    "primary": false,
+    "local_path": "MT/archive.legmt.gov-content-Committees-Interim-2015-2016-Revenue-and-Transportatio.pdf",
+    "content_type": "application/pdf",
+    "content_sha256": "262f7a0afd2dff20283e6c7702ca0d86a39231e49c4b92996aad45de014f9547",
+    "perma_url": "https://perma.cc/L4R4-E23K",
+    "wayback_url": "https://web.archive.org/web/20250623035645/https://archive.legmt.gov/content/Committees/Interim/2015-2016/Revenue-and-Transportation/Meetings/Nov-2015/state-nonprofit-reporting.pdf",
+    "captured_at": "2026-07-04T10:05:22.022324+00:00",
+    "signed": true,
+    "tls_chain_unverified": false
+  },
+  {
+    "source_url": "https://dojmt.gov/office-of-consumer-protection/telemarketing-businesses/",
+    "primary": false,
+    "local_path": "MT/dojmt.gov-office-of-consumer-protection-telemarketing-businesses.html",
+    "content_type": "text/html; charset=UTF-8",
+    "content_sha256": "4c87469adccfc968e469619291d14b668c826cb24c05d51e52ed3824724cc2be",
+    "perma_url": "https://perma.cc/R9UM-YKNP",
+    "wayback_url": null,
+    "captured_at": "2026-07-04T10:05:22.022324+00:00",
+    "signed": true,
+    "tls_chain_unverified": false
+  },
+  {
+    "source_url": "https://mca.legmt.gov/bills/mca/title_0300/chapter_0140/part_0140/section_0050/0300-0140-0140-0050.html",
+    "primary": true,
+    "local_path": "MT/mca.legmt.gov-bills-mca-title_0300-chapter_0140-part_0140-section_0050-0300-0140.html",
+    "content_type": "text/html",
+    "content_sha256": "0af99c86a1e9b1e7b63bf23120e935aadcf4b84397a1b51ef30d81e81bffb6bd",
+    "perma_url": "https://perma.cc/N52X-GPLV",
+    "wayback_url": null,
+    "captured_at": "2026-07-04T10:05:22.022324+00:00",
+    "signed": true,
+    "tls_chain_unverified": false
+  }
+]
