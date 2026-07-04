@@ -401,5 +401,41 @@
  "L4R4-E23K": {
   "source_url": "https://archive.legmt.gov/content/Committees/Interim/2015-2016/Revenue-and-Transportation/Meetings/Nov-2015/state-nonprofit-reporting.pdf",
   "skip": "pdf payload (WARC grep is text/html-only). The MT Legislative Services Division study's '11 states that do not require registration ... Delaware, Idaho, ... Montana, ... Texas' admission (names all four batch states) is corroborating closure; verdict rests on the byte-verified \u00a730-14-1405 statute (N52X-GPLV) + DOJ admission (R9UM-YKNP)"
+ },
+ "4A8A-G7SV": {
+  "source_url": "https://tcss.legis.texas.gov/resources/BC/htm/BC.302.htm",
+  "strings": [
+   "This chapter does not apply",
+   "501(c)(3)"
+  ],
+  "basis": "strings verified present in local artifact TX/tcss.legis...BC.302.htm.html \u2014 Tex. Bus. & Com. Code \u00a7302.055 EXPRESS 501(c)(3) exemption from the telemarketing-seller registration chapter (real statute bytes via the TX Legislative Council backend; canonical cite statutes.capitol.texas.gov/Docs/BC/htm/BC.302.htm is an Angular SPA that serves only the app shell to non-browser clients); authored at capture 2026-07-04"
+ },
+ "452P-E2RY": {
+  "source_url": "https://tcss.legis.texas.gov/resources/OC/htm/OC.1803.htm",
+  "strings": [
+   "registration statement"
+  ],
+  "basis": "carve-out act: Occ. Code Ch. 1803 Public Safety Solicitation Act (narrow org-type, \u2192 SoS); authored at capture 2026-07-04"
+ },
+ "HCV6-T85S": {
+  "source_url": "https://tcss.legis.texas.gov/resources/OC/htm/OC.1804.htm",
+  "strings": [
+   "registration statement"
+  ],
+  "basis": "carve-out act: Occ. Code Ch. 1804 Veterans Solicitation Act (narrow org-type, \u2192 SoS); authored at capture 2026-07-04"
+ },
+ "J96L-K786": {
+  "source_url": "https://tcss.legis.texas.gov/resources/BC/htm/BC.303.htm",
+  "strings": [
+   "registration statement"
+  ],
+  "basis": "carve-out act: Bus. & Com. Code Ch. 303 LETSA (law-enforcement charities soliciting by telephone, \u2192 AG); authored at capture 2026-07-04"
+ },
+ "5PCB-WN69": {
+  "source_url": "https://www.texasattorneygeneral.gov/divisions/charitable-trusts/registration-and-filings",
+  "strings": [
+   "not required to register"
+  ],
+  "basis": "string verified present in local artifact TX/www.texasattorneygeneral.gov-...html \u2014 TX AG admission (agency lane): 'most charities or nonprofit organizations are not required to register with the State'; authored at capture 2026-07-04"
  }
 }

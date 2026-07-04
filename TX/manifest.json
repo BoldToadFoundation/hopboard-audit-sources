@@ -1,5 +1,53 @@
 [
   {
+    "source_url": "https://tcss.legis.texas.gov/resources/BC/htm/BC.302.htm",
+    "primary": true,
+    "local_path": "TX/tcss.legis.texas.gov-resources-BC-htm-BC.302.htm.html",
+    "content_type": "text/html",
+    "content_sha256": "f75a6ae42491ee97f68f7f58be8f4984291c990b96cb25a376bb50ef77a054b9",
+    "perma_url": "https://perma.cc/4A8A-G7SV",
+    "wayback_url": "https://web.archive.org/web/20260703175609/https://tcss.legis.texas.gov/resources/BC/htm/BC.302.htm",
+    "captured_at": "2026-07-04T10:11:13.510345+00:00",
+    "signed": true,
+    "tls_chain_unverified": false
+  },
+  {
+    "source_url": "https://tcss.legis.texas.gov/resources/BC/htm/BC.303.htm",
+    "primary": false,
+    "local_path": "TX/tcss.legis.texas.gov-resources-BC-htm-BC.303.htm.html",
+    "content_type": "text/html",
+    "content_sha256": "2e17d46a09c074cffdc5f819f8b66a32430d37f9c650dbc2ef1ab98994d2cad1",
+    "perma_url": "https://perma.cc/J96L-K786",
+    "wayback_url": "https://web.archive.org/web/20260704101222/https://tcss.legis.texas.gov/resources/BC/htm/BC.303.htm",
+    "captured_at": "2026-07-04T10:11:13.510345+00:00",
+    "signed": true,
+    "tls_chain_unverified": false
+  },
+  {
+    "source_url": "https://tcss.legis.texas.gov/resources/OC/htm/OC.1803.htm",
+    "primary": false,
+    "local_path": "TX/tcss.legis.texas.gov-resources-OC-htm-OC.1803.htm.html",
+    "content_type": "text/html",
+    "content_sha256": "83607251e9a14997d2b3786f5b5ce3a0ce7c39ce0cf497bdc34e9cf8056ec11e",
+    "perma_url": "https://perma.cc/452P-E2RY",
+    "wayback_url": "https://web.archive.org/web/20260704101140/https://tcss.legis.texas.gov/resources/OC/htm/OC.1803.htm",
+    "captured_at": "2026-07-04T10:11:13.510345+00:00",
+    "signed": true,
+    "tls_chain_unverified": false
+  },
+  {
+    "source_url": "https://tcss.legis.texas.gov/resources/OC/htm/OC.1804.htm",
+    "primary": false,
+    "local_path": "TX/tcss.legis.texas.gov-resources-OC-htm-OC.1804.htm.html",
+    "content_type": "text/html",
+    "content_sha256": "10277b9c2664ff588d49210059428bee4394dff950c01248484a17014c5354ae",
+    "perma_url": "https://perma.cc/HCV6-T85S",
+    "wayback_url": "https://web.archive.org/web/20260704101202/https://tcss.legis.texas.gov/resources/OC/htm/OC.1804.htm",
+    "captured_at": "2026-07-04T10:11:13.510345+00:00",
+    "signed": true,
+    "tls_chain_unverified": false
+  },
+  {
     "source_url": "https://web.archive.org/web/20260517213806/https://comptroller.texas.gov/taxes/franchise/pir-oir-filing-req.php",
     "primary": false,
     "local_path": "TX/web.archive.org-web-20260517213806-https-comptroller.texas.gov-taxes-franchise-p.html",
@@ -12,5 +60,17 @@
     "tls_chain_unverified": false,
     "ingested_from_file": true,
     "provenance": "wayback_snapshot re-homing 2026-06-12: id_ raw-variant fetch of the verification row's archive_snapshot_url; origin gzip payload decompressed at ingest (id_ raw preserves Content-Encoding as crawled; gunzip applied, sweep gzip-flag added same day); load-bearing content byte-grepped at fetch ('public information report': 6 hits); shell-signature sweep (extended 2026-06-12) clean; converts the Wayback-only row to local-backed per the 2026-06-11 local-artifact-required standard"
+  },
+  {
+    "source_url": "https://www.texasattorneygeneral.gov/divisions/charitable-trusts/registration-and-filings",
+    "primary": false,
+    "local_path": "TX/www.texasattorneygeneral.gov-divisions-charitable-trusts-registration-and-filing.html",
+    "content_type": "text/html; charset=UTF-8",
+    "content_sha256": "b52f4de5a5676460675de78434c1acbf732809c0638af7a834ec3b1e030ae40b",
+    "perma_url": "https://perma.cc/5PCB-WN69",
+    "wayback_url": "https://web.archive.org/web/20251218233158/https://www.texasattorneygeneral.gov/divisions/charitable-trusts/registration-and-filings",
+    "captured_at": "2026-07-04T10:11:13.510345+00:00",
+    "signed": true,
+    "tls_chain_unverified": false
   }
 ]
