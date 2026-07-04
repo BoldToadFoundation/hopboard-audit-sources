@@ -1,345 +1,365 @@
 {
-  "D3XT-JZYV": {
-    "source_url": "https://www.law.alaska.gov/consumer/charityFAQ.html",
-    "skip": "KNOWN-INCOMPLETE, MEASURED 2026-06-12: Perma's crawler ALSO archived the F5 'Request Rejected' WAF body (x6 in the 78KB WARC, title 'Request Rejected') — the law.alaska.gov URL-selective wall blocks Perma's egress too; refutes the 06-11 'likely clean (different egress)' prediction. FAQ content covered by the charityreg primary (inline, byte-verified) + the 2026-06-12 principal-browser-print PDF; nothing rests on this GUID. Was a MEASUREMENT entry; measurement complete."
-  },
-  "49ZU-2X2A": {
-    "source_url": "https://www.law.alaska.gov/consumer/charityreg.html",
-    "strings": [
-      "September 1",
-      "Notice of Exemption"
-    ],
-    "basis": "MEASUREMENT entry: render shows FAQ collapsed (known-incomplete); grep answers the byte-layer question"
-  },
-  "PQW2-5A6W": {
-    "source_url": "https://www.law.alaska.gov/pdf/consumer/RegIntructions-Online.pdf",
-    "skip": "pdf payload — WARC grep v1 is text/html-only (disclosed cut)"
-  },
-  "WX7D-KCH2": {
-    "source_url": "https://oag.ca.gov/charities/renewals",
-    "strings": [
-      "Fiscal Year End",
-      "RRF-1"
-    ],
-    "basis": "strings verified present in local artifact CA/oag.ca.gov-charities-renewals.html"
-  },
-  "2K2T-XM6S": {
-    "source_url": "https://oag.ca.gov/system/files/media/rrf1_form.pdf",
-    "skip": "pdf payload — v1 text/html-only"
-  },
-  "J86A-9RR6": {
-    "source_url": "https://www.law.cornell.edu/regulations/california/11-CCR-305",
-    "strings": [
-      "Registration Renewal Fee Report"
-    ],
-    "basis": "strings verified present in local artifact CA/www.law.cornell.edu-regulations-california-11-CCR-305.html"
-  },
-  "DV7A-4YVH": {
-    "source_url": "https://portal.ct.gov/dcp/charities/general-information-on-the-connecticut-solicitation-of-charitable-funds-act",
-    "strings": [
-      "need be claimed only once"
-    ],
-    "basis": "strings verified present in local artifact CT/portal.ct.gov-dcp-charities-general-information-on-the-connecticut-solicitation-.html"
-  },
-  "7ABS-UE5D": {
-    "source_url": "https://www.cga.ct.gov/current/pub/chap_419d.htm",
-    "strings": [
-      "21a-190"
-    ],
-    "basis": "strings verified present in local artifact CT/www.cga.ct.gov-current-pub-chap_419d.htm.html"
-  },
-  "4UWB-YTPW": {
-    "source_url": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleII/Chapter12/Section8F",
-    "strings": [
-      "Section 8F"
-    ],
-    "basis": "strings verified present in local artifact MA/malegislature.gov-Laws-GeneralLaws-PartI-TitleII-Chapter12-Section8F.html"
-  },
-  "5Y6J-ARR7": {
-    "source_url": "https://www.mass.gov/doc/form-pc-2023-update/download",
-    "skip": "KNOWN-INCOMPLETE 2026-06-12: JS-triggered download glitches Perma entirely (capture ledger §Perma-incompatible); local 05-31 artifact authoritative + byte-confirmed via independent channel"
-  },
-  "LJ9A-Y9EE": {
-    "source_url": "https://www.mass.gov/info-details/frequently-asked-questions-about-charitable-organizations",
-    "strings": [
-      "four and one-half months"
-    ],
-    "basis": "strings verified present in local artifact MA/www.mass.gov-info-details-frequently-asked-questions-about-charitable-organizati.html"
-  },
-  "D9QQ-CNUQ": {
-    "source_url": "https://www.mass.gov/info-details/online-charity-filing-portal",
-    "strings": [
-      "Form PC"
-    ],
-    "basis": "strings verified present in local artifact MA/www.mass.gov-info-details-online-charity-filing-portal.html"
-  },
-  "2X8C-QJTA": {
-    "source_url": "https://legislature.maine.gov/statutes/9/title9ch385.pdf",
-    "skip": "pdf payload — v1 text/html-only"
-  },
-  "C3NE-DY2U": {
-    "source_url": "https://www.maine.gov/pfr/professionallicensing/professions/charitable-solicitations-act/licensing/charitable-organizations",
-    "strings": [
-      "Charitable Organization"
-    ],
-    "basis": "strings verified present in local artifact ME/www.maine.gov-pfr-professionallicensing-professions-charitable-solicitations-act.html"
-  },
-  "G75N-FNAT": {
-    "source_url": "https://www.maine.gov/pfr/professionallicensing/sites/maine.gov.pfr.professionallicensing/files/inline-files/CHA-org-afar.pdf",
-    "skip": "pdf payload — v1 text/html-only"
-  },
-  "ZS3B-QTZR": {
-    "source_url": "https://www.mainelegislature.org/legis/statutes/9/title9sec5004.html",
-    "strings": [
-      "prior to the expiration date"
-    ],
-    "basis": "strings verified present in local artifact ME/www.mainelegislature.org-legis-statutes-9-title9sec5004.html.html"
-  },
-  "DBC6-UGP8": {
-    "source_url": "https://www.mainelegislature.org/legis/statutes/9/title9sec5005-B.html",
-    "strings": [
-      "5005-B"
-    ],
-    "basis": "strings verified present in local artifact ME/www.mainelegislature.org-legis-statutes-9-title9sec5005-B.html.html"
-  },
-  "WYB9-BSKU": {
-    "source_url": "https://www.mainelegislature.org/legis/statutes/9/title9sec5015-A.html",
-    "strings": [
-      "may establish by rule"
-    ],
-    "basis": "strings verified present in local artifact ME/www.mainelegislature.org-legis-statutes-9-title9sec5015-A.html.html"
-  },
-  "N6KA-GLX2": {
-    "source_url": "https://ag.ny.gov/sites/default/files/regulatory-documents/char500-user-guide.pdf",
-    "skip": "pdf payload — v1 text/html-only"
-  },
-  "X2LT-4CV4": {
-    "source_url": "https://charitable.ohioago.gov/Charity-Registration/Publications/List-of-Annual-Report-Questions",
-    "skip": "pdf payload — v1 text/html-only"
-  },
-  "A7QN-79YW": {
-    "source_url": "https://www.ohioattorneygeneral.gov/Files/Publications-Files/Publications-for-Business/Online-Charitable-Registration-Information-Sheet",
-    "skip": "pdf payload — v1 text/html-only"
-  },
-  "D73W-PAKM": {
-    "source_url": "https://www.doj.state.or.us/wp-content/uploads/2026/01/2025_web_ct-12f.pdf",
-    "skip": "pdf payload — v1 text/html-only"
-  },
-  "3KN9-EV3S": {
-    "source_url": "https://sos.sc.gov/online-filings/charities-pfrs-and-raffles/charities",
-    "strings": [
-      "Application for Exemption",
-      "33-56-50"
-    ],
-    "basis": "strings verified present in local artifact SC/sos.sc.gov-online-filings-charities-pfrs-and-raffles-charities.html (authored at capture per convention, 2026-06-12)"
-  },
-  "6DTE-FC6S": {
-    "source_url": "https://sos.sc.gov/sites/sos/files/Documents/Charities/Annual%20Financial%20Report%20for%20a%20Charitable%20Organization.pdf",
-    "skip": "pdf payload — v1 text/html-only"
-  },
-  "3DL3-TLG9": {
-    "source_url": "https://sos.sc.gov/sites/sos/files/Documents/Charities/Annual%20Raffle%20Financial%20Report2024.pdf",
-    "skip": "pdf payload — v1 text/html-only. NB: this is SC's F1 DAY-OF-MONTH ORACLE (worked example 'due on November 15th') — byte-verified in the LOCAL artifact at capture 2026-06-12; the pdftotext-from-WARC v2 rider is now load-bearing for a live oracle artifact, not just nice-to-have"
-  },
-  "NUV4-MSK6": {
-    "source_url": "https://sos.sc.gov/sites/sos/files/Documents/Charities/Application_for_Registration_Exemption.pdf",
-    "skip": "pdf payload — v1 text/html-only"
-  },
-  "79MK-V4VH": {
-    "source_url": "https://sos.sc.gov/sites/sos/files/Documents/Charities/Charities%20-%20Deadlines%20PDF2021.pdf",
-    "skip": "pdf payload — v1 text/html-only"
-  },
-  "E9VF-REJQ": {
-    "source_url": "https://sos.sc.gov/sites/sos/files/Documents/Charities/Registration%20Statement%20for%20a%20Charitable%20Organization.pdf",
-    "skip": "pdf payload — v1 text/html-only"
-  },
-  "88A3-AAF3": {
-    "source_url": "https://www.scstatehouse.gov/code/t33c056.php",
-    "strings": [
-      "four and one-half months",
-      "in all cases before solicitation"
-    ],
-    "basis": "strings verified present in local artifact SC/www.scstatehouse.gov-code-t33c056.php.html (authored at capture per convention, 2026-06-12)"
-  },
-  "Z48D-DY2Z": {
-    "source_url": "https://www.revisor.mn.gov/statutes/cite/309.53",
-    "strings": [
-      "15th day of the seventh month",
-      "not to exceed four months",
-      "in lieu of other financial statements",
-      "late fee of $50"
-    ],
-    "basis": "strings verified present in local artifact MN/www.revisor.mn.gov-statutes-cite-309.53.html (authored at capture per convention, 2026-06-14)"
-  },
-  "73XP-A469": {
-    "source_url": "https://www.revisor.mn.gov/statutes/cite/309.515",
-    "strings": [
-      "in excess of $25,000",
-      "performed wholly by persons who are unpaid",
-      "within or without this state"
-    ],
-    "basis": "strings verified present in local artifact MN/www.revisor.mn.gov-statutes-cite-309.515.html (authored at capture, 2026-06-14)"
-  },
-  "ZCE9-XURZ": {
-    "source_url": "https://www.revisor.mn.gov/statutes/cite/309.52",
-    "strings": [
-      "prior to any solicitation"
-    ],
-    "basis": "strings verified present in local artifact MN/www.revisor.mn.gov-statutes-cite-309.52.html (authored at capture, 2026-06-14)"
-  },
-  "KHP6-GX9X": {
-    "source_url": "https://www.ag.state.mn.us/charity/InfoCharitableorgandTrusts.asp",
-    "strings": [
-      "submit an exemption form"
-    ],
-    "basis": "strings verified present in local artifact MN/www.ag.state.mn.us-charity-InfoCharitableorgandTrusts.asp.html — the must_apply=TRUE HTML witness (the AG requires exempt orgs to file an exemption form); authored at capture, 2026-06-14"
-  },
-  "9RP3-UL2Z": {
-    "source_url": "https://www.ag.state.mn.us/brochures/pubGuidetoCharitieslaws.pdf",
-    "skip": "pdf payload — WARC grep v1 is text/html-only (disclosed cut). Carries the must_apply=TRUE corroboration ('Charities claiming to be exempt from registration must still file a Charitable Organization Exemption Form'); local-byte-verified via pdftotext at capture. The string-backed must_apply witness is the AG HTML page KHP6-GX9X."
-  },
-  "H6FT-X49Z": {
-    "source_url": "https://www.ag.state.mn.us/charity/Forms/C3_ExemptionForm.pdf",
-    "skip": "pdf payload — v1 text/html-only. The conjunctive-exemption checkbox ('performed wholly by volunteers and the organization does not employ a professional fundraiser'), 'No filing fee is required', two-officer signature, and one-time cadence (no annual/renew language) all local-byte-verified via pdftotext at capture."
-  },
-  "Q9EW-VS3G": {
-    "source_url": "https://webserver.rilegislature.gov/Statutes/TITLE5/5-53.1/5-53.1-2.htm",
-    "strings": [
-      "ninety dollars",
-      "one year following the approval",
-      "prescribes a different period"
-    ],
-    "basis": "RI §5-53.1-2 — renewal cycle/anchor (annual, approval-date) + $90 fee + override clause; verbatim in local bytes (RI audit 2026-06-21)"
-  },
-  "2YS2-RJT9": {
-    "source_url": "https://webserver.rilegislature.gov/Statutes/TITLE5/5-53.1/5-53.1-3.htm",
-    "strings": [
-      "twenty-five thousand dollars",
-      "exempt"
-    ],
-    "basis": "RI §5-53.1-3 — small-org $25k exemption + self-executing; verbatim in local bytes"
-  },
-  "32M8-EQJA": {
-    "source_url": "https://webserver.rilegislature.gov/Statutes/TITLE5/5-53.1/5-53.1-4.htm",
-    "strings": [
-      "one million dollars",
-      "1,000,000"
-    ],
-    "basis": "RI §5-53.1-4 — audit threshold $1M (post-SB783, eff. 2025-07-01); verbatim in local bytes"
-  },
-  "5ZYT-YY85": {
-    "source_url": "https://rules.sos.ri.gov/organizations/subchapter/230-50-05",
-    "skip": "rules.sos.ri.gov is a JS-SPA; captured page = Securities subchapter 230-50-05, visible text a shell (part-list in embedded JSON, removed by strip_tags). Override-by-rule ABSENCE (no Charities subchapter under ch.230-RICR-50; only Securities+Franchises) is established by the LIVE portal navigation structure + domain-restricted search, recorded in scripts/phase_b_audits/RI.sql FINDING 2 + docs/RI_PRE_AUDIT_MEMO.md §10 — NOT by this frozen page. Supporting context only; not load-bearing for any verified spec value (supports the override-by-rule residual closure). RI audit 2026-06-21."
-  },
-  "G44L-753L": {
-    "source_url": "https://code.wvlegislature.gov/29-19-5/",
-    "strings": [
-      "good for one full year",
-      "refiled in the next and each following year"
-    ],
-    "basis": "strings verified present in local artifact WV/code.wvlegislature.gov-29-19-5.html (the operative ANNUAL-cycle finding, F1)"
-  },
-  "B7PE-3LZK": {
-    "source_url": "https://code.wvlegislature.gov/29-19-6/",
-    "strings": [
-      "in excess of $50,000 during a calendar year",
-      "days after contributions are in excess of $50,000"
-    ],
-    "basis": "strings verified present in local artifact WV/code.wvlegislature.gov-29-19-6.html ($50k exemption threshold + 30-day tripwire)"
-  },
-  "9AYR-MDUY": {
-    "source_url": "https://nebraskalegislature.gov/laws/statutes.php?statute=28-1440",
-    "strings": [
-      "Repealed. Laws 1996, LB 972, § 4.",
-      "28-1440"
-    ],
-    "basis": "strings verified present in local artifact NE/nebraskalegislature.gov-laws-statutes.php-statute-28-1440.html (the operative repeal marker on the former registration statute — the reg=FALSE finding, primary)"
-  },
-  "3S5J-CM3S": {
-    "source_url": "https://nebraskalegislature.gov/laws/statutes.php?statute=87-302",
-    "strings": [
-      "LB838, § 27.",
-      "charitable purpose, uses or employs any deception"
-    ],
-    "basis": "strings verified present in local artifact NE/nebraskalegislature.gov-laws-statutes.php-statute-87-302.html (amendment-currency source line Laws 2026 LB838 + the UDTPA conduct-only charitable clause §87-302(a)(21))"
-  },
-  "74FR-AR4T": {
-    "source_url": "https://sos.nebraska.gov/licensing/information-charitable-solicitors",
-    "strings": [
-      "no longer required to register with our office",
-      "we do not have a current database"
-    ],
-    "basis": "strings verified present in local artifact NE/sos.nebraska.gov-licensing-information-charitable-solicitors.html (SOS plain-language no-registration statement, §1.4 agency-lane grounding)"
-  },
-  "FW6P-URLQ": {
-    "source_url": "https://protectthegoodlife.nebraska.gov/nonprofit-corporations",
-    "strings": [
-      "does not trigger separate registration with the Nebraska Attorney General",
-      "registered charitable solicitors, but that law was repealed"
-    ],
-    "basis": "strings verified present in local artifact NE/protectthegoodlife.nebraska.gov-nonprofit-corporations.html (AG no-registration statement + the AG's own repeal acknowledgment; both readers independently flagged the AG's 'Supreme Court decision' phrasing — operative event is the LEGISLATIVE repeal, LB 972 §4)"
-  },
-  "48XY-LAA8": {
-    "source_url": "https://nebraskalegislature.gov/FloorDocs/94/PDF/Slip/LB972.pdf",
-    "skip": "PDF payload — WARC grep needs text; pdftotext extraction EMPTY on the local artifact (image-scan slip law), measured 2026-07-02. Completeness rests on the manifest sha256 pin (7ecc1012...) of the local artifact + content verified by visual read at capture (LB 972 §4 repeals §§28-1440 to 28-1449, the solicitation-of-funds law) + wayback_url sibling capture."
-  },
-  "4257-DBRE": {
-    "source_url": "https://www.coloradosos.gov/pubs/charities/instructions/charity/renew.html",
-    "strings": [
-      "due at the same time that the Form 990 is due to the IRS",
-      "authorized a later date for filing the Form 990"
-    ],
-    "basis": "strings verified present in local artifact CO/www.coloradosos.gov-pubs-charities-instructions-charity-renew.html.html (SOS plain-language renewal statement — corroborates the due-date-as-extended parse of C.R.S. 6-16-104(5)(a), Tony corroboration order 2026-07-02)"
-  },
-  "RW99-CZZN": {
-    "source_url": "https://www.coloradosos.gov/pubs/charities/instructions/charity/extensions.html",
-    "strings": [
-      "request an extension with the IRS and need a full six months",
-      "request a second extension"
-    ],
-    "basis": "strings verified present in local artifact CO/www.coloradosos.gov-pubs-charities-instructions-charity-extensions.html.html (SOS extension mechanics: auto 3-month + requested second 3-month, IRS-coupled)"
-  },
-  "A33H-85WQ": {
-    "source_url": "https://www.azleg.gov/legtext/51leg/1r/laws/0234.htm",
-    "strings": [
-      "CHAPTER 234",
-      "HOUSE BILL 2457",
-      "repealing sections",
-      "solicitation of funds for charitable purposes"
-    ],
-    "basis": "AZ batch-1 2026-07-03: Word-exported HTML chaptered law (HB2457/Ch.234); enacting clause verified in tag-stripped text (raw bytes span-split; sweep strip_tags reassembles: 'repealing sections 44-6552 ... 44-6560 ... amending section 44-6561')."
-  },
-  "G2FS-7JZB": {
-    "source_url": "https://www.azleg.gov/ars/13/03722.htm",
-    "strings": [
-      "American veterans",
-      "class 3 misdemeanor"
-    ],
-    "basis": "AZ batch-1 2026-07-03: current A.R.S. 13-3722 veterans-solicitation conditional; byte-verified."
-  },
-  "D8YS-CJ6P": {
-    "source_url": "https://www.azleg.gov/ars/44/06551.htm",
-    "strings": [
-      "44-6551",
-      "Definitions",
-      "Charitable organization"
-    ],
-    "basis": "AZ batch-1 2026-07-03: live A.R.S. 44-6551 definitions (surviving anti-fraud bookend); byte-verified."
-  },
-  "4S8L-6UWX": {
-    "source_url": "https://www.azleg.gov/ars/44/06561.htm",
-    "strings": [
-      "Unlawful acts",
-      "44-1522"
-    ],
-    "basis": "AZ batch-1 2026-07-03: live A.R.S. 44-6561 unlawful-acts (AG-enforced under 44-1522; surviving anti-fraud bookend); byte-verified."
-  },
-  "HTU5-GVS3": {
-    "source_url": "https://www.azleg.gov/arstitle/",
-    "strings": [
-      "57th Legislature",
-      "updated to include the revised sections"
-    ],
-    "basis": "AZ batch-1 2026-07-03: ARS compilation currency stamp (57th Leg 1st Reg = 2025); byte-verified."
-  }
+ "D3XT-JZYV": {
+  "source_url": "https://www.law.alaska.gov/consumer/charityFAQ.html",
+  "skip": "KNOWN-INCOMPLETE, MEASURED 2026-06-12: Perma's crawler ALSO archived the F5 'Request Rejected' WAF body (x6 in the 78KB WARC, title 'Request Rejected') \u2014 the law.alaska.gov URL-selective wall blocks Perma's egress too; refutes the 06-11 'likely clean (different egress)' prediction. FAQ content covered by the charityreg primary (inline, byte-verified) + the 2026-06-12 principal-browser-print PDF; nothing rests on this GUID. Was a MEASUREMENT entry; measurement complete."
+ },
+ "49ZU-2X2A": {
+  "source_url": "https://www.law.alaska.gov/consumer/charityreg.html",
+  "strings": [
+   "September 1",
+   "Notice of Exemption"
+  ],
+  "basis": "MEASUREMENT entry: render shows FAQ collapsed (known-incomplete); grep answers the byte-layer question"
+ },
+ "PQW2-5A6W": {
+  "source_url": "https://www.law.alaska.gov/pdf/consumer/RegIntructions-Online.pdf",
+  "skip": "pdf payload \u2014 WARC grep v1 is text/html-only (disclosed cut)"
+ },
+ "WX7D-KCH2": {
+  "source_url": "https://oag.ca.gov/charities/renewals",
+  "strings": [
+   "Fiscal Year End",
+   "RRF-1"
+  ],
+  "basis": "strings verified present in local artifact CA/oag.ca.gov-charities-renewals.html"
+ },
+ "2K2T-XM6S": {
+  "source_url": "https://oag.ca.gov/system/files/media/rrf1_form.pdf",
+  "skip": "pdf payload \u2014 v1 text/html-only"
+ },
+ "J86A-9RR6": {
+  "source_url": "https://www.law.cornell.edu/regulations/california/11-CCR-305",
+  "strings": [
+   "Registration Renewal Fee Report"
+  ],
+  "basis": "strings verified present in local artifact CA/www.law.cornell.edu-regulations-california-11-CCR-305.html"
+ },
+ "DV7A-4YVH": {
+  "source_url": "https://portal.ct.gov/dcp/charities/general-information-on-the-connecticut-solicitation-of-charitable-funds-act",
+  "strings": [
+   "need be claimed only once"
+  ],
+  "basis": "strings verified present in local artifact CT/portal.ct.gov-dcp-charities-general-information-on-the-connecticut-solicitation-.html"
+ },
+ "7ABS-UE5D": {
+  "source_url": "https://www.cga.ct.gov/current/pub/chap_419d.htm",
+  "strings": [
+   "21a-190"
+  ],
+  "basis": "strings verified present in local artifact CT/www.cga.ct.gov-current-pub-chap_419d.htm.html"
+ },
+ "4UWB-YTPW": {
+  "source_url": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleII/Chapter12/Section8F",
+  "strings": [
+   "Section 8F"
+  ],
+  "basis": "strings verified present in local artifact MA/malegislature.gov-Laws-GeneralLaws-PartI-TitleII-Chapter12-Section8F.html"
+ },
+ "5Y6J-ARR7": {
+  "source_url": "https://www.mass.gov/doc/form-pc-2023-update/download",
+  "skip": "KNOWN-INCOMPLETE 2026-06-12: JS-triggered download glitches Perma entirely (capture ledger \u00a7Perma-incompatible); local 05-31 artifact authoritative + byte-confirmed via independent channel"
+ },
+ "LJ9A-Y9EE": {
+  "source_url": "https://www.mass.gov/info-details/frequently-asked-questions-about-charitable-organizations",
+  "strings": [
+   "four and one-half months"
+  ],
+  "basis": "strings verified present in local artifact MA/www.mass.gov-info-details-frequently-asked-questions-about-charitable-organizati.html"
+ },
+ "D9QQ-CNUQ": {
+  "source_url": "https://www.mass.gov/info-details/online-charity-filing-portal",
+  "strings": [
+   "Form PC"
+  ],
+  "basis": "strings verified present in local artifact MA/www.mass.gov-info-details-online-charity-filing-portal.html"
+ },
+ "2X8C-QJTA": {
+  "source_url": "https://legislature.maine.gov/statutes/9/title9ch385.pdf",
+  "skip": "pdf payload \u2014 v1 text/html-only"
+ },
+ "C3NE-DY2U": {
+  "source_url": "https://www.maine.gov/pfr/professionallicensing/professions/charitable-solicitations-act/licensing/charitable-organizations",
+  "strings": [
+   "Charitable Organization"
+  ],
+  "basis": "strings verified present in local artifact ME/www.maine.gov-pfr-professionallicensing-professions-charitable-solicitations-act.html"
+ },
+ "G75N-FNAT": {
+  "source_url": "https://www.maine.gov/pfr/professionallicensing/sites/maine.gov.pfr.professionallicensing/files/inline-files/CHA-org-afar.pdf",
+  "skip": "pdf payload \u2014 v1 text/html-only"
+ },
+ "ZS3B-QTZR": {
+  "source_url": "https://www.mainelegislature.org/legis/statutes/9/title9sec5004.html",
+  "strings": [
+   "prior to the expiration date"
+  ],
+  "basis": "strings verified present in local artifact ME/www.mainelegislature.org-legis-statutes-9-title9sec5004.html.html"
+ },
+ "DBC6-UGP8": {
+  "source_url": "https://www.mainelegislature.org/legis/statutes/9/title9sec5005-B.html",
+  "strings": [
+   "5005-B"
+  ],
+  "basis": "strings verified present in local artifact ME/www.mainelegislature.org-legis-statutes-9-title9sec5005-B.html.html"
+ },
+ "WYB9-BSKU": {
+  "source_url": "https://www.mainelegislature.org/legis/statutes/9/title9sec5015-A.html",
+  "strings": [
+   "may establish by rule"
+  ],
+  "basis": "strings verified present in local artifact ME/www.mainelegislature.org-legis-statutes-9-title9sec5015-A.html.html"
+ },
+ "N6KA-GLX2": {
+  "source_url": "https://ag.ny.gov/sites/default/files/regulatory-documents/char500-user-guide.pdf",
+  "skip": "pdf payload \u2014 v1 text/html-only"
+ },
+ "X2LT-4CV4": {
+  "source_url": "https://charitable.ohioago.gov/Charity-Registration/Publications/List-of-Annual-Report-Questions",
+  "skip": "pdf payload \u2014 v1 text/html-only"
+ },
+ "A7QN-79YW": {
+  "source_url": "https://www.ohioattorneygeneral.gov/Files/Publications-Files/Publications-for-Business/Online-Charitable-Registration-Information-Sheet",
+  "skip": "pdf payload \u2014 v1 text/html-only"
+ },
+ "D73W-PAKM": {
+  "source_url": "https://www.doj.state.or.us/wp-content/uploads/2026/01/2025_web_ct-12f.pdf",
+  "skip": "pdf payload \u2014 v1 text/html-only"
+ },
+ "3KN9-EV3S": {
+  "source_url": "https://sos.sc.gov/online-filings/charities-pfrs-and-raffles/charities",
+  "strings": [
+   "Application for Exemption",
+   "33-56-50"
+  ],
+  "basis": "strings verified present in local artifact SC/sos.sc.gov-online-filings-charities-pfrs-and-raffles-charities.html (authored at capture per convention, 2026-06-12)"
+ },
+ "6DTE-FC6S": {
+  "source_url": "https://sos.sc.gov/sites/sos/files/Documents/Charities/Annual%20Financial%20Report%20for%20a%20Charitable%20Organization.pdf",
+  "skip": "pdf payload \u2014 v1 text/html-only"
+ },
+ "3DL3-TLG9": {
+  "source_url": "https://sos.sc.gov/sites/sos/files/Documents/Charities/Annual%20Raffle%20Financial%20Report2024.pdf",
+  "skip": "pdf payload \u2014 v1 text/html-only. NB: this is SC's F1 DAY-OF-MONTH ORACLE (worked example 'due on November 15th') \u2014 byte-verified in the LOCAL artifact at capture 2026-06-12; the pdftotext-from-WARC v2 rider is now load-bearing for a live oracle artifact, not just nice-to-have"
+ },
+ "NUV4-MSK6": {
+  "source_url": "https://sos.sc.gov/sites/sos/files/Documents/Charities/Application_for_Registration_Exemption.pdf",
+  "skip": "pdf payload \u2014 v1 text/html-only"
+ },
+ "79MK-V4VH": {
+  "source_url": "https://sos.sc.gov/sites/sos/files/Documents/Charities/Charities%20-%20Deadlines%20PDF2021.pdf",
+  "skip": "pdf payload \u2014 v1 text/html-only"
+ },
+ "E9VF-REJQ": {
+  "source_url": "https://sos.sc.gov/sites/sos/files/Documents/Charities/Registration%20Statement%20for%20a%20Charitable%20Organization.pdf",
+  "skip": "pdf payload \u2014 v1 text/html-only"
+ },
+ "88A3-AAF3": {
+  "source_url": "https://www.scstatehouse.gov/code/t33c056.php",
+  "strings": [
+   "four and one-half months",
+   "in all cases before solicitation"
+  ],
+  "basis": "strings verified present in local artifact SC/www.scstatehouse.gov-code-t33c056.php.html (authored at capture per convention, 2026-06-12)"
+ },
+ "Z48D-DY2Z": {
+  "source_url": "https://www.revisor.mn.gov/statutes/cite/309.53",
+  "strings": [
+   "15th day of the seventh month",
+   "not to exceed four months",
+   "in lieu of other financial statements",
+   "late fee of $50"
+  ],
+  "basis": "strings verified present in local artifact MN/www.revisor.mn.gov-statutes-cite-309.53.html (authored at capture per convention, 2026-06-14)"
+ },
+ "73XP-A469": {
+  "source_url": "https://www.revisor.mn.gov/statutes/cite/309.515",
+  "strings": [
+   "in excess of $25,000",
+   "performed wholly by persons who are unpaid",
+   "within or without this state"
+  ],
+  "basis": "strings verified present in local artifact MN/www.revisor.mn.gov-statutes-cite-309.515.html (authored at capture, 2026-06-14)"
+ },
+ "ZCE9-XURZ": {
+  "source_url": "https://www.revisor.mn.gov/statutes/cite/309.52",
+  "strings": [
+   "prior to any solicitation"
+  ],
+  "basis": "strings verified present in local artifact MN/www.revisor.mn.gov-statutes-cite-309.52.html (authored at capture, 2026-06-14)"
+ },
+ "KHP6-GX9X": {
+  "source_url": "https://www.ag.state.mn.us/charity/InfoCharitableorgandTrusts.asp",
+  "strings": [
+   "submit an exemption form"
+  ],
+  "basis": "strings verified present in local artifact MN/www.ag.state.mn.us-charity-InfoCharitableorgandTrusts.asp.html \u2014 the must_apply=TRUE HTML witness (the AG requires exempt orgs to file an exemption form); authored at capture, 2026-06-14"
+ },
+ "9RP3-UL2Z": {
+  "source_url": "https://www.ag.state.mn.us/brochures/pubGuidetoCharitieslaws.pdf",
+  "skip": "pdf payload \u2014 WARC grep v1 is text/html-only (disclosed cut). Carries the must_apply=TRUE corroboration ('Charities claiming to be exempt from registration must still file a Charitable Organization Exemption Form'); local-byte-verified via pdftotext at capture. The string-backed must_apply witness is the AG HTML page KHP6-GX9X."
+ },
+ "H6FT-X49Z": {
+  "source_url": "https://www.ag.state.mn.us/charity/Forms/C3_ExemptionForm.pdf",
+  "skip": "pdf payload \u2014 v1 text/html-only. The conjunctive-exemption checkbox ('performed wholly by volunteers and the organization does not employ a professional fundraiser'), 'No filing fee is required', two-officer signature, and one-time cadence (no annual/renew language) all local-byte-verified via pdftotext at capture."
+ },
+ "Q9EW-VS3G": {
+  "source_url": "https://webserver.rilegislature.gov/Statutes/TITLE5/5-53.1/5-53.1-2.htm",
+  "strings": [
+   "ninety dollars",
+   "one year following the approval",
+   "prescribes a different period"
+  ],
+  "basis": "RI \u00a75-53.1-2 \u2014 renewal cycle/anchor (annual, approval-date) + $90 fee + override clause; verbatim in local bytes (RI audit 2026-06-21)"
+ },
+ "2YS2-RJT9": {
+  "source_url": "https://webserver.rilegislature.gov/Statutes/TITLE5/5-53.1/5-53.1-3.htm",
+  "strings": [
+   "twenty-five thousand dollars",
+   "exempt"
+  ],
+  "basis": "RI \u00a75-53.1-3 \u2014 small-org $25k exemption + self-executing; verbatim in local bytes"
+ },
+ "32M8-EQJA": {
+  "source_url": "https://webserver.rilegislature.gov/Statutes/TITLE5/5-53.1/5-53.1-4.htm",
+  "strings": [
+   "one million dollars",
+   "1,000,000"
+  ],
+  "basis": "RI \u00a75-53.1-4 \u2014 audit threshold $1M (post-SB783, eff. 2025-07-01); verbatim in local bytes"
+ },
+ "5ZYT-YY85": {
+  "source_url": "https://rules.sos.ri.gov/organizations/subchapter/230-50-05",
+  "skip": "rules.sos.ri.gov is a JS-SPA; captured page = Securities subchapter 230-50-05, visible text a shell (part-list in embedded JSON, removed by strip_tags). Override-by-rule ABSENCE (no Charities subchapter under ch.230-RICR-50; only Securities+Franchises) is established by the LIVE portal navigation structure + domain-restricted search, recorded in scripts/phase_b_audits/RI.sql FINDING 2 + docs/RI_PRE_AUDIT_MEMO.md \u00a710 \u2014 NOT by this frozen page. Supporting context only; not load-bearing for any verified spec value (supports the override-by-rule residual closure). RI audit 2026-06-21."
+ },
+ "G44L-753L": {
+  "source_url": "https://code.wvlegislature.gov/29-19-5/",
+  "strings": [
+   "good for one full year",
+   "refiled in the next and each following year"
+  ],
+  "basis": "strings verified present in local artifact WV/code.wvlegislature.gov-29-19-5.html (the operative ANNUAL-cycle finding, F1)"
+ },
+ "B7PE-3LZK": {
+  "source_url": "https://code.wvlegislature.gov/29-19-6/",
+  "strings": [
+   "in excess of $50,000 during a calendar year",
+   "days after contributions are in excess of $50,000"
+  ],
+  "basis": "strings verified present in local artifact WV/code.wvlegislature.gov-29-19-6.html ($50k exemption threshold + 30-day tripwire)"
+ },
+ "9AYR-MDUY": {
+  "source_url": "https://nebraskalegislature.gov/laws/statutes.php?statute=28-1440",
+  "strings": [
+   "Repealed. Laws 1996, LB 972, \u00a7 4.",
+   "28-1440"
+  ],
+  "basis": "strings verified present in local artifact NE/nebraskalegislature.gov-laws-statutes.php-statute-28-1440.html (the operative repeal marker on the former registration statute \u2014 the reg=FALSE finding, primary)"
+ },
+ "3S5J-CM3S": {
+  "source_url": "https://nebraskalegislature.gov/laws/statutes.php?statute=87-302",
+  "strings": [
+   "LB838, \u00a7 27.",
+   "charitable purpose, uses or employs any deception"
+  ],
+  "basis": "strings verified present in local artifact NE/nebraskalegislature.gov-laws-statutes.php-statute-87-302.html (amendment-currency source line Laws 2026 LB838 + the UDTPA conduct-only charitable clause \u00a787-302(a)(21))"
+ },
+ "74FR-AR4T": {
+  "source_url": "https://sos.nebraska.gov/licensing/information-charitable-solicitors",
+  "strings": [
+   "no longer required to register with our office",
+   "we do not have a current database"
+  ],
+  "basis": "strings verified present in local artifact NE/sos.nebraska.gov-licensing-information-charitable-solicitors.html (SOS plain-language no-registration statement, \u00a71.4 agency-lane grounding)"
+ },
+ "FW6P-URLQ": {
+  "source_url": "https://protectthegoodlife.nebraska.gov/nonprofit-corporations",
+  "strings": [
+   "does not trigger separate registration with the Nebraska Attorney General",
+   "registered charitable solicitors, but that law was repealed"
+  ],
+  "basis": "strings verified present in local artifact NE/protectthegoodlife.nebraska.gov-nonprofit-corporations.html (AG no-registration statement + the AG's own repeal acknowledgment; both readers independently flagged the AG's 'Supreme Court decision' phrasing \u2014 operative event is the LEGISLATIVE repeal, LB 972 \u00a74)"
+ },
+ "48XY-LAA8": {
+  "source_url": "https://nebraskalegislature.gov/FloorDocs/94/PDF/Slip/LB972.pdf",
+  "skip": "PDF payload \u2014 WARC grep needs text; pdftotext extraction EMPTY on the local artifact (image-scan slip law), measured 2026-07-02. Completeness rests on the manifest sha256 pin (7ecc1012...) of the local artifact + content verified by visual read at capture (LB 972 \u00a74 repeals \u00a7\u00a728-1440 to 28-1449, the solicitation-of-funds law) + wayback_url sibling capture."
+ },
+ "4257-DBRE": {
+  "source_url": "https://www.coloradosos.gov/pubs/charities/instructions/charity/renew.html",
+  "strings": [
+   "due at the same time that the Form 990 is due to the IRS",
+   "authorized a later date for filing the Form 990"
+  ],
+  "basis": "strings verified present in local artifact CO/www.coloradosos.gov-pubs-charities-instructions-charity-renew.html.html (SOS plain-language renewal statement \u2014 corroborates the due-date-as-extended parse of C.R.S. 6-16-104(5)(a), Tony corroboration order 2026-07-02)"
+ },
+ "RW99-CZZN": {
+  "source_url": "https://www.coloradosos.gov/pubs/charities/instructions/charity/extensions.html",
+  "strings": [
+   "request an extension with the IRS and need a full six months",
+   "request a second extension"
+  ],
+  "basis": "strings verified present in local artifact CO/www.coloradosos.gov-pubs-charities-instructions-charity-extensions.html.html (SOS extension mechanics: auto 3-month + requested second 3-month, IRS-coupled)"
+ },
+ "A33H-85WQ": {
+  "source_url": "https://www.azleg.gov/legtext/51leg/1r/laws/0234.htm",
+  "strings": [
+   "CHAPTER 234",
+   "HOUSE BILL 2457",
+   "repealing sections",
+   "solicitation of funds for charitable purposes"
+  ],
+  "basis": "AZ batch-1 2026-07-03: Word-exported HTML chaptered law (HB2457/Ch.234); enacting clause verified in tag-stripped text (raw bytes span-split; sweep strip_tags reassembles: 'repealing sections 44-6552 ... 44-6560 ... amending section 44-6561')."
+ },
+ "G2FS-7JZB": {
+  "source_url": "https://www.azleg.gov/ars/13/03722.htm",
+  "strings": [
+   "American veterans",
+   "class 3 misdemeanor"
+  ],
+  "basis": "AZ batch-1 2026-07-03: current A.R.S. 13-3722 veterans-solicitation conditional; byte-verified."
+ },
+ "D8YS-CJ6P": {
+  "source_url": "https://www.azleg.gov/ars/44/06551.htm",
+  "strings": [
+   "44-6551",
+   "Definitions",
+   "Charitable organization"
+  ],
+  "basis": "AZ batch-1 2026-07-03: live A.R.S. 44-6551 definitions (surviving anti-fraud bookend); byte-verified."
+ },
+ "4S8L-6UWX": {
+  "source_url": "https://www.azleg.gov/ars/44/06561.htm",
+  "strings": [
+   "Unlawful acts",
+   "44-1522"
+  ],
+  "basis": "AZ batch-1 2026-07-03: live A.R.S. 44-6561 unlawful-acts (AG-enforced under 44-1522; surviving anti-fraud bookend); byte-verified."
+ },
+ "HTU5-GVS3": {
+  "source_url": "https://www.azleg.gov/arstitle/",
+  "strings": [
+   "57th Legislature",
+   "updated to include the revised sections"
+  ],
+  "basis": "AZ batch-1 2026-07-03: ARS compilation currency stamp (57th Leg 1st Reg = 2025); byte-verified."
+ },
+ "8MKC-TJMN": {
+  "source_url": "https://delcode.delaware.gov/title6/c025/sc10/index.html",
+  "strings": [
+   "Fraternal",
+   "2596",
+   "2594"
+  ],
+  "basis": "strings verified present in local artifact DE/delcode.delaware.gov-title6-c025-sc10-index.html.html \u2014 the Delaware Charitable/Fraternal Solicitation Act (6 Del. C. Subch. X, sec 2591-2597) TOC; NO registration/license/permit/bond section anywhere; authored at capture 2026-07-04"
+ },
+ "WVV8-BGZE": {
+  "source_url": "https://revenue.delaware.gov/business-tax-forms/fundraisers-and-charitable-solicitations/",
+  "strings": [
+   "no State statute requiring registration"
+  ],
+  "basis": "string verified present in local artifact DE/revenue.delaware.gov-business-tax-forms-fundraisers-and-charitable-solicitations.html \u2014 the Division of Revenue admission (agency lane); authored at capture 2026-07-04"
+ },
+ "6F28-UZ72": {
+  "source_url": "https://legis.delaware.gov/json/BillDetail/GetHtmlDocument?fileAttachmentId=46189",
+  "skip": "GetHtmlDocument JSON endpoint did not render bill text to the capture UA (grep registration=0); the failed-2014-bill admission (HS 1 for HB 187) is corroborating-only per the DE-A read \u2014 verdict rests on the Subch X statute (8MKC-TJMN) + Division of Revenue admission (WVV8-BGZE), both byte-verified"
+ }
 }

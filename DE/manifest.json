@@ -1,5 +1,41 @@
 [
   {
+    "source_url": "https://delcode.delaware.gov/title6/c025/sc10/index.html",
+    "primary": true,
+    "local_path": "DE/delcode.delaware.gov-title6-c025-sc10-index.html.html",
+    "content_type": "text/html",
+    "content_sha256": "dcd5804479da335bd110e4f1dc23fe006ec067580d6de11e064f99d58389a438",
+    "perma_url": "https://perma.cc/8MKC-TJMN",
+    "wayback_url": "https://web.archive.org/web/20250920120919/https://delcode.delaware.gov/title6/c025/sc10/index.html",
+    "captured_at": "2026-07-04T09:42:35.989334+00:00",
+    "signed": true,
+    "tls_chain_unverified": false
+  },
+  {
+    "source_url": "https://legis.delaware.gov/json/BillDetail/GetHtmlDocument?fileAttachmentId=46189",
+    "primary": false,
+    "local_path": "DE/legis.delaware.gov-json-BillDetail-GetHtmlDocument-fileAttachmentId-46189.html",
+    "content_type": "text/html",
+    "content_sha256": "be9d7a7f208e830a2ba12c476fa00e207e47823f23fcebe3a6b8ba2b980c2afd",
+    "perma_url": "https://perma.cc/6F28-UZ72",
+    "wayback_url": null,
+    "captured_at": "2026-07-04T09:42:35.989334+00:00",
+    "signed": true,
+    "tls_chain_unverified": false
+  },
+  {
+    "source_url": "https://revenue.delaware.gov/business-tax-forms/fundraisers-and-charitable-solicitations/",
+    "primary": false,
+    "local_path": "DE/revenue.delaware.gov-business-tax-forms-fundraisers-and-charitable-solicitations.html",
+    "content_type": "text/html; charset=UTF-8",
+    "content_sha256": "cb217cd5bc5ce95470cbd624b5ebb17b113d6566e5c57088ffb637e62cf95c18",
+    "perma_url": "https://perma.cc/WVV8-BGZE",
+    "wayback_url": "https://web.archive.org/web/20260704094310/https://revenue.delaware.gov/business-tax-forms/fundraisers-and-charitable-solicitations/",
+    "captured_at": "2026-07-04T09:42:35.989334+00:00",
+    "signed": true,
+    "tls_chain_unverified": false
+  },
+  {
     "source_url": "https://web.archive.org/web/20260517092211/https://corp.delaware.gov/frtax/",
     "primary": false,
     "local_path": "DE/web.archive.org-web-20260517092211-https-corp.delaware.gov-frtax.html",
