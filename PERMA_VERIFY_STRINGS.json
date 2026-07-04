@@ -437,5 +437,9 @@
    "not required to register"
   ],
   "basis": "string verified present in local artifact TX/www.texasattorneygeneral.gov-...html \u2014 TX AG admission (agency lane): 'most charities or nonprofit organizations are not required to register with the State'; authored at capture 2026-07-04"
+ },
+ "9DAG-DDUM": {
+  "source_url": "https://leg.colorado.gov/sites/default/files/images/olls/crs2023-title-06.pdf",
+  "skip": "PDF tier (item-4 --verify-perma v1 is text/html-only). STATUTE C.R.S. 6-16-104(5)(a) \u2014 the event-coupling MIN(8th-month day-15 cap, 990-authorized date) that the operational-page verify 4257-DBRE (coloradosos renew.html) does NOT surface. Coupling strings 'earlier of the fifteenth day of the eighth calendar month' + 'the date authorized for filing a form 990' byte-verified present via pdftotext of hash-matched local CO/leg.colorado.gov-sites-default-files-images-olls-crs2023-title-06.pdf.pdf (sha256 f6a1d1e14e...). pdftotext-from-WARC v2 owed (SC 3DL3-TLG9 tier). Added 2026-07-04 \u2014 CO corrected-method template."
  }
 }
