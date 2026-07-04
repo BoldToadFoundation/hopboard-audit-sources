@@ -361,5 +361,25 @@
  "6F28-UZ72": {
   "source_url": "https://legis.delaware.gov/json/BillDetail/GetHtmlDocument?fileAttachmentId=46189",
   "skip": "GetHtmlDocument JSON endpoint did not render bill text to the capture UA (grep registration=0); the failed-2014-bill admission (HS 1 for HB 187) is corroborating-only per the DE-A read \u2014 verdict rests on the Subch X statute (8MKC-TJMN) + Division of Revenue admission (WVV8-BGZE), both byte-verified"
+ },
+ "M9A7-YN8F": {
+  "source_url": "https://legislature.idaho.gov/statutesrules/idstat/title48/t48ch12/",
+  "strings": [
+   "Charitable Solicitation",
+   "48-1201",
+   "48-1203"
+  ],
+  "basis": "strings verified present in local artifact ID/legislature.idaho.gov-statutesrules-idstat-title48-t48ch12.html \u2014 the Idaho Charitable Solicitation Act (Title 48 Ch 12) TOC/sections; NO registration section (only 48-1203 unlawful-acts + container-label); authored at capture 2026-07-04"
+ },
+ "5NUX-YQ44": {
+  "source_url": "https://www.ag.idaho.gov/content/uploads/2020/05/ICAPA-Frequently-Asked-Questions.pdf",
+  "skip": "pdf payload (WARC grep is text/html-only) + tls_chain_downgrade (Idaho AG expired cert, retried verify=False per --allow-incomplete-chain). COMPENSATING CONTROL: the FAQ 2.7 admission ('No. ICAPA does not require charitable organizations ... to register') was cross-verified by the ID-B agency reader via curl -k, and the reg=FALSE rests on the byte-verified Ch 12 statute lane (M9A7-YN8F) + full 74-title boundary enumeration"
+ },
+ "XY5V-R5Y4": {
+  "source_url": "https://legislature.idaho.gov/statutesrules/howcurrentisthislaw/",
+  "strings": [
+   "current through"
+  ],
+  "basis": "amendment-currency source; Idaho statutes current through the 2026 session per this official page; authored at capture 2026-07-04"
  }
 }

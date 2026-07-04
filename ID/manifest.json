@@ -1,0 +1,38 @@
+[
+  {
+    "source_url": "https://legislature.idaho.gov/statutesrules/howcurrentisthislaw/",
+    "primary": false,
+    "local_path": "ID/legislature.idaho.gov-statutesrules-howcurrentisthislaw.html",
+    "content_type": "text/html; charset=UTF-8",
+    "content_sha256": "1faa3a6ca8b7725f7b98c31266d96e9072506f4b17cd226fe405ef0cb7dc8200",
+    "perma_url": "https://perma.cc/XY5V-R5Y4",
+    "wayback_url": "https://web.archive.org/web/20260704095235/https://legislature.idaho.gov/statutesrules/howcurrentisthislaw/",
+    "captured_at": "2026-07-04T09:51:57.258684+00:00",
+    "signed": true,
+    "tls_chain_unverified": false
+  },
+  {
+    "source_url": "https://legislature.idaho.gov/statutesrules/idstat/title48/t48ch12/",
+    "primary": true,
+    "local_path": "ID/legislature.idaho.gov-statutesrules-idstat-title48-t48ch12.html",
+    "content_type": "text/html; charset=UTF-8",
+    "content_sha256": "cbfb4a84aef0c14ab6ecfe6b8056090c9131b4e4c38fe73a20dc9b2d26c1f92c",
+    "perma_url": "https://perma.cc/M9A7-YN8F",
+    "wayback_url": "https://web.archive.org/web/20260704095204/https://legislature.idaho.gov/statutesrules/idstat/title48/t48ch12/",
+    "captured_at": "2026-07-04T09:51:57.258684+00:00",
+    "signed": true,
+    "tls_chain_unverified": false
+  },
+  {
+    "source_url": "https://www.ag.idaho.gov/content/uploads/2020/05/ICAPA-Frequently-Asked-Questions.pdf",
+    "primary": true,
+    "local_path": "ID/www.ag.idaho.gov-content-uploads-2020-05-ICAPA-Frequently-Asked-Questions.pdf.pdf",
+    "content_type": "application/pdf",
+    "content_sha256": "fe491062997cd6204abd6db817d09d544b3471a78308bf4c6c1e240433b0357d",
+    "perma_url": "https://perma.cc/5NUX-YQ44",
+    "wayback_url": "https://web.archive.org/web/20260704095406/https://www.ag.idaho.gov/content/uploads/2020/05/ICAPA-Frequently-Asked-Questions.pdf",
+    "captured_at": "2026-07-04T09:54:02.677090+00:00",
+    "signed": true,
+    "tls_chain_unverified": true
+  }
+]
