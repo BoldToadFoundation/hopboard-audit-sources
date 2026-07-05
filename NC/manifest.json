@@ -1,0 +1,38 @@
+[
+  {
+    "source_url": "https://ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_131F/GS_131F-5.html",
+    "primary": true,
+    "local_path": "NC/ncleg.gov-EnactedLegislation-Statutes-HTML-BySection-Chapter_131F-GS_131F-5.html.html",
+    "content_type": "text/html",
+    "content_sha256": "4f14a865102ac559def02292f72014b5aec448410a92c8d816d09304bfe81d5d",
+    "perma_url": "https://perma.cc/S73Z-KZ2U",
+    "wayback_url": "https://web.archive.org/web/20260705013005/https://ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_131F/GS_131F-5.html",
+    "captured_at": "2026-07-05T01:29:51.260191+00:00",
+    "signed": true,
+    "tls_chain_unverified": false
+  },
+  {
+    "source_url": "https://www.ncleg.gov/EnactedLegislation/SessionLaws/PDF/2023-2024/SL2023-119.pdf",
+    "primary": false,
+    "local_path": "NC/www.ncleg.gov-EnactedLegislation-SessionLaws-PDF-2023-2024-SL2023-119.pdf.pdf",
+    "content_type": "application/pdf",
+    "content_sha256": "a204ca2f90c36a97204d3247ac4c111aef3820c3f2f1d201120830ff84ac1b52",
+    "perma_url": "https://perma.cc/S4WE-4VUM",
+    "wayback_url": "https://web.archive.org/web/20241202012929/https://www3.ncleg.gov/EnactedLegislation/SessionLaws/PDF/2023-2024/SL2023-119.pdf",
+    "captured_at": "2026-07-05T01:29:51.260191+00:00",
+    "signed": true,
+    "tls_chain_unverified": false
+  },
+  {
+    "source_url": "https://www.sosnc.gov/frequently_asked_questions/by_title/_charities",
+    "primary": false,
+    "local_path": "NC/www.sosnc.gov-frequently_asked_questions-by_title-_charities.html",
+    "content_type": "text/html; charset=utf-8",
+    "content_sha256": "0e690cd03e0bdbe458d43714e629c56cfeec00bbc7935fbca4d6d8a601572a95",
+    "perma_url": "https://perma.cc/XB7N-7KDB",
+    "wayback_url": null,
+    "captured_at": "2026-07-05T01:29:51.260191+00:00",
+    "signed": true,
+    "tls_chain_unverified": false
+  }
+]
