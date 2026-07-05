@@ -1,0 +1,26 @@
+[
+  {
+    "source_url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gbr&section=6-408&enactments=false",
+    "primary": true,
+    "local_path": "MD/mgaleg.maryland.gov-mgawebsite-Laws-StatuteText-article-gbr-section-6-408-enactm.html",
+    "content_type": "text/html; charset=utf-8",
+    "content_sha256": "7817a569d866e3bbd3a5745f032f0008141d6bb4a50e1039ac389de04764fe6a",
+    "perma_url": "https://perma.cc/J6WZ-QERX",
+    "wayback_url": null,
+    "captured_at": "2026-07-05T13:22:29.788981+00:00",
+    "signed": true,
+    "tls_chain_unverified": false
+  },
+  {
+    "source_url": "https://sos.maryland.gov/Documents/AnnualUpdateForm.pdf",
+    "primary": false,
+    "local_path": "MD/sos.maryland.gov-Documents-AnnualUpdateForm.pdf.pdf",
+    "content_type": "application/pdf",
+    "content_sha256": "862f13d5c531a89e2c855a29683fee776556f66764a2cf6dadef7bb53788ebb2",
+    "perma_url": "https://perma.cc/83PJ-5JFF",
+    "wayback_url": "https://web.archive.org/web/20260705132319/https://sos.maryland.gov/Documents/AnnualUpdateForm.pdf",
+    "captured_at": "2026-07-05T13:22:29.788981+00:00",
+    "signed": true,
+    "tls_chain_unverified": false
+  }
+]
