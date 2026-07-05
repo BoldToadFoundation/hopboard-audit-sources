@@ -445,5 +445,136 @@
   "4RN5-UG65": {
     "source_url": "https://charportal.dca.njoag.gov/",
     "skip": "DOCUMENTED SKIP 2026-07-05 (batch-promote archive remediation): the capture is a PowerApps portal SHELL ('You're offline. This is a read only version of the page.') — the DCA Charities portal renders content client-side behind Incapsula, so the archived bytes carry NO value-bearing renewal language (grep six|renewal|fiscal = 1 nav hit in 116KB). Nothing rests on this GUID: NJ's agency-lane evidence is the CRI-300R form + registration page read via Wayback (recorded in NJ.sql verification_notes), and the statute lane is the sha-verified STATUTES.TXT primary (wayback-tier remediation 2026-07-05, snapshot 20260705202129 byte-identical to recorded sha 10386d3c...). This GUID exists as a record of what the live portal serves, not as evidence."
+  },
+  "3V7E-PNEZ": {
+    "source_url": "https://portal.ct.gov/dcp/charities/frequently-asked-questions-from-charitable-organizations-and-paid-solicitors",
+    "strings": [
+      "the last day of the eleventh month following the end"
+    ],
+    "basis": "strings from the crank sign-off package in CT.sql; installed at batch-promote 2026-07-05"
+  },
+  "5T9Y-DRBN": {
+    "source_url": "https://law.lis.virginia.gov/vacode/title57/chapter5/section57-49/",
+    "strings": [
+      "fifteenth day of the fifth calendar month"
+    ],
+    "basis": "strings from the crank sign-off package in VA.sql; installed at batch-promote 2026-07-05"
+  },
+  "JMV5-MFRH": {
+    "source_url": "https://www.vdacs.virginia.gov/food-charitable-solicitation.shtml",
+    "strings": [
+      "15th day of the 5th calendar"
+    ],
+    "basis": "strings from the crank sign-off package in VA.sql; installed at batch-promote 2026-07-05; string tightened to the byte-continuous fragment (a tag splits 'calendar'/'month' in the render)"
+  },
+  "PX7U-BSCY": {
+    "source_url": "https://www.vdacs.virginia.gov/pdf/oca102registrationstatement.pdf",
+    "skip": "PDF tier (documented skip, batch-promote 2026-07-05): WARC payload is application/pdf — the v1 text-grep cannot reach it; load-bearing strings were byte-verified via pdftotext against the LOCAL artifact at crank (sign-off package in VA.sql); PDF-gate-v2 (WARC→pdftotext→grep) is the owed upgrade — ledger tripwire fires on the escalation-set recount."
+  },
+  "QQ3R-GJPB": {
+    "source_url": "https://www.ilga.gov/documents/legislation/ilcs/documents/022504600K4.htm",
+    "strings": [
+      "on or before June 30 of each year",
+      "within 6 months after the close of its fiscal year"
+    ],
+    "basis": "strings from the crank sign-off package in IL.sql; installed at batch-promote 2026-07-05"
+  },
+  "BGJ8-22RT": {
+    "source_url": "https://www.ilga.gov/documents/legislation/ilcs/documents/076000550K7.htm",
+    "strings": [
+      "financial report within 6 months of the close"
+    ],
+    "basis": "strings from the crank sign-off package in IL.sql; installed at batch-promote 2026-07-05; 'annual' dropped — tag-separated in the render"
+  },
+  "4DL5-NMWG": {
+    "source_url": "https://www.illinoisattorneygeneral.gov/Page-Attachments/FormAG990ILFilingInstuctions.pdf",
+    "skip": "PDF tier (documented skip, batch-promote 2026-07-05): WARC payload is application/pdf — the v1 text-grep cannot reach it; load-bearing strings were byte-verified via pdftotext against the LOCAL artifact at crank (sign-off package in IL.sql); PDF-gate-v2 (WARC→pdftotext→grep) is the owed upgrade — ledger tripwire fires on the escalation-set recount."
+  },
+  "YVS9-S6MZ": {
+    "source_url": "https://www.ksrevisor.gov/statutes/chapters/ch17/017_017_0063.html",
+    "strings": [
+      "expire on the last day of the sixth month following the month"
+    ],
+    "basis": "strings from the crank sign-off package in KS.sql; installed at batch-promote 2026-07-05"
+  },
+  "H93X-34VY": {
+    "source_url": "https://billstatus.ls.state.ms.us/documents/2016/html/SB/2400-2499/SB2447SG.htm",
+    "strings": [
+      "fifteenth day of the fifth month following the close"
+    ],
+    "basis": "strings from the crank sign-off package in MS.sql; installed at batch-promote 2026-07-05; tls_chain_downgrade compensated by cross-source diff (recorded at capture)"
+  },
+  "TVD2-L824": {
+    "source_url": "https://billstatus.ls.state.ms.us/documents/2024/html/HB/1200-1299/HB1290IN.htm",
+    "skip": "MEASURED 2026-07-05 (batch-promote string install): the HB1290IN capture is CONTENT-EMPTY at the byte layer — zero hits for 'charitable'/'fifteenth'/'79-11-503' in the 95KB local artifact and the WARC grep agrees (COMPLETENESS FAIL) — the capture holds a shell/frameset, NOT the bill text the crank cited as 'base-text reproduction'. DISCLOSED DEGRADATION of one currency-corroboration prong: MS's currency chain still stands on the died-bills sweep (HB367/HB134/HB1290/HB5/HB516 all died in committee through 2026) + the enacted SB2447 PRIMARY (H93X-34VY, strings verified in WARC). Nothing value-bearing rests on this GUID. Shown-at-next-packet per the D2(b) clause."
+  },
+  "S73Z-KZ2U": {
+    "source_url": "https://ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_131F/GS_131F-5.html",
+    "strings": [
+      "fifteenth day of the fifth calendar month",
+      "whichever is later"
+    ],
+    "basis": "strings from the crank sign-off package in NC.sql; installed at batch-promote 2026-07-05"
+  },
+  "S4WE-4VUM": {
+    "source_url": "https://www.ncleg.gov/EnactedLegislation/SessionLaws/PDF/2023-2024/SL2023-119.pdf",
+    "skip": "PDF tier (documented skip, batch-promote 2026-07-05): WARC payload is application/pdf — the v1 text-grep cannot reach it; load-bearing strings were byte-verified via pdftotext against the LOCAL artifact at crank (sign-off package in NC.sql); PDF-gate-v2 (WARC→pdftotext→grep) is the owed upgrade — ledger tripwire fires on the escalation-set recount."
+  },
+  "XB7N-7KDB": {
+    "source_url": "https://www.sosnc.gov/frequently_asked_questions/by_title/_charities",
+    "strings": [
+      "based on your organization’s fiscal year end"
+    ],
+    "basis": "strings from the crank sign-off package in NC.sql; installed at batch-promote 2026-07-05; byte-true fragment with the curly apostrophe as rendered"
+  },
+  "T3NQ-TMTB": {
+    "source_url": "https://rda.tnsosfiles.com/legal-citation/2176.legal.pdf",
+    "skip": "PDF tier (documented skip, batch-promote 2026-07-05): WARC payload is application/pdf — the v1 text-grep cannot reach it; load-bearing strings were byte-verified via pdftotext against the LOCAL artifact at crank (sign-off package in TN.sql); PDF-gate-v2 (WARC→pdftotext→grep) is the owed upgrade — ledger tripwire fires on the escalation-set recount."
+  },
+  "AG2B-YC27": {
+    "source_url": "https://publications.tnsosfiles.com/acts/113/pub/pc0533.pdf",
+    "skip": "PDF tier (documented skip, batch-promote 2026-07-05): WARC payload is application/pdf — the v1 text-grep cannot reach it; load-bearing strings were byte-verified via pdftotext against the LOCAL artifact at crank (sign-off package in TN.sql); PDF-gate-v2 (WARC→pdftotext→grep) is the owed upgrade — ledger tripwire fires on the escalation-set recount."
+  },
+  "EJA8-V62W": {
+    "source_url": "https://sos.tn.gov/charities/faqs",
+    "strings": [
+      "last day of the 6th month after the end"
+    ],
+    "basis": "strings from the crank sign-off package in TN.sql; installed at batch-promote 2026-07-05"
+  },
+  "2Q27-HMKV": {
+    "source_url": "https://alison.legislature.state.al.us/api/code-of-alabama?page=32",
+    "strings": [
+      "within 90 days of the close of its fiscal year"
+    ],
+    "basis": "strings from the crank sign-off package in AL.sql; installed at batch-promote 2026-07-05; JSON tier — WARC payload is JSON text, grep reaches it"
+  },
+  "GPQ8-6JZB": {
+    "source_url": "https://www.alabamaag.gov/wp-content/uploads/2026/05/File-Consumer-AL-Charitable-Organization-Registration.pdf",
+    "skip": "PDF tier (documented skip, batch-promote 2026-07-05): WARC payload is application/pdf — the v1 text-grep cannot reach it; load-bearing strings were byte-verified via pdftotext against the LOCAL artifact at crank (sign-off package in AL.sql); PDF-gate-v2 (WARC→pdftotext→grep) is the owed upgrade — ledger tripwire fires on the escalation-set recount."
+  },
+  "V6WZ-69C5": {
+    "source_url": "https://arkleg.state.ar.us/Acts/FTPDocument?path=%2FACTS%2F2019R%2FPublic%2F&file=137.pdf",
+    "skip": "PDF tier (documented skip, batch-promote 2026-07-05): WARC payload is application/pdf — the v1 text-grep cannot reach it; load-bearing strings were byte-verified via pdftotext against the LOCAL artifact at crank (sign-off package in AR.sql); PDF-gate-v2 (WARC→pdftotext→grep) is the owed upgrade — ledger tripwire fires on the escalation-set recount."
+  },
+  "797S-QB9Q": {
+    "source_url": "http://www.sos.arkansas.gov/uploads/bcs/SoS_CR-03_AnnualFinancialReportForm_5_2026.pdf",
+    "skip": "PDF tier (documented skip, batch-promote 2026-07-05): WARC payload is application/pdf — the v1 text-grep cannot reach it; load-bearing strings were byte-verified via pdftotext against the LOCAL artifact at crank (sign-off package in AR.sql); PDF-gate-v2 (WARC→pdftotext→grep) is the owed upgrade — ledger tripwire fires on the escalation-set recount."
+  },
+  "J6WZ-QERX": {
+    "source_url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gbr&section=6-408",
+    "strings": [
+      "within 6 months after the end of the charitable organization",
+      "later date that the Secretary of State sets"
+    ],
+    "basis": "strings from the crank sign-off package in MD.sql; installed at batch-promote 2026-07-05"
+  },
+  "83PJ-5JFF": {
+    "source_url": "https://sos.maryland.gov/Documents/AnnualUpdateForm.pdf",
+    "skip": "PDF tier (documented skip, batch-promote 2026-07-05): WARC payload is application/pdf — the v1 text-grep cannot reach it; load-bearing strings were byte-verified via pdftotext against the LOCAL artifact at crank (sign-off package in MD.sql); PDF-gate-v2 (WARC→pdftotext→grep) is the owed upgrade — ledger tripwire fires on the escalation-set recount."
+  },
+  "D6E8-QZQK": {
+    "source_url": "https://nmonesource.com/nmos/nmsa/en/4423/1/document.do",
+    "skip": "PDF tier (documented skip, batch-promote 2026-07-05): WARC payload is application/pdf — the v1 text-grep cannot reach it; load-bearing strings were byte-verified via pdftotext against the LOCAL artifact at crank (sign-off package in NM.sql); PDF-gate-v2 (WARC→pdftotext→grep) is the owed upgrade — ledger tripwire fires on the escalation-set recount. (367pp Chapter 57 compiler PDF)"
   }
 }
