@@ -1,0 +1,38 @@
+[
+  {
+    "source_url": "https://publications.tnsosfiles.com/acts/113/pub/pc0533.pdf",
+    "primary": false,
+    "local_path": "TN/publications.tnsosfiles.com-acts-113-pub-pc0533.pdf.pdf",
+    "content_type": "application/pdf",
+    "content_sha256": "bdbaf7ec05291a34a8bd2a3601ffa65c58c26da632dc9b039c32554b924a0a1c",
+    "perma_url": "https://perma.cc/AG2B-YC27",
+    "wayback_url": "https://web.archive.org/web/20260514144632/https://publications.tnsosfiles.com/acts/113/pub/pc0533.pdf",
+    "captured_at": "2026-07-05T01:49:31.892071+00:00",
+    "signed": true,
+    "tls_chain_unverified": false
+  },
+  {
+    "source_url": "https://rda.tnsosfiles.com/legal-citation/2176.legal.pdf",
+    "primary": true,
+    "local_path": "TN/rda.tnsosfiles.com-legal-citation-2176.legal.pdf.pdf",
+    "content_type": "application/pdf",
+    "content_sha256": "fc9a4b1ba858060a8912258e39adaf1b50f3e1559aca48cbac277135be8be279",
+    "perma_url": "https://perma.cc/T3NQ-TMTB",
+    "wayback_url": "https://web.archive.org/web/20260705014934/https://rda.tnsosfiles.com/legal-citation/2176.legal.pdf",
+    "captured_at": "2026-07-05T01:49:31.892071+00:00",
+    "signed": true,
+    "tls_chain_unverified": false
+  },
+  {
+    "source_url": "https://sos.tn.gov/charities/faqs",
+    "primary": false,
+    "local_path": "TN/sos.tn.gov-charities-faqs.html",
+    "content_type": "text/html; charset=UTF-8",
+    "content_sha256": "d462443571b151100b8a15504201b2f2774b0ff0538eaa918f7bad407e13da80",
+    "perma_url": "https://perma.cc/EJA8-V62W",
+    "wayback_url": null,
+    "captured_at": "2026-07-05T01:49:31.892071+00:00",
+    "signed": true,
+    "tls_chain_unverified": false
+  }
+]
