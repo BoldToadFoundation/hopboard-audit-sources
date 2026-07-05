@@ -1,0 +1,26 @@
+[
+  {
+    "source_url": "https://www.legislature.mi.gov/Laws/MCL?objectName=MCL-400-273",
+    "primary": false,
+    "local_path": "MI/www.legislature.mi.gov-Laws-MCL-objectName-MCL-400-273.html",
+    "content_type": "text/html; charset=utf-8",
+    "content_sha256": "0cca5ddbfcf946b5510ec8cfb3b45dd3c45b4817e36193b33f3ba5049b098a43",
+    "perma_url": null,
+    "wayback_url": null,
+    "captured_at": "2026-07-05T19:27:12.576146+00:00",
+    "signed": true,
+    "tls_chain_unverified": false
+  },
+  {
+    "source_url": "https://www.legislature.mi.gov/Laws/MCL?objectName=MCL-400-277",
+    "primary": true,
+    "local_path": "MI/www.legislature.mi.gov-Laws-MCL-objectName-MCL-400-277.html",
+    "content_type": "text/html; charset=utf-8",
+    "content_sha256": "51f32945183f2ed3a544aa7f8967e18c4411e54c49e1552b9086db7949364242",
+    "perma_url": null,
+    "wayback_url": "https://web.archive.org/web/20260705192729/https://www.legislature.mi.gov/Laws/MCL?objectName=MCL-400-277",
+    "captured_at": "2026-07-05T19:27:12.576146+00:00",
+    "signed": true,
+    "tls_chain_unverified": false
+  }
+]
