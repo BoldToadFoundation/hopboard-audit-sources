@@ -1,0 +1,38 @@
+[
+  {
+    "source_url": "https://law.lis.virginia.gov/vacode/title57/chapter5/section57-49/",
+    "primary": true,
+    "local_path": "VA/law.lis.virginia.gov-vacode-title57-chapter5-section57-49.html",
+    "content_type": "text/html; charset=utf-8",
+    "content_sha256": "74fea0c47880a1e6ad2e90240d4d4c2ce2e1d67f8b1d29494de47fe6f7aa2466",
+    "perma_url": "https://perma.cc/5T9Y-DRBN",
+    "wayback_url": "https://web.archive.org/web/20260705012456/https://law.lis.virginia.gov/vacode/title57/chapter5/section57-49/",
+    "captured_at": "2026-07-05T01:24:50.825781+00:00",
+    "signed": true,
+    "tls_chain_unverified": false
+  },
+  {
+    "source_url": "https://www.vdacs.virginia.gov/food-charitable-solicitation.shtml",
+    "primary": false,
+    "local_path": "VA/www.vdacs.virginia.gov-food-charitable-solicitation.shtml.html",
+    "content_type": "text/html; charset=UTF-8",
+    "content_sha256": "3c07ec19812251ae2c0a15bf16abc95ea9ab255232433489e5ef1eb4cc1738d6",
+    "perma_url": "https://perma.cc/JMV5-MFRH",
+    "wayback_url": "https://web.archive.org/web/20260705012517/https://www.vdacs.virginia.gov/food-charitable-solicitation.shtml",
+    "captured_at": "2026-07-05T01:24:50.825781+00:00",
+    "signed": true,
+    "tls_chain_unverified": false
+  },
+  {
+    "source_url": "https://www.vdacs.virginia.gov/pdf/oca102registrationstatement.pdf",
+    "primary": false,
+    "local_path": "VA/www.vdacs.virginia.gov-pdf-oca102registrationstatement.pdf.pdf",
+    "content_type": "application/pdf",
+    "content_sha256": "1d4be17b46f51af00798e5a03f7935a1385f33aa4436afcd5ba931ecd4266dec",
+    "perma_url": "https://perma.cc/PX7U-BSCY",
+    "wayback_url": "https://web.archive.org/web/20260531183922/https://www.vdacs.virginia.gov/pdf/oca102registrationstatement.pdf",
+    "captured_at": "2026-07-05T01:24:50.825781+00:00",
+    "signed": true,
+    "tls_chain_unverified": false
+  }
+]
