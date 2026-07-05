@@ -1,0 +1,38 @@
+[
+  {
+    "source_url": "https://www.ilga.gov/documents/legislation/ilcs/documents/022504600K4.htm",
+    "primary": true,
+    "local_path": "IL/www.ilga.gov-documents-legislation-ilcs-documents-022504600K4.htm.html",
+    "content_type": "text/html",
+    "content_sha256": "74e4d7accca7b2ce55de82996d6d0c9351bf9420f84acb2d9233ff37155ec0dc",
+    "perma_url": "https://perma.cc/QQ3R-GJPB",
+    "wayback_url": "https://web.archive.org/web/20260705014423/https://www.ilga.gov/documents/legislation/ilcs/documents/022504600K4.htm",
+    "captured_at": "2026-07-05T01:44:18.353648+00:00",
+    "signed": true,
+    "tls_chain_unverified": false
+  },
+  {
+    "source_url": "https://www.ilga.gov/documents/legislation/ilcs/documents/076000550K7.htm",
+    "primary": false,
+    "local_path": "IL/www.ilga.gov-documents-legislation-ilcs-documents-076000550K7.htm.html",
+    "content_type": "text/html",
+    "content_sha256": "c7ca1154306268cd9f6b430126e161d7815ade4937566dfb447ae26a3f0e09eb",
+    "perma_url": "https://perma.cc/BGJ8-22RT",
+    "wayback_url": "https://web.archive.org/web/20251008230625/https://ilga.gov/documents/legislation/ilcs/documents/076000550K7.htm",
+    "captured_at": "2026-07-05T01:44:18.353648+00:00",
+    "signed": true,
+    "tls_chain_unverified": false
+  },
+  {
+    "source_url": "https://www.illinoisattorneygeneral.gov/Page-Attachments/FormAG990ILFilingInstuctions.pdf",
+    "primary": false,
+    "local_path": "IL/www.illinoisattorneygeneral.gov-Page-Attachments-FormAG990ILFilingInstuctions.pd.pdf",
+    "content_type": "application/pdf",
+    "content_sha256": "ae35586e9bcb24ea8652b80090b5a3527125de0e93493a727809c9badb286e4b",
+    "perma_url": "https://perma.cc/4DL5-NMWG",
+    "wayback_url": "https://web.archive.org/web/20260109181927/https://www.illinoisattorneygeneral.gov/Page-Attachments/FormAG990ILFilingInstuctions.pdf",
+    "captured_at": "2026-07-05T01:44:18.353648+00:00",
+    "signed": true,
+    "tls_chain_unverified": false
+  }
+]
