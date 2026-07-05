@@ -1,0 +1,26 @@
+[
+  {
+    "source_url": "http://www.sos.arkansas.gov/uploads/bcs/SoS_CR-03_AnnualFinancialReportForm_5_2026.pdf",
+    "primary": false,
+    "local_path": "AR/www.sos.arkansas.gov-uploads-bcs-SoS_CR-03_AnnualFinancialReportForm_5_2026.pdf.pdf",
+    "content_type": "application/pdf",
+    "content_sha256": "918ca7cd33459dca17127c7dc96dfcd63fcb02346e8b98f2ee80b4e59e1b32d5",
+    "perma_url": "https://perma.cc/797S-QB9Q",
+    "wayback_url": "https://web.archive.org/web/20260705132224/https://www.sos.arkansas.gov/uploads/bcs/SoS_CR-03_AnnualFinancialReportForm_5_2026.pdf",
+    "captured_at": "2026-07-05T13:21:31.954216+00:00",
+    "signed": true,
+    "tls_chain_unverified": false
+  },
+  {
+    "source_url": "https://arkleg.state.ar.us/Acts/FTPDocument?path=%2FACTS%2F2019R%2FPublic%2F&file=137.pdf&ddBienniumSession=2019%2F2019R",
+    "primary": true,
+    "local_path": "AR/arkleg.state.ar.us-Acts-FTPDocument-path-2FACTS-2F2019R-2FPublic-2F-file-137.pdf.pdf",
+    "content_type": "application/pdf",
+    "content_sha256": "e90bfc350b7f851b80eddebc6c937019174cb39b8a8d6c998befac92239ef7b6",
+    "perma_url": "https://perma.cc/V6WZ-69C5",
+    "wayback_url": null,
+    "captured_at": "2026-07-05T13:21:31.954216+00:00",
+    "signed": true,
+    "tls_chain_unverified": false
+  }
+]
