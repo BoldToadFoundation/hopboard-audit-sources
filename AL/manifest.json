@@ -1,0 +1,26 @@
+[
+  {
+    "source_url": "https://alison.legislature.state.al.us/api/code-of-alabama?page=32",
+    "primary": true,
+    "local_path": "AL/alison.legislature.state.al.us-api-code-of-alabama-page-32.json",
+    "content_type": "application/json; charset=utf-8",
+    "content_sha256": "c0cc8fdd154247781994294769344586b22e2b4a6fabf884764880d84c530dc3",
+    "perma_url": "https://perma.cc/2Q27-HMKV",
+    "wayback_url": null,
+    "captured_at": "2026-07-05T13:31:38.359557+00:00",
+    "signed": true,
+    "tls_chain_unverified": false
+  },
+  {
+    "source_url": "https://www.alabamaag.gov/wp-content/uploads/2026/05/File-Consumer-AL-Charitable-Organization-Renewal.pdf",
+    "primary": false,
+    "local_path": "AL/www.alabamaag.gov-wp-content-uploads-2026-05-File-Consumer-AL-Charitable-Organiz.pdf",
+    "content_type": "application/pdf",
+    "content_sha256": "820498aa814a8162767ad7f6dadd5235406b639cffec03f1bea17d17a61aa752",
+    "perma_url": "https://perma.cc/GPQ8-6JZB",
+    "wayback_url": "https://web.archive.org/web/20260609180244/https://www.alabamaag.gov/wp-content/uploads/2026/05/File-Consumer-AL-Charitable-Organization-Renewal.pdf",
+    "captured_at": "2026-07-05T13:31:38.359557+00:00",
+    "signed": true,
+    "tls_chain_unverified": false
+  }
+]
