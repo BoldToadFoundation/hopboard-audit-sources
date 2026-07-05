@@ -1,5 +1,17 @@
 [
   {
+    "source_url": "https://portal.ct.gov/dcp/charities/frequently-asked-questions-from-charitable-organizations-and-paid-solicitors",
+    "primary": false,
+    "local_path": "CT/portal.ct.gov-dcp-charities-frequently-asked-questions-from-charitable-organizat.html",
+    "content_type": "text/html; charset=utf-8",
+    "content_sha256": "db72dc6d963f165b910233cf61694f30b754c32364c9d35a14febee1bc7ced1f",
+    "perma_url": "https://perma.cc/3V7E-PNEZ",
+    "wayback_url": null,
+    "captured_at": "2026-07-05T01:12:18.950237+00:00",
+    "signed": true,
+    "tls_chain_unverified": false
+  },
+  {
     "source_url": "https://portal.ct.gov/dcp/charities/general-information-on-the-connecticut-solicitation-of-charitable-funds-act",
     "primary": false,
     "local_path": "CT/portal.ct.gov-dcp-charities-general-information-on-the-connecticut-solicitation-.html",
