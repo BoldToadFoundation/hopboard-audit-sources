@@ -1,5 +1,41 @@
 [
   {
+    "source_url": "https://iga.in.gov/ic/2026/Title_23/Article_17/Chapter_25.5.pdf",
+    "primary": false,
+    "local_path": "IN/iga.in.gov-ic-2026-Title_23-Article_17-Chapter_25.5.pdf.pdf",
+    "content_type": "text/html",
+    "content_sha256": "5086aca72ec509c1a90810d1f0c746bec5851c0cf09b478b864fc84499c61046",
+    "perma_url": "https://perma.cc/BA2U-K3YS",
+    "wayback_url": "https://web.archive.org/web/20260706185130/https://iga.in.gov/ic/2026/Title_23/Article_17/Chapter_25.5.pdf",
+    "captured_at": "2026-07-06T18:51:15.270883+00:00",
+    "signed": true,
+    "tls_chain_unverified": false
+  },
+  {
+    "source_url": "https://iga.in.gov/ic/2026/Title_23/Article_7/Chapter_8.pdf",
+    "primary": true,
+    "local_path": "IN/iga.in.gov-ic-2026-Title_23-Article_7-Chapter_8.pdf.pdf",
+    "content_type": "text/html",
+    "content_sha256": "5086aca72ec509c1a90810d1f0c746bec5851c0cf09b478b864fc84499c61046",
+    "perma_url": "https://perma.cc/9FX3-Q6SE",
+    "wayback_url": "https://web.archive.org/web/20260706185120/https://iga.in.gov/ic/2026/Title_23/Article_7/Chapter_8.pdf",
+    "captured_at": "2026-07-06T18:51:15.270883+00:00",
+    "signed": true,
+    "tls_chain_unverified": false
+  },
+  {
+    "source_url": "https://iga.in.gov/ic/2026/Title_24/Article_4.7/Chapter_1.pdf",
+    "primary": false,
+    "local_path": "IN/iga.in.gov-ic-2026-Title_24-Article_4.7-Chapter_1.pdf.pdf",
+    "content_type": "text/html",
+    "content_sha256": "5086aca72ec509c1a90810d1f0c746bec5851c0cf09b478b864fc84499c61046",
+    "perma_url": "https://perma.cc/TLM5-QQZD",
+    "wayback_url": "https://web.archive.org/web/20260706185138/https://iga.in.gov/ic/2026/Title_24/Article_4.7/Chapter_1.pdf",
+    "captured_at": "2026-07-06T18:51:15.270883+00:00",
+    "signed": true,
+    "tls_chain_unverified": false
+  },
+  {
     "source_url": "https://web.archive.org/web/20260519002526/https://inbiz.in.gov/business-filings/business-entityreport",
     "primary": false,
     "local_path": "IN/web.archive.org-web-20260519002526-https-inbiz.in.gov-business-filings-business-.html",
@@ -12,5 +48,53 @@
     "tls_chain_unverified": false,
     "ingested_from_file": true,
     "provenance": "wayback_snapshot re-homing 2026-06-12: id_ raw-variant fetch of the verification row's archive_snapshot_url; load-bearing content byte-grepped at fetch ('business entity report': 17 hits); shell-signature sweep (extended 2026-06-12) clean; converts the Wayback-only row to local-backed per the 2026-06-11 local-artifact-required standard"
+  },
+  {
+    "source_url": "https://www.in.gov/attorneygeneral/consumer-protection-division/charities-and-donors/charitable-fundraising/",
+    "primary": false,
+    "local_path": "IN/www.in.gov-attorneygeneral-consumer-protection-division-charities-and-donors-cha.html",
+    "content_type": "text/html; charset=UTF-8",
+    "content_sha256": "97accd56b9cf7f2adf5baff93e7a034d6ce4fd6f84b636657be08bce4c8c2801",
+    "perma_url": "https://perma.cc/BVL9-2CA5",
+    "wayback_url": null,
+    "captured_at": "2026-07-06T18:51:15.270883+00:00",
+    "signed": true,
+    "tls_chain_unverified": false
+  },
+  {
+    "source_url": "https://www.in.gov/attorneygeneral/consumer-protection-division/charities-and-donors/charitable-giving/",
+    "primary": false,
+    "local_path": "IN/www.in.gov-attorneygeneral-consumer-protection-division-charities-and-donors-cha.html",
+    "content_type": "text/html; charset=UTF-8",
+    "content_sha256": "345bee8bc41f6ffa313327c94aa9ae38b6802bff2dc30285d14b26cc5a5cec02",
+    "perma_url": "https://perma.cc/4JLY-3BWH",
+    "wayback_url": null,
+    "captured_at": "2026-07-06T18:51:15.270883+00:00",
+    "signed": true,
+    "tls_chain_unverified": false
+  },
+  {
+    "source_url": "https://www.in.gov/dor/business-tax/nonprofit-tax-forms/",
+    "primary": false,
+    "local_path": "IN/www.in.gov-dor-business-tax-nonprofit-tax-forms.html",
+    "content_type": "text/html; charset=UTF-8",
+    "content_sha256": "92c39e8a50dc00b3902bdfa07568ee754d2aeec2a859c0719f153ae3bc1d73bc",
+    "perma_url": "https://perma.cc/94PT-UNF2",
+    "wayback_url": null,
+    "captured_at": "2026-07-06T18:51:15.270883+00:00",
+    "signed": true,
+    "tls_chain_unverified": false
+  },
+  {
+    "source_url": "https://www.in.gov/dor/files/ib17.pdf",
+    "primary": false,
+    "local_path": "IN/www.in.gov-dor-files-ib17.pdf.pdf",
+    "content_type": "application/pdf",
+    "content_sha256": "d4def60c3fd5271a1203f6cf3eca16156500145e6291c0aaa59adba4e31c44ae",
+    "perma_url": "https://perma.cc/P6A7-A9PJ",
+    "wayback_url": null,
+    "captured_at": "2026-07-06T18:51:15.270883+00:00",
+    "signed": true,
+    "tls_chain_unverified": false
   }
 ]
