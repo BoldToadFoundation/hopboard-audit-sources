@@ -1,4 +1,20 @@
 {
+  "X2U6-T9NN": {
+    "source_url": "https://www.legislature.mi.gov/Laws/MCL?objectName=MCL-400-277",
+    "strings": [
+      "1 year and 7 months",
+      "30 days before the expiration",
+      "end date of the financial statement"
+    ],
+    "basis": "MI charitable renewal (2026-07-05, Tony adjudication): the load-bearing MCL 400.277 phrases — expiration = 1yr7mo after the financial-statement end date; renewal filed 30 days before expiration. grep-verified byte-present in the hash-matched local HTML MI/www.legislature.mi.gov-Laws-MCL-objectName-MCL-400-277.html"
+  },
+  "4TU2-K4Y7": {
+    "source_url": "https://www.legislature.mi.gov/Laws/MCL?objectName=MCL-400-273",
+    "strings": [
+      "preceding tax year"
+    ],
+    "basis": "MI preceding-year anchor (Tony's 'twist'): MCL 400.273(2)(j)/(k) — the financial statement/990 is for the preceding tax year, so the 19-month term runs from the prior-completed FYE. grep-verified byte-present in MI/www.legislature.mi.gov-Laws-MCL-objectName-MCL-400-273.html"
+  },
   "D3XT-JZYV": {
     "source_url": "https://www.law.alaska.gov/consumer/charityFAQ.html",
     "skip": "KNOWN-INCOMPLETE, MEASURED 2026-06-12: Perma's crawler ALSO archived the F5 'Request Rejected' WAF body (x6 in the 78KB WARC, title 'Request Rejected') — the law.alaska.gov URL-selective wall blocks Perma's egress too; refutes the 06-11 'likely clean (different egress)' prediction. FAQ content covered by the charityreg primary (inline, byte-verified) + the 2026-06-12 principal-browser-print PDF; nothing rests on this GUID. Was a MEASUREMENT entry; measurement complete."
