@@ -12,5 +12,89 @@
     "tls_chain_unverified": false,
     "ingested_from_file": true,
     "provenance": "wayback_snapshot re-homing 2026-06-12: id_ raw-variant fetch of the verification row's archive_snapshot_url; PDF sanity + pdftotext byte-grep at fetch ('504.1613': 3 hits); converts the Wayback-only row to local-backed per the 2026-06-11 local-artifact-required standard"
+  },
+  {
+    "source_url": "https://www.iowaattorneygeneral.gov/for-businesses/charities-nonprofits-fundraising-information",
+    "primary": false,
+    "local_path": "IA/www.iowaattorneygeneral.gov-for-businesses-charities-nonprofits-fundraising-info.html",
+    "content_type": "text/html;charset=UTF-8",
+    "content_sha256": "2b0f10b9404ff2b40c142b14cc929ab29d5dd56e63c357d203dbf856ee7f448d",
+    "perma_url": "https://perma.cc/69M5-TTVL",
+    "wayback_url": null,
+    "captured_at": "2026-07-06T18:51:59.555495+00:00",
+    "signed": true,
+    "tls_chain_unverified": false
+  },
+  {
+    "source_url": "https://www.iowaattorneygeneral.gov/for-businesses/charities-nonprofits-fundraising-information/professional-fundraisers",
+    "primary": false,
+    "local_path": "IA/www.iowaattorneygeneral.gov-for-businesses-charities-nonprofits-fundraising-info.html",
+    "content_type": "text/html;charset=UTF-8",
+    "content_sha256": "9398ffc6a560287a16ca35f422f4498ddbb70f4fd56a8b1b4279c59962b75d9f",
+    "perma_url": "https://perma.cc/WV35-X9G6",
+    "wayback_url": "https://web.archive.org/web/20260706185441/https://www.iowaattorneygeneral.gov/for-businesses/charities-nonprofits-fundraising-information/professional-fundraisers",
+    "captured_at": "2026-07-06T18:51:59.555495+00:00",
+    "signed": true,
+    "tls_chain_unverified": false
+  },
+  {
+    "source_url": "https://www.iowaattorneygeneral.gov/media/cms/FundraiserFormRevised3_D3AFBBE149EAE.pdf",
+    "primary": false,
+    "local_path": "IA/www.iowaattorneygeneral.gov-media-cms-FundraiserFormRevised3_D3AFBBE149EAE.pdf.pdf",
+    "content_type": "application/pdf",
+    "content_sha256": "a19c6cb37a3bdd5b9e0e9585fe382374aa52e2ac171f882a2684b27fe67dd7a7",
+    "perma_url": "https://perma.cc/76UV-R5CQ",
+    "wayback_url": "https://web.archive.org/web/20260706185457/https://www.iowaattorneygeneral.gov/media/cms/FundraiserFormRevised3_D3AFBBE149EAE.pdf",
+    "captured_at": "2026-07-06T18:51:59.555495+00:00",
+    "signed": true,
+    "tls_chain_unverified": false
+  },
+  {
+    "source_url": "https://www.legis.iowa.gov/docs/code/13C.pdf",
+    "primary": true,
+    "local_path": "IA/www.legis.iowa.gov-docs-code-13C.pdf.pdf",
+    "content_type": "application/pdf",
+    "content_sha256": "b5b833037d5362e17720621503999d2995ae94bcb5e1502a6ad12348d52fa534",
+    "perma_url": "https://perma.cc/4CVX-Z9Y2",
+    "wayback_url": "https://web.archive.org/web/20260706185225/https://www.legis.iowa.gov/docs/code/13C.pdf",
+    "captured_at": "2026-07-06T18:51:59.555495+00:00",
+    "signed": true,
+    "tls_chain_unverified": false
+  },
+  {
+    "source_url": "https://www.legis.iowa.gov/docs/code/633A.5107.pdf",
+    "primary": false,
+    "local_path": "IA/www.legis.iowa.gov-docs-code-633A.5107.pdf.pdf",
+    "content_type": "application/pdf",
+    "content_sha256": "463ce9b72179770a847b94ab652115eece586e9f9d14639567634491cfe1c206",
+    "perma_url": "https://perma.cc/PBK4-CKQ7",
+    "wayback_url": null,
+    "captured_at": "2026-07-06T18:51:59.555495+00:00",
+    "signed": true,
+    "tls_chain_unverified": false
+  },
+  {
+    "source_url": "https://www.legis.iowa.gov/docs/code/633A.pdf",
+    "primary": false,
+    "local_path": "IA/www.legis.iowa.gov-docs-code-633A.pdf.pdf",
+    "content_type": "application/pdf",
+    "content_sha256": "8d8e663c37bf35438078cda43dae6a5006fc85a1bb4976377f08c62598cdcdf6",
+    "perma_url": "https://perma.cc/CUL6-DWLU",
+    "wayback_url": "https://web.archive.org/web/20260527170606/https://www.legis.iowa.gov/docs/code/633A.pdf",
+    "captured_at": "2026-07-06T18:51:59.555495+00:00",
+    "signed": true,
+    "tls_chain_unverified": false
+  },
+  {
+    "source_url": "https://www.legis.iowa.gov/docs/code/714.16.pdf",
+    "primary": false,
+    "local_path": "IA/www.legis.iowa.gov-docs-code-714.16.pdf.pdf",
+    "content_type": "application/pdf",
+    "content_sha256": "ecd0c9f5006f6ebf4d9ad76ab7827720b11a1d2e0a79e3f9e6144714299cf06f",
+    "perma_url": "https://perma.cc/F8AG-VSYV",
+    "wayback_url": "https://web.archive.org/web/20260706185335/https://www.legis.iowa.gov/docs/code/714.16.pdf",
+    "captured_at": "2026-07-06T18:51:59.555495+00:00",
+    "signed": true,
+    "tls_chain_unverified": false
   }
 ]
