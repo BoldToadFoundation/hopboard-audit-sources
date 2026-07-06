@@ -57,13 +57,15 @@
     "source_url": "https://www.in.gov/attorneygeneral/consumer-protection-division/charities-and-donors/charitable-fundraising/",
     "primary": false,
     "local_path": "IN/www.in.gov-attorneygeneral-consumer-protection-division-charities-and-donors-cha.html",
-    "content_type": "text/html; charset=UTF-8",
+    "content_type": "text/html",
     "content_sha256": "97accd56b9cf7f2adf5baff93e7a034d6ce4fd6f84b636657be08bce4c8c2801",
-    "perma_url": "https://perma.cc/BVL9-2CA5",
+    "perma_url": null,
     "wayback_url": null,
-    "captured_at": "2026-07-06T18:51:15.270883+00:00",
+    "captured_at": "2026-07-06T19:05:46.100726+00:00",
     "signed": true,
-    "tls_chain_unverified": false
+    "tls_chain_unverified": false,
+    "ingested_from_file": true,
+    "provenance": "IN Reader B agent browser-UA fetch 2026-07-06, sha256 in its report (97accd56...); script-UA capture returned a partial/consent variant lacking the admission text (iga.in.gov serves a JS shell to non-browser UAs even on .pdf routes \u2014 capture-tool UA gap, rowed)"
   },
   {
     "source_url": "https://www.in.gov/attorneygeneral/consumer-protection-division/charities-and-donors/charitable-giving/",
