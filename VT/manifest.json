@@ -14,6 +14,20 @@
     "provenance": "ago.vermont.gov WAF 403s non-browser UAs; bytes fetched same-day (2026-07-06) by the VT Reader B agent with a browser UA, sha256 cross-checked against its report (6ac7cedb...1821368b prefix)"
   },
   {
+    "source_url": "https://ago.vermont.gov/sites/ago/files/wp-content/uploads/2018/03/CP-Rule-119.pdf",
+    "primary": false,
+    "local_path": "VT/ago.vermont.gov-sites-ago-files-wp-content-uploads-2018-03-CP-Rule-119.pdf.pdf",
+    "content_type": "application/pdf",
+    "content_sha256": "02b19175a87852a53667673c70e2732b1f67500e6654b539a178ef461c8489b3",
+    "perma_url": null,
+    "wayback_url": null,
+    "captured_at": "2026-07-06T19:02:01.600715+00:00",
+    "signed": true,
+    "tls_chain_unverified": false,
+    "ingested_from_file": true,
+    "provenance": "ago.vermont.gov WAF 403s non-browser UAs; bytes fetched same-day (2026-07-06) by the VT Reader A agent with a browser UA, sha256 cross-checked against its report (02b19175... prefix)"
+  },
+  {
     "source_url": "https://legislature.vermont.gov/statutes/section/09/063/02471",
     "primary": true,
     "local_path": "VT/legislature.vermont.gov-statutes-section-09-063-02471.html",
