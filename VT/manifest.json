@@ -1,5 +1,19 @@
 [
   {
+    "source_url": "https://ago.vermont.gov/sites/ago/files/2025-11/Chritable-Nonprofit-Board-Guidance.pdf",
+    "primary": false,
+    "local_path": "VT/ago.vermont.gov-sites-ago-files-2025-11-Chritable-Nonprofit-Board-Guidance.pdf.pdf",
+    "content_type": "application/pdf",
+    "content_sha256": "6ac7cedbdf071012a63d1cc33c2887432c59d2d483d27d8a153527011821368b",
+    "perma_url": null,
+    "wayback_url": null,
+    "captured_at": "2026-07-06T19:01:47.177006+00:00",
+    "signed": true,
+    "tls_chain_unverified": false,
+    "ingested_from_file": true,
+    "provenance": "ago.vermont.gov WAF 403s non-browser UAs; bytes fetched same-day (2026-07-06) by the VT Reader B agent with a browser UA, sha256 cross-checked against its report (6ac7cedb...1821368b prefix)"
+  },
+  {
     "source_url": "https://legislature.vermont.gov/statutes/section/09/063/02471",
     "primary": true,
     "local_path": "VT/legislature.vermont.gov-statutes-section-09-063-02471.html",
