@@ -1,0 +1,74 @@
+[
+  {
+    "source_url": "https://ag.louisiana.gov/Charities",
+    "primary": false,
+    "local_path": "LA/ag.louisiana.gov-Charities.html",
+    "content_type": "text/html; charset=utf-8",
+    "content_sha256": "8a36b111449f53b7da38912f470f5137159d9cfa0078b67e922aa7a2d968a5ec",
+    "perma_url": "https://perma.cc/9Z4J-2D8Q",
+    "wayback_url": "https://web.archive.org/web/20260706184847/https://ag.louisiana.gov/Charities",
+    "captured_at": "2026-07-06T18:46:24.227150+00:00",
+    "signed": true,
+    "tls_chain_unverified": false
+  },
+  {
+    "source_url": "https://ag.louisiana.gov/Files/Article/70/Documents/CharitableExemptionForm.pdf",
+    "primary": false,
+    "local_path": "LA/ag.louisiana.gov-Files-Article-70-Documents-CharitableExemptionForm.pdf.pdf",
+    "content_type": "application/pdf",
+    "content_sha256": "4b115c3cbf9ead522f41d3a159057b109e6804fd7276013a694ae9a1227eed97",
+    "perma_url": "https://perma.cc/T8JX-UD4N",
+    "wayback_url": null,
+    "captured_at": "2026-07-06T18:46:24.227150+00:00",
+    "signed": true,
+    "tls_chain_unverified": false
+  },
+  {
+    "source_url": "https://legis.la.gov/legis/Law.aspx?d=104159",
+    "primary": true,
+    "local_path": "LA/legis.la.gov-legis-Law.aspx-d-104159.html",
+    "content_type": "text/html; charset=utf-8",
+    "content_sha256": "43c7577259646def4dfc3e990f068c59b93e580f36b65929f8154919f7919fb0",
+    "perma_url": "https://perma.cc/KWB5-SQ4Q",
+    "wayback_url": null,
+    "captured_at": "2026-07-06T18:46:24.227150+00:00",
+    "signed": true,
+    "tls_chain_unverified": false
+  },
+  {
+    "source_url": "https://legis.la.gov/legis/Law.aspx?d=104160",
+    "primary": false,
+    "local_path": "LA/legis.la.gov-legis-Law.aspx-d-104160.html",
+    "content_type": "text/html; charset=utf-8",
+    "content_sha256": "b95127d16267c0cc0f64e7d09af66c60646432288bc2bd264c9f4ff3cb474a8e",
+    "perma_url": "https://perma.cc/24V5-4NJR",
+    "wayback_url": "https://web.archive.org/web/20260706184719/https://legis.la.gov/legis/Law.aspx?d=104160",
+    "captured_at": "2026-07-06T18:46:24.227150+00:00",
+    "signed": true,
+    "tls_chain_unverified": false
+  },
+  {
+    "source_url": "https://legis.la.gov/legis/Law.aspx?d=1295769",
+    "primary": false,
+    "local_path": "LA/legis.la.gov-legis-Law.aspx-d-1295769.html",
+    "content_type": "text/html; charset=utf-8",
+    "content_sha256": "2db6a99a99f1e4f33751b7560e7749394e70b9f70324e538bd277e68dd2f910e",
+    "perma_url": "https://perma.cc/NAN2-PKN5",
+    "wayback_url": null,
+    "captured_at": "2026-07-06T18:46:24.227150+00:00",
+    "signed": true,
+    "tls_chain_unverified": false
+  },
+  {
+    "source_url": "https://www.doa.la.gov/media/oz2lmv1v/16.docx",
+    "primary": false,
+    "local_path": "LA/www.doa.la.gov-media-oz2lmv1v-16.docx.docx",
+    "content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+    "content_sha256": "6b72ddf3e311759b3c8d7641640c7f4811c39deaac740974f6c4d5d2702dc754",
+    "perma_url": "https://perma.cc/SY9E-R59B",
+    "wayback_url": "https://web.archive.org/web/20260706184836/https://www.doa.la.gov/media/oz2lmv1v/16.docx",
+    "captured_at": "2026-07-06T18:46:24.227150+00:00",
+    "signed": true,
+    "tls_chain_unverified": false
+  }
+]
