@@ -675,5 +675,44 @@
  "9FX3-Q6SE": {
   "source_url": "https://iga.in.gov/ic/2026/Title_23/Article_7/Chapter_8.pdf",
   "skip": "VOID \u2014 SUPERSEDED (batch-2 2026-07-06): iga.in.gov served its JS app shell to the capture tool's UA even on the .pdf route; this perma archived SHELL bytes, NOT the statute. Do not verify against. Authoritative bytes = the same-day from-file ingest (sha256 1796235...) fetched by the IN Reader A agent with a browser UA. Capture-tool UA gap rowed in RECHECK_LEDGER."
+ },
+ "K7TX-LEBM": {
+  "source_url": "https://revisor.mo.gov/main/OneSection.aspx?section=407.453",
+  "strings": [
+   "does business in this state or holds property in this state"
+  ],
+  "note": "verified byte-present against the LOCAL archived artifact 2026-07-06 (batch-2 crank)"
+ },
+ "Q8ZA-SB4H": {
+  "source_url": "https://revisor.mo.gov/main/OneSection.aspx?section=407.466",
+  "strings": [
+   "fee of fifty dollars"
+  ],
+  "note": "verified byte-present against the LOCAL archived artifact 2026-07-06 (batch-2 crank)"
+ },
+ "Z98J-U2XU": {
+  "source_url": "https://revisor.mo.gov/main/OneSection.aspx?section=407.475",
+  "strings": [
+   "more stringent, restrictive, or expansive"
+  ],
+  "note": "verified byte-present against the LOCAL archived artifact 2026-07-06 (batch-2 crank)"
+ },
+ "4PNK-UU8N": {
+  "source_url": "https://www.sos.mo.gov/cmsimages/adrules/csr/current/15csr/15c60-3.pdf",
+  "skip": "PDF tier (documented skip, batch-2 2026-07-06): strings 'may submit to the attorney general' (60-3.080 optional exemption letter) + 'seventy-five (75) days' (60-3.100 annual report) byte-verified via pdftotext against the LOCAL artifact; awaits E5 wiring."
+ },
+ "U6JF-5NYJ": {
+  "source_url": "https://legislature.vermont.gov/statutes/section/09/063/02472",
+  "strings": [
+   "shall disclose"
+  ],
+  "note": "verified byte-present against the LOCAL archived artifact 2026-07-06 (batch-2 crank)"
+ },
+ "Q586-SMFN": {
+  "source_url": "https://legislature.vermont.gov/statutes/section/09/063/02477",
+  "strings": [
+   "financial report"
+  ],
+  "note": "verified byte-present against the LOCAL archived artifact 2026-07-06 (batch-2 crank)"
  }
 }
