@@ -1,5 +1,89 @@
 [
   {
+    "source_url": "https://ago.mo.gov/get-help/programs-services-from-a-z/charity/for-nonprofits/registration-faqs/",
+    "primary": false,
+    "local_path": "MO/ago.mo.gov-get-help-programs-services-from-a-z-charity-for-nonprofits-registrati.html",
+    "content_type": "text/html; charset=UTF-8",
+    "content_sha256": "f7c524c2570a6e7d0f78aee6e9cdc93be327c0abb1878df9873040aeeb5fcb8f",
+    "perma_url": "https://perma.cc/6FKW-NJJX",
+    "wayback_url": null,
+    "captured_at": "2026-07-06T18:36:26.031426+00:00",
+    "signed": true,
+    "tls_chain_unverified": false
+  },
+  {
+    "source_url": "https://ago.mo.gov/wp-content/uploads/charityinitialCH.pdf",
+    "primary": false,
+    "local_path": "MO/ago.mo.gov-wp-content-uploads-charityinitialCH.pdf.pdf",
+    "content_type": "application/pdf",
+    "content_sha256": "d805eafeceee36cecd6a93e14b60014ebdcaf54838afa207442951b95d1565cb",
+    "perma_url": "https://perma.cc/RTQ9-SZN8",
+    "wayback_url": null,
+    "captured_at": "2026-07-06T18:36:26.031426+00:00",
+    "signed": true,
+    "tls_chain_unverified": false
+  },
+  {
+    "source_url": "https://revisor.mo.gov/main/OneSection.aspx?section=407.453",
+    "primary": false,
+    "local_path": "MO/revisor.mo.gov-main-OneSection.aspx-section-407.453.html",
+    "content_type": "text/html; charset=utf-8",
+    "content_sha256": "b7f043019ee8f2c49b23d14a0e4faf2aef0f4d37901d097ef6a32a03ee9e8aff",
+    "perma_url": "https://perma.cc/K7TX-LEBM",
+    "wayback_url": "https://web.archive.org/web/20260706183723/https://revisor.mo.gov/main/OneSection.aspx?section=407.453",
+    "captured_at": "2026-07-06T18:36:26.031426+00:00",
+    "signed": true,
+    "tls_chain_unverified": false
+  },
+  {
+    "source_url": "https://revisor.mo.gov/main/OneSection.aspx?section=407.456",
+    "primary": true,
+    "local_path": "MO/revisor.mo.gov-main-OneSection.aspx-section-407.456.html",
+    "content_type": "text/html; charset=utf-8",
+    "content_sha256": "9710b710e26364ee2e5fe395f44d6dd1b6b0298c0712a5f78436377036a9bc40",
+    "perma_url": "https://perma.cc/Q3SM-3EUC",
+    "wayback_url": null,
+    "captured_at": "2026-07-06T18:36:26.031426+00:00",
+    "signed": true,
+    "tls_chain_unverified": false
+  },
+  {
+    "source_url": "https://revisor.mo.gov/main/OneSection.aspx?section=407.462",
+    "primary": false,
+    "local_path": "MO/revisor.mo.gov-main-OneSection.aspx-section-407.462.html",
+    "content_type": "text/html; charset=utf-8",
+    "content_sha256": "34f6f3a569b2e344f2dda329b0072154980a378f59ddd837eabc4a37afadc226",
+    "perma_url": "https://perma.cc/VU65-UNF9",
+    "wayback_url": "https://web.archive.org/web/20260706183745/https://revisor.mo.gov/main/OneSection.aspx?section=407.462",
+    "captured_at": "2026-07-06T18:36:26.031426+00:00",
+    "signed": true,
+    "tls_chain_unverified": false
+  },
+  {
+    "source_url": "https://revisor.mo.gov/main/OneSection.aspx?section=407.466",
+    "primary": false,
+    "local_path": "MO/revisor.mo.gov-main-OneSection.aspx-section-407.466.html",
+    "content_type": "text/html; charset=utf-8",
+    "content_sha256": "c1c82f050edb6485476af2e03c0ffc35697d6d3a81ef1093dc1bb2729211fea2",
+    "perma_url": "https://perma.cc/Q8ZA-SB4H",
+    "wayback_url": "https://web.archive.org/web/20260706183806/https://revisor.mo.gov/main/OneSection.aspx?section=407.466",
+    "captured_at": "2026-07-06T18:36:26.031426+00:00",
+    "signed": true,
+    "tls_chain_unverified": false
+  },
+  {
+    "source_url": "https://revisor.mo.gov/main/OneSection.aspx?section=407.475",
+    "primary": false,
+    "local_path": "MO/revisor.mo.gov-main-OneSection.aspx-section-407.475.html",
+    "content_type": "text/html; charset=utf-8",
+    "content_sha256": "e194216a1587a3142965e50a35d369a0d5b1a98b405fdad65b0df9acacbf4cd5",
+    "perma_url": "https://perma.cc/Z98J-U2XU",
+    "wayback_url": null,
+    "captured_at": "2026-07-06T18:36:26.031426+00:00",
+    "signed": true,
+    "tls_chain_unverified": false
+  },
+  {
     "source_url": "https://web.archive.org/web/20260521135408/https://revisor.mo.gov/main/OneSection.aspx?section=355.857",
     "primary": false,
     "local_path": "MO/web.archive.org-web-20260521135408-https-revisor.mo.gov-main-OneSection.aspx-sec.html",
@@ -12,5 +96,17 @@
     "tls_chain_unverified": false,
     "ingested_from_file": true,
     "provenance": "wayback_snapshot re-homing 2026-06-12: id_ raw-variant fetch of the verification row's archive_snapshot_url; load-bearing content byte-grepped at fetch ('355\\.857': 12 hits); shell-signature sweep (extended 2026-06-12) clean; converts the Wayback-only row to local-backed per the 2026-06-11 local-artifact-required standard"
+  },
+  {
+    "source_url": "https://www.sos.mo.gov/cmsimages/adrules/csr/current/15csr/15c60-3.pdf",
+    "primary": false,
+    "local_path": "MO/www.sos.mo.gov-cmsimages-adrules-csr-current-15csr-15c60-3.pdf.pdf",
+    "content_type": "application/pdf",
+    "content_sha256": "8fe4b499b6fd743736412c779ac59624f8c19da4a977d7c24e60296c1b963049",
+    "perma_url": "https://perma.cc/4PNK-UU8N",
+    "wayback_url": null,
+    "captured_at": "2026-07-06T18:36:26.031426+00:00",
+    "signed": true,
+    "tls_chain_unverified": false
   }
 ]
