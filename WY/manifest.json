@@ -1,0 +1,74 @@
+[
+  {
+    "source_url": "https://attorneygeneral.wyo.gov/law-office-division/consumer-protection-and-antitrust-unit/telephone-solicitation",
+    "primary": false,
+    "local_path": "WY/attorneygeneral.wyo.gov-law-office-division-consumer-protection-and-antitrust-un.html",
+    "content_type": "text/html; charset=utf-8",
+    "content_sha256": "70981b7d3de678fa76e695dbc26ff2fbe50ba9b272211c6bad6b182370741215",
+    "perma_url": null,
+    "wayback_url": "https://web.archive.org/web/20260706190017/https://attorneygeneral.wyo.gov/law-office-division/consumer-protection-and-antitrust-unit/telephone-solicitation",
+    "captured_at": "2026-07-06T18:57:31.120981+00:00",
+    "signed": true,
+    "tls_chain_unverified": false
+  },
+  {
+    "source_url": "https://sos.wyo.gov/Business/docs/BusinessFees.pdf",
+    "primary": false,
+    "local_path": "WY/sos.wyo.gov-Business-docs-BusinessFees.pdf.pdf",
+    "content_type": "application/pdf",
+    "content_sha256": "bbaefb74edfa885839a01317dfb79006e81d200e47b6d876ded223eadc97bc8b",
+    "perma_url": null,
+    "wayback_url": null,
+    "captured_at": "2026-07-06T18:57:31.120981+00:00",
+    "signed": true,
+    "tls_chain_unverified": false
+  },
+  {
+    "source_url": "https://sos.wyo.gov/faqs.aspx?root=BUS",
+    "primary": false,
+    "local_path": "WY/sos.wyo.gov-faqs.aspx-root-BUS.html",
+    "content_type": "text/html; charset=utf-8",
+    "content_sha256": "f41d4c186cd5d2b9ba3c5f69fda18ddcce765cb7d087e5827f8b8d1c28398846",
+    "perma_url": "https://perma.cc/VG2X-AXXH",
+    "wayback_url": null,
+    "captured_at": "2026-07-06T18:57:31.120981+00:00",
+    "signed": true,
+    "tls_chain_unverified": false
+  },
+  {
+    "source_url": "https://wyoleg.gov/statutes/compress/title06.pdf",
+    "primary": false,
+    "local_path": "WY/wyoleg.gov-statutes-compress-title06.pdf.pdf",
+    "content_type": "application/pdf",
+    "content_sha256": "302324beb959ac13d3492d2e28d743b8a77b4c166347dd7f8927419d469b658a",
+    "perma_url": "https://perma.cc/Y6VK-2ZZH",
+    "wayback_url": "https://web.archive.org/web/20260706185821/https://wyoleg.gov/statutes/compress/title06.pdf",
+    "captured_at": "2026-07-06T18:57:31.120981+00:00",
+    "signed": true,
+    "tls_chain_unverified": false
+  },
+  {
+    "source_url": "https://wyoleg.gov/statutes/compress/title11.pdf",
+    "primary": false,
+    "local_path": "WY/wyoleg.gov-statutes-compress-title11.pdf.pdf",
+    "content_type": "application/pdf",
+    "content_sha256": "68f78b4ee97c0320e63f69b4e3e5d45518fd409be70bffda4b6f8e1dcd2fbcf4",
+    "perma_url": "https://perma.cc/C2NY-CNF6",
+    "wayback_url": "https://web.archive.org/web/20260630044205/https://wyoleg.gov/statutes/compress/title11.pdf",
+    "captured_at": "2026-07-06T18:57:31.120981+00:00",
+    "signed": true,
+    "tls_chain_unverified": false
+  },
+  {
+    "source_url": "https://wyoleg.gov/statutes/compress/title40.pdf",
+    "primary": true,
+    "local_path": "WY/wyoleg.gov-statutes-compress-title40.pdf.pdf",
+    "content_type": "application/pdf",
+    "content_sha256": "2a7e997e4a18abb2eb8cc0f0a50f2ec030c338d9edbba3e82958399f05c1e301",
+    "perma_url": "https://perma.cc/F49K-SNC9",
+    "wayback_url": null,
+    "captured_at": "2026-07-06T18:57:31.120981+00:00",
+    "signed": true,
+    "tls_chain_unverified": false
+  }
+]
