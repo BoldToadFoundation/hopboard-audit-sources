@@ -1,0 +1,74 @@
+[
+  {
+    "source_url": "https://consumer.sd.gov/docs/charities.pdf",
+    "primary": false,
+    "local_path": "SD/consumer.sd.gov-docs-charities.pdf.pdf",
+    "content_type": "application/pdf",
+    "content_sha256": "db43f4708455a31f552b3015f9620859734a5c3ff361bebae98e6e6ef0325cc7",
+    "perma_url": "https://perma.cc/SY7N-FQCW",
+    "wayback_url": "https://web.archive.org/web/20251010201821/https://consumer.sd.gov/docs/charities.pdf",
+    "captured_at": "2026-07-06T18:43:55.001777+00:00",
+    "signed": true,
+    "tls_chain_unverified": false
+  },
+  {
+    "source_url": "https://consumer.sd.gov/fastfacts/charity.aspx",
+    "primary": false,
+    "local_path": "SD/consumer.sd.gov-fastfacts-charity.aspx.html",
+    "content_type": "text/html; charset=utf-8",
+    "content_sha256": "a230e4f7f6bfd25db6c488101671a0ae9cdb01ddda92418a1e29af72d81ec872",
+    "perma_url": "https://perma.cc/6PD9-AVWC",
+    "wayback_url": "https://web.archive.org/web/20260412195627/https://consumer.sd.gov/fastfacts/charity.aspx",
+    "captured_at": "2026-07-06T18:43:55.001777+00:00",
+    "signed": true,
+    "tls_chain_unverified": false
+  },
+  {
+    "source_url": "https://sdlegislature.gov/api/Rules/Rule/20:11.html?all=true",
+    "primary": false,
+    "local_path": "SD/sdlegislature.gov-api-Rules-Rule-20-11.html-all-true.html",
+    "content_type": "text/html; charset=utf-16",
+    "content_sha256": "73d215fc979234d3b2fe8628f4ffb121d4da2acda4040b45e341c024b4b9fe3a",
+    "perma_url": "https://perma.cc/5R7P-8FDC",
+    "wayback_url": "https://web.archive.org/web/20260706184540/https://sdlegislature.gov/api/Rules/Rule/20:11.html?all=true",
+    "captured_at": "2026-07-06T18:43:55.001777+00:00",
+    "signed": true,
+    "tls_chain_unverified": false
+  },
+  {
+    "source_url": "https://sdlegislature.gov/api/Statutes/37-27.html?all=true",
+    "primary": true,
+    "local_path": "SD/sdlegislature.gov-api-Statutes-37-27.html-all-true.html",
+    "content_type": "text/html; charset=utf-16",
+    "content_sha256": "f36a2e8a1d47b96bbfabe938632daf196590c54779d2c48652e328e4fd23d737",
+    "perma_url": "https://perma.cc/7AHD-4KUF",
+    "wayback_url": "https://web.archive.org/web/20260706184404/https://sdlegislature.gov/api/Statutes/37-27.html?all=true",
+    "captured_at": "2026-07-06T18:43:55.001777+00:00",
+    "signed": true,
+    "tls_chain_unverified": false
+  },
+  {
+    "source_url": "https://sdlegislature.gov/api/Statutes/37-30.html?all=true",
+    "primary": false,
+    "local_path": "SD/sdlegislature.gov-api-Statutes-37-30.html-all-true.html",
+    "content_type": "text/html; charset=utf-16",
+    "content_sha256": "1e959530007e4d94085d5ba747365a3205b6816278233704b2fe8d5b7613473d",
+    "perma_url": "https://perma.cc/JW68-X843",
+    "wayback_url": "https://web.archive.org/web/20260706184422/https://sdlegislature.gov/api/Statutes/37-30.html?all=true",
+    "captured_at": "2026-07-06T18:43:55.001777+00:00",
+    "signed": true,
+    "tls_chain_unverified": false
+  },
+  {
+    "source_url": "https://sdlegislature.gov/api/Statutes/37-30A.html?all=true",
+    "primary": false,
+    "local_path": "SD/sdlegislature.gov-api-Statutes-37-30A.html-all-true.html",
+    "content_type": "text/html; charset=utf-16",
+    "content_sha256": "97260dabd9171c82ef01e493f83897239cc6eef350127b7f60cca881599fb3f1",
+    "perma_url": "https://perma.cc/L94T-58FM",
+    "wayback_url": null,
+    "captured_at": "2026-07-06T18:43:55.001777+00:00",
+    "signed": true,
+    "tls_chain_unverified": false
+  }
+]
