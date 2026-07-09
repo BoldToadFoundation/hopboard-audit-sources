@@ -1,7 +1,7 @@
 [
   {
     "source_url": "https://sos.sc.gov/online-filings/charities-pfrs-and-raffles/charities",
-    "primary": true,
+    "primary": false,
     "local_path": "SC/sos.sc.gov-online-filings-charities-pfrs-and-raffles-charities.html",
     "content_type": "text/html; charset=UTF-8",
     "content_sha256": "1d577dd25ded1368ce7810be0f075d9ca4626804d3611bee98b28bed45c7b3ae",
@@ -73,7 +73,7 @@
   },
   {
     "source_url": "https://www.scstatehouse.gov/code/t33c056.php",
-    "primary": false,
+    "primary": true,
     "local_path": "SC/www.scstatehouse.gov-code-t33c056.php.html",
     "content_type": "text/html; charset=UTF-8",
     "content_sha256": "7cf823dc9ce97e81c6d4043a56be35e8d8c7fa3ee4fea494d4ad17653e1ad4b8",
