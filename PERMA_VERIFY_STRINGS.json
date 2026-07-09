@@ -752,6 +752,22 @@
     "L94T-58FM": {
       "source_url": "https://sdlegislature.gov/api/Statutes/37-30A.html?all=true",
       "skip": "utf-16 tier \u2014 WARC utf-8 grep cannot reach it (sdlegislature.gov API). Secondary/corroborative source for SD reg=FALSE (https://sdlegislature.gov/api/Statutes/37-30A.html?all=true); load-bearing verification is on the by_sha256 primary."
+    },
+    "BW5Q-GGSE": {
+      "source_url": "https://code.wvlegislature.gov/29-19-5/",
+      "strings": [
+        "good for one full year",
+        "refiled in the next and each following year"
+      ],
+      "basis": "re-homed from stale perma G44L-753L 2026-07-09 (WV artifact re-Perma'd post-apply; GUID re-keyed, content unchanged) \u2014 operative ANNUAL-cycle finding, F1; local WV/code.wvlegislature.gov-29-19-5.html"
+    },
+    "AWC9-75N5": {
+      "source_url": "https://code.wvlegislature.gov/29-19-6/",
+      "strings": [
+        "in excess of $50,000 during a calendar year",
+        "days after contributions are in excess of $50,000"
+      ],
+      "basis": "re-homed from stale perma B7PE-3LZK 2026-07-09 (GUID re-keyed, content unchanged) \u2014 $50k exemption threshold + 30-day tripwire; local WV/code.wvlegislature.gov-29-19-6.html"
     }
   },
   "by_sha256": {
