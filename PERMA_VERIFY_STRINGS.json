@@ -248,22 +248,6 @@
       "source_url": "https://rules.sos.ri.gov/organizations/subchapter/230-50-05",
       "skip": "rules.sos.ri.gov is a JS-SPA; captured page = Securities subchapter 230-50-05, visible text a shell (part-list in embedded JSON, removed by strip_tags). Override-by-rule ABSENCE (no Charities subchapter under ch.230-RICR-50; only Securities+Franchises) is established by the LIVE portal navigation structure + domain-restricted search, recorded in scripts/phase_b_audits/RI.sql FINDING 2 + docs/RI_PRE_AUDIT_MEMO.md \u00a710 \u2014 NOT by this frozen page. Supporting context only; not load-bearing for any verified spec value (supports the override-by-rule residual closure). RI audit 2026-06-21."
     },
-    "G44L-753L": {
-      "source_url": "https://code.wvlegislature.gov/29-19-5/",
-      "strings": [
-        "good for one full year",
-        "refiled in the next and each following year"
-      ],
-      "basis": "strings verified present in local artifact WV/code.wvlegislature.gov-29-19-5.html (the operative ANNUAL-cycle finding, F1)"
-    },
-    "B7PE-3LZK": {
-      "source_url": "https://code.wvlegislature.gov/29-19-6/",
-      "strings": [
-        "in excess of $50,000 during a calendar year",
-        "days after contributions are in excess of $50,000"
-      ],
-      "basis": "strings verified present in local artifact WV/code.wvlegislature.gov-29-19-6.html ($50k exemption threshold + 30-day tripwire)"
-    },
     "9AYR-MDUY": {
       "source_url": "https://nebraskalegislature.gov/laws/statutes.php?statute=28-1440",
       "strings": [
@@ -686,10 +670,6 @@
       "source_url": "https://sdlegislature.gov/api/Statutes/37-27.html?all=true",
       "skip": "UTF-16 tier (documented skip, batch-2 2026-07-06): sdlegislature.gov API serves text/html;charset=utf-16 \u2014 v1 utf-8 text-grep cannot reach it; string 'Repealed by SL 1984, ch 260' byte-verified via iconv against the LOCAL artifact. Same E5 class as PDF/DOCX/JSON."
     },
-    "9FX3-Q6SE": {
-      "source_url": "https://iga.in.gov/ic/2026/Title_23/Article_7/Chapter_8.pdf",
-      "skip": "VOID \u2014 SUPERSEDED (batch-2 2026-07-06): iga.in.gov served its JS app shell to the capture tool's UA even on the .pdf route; this perma archived SHELL bytes, NOT the statute. Do not verify against. Authoritative bytes = the same-day from-file ingest (sha256 1796235...) fetched by the IN Reader A agent with a browser UA. Capture-tool UA gap rowed in RECHECK_LEDGER."
-    },
     "K7TX-LEBM": {
       "source_url": "https://revisor.mo.gov/main/OneSection.aspx?section=407.453",
       "strings": [
@@ -728,10 +708,6 @@
         "financial report"
       ],
       "note": "verified byte-present against the LOCAL archived artifact 2026-07-06 (batch-2 crank)"
-    },
-    "TLM5-QQZD": {
-      "source_url": "https://iga.in.gov/ic/2026/Title_24/Article_4.7/Chapter_1.pdf",
-      "skip": "corroborative secondary for IN reg=FALSE (https://iga.in.gov/ic/2026/Title_24/Article_4.7/Chapter_1.pdf); not the load-bearing artifact \u2014 the reg=FALSE finding rests on the by_sha256-anchored primary statute + the crank's exhaustive corpus enumeration. String-verification of this secondary skipped (documented, session-6 A8)."
     },
     "94PT-UNF2": {
       "source_url": "https://www.in.gov/dor/business-tax/nonprofit-tax-forms/",
