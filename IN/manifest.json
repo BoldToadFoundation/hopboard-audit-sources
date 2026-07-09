@@ -2,16 +2,16 @@
   {
     "source_url": "https://iga.in.gov/ic/2026/Title_23/Article_17/Chapter_25.5.pdf",
     "primary": false,
-    "local_path": "IN/iga.in.gov-ic-2026-Title_23-Article_17-Chapter_25.5.pdf.5.pdf",
+    "local_path": "IN/iga.in.gov-ic-2026-Title_23-Article_17-Chapter_25.5.pdf.pdf",
     "content_type": "application/pdf",
     "content_sha256": "62b46738e952eb3734b90a86d0ac6429460888bf6b8e52d8723f2711d4d56aae",
     "perma_url": null,
     "wayback_url": null,
-    "captured_at": "2026-07-06T19:05:46.008091+00:00",
+    "captured_at": "2026-07-09T13:46:35.982469+00:00",
     "signed": true,
     "tls_chain_unverified": false,
     "ingested_from_file": true,
-    "provenance": "IN Reader A agent browser-UA fetch 2026-07-06, sha256 matches its report (62b46738...) (iga.in.gov serves a JS shell to non-browser UAs even on .pdf routes \u2014 capture-tool UA gap, rowed)"
+    "provenance": "capture-fix 2026-07-09 (session-6 A8): the .pdf URL captured a JS shell under the audit bot-UA (iga.in.gov serves PDFs behind a JS shell, same UA-gating as IC 23-7-8); re-fetched the REAL PDF via browser-UA curl (verified %PDF header + pdftotext content) + --from-file. Corroborative secondary IC chapter."
   },
   {
     "source_url": "https://iga.in.gov/ic/2026/Title_23/Article_7/Chapter_8.pdf",
@@ -31,13 +31,15 @@
     "source_url": "https://iga.in.gov/ic/2026/Title_24/Article_4.7/Chapter_1.pdf",
     "primary": false,
     "local_path": "IN/iga.in.gov-ic-2026-Title_24-Article_4.7-Chapter_1.pdf.pdf",
-    "content_type": "text/html",
-    "content_sha256": "5086aca72ec509c1a90810d1f0c746bec5851c0cf09b478b864fc84499c61046",
-    "perma_url": "https://perma.cc/TLM5-QQZD",
-    "wayback_url": "https://web.archive.org/web/20260706185138/https://iga.in.gov/ic/2026/Title_24/Article_4.7/Chapter_1.pdf",
-    "captured_at": "2026-07-06T18:51:15.270883+00:00",
+    "content_type": "application/pdf",
+    "content_sha256": "a4ac8c9d22c911d3f2959836e5e5252a86f6a7c948feb1c15e8ed61a73a0b4fd",
+    "perma_url": null,
+    "wayback_url": null,
+    "captured_at": "2026-07-09T13:46:36.061117+00:00",
     "signed": true,
-    "tls_chain_unverified": false
+    "tls_chain_unverified": false,
+    "ingested_from_file": true,
+    "provenance": "capture-fix 2026-07-09 (session-6 A8): the .pdf URL captured a JS shell under the audit bot-UA (iga.in.gov serves PDFs behind a JS shell, same UA-gating as IC 23-7-8); re-fetched the REAL PDF via browser-UA curl (verified %PDF header + pdftotext content) + --from-file. Corroborative secondary IC chapter."
   },
   {
     "source_url": "https://web.archive.org/web/20260519002526/https://inbiz.in.gov/business-filings/business-entityreport",
