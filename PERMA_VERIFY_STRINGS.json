@@ -728,6 +728,54 @@
         "financial report"
       ],
       "note": "verified byte-present against the LOCAL archived artifact 2026-07-06 (batch-2 crank)"
+    },
+    "TLM5-QQZD": {
+      "source_url": "https://iga.in.gov/ic/2026/Title_24/Article_4.7/Chapter_1.pdf",
+      "skip": "corroborative secondary for IN reg=FALSE (https://iga.in.gov/ic/2026/Title_24/Article_4.7/Chapter_1.pdf); not the load-bearing artifact \u2014 the reg=FALSE finding rests on the by_sha256-anchored primary statute + the crank's exhaustive corpus enumeration. String-verification of this secondary skipped (documented, session-6 A8)."
+    },
+    "94PT-UNF2": {
+      "source_url": "https://www.in.gov/dor/business-tax/nonprofit-tax-forms/",
+      "skip": "corroborative secondary for IN reg=FALSE (https://www.in.gov/dor/business-tax/nonprofit-tax-forms/); not the load-bearing artifact \u2014 the reg=FALSE finding rests on the by_sha256-anchored primary statute + the crank's exhaustive corpus enumeration. String-verification of this secondary skipped (documented, session-6 A8)."
+    },
+    "P6A7-A9PJ": {
+      "source_url": "https://www.in.gov/dor/files/ib17.pdf",
+      "skip": "pdf payload \u2014 WARC grep is text/html-only (disclosed cut). Secondary/corroborative source for IN reg=FALSE (https://www.in.gov/dor/files/ib17.pdf); the load-bearing verification is the by_sha256-anchored primary statute, not this artifact."
+    },
+    "76UV-R5CQ": {
+      "source_url": "https://www.iowaattorneygeneral.gov/media/cms/FundraiserFormRevised3_D3AFBBE149EAE.pdf",
+      "skip": "pdf payload \u2014 WARC grep is text/html-only (disclosed cut). Secondary/corroborative source for IA reg=FALSE (https://www.iowaattorneygeneral.gov/media/cms/FundraiserFormRevised3_D3AFBBE149EAE.pdf); the load-bearing verification is the by_sha256-anchored primary statute, not this artifact."
+    },
+    "PBK4-CKQ7": {
+      "source_url": "https://www.legis.iowa.gov/docs/code/633A.5107.pdf",
+      "skip": "pdf payload \u2014 WARC grep is text/html-only (disclosed cut). Secondary/corroborative source for IA reg=FALSE (https://www.legis.iowa.gov/docs/code/633A.5107.pdf); the load-bearing verification is the by_sha256-anchored primary statute, not this artifact."
+    },
+    "CUL6-DWLU": {
+      "source_url": "https://www.legis.iowa.gov/docs/code/633A.pdf",
+      "skip": "pdf payload \u2014 WARC grep is text/html-only (disclosed cut). Secondary/corroborative source for IA reg=FALSE (https://www.legis.iowa.gov/docs/code/633A.pdf); the load-bearing verification is the by_sha256-anchored primary statute, not this artifact."
+    },
+    "F8AG-VSYV": {
+      "source_url": "https://www.legis.iowa.gov/docs/code/714.16.pdf",
+      "skip": "pdf payload \u2014 WARC grep is text/html-only (disclosed cut). Secondary/corroborative source for IA reg=FALSE (https://www.legis.iowa.gov/docs/code/714.16.pdf); the load-bearing verification is the by_sha256-anchored primary statute, not this artifact."
+    },
+    "SY7N-FQCW": {
+      "source_url": "https://consumer.sd.gov/docs/charities.pdf",
+      "skip": "pdf payload \u2014 WARC grep is text/html-only (disclosed cut). Secondary/corroborative source for SD reg=FALSE (https://consumer.sd.gov/docs/charities.pdf); the load-bearing verification is the by_sha256-anchored primary statute, not this artifact."
+    },
+    "6PD9-AVWC": {
+      "source_url": "https://consumer.sd.gov/fastfacts/charity.aspx",
+      "skip": "corroborative secondary for SD reg=FALSE (https://consumer.sd.gov/fastfacts/charity.aspx); not the load-bearing artifact \u2014 the reg=FALSE finding rests on the by_sha256-anchored primary statute + the crank's exhaustive corpus enumeration. String-verification of this secondary skipped (documented, session-6 A8)."
+    },
+    "5R7P-8FDC": {
+      "source_url": "https://sdlegislature.gov/api/Rules/Rule/20:11.html?all=true",
+      "skip": "utf-16 tier \u2014 WARC utf-8 grep cannot reach it (sdlegislature.gov API). Secondary/corroborative source for SD reg=FALSE (https://sdlegislature.gov/api/Rules/Rule/20:11.html?all=true); load-bearing verification is on the by_sha256 primary."
+    },
+    "JW68-X843": {
+      "source_url": "https://sdlegislature.gov/api/Statutes/37-30.html?all=true",
+      "skip": "utf-16 tier \u2014 WARC utf-8 grep cannot reach it (sdlegislature.gov API). Secondary/corroborative source for SD reg=FALSE (https://sdlegislature.gov/api/Statutes/37-30.html?all=true); load-bearing verification is on the by_sha256 primary."
+    },
+    "L94T-58FM": {
+      "source_url": "https://sdlegislature.gov/api/Statutes/37-30A.html?all=true",
+      "skip": "utf-16 tier \u2014 WARC utf-8 grep cannot reach it (sdlegislature.gov API). Secondary/corroborative source for SD reg=FALSE (https://sdlegislature.gov/api/Statutes/37-30A.html?all=true); load-bearing verification is on the by_sha256 primary."
     }
   },
   "by_sha256": {
