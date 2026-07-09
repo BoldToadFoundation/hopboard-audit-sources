@@ -1,7 +1,7 @@
 [
   {
     "source_url": "https://www.ksrevisor.gov/statutes/chapters/ch17/017_017_0062.html",
-    "primary": true,
+    "primary": false,
     "local_path": "KS/www.ksrevisor.gov-statutes-chapters-ch17-017_017_0062.html.html",
     "content_type": "text/html",
     "content_sha256": "67cab113db884bd6cf1014923b65b6b561c5c48e2d8b64a5214d3548780f36be",

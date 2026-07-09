@@ -12,7 +12,7 @@
   },
   {
     "source_url": "https://oag.ca.gov/system/files/media/rrf1_form.pdf",
-    "primary": true,
+    "primary": false,
     "local_path": "CA/oag.ca.gov-system-files-media-rrf1_form.pdf.pdf",
     "content_type": "application/pdf",
     "content_sha256": "4a71d7eb06b7aa563fc487fc5f6523a5cfc3c111a1543d331d9fc36a2edea5ea",

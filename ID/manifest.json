@@ -25,7 +25,7 @@
   },
   {
     "source_url": "https://www.ag.idaho.gov/content/uploads/2020/05/ICAPA-Frequently-Asked-Questions.pdf",
-    "primary": true,
+    "primary": false,
     "local_path": "ID/www.ag.idaho.gov-content-uploads-2020-05-ICAPA-Frequently-Asked-Questions.pdf.pdf",
     "content_type": "application/pdf",
     "content_sha256": "fe491062997cd6204abd6db817d09d544b3471a78308bf4c6c1e240433b0357d",
