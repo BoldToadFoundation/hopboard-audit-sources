@@ -32,5 +32,19 @@
     "wayback_url": "https://web.archive.org/web/20260602113538/https://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0400-0499%2F0496%2FSections%2F0496.405.html",
     "captured_at": "2026-06-02T11:35:15.539444+00:00",
     "signed": true
+  },
+  {
+    "source_url": "https://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0400-0499/0496/Sections/0496.407.html",
+    "primary": false,
+    "local_path": "FL/www.leg.state.fl.us-statutes-index.cfm-App_mode-Display_Statute-URL-0400-0499-04-51a524f0.html",
+    "content_type": "text/html",
+    "content_sha256": "44f430e8bbfeea86ca750237e3de84ff3d64a2103f4118d0cf8bb3d94d725e2e",
+    "perma_url": null,
+    "wayback_url": null,
+    "captured_at": "2026-07-10T14:31:19.831550+00:00",
+    "signed": true,
+    "tls_chain_unverified": false,
+    "ingested_from_file": true,
+    "provenance": "curl script-fetch 2026-07-10 (http->https redirect followed; UA Firefox); threshold schedule byte-verified pre-ingest"
   }
 ]
