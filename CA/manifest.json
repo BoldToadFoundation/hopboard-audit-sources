@@ -11,6 +11,18 @@
     "signed": true
   },
   {
+    "source_url": "https://oag.ca.gov/sites/all/files/agweb/pdfs/charities/Sections-300-312.1.pdf",
+    "primary": true,
+    "local_path": "CA/oag.ca.gov-sites-all-files-agweb-pdfs-charities-Sections-300-312.1.pdf.pdf",
+    "content_type": "application/pdf",
+    "content_sha256": "c1c7c9f2a60034694ab3ec29e2f128e87fae7cc58b7e2b64b5983d6239b568e3",
+    "perma_url": "https://perma.cc/D4HD-EHKF",
+    "wayback_url": "https://web.archive.org/web/20260710124551/https://oag.ca.gov/sites/all/files/agweb/pdfs/charities/Sections-300-312.1.pdf",
+    "captured_at": "2026-07-10T12:45:43.443509+00:00",
+    "signed": true,
+    "tls_chain_unverified": false
+  },
+  {
     "source_url": "https://oag.ca.gov/system/files/media/rrf1_form.pdf",
     "primary": false,
     "local_path": "CA/oag.ca.gov-system-files-media-rrf1_form.pdf.pdf",
