@@ -1,15 +1,5 @@
 {
   "_doc": "Provenance-parity RECONCILED-BENIGN records (Tony directive 2026-07-10: the classification suppresses the departure \u2014 not silence). Each record is SHA-PINNED on BOTH sides: the guard honors it only while prod's recorded sha AND the manifest primary's sha equal the values here, so any re-capture or prod change re-fires the departure. Every record requires byte-confirmation of the state's load-bearing strings on BOTH captures (the prod-recorded bytes \u2014 from git history if superseded \u2014 and the current manifest primary).",
-  "CA": {
-    "prod_sha": "76a784de6fe7f33495b1e74990fbd50f5599f843f219b06f9608388420901362",
-    "manifest_primary_sha": "cc2abb1206ac3449ae08f59e1cc097f2825b744031fece95465c2ad9375a6c1c",
-    "class": "representation-benign (same source, re-capture sha drift)",
-    "strings_confirmed": [
-      "4 months and 15 days"
-    ],
-    "evidence": "Both captures of oag.ca.gov/charities/renewals bear the offset deadline ('4 months and 15 days'): prod-recorded bytes recovered from audit-sources history (commit a6983f054), current manifest primary on disk. 2026-07-10.",
-    "date": "2026-07-10"
-  },
   "MA": {
     "prod_sha": "fdd518d6f849579916268eeb706903db48b7b3b96ca33f33b0c2016c35b93ad0",
     "manifest_primary_sha": "4f80d75b5330d7a6bab62dd52acda6700f7c52cbcc7227b674d1b41bb4205628",
