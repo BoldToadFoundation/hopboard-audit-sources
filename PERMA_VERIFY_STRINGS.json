@@ -899,6 +899,14 @@
         "fifteenth day of the fifth"
       ],
       "basis": "STATUTE, current NY Exec. Law \u00a7172-b (nysenate.gov Open Legislation print, page-dated 7/10/26; Perma RX6X-T2LS = Tony user-upload after Cloudflare walled scripted capture) \u2014 the threshold schedule closing NY's provenance-stale flag: audit >$1M (\u00a7172-b(1)); annual financial report with CPA review at >=$250k-$1M; unaudited <=$250k. ZERO seven-hundred-fifty-thousand residue = post-ramp current text (currency check passed). BONUS: the statute natively bears the day:15 deadline form ('fifteenth day of the fifth calendar month'). MACHINE-VERIFIED via artifact_extract 2026-07-10."
+    },
+    "2a0db5e4140cf22a5ea5a2ed556175741f48397093e68a8ff8a067f569a1bc72": {
+      "source_url": "https://ag.ny.gov/sites/default/files/2022-10/Regs-F.pdf",
+      "strings": [
+        "the 15th day of the 5th month after the organization's accounting period ends",
+        "the 6th month after the organization's accounting per"
+      ],
+      "basis": "REGS PRIMARY, 13 NYCRR Parts 90-97 (AG Regs-F, wayback capture) \u2014 bears BOTH NY deadline tracks (Article 7-A day:15; EPTL last-day-of-6th; needles single-line per contains_all raw-substring, the last-day phrase straddles a break at 'last day of\\nthe 6th month'). Also byte-noted: the regs say 'mailed and POSTMARKED by' \u2014 NY is a postmark state (filing-mechanics axis). THRESHOLD CAVEAT (currency-vs-authority hazard row): this artifact's Part-91 attachment thresholds ($100k/$250k) are SUPERSEDED by the amended Exec. Law \u00a7172-b ($250k/$1M, captured RX6X-T2LS) \u2014 NEVER verify-string thresholds against this artifact; deadlines only. MACHINE-VERIFIED via artifact_extract 2026-07-10 at the NY threshold attestation."
     }
   }
 }
