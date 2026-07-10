@@ -776,6 +776,10 @@
     "4QUP-GS53": {
       "source_url": "https://www.coloradosos.gov/pubs/charities/filings.html",
       "skip": "Forms-directory capture (SOS charities filings list) \u2014 carries NO load-bearing claim for CO's encoded values; byte-inspected 2026-07-09 (form names/instruction links only, no deadline language). Load-bearing operational strings live in 4257-DBRE (renew.html) + RW99-CZZN (extensions.html). Retained as capture-context. Added 2026-07-09 at CO promote (0b rider findings)."
+    },
+    "D4HD-EHKF": {
+      "source_url": "https://oag.ca.gov/sites/all/files/agweb/pdfs/charities/Sections-300-312.1.pdf",
+      "skip": "SUPERSEDED-HISTORICAL (2013 AG PDF, captured 2026-07-10 then same-session demoted): its \u00a7305 is amendment MARKUP \u2014 the old offset text and the inserted 2013 day:15 text sit adjacent in extraction, so the artifact byte-contains BOTH deadline forms and any verify-string against it is ambiguous by construction. NEVER use for string verification. Retained as historical evidence of the CA rule flip-flop (offset -> day:15 (2013 amendment) -> offset (current, per Cornell \u00a7305 + RRF-1 Rev. 01/2024 + AG renewals page))."
     }
   },
   "by_sha256": {
@@ -845,6 +849,14 @@
         "annually thereafter"
       ],
       "basis": "STATUTE PRIMARY, RSA 7:28, V \u2014 the annual-report deadline clause (offset form): 'shall be filed not later than 4 months and 15 days following the close of the first calendar or fiscal year ... and annually thereafter'. Perma-null capture (Option B local-archive-first, retry-queued 2026-05-29) so verify_perma cannot cover it; this by_sha256 entry is the load-bearing string coverage. MACHINE-VERIFIED via artifact_extract (text/html lane) 2026-07-10 at the NH value-correction apply \u2014 these strings are the ones the corrected encode now rests on (the day:15 form they replace bore no support in this artifact). Added 2026-07-10."
+    },
+    "567592807b88faff3856f13c412236ab76e4277ea277df4d697526041c3a6515": {
+      "source_url": "https://www.law.cornell.edu/regulations/california/11-CCR-305",
+      "strings": [
+        "no later than four months and fifteen days after",
+        "accounting period ends (May 15 for calendar-year filers)"
+      ],
+      "basis": "REGULATION PRIMARY (current 11 CCR \u00a7305 text, Cornell LII mirror \u2014 tier documented in the manifest entry; official Westlaw calregs is browser-path-only). Bears the CURRENT offset rule verbatim: 'no later than four months and fifteen days after the organization's accounting period ends (May 15 for calendar-year filers)'. MACHINE-VERIFIED via artifact_extract 2026-07-10 at the CA value-correction apply. Amendment-check anchors: AG renewals page + RRF-1 Rev. 01/2024 (both current, same rule)."
     }
   }
 }
