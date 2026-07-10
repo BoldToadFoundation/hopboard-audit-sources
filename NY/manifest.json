@@ -24,5 +24,19 @@
     "tls_chain_unverified": false,
     "ingested_from_file": true,
     "provenance": "wayback_snapshot re-homing 2026-06-12: id_ raw-variant fetch of the verification row's archive_snapshot_url; PDF sanity + pdftotext byte-grep at fetch ('annual filing': 34 hits, 13A regs); converts the Wayback-only row to local-backed per the 2026-06-11 local-artifact-required standard"
+  },
+  {
+    "source_url": "https://www.nysenate.gov/legislation/laws/EXC/172-B",
+    "primary": false,
+    "local_path": "NY/www.nysenate.gov-legislation-laws-EXC-172-B.pdf",
+    "content_type": "application/pdf",
+    "content_sha256": "a3e304766d681b2601397b5bc261e9ccfb3735f0524f3ca65bf56219ff803eab",
+    "perma_url": null,
+    "wayback_url": null,
+    "captured_at": "2026-07-10T15:27:53.283557+00:00",
+    "signed": true,
+    "tls_chain_unverified": false,
+    "ingested_from_file": true,
+    "provenance": "Perma RX6X-T2LS (Tony browser capture 2026-07-10; user-uploaded PDF replacing a failed automated capture \u2014 nysenate.gov is Cloudflare-walled to scripted fetch); PDF payload extracted from the perma WARC via authenticated API; thresholds byte-verified pre-ingest"
   }
 ]
