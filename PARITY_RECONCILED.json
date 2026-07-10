@@ -1,0 +1,34 @@
+{
+  "_doc": "Provenance-parity RECONCILED-BENIGN records (Tony directive 2026-07-10: the classification suppresses the departure \u2014 not silence). Each record is SHA-PINNED on BOTH sides: the guard honors it only while prod's recorded sha AND the manifest primary's sha equal the values here, so any re-capture or prod change re-fires the departure. Every record requires byte-confirmation of the state's load-bearing strings on BOTH captures (the prod-recorded bytes \u2014 from git history if superseded \u2014 and the current manifest primary).",
+  "CA": {
+    "prod_sha": "76a784de6fe7f33495b1e74990fbd50f5599f843f219b06f9608388420901362",
+    "manifest_primary_sha": "cc2abb1206ac3449ae08f59e1cc097f2825b744031fece95465c2ad9375a6c1c",
+    "class": "representation-benign (same source, re-capture sha drift)",
+    "strings_confirmed": [
+      "4 months and 15 days"
+    ],
+    "evidence": "Both captures of oag.ca.gov/charities/renewals bear the offset deadline ('4 months and 15 days'): prod-recorded bytes recovered from audit-sources history (commit a6983f054), current manifest primary on disk. 2026-07-10.",
+    "date": "2026-07-10"
+  },
+  "MA": {
+    "prod_sha": "fdd518d6f849579916268eeb706903db48b7b3b96ca33f33b0c2016c35b93ad0",
+    "manifest_primary_sha": "4f80d75b5330d7a6bab62dd52acda6700f7c52cbcc7227b674d1b41bb4205628",
+    "class": "representation-benign (same source, WARC vs HTML archive form)",
+    "strings_confirmed": [
+      "four and one-half months"
+    ],
+    "evidence": "Both archive forms of the mass.gov charities FAQ bear the deadline ('due four and one-half months after the conclusion of the charity's fiscal year'): prod-recorded Perma WARC B2Q4-5YM2 (on disk, sha-matched) and the manifest-primary HTML capture. 2026-07-10.",
+    "date": "2026-07-10"
+  },
+  "WV": {
+    "prod_sha": "4921b47abe9e78f70c52f0f03758b9cb727d0cdf0c7255eecd48b6db50e8f27e",
+    "manifest_primary_sha": "a8ea8017615981638c9d22447ad60a75b6e68fbbd09c7ea768ab517367de97ff",
+    "class": "representation-benign (same source, re-capture sha drift)",
+    "strings_confirmed": [
+      "good for one full year",
+      "refiled in the next and each following year"
+    ],
+    "evidence": "Both captures of code.wvlegislature.gov/29-19-5 bear the sidecar's load-bearing strings (BW5Q-GGSE set): prod-recorded bytes recovered from audit-sources history (commit 1667389e8), current manifest primary on disk. 2026-07-10.",
+    "date": "2026-07-10"
+  }
+}
