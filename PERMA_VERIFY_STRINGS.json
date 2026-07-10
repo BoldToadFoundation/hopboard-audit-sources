@@ -890,6 +890,15 @@
         "must be updated annually on a renewal statement"
       ],
       "basis": "STATUTE PRIMARY, s. 496.405 F.S. (2025) \u2014 the annual registration/renewal-statement duty FL's verified row rests on ('an initial registration statement... and a renewal statement annually thereafter'; annual update on the department's renewal statement). Perma-null capture; this by_sha256 entry is the load-bearing coverage, MACHINE-VERIFIED via artifact_extract 2026-07-10 at the FL threshold-encode apply (the 0b rider surfaced the standing primary had no entry)."
+    },
+    "a3e304766d681b2601397b5bc261e9ccfb3735f0524f3ca65bf56219ff803eab": {
+      "source_url": "https://www.nysenate.gov/legislation/laws/EXC/172-B",
+      "strings": [
+        "in excess of one million dollars",
+        "at least two hundred fifty thousand dollars but not more than one million",
+        "fifteenth day of the fifth"
+      ],
+      "basis": "STATUTE, current NY Exec. Law \u00a7172-b (nysenate.gov Open Legislation print, page-dated 7/10/26; Perma RX6X-T2LS = Tony user-upload after Cloudflare walled scripted capture) \u2014 the threshold schedule closing NY's provenance-stale flag: audit >$1M (\u00a7172-b(1)); annual financial report with CPA review at >=$250k-$1M; unaudited <=$250k. ZERO seven-hundred-fifty-thousand residue = post-ramp current text (currency check passed). BONUS: the statute natively bears the day:15 deadline form ('fifteenth day of the fifth calendar month'). MACHINE-VERIFIED via artifact_extract 2026-07-10."
     }
   }
 }
