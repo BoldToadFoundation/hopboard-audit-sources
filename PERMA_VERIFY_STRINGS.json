@@ -837,6 +837,14 @@
         "solicited in this state or the date authorized for filing a form 990"
       ],
       "basis": "STATUTE PRIMARY, C.R.S. 6-16-104(5)(a) RENEWAL coupling clause (the corrected-method basis): 'The financial report must be filed on or before the earlier of the fifteenth day of the eighth calendar month after the close of each fiscal year ... or the date authorized for filing a form 990' \u2014 the earlier-of MIN the operational pages hid. Needles are single-line substrings of the frozen PDF's extraction (contains_all is raw-substring; the phrase straddles line breaks at 'fifteenth\\nday'), chosen to pin the EACH-fiscal-year renewal clause, not the first-fiscal-year amendment clause (which reads 'eighth month', no 'calendar'). MACHINE-BYTE-VERIFIED via artifact_extract (PDF lane) 2026-07-09 \u2014 upgrades the 9DAG-DDUM prose skip's pdftotext-by-hand tier per the CO.sql staged precondition (3). Added 2026-07-09 at CO promote."
+    },
+    "5200e394da4ff5aa02a716520ee53be9f401c951aa17edbe183136b928c6dae3": {
+      "source_url": "https://gc.nh.gov/rsa/html/I/7/7-28.htm",
+      "strings": [
+        "4 months and 15 days following the close",
+        "annually thereafter"
+      ],
+      "basis": "STATUTE PRIMARY, RSA 7:28, V \u2014 the annual-report deadline clause (offset form): 'shall be filed not later than 4 months and 15 days following the close of the first calendar or fiscal year ... and annually thereafter'. Perma-null capture (Option B local-archive-first, retry-queued 2026-05-29) so verify_perma cannot cover it; this by_sha256 entry is the load-bearing string coverage. MACHINE-VERIFIED via artifact_extract (text/html lane) 2026-07-10 at the NH value-correction apply \u2014 these strings are the ones the corrected encode now rests on (the day:15 form they replace bore no support in this artifact). Added 2026-07-10."
     }
   }
 }
