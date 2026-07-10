@@ -768,6 +768,14 @@
         "days after contributions are in excess of $50,000"
       ],
       "basis": "re-homed from stale perma B7PE-3LZK 2026-07-09 (GUID re-keyed, content unchanged) \u2014 $50k exemption threshold + 30-day tripwire; local WV/code.wvlegislature.gov-29-19-6.html"
+    },
+    "M8F9-4EFE": {
+      "source_url": "https://www.coloradosos.gov/pubs/charities/charitableHome.html",
+      "skip": "Navigation/landing capture (SOS charities home) \u2014 carries NO load-bearing claim for CO's encoded values; byte-inspected 2026-07-09 (deadline/990/renewal strings absent; page is portal links + contact). Load-bearing operational strings live in 4257-DBRE (renew.html) + RW99-CZZN (extensions.html). Retained as capture-context. Added 2026-07-09 at CO promote (0b rider findings)."
+    },
+    "4QUP-GS53": {
+      "source_url": "https://www.coloradosos.gov/pubs/charities/filings.html",
+      "skip": "Forms-directory capture (SOS charities filings list) \u2014 carries NO load-bearing claim for CO's encoded values; byte-inspected 2026-07-09 (form names/instruction links only, no deadline language). Load-bearing operational strings live in 4257-DBRE (renew.html) + RW99-CZZN (extensions.html). Retained as capture-context. Added 2026-07-09 at CO promote (0b rider findings)."
     }
   },
   "by_sha256": {
@@ -821,6 +829,14 @@
         "regist"
       ],
       "basis": "UT reg=FALSE: Utah Code ch. 13-22 (Charitable Solicitations Act) charitable-registration sections were repealed eff. 5/1/2024; the current chapter (captured at 13-22-110) imposes no charity registration. 'regist' absent from the captured section. Scope: full current ch. 22 read, Part 1 sections 101-116 + 18 (two-reader crank 2026-07-06). This control mechanically re-verifies the CAPTURED artifact only (standard-doc F3 residual); the full reg=FALSE finding rests on the crank's exhaustive corpus enumeration."
+    },
+    "f6a1d1e14e806a4fe3f269fb9540f737dfd41f4f4c07f81afb11c016061d106a": {
+      "source_url": "https://leg.colorado.gov/sites/default/files/images/olls/crs2023-title-06.pdf",
+      "strings": [
+        "day of the eighth calendar month after the close of each fiscal year",
+        "solicited in this state or the date authorized for filing a form 990"
+      ],
+      "basis": "STATUTE PRIMARY, C.R.S. 6-16-104(5)(a) RENEWAL coupling clause (the corrected-method basis): 'The financial report must be filed on or before the earlier of the fifteenth day of the eighth calendar month after the close of each fiscal year ... or the date authorized for filing a form 990' \u2014 the earlier-of MIN the operational pages hid. Needles are single-line substrings of the frozen PDF's extraction (contains_all is raw-substring; the phrase straddles line breaks at 'fifteenth\\nday'), chosen to pin the EACH-fiscal-year renewal clause, not the first-fiscal-year amendment clause (which reads 'eighth month', no 'calendar'). MACHINE-BYTE-VERIFIED via artifact_extract (PDF lane) 2026-07-09 \u2014 upgrades the 9DAG-DDUM prose skip's pdftotext-by-hand tier per the CO.sql staged precondition (3). Added 2026-07-09 at CO promote."
     }
   }
 }
