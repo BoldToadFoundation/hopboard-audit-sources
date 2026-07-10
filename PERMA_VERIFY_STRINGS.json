@@ -865,6 +865,14 @@
         "45:17A-23"
       ],
       "basis": "STATUTE PRIMARY, N.J.S.A. 45:17A-23(b) \u2014 the offset renewal deadline clause ('A renewal statement must be filed annually within six months after the close of the charitable organization''s fiscal year'). Perma-null plain-text extract of the NJ statutes zip (captured 2026-07-05, audit-sources 17c5fe5 \u2014 the DURABLY-COMMITTED capture the 2026-07-10 NJ value-correction cites, closing the dangling-sha defect). MACHINE-VERIFIED via artifact_extract 2026-07-10 at the NJ apply."
+    },
+    "fc9a4b1ba858060a8912258e39adaf1b50f3e1559aca48cbac277135be8be279": {
+      "source_url": "https://rda.tnsosfiles.com/legal-citation/2176.legal.pdf",
+      "strings": [
+        "received by the secretary of state on or before the anniversary date",
+        "received after the expiration of the current registration period"
+      ],
+      "basis": "STATUTE PRIMARY, T.C.A. \u00a748-101-506(d)/(f) \u2014 the anniversary received-by command + anniversary definition + the late-fee expiration keying (the 2026-07-10 Tony anniversary adjudication rests on these). Perma T3NQ-TMTB exists but the artifact is PDF-tier (verify_perma text/html-only); this by_sha256 entry is the load-bearing coverage, MACHINE-VERIFIED via artifact_extract 2026-07-10 at the TN adjudication apply."
     }
   }
 }
