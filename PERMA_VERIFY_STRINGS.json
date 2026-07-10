@@ -882,6 +882,14 @@
         "audited by an independent"
       ],
       "basis": "STATUTE, s. 496.407(1)(b) F.S. \u2014 the financial-statement audit/review threshold schedule the 2026-07-10 FL threshold encode rests on: <$500k optional; >=$500k <$1M reviewed-or-audited by an independent CPA; >=$1M audited. Captured 2026-07-10 (audit-sources 2859fa01) at the threshold-sweep fix; corroborated independently by the FDACS-10100 form (Rev. 01/26) question 19. MACHINE-VERIFIED via artifact_extract at encode."
+    },
+    "dfa850b33ea515ef63d5102dbfcf5181d848fa793cc0df8c6d67fc96d8b374f9": {
+      "source_url": "https://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0400-0499/0496/Sections/0496.405.html",
+      "strings": [
+        "a renewal statement annually thereafter",
+        "must be updated annually on a renewal statement"
+      ],
+      "basis": "STATUTE PRIMARY, s. 496.405 F.S. (2025) \u2014 the annual registration/renewal-statement duty FL's verified row rests on ('an initial registration statement... and a renewal statement annually thereafter'; annual update on the department's renewal statement). Perma-null capture; this by_sha256 entry is the load-bearing coverage, MACHINE-VERIFIED via artifact_extract 2026-07-10 at the FL threshold-encode apply (the 0b rider surfaced the standing primary had no entry)."
     }
   }
 }
