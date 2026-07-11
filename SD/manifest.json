@@ -1,5 +1,17 @@
 [
   {
+    "source_url": "https://consumer.sd.gov/docs/TelemkgSolCharity_Statutes37-30.pdf",
+    "primary": true,
+    "local_path": "SD/consumer.sd.gov-docs-TelemkgSolCharity_Statutes37-30.pdf.pdf",
+    "content_type": "application/pdf",
+    "content_sha256": "60f6121b90b956b09fbc6289cac99eaf8e67e1d2c8451e841951e07e47c0c4f8",
+    "perma_url": "https://perma.cc/5FCD-F5G9",
+    "wayback_url": "https://web.archive.org/web/20260711185406/https://consumer.sd.gov/docs/TelemkgSolCharity_Statutes37-30.pdf",
+    "captured_at": "2026-07-11T18:53:58.396977+00:00",
+    "signed": false,
+    "tls_chain_unverified": false
+  },
+  {
     "source_url": "https://consumer.sd.gov/docs/charities.pdf",
     "primary": false,
     "local_path": "SD/consumer.sd.gov-docs-charities.pdf.pdf",
@@ -17,10 +29,10 @@
     "local_path": "SD/consumer.sd.gov-fastfacts-charity.aspx.html",
     "content_type": "text/html; charset=utf-8",
     "content_sha256": "a230e4f7f6bfd25db6c488101671a0ae9cdb01ddda92418a1e29af72d81ec872",
-    "perma_url": "https://perma.cc/6PD9-AVWC",
-    "wayback_url": "https://web.archive.org/web/20260412195627/https://consumer.sd.gov/fastfacts/charity.aspx",
-    "captured_at": "2026-07-06T18:43:55.001777+00:00",
-    "signed": true,
+    "perma_url": "https://perma.cc/3B7K-Z2C3",
+    "wayback_url": "https://web.archive.org/web/20260706184558/https://consumer.sd.gov/fastfacts/charity.aspx",
+    "captured_at": "2026-07-11T18:53:58.396977+00:00",
+    "signed": false,
     "tls_chain_unverified": false
   },
   {
