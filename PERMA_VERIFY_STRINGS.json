@@ -737,10 +737,6 @@
       "source_url": "https://consumer.sd.gov/docs/charities.pdf",
       "skip": "pdf payload \u2014 WARC grep is text/html-only (disclosed cut). Secondary/corroborative source for SD reg=FALSE (https://consumer.sd.gov/docs/charities.pdf); the load-bearing verification is the by_sha256-anchored primary statute, not this artifact."
     },
-    "6PD9-AVWC": {
-      "source_url": "https://consumer.sd.gov/fastfacts/charity.aspx",
-      "skip": "corroborative secondary for SD reg=FALSE (https://consumer.sd.gov/fastfacts/charity.aspx); not the load-bearing artifact \u2014 the reg=FALSE finding rests on the by_sha256-anchored primary statute + the crank's exhaustive corpus enumeration. String-verification of this secondary skipped (documented, session-6 A8)."
-    },
     "5R7P-8FDC": {
       "source_url": "https://sdlegislature.gov/api/Rules/Rule/20:11.html?all=true",
       "skip": "utf-16 tier \u2014 WARC utf-8 grep cannot reach it (sdlegislature.gov API). Secondary/corroborative source for SD reg=FALSE (https://sdlegislature.gov/api/Rules/Rule/20:11.html?all=true); load-bearing verification is on the by_sha256 primary."
@@ -780,6 +776,641 @@
     "D4HD-EHKF": {
       "source_url": "https://oag.ca.gov/sites/all/files/agweb/pdfs/charities/Sections-300-312.1.pdf",
       "skip": "SUPERSEDED-HISTORICAL (2013 AG PDF, captured 2026-07-10 then same-session demoted): its \u00a7305 is amendment MARKUP \u2014 the old offset text and the inserted 2013 day:15 text sit adjacent in extraction, so the artifact byte-contains BOTH deadline forms and any verify-string against it is ambiguous by construction. NEVER use for string verification. Retained as historical evidence of the CA rule flip-flop (offset -> day:15 (2013 amendment) -> offset (current, per Cornell \u00a7305 + RRF-1 Rev. 01/2024 + AG renewals page))."
+    },
+    "P4ZH-6LBJ": {
+      "source_url": "https://www.akleg.gov/basis/statutes.asp#45.68",
+      "skip": "extract_text under content_type application/octet-stream returned the undecompressed .warc.gz payload (gzip binary, ~9.3MB, begins with 0x1f8b magic); output is non-text garbage with zero occurrences of 'statute', 'Alaska', '45.68', or 'solicit', so no verbatim legal prose is visible to the substring checker",
+      "basis": "AK Title 45 ch. 68 charitable-solicitation statute archived as a gzipped WARC that the extractor does not decompress"
+    },
+    "KT5S-XUN4": {
+      "source_url": "https://www.law.alaska.gov/department/civil/consumer/charityreg.html#FAQ",
+      "strings": [
+        "Alaska law requires charitable organizations and paid solicitors to register with the Department of Law prior",
+        "The deadline to register as a charitable organization or paid solicitor is September 1 of each year.",
+        "The annual registration form is due by September 1, every year.",
+        "Submit $40 Payment"
+      ],
+      "basis": "AK requires charitable-org registration with the Dept. of Law; annual Sept. 1 deadline; $40 fee"
+    },
+    "9N9W-RQ4Y": {
+      "source_url": "https://azsos.gov/business/other-services/veterans-charities-organizations",
+      "strings": [
+        "The Secretary of State requires only Veteran\u2019s Charitable Organizations to file with our office.",
+        "a Veteran\u2019s Organization must file if a person is soliciting money",
+        "went into effect repealing this office\u2019s filing requirement",
+        "you do not need to register or renew your charitable organization on file"
+      ],
+      "basis": "AZ requires only veterans' charities to file; general charitable registration was repealed (HB 2457, 2013) \u2014 non-veteran charities need not register"
+    },
+    "D2YB-KEAD": {
+      "source_url": "https://web.archive.org/web/20260517221825/https://azcc.gov/faqs/BusinessServicesFAQs",
+      "strings": [
+        "Every corporation and limited liability company is required to appoint and maintain a statutory agent at all times.",
+        "Administrative dissolution will only occur if a business fails to meet certain statutory requirements.",
+        "a corporation fails to submit an annual report or a business fails to pay their statutory filing fees",
+        "there is a reinstatement fee of $100.00"
+      ],
+      "basis": "AZ corp/LLC must maintain a statutory agent; failure to file an annual report triggers administrative dissolution; reinstatement carries a $100 fee"
+    },
+    "Y3YT-DCLB": {
+      "source_url": "https://web.archive.org/web/20260523173834/https://code.dccouncil.gov/us/dc/council/code/sections/44-1704",
+      "strings": [
+        "Application for such certificate of registration shall be made upon such form or forms as shall be prescribed by the Council of the District of Columbia",
+        "shall be filed with the Mayor at least 15 days prior to the time when the certificate of registration applied for shall become effective",
+        "The Mayor shall issue a certificate of registration within 10 days after the filing of an application therefor"
+      ],
+      "basis": "DC charitable-solicitation certificate of registration: application filed with the Mayor at least 15 days before effectiveness; Mayor issues within 10 days"
+    },
+    "93T5-KQ5K": {
+      "source_url": "https://web.archive.org/web/20260517092211/https://corp.delaware.gov/frtax/",
+      "strings": [
+        "All corporations incorporated in the State of Delaware are required to file an Annual Report and to pay a franchise tax.",
+        "Exempt domestic corporations do not pay a tax but must file an Annual Report.",
+        "Taxes and Annual Reports are to be received no later than March 1st of each year.",
+        "The penalty for not filing a completed Annual Report on or before March 1st is $200.00"
+      ],
+      "basis": "DE corporations must file an Annual Report and pay franchise tax by March 1 (exempt domestic corps file but owe no tax); $200 late penalty"
+    },
+    "6B3H-VWPY": {
+      "source_url": "https://www.flsenate.gov/laws/statutes/2022/496.405",
+      "strings": [
+        "Registration statements by charitable organizations and sponsors.",
+        "must, before engaging in any of these activities, file an initial registration statement, and a renewal statement annually thereafter, with the department.",
+        "The late filing fee is $25 for each month or part of a month after the date on which the annual renewal statement was due to be filed with the department."
+      ],
+      "basis": "FL 496.405 (2022): charitable orgs/sponsors must file an initial registration statement and annual renewal unless exempt; $25/month late fee"
+    },
+    "4WT2-YMRR": {
+      "source_url": "https://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&amp;URL=0400-0499/0496/Sections/0496.405.html",
+      "strings": [
+        "Registration statements by charitable organizations and sponsors.",
+        "must, before engaging in any of these activities, file an initial registration statement, which includes an attestation statement, and a renewal statement annually thereafter, with the department.",
+        "The late filing fee is $25 for each month or part of a month after the date on which the annual renewal statement was due to be filed with the department."
+      ],
+      "basis": "FL 496.405 (2025 official): charitable orgs/sponsors must file an initial registration statement (with attestation) and annual renewal; $25/month late fee"
+    },
+    "ZG2H-SZK3": {
+      "source_url": "https://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&amp;URL=0400-0499/0496/Sections/0496.407.html",
+      "strings": [
+        "must file an annual financial statement for the immediately preceding fiscal year on a form prescribed by the department.",
+        "receives at least $500,000 but less than $1 million in annual contributions, the financial statement shall be reviewed or audited by an independent certified public accountant.",
+        "receives $1 million or more in annual contributions, the financial statement shall be audited by an independent certified public accountant."
+      ],
+      "basis": "FL 496.407 financial-statement thresholds: review-or-audit at $500K\u2013$1M, mandatory CPA audit at $1M+ in annual contributions"
+    },
+    "ZM8V-QMTD": {
+      "source_url": "https://law.resource.org/pub/us/code/ga/gov.ga.ocga.2019.08.21.release.73.zip",
+      "strings": [
+        "43-17-5. Registration of charitable organizations",
+        "shall, prior to any solicitation, file a registration statement with the Secretary of State",
+        "The fee for the initial registration of a charitable organization shall be $35.00.",
+        "If the charitable organization has received or collected more than $1 million during its preceding fiscal year, the financial statement shall be prepared by an independent certified public accountant"
+      ],
+      "basis": "GA OCGA 43-17-5: charitable orgs must register with the Secretary of State before soliciting; $35 initial fee; certified-CPA financial statement required above $1M received"
+    },
+    "G9JD-Z9PL": {
+      "source_url": "https://web.archive.org/web/20250920120900/https://codes.findlaw.com/ga/title-43-professions-and-businesses/ga-code-sect-43-17-5.html",
+      "strings": [
+        "(b)(1) Every charitable organization, except those exempt from registration pursuant",
+        "shall, prior to any solicitation, file a registration statement with the Secretary",
+        "The fee for the initial registration of a charitable organization shall be $35.00.",
+        "The fee for renewal of a charitable organization's registration shall be $20.00."
+      ],
+      "basis": "GA OCGA 43-17-5 requires charitable orgs to register with the Secretary of State before soliciting; sets $35 initial / $20 renewal fees."
+    },
+    "C5ZX-WDW6": {
+      "source_url": "https://web.archive.org/web/20250920120921/https://www.legis.iowa.gov/docs/code/504.1613.pdf",
+      "strings": [
+        "504.1613 Biennial report for secretary of state.",
+        "shall deliver to the secretary of state for filing a biennial report",
+        "The first biennial report shall be delivered to the secretary of state between January 1"
+      ],
+      "basis": "Iowa Code 504.1613 biennial corporate report duty (nonprofit corp records, not charitable solicitation registration)."
+    },
+    "7W7V-2SLB": {
+      "source_url": "https://www.iowaattorneygeneral.gov/for-businesses/charities-nonprofits-fundraising-information",
+      "strings": [
+        "Professional fundraisers are outside entities who raise money on behalf of charities, and must register with the Office of the Attorney General.",
+        "The registration requirement is only for professional fundraisers.",
+        "Charitable organizations that do not utilize the services of a professional fundraiser to raise funds are not required to register under this chapter of the Iowa Code."
+      ],
+      "basis": "Iowa AG page: only professional fundraisers must register; charities not using a professional fundraiser are NOT required to register."
+    },
+    "SD3T-NGL3": {
+      "source_url": "https://www.iowaattorneygeneral.gov/for-businesses/charities-nonprofits-fundraising-information/professional-fundraisers",
+      "strings": [
+        "These fundraisers must register with the Office of the Attorney General pursuant to Iowa Code Chapter 13C.",
+        "The registration requirement is only for professional fundraisers.",
+        "Charitable organizations that do not utilize the services of a professional fundraiser to raise funds are not required to register under this chapter of the Iowa Code."
+      ],
+      "basis": "Iowa AG professional-fundraiser page: fundraisers must register under Iowa Code Ch. 13C; charities without a professional fundraiser need not register."
+    },
+    "EEH6-47DY": {
+      "source_url": "https://iga.in.gov/ic/2026/Title_23/Article_17/Chapter_25.5.pdf",
+      "strings": [
+        "Restriction on reporting requirements; exceptions",
+        "may not impose on a charitable organization any filing or reporting requirements that are",
+        "IC 23-17-25.5-3"
+      ],
+      "basis": "IN IC 23-17-25.5 bars state agencies from imposing charitable filing/reporting requirements more stringent than law authorizes (caps registration burden)."
+    },
+    "9GVH-N9MJ": {
+      "source_url": "https://iga.in.gov/ic/2026/Title_23/Article_7/Chapter_8.pdf",
+      "strings": [
+        "Chapter 8. Professional Fundraiser Consultant and Solicitor",
+        "solicitor for a charitable organization unless the person has first registered with the division.",
+        "registration shall pay a fee of one thousand dollars ($1,000).",
+        "of fifty dollars ($50) must accompany this update."
+      ],
+      "basis": "IN IC 23-7-8 requires professional fundraiser consultants/solicitors to register with the AG division; $1,000 initial fee and $50 annual renewal."
+    },
+    "S6DY-B4KP": {
+      "source_url": "https://iga.in.gov/ic/2026/Title_24/Article_4.7/Chapter_1.pdf",
+      "strings": [
+        "ARTICLE 4.7. TELEPHONE SOLICITATION OF",
+        "This article does not apply to any of the following:",
+        "A telephone call made on behalf of a charitable organization that is exempt from"
+      ],
+      "basis": "IN IC 24-4.7 telephone solicitation act; exempts calls made on behalf of 501-exempt charitable organizations (by volunteers/employees)."
+    },
+    "35FU-XYE5": {
+      "source_url": "https://web.archive.org/web/20260519002526/https://inbiz.in.gov/business-filings/business-entityreport",
+      "strings": [
+        "Every business is required to file a Business Entity Report (BER) with the Secretary of State.",
+        "Corporations, Limited Liability Companies, Nonprofit Corporations, Limited Partnerships, Limited Liability Partnerships, Benefit Corporations, Business Trusts and Agricultural Cooperatives are required to file.",
+        "The first report is due two years after the business is formed or registered.",
+        "$22.00 on INBiz"
+      ],
+      "basis": "IN INBiz Business Entity Report: biennial corporate report required of Nonprofit Corporations, first due two years after formation; $22 online nonprofit fee."
+    },
+    "4UCY-3HVU": {
+      "source_url": "https://www.in.gov/attorneygeneral/consumer-protection-division/charities-and-donors/charitable-fundraising/",
+      "strings": [
+        "a professional solicitor who solicits contributions for, or on behalf of, a charity must register with the Attorney General",
+        "Initial Registration: $1,000.00 registration fee",
+        "Renewal fee and renewal application must be received by midnight on July 1 of each year"
+      ],
+      "basis": "IN AG charitable-fundraising page: professional solicitors must register ($1,000 initial, $50 renewal by July 1); charities using own employees/volunteers not required to register."
+    },
+    "GN8L-VRND": {
+      "source_url": "https://www.in.gov/attorneygeneral/consumer-protection-division/charities-and-donors/charitable-giving/",
+      "strings": [
+        "The Attorney General's Office enforces the Professional Fundraiser Consultant and Solicitor Registration Act.",
+        "This Act requires all professional fundraiser consultants and solicitors to register with the Attorney General's Office prior to beginning a fundraising campaign",
+        "A charitable organization that solicits on its own behalf does not have to register with the Attorney General's Office"
+      ],
+      "basis": "IN AG charitable-giving page: professional fundraisers/solicitors must register before campaigns; a charity soliciting on its own behalf need not register."
+    },
+    "4VSZ-LEVV": {
+      "source_url": "https://web.archive.org/web/20260521135408/https://revisor.mo.gov/main/OneSection.aspx?section=355.857",
+      "strings": [
+        "Option of biennial filing of corporate registration reports.",
+        "the secretary of state may provide corporations the option of biennially filing corporate registration reports",
+        "Once a corporation chooses the option of biennial registration, such registration shall be maintained for the full twenty-four-month period.",
+        "The secretary of state may collect an additional fee of ten dollars on each biennial corporate registration report"
+      ],
+      "basis": "MO 355.857 lets corporations file corporate registration reports biennially rather than annually, with a $10 additional fee."
+    },
+    "X3X5-Z6CN": {
+      "source_url": "https://web.archive.org/web/20260326000515/https://nebraskalegislature.gov/laws/statutes.php?statute=21-19,172",
+      "strings": [
+        "21-19,172",
+        "Biennial report; contents.",
+        "shall deliver to the Secretary of State a biennial report on",
+        "the biennial report is due on April 1 of the odd-numbered"
+      ],
+      "basis": "NE 21-19,172 requires nonprofit corporations to file a biennial report with the Secretary of State, due April 1 of odd-numbered years."
+    },
+    "T22C-J9BK": {
+      "source_url": "https://gc.nh.gov/rsa/html/I/21/21-35.htm",
+      "strings": [
+        "21:35 Time, How Reckoned",
+        "when a period or limit of time is to be reckoned from a day or date, that day or date shall be excluded",
+        "the document or fee shall be deemed timely filed if it is received by the next business day"
+      ],
+      "basis": "NH RSA 21:35 statutory time-computation rule (exclude first day; weekend/holiday deadlines roll to next business day) governing filing deadlines."
+    },
+    "83SA-WBYR": {
+      "source_url": "https://gc.nh.gov/rsa/html/I/7/7-28.htm",
+      "strings": [
+        "Every trustee subject to this chapter who has received property for charitable purposes shall file with the attorney general, within 6 months",
+        "revenue, gains, and other support of $2,000,000 or more that is required to file an Internal Revenue Service Form 990 with the attorney general shall also submit the organization's latest audited financial statement",
+        "$500,000 or more that is required to file an Internal Revenue Service Form 990 with the attorney general shall also submit the organization's latest financial statement",
+        "shall be filed not later than 4 months and 15 days following the close of the first calendar or fiscal year"
+      ],
+      "basis": "NH RSA 7:28 mandates charitable-trust reporting to the AG: $500k GAAP-statement / $2M audited-statement thresholds and a 4 months 15 days annual deadline."
+    },
+    "W7AD-EVLG": {
+      "source_url": "https://mm.nh.gov/files/uploads/doj/remote-docs/jus-400-adopted-rule.pdf",
+      "strings": [
+        "PART Jus 402 REGISTRATION OF CHARITABLE TRUSTS",
+        "register with the charitable trusts unit in accordance with RSA 7:28, I.",
+        "The completed Form NHCT-11 shall be accompanied by a non-refundable fee of $25.00."
+      ],
+      "basis": "NH Admin Rule Jus 402 requires charitable trusts to register with the charitable trusts unit (Form NHCT-11) with a $25 fee."
+    },
+    "4GEU-VGHA": {
+      "source_url": "https://mm.nh.gov/files/uploads/doj/remote-docs/nhct12-instructions.pdf",
+      "strings": [
+        "Annual reports are due 4 months and 15 days after the close of the organization",
+        "with revenues greater than $2,000,000 must",
+        "$75 check payable to"
+      ],
+      "basis": "NH NHCT-12 annual-report instructions: due 4 months 15 days after fiscal year end, $75 fee, audited statement required over $2,000,000 revenue."
+    },
+    "66JB-N68S": {
+      "source_url": "https://pub.njleg.state.nj.us/statutes/STATUTES-TEXT.zip",
+      "strings": [
+        "A charitable organization, unless exempted from registration requirements pursuant to section 9 of this act, shall file a registration statement with the Attorney General",
+        "A renewal statement must be filed annually within six months after the close of the charitable organization's fiscal year",
+        "the Attorney General may extend the time for the annual filing of the renewal statement and financial report for a period not to exceed 180 days",
+        "45:17A-23"
+      ],
+      "basis": "NJ 45:17A-23 requires charities to file (and annually renew within six months of fiscal year end) a registration statement with the AG, with up to a 180-day extension."
+    },
+    "HMT3-E6B4": {
+      "source_url": "https://www.leg.state.nv.us/nrs/nrs-082.html",
+      "strings": [
+        "CHAPTER 82 - NONPROFIT CORPORATIONS",
+        "Registered agent required; applicable law regarding registered",
+        "The fee for filing a list is $50",
+        "82.193"
+      ],
+      "basis": "NV NRS Chapter 82 (Nonprofit Corporations) 82.193 requires a registered agent and annual list filing with a $50 list-filing fee."
+    },
+    "H586-UGHX": {
+      "source_url": "https://www.leg.state.nv.us/nrs/nrs-082a.html",
+      "strings": [
+        "82A.100",
+        "Charitable organization required to register before soliciting",
+        "shall not solicit contributions in this State, or have contributions solicited",
+        "organization is registered with the Secretary of State pursuant to this"
+      ],
+      "basis": "NV NRS 82A.100 bars a charitable organization from soliciting contributions unless it is registered with the Secretary of State."
+    },
+    "X2MF-ABUZ": {
+      "source_url": "https://web.archive.org/web/20260523141254/https://ag.ny.gov/sites/default/files/2022-10/Regs-F.pdf",
+      "strings": [
+        "Article 7-A requires registration of charitable and other nonprofit organizations that solicit",
+        "Section 8-1.4 of the EPTL requires registration of charitable",
+        "reporting period is more than $250,000.",
+        "must pay an article 7-A filing fee of $25"
+      ],
+      "basis": "NY 13 NYCRR charities rules: Article 7-A / EPTL 8-1.4 registration requirements, audited-financials trigger above $250,000, and $25 Article 7-A filing fee."
+    },
+    "KKB2-VXY2": {
+      "source_url": "https://web.archive.org/web/20260523155938/https://codes.ohio.gov/ohio-revised-code/section-1716.02",
+      "strings": [
+        "shall file a registration statement with the attorney general upon a form prescribed by the attorney general",
+        "The annual registration statement shall be refiled on or before the fifteenth day of the fifth calendar month after the close of each fiscal year",
+        "whose contributions received for the last calendar or fiscal year were less than five thousand dollars shall not pay any registration fee"
+      ],
+      "basis": "ORC 1716.02: charities must register annually with the AG, refiling deadline (15th day of 5th month after FY close), and sub-$5,000 fee exemption"
+    },
+    "GXT4-EG73": {
+      "source_url": "https://oregon.public.law/rules/oar_137-010-0020",
+      "strings": [
+        "A complete annual report for a charitable organization incorporated, headquartered, or organized in a state other than Oregon, including outside of the United States, shall include a completed",
+        "In the event the charitable organization has total annual gross receipts of $50,000 or more or total assets of $100,000 or more",
+        "Charitable organizations are required to file annual reports covering all time periods preceding the date that the organization requested closure"
+      ],
+      "basis": "OAR 137-010-0020: required contents of the charitable annual report and the $50,000 gross-receipts / $100,000 assets 990-completion threshold"
+    },
+    "AMQ7-XDBG": {
+      "source_url": "https://oregon.public.law/rules/oar_137-010-0025",
+      "strings": [
+        "Annual reports shall be submitted not later than four months and 15 days following the close of each calendar or fiscal year adopted by the charitable organization.",
+        "The maximum length of any extension for filing an annual report will be no more than six months from the original due date of the report.",
+        "such fiscal year must coincide with the reporting period used by the organization on returns prepared for the Internal Revenue Service"
+      ],
+      "basis": "OAR 137-010-0025: annual report deadline (4 months 15 days after FY close) and 6-month maximum extension"
+    },
+    "J4NN-JXDF": {
+      "source_url": "https://oregon.public.law/rules/oar_137-010-0030",
+      "strings": [
+        "Each charitable organization filing a report required by this Act shall pay to the Department of Justice, with each such report, a fee based in part on the total amount of the",
+        "Fund balances in excess of $20 million or less than $50,000 shall not be subject to the fund balance fee.",
+        "A delinquency fee of $20 applies if the report or applicable fees are not received by the due date"
+      ],
+      "basis": "OAR 137-010-0030: per-report fee obligation, fund-balance fee thresholds ($20M/$50,000), and $20 delinquency fee"
+    },
+    "42BN-RKMC": {
+      "source_url": "https://oregon.public.law/rules/oar_137-010-0033",
+      "strings": [
+        "the Attorney General may impose a civil penalty of not more than $2,000 in connection with any violation",
+        "Failing to file the registration statement required under",
+        "Failing to file an annual report required under"
+      ],
+      "basis": "OAR 137-010-0033: up to $2,000 civil penalty for violations including failure to file the registration statement or annual report"
+    },
+    "928J-XZ9V": {
+      "source_url": "https://www.doj.state.or.us/charitable-activities/annual-reporting-for-charities/request-filing-extension-annual-reports/",
+      "strings": [
+        "annual financial report is due within four months and 15 days after the end of the",
+        "The extension period is limited to 180 days from the initial due date of the report.",
+        "Extension requests must be received on or before the due date of the report to avoid a delinquency fee."
+      ],
+      "basis": "OR DOJ guidance: annual financial report due 4 months 15 days after FY end; extension capped at 180 days and must be requested by the due date"
+    },
+    "PER9-HBPJ": {
+      "source_url": "https://www.doj.state.or.us/wp-content/uploads/2026/01/2025_web_ct-12.pdf",
+      "strings": [
+        "(See chart below. Minimum fee is $20, even if total revenue is $0 or a negative amount.) The revenue fee is determined by the amount on line 9.",
+        "(Line 13 multiplied by .0001. If the fee is less than $5, enter $0. Not to exceed $2,000. Round cents to the nearest whole dollar.)",
+        "Total Revenue of $50,000 or more, or Net Assets or Fund Balances of $100,000 or more, see the instructions. Such organizations may be required to"
+      ],
+      "basis": "OR CT-12 annual report form: revenue-fee schedule ($20 minimum), net-assets fee formula capped at $2,000, and $50,000/$100,000 IRS-form threshold"
+    },
+    "6LEA-WWFG": {
+      "source_url": "https://publications.tnsosfiles.com/acts/113/pub/pc0615.pdf",
+      "strings": [
+        "AN ACT to amend Tennessee Code Annotated, Title 3, Chapter 17, Part 1 and Title 48,",
+        "deleting \"five hundred thousand dollars ($500,000) in gross revenue\" and substituting \"one",
+        "Financial reports must be assessed a late fee of twenty-five dollars ($25.00) for"
+      ],
+      "basis": "TN Public Chapter 615: raises the charitable-solicitation audit/financial-report threshold from $500,000 to $1,000,000 gross revenue and adds a $25/month late fee"
+    },
+    "XDT7-MYZK": {
+      "source_url": "https://web.archive.org/web/20260517213806/https://comptroller.texas.gov/taxes/franchise/pir-oir-filing-req.php",
+      "strings": [
+        "The PIR is due on the annual franchise tax report due date. The report must be completed and signed by an officer, director or other authorized person.",
+        "The PIR or OIR is due even if the entity does not have to file a franchise tax report because its annualized total revenue is at or below the no tax due threshold.",
+        "your entity may forfeit its right to transact business if you fail to file a completed and signed PIR or OIR"
+      ],
+      "basis": "TX Comptroller: PIR/OIR annual filing requirement and due date, due even below the no-tax-due threshold, with forfeiture of right to transact business for non-filing"
+    },
+    "626X-YHKF": {
+      "source_url": "https://adminrules.utah.gov/api/public/getfile/uac-html/3efc525b-4029-4642-8aa2-e6c22ddac209.html/R152-22.html",
+      "strings": [
+        "A charitable organization shall submit an unredacted copy of its most recent IRS Form 990, 990-EZ, 990-N, or",
+        "shall be submitted at least annually, at the time the charitable organization",
+        "Charitable Solicitations Act Rule"
+      ],
+      "basis": "Utah R152-22 (Charitable Solicitations Act Rule): charities must submit an unredacted IRS 990-series return at least annually to the Division of Corporations"
+    },
+    "H3NW-EQ7R": {
+      "source_url": "https://le.utah.gov/Session/2026/bills/enrolled/SB0038.pdf",
+      "strings": [
+        "13-22-104 (Effective 05/06/26). Registration required.",
+        "make or facilitate a charitable solicitation either directed toward the state or",
+        "13-22-110 (Effective 05/06/26). Financial reports required",
+        "shall annually file with the Division of Corporations and Commercial Code an"
+      ],
+      "basis": "SB38 renumbers Utah's Charitable Solicitations Act: fundraiser registration required (13-22-104) and annual IRS 990 financial filing required (13-22-110)"
+    },
+    "S7S7-4337": {
+      "source_url": "https://le.utah.gov/xcode/Title13/Chapter22/C13-22-S104_2026050620260506.html",
+      "strings": [
+        "13-22-104.",
+        "Unless a person acting as a professional fundraiser registers with the division in accordance with Section",
+        "make or facilitate a charitable solicitation either directed toward the state or originating from the state; or",
+        "Charitable Solicitations Act"
+      ],
+      "basis": "Utah 13-22-104 requires professional fundraiser registration with the division before soliciting"
+    },
+    "7PHF-UQFC": {
+      "source_url": "https://le.utah.gov/xcode/Title13/Chapter22/C13-22-S110_2026050620260506.html",
+      "strings": [
+        "13-22-110.",
+        "Financial reports required -- Rulemaking.",
+        "shall annually file with the Division of Corporations and Commercial Code an unredacted copy of the charitable organization's most recently filed IRS Form 990, 990-EZ, 990-N, or 990-PF"
+      ],
+      "basis": "Utah 13-22-110 requires charitable nonprofits to annually file their most recent IRS Form 990/990-EZ/990-N/990-PF"
+    },
+    "53YH-G86J": {
+      "source_url": "https://le.utah.gov/~2024/bills/hbillint/HB0043S01.htm",
+      "strings": [
+        "CHARITABLE SOLICITATIONS ACT AMENDMENTS",
+        "This bill amends provisions related to charitable solicitations.",
+        "removes a requirement that charitable organizations register with the Division of",
+        "requires a charitable organization to provide certain tax documents in a manner"
+      ],
+      "basis": "2024 HB43S1 removes the charitable-organization registration requirement with the Division of Consumer Protection, substituting a tax-document filing"
+    },
+    "GDF4-BEKD": {
+      "source_url": "https://ago.vermont.gov/sites/ago/files/2025-11/Chritable-Nonprofit-Board-Guidance.pdf",
+      "strings": [
+        "Vermont law does not require charities to register with the Attorney General",
+        "all charities recognized as 501(c)(3) tax-exempt organizations must file an annual",
+        "informational return with the IRS, called a Form 990"
+      ],
+      "basis": "Vermont AG guidance states charities need NOT register with the AG, but 501(c)(3)s must file an annual IRS Form 990"
+    },
+    "SEA9-YQLS": {
+      "source_url": "https://ago.vermont.gov/sites/ago/files/wp-content/uploads/2018/03/CP-Rule-119.pdf",
+      "strings": [
+        "RULE CP 119",
+        "ADOPTED PURSUANT TO 9 V.S.A. \u00a7 2479(b)",
+        "the fundraiser is being paid by the charity on whose behalf the solicitation is",
+        "It shall constitute an unfair and deceptive act or practice in commerce under 9 V.S.A. \u00a7"
+      ],
+      "basis": "Vermont CP Rule 119 (paid-fundraiser charitable-solicitation disclosure rule) with its statutory authority and mandatory paid-fundraiser disclosure"
+    },
+    "5HXN-88X5": {
+      "source_url": "https://app.leg.wa.gov/RCW/default.aspx?cite=1.16.050&amp;pdf=true",
+      "strings": [
+        "RCW 1.16.050",
+        "The following are state legal",
+        "Other than Sunday, falls upon a Sunday, the following Monday",
+        "Falls upon a Saturday, the preceding Friday is the legal"
+      ],
+      "basis": "Washington RCW 1.16.050 defines state legal holidays and the weekend roll-over rule (deadline-computation reference)"
+    },
+    "A4PC-QV4C": {
+      "source_url": "https://app.leg.wa.gov/RCW/default.aspx?cite=19.09.062&amp;pdf=true",
+      "strings": [
+        "RCW 19.09.062 Fees",
+        "a fee of sixty dollars",
+        "a fee of forty dollars"
+      ],
+      "basis": "Washington RCW 19.09.062 sets charitable-organization registration fee ($60) and annual renewal fee ($40)"
+    },
+    "XQ9X-852L": {
+      "source_url": "https://app.leg.wa.gov/RCW/default.aspx?cite=19.09.075&amp;pdf=true",
+      "strings": [
+        "RCW 19.09.075 Charitable organizations",
+        "registration and renewal as a charitable organization must be",
+        "is not required to file a copy of such annual return with the",
+        "be submitted with a nonrefundable filing fee established in RCW"
+      ],
+      "basis": "Washington RCW 19.09.075 charitable-org registration/renewal application contents, 990-series copy not required, nonrefundable fee"
+    },
+    "2R53-7J2T": {
+      "source_url": "https://app.leg.wa.gov/RCW/default.aspx?cite=19.09.085&amp;pdf=true",
+      "strings": [
+        "RCW 19.09.085 Registration",
+        "Registration under this chapter is effective for one year or as",
+        "no sooner than twenty days after receipt of the registration"
+      ],
+      "basis": "Washington RCW 19.09.085 sets one-year registration duration and 20-day-after-receipt effective/renewal timing"
+    },
+    "PJ5M-VBMH": {
+      "source_url": "https://app.leg.wa.gov/WAC/default.aspx?cite=434-120-042&amp;pdf=true",
+      "strings": [
+        "WAC 434-120-042 Fees.",
+        "Late fee, failure to renew by due date: $50.00.",
+        "Initial registration (RCW 19.09.062): $60.00.",
+        "Annual renewal (RCW 19.09.062): $40.00."
+      ],
+      "basis": "WA charities fee schedule: $60 initial / $40 annual renewal registration fees and $50 late fee"
+    },
+    "W5A3-PKYU": {
+      "source_url": "https://app.leg.wa.gov/WAC/default.aspx?cite=434-120-047&amp;pdf=true",
+      "strings": [
+        "WAC 434-120-047 Failure to renew, involuntary closure.",
+        "is delinquent and subject to a late fee as provided in WAC",
+        "shall be involuntarily closed,"
+      ],
+      "basis": "Failure to renew registration by the renewal date = delinquent, late fee, and involuntary closure"
+    },
+    "GFY9-XXQH": {
+      "source_url": "https://app.leg.wa.gov/WAC/default.aspx?cite=434-120-140&amp;pdf=true",
+      "strings": [
+        "WAC 434-120-140 How and when to register.",
+        "and submit it with the fee in RCW 19.09.062(1) prior to conducting any",
+        "the last business day of the eleventh month after the end of the"
+      ],
+      "basis": "Charitable org must register before soliciting and renew by the last business day of the 11th month after accounting-year end"
+    },
+    "UZM3-BX3B": {
+      "source_url": "https://app.leg.wa.gov/WAC/default.aspx?cite=434-120-225&amp;pdf=true",
+      "strings": [
+        "WAC 434-120-225 Annual renewal.",
+        "shall renew annually by submitting a renewal form and the filing fee",
+        "ness day of the eleventh month after the end of its accounting year."
+      ],
+      "basis": "Commercial fundraiser annual renewal due by last business day of the 11th month after its accounting-year end"
+    },
+    "W64R-HCNJ": {
+      "source_url": "https://www.sos.wa.gov/_assets/charities/charitable-organization-renewal.pdf",
+      "strings": [
+        "CHARITABLE ORGANIZATION RENEWAL",
+        "Renewal with late fee $90",
+        "Annual gross receipts under $5,000, then automatic exemption applies",
+        "under the conditions set out in RCW 19.09.305"
+      ],
+      "basis": "WA charitable-org renewal form: $40 renewal ($90 with late fee) and automatic exemption when gross receipts under $5,000"
+    },
+    "LA7K-VDW6": {
+      "source_url": "https://attorneygeneral.wyo.gov/law-office-division/consumer-protection-and-antitrust-unit/telephone-solicitation",
+      "strings": [
+        "telephone solicitation statutes prohibit most telephone solicitors from calling",
+        "Most charity and political fundraisers are also exempt.",
+        "making less than 250 unsolicited calls per year are exempt."
+      ],
+      "basis": "WY telephone-solicitation / Do-Not-Call law: most charity (and political) fundraisers are exempt"
+    },
+    "E8LU-TDEB": {
+      "source_url": "https://sos.wyo.gov/Business/docs/BusinessFees.pdf",
+      "strings": [
+        "Nonprofit Corporations and Cooperative Marketing Associations:",
+        "Articles of Incorporation*/Continuance/Domestication .........................................$50.00",
+        "Annual Report Fee*..............................................................................................$25.00",
+        "Schedule Effective July 1st, 2026"
+      ],
+      "basis": "WY SoS fee schedule (eff. 7/1/2026): nonprofit incorporation $50 and annual report $25"
+    },
+    "3B7K-Z2C3": {
+      "source_url": "https://consumer.sd.gov/fastfacts/charity.aspx",
+      "skip": "corroborative secondary for SD reg=FALSE (https://consumer.sd.gov/fastfacts/charity.aspx); not the load-bearing artifact \u2014 the reg=FALSE finding rests on the by_sha256-anchored primary statute + the crank's exhaustive corpus enumeration. String-verification of this secondary skipped (documented, session-6 A8). [re-keyed from stale GUID 6PD9-AVWC after the source was re-captured under 3B7K-Z2C3, 2026-07-12]"
+    },
+    "B2Q4-5YM2": {
+      "source_url": "https://perma.cc/B2Q4-5YM2",
+      "skip": "MA source archived as a gzipped Perma-WARC download (perma.cc/B2Q4-5YM2); extract_text does not decompress .warc.gz so the substring checker sees no text \u2014 string-verification skipped. Non-primary corroborative; MA's load-bearing claim is carried by MA's primary artifact."
+    },
+    "4NZS-LE36": {
+      "source_url": "https://www.ksrevisor.gov/statutes/chapters/ch17/017_017_0062.html",
+      "strings": [
+        "Exemptions from registration.",
+        "The following persons shall not be required to register with the attorney general:",
+        "does not actually receive contributions in excess of $10,000 during such organization's tax period",
+        "such organization, within 30 days after the end of such tax period, shall register with the attorney general"
+      ],
+      "basis": "KS 17-1762 lists charitable-registration exemptions, with the $10,000 threshold and 30-day register-on-crossing rule"
+    },
+    "9Z4J-2D8Q": {
+      "source_url": "https://ag.louisiana.gov/Charities",
+      "strings": [
+        "Charitable organizations that use a professional solicitor must register annually with the Consumer Protection Section, at least 10 days prior to soliciting for contributions.",
+        "The annual registration fee for initial registration or renewal is $25.00.",
+        "The following soliciting charities are exempt from registration:"
+      ],
+      "basis": "LA AG charities page: annual registration (10 days prior), $25 fee, and exemption categories"
+    },
+    "T8JX-UD4N": {
+      "source_url": "https://ag.louisiana.gov/Files/Article/70/Documents/CharitableExemptionForm.pdf",
+      "strings": [
+        "Pursuant to 16 LAC Pt. III \u00a7515 of the Louisiana Administrative Code, only the types of organizations listed",
+        "below may file a registration exemption. All other organizations must register with the Louisiana Attorney"
+      ],
+      "basis": "LA Charitable Exemption Form: only listed org types may claim exemption; all others must register"
+    },
+    "24V5-4NJR": {
+      "source_url": "https://legis.la.gov/legis/Law.aspx?d=104160",
+      "strings": [
+        "Registration of professional solicitors; fees; bonds",
+        "Not less than ten days prior to doing business in this state, a professional solicitor shall register with the department",
+        "An application for registration or renewal of registration shall be accompanied by a fee of one hundred fifty dollars.",
+        "The bond shall be for twenty-five thousand dollars or greater"
+      ],
+      "basis": "LA R.S. 51:1901.1: professional solicitors register 10 days prior; $150 fee; $25,000 bond"
+    },
+    "NAN2-PKN5": {
+      "source_url": "https://legis.la.gov/legis/Law.aspx?d=1295769",
+      "strings": [
+        "CHAPTER 24-A. ANNUAL FILINGS BY CHARITABLE ORGANIZATIONS",
+        "Charitable organizations; requirements",
+        "Absent the showing of a compelling state interest, no state agency or state official",
+        "charitable organization that are more restrictive than the specific requirements for charitable"
+      ],
+      "basis": "LA R.S. 51:1909.11 caps additional annual filing/reporting requirements on charities to no more restrictive than fed/state law"
+    },
+    "SY9E-R59B": {
+      "source_url": "https://www.doa.la.gov/media/oz2lmv1v/16.docx",
+      "strings": [
+        "fail to annually register and submit a $25 registration fee to the Consumer Protection Section of the Louisiana Department of Justice, at least 10 days prior to soliciting for contributions.",
+        "It shall be an unfair and deceptive act or practice for any person or charitable organization utilizing a professional solicitor",
+        "Charitable Organization\u2015a group which is or holds itself out to be benevolent, civic, recreational, educational, voluntary health, social service, philanthropic, fraternal, humane, patriotic, religious, or eleemosynary organization"
+      ],
+      "basis": "LAC Title 16 Pt. III \u00a7515: charities using pro solicitors must annually register + $25 fee, 10 days before soliciting"
+    },
+    "5FCD-F5G9": {
+      "source_url": "https://consumer.sd.gov/docs/TelemkgSolCharity_Statutes37-30.pdf",
+      "strings": [
+        "Every paid solicitor shall register each time with the attorney general no less than thirty days prior to",
+        "The bond shall be for the sum of twenty thousand dollars if the applicant would be",
+        "A paid solicitor shall file a financial report for the campaign with the attorney general no more than ninety"
+      ],
+      "basis": "SD ch. 37-30: paid solicitors register 30 days prior, bond ($20k/$10k), 90-day financial report"
+    },
+    "Q8RU-NPAB": {
+      "source_url": "https://dfi.wi.gov/Pages/BusinessServices/BusinessEntities/FAQ.aspx",
+      "strings": [
+        "A domestic entity shall deliver its Annual Report to the Department in each year following the calendar year in which the entity registered, during the calendar year quarter in which the anniversary date of the registration occurs.",
+        "Corporations are obligated to file an annual report with the department, indicating the name and address of its officers and directors",
+        "CTA's reporting requirements apply to corporations, limited liability"
+      ],
+      "basis": "WI DFI business-entities FAQ: annual report due in anniversary quarter; corporations file officer/director info"
+    },
+    "3SAE-K4JD": {
+      "source_url": "https://dfi.wi.gov/Pages/BusinessServices/CharitableProfessionalOrganizations/CharitableOrganizationsFAQ.aspx",
+      "strings": [
+        "needs to register if it solicits in Wisconsin and either has a paid employee(s) and/or receives $25,000 or more in contributions in a fiscal year.",
+        "it must, within 30 days register with the division.",
+        "A charitable organization must submit this form if it received $25,000 or less in contributions during its most recently completed fiscal year.",
+        "A Charitable organization with a \u2018home\u2019 office outside of Wisconsin needs to be registered if it solicits in Wisconsin"
+      ],
+      "basis": "WI charitable FAQ: register if soliciting with paid employee or $25,000+ contributions; 30-day register-on-crossing; financial-report thresholds"
+    },
+    "WXP2-EURJ": {
+      "source_url": "https://docs.legis.wisconsin.gov/statutes/statutes/202/ii/12",
+      "strings": [
+        "no charitable organization may solicit in this state or have contributions solicited in this state on its behalf unless it is registered with the department",
+        "An audited financial statement for the most recently completed fiscal year of the charitable organization, if the charitable organization received contributions in excess of $1,000,000",
+        "A reviewed financial statement for the most recently completed fiscal year of the charitable organization, if the charitable organization received contributions in excess of $500,000",
+        "All charitable organization registrations expire on July 31 of each year"
+      ],
+      "basis": "WI 202.12: no charity may solicit unless registered; audited statement over $1,000,000, reviewed over $500,000; registrations expire July 31"
     }
   },
   "by_sha256": {
