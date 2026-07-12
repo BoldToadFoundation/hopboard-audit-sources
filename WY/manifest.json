@@ -5,11 +5,12 @@
     "local_path": "WY/attorneygeneral.wyo.gov-law-office-division-consumer-protection-and-antitrust-un.html",
     "content_type": "text/html; charset=utf-8",
     "content_sha256": "70981b7d3de678fa76e695dbc26ff2fbe50ba9b272211c6bad6b182370741215",
-    "perma_url": null,
+    "perma_url": "https://perma.cc/LA7K-VDW6",
     "wayback_url": "https://web.archive.org/web/20260706190017/https://attorneygeneral.wyo.gov/law-office-division/consumer-protection-and-antitrust-unit/telephone-solicitation",
     "captured_at": "2026-07-06T18:57:31.120981+00:00",
     "signed": true,
-    "tls_chain_unverified": false
+    "tls_chain_unverified": false,
+    "perma_backfilled_at": "2026-07-12T21:11:13.198863+00:00"
   },
   {
     "source_url": "https://sos.wyo.gov/Business/docs/BusinessFees.pdf",
@@ -17,11 +18,12 @@
     "local_path": "WY/sos.wyo.gov-Business-docs-BusinessFees.pdf.pdf",
     "content_type": "application/pdf",
     "content_sha256": "bbaefb74edfa885839a01317dfb79006e81d200e47b6d876ded223eadc97bc8b",
-    "perma_url": null,
+    "perma_url": "https://perma.cc/E8LU-TDEB",
     "wayback_url": null,
     "captured_at": "2026-07-06T18:57:31.120981+00:00",
     "signed": true,
-    "tls_chain_unverified": false
+    "tls_chain_unverified": false,
+    "perma_backfilled_at": "2026-07-12T21:11:20.085402+00:00"
   },
   {
     "source_url": "https://sos.wyo.gov/faqs.aspx?root=BUS",

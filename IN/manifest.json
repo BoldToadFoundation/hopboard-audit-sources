@@ -5,13 +5,14 @@
     "local_path": "IN/iga.in.gov-ic-2026-Title_23-Article_17-Chapter_25.5.pdf.pdf",
     "content_type": "application/pdf",
     "content_sha256": "62b46738e952eb3734b90a86d0ac6429460888bf6b8e52d8723f2711d4d56aae",
-    "perma_url": null,
+    "perma_url": "https://perma.cc/EEH6-47DY",
     "wayback_url": null,
     "captured_at": "2026-07-09T13:46:35.982469+00:00",
     "signed": true,
     "tls_chain_unverified": false,
     "ingested_from_file": true,
-    "provenance": "capture-fix 2026-07-09 (session-6 A8): the .pdf URL captured a JS shell under the audit bot-UA (iga.in.gov serves PDFs behind a JS shell, same UA-gating as IC 23-7-8); re-fetched the REAL PDF via browser-UA curl (verified %PDF header + pdftotext content) + --from-file. Corroborative secondary IC chapter."
+    "provenance": "capture-fix 2026-07-09 (session-6 A8): the .pdf URL captured a JS shell under the audit bot-UA (iga.in.gov serves PDFs behind a JS shell, same UA-gating as IC 23-7-8); re-fetched the REAL PDF via browser-UA curl (verified %PDF header + pdftotext content) + --from-file. Corroborative secondary IC chapter.",
+    "perma_backfilled_at": "2026-07-12T21:06:11.107626+00:00"
   },
   {
     "source_url": "https://iga.in.gov/ic/2026/Title_23/Article_7/Chapter_8.pdf",
@@ -19,13 +20,14 @@
     "local_path": "IN/iga.in.gov-ic-2026-Title_23-Article_7-Chapter_8.pdf.pdf",
     "content_type": "application/pdf",
     "content_sha256": "179623564d767dd78a580755087a90972a316adb891e8a400abf306651a274b8",
-    "perma_url": null,
+    "perma_url": "https://perma.cc/9GVH-N9MJ",
     "wayback_url": null,
     "captured_at": "2026-07-09T13:34:05.152554+00:00",
     "signed": true,
     "tls_chain_unverified": false,
     "ingested_from_file": true,
-    "provenance": "regression re-ingest 2026-07-09 (session-6 A6/A4): flips IC 23-7-8 (Professional Fundraiser Consultant & Solicitor Registration chapter) to primary:true via --from-file-primary; same content_sha256 as the original shell-hatch capture; discharges IN's zero-primary null-clause + the A4 --from-file-primary regression."
+    "provenance": "regression re-ingest 2026-07-09 (session-6 A6/A4): flips IC 23-7-8 (Professional Fundraiser Consultant & Solicitor Registration chapter) to primary:true via --from-file-primary; same content_sha256 as the original shell-hatch capture; discharges IN's zero-primary null-clause + the A4 --from-file-primary regression.",
+    "perma_backfilled_at": "2026-07-12T21:06:17.159329+00:00"
   },
   {
     "source_url": "https://iga.in.gov/ic/2026/Title_24/Article_4.7/Chapter_1.pdf",
@@ -33,13 +35,14 @@
     "local_path": "IN/iga.in.gov-ic-2026-Title_24-Article_4.7-Chapter_1.pdf.pdf",
     "content_type": "application/pdf",
     "content_sha256": "a4ac8c9d22c911d3f2959836e5e5252a86f6a7c948feb1c15e8ed61a73a0b4fd",
-    "perma_url": null,
+    "perma_url": "https://perma.cc/S6DY-B4KP",
     "wayback_url": null,
     "captured_at": "2026-07-09T13:46:36.061117+00:00",
     "signed": true,
     "tls_chain_unverified": false,
     "ingested_from_file": true,
-    "provenance": "capture-fix 2026-07-09 (session-6 A8): the .pdf URL captured a JS shell under the audit bot-UA (iga.in.gov serves PDFs behind a JS shell, same UA-gating as IC 23-7-8); re-fetched the REAL PDF via browser-UA curl (verified %PDF header + pdftotext content) + --from-file. Corroborative secondary IC chapter."
+    "provenance": "capture-fix 2026-07-09 (session-6 A8): the .pdf URL captured a JS shell under the audit bot-UA (iga.in.gov serves PDFs behind a JS shell, same UA-gating as IC 23-7-8); re-fetched the REAL PDF via browser-UA curl (verified %PDF header + pdftotext content) + --from-file. Corroborative secondary IC chapter.",
+    "perma_backfilled_at": "2026-07-12T21:06:23.146294+00:00"
   },
   {
     "source_url": "https://web.archive.org/web/20260519002526/https://inbiz.in.gov/business-filings/business-entityreport",
@@ -47,13 +50,14 @@
     "local_path": "IN/web.archive.org-web-20260519002526-https-inbiz.in.gov-business-filings-business-.html",
     "content_type": "text/html",
     "content_sha256": "e9deeb488f8ccf27193a85f68070e851251bd461f08a3255f8796f511d166619",
-    "perma_url": null,
+    "perma_url": "https://perma.cc/35FU-XYE5",
     "wayback_url": null,
     "captured_at": "2026-06-12T19:52:26.379327+00:00",
     "signed": true,
     "tls_chain_unverified": false,
     "ingested_from_file": true,
-    "provenance": "wayback_snapshot re-homing 2026-06-12: id_ raw-variant fetch of the verification row's archive_snapshot_url; load-bearing content byte-grepped at fetch ('business entity report': 17 hits); shell-signature sweep (extended 2026-06-12) clean; converts the Wayback-only row to local-backed per the 2026-06-11 local-artifact-required standard"
+    "provenance": "wayback_snapshot re-homing 2026-06-12: id_ raw-variant fetch of the verification row's archive_snapshot_url; load-bearing content byte-grepped at fetch ('business entity report': 17 hits); shell-signature sweep (extended 2026-06-12) clean; converts the Wayback-only row to local-backed per the 2026-06-11 local-artifact-required standard",
+    "perma_backfilled_at": "2026-07-12T21:06:30.802891+00:00"
   },
   {
     "source_url": "https://www.in.gov/attorneygeneral/consumer-protection-division/charities-and-donors/charitable-fundraising/",
@@ -61,13 +65,14 @@
     "local_path": "IN/www.in.gov-attorneygeneral-consumer-protection-division-charities-and-donors-cha.html",
     "content_type": "text/html",
     "content_sha256": "97accd56b9cf7f2adf5baff93e7a034d6ce4fd6f84b636657be08bce4c8c2801",
-    "perma_url": null,
+    "perma_url": "https://perma.cc/4UCY-3HVU",
     "wayback_url": null,
     "captured_at": "2026-07-09T13:34:04.999582+00:00",
     "signed": true,
     "tls_chain_unverified": false,
     "ingested_from_file": true,
-    "provenance": "clobber recapture 2026-07-09 (session-6 A6): re-fetched live via curl (browser-UA, HTTP 200, WAF-checked clean) + --from-file; byte-stable (curl sha == original manifest sha, pure slug-collision not content drift); slug resolved by collision-aware slugify. Secondary AG page."
+    "provenance": "clobber recapture 2026-07-09 (session-6 A6): re-fetched live via curl (browser-UA, HTTP 200, WAF-checked clean) + --from-file; byte-stable (curl sha == original manifest sha, pure slug-collision not content drift); slug resolved by collision-aware slugify. Secondary AG page.",
+    "perma_backfilled_at": "2026-07-12T21:06:36.925026+00:00"
   },
   {
     "source_url": "https://www.in.gov/attorneygeneral/consumer-protection-division/charities-and-donors/charitable-giving/",
@@ -75,13 +80,14 @@
     "local_path": "IN/www.in.gov-attorneygeneral-consumer-protection-division-charities-and-donors-cha-8dacf459.html",
     "content_type": "text/html",
     "content_sha256": "345bee8bc41f6ffa313327c94aa9ae38b6802bff2dc30285d14b26cc5a5cec02",
-    "perma_url": null,
+    "perma_url": "https://perma.cc/GN8L-VRND",
     "wayback_url": null,
     "captured_at": "2026-07-09T13:34:05.076290+00:00",
     "signed": true,
     "tls_chain_unverified": false,
     "ingested_from_file": true,
-    "provenance": "clobber recapture 2026-07-09 (session-6 A6): re-fetched live via curl (browser-UA, HTTP 200, WAF-checked clean) + --from-file; byte-stable (curl sha == original manifest sha, pure slug-collision not content drift); slug resolved by collision-aware slugify. Secondary AG page."
+    "provenance": "clobber recapture 2026-07-09 (session-6 A6): re-fetched live via curl (browser-UA, HTTP 200, WAF-checked clean) + --from-file; byte-stable (curl sha == original manifest sha, pure slug-collision not content drift); slug resolved by collision-aware slugify. Secondary AG page.",
+    "perma_backfilled_at": "2026-07-12T21:06:43.090314+00:00"
   },
   {
     "source_url": "https://www.in.gov/dor/business-tax/nonprofit-tax-forms/",

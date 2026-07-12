@@ -5,10 +5,11 @@
     "local_path": "NV/www.leg.state.nv.us-nrs-nrs-082.html.html",
     "content_type": "text/html",
     "content_sha256": "2090a8d9da8ff0482f0fc4192f2b3c76de3e474e99a156d9bf5d17e94cdaf7d6",
-    "perma_url": null,
+    "perma_url": "https://perma.cc/HMT3-E6B4",
     "wayback_url": "https://web.archive.org/web/20260529124910/https://www.leg.state.nv.us/nrs/nrs-082.html",
     "captured_at": "2026-05-29T12:48:30.358216+00:00",
-    "signed": true
+    "signed": true,
+    "perma_backfilled_at": "2026-07-12T21:07:36.424799+00:00"
   },
   {
     "source_url": "https://www.leg.state.nv.us/nrs/nrs-082a.html",
@@ -16,9 +17,10 @@
     "local_path": "NV/www.leg.state.nv.us-nrs-nrs-082a.html.html",
     "content_type": "text/html",
     "content_sha256": "ba5828287aa474a57473e77f4e28ab23b19b04ac772a7061f6aeb1afc83b02c4",
-    "perma_url": null,
+    "perma_url": "https://perma.cc/H586-UGHX",
     "wayback_url": "https://web.archive.org/web/20260529124856/https://www.leg.state.nv.us/nrs/nrs-082a.html",
     "captured_at": "2026-05-29T12:48:30.358216+00:00",
-    "signed": true
+    "signed": true,
+    "perma_backfilled_at": "2026-07-12T21:07:42.649917+00:00"
   }
 ]

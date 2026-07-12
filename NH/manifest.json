@@ -5,10 +5,11 @@
     "local_path": "NH/gc.nh.gov-rsa-html-I-21-21-35.htm.html",
     "content_type": "text/html",
     "content_sha256": "12e4c30556c9fd9b0d63cb9e1b3abea702e40acca0a2bb6a899cc9c8ba6666f6",
-    "perma_url": null,
+    "perma_url": "https://perma.cc/T22C-J9BK",
     "wayback_url": "https://web.archive.org/web/20260529094037/https://gc.nh.gov/rsa/html/I/21/21-35.htm",
     "captured_at": "2026-05-29T09:59:14.545282+00:00",
-    "signed": true
+    "signed": true,
+    "perma_backfilled_at": "2026-07-12T21:07:05.934025+00:00"
   },
   {
     "source_url": "https://gc.nh.gov/rsa/html/I/7/7-28.htm",
@@ -16,10 +17,11 @@
     "local_path": "NH/gc.nh.gov-rsa-html-I-7-7-28.htm.html",
     "content_type": "text/html",
     "content_sha256": "5200e394da4ff5aa02a716520ee53be9f401c951aa17edbe183136b928c6dae3",
-    "perma_url": null,
+    "perma_url": "https://perma.cc/83SA-WBYR",
     "wayback_url": "https://web.archive.org/web/20260523090847/https://gc.nh.gov/rsa/html/I/7/7-28.htm",
     "captured_at": "2026-05-29T09:59:14.545282+00:00",
-    "signed": true
+    "signed": true,
+    "perma_backfilled_at": "2026-07-12T21:07:12.051938+00:00"
   },
   {
     "source_url": "https://mm.nh.gov/files/uploads/doj/remote-docs/jus-400-adopted-rule.pdf",
@@ -27,10 +29,11 @@
     "local_path": "NH/mm.nh.gov-files-uploads-doj-remote-docs-jus-400-adopted-rule.pdf.pdf",
     "content_type": "application/pdf",
     "content_sha256": "ffad00b3bddd8ef535ccbfddae8c7d5cc1d5898ece91d60948e9cb2a7b576201",
-    "perma_url": null,
+    "perma_url": "https://perma.cc/W7AD-EVLG",
     "wayback_url": "https://web.archive.org/web/20250601105746/https://mm.nh.gov/files/uploads/doj/remote-docs/jus-400-adopted-rule.pdf",
     "captured_at": "2026-05-29T09:59:14.545282+00:00",
-    "signed": true
+    "signed": true,
+    "perma_backfilled_at": "2026-07-12T21:07:18.237791+00:00"
   },
   {
     "source_url": "https://mm.nh.gov/files/uploads/doj/remote-docs/nhct12-instructions.pdf",
@@ -38,9 +41,10 @@
     "local_path": "NH/mm.nh.gov-files-uploads-doj-remote-docs-nhct12-instructions.pdf.pdf",
     "content_type": "application/pdf",
     "content_sha256": "c639cedf92c745bbe711cb7256d7002844b2b25b85bb9da49b1096f8ee948445",
-    "perma_url": null,
+    "perma_url": "https://perma.cc/4GEU-VGHA",
     "wayback_url": "https://web.archive.org/web/20250601105704/https://mm.nh.gov/files/uploads/doj/remote-docs/nhct12-instructions.pdf",
     "captured_at": "2026-05-29T09:59:14.545282+00:00",
-    "signed": true
+    "signed": true,
+    "perma_backfilled_at": "2026-07-12T21:07:24.198202+00:00"
   }
 ]

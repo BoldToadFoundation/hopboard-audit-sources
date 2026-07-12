@@ -5,13 +5,14 @@
     "local_path": "AZ/azsos.gov-business-other-services-veterans-charities-organizations.html",
     "content_type": "text/html",
     "content_sha256": "eaa4328b2d268313c880d61bcec5fcb1a38256e305cf49eec8aa56694f2828c6",
-    "perma_url": null,
+    "perma_url": "https://perma.cc/9N9W-RQ4Y",
     "wayback_url": null,
     "captured_at": "2026-07-03T15:16:36.760756+00:00",
     "signed": false,
     "tls_chain_unverified": false,
     "ingested_from_file": true,
-    "provenance": "archive fallback: azsos.gov Cloudflare-blocked (HTTP 403 to browser-UA + httpx); raw bytes from Wayback snapshot web/20251204173942 \u2014 verified title \"Veterans Charities Organizations | Arizona Secretary of State\"; attests HB2457 (2013) repeal of the office filing requirement + veterans-only survival"
+    "provenance": "archive fallback: azsos.gov Cloudflare-blocked (HTTP 403 to browser-UA + httpx); raw bytes from Wayback snapshot web/20251204173942 \u2014 verified title \"Veterans Charities Organizations | Arizona Secretary of State\"; attests HB2457 (2013) repeal of the office filing requirement + veterans-only survival",
+    "perma_backfilled_at": "2026-07-12T21:04:14.021806+00:00"
   },
   {
     "source_url": "https://web.archive.org/web/20260517221825/https://azcc.gov/faqs/BusinessServicesFAQs",
@@ -19,13 +20,14 @@
     "local_path": "AZ/web.archive.org-web-20260517221825-https-azcc.gov-faqs-BusinessServicesFAQs.html",
     "content_type": "text/html",
     "content_sha256": "3e1b0a820a68de288be6bac3e1367346b7ef0528a82d6733b5e6addad8d77651",
-    "perma_url": null,
+    "perma_url": "https://perma.cc/D2YB-KEAD",
     "wayback_url": null,
     "captured_at": "2026-06-12T19:52:26.144144+00:00",
     "signed": true,
     "tls_chain_unverified": false,
     "ingested_from_file": true,
-    "provenance": "wayback_snapshot re-homing 2026-06-12: id_ raw-variant fetch of the verification row's archive_snapshot_url; load-bearing content byte-grepped at fetch ('annual report': 23 hits); shell-signature sweep (extended 2026-06-12) clean; converts the Wayback-only row to local-backed per the 2026-06-11 local-artifact-required standard"
+    "provenance": "wayback_snapshot re-homing 2026-06-12: id_ raw-variant fetch of the verification row's archive_snapshot_url; load-bearing content byte-grepped at fetch ('annual report': 23 hits); shell-signature sweep (extended 2026-06-12) clean; converts the Wayback-only row to local-backed per the 2026-06-11 local-artifact-required standard",
+    "perma_backfilled_at": "2026-07-12T21:04:23.013931+00:00"
   },
   {
     "source_url": "https://www.azleg.gov/ars/13/03722.htm",

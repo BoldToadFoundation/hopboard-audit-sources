@@ -5,11 +5,12 @@
     "local_path": "UT/adminrules.utah.gov-api-public-getfile-uac-html-3efc525b-4029-4642-8aa2-e6c22dda.html",
     "content_type": "text/html",
     "content_sha256": "84d3300674e6979669d3ab04db098dd426d28e8786ddef8d0c768aa56b8a73c6",
-    "perma_url": null,
+    "perma_url": "https://perma.cc/626X-YHKF",
     "wayback_url": "https://web.archive.org/web/20260706190257/https://adminrules.utah.gov/api/public/getfile/uac-html/3efc525b-4029-4642-8aa2-e6c22ddac209.html/R152-22.html",
     "captured_at": "2026-07-06T19:02:01.699651+00:00",
     "signed": true,
-    "tls_chain_unverified": false
+    "tls_chain_unverified": false,
+    "perma_backfilled_at": "2026-07-12T21:09:30.830616+00:00"
   },
   {
     "source_url": "https://le.utah.gov/Session/2026/bills/enrolled/SB0038.pdf",
@@ -17,11 +18,12 @@
     "local_path": "UT/le.utah.gov-Session-2026-bills-enrolled-SB0038.pdf.pdf",
     "content_type": "application/pdf",
     "content_sha256": "70325aa75611668e0129195d46b5200df0452330ca3339d06fa16c19e5d955c5",
-    "perma_url": null,
+    "perma_url": "https://perma.cc/H3NW-EQ7R",
     "wayback_url": "https://web.archive.org/web/20260706190352/https://le.utah.gov/Session/2026/bills/enrolled/SB0038.pdf",
     "captured_at": "2026-07-06T19:02:01.699651+00:00",
     "signed": true,
-    "tls_chain_unverified": false
+    "tls_chain_unverified": false,
+    "perma_backfilled_at": "2026-07-12T21:09:37.190057+00:00"
   },
   {
     "source_url": "https://le.utah.gov/xcode/Title13/Chapter22/C13-22-S104_2026050620260506.html",
@@ -29,11 +31,12 @@
     "local_path": "UT/le.utah.gov-xcode-Title13-Chapter22-C13-22-S104_2026050620260506.html.html",
     "content_type": "text/html",
     "content_sha256": "58311d091608b72220282fbfcc82e4718763730af753e0a286e212d6d2db1c7b",
-    "perma_url": null,
+    "perma_url": "https://perma.cc/S7S7-4337",
     "wayback_url": "https://web.archive.org/web/20260706190227/https://le.utah.gov/xcode/Title13/Chapter22/C13-22-S104_2026050620260506.html",
     "captured_at": "2026-07-06T19:02:01.699651+00:00",
     "signed": true,
-    "tls_chain_unverified": false
+    "tls_chain_unverified": false,
+    "perma_backfilled_at": "2026-07-12T21:09:43.571708+00:00"
   },
   {
     "source_url": "https://le.utah.gov/xcode/Title13/Chapter22/C13-22-S110_2026050620260506.html",
@@ -41,11 +44,12 @@
     "local_path": "UT/le.utah.gov-xcode-Title13-Chapter22-C13-22-S110_2026050620260506.html.html",
     "content_type": "text/html",
     "content_sha256": "62fc79a988e2dcb01fb60b325edc313e419d4c594425559fc1a6c9948f5845cf",
-    "perma_url": null,
+    "perma_url": "https://perma.cc/7PHF-UQFC",
     "wayback_url": "https://web.archive.org/web/20260706190209/https://le.utah.gov/xcode/Title13/Chapter22/C13-22-S110_2026050620260506.html",
     "captured_at": "2026-07-06T19:02:01.699651+00:00",
     "signed": true,
-    "tls_chain_unverified": false
+    "tls_chain_unverified": false,
+    "perma_backfilled_at": "2026-07-12T21:09:49.867453+00:00"
   },
   {
     "source_url": "https://le.utah.gov/~2024/bills/hbillint/HB0043S01.htm",
@@ -53,10 +57,11 @@
     "local_path": "UT/le.utah.gov-2024-bills-hbillint-HB0043S01.htm.html",
     "content_type": "text/html",
     "content_sha256": "60ec5c23d130c6004f18dbed37fcccf50b49a68b2b595f3c747ecdc593420c46",
-    "perma_url": null,
+    "perma_url": "https://perma.cc/53YH-G86J",
     "wayback_url": "https://web.archive.org/web/20260706190404/https://le.utah.gov/~2024/bills/hbillint/HB0043S01.htm",
     "captured_at": "2026-07-06T19:02:01.699651+00:00",
     "signed": true,
-    "tls_chain_unverified": false
+    "tls_chain_unverified": false,
+    "perma_backfilled_at": "2026-07-12T21:09:56.161641+00:00"
   }
 ]

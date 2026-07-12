@@ -17,13 +17,14 @@
     "local_path": "TN/publications.tnsosfiles.com-acts-113-pub-pc0615.pdf.pdf",
     "content_type": "application/pdf",
     "content_sha256": "df37705bb0273536dda35ebbeabca47d6df6258a122fbb3889a41ba62de63d77",
-    "perma_url": null,
+    "perma_url": "https://perma.cc/6LEA-WWFG",
     "wayback_url": null,
     "captured_at": "2026-07-11T09:23:15.600994+00:00",
     "signed": true,
     "tls_chain_unverified": false,
     "ingested_from_file": true,
-    "provenance": "curl HTTP 200 2026-07-11 from TN SOS acts publications; Perma https://perma.cc/B8GQ-6Y52; Wayback https://web.archive.org/web/20260711091651/https://publications.tnsosfiles.com/acts/113/pub/pc0615.pdf"
+    "provenance": "curl HTTP 200 2026-07-11 from TN SOS acts publications; Perma https://perma.cc/B8GQ-6Y52; Wayback https://web.archive.org/web/20260711091651/https://publications.tnsosfiles.com/acts/113/pub/pc0615.pdf",
+    "perma_backfilled_at": "2026-07-12T21:09:17.695027+00:00"
   },
   {
     "source_url": "https://rda.tnsosfiles.com/legal-citation/2176.legal.pdf",

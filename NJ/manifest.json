@@ -17,12 +17,13 @@
     "local_path": "NJ/pub.njleg.state.nj.us-statutes-STATUTES-TEXT.zip.txt",
     "content_type": "text/plain",
     "content_sha256": "2790eb4fd96f2c9922d1f99c9786cf08d2121c154f4ffd3fb9233abf35f9f3cf",
-    "perma_url": null,
+    "perma_url": "https://perma.cc/66JB-N68S",
     "wayback_url": null,
     "captured_at": "2026-07-05T20:20:54.873369+00:00",
     "signed": true,
     "tls_chain_unverified": false,
     "ingested_from_file": true,
-    "provenance": "per-section extract of N.J.S.A. 45:17A-23: lines 484126-484138 of STATUTES.TXT inside STATUTES-TEXT.zip (file dated 2026-07-04 06:00, re-fetched 2026-07-05, zip sha256 10386d3c56950543b464a7e439c227993b5b47cfd44e0380bd5a898f679fa09c \u2014 byte-identical to the sha recorded at the 2026-07-05 crank); extraction via sed by Crabdaddy 2026-07-05; carries the verified renewal clause verbatim"
+    "provenance": "per-section extract of N.J.S.A. 45:17A-23: lines 484126-484138 of STATUTES.TXT inside STATUTES-TEXT.zip (file dated 2026-07-04 06:00, re-fetched 2026-07-05, zip sha256 10386d3c56950543b464a7e439c227993b5b47cfd44e0380bd5a898f679fa09c \u2014 byte-identical to the sha recorded at the 2026-07-05 crank); extraction via sed by Crabdaddy 2026-07-05; carries the verified renewal clause verbatim",
+    "perma_backfilled_at": "2026-07-12T21:07:30.272803+00:00"
   }
 ]

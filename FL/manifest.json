@@ -17,10 +17,11 @@
     "local_path": "FL/www.flsenate.gov-laws-statutes-2022-496.405.html",
     "content_type": "text/html; charset=utf-8",
     "content_sha256": "2845a12ef0f47ebc9e61127c93467abc97a9d6ce6ad83aa08d22f34d16b287f2",
-    "perma_url": null,
+    "perma_url": "https://perma.cc/6B3H-VWPY",
     "wayback_url": "https://web.archive.org/web/20260602113602/https://www.flsenate.gov/laws/statutes/2022/496.405",
     "captured_at": "2026-06-02T11:35:15.539444+00:00",
-    "signed": true
+    "signed": true,
+    "perma_backfilled_at": "2026-07-12T21:05:19.499962+00:00"
   },
   {
     "source_url": "https://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0400-0499/0496/Sections/0496.405.html",
@@ -28,10 +29,11 @@
     "local_path": "FL/www.leg.state.fl.us-statutes-index.cfm-App_mode-Display_Statute-URL-0400-0499-04.html",
     "content_type": "text/html;charset=UTF-8",
     "content_sha256": "dfa850b33ea515ef63d5102dbfcf5181d848fa793cc0df8c6d67fc96d8b374f9",
-    "perma_url": null,
+    "perma_url": "https://perma.cc/4WT2-YMRR",
     "wayback_url": "https://web.archive.org/web/20260602113538/https://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0400-0499%2F0496%2FSections%2F0496.405.html",
     "captured_at": "2026-06-02T11:35:15.539444+00:00",
-    "signed": true
+    "signed": true,
+    "perma_backfilled_at": "2026-07-12T21:05:25.740472+00:00"
   },
   {
     "source_url": "https://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0400-0499/0496/Sections/0496.407.html",
@@ -39,12 +41,13 @@
     "local_path": "FL/www.leg.state.fl.us-statutes-index.cfm-App_mode-Display_Statute-URL-0400-0499-04-51a524f0.html",
     "content_type": "text/html",
     "content_sha256": "44f430e8bbfeea86ca750237e3de84ff3d64a2103f4118d0cf8bb3d94d725e2e",
-    "perma_url": null,
+    "perma_url": "https://perma.cc/ZG2H-SZK3",
     "wayback_url": null,
     "captured_at": "2026-07-10T14:31:19.831550+00:00",
     "signed": true,
     "tls_chain_unverified": false,
     "ingested_from_file": true,
-    "provenance": "curl script-fetch 2026-07-10 (http->https redirect followed; UA Firefox); threshold schedule byte-verified pre-ingest"
+    "provenance": "curl script-fetch 2026-07-10 (http->https redirect followed; UA Firefox); threshold schedule byte-verified pre-ingest",
+    "perma_backfilled_at": "2026-07-12T21:05:31.867429+00:00"
   }
 ]
