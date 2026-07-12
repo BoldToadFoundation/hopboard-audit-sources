@@ -1130,6 +1130,79 @@
         "All charitable organization registrations expire on July 31 of each year"
       ],
       "basis": "WI 202.12: no charity may solicit unless registered; audited statement over $1,000,000, reviewed over $500,000; registrations expire July 31"
+    },
+    "NHT8-ESYQ": {
+      "source_url": "https://law.resource.org/pub/us/code/ga/gov.ga.ocga.2019.08.21.release.73.zip",
+      "skip": "manually captured by Tony 2026-07-12 (Perma crawler had failed this host); binary artifact \u2014 verify-perma can't grep the payload, local bytes string-verified via by_sha256 (4ae724f7b4d8\u2026)."
+    },
+    "9R7X-G7YP": {
+      "source_url": "https://web.archive.org/web/20260523155938/https://codes.ohio.gov/ohio-revised-code/section-1716.02",
+      "strings": [
+        "shall file a registration statement with the attorney general upon a form prescribed by the attorney general",
+        "The annual registration statement shall be refiled on or before the fifteenth day of the fifth calendar month after the close of each fiscal year",
+        "whose contributions received for the last calendar or fiscal year were less than five thousand dollars shall not pay any registration fee"
+      ],
+      "basis": "ORC 1716.02: charities must register annually with the AG, refiling deadline (15th day of 5th month after FY close), and sub-$5,000 fee exemption"
+    },
+    "9N7N-TJWS": {
+      "source_url": "https://azsos.gov/business/other-services/veterans-charities-organizations",
+      "skip": "manually captured by Tony 2026-07-12, but the page is a JS-rendered SPA \u2014 Perma's copy is a shell missing the content (verify-perma COMPLETENESS FAIL). Local bytes string-verified via by_sha256 (eaa4328b2d26\u2026)."
+    },
+    "Q52B-AS5T": {
+      "source_url": "https://web.archive.org/web/20260517221825/https://azcc.gov/faqs/BusinessServicesFAQs",
+      "skip": "manually captured by Tony 2026-07-12, but the page is a JS-rendered SPA \u2014 Perma's copy is a shell missing the content (verify-perma COMPLETENESS FAIL). Local bytes string-verified via by_sha256 (3e1b0a820a68\u2026)."
+    },
+    "CDW4-GJ6T": {
+      "source_url": "https://web.archive.org/web/20260517092211/https://corp.delaware.gov/frtax/",
+      "strings": [
+        "All corporations incorporated in the State of Delaware are required to file an Annual Report and to pay a franchise tax.",
+        "Exempt domestic corporations do not pay a tax but must file an Annual Report.",
+        "Taxes and Annual Reports are to be received no later than March 1st of each year.",
+        "The penalty for not filing a completed Annual Report on or before March 1st is $200.00"
+      ],
+      "basis": "DE corporations must file an Annual Report and pay franchise tax by March 1 (exempt domestic corps file but owe no tax); $200 late penalty"
+    },
+    "KDV3-UFZJ": {
+      "source_url": "https://web.archive.org/web/20260523173834/https://code.dccouncil.gov/us/dc/council/code/sections/44-1704",
+      "strings": [
+        "Application for such certificate of registration shall be made upon such form or forms as shall be prescribed by the Council of the District of Columbia",
+        "shall be filed with the Mayor at least 15 days prior to the time when the certificate of registration applied for shall become effective",
+        "The Mayor shall issue a certificate of registration within 10 days after the filing of an application therefor"
+      ],
+      "basis": "DC charitable-solicitation certificate of registration: application filed with the Mayor at least 15 days before effectiveness; Mayor issues within 10 days"
+    },
+    "RN99-LKBZ": {
+      "source_url": "https://web.archive.org/web/20260517213806/https://comptroller.texas.gov/taxes/franchise/pir-oir-filing-req.php",
+      "strings": [
+        "The PIR is due on the annual franchise tax report due date. The report must be completed and signed by an officer, director or other authorized person.",
+        "The PIR or OIR is due even if the entity does not have to file a franchise tax report because its annualized total revenue is at or below the no tax due threshold.",
+        "your entity may forfeit its right to transact business if you fail to file a completed and signed PIR or OIR"
+      ],
+      "basis": "TX Comptroller: PIR/OIR annual filing requirement and due date, due even below the no-tax-due threshold, with forfeiture of right to transact business for non-filing"
+    },
+    "6Z67-PRRY": {
+      "source_url": "https://web.archive.org/web/20260326000515/https://nebraskalegislature.gov/laws/statutes.php?statute=21-19,172",
+      "strings": [
+        "21-19,172",
+        "Biennial report; contents.",
+        "shall deliver to the Secretary of State a biennial report on",
+        "the biennial report is due on April 1 of the odd-numbered"
+      ],
+      "basis": "NE 21-19,172 requires nonprofit corporations to file a biennial report with the Secretary of State, due April 1 of odd-numbered years."
+    },
+    "X9XU-D9W6": {
+      "source_url": "https://web.archive.org/web/20260521135408/https://revisor.mo.gov/main/OneSection.aspx?section=355.857",
+      "strings": [
+        "Option of biennial filing of corporate registration reports.",
+        "the secretary of state may provide corporations the option of biennially filing corporate registration reports",
+        "Once a corporation chooses the option of biennial registration, such registration shall be maintained for the full twenty-four-month period.",
+        "The secretary of state may collect an additional fee of ten dollars on each biennial corporate registration report"
+      ],
+      "basis": "MO 355.857 lets corporations file corporate registration reports biennially rather than annually, with a $10 additional fee."
+    },
+    "FKA6-YMQD": {
+      "source_url": "https://web.archive.org/web/20250920120921/https://www.legis.iowa.gov/docs/code/504.1613.pdf",
+      "skip": "manually captured by Tony 2026-07-12 (Perma crawler had failed this host); binary artifact \u2014 verify-perma can't grep the payload, local bytes string-verified via by_sha256 (0d8a3b5038f6\u2026)."
     }
   },
   "by_sha256": {
@@ -1391,45 +1464,6 @@
       ],
       "basis": "SD ch. 37-30: paid solicitors register 30 days prior, bond ($20k/$10k), 90-day financial report [moved from by_perma_guid 5FCD-F5G9 after verify-perma: Perma capture not string-verifiable]"
     },
-    "eaa4328b2d268313c880d61bcec5fcb1a38256e305cf49eec8aa56694f2828c6": {
-      "source_url": "https://azsos.gov/business/other-services/veterans-charities-organizations",
-      "strings": [
-        "The Secretary of State requires only Veteran\u2019s Charitable Organizations to file with our office.",
-        "a Veteran\u2019s Organization must file if a person is soliciting money",
-        "went into effect repealing this office\u2019s filing requirement",
-        "you do not need to register or renew your charitable organization on file"
-      ],
-      "basis": "AZ requires only veterans' charities to file; general charitable registration was repealed (HB 2457, 2013) \u2014 non-veteran charities need not register [moved from by_perma_guid 9N9W-RQ4Y after verify-perma: Perma capture not string-verifiable]"
-    },
-    "3e1b0a820a68de288be6bac3e1367346b7ef0528a82d6733b5e6addad8d77651": {
-      "source_url": "https://web.archive.org/web/20260517221825/https://azcc.gov/faqs/BusinessServicesFAQs",
-      "strings": [
-        "Every corporation and limited liability company is required to appoint and maintain a statutory agent at all times.",
-        "Administrative dissolution will only occur if a business fails to meet certain statutory requirements.",
-        "a corporation fails to submit an annual report or a business fails to pay their statutory filing fees",
-        "there is a reinstatement fee of $100.00"
-      ],
-      "basis": "AZ corp/LLC must maintain a statutory agent; failure to file an annual report triggers administrative dissolution; reinstatement carries a $100 fee [moved from by_perma_guid D2YB-KEAD after verify-perma: Perma capture not string-verifiable]"
-    },
-    "40d3d0dcadadb3b0fad2134b73d10e106bed38d52702cf45e0677f7dc6bc9a2b": {
-      "source_url": "https://web.archive.org/web/20260523173834/https://code.dccouncil.gov/us/dc/council/code/sections/44-1704",
-      "strings": [
-        "Application for such certificate of registration shall be made upon such form or forms as shall be prescribed by the Council of the District of Columbia",
-        "shall be filed with the Mayor at least 15 days prior to the time when the certificate of registration applied for shall become effective",
-        "The Mayor shall issue a certificate of registration within 10 days after the filing of an application therefor"
-      ],
-      "basis": "DC charitable-solicitation certificate of registration: application filed with the Mayor at least 15 days before effectiveness; Mayor issues within 10 days [moved from by_perma_guid Y3YT-DCLB after verify-perma: Perma capture not string-verifiable]"
-    },
-    "df42364e60da5185f4d850cd71999afa001c5b165f96719ae38280901fc1fc20": {
-      "source_url": "https://web.archive.org/web/20260517092211/https://corp.delaware.gov/frtax/",
-      "strings": [
-        "All corporations incorporated in the State of Delaware are required to file an Annual Report and to pay a franchise tax.",
-        "Exempt domestic corporations do not pay a tax but must file an Annual Report.",
-        "Taxes and Annual Reports are to be received no later than March 1st of each year.",
-        "The penalty for not filing a completed Annual Report on or before March 1st is $200.00"
-      ],
-      "basis": "DE corporations must file an Annual Report and pay franchise tax by March 1 (exempt domestic corps file but owe no tax); $200 late penalty [moved from by_perma_guid 93T5-KQ5K after verify-perma: Perma capture not string-verifiable]"
-    },
     "4ae724f7b4d863979ffd7d3c2ba228307a7d2f8c2043b108eac6a8f7584e1c14": {
       "source_url": "https://law.resource.org/pub/us/code/ga/gov.ga.ocga.2019.08.21.release.73.zip",
       "strings": [
@@ -1458,44 +1492,6 @@
         "The first biennial report shall be delivered to the secretary of state between January 1"
       ],
       "basis": "Iowa Code 504.1613 biennial corporate report duty (nonprofit corp records, not charitable solicitation registration). [moved from by_perma_guid C5ZX-WDW6 after verify-perma: Perma capture not string-verifiable]"
-    },
-    "161dc9fbd3ff144bc18747021cf997410ef063cf432fe7d5fb844c2a622cfdfa": {
-      "source_url": "https://web.archive.org/web/20260521135408/https://revisor.mo.gov/main/OneSection.aspx?section=355.857",
-      "strings": [
-        "Option of biennial filing of corporate registration reports.",
-        "the secretary of state may provide corporations the option of biennially filing corporate registration reports",
-        "Once a corporation chooses the option of biennial registration, such registration shall be maintained for the full twenty-four-month period.",
-        "The secretary of state may collect an additional fee of ten dollars on each biennial corporate registration report"
-      ],
-      "basis": "MO 355.857 lets corporations file corporate registration reports biennially rather than annually, with a $10 additional fee. [moved from by_perma_guid 4VSZ-LEVV after verify-perma: Perma capture not string-verifiable]"
-    },
-    "4866d0b81cc0d887c7ee7a39beaa53a535b9e1df3d1a665cfbc1b0590f824005": {
-      "source_url": "https://web.archive.org/web/20260326000515/https://nebraskalegislature.gov/laws/statutes.php?statute=21-19,172",
-      "strings": [
-        "21-19,172",
-        "Biennial report; contents.",
-        "shall deliver to the Secretary of State a biennial report on",
-        "the biennial report is due on April 1 of the odd-numbered"
-      ],
-      "basis": "NE 21-19,172 requires nonprofit corporations to file a biennial report with the Secretary of State, due April 1 of odd-numbered years. [moved from by_perma_guid X3X5-Z6CN after verify-perma: Perma capture not string-verifiable]"
-    },
-    "a575699d396fb437c64320caff19a2ec3e441799e7493b1050b368812af9dc6c": {
-      "source_url": "https://web.archive.org/web/20260523155938/https://codes.ohio.gov/ohio-revised-code/section-1716.02",
-      "strings": [
-        "shall file a registration statement with the attorney general upon a form prescribed by the attorney general",
-        "The annual registration statement shall be refiled on or before the fifteenth day of the fifth calendar month after the close of each fiscal year",
-        "whose contributions received for the last calendar or fiscal year were less than five thousand dollars shall not pay any registration fee"
-      ],
-      "basis": "ORC 1716.02: charities must register annually with the AG, refiling deadline (15th day of 5th month after FY close), and sub-$5,000 fee exemption [moved from by_perma_guid KKB2-VXY2 after verify-perma: Perma capture not string-verifiable]"
-    },
-    "fd76c114de27533823bfd876ed400a1490b02180835f42c737099c15ecdbd5de": {
-      "source_url": "https://web.archive.org/web/20260517213806/https://comptroller.texas.gov/taxes/franchise/pir-oir-filing-req.php",
-      "strings": [
-        "The PIR is due on the annual franchise tax report due date. The report must be completed and signed by an officer, director or other authorized person.",
-        "The PIR or OIR is due even if the entity does not have to file a franchise tax report because its annualized total revenue is at or below the no tax due threshold.",
-        "your entity may forfeit its right to transact business if you fail to file a completed and signed PIR or OIR"
-      ],
-      "basis": "TX Comptroller: PIR/OIR annual filing requirement and due date, due even below the no-tax-due threshold, with forfeiture of right to transact business for non-filing [moved from by_perma_guid XDT7-MYZK after verify-perma: Perma capture not string-verifiable]"
     },
     "84d3300674e6979669d3ab04db098dd426d28e8786ddef8d0c768aa56b8a73c6": {
       "source_url": "https://adminrules.utah.gov/api/public/getfile/uac-html/3efc525b-4029-4642-8aa2-e6c22ddac209.html/R152-22.html",
@@ -1580,6 +1576,26 @@
         "ness day of the eleventh month after the end of its accounting year."
       ],
       "basis": "Commercial fundraiser annual renewal due by last business day of the 11th month after its accounting-year end [moved from by_perma_guid UZM3-BX3B after verify-perma: Perma capture not string-verifiable]"
+    },
+    "eaa4328b2d268313c880d61bcec5fcb1a38256e305cf49eec8aa56694f2828c6": {
+      "source_url": "https://azsos.gov/business/other-services/veterans-charities-organizations",
+      "strings": [
+        "The Secretary of State requires only Veteran\u2019s Charitable Organizations to file with our office.",
+        "a Veteran\u2019s Organization must file if a person is soliciting money",
+        "went into effect repealing this office\u2019s filing requirement",
+        "you do not need to register or renew your charitable organization on file"
+      ],
+      "basis": "AZ requires only veterans' charities to file; general charitable registration was repealed (HB 2457, 2013) \u2014 non-veteran charities need not register"
+    },
+    "3e1b0a820a68de288be6bac3e1367346b7ef0528a82d6733b5e6addad8d77651": {
+      "source_url": "https://web.archive.org/web/20260517221825/https://azcc.gov/faqs/BusinessServicesFAQs",
+      "strings": [
+        "Every corporation and limited liability company is required to appoint and maintain a statutory agent at all times.",
+        "Administrative dissolution will only occur if a business fails to meet certain statutory requirements.",
+        "a corporation fails to submit an annual report or a business fails to pay their statutory filing fees",
+        "there is a reinstatement fee of $100.00"
+      ],
+      "basis": "AZ corp/LLC must maintain a statutory agent; failure to file an annual report triggers administrative dissolution; reinstatement carries a $100 fee"
     }
   }
 }
