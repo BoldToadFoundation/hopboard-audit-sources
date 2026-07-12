@@ -5,12 +5,11 @@
     "local_path": "UT/adminrules.utah.gov-api-public-getfile-uac-html-3efc525b-4029-4642-8aa2-e6c22dda.html",
     "content_type": "text/html",
     "content_sha256": "84d3300674e6979669d3ab04db098dd426d28e8786ddef8d0c768aa56b8a73c6",
-    "perma_url": "https://perma.cc/626X-YHKF",
+    "perma_url": null,
     "wayback_url": "https://web.archive.org/web/20260706190257/https://adminrules.utah.gov/api/public/getfile/uac-html/3efc525b-4029-4642-8aa2-e6c22ddac209.html/R152-22.html",
     "captured_at": "2026-07-06T19:02:01.699651+00:00",
     "signed": true,
-    "tls_chain_unverified": false,
-    "perma_backfilled_at": "2026-07-12T21:09:30.830616+00:00"
+    "tls_chain_unverified": false
   },
   {
     "source_url": "https://le.utah.gov/Session/2026/bills/enrolled/SB0038.pdf",
