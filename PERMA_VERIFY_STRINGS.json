@@ -1203,6 +1203,14 @@
     "FKA6-YMQD": {
       "source_url": "https://web.archive.org/web/20250920120921/https://www.legis.iowa.gov/docs/code/504.1613.pdf",
       "skip": "manually captured by Tony 2026-07-12 (Perma crawler had failed this host); binary artifact \u2014 verify-perma can't grep the payload, local bytes string-verified via by_sha256 (0d8a3b5038f6\u2026)."
+    },
+    "4CFG-WC96": {
+      "source_url": "https://app.leg.wa.gov/WAC/default.aspx?cite=434-120-225&pdf=true",
+      "skip": "manually captured by Tony 2026-07-12 (WAC 434-120-225, WA annual-renewal \u2014 Perma crawler had failed app.leg.wa.gov). Binary PDF; content string-verified locally via by_sha256."
+    },
+    "S5ZB-AA24": {
+      "source_url": "https://app.leg.wa.gov/ (combined)",
+      "skip": "manually captured by Tony 2026-07-12 \u2014 a SINGLE combined PDF assembled from the 7 other WA sources (WAC 434-120-042/047/140; RCW 1.16.050, 19.09.062/075/085). All 7 manifest entries point here; each source's content is string-verified locally via its own by_sha256 entry."
     }
   },
   "by_sha256": {
@@ -1510,7 +1518,7 @@
         "Other than Sunday, falls upon a Sunday, the following Monday",
         "Falls upon a Saturday, the preceding Friday is the legal"
       ],
-      "basis": "Washington RCW 1.16.050 defines state legal holidays and the weekend roll-over rule (deadline-computation reference) [moved from by_perma_guid 5HXN-88X5 after verify-perma: Perma capture not string-verifiable]"
+      "basis": "Washington RCW 1.16.050 defines state legal holidays and the weekend roll-over rule (deadline-computation reference)"
     },
     "9e7d67527f3c4761e64f36f0f720270399ddf9ea6d51a8bcfa048d1b18a9154c": {
       "source_url": "https://app.leg.wa.gov/RCW/default.aspx?cite=19.09.062&pdf=true",
@@ -1519,7 +1527,7 @@
         "a fee of sixty dollars",
         "a fee of forty dollars"
       ],
-      "basis": "Washington RCW 19.09.062 sets charitable-organization registration fee ($60) and annual renewal fee ($40) [moved from by_perma_guid A4PC-QV4C after verify-perma: Perma capture not string-verifiable]"
+      "basis": "Washington RCW 19.09.062 sets charitable-organization registration fee ($60) and annual renewal fee ($40)"
     },
     "109bf067e48fd9c073c1527e0afd309d6e1edb94b417826cdeb1442ed8f62dcb": {
       "source_url": "https://app.leg.wa.gov/RCW/default.aspx?cite=19.09.075&pdf=true",
@@ -1529,7 +1537,7 @@
         "is not required to file a copy of such annual return with the",
         "be submitted with a nonrefundable filing fee established in RCW"
       ],
-      "basis": "Washington RCW 19.09.075 charitable-org registration/renewal application contents, 990-series copy not required, nonrefundable fee [moved from by_perma_guid XQ9X-852L after verify-perma: Perma capture not string-verifiable]"
+      "basis": "Washington RCW 19.09.075 charitable-org registration/renewal application contents, 990-series copy not required, nonrefundable fee"
     },
     "3815c63b1074d1d452b1416b12e486ac0f51c95edf766b8faab3d818beca854f": {
       "source_url": "https://app.leg.wa.gov/RCW/default.aspx?cite=19.09.085&pdf=true",
@@ -1538,7 +1546,7 @@
         "Registration under this chapter is effective for one year or as",
         "no sooner than twenty days after receipt of the registration"
       ],
-      "basis": "Washington RCW 19.09.085 sets one-year registration duration and 20-day-after-receipt effective/renewal timing [moved from by_perma_guid 2R53-7J2T after verify-perma: Perma capture not string-verifiable]"
+      "basis": "Washington RCW 19.09.085 sets one-year registration duration and 20-day-after-receipt effective/renewal timing"
     },
     "297d5aa6a5aea0d98f9f512e56bcd92ec4de9819d67b6b81692835c55a731f63": {
       "source_url": "https://app.leg.wa.gov/WAC/default.aspx?cite=434-120-042&pdf=true",
@@ -1548,7 +1556,7 @@
         "Initial registration (RCW 19.09.062): $60.00.",
         "Annual renewal (RCW 19.09.062): $40.00."
       ],
-      "basis": "WA charities fee schedule: $60 initial / $40 annual renewal registration fees and $50 late fee [moved from by_perma_guid PJ5M-VBMH after verify-perma: Perma capture not string-verifiable]"
+      "basis": "WA charities fee schedule: $60 initial / $40 annual renewal registration fees and $50 late fee"
     },
     "e0c922d121154f873e6a59fbc318fe759a629db6961410fda940d0a154745eef": {
       "source_url": "https://app.leg.wa.gov/WAC/default.aspx?cite=434-120-047&pdf=true",
@@ -1557,7 +1565,7 @@
         "is delinquent and subject to a late fee as provided in WAC",
         "shall be involuntarily closed,"
       ],
-      "basis": "Failure to renew registration by the renewal date = delinquent, late fee, and involuntary closure [moved from by_perma_guid W5A3-PKYU after verify-perma: Perma capture not string-verifiable]"
+      "basis": "Failure to renew registration by the renewal date = delinquent, late fee, and involuntary closure"
     },
     "607df7f5d314c40855a3dab71dd975d7d17d01dd92be22810308dbd21a70202b": {
       "source_url": "https://app.leg.wa.gov/WAC/default.aspx?cite=434-120-140&pdf=true",
@@ -1566,7 +1574,7 @@
         "and submit it with the fee in RCW 19.09.062(1) prior to conducting any",
         "the last business day of the eleventh month after the end of the"
       ],
-      "basis": "Charitable org must register before soliciting and renew by the last business day of the 11th month after accounting-year end [moved from by_perma_guid GFY9-XXQH after verify-perma: Perma capture not string-verifiable]"
+      "basis": "Charitable org must register before soliciting and renew by the last business day of the 11th month after accounting-year end"
     },
     "cedc9ba07d270381815894e7fb97f60045b699f19c0b6126ae75a9ba4b8d5f49": {
       "source_url": "https://app.leg.wa.gov/WAC/default.aspx?cite=434-120-225&pdf=true",
@@ -1575,7 +1583,7 @@
         "shall renew annually by submitting a renewal form and the filing fee",
         "ness day of the eleventh month after the end of its accounting year."
       ],
-      "basis": "Commercial fundraiser annual renewal due by last business day of the 11th month after its accounting-year end [moved from by_perma_guid UZM3-BX3B after verify-perma: Perma capture not string-verifiable]"
+      "basis": "Commercial fundraiser annual renewal due by last business day of the 11th month after its accounting-year end"
     },
     "eaa4328b2d268313c880d61bcec5fcb1a38256e305cf49eec8aa56694f2828c6": {
       "source_url": "https://azsos.gov/business/other-services/veterans-charities-organizations",
