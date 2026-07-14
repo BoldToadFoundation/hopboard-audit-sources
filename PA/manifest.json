@@ -1,0 +1,26 @@
+[
+  {
+    "source_url": "https://www.pa.gov/content/dam/copapwp-pagov/en/dos/programs/charities/BCO-10-instructions-REV-2024.pdf",
+    "primary": false,
+    "local_path": "PA/www.pa.gov-content-dam-copapwp-pagov-en-dos-programs-charities-BCO-10-instructio.pdf",
+    "content_type": "application/pdf",
+    "content_sha256": "abc5ed8c87011eb4648d6299abdada4d1c876fc2d3be8cc0aa9b4c7835bc4438",
+    "perma_url": "https://perma.cc/6L79-FAWQ",
+    "wayback_url": "https://web.archive.org/web/20250904050131/https://www.pa.gov/content/dam/copapwp-pagov/en/dos/programs/charities/BCO-10-instructions-REV-2024.pdf",
+    "captured_at": "2026-07-14T23:47:10.078317+00:00",
+    "signed": false,
+    "tls_chain_unverified": false
+  },
+  {
+    "source_url": "https://www.pa.gov/content/dam/copapwp-pagov/en/dos/programs/charities/CharitiesSolicitationAct-1-2018.pdf",
+    "primary": true,
+    "local_path": "PA/www.pa.gov-content-dam-copapwp-pagov-en-dos-programs-charities-CharitiesSolicita.pdf",
+    "content_type": "application/pdf",
+    "content_sha256": "72254b37ad5a1b79815f44174b57008d8e31194dac22729ee93a81d0b669b39b",
+    "perma_url": "https://perma.cc/WY8M-AGYA",
+    "wayback_url": "https://web.archive.org/web/20251114120714/https://www.pa.gov/content/dam/copapwp-pagov/en/dos/programs/charities/CharitiesSolicitationAct-1-2018.pdf",
+    "captured_at": "2026-07-14T23:47:10.078317+00:00",
+    "signed": false,
+    "tls_chain_unverified": false
+  }
+]
