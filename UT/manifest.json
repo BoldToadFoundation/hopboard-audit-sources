@@ -12,17 +12,28 @@
     "tls_chain_unverified": false
   },
   {
-    "source_url": "https://le.utah.gov/Session/2026/bills/enrolled/SB0038.pdf",
+    "source_url": "https://commerce.utah.gov/dcp/for-businesses/charities/",
     "primary": false,
+    "local_path": "UT/commerce.utah.gov-dcp-for-businesses-charities.html",
+    "content_type": "text/html; charset=UTF-8",
+    "content_sha256": "c1d816f248077da2e910ee428f246e358f27729b882f6fa1d0339af8edb11129",
+    "perma_url": "https://perma.cc/J7KM-LSKE",
+    "wayback_url": "https://web.archive.org/web/20260714134208/https://commerce.utah.gov/dcp/for-businesses/charities/",
+    "captured_at": "2026-07-14T13:41:48.302054+00:00",
+    "signed": false,
+    "tls_chain_unverified": false
+  },
+  {
+    "source_url": "https://le.utah.gov/Session/2026/bills/enrolled/SB0038.pdf",
+    "primary": true,
     "local_path": "UT/le.utah.gov-Session-2026-bills-enrolled-SB0038.pdf.pdf",
     "content_type": "application/pdf",
     "content_sha256": "70325aa75611668e0129195d46b5200df0452330ca3339d06fa16c19e5d955c5",
-    "perma_url": "https://perma.cc/H3NW-EQ7R",
+    "perma_url": "https://perma.cc/2NRS-CDUX",
     "wayback_url": "https://web.archive.org/web/20260706190352/https://le.utah.gov/Session/2026/bills/enrolled/SB0038.pdf",
-    "captured_at": "2026-07-06T19:02:01.699651+00:00",
-    "signed": true,
-    "tls_chain_unverified": false,
-    "perma_backfilled_at": "2026-07-12T21:09:37.190057+00:00"
+    "captured_at": "2026-07-14T13:41:48.302054+00:00",
+    "signed": false,
+    "tls_chain_unverified": false
   },
   {
     "source_url": "https://le.utah.gov/xcode/Title13/Chapter22/C13-22-S104_2026050620260506.html",
