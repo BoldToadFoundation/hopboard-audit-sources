@@ -1219,7 +1219,8 @@
     "For good cause shown, the department may extend",
     "Solicitation of Funds for Charitable Purposes"
    ],
-   "basis": "PA charitable renewal STATUTE PRIMARY, 10 P.S. §162.5(k): the load-bearing operative deadline — the department may extend annual filing to a mailing date 'not to exceed the fifteenth day of the eleventh month following the close of the fiscal year' (the encoded 11th-month/15th ceiling, administered universally per BCO-10). Positive controls anchor the artifact as the real Act 202 reproduction. pdftotext byte-verified against the hash-pinned local PA/...CharitiesSolicita.pdf (sha 72254b37) 2026-07-14; two-reader §1 verify."
+   "basis": "PA charitable renewal STATUTE PRIMARY, 10 P.S. §162.5(k): the load-bearing operative deadline — the department may extend annual filing to a mailing date 'not to exceed the fifteenth day of the eleventh month following the close of the fiscal year' (the encoded 11th-month/15th ceiling, administered universally per BCO-10). Positive controls anchor the artifact as the real Act 202 reproduction. pdftotext byte-verified against the hash-pinned local PA/...CharitiesSolicita.pdf (sha 72254b37) 2026-07-14; two-reader §1 verify.",
+   "skip": "PDF primary — the Perma/WARC stores the PDF text FlateDecode-compressed, so verify_perma's utf-8 WARC grep cannot read it (binary-blind, line 282/424). The load-bearing strings above are pdftotext byte-verified against the sha-pinned LOCAL archive (verify-strings OK; verify_hashes recompute clean). Documented-skip tier for PDF primaries pending PDF-gate-v2 (pdftotext-from-WARC). 2026-07-14, PA renewal verify."
   },
   "6L79-FAWQ": {
    "source_url": "https://www.pa.gov/content/dam/copapwp-pagov/en/dos/programs/charities/BCO-10-instructions-REV-2024.pdf",
@@ -1228,7 +1229,8 @@
     "refiled (postmarked)",
     "renewal due date is indicated on the certificate"
    ],
-   "basis": "PA charitable renewal AGENCY SOURCE, BCO-10 Instructions REV-2024: the Bureau administers the renewal deadline flatly as the 15th day of the eleventh month following FYE close ('refiled (postmarked) no later than...'), printed on each Certificate of Registration — the as-administered basis for the 11th-month/15th encoding + POSTMARK filing mechanics. pdftotext byte-verified against the hash-pinned local PA/...BCO-10-instructio.pdf (sha abc5ed8c) 2026-07-14."
+   "basis": "PA charitable renewal AGENCY SOURCE, BCO-10 Instructions REV-2024: the Bureau administers the renewal deadline flatly as the 15th day of the eleventh month following FYE close ('refiled (postmarked) no later than...'), printed on each Certificate of Registration — the as-administered basis for the 11th-month/15th encoding + POSTMARK filing mechanics. pdftotext byte-verified against the hash-pinned local PA/...BCO-10-instructio.pdf (sha abc5ed8c) 2026-07-14.",
+   "skip": "PDF primary — the Perma/WARC stores the PDF text FlateDecode-compressed, so verify_perma's utf-8 WARC grep cannot read it (binary-blind, line 282/424). The load-bearing strings above are pdftotext byte-verified against the sha-pinned LOCAL archive (verify-strings OK; verify_hashes recompute clean). Documented-skip tier for PDF primaries pending PDF-gate-v2 (pdftotext-from-WARC). 2026-07-14, PA renewal verify."
   }
  },
  "by_sha256": {
@@ -1630,7 +1632,8 @@
     "For good cause shown, the department may extend",
     "Solicitation of Funds for Charitable Purposes"
    ],
-   "basis": "PA charitable renewal STATUTE PRIMARY, 10 P.S. §162.5(k): the load-bearing operative deadline — the department may extend annual filing to a mailing date 'not to exceed the fifteenth day of the eleventh month following the close of the fiscal year' (the encoded 11th-month/15th ceiling, administered universally per BCO-10). Positive controls anchor the artifact as the real Act 202 reproduction. pdftotext byte-verified against the hash-pinned local PA/...CharitiesSolicita.pdf (sha 72254b37) 2026-07-14; two-reader §1 verify."
+   "basis": "PA charitable renewal STATUTE PRIMARY, 10 P.S. §162.5(k): the load-bearing operative deadline — the department may extend annual filing to a mailing date 'not to exceed the fifteenth day of the eleventh month following the close of the fiscal year' (the encoded 11th-month/15th ceiling, administered universally per BCO-10). Positive controls anchor the artifact as the real Act 202 reproduction. pdftotext byte-verified against the hash-pinned local PA/...CharitiesSolicita.pdf (sha 72254b37) 2026-07-14; two-reader §1 verify.",
+   "skip": "PDF primary — the Perma/WARC stores the PDF text FlateDecode-compressed, so verify_perma's utf-8 WARC grep cannot read it (binary-blind, line 282/424). The load-bearing strings above are pdftotext byte-verified against the sha-pinned LOCAL archive (verify-strings OK; verify_hashes recompute clean). Documented-skip tier for PDF primaries pending PDF-gate-v2 (pdftotext-from-WARC). 2026-07-14, PA renewal verify."
   },
   "abc5ed8c87011eb4648d6299abdada4d1c876fc2d3be8cc0aa9b4c7835bc4438": {
    "source_url": "https://www.pa.gov/content/dam/copapwp-pagov/en/dos/programs/charities/BCO-10-instructions-REV-2024.pdf",
@@ -1639,7 +1642,8 @@
     "refiled (postmarked)",
     "renewal due date is indicated on the certificate"
    ],
-   "basis": "PA charitable renewal AGENCY SOURCE, BCO-10 Instructions REV-2024: the Bureau administers the renewal deadline flatly as the 15th day of the eleventh month following FYE close ('refiled (postmarked) no later than...'), printed on each Certificate of Registration — the as-administered basis for the 11th-month/15th encoding + POSTMARK filing mechanics. pdftotext byte-verified against the hash-pinned local PA/...BCO-10-instructio.pdf (sha abc5ed8c) 2026-07-14."
+   "basis": "PA charitable renewal AGENCY SOURCE, BCO-10 Instructions REV-2024: the Bureau administers the renewal deadline flatly as the 15th day of the eleventh month following FYE close ('refiled (postmarked) no later than...'), printed on each Certificate of Registration — the as-administered basis for the 11th-month/15th encoding + POSTMARK filing mechanics. pdftotext byte-verified against the hash-pinned local PA/...BCO-10-instructio.pdf (sha abc5ed8c) 2026-07-14.",
+   "skip": "PDF primary — the Perma/WARC stores the PDF text FlateDecode-compressed, so verify_perma's utf-8 WARC grep cannot read it (binary-blind, line 282/424). The load-bearing strings above are pdftotext byte-verified against the sha-pinned LOCAL archive (verify-strings OK; verify_hashes recompute clean). Documented-skip tier for PDF primaries pending PDF-gate-v2 (pdftotext-from-WARC). 2026-07-14, PA renewal verify."
   }
  }
 }
