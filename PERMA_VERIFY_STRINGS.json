@@ -1241,7 +1241,8 @@
         "ineffective immediately",
         "beyond December first"
       ],
-      "basis": "ND §1 verify 2026-07-17: registration mandate (N.D.C.C. 50-22-02(1)), Sept-1 delivery-anchored annual report + $10 fee (50-22-04(1)), lapse-on-miss (50-22-04(5)), Dec-1 extension cap (50-22-04(1)). Strings chosen line-wrap-safe for pdftotext -layout; byte-verified against the local artifact at authoring; 3 independent fetches sha-identical. Read doc docs/regime_reread/ND_20260717.md."
+      "basis": "ND §1 verify 2026-07-17: registration mandate (N.D.C.C. 50-22-02(1)), Sept-1 delivery-anchored annual report + $10 fee (50-22-04(1)), lapse-on-miss (50-22-04(5)), Dec-1 extension cap (50-22-04(1)). Strings chosen line-wrap-safe for pdftotext -layout; byte-verified against the local artifact at authoring; 3 independent fetches sha-identical. Read doc docs/regime_reread/ND_20260717.md.",
+      "skip": "PDF — the Perma/WARC stores the PDF text FlateDecode-compressed, so verify_perma's utf-8 WARC grep cannot read it (binary-blind). The load-bearing strings above are pdftotext byte-verified against the sha-pinned LOCAL archive (verify-strings OK this apply; verify-hashes recompute clean). Documented-skip tier for PDF primaries pending PDF-gate-v2 (pdftotext-from-WARC). 2026-07-17, ND verify."
     },
     "2F5R-R823": {
       "source_url": "https://ndlegis.gov/cencode/t10c33.pdf",
@@ -1249,7 +1250,8 @@
         "February second of each year",
         "annual report of a nonprofit corporation"
       ],
-      "basis": "ND corporate annual report (10-33-139(3)): 'before February second' ≡ encoded 'February 1 each year'; confirms corporate_filing_deadline. ND verify 2026-07-17 secondary source."
+      "basis": "ND corporate annual report (10-33-139(3)): 'before February second' ≡ encoded 'February 1 each year'; confirms corporate_filing_deadline. ND verify 2026-07-17 secondary source.",
+      "skip": "PDF — the Perma/WARC stores the PDF text FlateDecode-compressed, so verify_perma's utf-8 WARC grep cannot read it (binary-blind). The load-bearing strings above are pdftotext byte-verified against the sha-pinned LOCAL archive (verify-strings OK this apply; verify-hashes recompute clean). Documented-skip tier for PDF primaries pending PDF-gate-v2 (pdftotext-from-WARC). 2026-07-17, ND verify."
     },
     "9JSA-94HL": {
       "source_url": "https://www.sos.nd.gov/business/nonprofit-services/charitable-organizations",
@@ -1266,7 +1268,8 @@
         "September 1 of each year",
         "FirstStop"
       ],
-      "basis": "ND agency guide (REVISED AUGUST 2025 = post-69th-Assembly currency corroboration): Sept-1 annual report + FirstStop portal channel. ND verify 2026-07-17 secondary source."
+      "basis": "ND agency guide (REVISED AUGUST 2025 = post-69th-Assembly currency corroboration): Sept-1 annual report + FirstStop portal channel. ND verify 2026-07-17 secondary source.",
+      "skip": "PDF — the Perma/WARC stores the PDF text FlateDecode-compressed, so verify_perma's utf-8 WARC grep cannot read it (binary-blind). The load-bearing strings above are pdftotext byte-verified against the sha-pinned LOCAL archive (verify-strings OK this apply; verify-hashes recompute clean). Documented-skip tier for PDF primaries pending PDF-gate-v2 (pdftotext-from-WARC). 2026-07-17, ND verify."
     }
   },
   "by_sha256": {
