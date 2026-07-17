@@ -1,0 +1,50 @@
+[
+  {
+    "source_url": "https://ndlegis.gov/cencode/t10c33.pdf",
+    "primary": false,
+    "local_path": "ND/ndlegis.gov-cencode-t10c33.pdf.pdf",
+    "content_type": "application/pdf",
+    "content_sha256": "0f563db0ab22cb0ba2a551ba4b09e63e349203bedacaf7d765052745b0a31926",
+    "perma_url": "https://perma.cc/2F5R-R823",
+    "wayback_url": "https://web.archive.org/web/20260717135638/https://ndlegis.gov/cencode/t10c33.pdf",
+    "captured_at": "2026-07-17T13:56:25.175732+00:00",
+    "signed": false,
+    "tls_chain_unverified": false
+  },
+  {
+    "source_url": "https://ndlegis.gov/cencode/t50c22.pdf",
+    "primary": true,
+    "local_path": "ND/ndlegis.gov-cencode-t50c22.pdf.pdf",
+    "content_type": "application/pdf",
+    "content_sha256": "7a27c87b7dd72ec4b1d03f205adb1d9241abeab6887f3814f224f1ce17fd9cdf",
+    "perma_url": "https://perma.cc/M7FP-CDHP",
+    "wayback_url": "https://web.archive.org/web/20260717135630/https://ndlegis.gov/cencode/t50c22.pdf",
+    "captured_at": "2026-07-17T13:56:25.175732+00:00",
+    "signed": false,
+    "tls_chain_unverified": false
+  },
+  {
+    "source_url": "https://www.sos.nd.gov/business/nonprofit-services/charitable-organizations",
+    "primary": false,
+    "local_path": "ND/www.sos.nd.gov-business-nonprofit-services-charitable-organizations.html",
+    "content_type": "text/html; charset=UTF-8",
+    "content_sha256": "bc9bee42e6e58f95d4dc9ebd3eef4ea6fa778a972cd905ed59c7d38173c77403",
+    "perma_url": "https://perma.cc/9JSA-94HL",
+    "wayback_url": null,
+    "captured_at": "2026-07-17T13:56:25.175732+00:00",
+    "signed": false,
+    "tls_chain_unverified": false
+  },
+  {
+    "source_url": "https://www.sos.nd.gov/sites/www/files/documents/business/charitable-org-guide.pdf",
+    "primary": false,
+    "local_path": "ND/www.sos.nd.gov-sites-www-files-documents-business-charitable-org-guide.pdf.pdf",
+    "content_type": "application/pdf",
+    "content_sha256": "2634f9c53d03ae45b60a4b1654bbeb9c5407be6c1126ea04fc6c91c7675859e8",
+    "perma_url": "https://perma.cc/4A6A-8W8W",
+    "wayback_url": null,
+    "captured_at": "2026-07-17T13:56:25.175732+00:00",
+    "signed": false,
+    "tls_chain_unverified": false
+  }
+]
