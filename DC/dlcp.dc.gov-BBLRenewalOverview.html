@@ -1,0 +1,4762 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML+RDFa 1.1//EN">
+<html lang="en" dir="ltr" version="HTML+RDFa 1.1"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><script type="text/javascript">(window.NREUM||(NREUM={})).init={ajax:{deny_list:["bam.nr-data.net"]},feature_flags:["soft_nav"]};(window.NREUM||(NREUM={})).loader_config={licenseKey:"348872d504",applicationID:"496267014",browserID:"496267118"};;/*! For license information please see nr-loader-rum-1.318.0.min.js.LICENSE.txt */
+(()=>{var e={8122(e,t,r){"use strict";r.d(t,{a:()=>i});var n=r(944);function i(e,t){try{if(!e||"object"!=typeof e)return(0,n.R)(3);if(!t||"object"!=typeof t)return(0,n.R)(4);const r=Object.create(Object.getPrototypeOf(t),Object.getOwnPropertyDescriptors(t)),s=0===Object.keys(r).length?e:r;for(let o in s)if(void 0!==e[o])try{if(null===e[o]){r[o]=null;continue}Array.isArray(e[o])&&Array.isArray(t[o])?r[o]=Array.from(new Set([...e[o],...t[o]])):e[o]instanceof Map||e[o]instanceof Set||e[o]instanceof Date||e[o]instanceof RegExp?r[o]=e[o]:"object"==typeof e[o]&&null!==t[o]&&"object"==typeof t[o]?r[o]=i(e[o],t[o]):r[o]=e[o]}catch(e){r[o]||(0,n.R)(1,e)}return r}catch(e){(0,n.R)(2,e)}}},2555(e,t,r){"use strict";r.d(t,{f:()=>o});var n=r(384),i=r(8122);const s={beacon:n.NT.beacon,errorBeacon:n.NT.errorBeacon,licenseKey:void 0,applicationID:void 0,sa:void 0,queueTime:void 0,applicationTime:void 0,ttGuid:void 0,user:void 0,account:void 0,product:void 0,extra:void 0,jsAttributes:{},userAttributes:void 0,atts:void 0,transactionName:void 0,tNamePlain:void 0};function o(e){try{return!!e.licenseKey&&!!e.errorBeacon&&!!e.applicationID}catch(e){return!1}}r.d(t,["D",0,e=>(0,i.a)(e,s)])},7699(e,t,r){"use strict";var n=r(860);const i={[n.K7.logging]:!0,[n.K7.genericEvents]:!0,[n.K7.jserrors]:!0,[n.K7.ajax]:!0};r.d(t,["It",0,1e6,"KC",0,i,"qh",0,"SESSION_ERROR"])},9324(e,t,r){"use strict";r.d(t,["xv",0,"1.318.0"])},981(e,t,r){"use strict";r.d(t,["R",0,{AJAX:"AjaxRequest",PA:"PageAction",UA:"UserAction",BP:"BrowserPerformance",WS:"WebSocket",SPV:"SecurityPolicyViolation",JSE:"JavaScriptError",LOG:"Log",PVE:"PageView",PVT:"PageViewTiming",SR:"SessionReplay",ST:"SessionTrace",BI:"BrowserInteraction"}])},6154(e,t,r){"use strict";var n=r(1863);const i="undefined"!=typeof window&&!!window.document,s="undefined"!=typeof WorkerGlobalScope&&("undefined"!=typeof self&&self instanceof WorkerGlobalScope&&self.navigator instanceof WorkerNavigator||"undefined"!=typeof globalThis&&globalThis instanceof WorkerGlobalScope&&globalThis.navigator instanceof WorkerNavigator),o=i?window:"undefined"!=typeof WorkerGlobalScope&&("undefined"!=typeof self&&self instanceof WorkerGlobalScope&&self||"undefined"!=typeof globalThis&&globalThis instanceof WorkerGlobalScope&&globalThis),a=Boolean("hidden"===o?.document?.visibilityState),c=""+o?.location,u=/iPad|iPhone|iPod/.test(o.navigator?.userAgent),d=u&&"undefined"==typeof SharedWorker,l=((()=>{const e=o.navigator?.userAgent?.match(/Firefox[/\s](\d+\.\d+)/);Array.isArray(e)&&e.length>=2&&e[1]})(),Date.now()-(0,n.t)());r.d(t,["OF",0,u,"RI",0,i,"WN",0,l,"bv",0,s,"gm",0,o,"m",0,c,"mw",0,a,"sb",0,d,"zk",0,()=>{const e=o?.performance?.getEntriesByType?.("navigation")?.[0];if(e&&e.responseStart>0&&e.responseStart<o.performance.now())return e}])},3241(e,t,r){"use strict";r.d(t,{W:()=>i});var n=r(6154);function i(e={}){try{n.gm.dispatchEvent(new CustomEvent("newrelic",{detail:e}))}catch(e){}}},1687(e,t,r){"use strict";r.d(t,{Ak:()=>a,Ze:()=>u,x3:()=>c});var n=r(3241),i=r(3606),s=r(860),o=r(2646);function a(e,t){if(!e)return;const r={staged:!1,priority:s.P3[t]||0};e.runtime.drainRegistry.get(t)||e.runtime.drainRegistry.set(t,r)}function c(e,t){if(!e)return;const r=e.runtime.drainRegistry;r&&(r.get(t)&&r.delete(t),l(e,t,!1),r.size&&d(e))}function u(e,t="feature",r=!1){if(e){if(!e.runtime.drainRegistry.get(t)||r)return l(e,t);e.runtime.drainRegistry.get(t).staged=!0,d(e)}}function d(e){if(!e)return;const t=Array.from(e.runtime.drainRegistry);t.every(([e,t])=>t.staged)&&(t.sort((e,t)=>e[1].priority-t[1].priority),t.forEach(([t])=>{e.runtime.drainRegistry.delete(t),l(e,t)}))}function l(e,t,r=!0){if(!e)return;const s=e.ee,a=i.i.handlers;if(s&&!s.aborted&&s.backlog&&a){if((0,n.W)({type:"lifecycle",name:"drain",feature:t}),r){const e=s.backlog[t],r=a[t];if(r){for(let t=0;e&&t<e.length;++t)f(e[t],r);Object.entries(r).forEach(([e,t])=>{Object.values(t||{}).forEach(t=>{t[0]?.on&&t[0].context()instanceof o.y&&!t[0].listeners(e).includes(t[1])&&t[0].on(e,t[1])})})}}s.isolatedBacklog||delete a[t],s.backlog[t]=null,s.emit("drain-"+t,[])}}function f(e,t){var r=e[1];Object.values(t[r]||{}).forEach(t=>{var r=e[0];if(t[0]===r){var n=t[1],i=e[3],s=e[2];n.apply(i,s)}})}},7836(e,t,r){"use strict";var n=r(384),i=r(8990),s=r(2646),o=r(5607);const a="nr@context:".concat(o.W),c=function e(t,r){var n={},o={},d={},l=!1;try{l=16===r.length&&u.initializedAgents?.[r]?.runtime.isolatedBacklog}catch(e){}var f={on:p,addEventListener:p,removeEventListener:function(e,t){var r=n[e];if(!r)return;for(var i=0;i<r.length;i++)r[i]===t&&r.splice(i,1)},emit:function(e,r,n,i,s){!1!==s&&(s=!0);if(c.aborted&&!i)return;t&&s&&t.emit(e,r,n);var a=g(n);m(e).forEach(e=>{e.apply(a,r)});var u=v()[o[e]];u&&u.push([f,e,r,a]);return a},get:h,listeners:m,context:g,buffer:function(e,t){const r=v();if(t=t||"feature",f.aborted)return;Object.entries(e||{}).forEach(([e,n])=>{o[n]=t,t in r||(r[t]=[])})},abort:function(){f._aborted=!0,Object.keys(f.backlog).forEach(e=>{delete f.backlog[e]})},isBuffering:function(e){return!!v()[o[e]]},debugId:r,backlog:l?{}:t&&"object"==typeof t.backlog?t.backlog:{},isolatedBacklog:l};return Object.defineProperty(f,"aborted",{get:()=>{let e=f._aborted||!1;return e||(t&&(e=t.aborted),e)}}),f;function g(e){return e&&e instanceof s.y?e:e?(0,i.I)(e,a,()=>new s.y(a)):new s.y(a)}function p(e,t){n[e]=m(e).concat(t)}function m(e){return n[e]||[]}function h(t){return d[t]=d[t]||e(f,t)}function v(){return f.backlog}}(void 0,"globalEE"),u=(0,n.Zm)();u.ee||(u.ee=c),r.d(t,["P",0,a,"ee",0,c])},2646(e,t,r){"use strict";r.d(t,{y:()=>n});class n{constructor(e){this.contextId=e}}},9908(e,t,r){"use strict";r.d(t,{d:()=>n,p:()=>i});var n=r(7836).ee.get("handle");function i(e,t,r,i,s){s?(s.buffer([e],i),s.emit(e,t,r)):(n.buffer([e],i),n.emit(e,t,r))}},3606(e,t,r){"use strict";r.d(t,{i:()=>s});var n=r(9908);s.on=o;var i=s.handlers={};function s(e,t,r,s){o(s||n.d,i,e,t,r)}function o(e,t,r,i,s){s||(s="feature"),e||(e=n.d);var o=t[s]=t[s]||{};(o[r]=o[r]||[]).push([e,i])}},3878(e,t,r){"use strict";function n(e,t){return{capture:e,passive:!1,signal:t}}function i(e,t,r=!1,i){window.addEventListener(e,t,n(r,i))}function s(e,t,r=!1,i){document.addEventListener(e,t,n(r,i))}r.d(t,{DD:()=>s,jT:()=>n,sp:()=>i})},5607(e,t,r){"use strict";const n=(0,r(9566).bz)();r.d(t,["W",0,n])},9566(e,t,r){"use strict";r.d(t,{LA:()=>o,bz:()=>s});var n=r(6154);function i(e,t){return e?15&e[t]:16*Math.random()|0}function s(){const e=n.gm?.crypto||n.gm?.msCrypto;let t,r=0;return e&&e.getRandomValues&&(t=e.getRandomValues(new Uint8Array(30))),"xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx".split("").map(e=>"x"===e?i(t,r++).toString(16):"y"===e?(3&i()|8).toString(16):e).join("")}function o(e){const t=n.gm?.crypto||n.gm?.msCrypto;let r,s=0;t&&t.getRandomValues&&(r=t.getRandomValues(new Uint8Array(e)));const o=[];for(var a=0;a<e;a++)o.push(i(r,s++).toString(16));return o.join("")}},2614(e,t,r){"use strict";r.d(t,["BB",0,18e5,"Wt",0,"NRBA_SESSION::","iL",0,{SAME_TAB:"same-tab",CROSS_TAB:"cross-tab"},"tS",0,{STARTED:"session-started",PAUSE:"session-pause",RESET:"session-reset",RESUME:"session-resume",UPDATE:"session-update"},"wk",0,144e5])},1863(e,t,r){"use strict";function n(){return Math.floor(performance.now())}r.d(t,{t:()=>n})},944(e,t,r){"use strict";r.d(t,{R:()=>i});var n=r(3241);function i(e,t){"function"==typeof console.debug&&(console.debug("New Relic Warning: https://github.com/newrelic/newrelic-browser-agent/blob/main/docs/warning-codes.md#".concat(e),t),(0,n.W)({drained:null,type:"data",name:"warn",feature:"warn",data:{code:e,secondary:t}}))}},8990(e,t,r){"use strict";r.d(t,{I:()=>i});var n=Object.prototype.hasOwnProperty;function i(e,t,r){if(n.call(e,t))return e[t];var i=r();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:i,writable:!0,enumerable:!1}),i}catch(e){}return e[t]=i,i}},6389(e,t,r){"use strict";function n(e,t=500,r={}){const n=r?.leading||!1;let i;return(...r)=>{n&&void 0===i&&(e.apply(this,r),i=setTimeout(()=>{i=clearTimeout(i)},t)),n||(clearTimeout(i),i=setTimeout(()=>{e.apply(this,r)},t))}}function i(e){let t=!1;return(...r)=>{t||(t=!0,e.apply(this,r))}}r.d(t,{J:()=>i,s:()=>n})},1910(e,t,r){"use strict";r.d(t,{i:()=>s});var n=r(944);const i=new Map;function s(...e){return e.every(e=>{if(i.has(e))return i.get(e);const t="function"==typeof e?e.toString():"",r=t.includes("[native code]"),s=t.includes("nrWrapper");return r||s||(0,n.R)(64,e?.name||t),i.set(e,r),r})}},5289(e,t,r){"use strict";r.d(t,{GG:()=>o,Qr:()=>c,sB:()=>a});var n=r(3878),i=r(6389);function s(){return"undefined"==typeof document||"complete"===document.readyState}function o(e,t){if(s())return e();const r=(0,i.J)(e),o=setInterval(()=>{s()&&(clearInterval(o),r())},500);(0,n.sp)("load",r,t)}function a(e){if(s())return e();(0,n.DD)("DOMContentLoaded",e)}function c(e){if(s())return e();(0,n.sp)("popstate",e)}},384(e,t,r){"use strict";r.d(t,{Zm:()=>c,bQ:()=>d,dV:()=>u,pV:()=>l});var n=r(6154),i=r(1863),s=r(944),o=r(1910);const a={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net"};function c(){return n.gm.NREUM||(n.gm.NREUM={}),void 0===n.gm.newrelic&&(n.gm.newrelic=n.gm.NREUM),n.gm.NREUM}function u(){let e=c();return e.o||(e.o={ST:n.gm.setTimeout,SI:n.gm.setImmediate||n.gm.setInterval,CT:n.gm.clearTimeout,XHR:n.gm.XMLHttpRequest,REQ:n.gm.Request,EV:n.gm.Event,PR:n.gm.Promise,MO:n.gm.MutationObserver,FETCH:n.gm.fetch,WS:n.gm.WebSocket},(0,o.i)(...Object.values(e.o))),e}function d(e,t){let r=c();r.initializedAgents??={},t.initializedAt={ms:(0,i.t)(),date:new Date},r.initializedAgents[e]=t,2===Object.keys(r.initializedAgents).length&&(0,s.R)(69)}function l(){return function(){let e=c();const t=e.info||{};e.info={beacon:a.beacon,errorBeacon:a.errorBeacon,...t}}(),function(){let e=c();const t=e.init||{};e.init={...t}}(),u(),function(){let e=c();const t=e.loader_config||{};e.loader_config={...t}}(),c()}r.d(t,["NT",0,a])},2843(e,t,r){"use strict";r.d(t,{G:()=>s,u:()=>i});var n=r(3878);function i(e,t=!1,r,i){(0,n.DD)("visibilitychange",function(){if(t)return void("hidden"===document.visibilityState&&e());e(document.visibilityState)},r,i)}function s(e,t,r){(0,n.sp)("pagehide",e,t,r)}},3969(e,t,r){"use strict";const n=r(860).K7.metrics;r.d(t,["TZ",0,n,"XG",0,"storeEventMetrics","xV",0,"storeSupportabilityMetrics"])},6630(e,t,r){"use strict";const n=r(860).K7.pageViewEvent;r.d(t,["T",0,n])},782(e,t,r){"use strict";const n=r(860).K7.pageViewTiming;r.d(t,["T",0,n])},4234(e,t,r){"use strict";r.d(t,{W:()=>i});var n=r(1687);class i{constructor(e,t){this.agentRef=e,this.ee=e?.ee,this.featureName=t,this.blocked=!1}deregisterDrain(){(0,n.x3)(this.agentRef,this.featureName)}}},7767(e,t,r){"use strict";var n=r(6154);r.d(t,["V",0,e=>n.RI&&!0===e?.privacy.cookies_enabled])},8362(e,t,r){"use strict";r.d(t,{d:()=>s});var n=r(9566),i=r(1741);class s extends i.W{agentIdentifier=(0,n.LA)(16)}},1741(e,t,r){"use strict";r.d(t,{W:()=>s});var n=r(944),i=r(4261);class s{#e(e,...t){if(this[e]!==s.prototype[e])return this[e](...t);(0,n.R)(35,e)}addPageAction(e,t){return this.#e(i.hG,e,t)}register(e){return this.#e(i.eY,e)}recordCustomEvent(e,t){return this.#e(i.fF,e,t)}setPageViewName(e,t){return this.#e(i.Fw,e,t)}setCustomAttribute(e,t,r){return this.#e(i.cD,e,t,r)}noticeError(e,t){return this.#e(i.o5,e,t)}setUserId(e,t=!1){return this.#e(i.Dl,e,t)}setApplicationVersion(e){return this.#e(i.nb,e)}setErrorHandler(e){return this.#e(i.bt,e)}addRelease(e,t){return this.#e(i.k6,e,t)}log(e,t){return this.#e("log",e,t)}start(){return this.#e("start")}finished(e){return this.#e(i.BL,e)}recordReplay(){return this.#e(i.CH)}pauseReplay(){return this.#e(i.Tb)}addToTrace(e){return this.#e(i.U2,e)}setCurrentRouteName(e){return this.#e(i.PA,e)}interaction(e){return this.#e(i.dT,e)}wrapLogger(e,t,r){return this.#e(i.Wb,e,t,r)}measure(e,t){return this.#e(i.V1,e,t)}consent(e){return this.#e(i.Pv,e)}}},4261(e,t,r){"use strict";r.d(t,["BL",0,"finished","CH",0,"recordReplay","Dl",0,"setUserId","Fw",0,"setPageViewName","PA",0,"setCurrentRouteName","Pv",0,"consent","Tb",0,"pauseReplay","U2",0,"addToTrace","V1",0,"measure","Wb",0,"wrapLogger","bt",0,"setErrorHandler","cD",0,"setCustomAttribute","dT",0,"interaction","eY",0,"register","fF",0,"recordCustomEvent","hG",0,"addPageAction","k6",0,"addRelease","nb",0,"setApplicationVersion","o5",0,"noticeError"])},1738(e,t,r){"use strict";r.d(t,{U:()=>l,Y:()=>d});var n=r(3241),i=r(9908),s=r(1863),o=r(944),a=r(3969),c=r(8362),u=r(860);function d(e,t,r,s){const d=s||r;!d||d[e]&&d[e]!==c.d.prototype[e]||(d[e]=function(){(0,i.p)(a.xV,["API/"+e+"/called"],void 0,u.K7.metrics,r.ee),(0,n.W)({drained:!!r.runtime?.activatedFeatures,type:"data",name:"api",feature:"api-"+e,data:{}});try{return t.apply(this,arguments)}catch(e){(0,o.R)(23,e)}})}function l(e,t,r,n,o){const a=e.info;null===r?delete a.jsAttributes[t]:a.jsAttributes[t]=r,(o||null===r)&&(0,i.p)("api-"+n,[(0,s.t)(),t,r],void 0,"session",e.ee)}},8374(e,t,r){r.nc=(()=>{try{return document?.currentScript?.nonce}catch(e){}return""})()},860(e,t,r){"use strict";const n="events",i="jserrors",s="browser/blobs",o="browser/logs",a={ajax:"ajax",genericEvents:"generic_events",jserrors:i,logging:"logging",metrics:"metrics",pageAction:"page_action",pageViewEvent:"page_view_event",pageViewTiming:"page_view_timing",sessionReplay:"session_replay",sessionTrace:"session_trace",softNav:"soft_navigations"},c={[a.pageViewEvent]:1,[a.pageViewTiming]:2,[a.metrics]:3,[a.jserrors]:4,[a.softNav]:5,[a.ajax]:6,[a.sessionTrace]:7,[a.sessionReplay]:8,[a.logging]:9,[a.genericEvents]:10},u={[a.pageViewEvent]:"rum",[a.pageViewTiming]:n,[a.ajax]:n,[a.softNav]:n,[a.metrics]:i,[a.jserrors]:i,[a.sessionTrace]:s,[a.sessionReplay]:s,[a.logging]:o,[a.genericEvents]:"ins"};r.d(t,["$J",0,u,"K7",0,a,"P3",0,c,"XX",0,i,"Yy",0,o,"df",0,s])}};const t={};function r(n){const i=t[n];if(void 0!==i)return i.exports;const s=t[n]={exports:{}};return e[n](s,s.exports,r),s.exports}r.m=e,r.d=(e,t)=>{if(Array.isArray(t))for(var n=0;n<t.length;){var i=t[n++],s=t[n++];r.o(e,i)?0===s&&n++:0===s?Object.defineProperty(e,i,{enumerable:!0,value:t[n++]}):Object.defineProperty(e,i,{enumerable:!0,get:s})}else for(var i in t)r.o(t,i)&&!r.o(e,i)&&Object.defineProperty(e,i,{enumerable:!0,get:t[i]})},r.f={},r.e=e=>Promise.all(Object.keys(r.f).reduce((t,n)=>(r.f[n](e,t),t),[])),r.u=e=>"nr-rum-1.318.0.min.js",r.o=(e,t)=>Object.prototype.hasOwnProperty.call(e,t),(()=>{const e={},t="NRBA-1.318.0.PROD:";r.l=(n,i,s,o)=>{if(e[n])return void e[n].push(i);let a,c;if(void 0!==s){const e=document.getElementsByTagName("script");for(var u=0;u<e.length;u++){const r=e[u];if(r.getAttribute("src")==n||r.getAttribute("data-webpack")==t+s){a=r;break}}}if(!a){c=!0;var d={296:"sha512-l/aSvO0UYzQns1WyMlY2r8pdkmVR0o/Rze4wpZR98a+X8aP+uRfcG9NMVI6fcdpy4uRK5azdx+CgSn8/UKULRw=="};a=document.createElement("script"),a.charset="utf-8",r.nc&&a.setAttribute("nonce",r.nc),a.setAttribute("data-webpack",t+s),a.src=n,0!==a.src.indexOf(window.location.origin+"/")&&(a.crossOrigin="anonymous"),d[o]&&(a.integrity=d[o])}e[n]=[i];const l=(t,r)=>{a.onerror=a.onload=null,clearTimeout(f);const i=e[n];if(delete e[n],a.parentNode?.removeChild(a),i?.forEach(e=>e(r)),t)return t(r)},f=setTimeout(l.bind(null,void 0,{type:"timeout",target:a}),12e4);a.onerror=l.bind(null,a.onerror),a.onload=l.bind(null,a.onload),c&&document.head.appendChild(a)}})(),r.r=e=>{Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},r.p="https://js-agent.newrelic.com/",(()=>{const e={374:0,840:0};r.f.j=(t,n)=>{let i=r.o(e,t)?e[t]:void 0;if(0!==i)if(i)n.push(i[2]);else{const s=new Promise((r,n)=>i=e[t]=[r,n]);n.push(i[2]=s);const o=r.p+r.u(t),a=new Error,c=n=>{if(r.o(e,t)&&(i=e[t],0!==i&&(e[t]=void 0),i)){const e=n&&("load"===n.type?"missing":n.type),r=n&&n.target&&n.target.src;a.message="Loading chunk "+t+" failed: ("+e+": "+r+")",a.name="ChunkLoadError",a.type=e,a.request=r,i[1](a)}};r.l(o,c,"chunk-"+t,t)}};const t=(t,n)=>{let[i,s,o]=n;var a,c,u=0;if(i.some(t=>0!==e[t])){for(a in s)r.o(s,a)&&(r.m[a]=s[a]);if(o)o(r)}for(t&&t(n);u<i.length;u++)c=i[u],r.o(e,c)&&e[c]&&e[c][0](),e[c]=0},n=self["webpackChunk:NRBA-1.318.0.PROD"]=self["webpackChunk:NRBA-1.318.0.PROD"]||[];n.forEach(t.bind(null,0)),n.push=t.bind(null,n.push.bind(n))})(),(()=>{"use strict";r(8374);var e=r(8362),t=r(860);const n=Object.values(t.K7);var i=r(384),s=r(1741);var o=r(2555),a=r(981);t.K7.genericEvents,a.R.PA,a.R.UA,a.R.BP;const c="experimental.resources",u="register",d=(t.K7.ajax,"none"),l=e=>{if(!e||"string"!=typeof e)return!1;try{document.createDocumentFragment().querySelector(e)}catch{return!1}return!0};var f=r(2614),g=r(944),p=r(8122);const m="[data-nr-mask]",h=e=>(0,p.a)(e,(()=>{const e={feature_flags:[],experimental:{register:!1,resources:!1},mask_selector:"*",block_selector:"[data-nr-block]",mask_input_options:{color:!1,date:!1,"datetime-local":!1,email:!1,month:!1,number:!1,range:!1,search:!1,tel:!1,text:!1,time:!1,url:!1,week:!1,textarea:!1,select:!1,password:!0}};return{ajax:{deny_list:void 0,block_internal:!0,enabled:!0,autoStart:!0,capture_payloads:d},api:{register:{get enabled(){return e.feature_flags.includes(u)||e.experimental.register},set enabled(t){e.experimental.register=t},duplicate_data_to_container:!1}},browser_consent_mode:{enabled:!1},distributed_tracing:{enabled:void 0,exclude_newrelic_header:void 0,cors_use_newrelic_header:void 0,cors_use_tracecontext_headers:void 0,allowed_origins:void 0},get feature_flags(){return e.feature_flags},set feature_flags(t){e.feature_flags=t},generic_events:{enabled:!0,autoStart:!0},harvest:{interval:30},jserrors:{enabled:!0,autoStart:!0},logging:{enabled:!0,autoStart:!0},metrics:{enabled:!0,autoStart:!0},obfuscate:void 0,page_action:{enabled:!0},page_view_event:{enabled:!0,autoStart:!0},page_view_timing:{enabled:!0,autoStart:!0},performance:{capture_marks:!1,capture_measures:!1,capture_detail:!0,resources:{get enabled(){return e.feature_flags.includes(c)||e.experimental.resources},set enabled(t){e.experimental.resources=t},asset_types:[],first_party_domains:[],ignore_newrelic:!0}},privacy:{cookies_enabled:!0},proxy:{assets:void 0,beacon:void 0},session:{expiresMs:f.wk,inactiveMs:f.BB},session_replay:{autoStart:!0,enabled:!1,preload:!1,sampling_rate:10,error_sampling_rate:100,collect_fonts:!1,inline_images:!1,fix_stylesheets:!0,mask_all_inputs:!0,get mask_text_selector(){return e.mask_selector},set mask_text_selector(t){l(t)?e.mask_selector="".concat(t,",").concat(m):""===t||null===t?e.mask_selector=m:(0,g.R)(5,t)},get block_class(){return"nr-block"},get ignore_class(){return"nr-ignore"},get mask_text_class(){return"nr-mask"},get block_selector(){return e.block_selector},set block_selector(t){l(t)?e.block_selector+=",".concat(t):""!==t&&(0,g.R)(6,t)},get mask_input_options(){return e.mask_input_options},set mask_input_options(t){t&&"object"==typeof t?e.mask_input_options={...t,password:!0}:(0,g.R)(7,t)}},session_trace:{enabled:!0,autoStart:!0},soft_navigations:{enabled:!0,autoStart:!0},ssl:void 0,user_actions:{enabled:!0,elementAttributes:["id","className","tagName","type"]},web_sockets:{enabled:!1}}})());var v=r(6154),b=r(9324);let y=0;const _={buildEnv:"PROD",distMethod:"CDN",version:b.xv,originTime:v.WN},w={consented:!1},R={activatedFeatures:void 0,appMetadata:{},configured:!1,get consented(){return this.session?.state?.consent||w.consented},set consented(e){w.consented=e},customTransaction:void 0,denyList:[],disabled:!1,drainRegistry:new Map,harvester:void 0,isolatedBacklog:!1,isRecording:!1,loaderType:void 0,maxBytes:3e4,obfuscator:void 0,onerror:void 0,ptid:void 0,releaseIds:{},session:void 0,timeKeeper:void 0,registeredEntities:[],jsAttributesMetadata:{bytes:0},get harvestCount(){return++y}};var x=r(7836),A=r(3241);const k={accountID:void 0,trustKey:void 0,agentID:void 0,licenseKey:void 0,applicationID:void 0,xpid:void 0};function S(e,t={},n,a){let{init:c,info:u,loader_config:d,runtime:l={},exposed:f=!0}=t;if(!u){const e=(0,i.pV)();c=e.init,u=e.info,d=e.loader_config}var g;e.init=h(c||{}),e.loader_config=(g=d||{},(0,p.a)(g,k)),u.jsAttributes??={},v.bv&&(u.jsAttributes.isWorker=!0),e.info=(0,o.D)(u);const m=e.init;e.runtime??=(e=>{const t=(0,p.a)(e,R),r=Object.keys(_).reduce((e,t)=>(e[t]={value:_[t],writable:!1,configurable:!0,enumerable:!0},e),{});return Object.defineProperties(t,r)})(l),m.proxy.assets&&(e=>{const t=e.startsWith("http");e+="/",r.p=t?e:"https://"+e})(m.proxy.assets),e.runtime.configured||(Object.defineProperty(e,"beacons",{get:()=>[e.info.beacon,e.info.errorBeacon,e.init.proxy.assets,e.init.proxy.beacon].filter(Boolean)}),Object.defineProperty(e.runtime,"denyList",{get:()=>[...e.init.ajax.deny_list||[],...e.init.ajax.block_internal?e.beacons:[]]}),e.runtime.ptid=e.agentIdentifier,function(e){const t=(0,i.pV)();Object.getOwnPropertyNames(s.W.prototype).forEach(r=>{const n=s.W.prototype[r];if("function"!=typeof n||"constructor"===n)return;let i=t[r];e[r]&&!1!==e.exposed&&"micro-agent"!==e.runtime?.loaderType&&(t[r]=(...t)=>{const n=e[r](...t);return i?i(...t):n})})}(e),e.runtime.loaderType=n,e.ee=x.ee.get(e.agentIdentifier),e.exposed=f,(0,A.W)({drained:!!e.runtime.activatedFeatures,type:"lifecycle",name:"initialize",feature:void 0,data:e.config}),e.runtime.configured=!0)}var T=r(9908),E=r(1863),j=r(4261),P=r(1738);var N=r(1687),O=r(4234),M=r(5289),I=r(7767);function V(e){return!!(0,i.dV)().o.MO&&(0,I.V)(e)&&!0===e?.session_trace.enabled}var D=r(6389),W=r(7699);const B=new WeakSet;class K extends O.W{constructor(e,t){super(e,t),this.abortHandler=void 0,this.featAggregate=void 0,this.loadedSuccessfully=void 0,this.onAggregateImported=new Promise(e=>{this.loadedSuccessfully=e}),this.deferred=Promise.resolve(),!1===e.init[this.featureName].autoStart?this.deferred=new Promise((t,r)=>{this.ee.on("manual-start-all",(0,D.J)(()=>{(0,N.Ak)(e,this.featureName),t()}))}):(0,N.Ak)(e,t)}importAggregator(e,t,n={}){if(this.featAggregate)return;const i=async()=>{if(await this.deferred,this.#t(e),!(0,o.f)(e.info))return(0,g.R)(43),e.ee.abort(),void this.loadedSuccessfully(!1);let i;try{if((0,I.V)(e.init)){const{setupAgentSession:t}=await r.e(296).then(r.bind(r,8391));i=t(e)}}catch(e){(0,g.R)(20,e),this.ee.emit("internal-error",[e]),(0,T.p)(W.qh,[e],void 0,this.featureName,this.ee)}try{if(!this.#r(this.featureName,i,e.init))return(0,N.Ze)(this.agentRef,this.featureName),void this.loadedSuccessfully(!1);const{Aggregate:r}=await t();this.featAggregate=new r(e,n),e.runtime.harvester.initializedAggregates.push(this.featAggregate),this.loadedSuccessfully(!0)}catch(e){(0,g.R)(34,e),this.abortHandler?.(),(0,N.Ze)(this.agentRef,this.featureName,!0),this.loadedSuccessfully(!1),this.ee&&this.ee.abort()}};v.RI?(0,M.GG)(()=>i(),!0):i()}#r(e,r,n){if(this.blocked)return!1;switch(e){case t.K7.sessionReplay:return V(n)&&!!r;case t.K7.sessionTrace:return!!r;default:return!0}}#t(e){if(!B.has(e)&&(B.add(e),!(0,o.f)(e.info))){const t=(0,i.pV)();let r={...t.info?.jsAttributes};try{r={...r,...e.info?.jsAttributes}}catch(e){}S(e,{...t,info:{...t.info,jsAttributes:r},runtime:e.runtime},e.runtime.loaderType)}}}var C=r(6630);class U extends K{static featureName=C.T;constructor(e){var t;super(e,C.T),this.setupInspectionEvents(),t=e,(0,P.Y)(j.Fw,function(e,r){"string"==typeof e&&("/"!==e.charAt(0)&&(e="/"+e),t.runtime.customTransaction=(r||"http://custom.transaction")+e,(0,T.p)("api-"+j.Fw,[(0,E.t)()],void 0,void 0,t.ee))},t),this.importAggregator(e,()=>r.e(296).then(r.bind(r,1324)))}setupInspectionEvents(){const e=(e,t)=>{e&&(0,A.W)({timeStamp:e.timeStamp,loaded:"complete"===e.target.readyState,type:"window",name:t,data:e.target.location+""})};(0,M.sB)(t=>{e(t,"DOMContentLoaded")}),(0,M.GG)(t=>{e(t,"load")}),(0,M.Qr)(t=>{e(t,"navigate")}),this.ee.on(f.tS.UPDATE,(e,t)=>{(0,A.W)({type:"lifecycle",name:"session",data:t})})}}class L extends e.d{constructor(e){var t;(super(),v.gm)?(this.features={},(0,i.bQ)(this.agentIdentifier,this),this.desiredFeatures=new Set(e.features||[]),this.desiredFeatures.add(U),S(this,e,e.loaderType||"agent"),t=this,(0,P.Y)(j.cD,function(e,r,n=!1){if("string"==typeof e){if(["string","number","boolean"].includes(typeof r)||null===r)return(0,P.U)(t,e,r,j.cD,n);(0,g.R)(40,typeof r)}else(0,g.R)(39,typeof e)},t),function(e){(0,P.Y)(j.Dl,function(t,r=!1){if("string"!=typeof t&&null!==t)return void(0,g.R)(41,typeof t);const n=e.info.jsAttributes["enduser.id"];r&&null!=n&&n!==t?(0,T.p)("api-setUserIdAndResetSession",[t],void 0,"session",e.ee):(0,P.U)(e,"enduser.id",t,j.Dl,!0)},e)}(this),function(e){(0,P.Y)(j.nb,function(t){if("string"==typeof t||null===t)return(0,P.U)(e,"application.version",t,j.nb,!1);(0,g.R)(42,typeof t)},e)}(this),function(e){(0,P.Y)("start",function(){e.ee.emit("manual-start-all")},e)}(this),function(e){(0,P.Y)(j.Pv,function(t=!0){if("boolean"==typeof t){if((0,T.p)("api-"+j.Pv,[t],void 0,"session",e.ee),e.runtime.consented=t,t){const t=e.features.page_view_event;t.onAggregateImported.then(e=>{const r=t.featAggregate;e&&!r.sentRum&&r.sendRum()})}}else(0,g.R)(65,typeof t)},e)}(this),this.run()):(0,g.R)(21)}get config(){return{info:this.info,init:this.init,loader_config:this.loader_config,runtime:this.runtime}}get api(){return this}run(){try{const e=function(e){const t={};return n.forEach(r=>{t[r]=!!e[r]?.enabled}),t}(this.init),r=[...this.desiredFeatures];r.sort((e,r)=>t.P3[e.featureName]-t.P3[r.featureName]),r.forEach(r=>{if(!e[r.featureName]&&r.featureName!==t.K7.pageViewEvent)return;const n=function(e){switch(e){case t.K7.ajax:return[t.K7.jserrors];case t.K7.sessionTrace:return[t.K7.ajax,t.K7.pageViewEvent];case t.K7.sessionReplay:return[t.K7.sessionTrace];case t.K7.pageViewTiming:return[t.K7.pageViewEvent];default:return[]}}(r.featureName).filter(e=>!(e in this.features));n.length>0&&(0,g.R)(36,{targetFeature:r.featureName,missingDependencies:n}),this.features[r.featureName]=new r(this)})}catch(e){(0,g.R)(22,e);for(const e in this.features)this.features[e].abortHandler?.();const t=(0,i.Zm)();delete t.initializedAgents[this.agentIdentifier]?.features,delete this.sharedAggregator;return t.ee.get(this.agentIdentifier).abort(),!1}}}var G=r(2843),F=r(782);class H extends K{static featureName=F.T;constructor(e){super(e,F.T),v.RI&&((0,G.u)(()=>(0,T.p)("docHidden",[(0,E.t)()],void 0,F.T,this.ee),!0),(0,G.G)(()=>(0,T.p)("winPagehide",[(0,E.t)()],void 0,F.T,this.ee)),this.importAggregator(e,()=>r.e(296).then(r.bind(r,2117))))}}var z=r(3969);class Y extends K{static featureName=z.TZ;constructor(e){super(e,z.TZ),this.importAggregator(e,()=>r.e(296).then(r.bind(r,9623)))}}new L({features:[U,H,Y],loaderType:"lite"})})()})();</script>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2, minimum-scale=1, user-scalable=yes" />
+<meta name="description" content="Update to the License Period Format Effective August 1, 2025 , DLCP updated the license period format. Licenses will now be valid from the date of issuance until the last day of the same month two or four years later, based on the license term selected by the customer at the time of application (example 3/12/2025 - 3/31/2027). Anyone renewing their license after August 1, 2025, your updated license will reflect this new license period format.  This new format will apply of all new applications and renewals moving forward." />
+<meta name="generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="https://dlcp.dc.gov/BBLRenewalOverview" />
+<link rel="shortlink" href="https://dlcp.dc.gov/BBLRenewalOverview" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:url" content="https://dlcp.dc.gov/BBLRenewalOverview" />
+<meta name="twitter:title" content="Basic Business License Renewal Overview" />
+<meta name="twitter:description" content="Update to the License Period Format Effective August 1, 2025 , DLCP updated the license period format. Licenses will now be valid from the date of issuance until the last day of the same month two or four years later, based on the license term selected by the customer at the time of application (example 3/12/2025 - 3/31/2027). Anyone renewing their license after August 1, 2025, your updated license will reflect this new license period format.  This new format will apply of all new applications and renewals moving forward." />
+  <title>Basic Business License Renewal Overview | dlcp</title>  
+  <style type="text/css" media="all">
+@import url("https://dlcp.dc.gov/modules/system/system.base.css?szii6f");
+@import url("https://dlcp.dc.gov/modules/system/system.menus.css?szii6f");
+@import url("https://dlcp.dc.gov/modules/system/system.messages.css?szii6f");
+@import url("https://dlcp.dc.gov/modules/system/system.theme.css?szii6f");
+</style>
+<style type="text/css" media="all">
+@import url("https://dlcp.dc.gov/modules/book/book.css?szii6f");
+@import url("https://dlcp.dc.gov/modules/comment/comment.css?szii6f");
+@import url("https://dlcp.dc.gov/sites/all/modules/date/date_api/date.css?szii6f");
+@import url("https://dlcp.dc.gov/sites/all/modules/date/date_popup/themes/datepicker.1.7.css?szii6f");
+@import url("https://dlcp.dc.gov/sites/all/modules/date/date_repeat_field/date_repeat_field.css?szii6f");
+@import url("https://dlcp.dc.gov/sites/all/modules/domain/domain_nav/domain_nav.css?szii6f");
+@import url("https://dlcp.dc.gov/modules/field/theme/field.css?szii6f");
+@import url("https://dlcp.dc.gov/modules/node/node.css?szii6f");
+@import url("https://dlcp.dc.gov/modules/search/search.css?szii6f");
+@import url("https://dlcp.dc.gov/modules/user/user.css?szii6f");
+@import url("https://dlcp.dc.gov/sites/all/modules/calendar/css/calendar_multiday.css?szii6f");
+@import url("https://dlcp.dc.gov/sites/all/modules/views/css/views.css?szii6f");
+@import url("https://dlcp.dc.gov/sites/all/modules/ckeditor/css/ckeditor.css?szii6f");
+</style>
+<style type="text/css" media="all">
+@import url("https://dlcp.dc.gov/sites/all/modules/ctools/css/ctools.css?szii6f");
+@import url("https://dlcp.dc.gov/sites/all/modules/contrib/flickrgallery/flickrgallery.css?szii6f");
+@import url("https://dlcp.dc.gov/sites/all/modules/panels/css/panels.css?szii6f");
+@import url("https://dlcp.dc.gov/sites/all/modules/rate/rate.css?szii6f");
+@import url("https://dlcp.dc.gov/sites/all/modules/text_resize/text_resize.css?szii6f");
+@import url("https://dlcp.dc.gov/sites/all/modules/extlink/extlink.css?szii6f");
+</style>
+<style type="text/css" media="all">
+@import url("https://dlcp.dc.gov/sites/all/themes/omega/alpha/css/alpha-reset.css?szii6f");
+@import url("https://dlcp.dc.gov/sites/all/themes/omega/alpha/css/alpha-mobile.css?szii6f");
+@import url("https://dlcp.dc.gov/sites/all/themes/omega/omega/css/omega-text.css?szii6f");
+@import url("https://dlcp.dc.gov/sites/all/themes/omega/omega/css/omega-branding.css?szii6f");
+@import url("https://dlcp.dc.gov/sites/all/themes/omega/omega/css/omega-forms.css?szii6f");
+@import url("https://dlcp.dc.gov/sites/all/themes/dc_agency_statehood/css/global.css?szii6f");
+</style>
+
+<!--[if (lt IE 9)&(!IEMobile)]>
+<style type="text/css" media="all">
+@import url("https://dlcp.dc.gov/sites/all/themes/dc_agency_statehood/css/dc-agency-statehood-alpha-default.css?szii6f");
+@import url("https://dlcp.dc.gov/sites/all/themes/dc_agency_statehood/css/dc-agency-statehood-alpha-default-normal.css?szii6f");
+@import url("https://dlcp.dc.gov/sites/all/themes/omega/alpha/css/grid/alpha_default/normal/alpha-default-normal-12.css?szii6f");
+@import url("https://dlcp.dc.gov/sites/all/themes/omega/alpha/css/grid/alpha_default/normal/alpha-default-normal-24.css?szii6f");
+</style>
+<![endif]-->
+
+<!--[if gte IE 9]><!-->
+<style type="text/css" media="all and (min-width: 740px) and (min-device-width: 740px), (max-device-width: 800px) and (min-width: 740px) and (orientation:landscape)">
+@import url("https://dlcp.dc.gov/sites/all/themes/dc_agency_statehood/css/dc-agency-statehood-alpha-default.css?szii6f");
+@import url("https://dlcp.dc.gov/sites/all/themes/dc_agency_statehood/css/dc-agency-statehood-alpha-default-narrow.css?szii6f");
+@import url("https://dlcp.dc.gov/sites/all/themes/omega/alpha/css/grid/alpha_default/narrow/alpha-default-narrow-12.css?szii6f");
+@import url("https://dlcp.dc.gov/sites/all/themes/omega/alpha/css/grid/alpha_default/narrow/alpha-default-narrow-24.css?szii6f");
+</style>
+<!--<![endif]-->
+
+<!--[if gte IE 9]><!-->
+<style type="text/css" media="all and (min-width: 980px) and (min-device-width: 980px), all and (max-device-width: 1024px) and (min-width: 1024px) and (orientation:landscape)">
+@import url("https://dlcp.dc.gov/sites/all/themes/dc_agency_statehood/css/dc-agency-statehood-alpha-default.css?szii6f");
+@import url("https://dlcp.dc.gov/sites/all/themes/dc_agency_statehood/css/dc-agency-statehood-alpha-default-normal.css?szii6f");
+@import url("https://dlcp.dc.gov/sites/all/themes/omega/alpha/css/grid/alpha_default/normal/alpha-default-normal-12.css?szii6f");
+@import url("https://dlcp.dc.gov/sites/all/themes/omega/alpha/css/grid/alpha_default/normal/alpha-default-normal-24.css?szii6f");
+</style>
+<!--<![endif]-->
+
+<!--[if gte IE 9]><!-->
+<style type="text/css" media="all and (min-width: 1220px)">
+@import url("https://dlcp.dc.gov/sites/all/themes/dc_agency_statehood/css/dc-agency-statehood-alpha-default.css?szii6f");
+@import url("https://dlcp.dc.gov/sites/all/themes/dc_agency_statehood/css/dc-agency-statehood-alpha-default-wide.css?szii6f");
+@import url("https://dlcp.dc.gov/sites/all/themes/omega/alpha/css/grid/alpha_default/wide/alpha-default-wide-12.css?szii6f");
+@import url("https://dlcp.dc.gov/sites/all/themes/omega/alpha/css/grid/alpha_default/wide/alpha-default-wide-24.css?szii6f");
+</style>
+<!--<![endif]-->
+  <script type="text/javascript" src="https://dlcp.dc.gov/sites/all/modules/contrib/jquery_update/replace/jquery/1.8/jquery.min.js?v=1.8.3"></script>
+<script type="text/javascript" src="https://dlcp.dc.gov/misc/jquery-extend-3.4.0.js?v=1.8.3"></script>
+<script type="text/javascript" src="https://dlcp.dc.gov/misc/jquery-html-prefilter-3.5.0-backport.js?v=1.8.3"></script>
+<script type="text/javascript" src="https://dlcp.dc.gov/misc/jquery.once.js?v=1.2"></script>
+<script type="text/javascript" src="https://dlcp.dc.gov/misc/drupal.js?szii6f"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+      // close script tag for SecKit protection
+      //--><!]]>
+      </script>
+      <script type="text/javascript" src="/sites/all/modules/contrib/seckit/js/seckit.document_write.js"></script>
+      <link type="text/css" rel="stylesheet" id="seckit-clickjacking-no-body" media="all" href="/sites/all/modules/contrib/seckit/css/seckit.no_body.css" />
+      <!-- stop SecKit protection -->
+      <noscript>
+      <link type="text/css" rel="stylesheet" id="seckit-clickjacking-noscript-tag" media="all" href="/sites/all/modules/contrib/seckit/css/seckit.noscript_tag.css" />
+      <div id="seckit-noscript-tag">
+        Sorry, you need to enable JavaScript to visit this website.
+      </div>
+      </noscript>
+      <script type="text/javascript">
+      <!--//--><![CDATA[//><!--
+      // open script tag to avoid syntax errors
+//--><!]]>
+</script>
+<script type="text/javascript" src="https://dlcp.dc.gov/sites/all/modules/text_resize/jquery.cookie.js?szii6f"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var text_resize_scope = "not-front #main, #zone-content";
+    var text_resize_minimum = "12";
+    var text_resize_maximum = "25";
+    var text_resize_line_height_allow = 1;
+    var text_resize_line_height_min = "16";
+    var text_resize_line_height_max = "36";
+//--><!]]>
+</script>
+<script type="text/javascript" src="https://dlcp.dc.gov/sites/all/modules/text_resize/text_resize.js?szii6f"></script>
+<script type="text/javascript" src="https://dlcp.dc.gov/sites/all/modules/extlink/extlink.js?szii6f"></script>
+<script type="text/javascript" src="https://dlcp.dc.gov/sites/all/modules/google_analytics/googleanalytics.js?szii6f"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","//www.google-analytics.com/analytics.js","ga");ga("create", "UA-2638726-1", {"cookieDomain":"auto"});ga("send", "pageview");
+//--><!]]>
+</script>
+<script type="text/javascript" src="https://dlcp.dc.gov/sites/all/themes/dc_agency_statehood/js/dcAgency.js?szii6f"></script>
+<script type="text/javascript" src="https://dlcp.dc.gov/sites/all/themes/omega/omega/js/omega-mediaqueries.js?szii6f"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"dc_agency_statehood","theme_token":"NfX0zVjIf1K-hItQkzNILTCRkR51IhJ6ZGnpuVgGZ8o","js":{"sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery\/1.8\/jquery.min.js":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery-html-prefilter-3.5.0-backport.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"0":1,"sites\/all\/modules\/text_resize\/jquery.cookie.js":1,"1":1,"sites\/all\/modules\/text_resize\/text_resize.js":1,"sites\/all\/modules\/extlink\/extlink.js":1,"sites\/all\/modules\/google_analytics\/googleanalytics.js":1,"2":1,"sites\/all\/themes\/dc_agency_statehood\/js\/dcAgency.js":1,"sites\/all\/themes\/omega\/omega\/js\/omega-mediaqueries.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/book\/book.css":1,"modules\/comment\/comment.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"sites\/all\/modules\/date\/date_repeat_field\/date_repeat_field.css":1,"sites\/all\/modules\/domain\/domain_nav\/domain_nav.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/calendar\/css\/calendar_multiday.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ckeditor\/css\/ckeditor.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/contrib\/flickrgallery\/flickrgallery.css":1,"sites\/all\/modules\/panels\/css\/panels.css":1,"sites\/all\/modules\/rate\/rate.css":1,"sites\/all\/modules\/text_resize\/text_resize.css":1,"sites\/all\/modules\/extlink\/extlink.css":1,"sites\/all\/themes\/dc_agency_statehood\/css\/normalize.css":1,"sites\/all\/themes\/omega\/alpha\/css\/alpha-reset.css":1,"sites\/all\/themes\/omega\/alpha\/css\/alpha-mobile.css":1,"sites\/all\/themes\/omega\/omega\/css\/omega-text.css":1,"sites\/all\/themes\/omega\/omega\/css\/omega-branding.css":1,"sites\/all\/themes\/omega\/omega\/css\/omega-forms.css":1,"sites\/all\/themes\/dc_agency_statehood\/css\/global.css":1,"ie::normal::sites\/all\/themes\/dc_agency_statehood\/css\/dc-agency-statehood-alpha-default.css":1,"ie::normal::sites\/all\/themes\/dc_agency_statehood\/css\/dc-agency-statehood-alpha-default-normal.css":1,"ie::normal::sites\/all\/themes\/omega\/alpha\/css\/grid\/alpha_default\/normal\/alpha-default-normal-12.css":1,"ie::normal::sites\/all\/themes\/omega\/alpha\/css\/grid\/alpha_default\/normal\/alpha-default-normal-24.css":1,"narrow::sites\/all\/themes\/dc_agency_statehood\/css\/dc-agency-statehood-alpha-default.css":1,"narrow::sites\/all\/themes\/dc_agency_statehood\/css\/dc-agency-statehood-alpha-default-narrow.css":1,"sites\/all\/themes\/omega\/alpha\/css\/grid\/alpha_default\/narrow\/alpha-default-narrow-12.css":1,"sites\/all\/themes\/omega\/alpha\/css\/grid\/alpha_default\/narrow\/alpha-default-narrow-24.css":1,"normal::sites\/all\/themes\/dc_agency_statehood\/css\/dc-agency-statehood-alpha-default.css":1,"normal::sites\/all\/themes\/dc_agency_statehood\/css\/dc-agency-statehood-alpha-default-normal.css":1,"sites\/all\/themes\/omega\/alpha\/css\/grid\/alpha_default\/normal\/alpha-default-normal-12.css":1,"sites\/all\/themes\/omega\/alpha\/css\/grid\/alpha_default\/normal\/alpha-default-normal-24.css":1,"wide::sites\/all\/themes\/dc_agency_statehood\/css\/dc-agency-statehood-alpha-default.css":1,"wide::sites\/all\/themes\/dc_agency_statehood\/css\/dc-agency-statehood-alpha-default-wide.css":1,"sites\/all\/themes\/omega\/alpha\/css\/grid\/alpha_default\/wide\/alpha-default-wide-12.css":1,"sites\/all\/themes\/omega\/alpha\/css\/grid\/alpha_default\/wide\/alpha-default-wide-24.css":1}},"extlink":{"extTarget":"_blank","extClass":"ext","extSubdomains":1,"extExclude":"http[s]*:\/\/[a-zA-Z0-9\\-\\.]*dc.gov[\\\/a-zA-Z0-9\\-\\.\\?\\=]*","extInclude":"","extAlert":0,"extAlertText":"The District government has provided links as a courtesy and is not responsible for information on websites outside the DC portal. Inquiries should be made to the sponsoring organizations.","mailtoClass":"mailto"},"better_exposed_filters":{"views":{"agency_information":{"displays":{"block":{"filters":[]},"agency_director":{"filters":[]}}},"alerts":{"displays":{"emergency_alerts_block":{"filters":[]}}},"custom_headers_and_footers":{"displays":{"custom_agency_header":{"filters":[]},"custom_agency_footer1":{"filters":[]}}}}},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip"},"omega":{"layouts":{"primary":"normal","order":["narrow","normal","wide"],"queries":{"narrow":"all and (min-width: 740px) and (min-device-width: 740px), (max-device-width: 800px) and (min-width: 740px) and (orientation:landscape)","normal":"all and (min-width: 980px) and (min-device-width: 980px), all and (max-device-width: 1024px) and (min-width: 1024px) and (orientation:landscape)","wide":"all and (min-width: 1220px)"}}}});
+//--><!]]>
+</script>
+  <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+</head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XLLLT5975Z"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-XLLLT5975Z');
+</script>
+<body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-1619426 node-type-service domain-dlcp-dc-gov i18n-en context-bblrenewaloverview">
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+  <div class="region region-page-top" id="region-page-top">
+  <div class="region-inner region-page-top-inner">
+      </div>
+</div>  <div class="page clearfix" id="page">
+      <header id="section-header" class="section section-header">
+  <div id="zone-branding-wrapper" class="zone-wrapper zone-branding-wrapper clearfix">  
+  <div id="zone-branding" class="zone zone-branding clearfix container-12">
+    <div class="grid-12 region region-branding" id="region-branding">
+  <div class="region-inner region-branding-inner">
+        <div class="branding-data clearfix">
+                        <hgroup class="site-name-slogan">        
+                                <h2 class="site-name"><a href="/" title="Home">dlcp</a></h2>
+                                        <h6 class="site-slogan">dlcp</h6>
+              </hgroup>
+          </div>
+          </div>
+</div>  </div>
+</div><div id="zone-menu-wrapper" class="zone-wrapper zone-menu-wrapper clearfix">  
+  <div id="zone-menu" class="zone zone-menu clearfix container-12">
+    <div class="grid-12 region region-menu" id="region-menu">
+  <div class="region-inner region-menu-inner">
+          </div>
+</div>
+  </div>
+</div><div id="zone-header-wrapper" class="zone-wrapper zone-header-wrapper clearfix">  
+  <div id="zone-header" class="zone zone-header clearfix container-24">
+    <div class="grid-24 region region-header-first" id="region-header-first">
+  <div class="region-inner region-header-first-inner">
+    <div class="block block-views block-alerts-emergency-alerts-block block-views-alerts-emergency-alerts-block odd block-without-title" id="block-views-alerts-emergency-alerts-block">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <div class="view view-alerts view-id-alerts view-display-id-emergency_alerts_block view-dom-id-f26bfda6de867670ec088862af077c27">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+      
+          <p>DLCP is launching BOSS&mdash;a streamlined, modern system for business registration and licensing&mdash; in August 2026. Temporary service interruptions may occur during this transition.&nbsp;<a href="/node/1838126">Learn more on the DLCP HUB</a>.</p>
+    </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>    </div>
+  </div>
+</div><div class="block block-views block-995d45b00eb29375765ad0295f641a94 block-views-995d45b00eb29375765ad0295f641a94 even block-without-title" id="block-views-995d45b00eb29375765ad0295f641a94">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <div class="view view-custom-headers-and-footers view-id-custom_headers_and_footers view-display-id-custom_agency_header view-dom-id-b2a2e36ba01da8181960b4b9d3f7ee03">
+        
+  
+  
+      <div class="view-content">
+        <div>
+      
+          <style type="text/css">/* GLOBAL FONT STYLES */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap');
+
+body, div, p, ul, ol, span, a {
+font-family: 'Open Sans', sans-serif;
+}
+.front #zone-postscript, 
+.front #zone-postscript a, 
+.front #zone-postscript a:visited, 
+.front #zone-postscript a:active, 
+.front #zone-postscript a:link {
+  color: #fff;
+}
+.node ol, 
+.node ul {
+  padding-left: 2.2em;
+}
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6, 
+.front h1#page-title.title{
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  letter-spacing: normal;
+}
+h4 {
+  font-size:18px;
+}
+h3 {
+  font-size:20px;
+}
+h2,
+.not-front h2 {
+  color: #000;
+  font-size:22px;
+  font-weight: 700;
+}
+h1#page-title.title {
+  font-weight: 700;
+  font-size: 24px;
+  color:#132460;
+}
+.not-front h1#page-title.title {
+  color:#000;
+  font-family: 'Inter', sans-serif!important;
+  font-size: 26px;
+  font-weight: 600;
+  margin-top: 30px;
+  text-align: center;
+}
+.region-agency-home-main-content a{
+  color:#0062A0;
+}
+hr {
+  background:#ccc;
+}
+p, 
+ol, 
+ul, 
+.region-agency-home-main-content .view-display-id-homepage_d .views-field-body .field-content{
+  font-size:18px;
+  font-weight: 200;
+}
+.fullpage-ribbon-banner.bg-image .main-text {
+  margin: 0 auto;
+  text-align: center;
+}
+.block-views-alerts-emergency-alerts-block{
+  background-color: rgb(31, 55, 105)!important;
+  padding: 10px;
+  color: #fff;
+}
+.block-alerts-emergency-alerts-block a {
+  color:#fff;
+}
+.messages.error {
+  display:none;
+}
+.region-agency-home-3col-a {
+  z-index:2;
+}
+
+/* HEADER STYLES  */
+
+.section-header .faq.banner{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items:center;
+  margin:10px 0;
+  padding:10px 0;
+}
+.zone-header-wrapper{
+  background-color: transparent!important;
+}
+.header {
+  background-color: transparent!important;
+  list-style: none;
+  min-height: 200px;
+}
+.header-icons{
+  display: flex;
+  flex-direction: column-reverse;
+  flex-wrap: wrap;
+  float: right;
+  margin-top: 0;
+  min-height: 75px;
+  width: calc(100% - 150px);
+}
+#desktop-head{
+  display:none;
+}
+.header-icons img {
+  height: 20px;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 1s ease;
+}
+.header-icons img:hover,
+.header-icons img:active {
+  height: 30px;
+}
+#google_translate_element .goog-te-gadget {
+  background-color: rgba(255,255,255,0.7);
+  border-radius: 25px;
+  margin-right: 15px;
+  padding-top: 5px;
+  text-align: center;
+}
+.header-title {
+  display:none;
+}
+.header-search {
+  display: block;
+  margin-top: 20px;
+}
+.header-agency-logo{
+  position:relative;
+}
+.header-agency-logo.desktop img {
+  width: 250px;
+  height:auto;
+}
+.header-agency-logo.mobile img {
+  padding:20px;
+  width: 150px;
+  height:auto;
+}
+.section-header {
+background-color: #fff;
+}
+.header-agency-logo.mobile,.header-agency-logo.desktop{
+  display:none;
+}
+.section-header {
+  background-image: url('/sites/default/files/dc/sites/dlcp/featured_content/images/hp-lead-image-mobile.jpg');
+  background-position: 0px 0px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: transparent!important;
+}
+.header .logo {
+  margin: 0px 0px 0px 10px;
+}
+
+/* END HEADER STYLES */
+
+/* BLACK BOX FOR PHONE VIEW */
+
+.header-form {
+  display: none;
+}
+.header-form-mobile {
+  background-color: #000;
+}
+.not-front .header-form-mobile {
+  display: none;
+}
+#block-views-features-blocks-homepage-d {
+  background-color: #000;
+}
+.header-form .caption-text-wrapper,
+.header-form-mobile .caption-text-wrapper,
+#block-views-features-blocks-homepage-d .caption-text-wrapper {
+  background-color: rgba(35,53,105,.85);
+  padding: 20px 5px 30px;
+}
+.caption-text-wrapper h2 {
+  color: #fff;
+  margin-bottom: 5px;
+  font-size: 22px;
+  font-family: 'Open Sans', sans-serif;
+  padding-bottom: 10px;
+  text-align: center;
+}
+.gsc-search-button-v2, 
+.gsc-search-button-v2:hover, 
+.gsc-search-button-v2:focus {
+  background-color: #1F3769 !important;
+  border-top-right-radius: 15px !important;
+  border-bottom-right-radius: 15px !important;
+  padding: 13px;
+}
+.caption-text-wrapper .icon a {
+  color: #fff;
+/*  color: #1F3769; */
+  font-size: 16px;
+  font-weight: 700;
+  text-decoration: none;
+}
+.main-search-container {
+  margin: 10px;
+}
+.main-icons {
+  align-items: flex-start;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  row-gap: 30px;
+}
+.header-form-mobile .main-icons {
+  column-gap: 15%;
+}
+.main-icons .item {
+  flex-basis: 50%;
+  text-align: center;
+}
+.header-form-mobile .main-icons .item {
+  flex-basis: 34%;
+}
+.main-icons .item img {
+  width: 100%;
+}
+.header-form-mobile .dropdown {
+  margin: 0px auto;
+  padding-bottom: 40px;
+}
+.caption-text-wrapper .main-icons .item .icon-text a {
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+}
+.not-front .icon.item{
+text-align: center;
+    margin: 20px 0;
+    padding: 10px 0;
+    background-color: #f5f5f7;
+    border-radius: 20px;
+    width: 225px;
+}
+.view-display-id-homepage_d .icon.item img{
+height: 50px;
+    padding: 10px;
+}
+.view-display-id-homepage_d .icon.item:hover{
+    border: 2px solid #213A6D;
+    border-radius: 10px;
+  box-sizing: border-box;
+}
+.front .view-display-id-homepage_d h3{
+  color: #000;
+  padding: 10px;
+  text-align: center;
+}
+
+/* END BLACK BOX FOR PHONE VIEW */
+
+/* CALL OUT BOXES */
+
+#block-views-features-blocks-homepage-a {
+/*  background-color: rgba(221, 56, 39, 0.1); */
+  background-color: #d9d8d7;
+}
+.block-views-features-blocks-homepage-a .view-content {
+  margin: 0px;
+}
+#block-views-features-blocks-homepage-a table,
+#block-views-features-blocks-homepage-d table {
+  margin-bottom: 0px;
+}
+.fb-callout-container {
+  background-color: transparent;
+  display: flex;
+  flex-wrap:wrap;
+  font-weight: normal;
+  justify-content:center;
+  margin-top: 30px;
+  padding: 0px 20px;
+}
+.fb-callout-container a {
+  color: #0062A0;
+}
+.fb-callout-container ul {
+  list-style: none;
+}
+.fb-callout-container .item {
+  display: block;
+  flex-basis: 0;
+  padding: 10px;
+}
+.fb-callout-container .item a {
+  text-decoration: none;
+}
+.fb-callout-container .item a:hover {
+  text-shadow: 2px 2px #fff;
+}
+
+/* END CALL OUT BOXES */
+
+/* IMAGE BANNER/ROTATOR STYLES */
+
+#region-agency-home-rotator {
+background-color: #1F3769;
+}
+#region-agency-home-rotator .caption-text-wrapper {
+  background-color: #1f3769;
+}
+.region-agency-home-rotator #text .caption-text-wrapper p a {
+  text-decoration: underline;
+}
+.owl-theme .owl-nav {
+  margin-top: -35px;
+}
+.owl-theme .owl-nav .owl-prev, 
+.owl-theme .owl-nav .owl-next {
+  font-size: 0;
+    height: 15px;
+    position: relative;
+    width: 8px;
+}
+.owl-theme .owl-nav .owl-prev{
+  background: rgba(0, 0, 0, 0) url(/sites/default/files/dc/sites/dlcp/featured_content/images/prev-arrow.png) no-repeat scroll 0 0 / 8px 15px;
+    left: 15px;    
+}
+.owl-theme .owl-nav .owl-prev:hover{
+  background: rgba(0, 0, 0, 0) url(/sites/default/files/dc/sites/dlcp/featured_content/images/prev-arrow.png) no-repeat scroll 0 0 / 8px 15px;
+}
+.owl-theme .owl-nav .owl-next {
+  background: rgba(0, 0, 0, 0) url(/sites/default/files/dc/sites/dlcp/featured_content/images/next-arrow.png) no-repeat scroll 0 0 / 8px 15px;
+}
+.owl-theme .owl-nav .owl-next:hover{
+  background: rgba(0, 0, 0, 0) url(/sites/default/files/dc/sites/dlcp/featured_content/images/next-arrow.png) no-repeat scroll 0 0 / 8px 15px;
+}
+.owl-theme .owl-nav .owl-next {
+    margin-left: 300px!important;
+}
+.owl-theme .owl-nav .owl-next, .owl-theme .owl-nav .owl-prev{
+  margin-top: 0px;
+}
+.owl-theme .owl-nav .disabled {
+  opacity: .5;
+}
+#region-agency-home-rotator .owl-dots {
+  margin:-31px auto 0px;
+  z-index:10;
+  position:relative;
+  width: 195px;
+}
+.owl-theme .owl-dots .owl-dot.active span {
+    background: #fff;
+    background: #fff;
+}
+.owl-theme .owl-dots .owl-dot span {
+    border: 1px solid #fff;
+}
+.region-agency-home-rotator .slide img {
+  padding: 20px 30px;
+  width: calc(100% - 60px);
+}
+.region-agency-home-rotator-inner .main-icons .icon img {
+  max-height: none;
+  height: 50px;
+  width: auto;
+  padding:10px 20px;
+}
+.region-agency-home-rotator-inner .learn-more{
+  display:inline-block;
+}
+.region-agency-home-rotator {
+    overflow: hidden;
+}
+.view-display-id-mobile_responsive_homepage_banner_full_rotator {
+  display: none;
+}
+.view-display-id-responsive_homepage_banner_full_rotator .item-list ul {
+  margin-bottom: 0px;
+}
+#text .caption-text-wrapper{
+  padding: 20px 30px;
+  text-align: center;
+}
+.slide #text {
+  margin-top: 0;
+  z-index: 10;
+  left: 0;
+  background: transparent;
+  color: #fff;
+  font-weight: bold;
+  line-height: normal;
+  bottom: 20px;
+  width: 200px;
+  font-size: 18px!important;
+}
+.learn-more a {
+  text-decoration: none;
+}
+.slide #text{
+  text-align: left;
+  font-family: 'Open Sans', sans-serif;
+  font-weight:200;
+}
+.slide #text h2 {
+  color: #fff;
+  margin-bottom: 5px;
+  font-size: 22px;
+  font-family: 'Open Sans', sans-serif;
+  padding-bottom: 10px;
+}
+.slide #text p{
+  font-weight: 200;
+  font-size:16px;
+}
+.cat-subhead{
+  margin-top: 20px;
+  font-family: 'Open Sans',sans-serif;
+  font-size: 14px;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+.banner-title{
+  font-size: 22px;
+  color: #fff;
+  text-shadow: 1px 1px 10px #000000; 
+}
+.slide #text{
+  width: 100%;
+  padding: 0;
+}
+.banner-button {
+  background-color: #3B4E90;
+  width: 150px;
+  color: #fff;
+  display: inline-block;
+  padding: 10px;
+  margin: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.banner-button a {
+  color:#fff;
+  text-decoration: none;
+}
+
+/* END IMAGE BANNER/ROTATOR STYLES */
+
+.zone-content-wrapper, 
+.region-agency-home-lower-first-inner {
+  margin-top:0;
+}
+ul.menu-sub.three-column ul {
+  float: left;
+  padding-left: 8px;
+}
+ul.menu-sub.three-column {
+  padding: 0px !important;
+  width: 655px !important;
+}
+ul.menu-sub.three-column li {
+  width: 170px !important;
+  white-space: normal;
+  padding: 10px 0px !important;
+}
+.icon-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  justify-items: center;
+}
+
+/* BLOCK A STYLES */
+
+/* HOMEPAGE DROPDOWN STYLES */
+
+.dropdown {
+  display: block;
+  margin: 0px auto 40px;
+  width: 300px;
+}
+.dropdown-content {
+  display: none;
+  position: relative;
+  width: 300px;
+  overflow: auto;
+  box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);
+  background-color: #fff;
+  text-align: center;
+  z-index: 10000;
+}
+.dropdown:hover .dropdown-content,
+.dropdown:active .dropdown-content {
+  display: block;
+}
+.dropdown-content a {
+    display: block;
+    color: #000000 !important;
+    padding: 5px;
+    text-decoration: none;
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+}
+.dropdown-content a:hover,
+.dropdown-content a:active {
+  color: #FFFFFF;
+  background-color: #ccc;
+}
+.dropdown button{
+  background-color: #ff0000;
+  border: 0;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 22px;
+  font-weight: 700;
+  padding: 10px 20px;
+  width: 300px;
+}
+.header-icons .dropdown {
+  display: inline-block;
+  margin: 19px 20px 0px 0px;
+  width: 110px;
+}
+.header-icons .dropdown button {
+  background-color: #fff;
+  border: 0;
+  border-radius: 20px;
+  color: #1F3769;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  padding: 6px 5px;
+  text-transform: uppercase;
+  width: 120px;
+}
+.header-icons .dropdown-content {
+  width: 170px;
+}
+.chat-button a {
+  background-color: #ff0000;
+  border: 0;
+  box-shadow: none;
+  color: #fff;
+  display: block;
+  font-size: 13px;
+  font-weight: 600;
+  margin: 10px auto 15px;
+  padding: 10px 20px;
+  text-align: center;
+  width: 160px;
+}
+.chat-button a:hover,
+.call-button a:hover {
+  box-shadow: 0px 5px 10px 0px #999;
+}
+#block-views-features-blocks-homepage-d .dropdown {
+  position: relative;
+  top: 20px;
+  z-index: 10000;
+}
+#block-views-features-blocks-homepage-d .dropdown-content {
+  z-index: 10000;
+}
+
+/* END HOMEPAGE DROPDOWN STYLES */
+
+.middle-section {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-top: 50px;
+}
+.middle-image {
+  flex-basis: 85%;
+}
+.middle-image img {
+  width: 100%;
+}
+.middle-text {
+  flex-basis: 100%
+}
+.middle-section h3 {
+  font-size: 22px!important;
+  font-weight: 700;
+  padding: 30px 0px 0px;
+}
+
+/* END BLOCK A STYLES */
+
+/* BLOCK D STYLES */
+
+/* END BLOCK D STYLES */
+
+.region-sidebar-first {
+  border-right: 1px solid #000;
+}
+.services-block {
+/*  background-color: #D22F1F; */
+  background-color: #ff0000;
+  display: block;
+  margin: 30px auto;
+  padding: 30px 5%;
+  width: 80%;
+}
+.services-block .list-title {
+  color: #fff;
+  font-family: 'Inter', sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  text-align: center;
+}
+.service-list {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  justify-items: left;
+}
+.item-column {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.service-list .item {
+  margin: 10px;
+  text-align: left;
+}
+.service-list .item a {
+  color: #fff!important;
+  font-size: 16px;
+  text-decoration: none;
+}
+.front .view-display-id-homepage_a h3 {
+  font-size:18px;
+}
+#accordion div#dt {
+  border: 1px solid #CFCFCF;
+  background-color: #F8F6F7;
+  height: 38px;
+  margin-bottom: 5px;
+  color: #20394f;
+  font-family: 'Open Sans', sans-serif!important;
+  font-size: 18px!important;
+  padding-left: 15px;
+  padding-top:10px;
+}
+#accordion div#dt::after {
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-top: 15px solid #444444;
+  content: "";
+  height: 0;
+  margin-top: 10px;
+  position: absolute;
+  right: 20px;
+  width: 0;
+}
+#accordion div#dt.selected::after {
+  border-top: none;
+  border-bottom: 15px solid grey;
+}
+#accordion div#dt.selected {
+  border: 1px solid #EAE8E9;
+}
+#accordion div#dt:hover {
+  background: #dde8ff;
+  cursor: pointer;
+}
+#dd .view-footer {
+  margin-bottom: 5px;
+}
+h3.more-link {
+  text-align: center;
+  margin-bottom: 0;
+  background: #EBECEE;
+  padding: 15px;
+}
+.view-id-agency_responsive_featured_news_home .views-row {
+  clear: both;
+  padding-top:6px;
+  padding-left: 12px;
+  padding-right: 6px;
+  padding-bottom: 6px;
+  min-height: 65px;
+  border-bottom:1px solid #C2C2C2;
+  border-top:1px solid #fff;
+  font-family: 'Open Sans', sans-serif;
+}
+.view-id-agency_responsive_featured_news_home .views-row-last {
+  border-bottom:none;
+}
+.view-id-agency_responsive_featured_news_home .views-row:hover {
+  background: #dde8ff;
+  padding-left: 12px;
+}
+.view-id-agency_responsive_featured_news_home .views-field-field-date {
+  float: left;
+  padding-bottom: 15px;
+  background-color: #ff0000;
+  color: #fff;
+  margin-right: 10px;
+  text-align: center;
+  font-size: 1.4em;
+  width: 50px;
+}
+.view-id-agency_responsive_featured_news_home .views-field-field-date .release_date_month {
+  font-size: .75em;
+  line-height: .3px;
+}
+.view-id-agency_responsive_featured_news_home .views-field-field-date .release_date_day {
+  font-weight: 600;
+  font-size: 1.7em;
+}
+
+/* end of homepage quicktab styles */
+
+.block-views-features-blocks-homepage-a ul li, 
+.block-views-features-blocks-homepage-b ul li, 
+.block-views-features-blocks-homepage-c ul li {
+    list-style-position: inherit;
+}
+.front #zone-postscript .fullpage-ribbon-banner, 
+.front #zone-postscript .fullpage-ribbon-banner a, 
+.front #zone-postscript .fullpage-ribbon-banner a:visited, 
+.front #zone-postscript .fullpage-ribbon-banner a:active, 
+.front #zone-postscript .fullpage-ribbon-banner a:link {
+  color:#fff
+}
+.front #zone-postscript .block-views-features-blocks-homepage-c a, 
+.front #zone-postscript .block-views-features-blocks-homepage-c a:visited, 
+.front #zone-postscript .block-views-features-blocks-homepage-c a:active, 
+.front #zone-postscript .block-views-features-blocks-homepage-c a:link {
+    color: #0062A0;
+    text-decoration: underline; 
+} 
+.feature-content.container {
+margin: 20px 0;
+padding: 0;
+display: flex;
+flex-direction: row;
+list-style: none;
+justify-content: space-around;
+align-items: center;
+flex-wrap: wrap;
+border-bottom: 1px solid #ccc;
+padding: 20px 0;
+}
+.feature-content.container .text {
+text-align:center;
+}
+.feature-content h2, .feature-content.container .text h2 {
+margin-bottom: 20px;
+}
+.feature-content img{
+width: 60px;
+float:left;
+padding:10px;
+}
+.content.container.lower{
+  border-top: 1px solid #ccc;
+padding: 20px 0;
+}
+.button.black.right{
+  float:right;
+}
+.button{
+background-color: #000;
+color: #fff;
+padding: 5px;
+border-radius: 20px;
+font-size: 14px;
+width: 100px;
+min-width: 100px;
+padding: 10px 45px;
+text-transform: uppercase;
+line-height: 18px;
+font-family: 'Open Sans', sans-serif;
+margin: 10px;
+text-align: center;
+}
+.button.black {
+background-color: #000;
+color: #fff;
+}
+.button.clear{
+border: 3px solid #fff;
+background-color: transparent;
+}
+#text .button.black{
+border: 3px solid #fff;
+background-color: transparent;
+}
+.button.white {
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 20px;
+    font-size: 10px;
+    width: intrinsic;
+    min-width: 100px;
+    padding: 10px 25px;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    margin: 10px 10px;
+    float: left;
+    color: #31394F;
+    font-weight: 700;
+    text-align: center;
+}
+.button.white:hover {
+    background-color: #000;
+    color: #fff;
+}
+.button.blue{
+    background-color: #31394F;
+    color: #fff!important;
+text-decoration: none;
+}
+.button.red {
+  background-color: #ff0000;
+  color: #fff!important;
+  text-decoration: none;
+}
+.slide #text a, learn-more a {
+  color:#fff;
+}   
+.faq.banner .button.white:hover a {
+  color:#fff;
+}
+.not-front .faq.banner h3 {
+  margin-bottom:0;
+}
+
+/* MENU STYLES */
+
+.block-menu-block {
+color: #000;
+padding: 0 10px;
+}
+.block-menu-block .block-inner{
+background-color: #fff;
+border-radius: 20px;
+z-index: 4;
+position: relative;
+}
+.block-menu-block ul li.leaf{
+  font-size: 14px;
+    list-style: none;
+}
+.block-menu-block ul li.expanded ul.menu-sub{
+  margin: 0 15px;
+  padding-top:0;
+}
+.block-menu-block ul li.expanded li.collapsed{
+margin: 0 15px;
+}
+.block-menu-block li a.active, .block-menu-block a:link, .block-menu-block a:visited {
+  color: #000;
+    text-decoration: none;
+    font-weight: 300;
+font-size:15px;
+}
+.block-menu-block li a.active.active-trail{
+    font-weight: 700;
+}
+.not-front .block-menu-block h2{
+  color:#000;
+}
+.sub-nav-header{
+  padding: 20px;
+color: #fff;
+min-height:50px;
+text-align: center;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.sub-nav-header .content{
+float: left;
+margin: 0 20px;
+width:300px;
+}
+.sub-nav-header .text{
+  font-size: 20px;
+font-weight: 700;
+}
+.sub-nav-header .current-page{
+  font-family: 'Open Sans', sans-serif;
+font-size: 14px;
+}
+.sub-nav-header .content::before{
+float: left;
+content: '';
+width: 30px;
+height: 30px;
+margin-right: 10px;
+background-image: url('/sites/default/files/dc/sites/edscape/plus.png');
+background-size: 30px 30px;
+}
+.sub-nav-header .content.expanded::before{
+float: left;
+content: '';
+width: 30px;
+height: 30px;
+margin-right: 10px;
+background-image: url('/sites/default/files/dc/sites/edscape/Minuswhite.png');
+background-size: 30px 30px;
+}
+#block-domain-conf-domain-main-links ul li.expanded .menu-sub{
+padding-bottom: 0;
+margin-bottom: 0;
+}
+#block-domain-conf-domain-main-links ul li.expanded .menu-sub li:first-child{
+display:none;
+}
+#block-domain-conf-domain-main-links ul li.expanded .menu-sub li{
+font-size: 14px;
+font-weight: 300;
+text-align:center;
+}
+#block-domain-conf-domain-main-links ul li.expanded:after{
+top: 7px;
+position: absolute;
+right: 10px;
+border: solid #fff;
+content: '+';
+font-size: 30px;
+border: 0;
+transform: none;
+margin: 0;
+padding: 0;
+}
+#block-domain-conf-domain-main-links ul li.expanded.dropdown:after{
+content: '-';
+}
+.block-menu-block ul > li.active-trail ul.menu-sub{
+border-left: 1px solid #ccc;
+margin:0 10px;
+padding: 0 10px;
+}
+.block-menu-block ul li.active-trail.active{
+  border-left: 0;
+margin:0;
+padding: 0;
+}
+.block-menu-block li.active-trail a.active, .block-menu-block li.active-trail a:link, .block-menu-block li.active-trail a:visited{
+  color:#000;
+}
+.block-menu-block ul li.leaf:hover a, .block-menu-block ul li.collapsed:hover a, .block-menu-block ul li.expanded:hover > a{
+  color: #000;
+  font-weight:bold;
+}
+#block-domain-conf-domain-main-links{
+/*  background-color: #D22F1F; */
+  background-color: #ff0000;
+}
+#block-domain-conf-domain-main-links li a, #block-domain-conf-domain-main-links li a:active, #block-domain-conf-domain-main-links li a:link, #block-domain-conf-domain-main-links li a:visited{
+  color:#fff;
+}
+#block-domain-conf-domain-main-links ul li{
+  border-bottom: 1px solid #fff;
+position:relative;
+color: #FFFFFF;
+font-family: 'Open Sans', sans-serif;
+font-size: 16px;
+font-weight: 600;
+}
+
+/* END MENU STYLES */
+
+/* FAQ STYLES */
+
+.faq.banner .button{
+    display: inline-block;
+}
+.faq.banner a{
+  color: #000;
+}
+.faq.banner .button img{
+  width: auto;
+    margin: 0 10px 0 10px;
+float:right;
+}
+
+/* END FAQ STYLES */
+
+.block-views-features-blocks-homepage-b ul li{
+margin:10px;
+display:table-footer-group;
+}
+.field-name-field-attachment .field-item{
+ background-color: #fff;
+    padding: 5px;
+    border-radius: 20px;
+    font-size: 10px;
+    width: intrinsic;
+    min-width: 100px;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    margin: 10px 10px;
+    float: left;
+    color: #31394F;
+    font-weight: 700;
+    text-align: center;
+  border: 1px solid #000;
+}
+.field-name-field-attachment .field-item a{
+  color:#31394F;
+}
+.field-name-field-attachment .field-item:hover{
+  background-color: #000;
+    color: #fff;
+}
+.field-name-field-attachment .field-item:hover a{
+  color:#fff;
+}
+.field-name-field-attachment .field-label{
+  display:none;
+}
+
+/* FOOTER STYLES */
+
+#section-footer,
+.zone-footer-wrapper {
+	background-color: #000!important;
+}
+.footer-content {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.footer-text img {
+  height:30px;
+}
+.footer-text.dlcplogo img {
+  height:65px;
+}
+.footer-text.item {
+  padding:10px;
+}
+.footer-wrapper {
+	background-color: #000;
+  padding: 25px 5%;
+}
+.footer-icons img {
+  height:25px;
+  padding: 0 5px;
+}
+#zone-footer-wrapper .container-12 .grid-12, 
+#zone-footer-wrapper .container-12 .grid-12, 
+#zone-footer.container-12 {
+  width:100%;
+  margin:0;
+}
+.zone-footer-wrapper{
+  color: #fff;
+}
+.footer-content {
+  color:#fff;
+  border-bottom:1px solid #fff;
+}
+.footer-content.last {
+  border:0;
+}
+.footer-header {
+  font-weight:bold;
+  text-align: center;
+  width: 100%;
+}
+.footer-content {
+  padding: 20px;
+}
+.footer-content .logo{
+  margin: 20px;
+  padding-right: 20px;
+}
+.footer-content .logo.first{
+  border-right: 1px solid #747373;
+}
+.footer-content .logo.second{
+margin:0;
+}
+.footer-content .logo img {
+  width:300px;
+}
+.footer-content .logo.first img {
+  width:150px;
+}
+.zone-footer-wrapper {
+  padding:0;
+}
+.footer.contact, .footer-link, .footer-connected {
+  display:inline-block;
+}
+.footer-connected {
+  float:none;
+  border:0;
+}
+.footer-content p {
+  margin-bottom:0;
+}
+.footer.contact, .footer-link, .footer-connected {
+  padding: 0 20px;
+  text-align:center;
+  margin:20px 10px;
+}
+.footer-connected {
+  width:auto;
+}
+.footer-content ul {
+  list-style:none;
+}
+.footer-link {
+  border-right: 1px solid #747373;
+  border-left: 1px solid #747373;
+  padding: 0 20px;
+}
+.footer-section.lower {
+ text-align:left;
+}
+.footer-connected .icon {
+  display:inline-block;
+}
+
+/* END FOOTER STYLES */
+
+#region-agency-home-main-content, 
+.grid-24.region-agency-home-main-content {
+  top: 0;
+}
+.buttons {
+  text-align: center;
+}
+.feature-tile.black {
+  background-color: #4a4a4a;
+  color: #fff;
+  border-radius: 20px;
+  padding: 40px;
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.feature-tile .item {
+  padding: 10px;
+  vertical-align: top;
+}
+.region-sidebar-first h2, 
+.field-name-field-related {
+  font-size: 18px;
+}
+.social-icons img {
+  width:50px;
+  padding:20px;
+}
+.front .social-icons {
+  text-align: center;
+}
+.view-agency-responsive-featured-news-home .views-field-field-image img {
+  width:100%;
+  height:100%;
+}
+.mmb-logo2 {
+  display:none;
+}
+.logo img, .mmb-logo2 img{
+  float:left; 
+  width: 130px;
+}
+.region-agency-home-main-content .view-display-id-homepage_d .views-field-body .field-content {
+  position:relative;
+}
+.learn-more{
+  border-radius: 15px;
+  background-color: #ff0000;
+  padding: 10px;
+  width: 130px;
+  color: #fff;
+  font-size: 18px;
+  text-align: center;
+  margin: 10px auto;
+  font-weight: 500;
+  font-family:'Open Sans', sans-serif;
+  clear:both;
+}
+.learn-more a{
+  color: #fff !important;
+  text-decoration:none;
+}
+.view-display-id-campaign_home_news_block .views-field-body a.views-more-link{
+  color: #4A4A4A;
+  text-decoration: none;
+  font-weight: bold;
+  font-weight: 700;
+  font-size: 16px;
+  font-style: italic;  
+}
+.fullpage-ribbon-banner .learn-more{
+width: 150px;
+}
+.tile .learn-more a {
+    color: #fff!important;
+}
+.tile p {
+  margin-bottom: 50px;
+}
+.tile .learn-more {
+  width:130px;
+}
+.block-views-features-blocks-homepage-a ul, 
+.block-views-features-blocks-homepage-b ul {
+  padding-left:50px;
+}
+.block-views-features-blocks-homepage-c ul {
+  padding: 20px;
+}
+.block-views-features-blocks-homepage-a {
+  min-height: 100px;
+}
+#zone-preface.container-24,
+.footer-links,
+.container-24 .grid-24, 
+.container-24 .grid-8, 
+.container-24{
+    width: 100%!important;
+    margin: 0;
+}
+.container-24 .grid-24 #region-agency-home-3col-a.grid-8 {
+  background-color: #fff;
+  float: none;
+}
+.not-front .container-24 .grid-12, 
+.region-agency-home-main-content .view-display-id-homepage_d .views-field-body .field-content{
+    width: 100%;
+}
+.block-views-features-blocks-homepage-a, 
+.block-views-features-blocks-homepage-b, 
+.block-views-features-blocks-homepage-c, 
+.view-display-id-homepage_b {
+padding:0;
+text-align:left;
+min-height:auto;
+}
+.block-views-features-blocks-homepage-b {
+  padding: 30px 0px;
+}
+.block-views-features-blocks-homepage-b .views-field-body p {
+  margin-bottom: 0px;
+}
+.container-24 #region-agency-home-3col-c.grid-8 {
+  display: none;
+}
+.container-24 #region-agency-home-3col-c.grid-8 {
+  background-color: #ff0000;
+}
+.not-front.page-newsroom .zone-content-wrapper h1#page-title.title{
+  padding:0;
+}
+.item-list ul li {
+    margin: 0 0 0.25em 0;
+}
+#quicktabs-agency_featured_news_home div.item-list{
+  display:block;
+}
+#quicktabs-agency_responsive_featured_news_, 
+#block-quicktabs-agency-responsive-featured-news- .block-title {
+  display:none;
+}
+#block-quicktabs-agency-featured-news-home .block-title, 
+#edit-field-topic-tid-wrapper, 
+#edit-field-police-service-area-tid-wrapper,
+#desktop-main-menu li.expanded ul.menu-sub  li:first-child, 
+.block-views-features-blocks-homepage-a h2.views-field-title, 
+.field-name-field-position, 
+.view_more_right{
+  display:none!important;
+}
+#block-quicktabs-agency-featured-news-home {
+/*  background-color: rgba(210,47,31,0.1); */
+  background-color: #d9d8d7;
+}
+#block-views-features-blocks-upcoming-events,
+#quicktabs-agency_featured_news_home {
+  display:block;
+  padding: 0px 5px;
+}
+#block-views-features-blocks-upcoming-events {
+  display: block;
+  margin: 30px auto;
+}
+.view-display-id-upcoming_events {
+  text-transform: capitalize;
+  width: 100%;
+}
+.block-views-features-blocks-upcoming-events h2.block-title {
+  display: block;
+  font-size: 26px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.view-display-id-upcoming_events .views-row {
+  border: 0;
+  height: 70px
+}
+.view-display-id-upcoming_events .views-row.views-row-last {
+  margin-bottom: 30px;
+}
+#block-views-features-blocks-upcoming-events .views-field-field-date-time-rep {
+  background-color: #ff0000;
+  display: block;
+  float: left;
+  height: 55px;
+  margin-right: 10px;
+  min-width: fit-content;
+  padding: 5px 0px 0px;
+  text-align: center;
+  width: 60px;
+}
+#block-views-features-blocks-upcoming-events .views-field-field-date-time-rep div {
+  color: #fff;
+  display: block;
+}
+#block-views-features-blocks-upcoming-events div.release_date_day {
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 25px;
+}
+#block-views-features-blocks-upcoming-events div.release_date_month {
+  text-transform: uppercase;
+}
+.view-display-id-upcoming_events .views-field-title span a {
+  color: #000;
+  text-decoration: none;
+  display: block;
+  float: left;
+  width: 80%;
+}
+.view-display-id-upcoming_events .view-footer a {
+  content: ' ';
+  display:inline-block;
+  line-height: 1px;
+  text-decoration: none;
+  visibility: hidden;
+}
+.view-display-id-upcoming_events .view-footer a::after {
+  background-color: #ff0000;
+  box-shadow: none;
+  color: #fff;
+  content: "View more";
+  display: block;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 16px;
+  padding: 15px 25px;
+  text-decoration: none!important;
+  text-transform: none;
+  visibility: visible;
+}
+.view-display-id-upcoming_events .view-footer a:hover::after {
+  box-shadow: 0px 5px 10px 0px #999;
+}
+#block-views-features-blocks-upcoming-events .view-display-id-upcoming_events .views-field-field-date-time-rep{
+  line-height: normal;  
+}
+#block-views-features-blocks-upcoming-events .view-display-id-upcoming_events .views-field-title{
+  float:none;
+  line-height: 24px!important;
+  text-align: left;
+}
+ul.quicktabs-tabs.quicktabs-style-sky li {
+  display: none;
+}
+ul.quicktabs-tabs.quicktabs-style-sky li.first,
+ul.quicktabs-tabs.quicktabs-style-sky li:nth-of-type(2),
+ul.quicktabs-tabs.quicktabs-style-sky li:nth-of-type(3),
+ul.quicktabs-tabs.quicktabs-style-sky li.last {
+  display: block;
+}
+ul.quicktabs-tabs.quicktabs-style-sky li:first-child a {
+  border: 0;
+}
+ul.quicktabs-tabs.quicktabs-style-sky li a, 
+ul.quicktabs-tabs.quicktabs-style-sky li a:visited {
+  background: 0;
+  background-color: transparent!important;
+  border: none;
+  color: #000;
+  font-weight: 400;
+  height: 3em;
+  line-height: 4em;
+  margin-right: 15px;
+  min-height: 3em;
+  padding: 0px;
+  top: -0.25em;
+}
+/*ul.quicktabs-tabs.quicktabs-style-sky li a, */
+ul.quicktabs-tabs.quicktabs-style-sky li.active a, 
+ul.quicktabs-tabs.quicktabs-style-sky li.active a:visited,
+ul.quicktabs-tabs.quicktabs-style-sky li a:hover, 
+ul.quicktabs-tabs.quicktabs-style-sky li.active a:hover {
+  background: transparent!important;
+  border: 0;
+  border-bottom: 2px solid #000;
+/*  background-color: #ff0000; */
+  color: #000;
+  font-size: .95em;
+  font-weight: 700;
+  height: 3em;
+  line-height: 4em;
+  margin-right: 15px;
+  min-height: 3em;
+  padding: 0px;
+  top: -0.25em;
+}
+ul.quicktabs-tabs.quicktabs-style-sky li.active {
+margin: .3em 0 0 0;
+}
+#quicktabs-container-agency_featured_news_home{
+  background-color: transparent!important;
+  border: none;
+  min-height: 100px;
+  padding: 30px 0px;
+}
+#quicktabs-container-agency_featured_news_home table {
+  width: 100%;
+}
+.view-featured-news-home tr.even, 
+.view-featured-news-home tr.odd{
+  background-color: transparent;
+}
+.view-featured-news-home tr.even, tr.odd {
+  background-color: transparent;
+  border-bottom: 0;
+ }
+.view-featured-news-home .views-field-field-date {
+  color: #000;
+  font-size: 16px;
+  padding:7px;
+}
+
+.view-featured-news-home td.views-align-left {
+  align-items: flex-start;
+  display: flex;
+  flex-wrap: nowrap;
+}
+.view-featured-news-home .views-field-field-date a {
+  flex-basis: calc(100% - 85px);
+  font-size: 18px;
+  text-decoration: none;
+}
+.view-featured-news-home span.date-display-single {
+  background-color: #ff0000;
+  color: #fff!important;
+  display: block;
+  flex-basis: 60px;
+  float: left;
+  font-weight: bold;
+  height: 55px;
+  margin-right: 10px;
+  padding: 5px 0px;
+  text-align: center;
+/*  width: 75px; */
+}
+.view-featured-news-home .release_date_day {
+  color: #fff;
+  font-size: 24px;
+  display: block;
+  line-height: 28px;
+}
+.view-featured-news-home .release_date_month {
+  color: #fff;
+  display: block;
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+
+.view-featured-news-home .view-footer .view_more_right a {
+  color: #000;
+  font-size: 16px;
+  text-decoration: none;
+  font-weight: 700;
+  margin: 0;
+}
+.view-events-landing .views-field-field-date-time-rep {
+  background-color: transparent!important;
+  color: #000;
+  font-size: 16px;
+  padding: 0px!important;
+  width: 100%;
+}
+span.date-display-single {
+  display: block;
+  width: fit-content;
+  float: left;
+  font-weight: bold;
+  padding: 0px 10px 10px;
+}
+.view-featured-news-home .views-field-field-date a {
+  color: #000;
+  text-decoration: none;
+  display: block;
+  float: left;
+  width: 55%;
+}
+.view-featured-news-home .views-field-field-date a:hover {
+  text-decoration: underline;
+}
+.view-events-landing .views-field-title-1 {
+  font-size: 16px;
+  padding: 0px!important;
+  width: 100%;
+}
+.view-events-landing .views-field-title-1 a {
+  display: block;
+  width: fit-content;
+  float: left;
+  padding: 0px 10px 10px;
+}
+.view-events-landing .views-field-field-due-date {
+  display: none;
+}
+.view-events-landing .views-row {
+  border-bottom: none;
+}
+.view_more_right {
+  display: block!important;
+}
+.view_more_right a {
+  content: ' ';
+  display:inline-block;
+  line-height: 1px;
+  text-decoration: none;
+  visibility: hidden;
+}
+.view_more_right a::after {
+  background-color: #ff0000;
+  box-shadow: none;
+  color: #fff;
+  content: "View more";
+  display: block;
+  font-size: 12px;
+  line-height: 16px;
+  padding: 15px 25px;
+  text-decoration: none!important;
+  visibility: visible;
+}
+.view_more_right a:hover::after {
+  box-shadow: 0px 5px 10px 0px #999;
+}
+#region-content{
+  width:100%;
+  margin:0;
+}
+.not-front.dc-display-1-column  #region-content {
+    width:100%;
+}
+.front tr:hover td {
+  background:0;
+}
+.front table {
+  border:0;
+}
+thead th, th {
+  text-align:center;
+}
+.block-views-features-blocks-homepage-a h2.views-field-title-field,
+.block-views-features-blocks-homepage-b h2.views-field-title-field,
+.block-views-features-blocks-homepage-c h2.views-field-title-field{
+  color:#fff;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: normal;
+  font-size: 20px;
+}
+.addthis-smartlayers,
+.region-agency-home-main-content .view-display-id-homepage_d .views-field-title-field, 
+.block-views-features-blocks-homepage-b h2.views-field-title, 
+.region-agency-home-main-content .view-display-id-homepage_d .views-field-title, 
+.region-agency-home-main-content .view-display-id-homepage_d .views-field-title-field {
+  display: none;
+}
+.front #region-content {
+  z-index:10;
+}
+.zone-postscript-wrapper {
+padding:0;
+}
+.zone-preface-wrapper, .zone-postscript-wrapper {
+  background-color: #fff;
+}
+.envelope-logo{
+  background-color:#fff;
+  padding: 10px;
+    margin-bottom: 20px;
+}
+.views-field views-field-field-image-link-url a{
+  color: #5EC4BE!important;
+}
+.view-display-id-homepage_d .views-field-field-external-link-url a{
+background-color: #3B4E90;
+}
+.block-views-features-blocks-homepage-c h2.views-field-title, .views-field-field-external-link-url{
+  display:none;
+}
+.closebtn {
+    background-color: transparent;
+}
+.region-branding-inner #search_form {
+  display:none;
+}
+#block-domain-conf-domain-main-links #search_form { 
+  display:none;
+}
+#block-domain-conf-domain-main-links #search_form2 {
+  display:block;
+}
+.learn-more.teal{
+  background:#27B3BB;
+}
+.learn-more.red{
+  background-color: #ff0000;
+}
+.learn-more.brown{
+  background:#A98877;
+}
+#region-agency-home-main-content, 
+.grid-24.region-agency-home-main-content{
+  background-color: #fff;
+  border: 0;
+  box-shadow: none;
+  color: #4A4A4A;
+  margin-top: 0px;
+  padding: 0;
+  width:100%;
+}
+.view-display-id-campaign_home_news_block{
+  display:none;
+}
+.region-agency-home-main-content .views-field-field-image-link-url {
+    display:none;
+}
+.region-agency-home-main-content .view-display-id-homepage_d .views-field-body {
+    width: 100%;
+}
+.region-agency-home-main-content .view-display-id-homepage_d .views-field-body {
+    width: 100%;
+    float: none;
+    min-height: inherit;
+    line-height: normal;
+text-align: left;
+    padding: 20px;
+}
+a.feature-icon img {
+width: auto !important;
+    margin-left: auto;
+    margin-right: auto;
+    height: 60px;
+}
+.block-views-features-blocks-homepage-d h2.views-field-title, 
+.block-views-features-blocks-homepage-d .views-field-field-related,
+.block-views-features-blocks-homepage-a h2.views-field-title, 
+.block-views-features-blocks-homepage-c h2.views-field-title, 
+.block-views-features-blocks-homepage-a h2.views-field-title-field, 
+.block-views-features-blocks-homepage-b h2.views-field-title-field, 
+.block-views-features-blocks-homepage-c h2.views-field-title-field, 
+.view-display-id-campaign_home_news_block .views-field-title a {
+  display: none;
+}
+.block-views-features-blocks-homepage-b h2.views-field-title {
+  color: #4A4A4A;
+  display: block;
+  font-family: 'Inter', sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  margin: 0px auto 20px;
+  text-align: center;
+}
+.view-display-id-campaign_home_news_block .views-field-title a{
+text-decoration:none;
+}
+.block-views-features-blocks-homepage-a .view-content, 
+.block-views-features-blocks-homepage-b .view-content, 
+.block-views-features-blocks-homepage-c .view-content, 
+.view-display-id-campaign_home_news_block .view-content{
+  color: #4A4A4A;
+padding:0 5%;
+margin:10px 0;
+font-size:18px;
+}
+.block-views-features-blocks-homepage-a .view-content,
+.block-views-features-blocks-homepage-d .view-content {
+  margin: 0px;
+  padding: 0px;
+}
+.block-views-features-blocks-homepage-a .view-content{
+  text-align:left;
+}
+ .block-views-features-blocks-homepage-c .view-content{
+  margin:0;
+}
+.view-display-id-homepage_b{
+  background-color:#fff;
+}
+.section-footer {
+  background-color: #D6D7D9;
+}
+.zone-footer-wrapper a, .footer-links{
+  color: #fff;
+}
+.view-display-id-homepage_a table.views-view-grid, .view-display-id-homepage_b table.views-view-grid, 
+.view-display-id-homepage_c table.views-view-grid{
+  width:100%;
+}
+.view-newsroom .views-row, 
+.view-resources .views-row, 
+.view-events-landing .views-row, 
+.view-services .views-row, 
+.view-id-biographies .views-row{
+  padding-top: 10px;
+}
+.view-newsroom .filterButton,
+.view-events-landing .filterButton {
+  top: -25px;
+}
+.view-newsroom .views-field-field-date, 
+.view-resources .views-field-field-date {
+  background-color: transparent!important;
+  color: #000;
+  font-size: 16px;
+  padding: 0px 10px 10px;
+}
+.view-newsroom .views-field-title {
+  font-size: 16px;
+}
+.custom-events-header{
+  padding: 10px;
+}
+#zone-footer-wrapper2{
+  background-color: #fff;
+  min-height: 75px;
+  text-align: center;
+}
+.lower-footer-logo img{
+  max-height: 75px;
+}
+.region-agency-home-main-content .view-display-id-homepage_d .views-field-body .views-field-field-external-link-url{
+  display:none;
+}
+.region-agency-home-main-content .view-display-id-homepage_d .views-field-body{
+  padding:0;
+}
+.footer-links ul {
+  font-size:14px;
+}
+.fullpage-ribbon-banner{
+  width: 100%;
+  color: #FFFFFF;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  text-align: left;
+  font-weight: 700;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.fullpage-ribbon-banner p{
+  margin-bottom:0;
+}
+.fullpage-ribbon-banner.red {
+  background-color: #ff0000;
+  background-size: contain;
+}
+.fullpage-ribbon-banner.burgundy {
+  background-color: #ff0000;
+  background-image: url(/sites/default/files/dc/sites/census/RedBox.png);
+  background-size: contain;
+}
+.fullpage-ribbon-banner.light-grey{
+background-color: #F9F9F9;
+color:#4A4A4A;
+}
+.fullpage-ribbon-banner.blue{
+background-color: #1f497d;
+color:#fff;
+background-size: contain;
+}
+.fullpage-ribbon-banner.purple{
+background-color: #401155;
+background-size: contain;
+}
+.fullpage-ribbon-banner.teal{
+background-color: #194d4d;
+background-size: contain;
+}
+.fullpage-ribbon-banner.green{
+background-color: #0a3308;
+background-size: contain;
+}
+.fullpage-ribbon-banner.light-grey a{
+color:#4A4A4A!important;
+}
+.fullpage-ribbon-banner h2 a{
+color:#fff;
+text-decoration: none;
+    padding: 0 10px;
+    font-weight: 700;
+}
+.fullpage-ribbon-banner a{
+color:#fff;
+text-decoration: underline;
+font-weight: 500;
+}
+.fullpage-ribbon-banner .learn-more a{
+text-decoration: none;
+}
+.fullpage-ribbon-banner.red .learn-more a {
+  color: #ff0000;
+}
+.fullpage-ribbon-banner a:hover{
+text-decoration: underline;
+}
+.fullpage-ribbon-banner img{
+    height: 70px;
+    vertical-align: middle;
+}
+.fullpage-ribbon-banner.red .learn-more{
+background: #fff;
+}
+.fullpage-ribbon-banner.red .learn-more a{
+  color: #ff0000!important;
+}
+.fullpage-ribbon-banner .counter{
+margin: 0 auto;
+width: 320px;
+}
+.fullpage-ribbon-banner .digit{
+float:left;
+}
+.fullpage-ribbon-banner .text{
+clear:both;
+font-size: 28px;
+font-family:'Open Sans', sans-serif;
+padding:20px 0;
+}
+.region-footer-first-inner{
+    width: auto;
+}
+.footer-logo {
+  display:none;
+  float:none;
+  padding-left:10px;
+}
+.footer-logo img {
+  max-width:200px;
+}
+.language-section{
+border-bottom: 1px solid #fff;
+    margin-bottom: 10px;
+text-align:center;
+}
+.language-section ul{
+    list-style: none;
+    display: inline-block;
+}
+.language-section li{
+  display: inline-block;
+  padding-left:10px;
+}
+.language-section a {
+  color:#fff; }
+.block-views-features-blocks-homepage-a, 
+.block-views-features-blocks-homepage-b {
+  border:0;
+}
+
+/*Event node css*/
+.node-type-event .field-label-inline .field-items, 
+.node-type-event .field-name-field-date-time-rep .field-items  {
+    padding: 10px;
+    margin: 5px;
+    min-width: 100px;
+}
+.node-type-event .field-name-field-due-date,
+.node-type-event .field-name-field-phone {
+  clear: both;
+}
+.node-type-event .field-label,
+.node-type-event .field .field-label, 
+.node-type-event .field-next-date-label {
+  padding: 10px 0px;
+  margin: 5px 0px;
+  font-size: 16px;
+  font-weight: 800;
+  width: fit-content
+}
+.node-type-event .field-name-field-location {
+  clear:left;
+}
+.field-label-inline .field-label, 
+.field-label-inline .field-items {
+  float:none;
+  font-size:16px;
+}
+.node-type-event .field-next-date-label, 
+.node-type-event .field-name-field-date-time-rep, 
+.node-type-event .field-name-body .field-label {
+  font-size:16px;
+}
+.node-type-event span.date-display-single {
+  display: block;
+  float: none;
+  font-weight: 400;
+  width: 100%;
+}
+.node-type-event .field-label .field-name-field-contact {
+  float: inline-end;
+  font-weight: 400;
+}
+.node-type-event .field-name-field-email a.mailto {
+  font-weight: 400;
+}
+.node-type-event .field-name-field-phone .field-label,
+.node-type-event .field-name-field-phone .field-items {
+  float: left;
+}
+.node-type-event .field-label-inline .field-items {
+  float: left;
+  width: fit-content;
+}
+.field-name-body .field-label {
+  width:100%;
+}
+.node-type-event article .content img {
+  width: 100%;
+    height: auto;
+}
+.node-type-event article .content .field-name-field-attachment span.file img {
+  height: 16px;
+  width: 16px;
+}
+.field-name-body .field-items{
+padding: 10px;
+margin: 5px;
+}
+.region-agency-home-rotator, .region-agency-home-rotator-inner .owl-carousel .owl-item img{
+  max-height: 100%;
+}
+.owl-carousel{display:block;}
+.view-display-id-block_hero_image{
+  display: none;
+}
+
+.view-display-id-block_mobile_hero_image{
+  display: block;
+}
+
+/******FAQ Styles*******/
+.faq {
+            margin: 10px;
+            padding: 10px;
+            border-bottom: 1px solid #ccc;
+}
+.question,
+.answer {
+font-size:20px;
+}
+.icon-container .faq {
+border-bottom: 0;
+}
+.icon-container .question{
+    font-weight: 700;
+font-size: 16px;
+}
+.faq img{width:100%;height:100%}
+.question{
+  font-weight: 700;
+  color: #595f5f;
+  font-size: 18px;
+}
+.answer{
+font-family: 'Open Sans', sans-serif;
+margin-top:20px;
+font-weight:200;
+}
+
+        .question.expanded::before {
+            content: url(/sites/default/files/dc/shared_assets/Close2.png);
+            font-size: 21px;
+            float: right;
+            color: #2b4888;
+        }
+
+        .question::before {
+            color: #2b4888;
+            content: url(/sites/default/files/dc/shared_assets/Expand2.png);
+            float: right;
+            font-size: 21px;
+            margin-right: 4px;
+        }
+
+.icon-container .question::before {
+            color: #2b4888;
+            content: url(/sites/default/files/dc/shared_assets/Expand2.png);
+            float: right;
+            font-size: 21px;
+            margin-right: 4px;
+padding:0 10px;
+        }
+.icon-container .question.expanded::before {
+            content: url(/sites/default/files/dc/shared_assets/Close2.png);
+            font-size: 21px;
+            float: right;
+            color: #2b4888;
+padding:0 10px;
+        }
+.icon-container .answer {
+            text-align: left;
+background-color: #fff;
+    border-radius: 20px;
+        }
+
+        .answer {
+            display: none;
+        }
+
+        .expanded {
+            display: block;
+        }
+
+/******End FAQ Styles*******/
+
+/******Banner FAQ Styles*******/
+
+.faq.banner {
+border:0;
+}
+.question.banner, .answer.banner {
+  font-size:20px;
+}
+.faq.banner img{
+width:60px;
+margin: 0 10px 0 0;
+}
+.front .faq.banner img{
+margin: 0 50px 0 0;
+}
+.question.banner{
+    font-weight: 700;
+    padding: 20px;
+    color: #fff;
+margin-bottom:0;
+}
+.answer.banner{
+font-family: 'Open Sans', sans-serif;
+margin-top:20px;
+font-weight:200;
+padding-bottom: 50px;
+}
+.question.banner.expanded::before {
+  font-size: 21px;
+  float: right;
+  color: #2b4888;
+content: '';
+width: 30px;
+height: 30px;
+margin-right: 4px;
+background-image: url(/sites/default/files/dc/sites/edscape/Minuswhite.png);
+background-size: 30px 30px;
+}
+        .question.banner::before {
+            color: #2b4888;
+            content: url(/sites/default/files/dc/sites/edscape/plus.png);
+            float: right;
+            font-size: 21px;
+            margin-right: 4px;
+content: '';
+width: 30px;
+height: 30px;
+margin-right: 4px;
+background-image: url(/sites/default/files/dc/sites/edscape/plus.png);
+background-size: 30px 30px;
+margin-top: 7px;
+        }
+.answer.banner {
+  display: none;
+}
+.answer.banner h3{
+border-bottom:1px solid #ccc;
+padding: 20px 0;
+font-size: 15px;
+}
+.expanded {
+  display: block;
+}
+.answer.banner ul{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  width: 100%;
+  padding: 0;
+  font-size:15px;
+  grid-gap: 20px;
+}
+
+/******End FAQ Styles*******/
+
+#block-domain-conf-domain-main-links {
+/*  background-color: #D22F1F; */
+  background-color: #ff0000;
+}
+
+#block-domain-conf-domain-main-links ul li{
+  border-bottom:0;
+  text-align:center;
+  font-size:16px;
+}
+.closebtn {
+  background-color: #ff0000;
+}
+.view-display-id-campaign_home_news_block .views-row{
+  clear: both;
+  min-height:300px;
+}
+.view-display-id-campaign_home_news_block .views-row-even{
+  border-top: 1px solid #ccc;
+  padding: 50px 0;
+}
+.view-display-id-campaign_home_news_block .views-row-last {
+  padding-bottom:0
+}
+.view-display-id-campaign_home_news_block .views-field-body{
+  text-align:left;
+}
+#region-agency-home-main-content p, .view-display-id-campaign_home_news_block .views-field-body{
+  font-size: 16px;
+  line-height:30px;
+  margin-bottom: 20px;
+}
+.show-mobile{
+  display:block;
+}
+.hide-mobile{
+  display:none;
+}
+.show-desktop{
+  display:none;
+}
+.hide-desktop{
+  display:block;
+}
+#block-views-features-blocks-homepage-a {
+  height: inherit!important;
+  overflow: initial!important;
+}
+
+/* GSE Search CSS */
+
+#___gcse_0{
+  margin-bottom: 20px;
+  width: 100%;
+  margin: 0 auto;
+  display:none;
+}
+.gsc-control-cse{
+    background-color: transparent;
+    border: 0;
+}
+.gsc-input-box {
+  border-radius: 15px 0px 0px 15px;
+}
+.gsc-input input {
+  background: 0 !important;
+  padding: 10px !important;
+}
+.gsc-input table{
+  margin:0!important;
+}
+.gsc-input input:focus{
+    border:0;
+    outline: none;
+    box-shadow: none;
+}
+.gsc-search-box{
+    display:block!important;
+}
+.gsc-results-wrapper-overlay{
+    text-align:left;
+}
+#search_form{
+    display:none;
+}
+#block-domain-conf-domain-main-links .gsc-control-cse {
+width: 90%;
+margin: 0 auto;
+}
+.gsc-search-button-v2{
+  border-color:transparent;
+  border-left: 0px
+}
+.main-search-container #___gcse_0 table.gsc-search-box td.gsc-input{
+    padding-right: 0;
+}
+.main-search-container #___gcse_0 .gstl_50{
+    margin: 0;
+}
+.main-search-container .gsc-control-cse {
+    padding: 0;
+}
+.main-search-container .gsc-control-cse {
+    background-color: transparent;
+    border: 0;
+}
+.main-search-container .gsc-input-box {
+  background: #fff;
+}
+.main-search-container .gsc-search-button {
+    margin-left: 0;
+}
+.main-search-container .gsc-input input{
+  background: 0 !important;
+  height: 31px;
+}
+.main-search-container .gsib_a{
+    padding: 0;
+}
+.main-search-container table.gsc-input{
+    margin:0;
+}
+.main-search-container table.gsc-search-box td.gsc-input{
+    padding-right:0;
+}
+.main-search-container table.gsc-search-box td.gsc-search-button {
+  padding-left: 0px;
+}
+.resultsherePlease {
+  display: none;
+}
+
+/* END GSE Search CSS */
+
+/* Hide news tabs*/
+
+#quicktabs-tab-agency_featured_news_home-5, #quicktabs-tab-agency_featured_news_home-6{
+  display:none;
+}
+.video-container { 
+  position: relative; 
+  padding-bottom: 56.25%; 
+  padding-top: 30px; 
+  height: 0; 
+  overflow: hidden; 
+}
+.video-container iframe, .video-container object, .video-container embed { 
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  width: 100%; 
+  height: 100%; 
+}
+.video-wrapper{
+  padding:0 20%;
+}
+.service-list .item {
+  display: block;
+}
+.item.connect2 {
+  display: block;
+  margin: 10px 0;
+}
+.item .col{
+  flex:1;
+}
+
+/* INTERIOR PAGE STYLES */
+
+.banner-image img {
+  width: 100%;
+}
+.not-front .icon-container .item {
+  display: block;
+}
+.not-front .icon.item {
+  text-align: center;
+  margin: 20px 0;
+  padding: 10px 0;
+  background-color: #f5f5f7;
+  border-radius: 20px;
+  width: 225px;
+}
+.not-front .icon.item img {
+  width: 66px;
+}
+.not-front .icon-container.blue {
+  background-color: #BCCAF3;
+  margin-bottom: 30px;
+  padding: 30px 0px;
+}
+.not-front .icon-container.blue .item {
+  display: block;
+}
+.not-front .icon-container.blue .icon.item {
+  text-align: center;
+  margin: 20px 0;
+  padding: 10px 0;
+  background-color: #fff;
+  border-radius: 20px;
+  width: 225px;
+}
+.not-front .icon-container.blue .icon.item img {
+  width: 100px;
+}
+.buttons {
+  height: 40px;
+  margin-bottom: 20px;
+}
+.blue.outline {
+    border: 3px solid #213A6D;
+    background-color: transparent;
+    color: #213A6D!important;
+}
+.red.outline {
+  border: 3px solid #ff0000;
+  background-color: transparent;
+  color: #ff0000!important;
+}
+i {
+  color: currentColor;
+  font-size: inherit;
+}
+.feature-highlights {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.feature-highlights .item {
+    padding: 10px;
+    flex-basis: 25%;
+    background-color: #31394F;
+color: #fff;
+}
+.not-front .feature-cta h2, 
+.not-front h2.element-title {
+    font-size: 1.5em;
+    color: #000;
+}
+.not-front .feature-highlights h2 {
+font-size: 1.5em;
+color: #fff;
+}
+.feature-bullets{
+padding:20px;
+}
+.feature-bullets, .feature-bullets .item {
+    display: flex;
+    margin: 10px 0;
+    font-size: 20px;
+    flex-wrap: wrap;
+flex-direction: column;
+justify-content:space-around;
+}
+.feature-bullets .item{
+flex-direction: row;
+}
+.feature-cta .item {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction:row;
+}
+.feature-cta .img {
+  margin:0 10px;
+  flex:1;
+}
+.feature-cta img {
+  width: 100%;
+}
+.feature-cta .item .content {
+  padding: 30px 0px;
+/*  flex:1; */
+  width: 100%;
+}
+.feature-cta .title {
+    font-weight: 900;
+    padding-bottom: 20px;
+    font-size: 30px;
+}
+.feature-cta .item .text {
+    padding-bottom: 50px;
+}
+.feature-tiles {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+.feature-tiles .item {
+    flex-basis: 50%;
+}
+.tile-img {
+    margin: 10px;
+    position: relative;
+}
+.tile-img img {
+    width: 100%;
+}
+.item.reverse {
+    flex-direction: column;
+}
+hr {
+  margin:50px 0;
+}
+.dont-show {
+  display: none;
+}
+.center{
+text-align: center;
+}
+.border {
+    border: 1px solid;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+.blue {
+    background-color: #213A6D;
+    color: #fff;
+}
+.button {
+    padding: 10px 20px;
+    border-radius: 20px;
+    width: max-content;
+    margin: 0px;
+}
+.flex {
+display:flex;
+justify-content:center;
+align-items:center;
+}
+.wrap{
+flex-wrap:wrap;
+}
+.rtejustify {
+  text-align: left;
+}
+.pdf-display {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.pdf-image {
+  flex-basis: 75%;
+  margin-bottom: 25px;
+}
+.pdf-image img {
+  width: 100%;
+}
+.fullpage-banner-image img {
+  height: 110px;
+}
+.node-type-release span.date-display-single {
+  float: none;
+}
+.opl-block {
+  align-items: flex-start;
+  border: 15px solid #223567;
+  border-radius: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px 0px;
+  row-gap: 30px;
+}
+.opl-header {
+  align-items: center;
+  display: flex;
+  flex-basis: 100%;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+.opl-dlcp-logo {
+  flex-basis: 90px;
+  padding: 0px 5px;  
+}
+.opl-dlcp-logo img {
+  width: 80px;
+}
+.opl-title {
+  flex-basis: calc(100% - 180px);
+  font-size: 1.5em;
+  font-weight: 700;
+  text-align: center;
+}
+.opl-agency-logo {
+  flex-basis: 90px;
+  padding: 0px 5px;  
+}
+.opl-agency-logo img {
+  width: 80px;
+}
+.opl-updates,
+.opl-applicant,
+.opl-licensee,
+.opl-members,
+.opl-meetings {
+  align-items: flex-start;
+  display: flex;
+  flex-basis: 50%;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+}
+.opl-resources {
+  align-items: flex-start;
+  display: flex;
+  flex-basis: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+}
+.opl-icon {
+  flex-basis: 100%;
+  height: 120px;
+}
+.opl-icon img {
+  background-color: #d9d8d7;
+  border-radius: 25px;
+  padding: 10px;
+  width: 100px;
+}
+.opl-label {
+  flex-basis: 100%;
+}
+.opl-label a {
+  color: #000;
+  display: block;
+  font-size: 1.1em;
+  font-weight: 600;
+  text-decoration: none;
+}
+.opl-resources .opl-label a {
+  background-color: #d9d8d7;
+  border-radius: 15px;
+  margin: 20px auto;
+  padding: 5px 15px;
+  width: fit-content;
+}
+
+/* END INTERIOR PAGE STYLES */
+
+/* BLOG LANDING PAGE STYLES */
+
+.title-image {
+  display: block;
+  margin: 0px auto 20px;
+  width: 100%;
+}
+.title-image img {
+  width: 100%;
+}
+.page-blog #region-sidebar-first,
+.node-type-blog #region-sidebar-first {
+  display: none;
+}
+.page-blog #region-content,
+.node-type-blog #region-content {
+  display: block;
+  float: none;
+  margin: 30px auto 0px;
+  width: 95%!important;
+}
+.page-blog .view-blog-home-page,
+.node-type-blog #region-content {
+  margin-bottom: 30px;
+}
+.page-blog .views-row {
+  border-bottom: 1px solid #000;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+.page-blog .views-row:last-of-type {
+  border-bottom: none;
+  padding-bottom: 0px;
+}
+.page-blog span.date-display-single,
+.node-type-blog span.date-display-single {
+  float: none;
+  padding: 0px 0px 10px;
+}
+.page-blog .views-field-field-custom-published-date {
+  margin-bottom: 10px;
+}
+.node-type-blog .field-name-body .field-items {
+  margin: 0px;
+  padding: 0px;
+}
+.node-type-blog nav.links {
+  display: none;
+}
+.node-type-blog .field-name-field-author-byline {
+  padding-bottom: 10px;
+}
+.node-type-blog .field-name-field-author-byline::before {
+  content: 'Author:';
+  float: left;
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+/* END BLOG LANDING PAGE STYLES */
+
+/* BLOG PAGE STYLES */
+
+.node-type-blog .banner-image {
+  margin: 0px auto;
+  max-width: 510px;
+  width: 100%;
+}
+.page-blog h1.blog-title,
+.node-type-blog h1.blog-title {
+  display: block;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 32px;
+  text-decoration: none!important;
+  text-transform: none;
+}
+.node-type-blog h1#page-title.title {
+  font-size: 26px!important;
+}
+
+/* END BLOG PAGE STYLES */
+
+/* Narrow */
+
+@media all and (min-device-width: 740px) and (min-width: 740px), (max-device-width: 800px) and (min-width: 740px) and (orientation: landscape){
+
+.logo img {
+  width: 180px;
+}
+.header-icons{
+  display: block;
+  width: calc(100% - 200px);
+}
+#google_translate_element {
+  display: inline-block;
+  width: 215px;
+}
+
+/* BLACK BOX STYLES */
+
+.header-form {
+  display: none;
+}
+.not-front .header-form {
+  display: none;
+}
+.header-form-mobile .main-icons {
+  column-gap: 10%;
+}
+.header-form-mobile .main-icons .item {
+  flex-basis: 15%;
+}
+.header-form .caption-text-wrapper {
+  margin: 0px auto;
+  width: 60%;
+}
+.header-form .caption-text-wrapper img {
+  width: 70px;
+}
+.header #___gcse_1 {
+  display: none;
+}
+.gsc-search-button-v2, 
+.gsc-search-button-v2:hover, 
+.gsc-search-button-v2:focus {
+  margin-left: 0px;
+  padding: 17.5px;
+}
+
+/* END BLACK BOX STYLES */
+
+.header-menu {
+  display: block;
+  width: 50px;
+}
+.caption-text-wrapper {
+  background-color:rgba(4, 4, 3, 0.85);
+}
+.node {
+  font-size: 18px;
+}
+.icon-container{
+grid-template-columns: 1fr 1fr;
+}
+.not-front .icon-container.blue {
+grid-template-columns: 1fr 1fr 1fr;
+}
+.middle-section {
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+.middle-image {
+  flex-basis: 40%;
+}
+.middle-text {
+  flex-basis: 55%
+}
+.fb-callout-container {
+  flex-wrap: wrap;
+  justify-content:space-between;
+}
+.fb-callout-container .item {
+  flex-basis: 45%;
+}
+.fb-callout-container h3 {
+  display: block;
+  height: 55px;
+}
+.fb-callout-container p {
+  display: block;
+  height: 140px;
+}
+.block-views-alerts-emergency-alerts-block {
+  padding: 10px 20%;
+}
+.block-features-blocks-upcoming-events, 
+.block-agency-featured-news-home {
+  margin: 50px auto 0 auto;
+}
+#region-agency-home-main-content, 
+.grid-24.region-agency-home-main-content {
+  width: auto;
+}
+.view-display-id-campaign_home_news_block .views-field-field-image{
+float:right;
+padding:0 20px 20px 20px;
+}
+.mmb-logo2 img{
+width:300px;
+}
+.logo img {
+  float:left;
+}
+.header-agency-logo{
+margin-left: 150px;
+}
+.container-24 {
+  margin-left: auto;
+  margin-right: auto;
+}
+.page-events #region-content,
+.page-newsroom #region-content {
+  margin: 0px 5%;
+  width: 90%;
+}
+#zone-footer-wrapper2 .lower-footer-logo{
+  display:inline-block;
+}
+.header-menu, .header-search{
+margin-top: 20px;
+}
+#region-agency-home-main-content, .grid-24.region-agency-home-main-content{
+  margin-top: 0;
+    padding: 0;
+}
+.region-agency-home-main-content .view-display-id-homepage_d .views-field-title, 
+.view-display-id-campaign_home_news_block .views-field-title{
+  margin-bottom: 10px;
+  text-align:left;
+  display:none;
+}
+.block-features-blocks-homepage-d table {
+  margin-bottom:0;
+}
+.view-display-id-responsive_homepage_banner_full_rotator {
+  display:block;
+}
+.view-display-id-mobile_responsive_homepage_banner_full_rotator {
+  display:none;
+}
+.fullpage-ribbon-banner{
+  font-size: 22px;
+}
+.node-type-event .field-label-inline .field-items, 
+.node-type-event .field-name-field-date-time-rep .field-items, 
+.node-type-event .field .field-label, 
+.node-type-event .field-next-date-label {
+  float: left;
+}
+.node-type-event .field .field-label, 
+.node-type-event .field-next-date-label {
+  width:auto;
+}
+.node-type-event .date-display-range {
+  float: right;
+  margin-left: 5px;
+}
+.field-name-body .field-label {
+  width:100%!important;
+}
+.view-events-landing .views-row {
+  border-bottom: 1px solid #ccc;
+}
+.footer-logo {
+  float:left;
+}
+.view-display-id-block_hero_image{
+  display: block;
+}
+.view-display-id-block_mobile_hero_image{
+  display: none;
+}
+.owl-theme .owl-nav .owl-next, .owl-theme .owl-nav .owl-prev{
+  margin-top: -270px;
+}
+.owl-theme .owl-nav .owl-next {
+  margin-left: 40% !important;
+}
+.footer-links .link-list li {
+border-left:0;
+}
+.feature-tile .item {
+width: 45%;
+display: inline-block;
+vertical-align: top;
+}
+.feature-tile.black {
+flex-wrap: nowrap;
+}
+.footer-text.item {
+  flex-basis: 33%;
+  padding: 10px 0px;
+}
+.footer-text.item.doblogo,
+.footer-text.item.mmblogo {
+  flex-basis: 50%;
+}
+.feature-cta .item .content {
+  flex:1;
+  width: 100%;
+}
+.feature-cta img {
+  width: 300px;
+}
+.not-front h1#page-title.title {
+  font-size: 32px;
+}
+.feature-highlights {
+  flex-direction: row;
+}
+.button {
+  margin: 0px 10px;
+}
+.rtejustify {
+  text-align: justify;
+}
+.pdf-image {
+  flex-basis: 25%;
+}
+.view-newsroom .filterButton,
+.view-events-landing .filterButton {
+  top: 5px;
+}
+.fullpage-banner-image img {
+  height: 225px;
+}
+.opl-updates,
+.opl-applicant,
+.opl-licensee,
+.opl-members,
+.opl-meetings {
+  flex-basis: 33%;
+}
+
+/* BLOG LANDING PAGE STYLES */
+
+.page-blog span.date-display-single {
+  float: left;
+}
+
+/* END BLOG LANDING PAGE STYLES */
+
+}
+
+/* Normal */
+@media all and (min-width: 980px) and (min-device-width: 980px), all and (max-device-width: 1024px) and (min-width: 1024px) and (orientation:landscape){
+
+.section-header {
+  background-image: url('/sites/default/files/dc/sites/dlcp/featured_content/images/hp-lead-image.jpg');
+}
+#block-views-features-blocks-homepage-d {
+  display: none;
+}
+.header-icons {
+  height: 130px;
+}
+
+/* BLACK BOX STYLES */
+
+.header-form {
+  display: block;
+  clear: both;
+}
+.not-front .header-form {
+  display: none;
+}
+.header-form-mobile {
+  display: none;
+}
+.caption-text-wrapper {
+  background-color:rgba(35, 53, 105, 0.85);
+}
+.main-icons .item {
+  flex-basis: 25%;
+}
+#block-views-features-blocks-homepage-d .caption-text-wrapper {
+  padding: 20px 30px 30px;
+}
+.caption-text-wrapper .icon a {
+  font-size: 18px;
+}
+.not-front .icon-text {
+    text-align: center;
+}
+.region-agency-home-rotator-inner .main-icons .icon img {
+  padding:10px;
+}
+.header-search {
+  margin-top:0;
+}
+.gsc-search-button-v2, 
+.gsc-search-button-v2:hover, 
+.gsc-search-button-v2:focus {
+  background-color: #6ec1e8 !important;
+}
+
+/* END BLACK BOX STYLES */
+
+h1#page-title.title {
+  font-size: 25px;
+}
+.region-agency-home-rotator {
+  background-color: #1F3769;
+  padding: 40px 0px;
+}
+.region-agency-home-rotator .slide img {
+  margin: 0px 2.5% 0px 5%;
+  padding: 0px;
+  width: 35%;
+}
+.region-agency-home-rotator .slide #text {
+  float: right;
+  margin: 0px 5% 0px 2.5%;
+  position: relative;
+  width: 50%;
+}
+.region-agency-home-rotator #text .caption-text-wrapper {
+  background-color: transparent!important;
+  padding: 20px 30px 0px;
+  text-align: center;
+}
+.not-front #region-content {
+  width: 720px;
+}
+.not-front .zone-content {
+  display:flex;
+}
+.not-front #region-content {
+  width:100%;
+}
+.fb-callout-container {
+  margin-top: 0px;
+}
+.fullpage-ribbon-banner.bg-image .main-text {
+  width:50%;
+}
+.block-views-features-blocks-homepage-c .fullpage-ribbon-banner.bg-image .main-text { 
+  width:auto;
+}
+.feature-content.container .text {
+  text-align:left;
+}
+.sub-nav-header {
+  padding: 20px 20%;
+}
+ul.quicktabs-tabs.quicktabs-style-sky li a, 
+ul.quicktabs-tabs.quicktabs-style-sky li a:visited {
+  border:0;
+}
+.block-views-features-blocks-homepage-a .view-content, 
+.block-views-features-blocks-homepage-b .view-content, 
+.block-views-features-blocks-homepage-c .view-content, 
+.block-views-features-blocks-homepage-d .view-content, 
+.view-display-id-campaign_home_news_block .view-content {
+  padding:0 5%;
+  margin:0;
+}
+.block-views-features-blocks-homepage-a .view-content {
+  padding-top:50px;
+}
+.header {
+  padding: 0 5%;
+}
+.header-agency-logo.mobile,
+.header-agency-logo.desktop{
+  display:none;
+}
+.header-agency-logo.desktop img {
+  width: 150px;
+}
+.header-agency-logo {
+  margin-left: 170px;
+}
+.zone-branding-wrapper {
+  background-color:#fff;
+  display:block;
+}
+#zone-branding-wrapper {
+  display:block;
+}
+.region-branding-inner #search_form {
+  display:none;
+}
+.zone-branding-wrapper #search_form{
+  float:right;
+}
+#region-content{
+  width:100%;
+}
+.not-front.page-newsroom .zone-content{
+  padding: 0px;
+}
+.page-newsroom .container-24 .grid-6,
+.page-events  .container-24 .grid-6 {
+  display: block!important;
+  width: 250px!important;
+}
+.page-newsroom #region-content,
+.page-events #region-content {
+  margin: 0px auto;
+  width: 720px!important;
+}
+.not-front .view-newsroom,
+.not-front .view-events-landing {
+  margin-top: 130px!important;
+}
+.views-widget-sort-by, 
+.views-widget-sort-order {
+  position: inherit;
+}
+#region-agency-home-main-content, .grid-24.region-agency-home-main-content {
+  top: 0;
+}
+
+/* HEADER STYLES */
+
+.header-icons{
+  display: block;
+}
+.header-search {
+  display: block;
+}
+#desktop-head{
+  display:none;
+}
+#desktop-main-menu{
+  display: inline-block;
+  font-size: 16px;
+}
+#desktop-head li a.active, 
+#desktop-head a:link, 
+#desktop-head a:visited {
+  color: #fff;
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  font-weight:bold;
+}
+.header-title{
+  display:none;
+}
+#desktop-head ul li {
+  list-style: none;
+}
+#desktop-head ul > li {
+  margin: 0;
+  padding: 0 10px;
+}
+#desktop-main-menu-container #desktop-main-menu {
+  white-space: nowrap;
+  list-style: outside none none;
+  margin: 0;
+  text-transform: uppercase;
+}
+#desktop-main-menu > li {
+  display: table-cell;
+  float: left;
+  line-height: 30px;
+  list-style: outside none none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+#desktop-main-menu > li.last {
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 0 10px;
+}
+#desktop-main-menu li.expanded a {
+  background-image: url('/sites/default/files/dc/sites/dlcp/featured_content/images/drop-down-arrow.png');
+  background-repeat: no-repeat;
+  background-size: 15px 8px;
+  background-position: 100% 5px;
+  padding-right: 20px;
+}
+#desktop-main-menu li.expanded ul.menu-sub li a {
+  background-image: none;
+  padding-right: 0px;
+}
+#desktop-main-menu li.expanded a.active-trail {
+  border-bottom: 3px solid #1F3769;
+}
+#desktop-main-menu li.expanded > ul.menu-sub li.expanded a.active-trail,
+#desktop-main-menu li.expanded > ul.menu-sub li a.active-trail {
+  border-bottom: none;
+}
+#desktop-head li.last a.active, 
+#desktop-head li.last a:link, 
+#desktop-head li.last a:visited{
+  color: #1F3769;
+}
+#desktop-main-menu > li.last:hover {
+  background-color: #1F3769;
+}
+#desktop-main-menu > li.last:hover a {
+  color: #fff;
+}
+#desktop-main-menu > li ul.menu-sub {
+  background-color: rgba(31,55,105, 1);
+  border-radius: 0 0 20px 20px;
+  display: none;
+  padding: 10px 20px 20px;
+  position: absolute;
+  text-align:left;
+  z-index: 1000;
+}
+#desktop-main-menu > li > ul.menu-sub li a.active, 
+#desktop-main-menu > li > ul.menu-sub a:link, 
+#desktop-main-menu > li > ul.menu-sub a:visited{
+  color:#fff;
+  text-transform: none;
+  font-size: 14px;
+}
+#desktop-main-menu > li > ul.menu-sub li a.active:hover, 
+#desktop-main-menu > li > ul.menu-sub a:link:hover, 
+#desktop-main-menu > li > ul.menu-sub a:visited:hover{
+  text-decoration:underline;
+}
+#desktop-head ul > li.last > ul{
+  right: -1px;
+}
+
+/* LEFT HAND NAVIGATION STYLES */
+
+.block-menu-block ul > li.active-trail ul.menu-sub {
+  border-left: 1px solid #ccc;
+  margin: 0 10px;
+  padding: 0 10px;
+}
+#region-sidebar-first .block-menu-block ul li {
+  line-height: 20px;
+  margin: 10px 0px;
+}
+
+/* LEFT HAND NAVIGATION STYLES */
+
+.caption-text-wrapper{
+  border-radius: 20px;
+}
+.block-features-blocks-upcoming-events, .block-agency-featured-news-home{
+  margin: 50px auto 0;
+  width: 100%;
+}
+#region-agency-home-main-content, 
+.grid-24.region-agency-home-main-content{
+  top: 0;
+}
+.page-events #region-content, .page-newsroom #region-content {
+    width: 720px;
+}
+.owl-theme .owl-nav .owl-next, .owl-theme .owl-nav .owl-prev{
+  margin-top: -210px;
+}
+.owl-theme .owl-nav {
+    margin-top: 0;
+}
+.slide #text {
+  margin-top:0;
+  position: absolute;
+  z-index: 10;
+  left: 20%;
+  background: transparent;
+  color: #fff;
+  line-height: normal;
+  display: block;
+  width: 950px;
+  font-size: 18px!important;
+  text-align: left;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  bottom: 20px;
+}
+.slide #text h2 {
+  font-size: 24px;
+}
+.callout-nav {
+    margin-top: -250px;
+}
+.tile {
+  position:relative;
+}
+.tile .learn-more {
+  width:130px;
+  position: absolute;
+  bottom: 0;
+  left: 30%;
+}
+.zone-postscript-wrapper{
+  padding:0;
+}
+.logo-container{
+  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+}
+.footer-logo {
+  display:none;
+  float:right;
+}
+.faq img {
+  width:auto;
+  height:auto;
+}
+.section-header .faq img {
+  height:100%;
+}
+.fullpage-ribbon-banner{
+  padding:20px 20%;
+}
+.front .fullpage-ribbon-banner{
+  padding:20px 0%;
+}
+#block-views-features-blocks-upcoming-events {
+  padding: 0;
+}
+#block-views-features-blocks-upcoming-events .content,
+.view-display-id-campaign_home_news_block .view-content, 
+.block-quicktabs-agency-featured-news-home .content {
+  margin: 0px auto;
+  padding: 0;
+  width: 960px;
+}
+.view-featured-news-home .views-field-field-date a {
+  width: 75%;
+}
+.footer.contact, .footer-link, .footer-connected{
+  text-align:left;
+}
+.footer-connected {
+  float:right;
+}
+.header{
+  padding: 0 10px;
+}
+.main-icons{
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: baseline;
+}
+.dropdown {
+  margin-top: 10px;
+}
+#block-views-features-blocks-homepage-d .dropdown {
+  margin-top: 0px;
+}
+.middle-section{
+  padding-top:20px;
+}
+#___gcse_0{
+ display:block;
+}
+.middle-image {
+  flex-basis: 35%;
+}
+.middle-text {
+  flex-basis: 60%
+}
+ul.quicktabs-tabs.quicktabs-style-sky {
+  align-items: flex-start;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+}
+ul.quicktabs-tabs.quicktabs-style-sky li {
+  flex-basis: 25%;
+}
+.item.reverse {
+    flex-direction: row-reverse;
+}
+.feature-bullets,
+.feature-cta .item {
+    flex-direction: row;
+}
+.feature-tiles .item {
+   flex-basis: 25%;
+}
+.item.reverse {
+    flex-direction: row-reverse;
+}
+.buttons {
+  float: left;
+  width: fit-content;
+}
+.icon-container{
+grid-template-columns: 1fr 1fr 1fr;
+}
+
+/* GOOGLE SEARCH STYLES */
+
+.main-search-container .gsc-control-wrapper-cse {
+  display: block;
+  margin: 0px auto;
+  width: 80%;
+}
+.main-search-container .gsc-input {
+  padding-right: 0px;
+}
+.main-search-container .gsc-input .gsc-input-box {
+  border: none;
+  height: 43px;
+}
+.main-search-container .gsc-input table {
+  height: 43px;
+  margin-bottom: 0px;
+}
+.main-search-container .gsc-input table.gsc-input input {
+  background-image: none!important;
+  border: none!important;
+  box-shadow: none!important;
+  height: auto;
+  padding: 0px;
+}
+.main-search-container .gsib_a,
+.main-search-container .gsib_b {
+  padding: 0;
+}
+.main-search-container .gsc-search-button-v2 {
+  font-size: 0;
+  padding: 15px!important;
+  width: auto;
+  vertical-align: middle;
+  border: 0;
+  border-radius: 0px!important;
+  background-color: #6ec1e8 !important;
+  border-top-right-radius: 15px!important;
+  border-bottom-right-radius: 15px!important;
+}
+.main-search-container .gsc-search-button-v2:hover{
+  background-color: #6ec1e8 !important;
+}
+
+/* END GOOGLE SEARCH STYLES */
+.fullpage-banner-image img {
+  height: 265px;
+}
+
+/* INTERIOR PAGE STYLES */
+
+.page-node-1728151 #region-sidebar-first,
+.page-node-1727831 #region-sidebar-first {
+  display: none;
+}
+.opl-updates,
+.opl-applicant,
+.opl-licensee,
+.opl-members,
+.opl-meetings {
+  flex-basis: 20%;
+}
+
+/* INTERIOR PAGE STYLES */
+
+}
+
+/* Wide */
+@media all and (min-width: 1220px) and (min-device-width: 1220px), all and (max-device-width: 1439px) and (min-width: 1439px){
+
+.front .section-header,
+.not-front .section-header {
+  height: auto;
+}
+.front #section-header {
+  height: unset;
+}
+.header{
+  margin: 0px auto;
+  padding: 0px;
+  width: 1210px;
+}
+.front .services-block {
+  padding: 30px 0px;
+  width: 1200px;
+}
+.header-icons {
+  display: inline-block;
+  float: left;
+  margin-left: 15px;
+  width: 205px;
+}
+#google_translate_element .goog-te-gadget {
+  background-color: #fff;
+}
+.header-icons .header-menu {
+  display: none;
+}
+.header-icons .dropdown {
+  margin: 40px 90px 0px 0px;
+  width: 130px;
+}
+.header-icons .dropdown button {
+  border-radius: 20px;
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+  width: 130px;
+}
+.header .logo {
+  width: 150px;
+}
+#desktop-head{
+  display: block;
+  float: left;
+  margin: 40px 0px 0px 40px;
+}
+.not-front #desktop-head {
+  margin: 40px 0px 0px 0px;
+}
+.not-front .header-form{
+  display:block;
+  float: right;
+  margin: -40px 60px 0px 0px;
+  width: 230px;
+}
+.not-front .header-form .caption-text-wrapper,
+.not-front .header-form .dropdown {
+  display: none;
+}
+.not-front .header-form #___gcse_1 {
+  display: block;
+}
+.not-front .header-form #___gcse_1 .gsc-search-button-v2 {
+  padding: 11px;
+}
+.header-form .caption-text-wrapper {
+  margin-bottom: 30px;
+  width: 90%;
+}
+.header-form .caption-text-wrapper h2 {
+  margin-bottom: 25px;
+}
+.main-search-container {
+  display: block;
+}
+#___gcse_0 {
+  margin-bottom: 30px;
+}
+.main-icons {
+  row-gap: 50px;
+}
+.not-front .header-form .gsc-control-cse,
+.not-front .header-form td.gsc-input {
+  padding: 0px;
+}
+.not-front .header-form form,
+.not-front .header-form table {
+  margin-bottom: 0px;
+}
+.not-front .header-form .gsc-input input {
+  padding: 0px!important;
+}
+.not-front .header-form table.gsc-search-box td.gsc-search-button {
+  padding: 0px;
+}
+.not-front .header-form table.gsc-search-box td.gsc-search-button .gsc-search-button {
+  background-color: #1F3769;
+  border: none;
+  border-radius: 0px 2px 2px 0px;
+  margin-left: 0px;
+}
+.form-item-sort-by {
+  right: -110px;
+  z-index: 1;
+}
+.region-sidebar-first {
+  margin-top: 10px;
+}
+.not-front .zone-content-wrapper {
+  margin: 40px auto 0px;
+  width: 1200px;
+}
+.not-front #region-content {
+  width: 1200px;
+}
+.page-newsroom #region-content,
+.page-events #region-content {
+  width: 910px!important;
+}
+.slide #text {
+    bottom: 40px;
+}
+.slide #text h2 {
+  font-size: 32px;
+}
+.views-row-1 .slide #text {
+  margin-top: 30px;
+}
+.views-row-1 .slide #text h2 {
+  font-size: 38px;
+}
+.region-agency-home-rotator #text .caption-text-wrapper {
+  padding-top: 15px;
+}
+.owl-carousel .owl-stage-outer .slide {
+  margin: 0px auto;
+  width: 1220px;
+}
+.region-agency-home-rotator .slide #text {
+  position: unset;
+}
+.owl-theme .owl-nav {
+  margin: 0px auto;
+  width: 500px;
+}
+.dropdown {
+  margin-top: 0px;
+}
+.header-agency-logo {
+  margin-left: 280px;
+}
+.block-views-features-blocks-homepage-a .view-content, 
+.block-views-features-blocks-homepage-b .view-content, 
+.block-views-features-blocks-homepage-c .view-content, 
+.block-views-features-blocks-homepage-d .view-content {
+  margin: 0 auto;
+  width: 1200px;
+}
+.block-views-features-blocks-homepage-a .view-content {
+  padding: 50px 0px 0px;
+}
+.block-views-features-blocks-homepage-d .view-content {
+  padding: 0px;
+}
+.cat-subhead{
+  font-size: 16px;
+}
+#desktop-head li a.active, #desktop-head a:link, #desktop-head a:visited {
+  font-size: 14px;
+}
+.middle-section {
+  border-bottom: 1px solid lightgray;
+  margin: 50px auto;
+  padding-bottom: 25px;
+  width: 70%;
+}
+.fb-callout-container {
+  margin: 30px auto 0px;
+  width: 95%;
+}
+.fb-callout-container .item {
+  flex-basis: 20%;
+}
+#block-views-features-blocks-homepage-d {
+  padding: 40px 0px;
+}
+.service-list {
+  grid-template-columns: 1fr 1fr;
+}
+ul.quicktabs-tabs.quicktabs-style-sky {
+  align-items: flex-start;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+}
+ul.quicktabs-tabs.quicktabs-style-sky li {
+  flex-basis: 25%;
+}
+.block-views-features-blocks-homepage-b .views-field-body p iframe {
+  height: 450px!important;
+}
+.footer-wrapper {
+  margin: 0px auto;
+  padding: 25px 0px;
+  width: 1200px;
+}
+.footer-text.item {
+  flex-basis: auto;
+}
+.footer-text.item.doblogo,
+.footer-text.item.mmblogo {
+  flex-basis: auto;
+}
+.footer-content.last {
+  align-items: center;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+}
+.footer-content.last .footer-icons {
+  flex-basis: 20%;
+}
+.footer-content.last .footer-link {
+  flex-basis: 60%;
+}
+.footer-content.last .footer-text {
+  flex-basis: 20%;
+  text-align: right;
+}
+.footer-content.last .footer-link ul.link-list {
+  align-items: center;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  margin-top: 22px;
+  width: 100%;
+}
+.footer-content.last .footer-link ul.link-list li {
+  flex-basis: auto;
+  text-align: center;
+}
+.front .resultsherePlease {
+  display: block;
+  height: 0px;
+}
+.front .resultsherePlease:nth-of-type(2),
+.front .resultsherePlease:nth-of-type(3),
+.not-front .front .resultsherePlease {
+  display: none;
+}
+.main-search-container .gsib_a,
+.main-search-container .gsib_a:hover {
+  background-color: transparent!important;
+}
+.main-search-container .gsc-input-box {
+  border: 0!important;
+}
+.main-search-container .gsc-input input {
+  background: 0!important;
+  background-color: #fff!important;
+  border-radius: 10px;
+}
+.feature-cta img {
+  width: 400px;
+}
+.dcra-feed {
+  margin: 0px auto;
+  width: 1200px;
+}
+.fullpage-banner-image img {
+  height: 400px;
+}
+
+/* INTERIOR PAGE STYLES */
+
+.page-node-1728151 .zone-content-wrapper {
+  width: calc(100% - 20px)!important;
+}
+
+}
+
+/* ULTRA Wide */
+@media all and (min-width: 1440px) and (min-device-width: 1440px) {
+
+.front .header,
+.not-front .header,
+.not-front .zone-content-wrapper,
+.not-front .footer-wrapper {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1400px;
+}
+.not-front #desktop-head {
+  margin-left: 175px;
+}
+.not-front .header-form {
+  margin-right: 75px;
+  margin-top: -40px;
+}
+.dcra-feed {
+  width: 1400px;
+}
+.page-newsroom #region-content,
+.page-events #region-content {
+  width: 1120px!important;
+}
+.page-node-1728151 #region-content,
+.page-node-1727831 #region-content {
+  width: 1400px;
+}
+.slide #text {
+  bottom: 120px;
+}
+.fullpage-banner-image img {
+  height: 525px;
+}
+
+}
+</style>
+<div class="header">
+<div class="logo"><a href="/" title="Department of Licensing and Consumer Protection"><img alt="Department of Licensing and Consumer Protection" src="/sites/default/files/dc/sites/dlcp/featured_content/images/DLCP%20logo-transparent.png" title="Department of Licensing and Consumer Protection" /></a></div>
+
+<div class="header-agency-logo mobile">&nbsp;</div>
+
+<div class="header-agency-logo desktop">&nbsp;</div>
+
+<div class="header-title">DLCP</div>
+
+<div class="header-icons"><!-- DROPDOWN FOR LANGUAGES -->
+<div id="google_translate_element">&nbsp;</div>
+<script type="text/javascript">
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({pageLanguage: 'en', includedLanguages: 'am,zh-CN,fr,ko,es,vi,en'}, 'google_translate_element');
+}
+</script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script><!-- <div class="dropdown"><button>Language ▼</button>
+
+<div class="dropdown-content"><a href="https://dlcp.dc.gov/node/1619686" title="Spanish (Español)">Spanish (Espa&ntilde;ol)</a> <a href="https://dlcp.dc.gov/node/1619696" title="French (Français)">French (Fran&ccedil;ais)</a> <a href="https://dlcp.dc.gov/node/1619706" title="Vietnamese (Tiếng Việt)">Vietnamese (Tiếng Việt)</a> <a href="https://dlcp.dc.gov/node/1619721" title="Amharic (አማርኛ)">Amharic (አማርኛ)</a> <a href="https://dlcp.dc.gov/node/1619731" title="Chinese (中文)">Chinese (中文)</a> <a href="https://dlcp.dc.gov/node/1619741" title="Korean (한국어)">Korean (한국어)</a></div>
+</div> --><!-- END DROPDOWN FOR LANGUAGES -->
+
+<div class="header-menu"><img alt="Menu Button" id="menu-btn" src="https://dlcp.dc.gov/sites/default/files/dc/shared_assets/mobile-menu-icon.png" title="Menu" /></div>
+</div>
+
+<div class="header-form"><!-- NEW CODE -->
+<div class="caption-text-wrapper">
+<h2>Welcome to the Department of Licensing and Consumer Protection</h2>
+
+<div class="main-search-container"><!-- <script async src="https://cse.google.com/cse.js?cx=448ea1e08dc334299"></script>
+<div class="gcse-searchbox">&nbsp;</div>
+<script>
+
+var results = "<div class='resultsherePlease'><div class='gcse-searchresults'></div></div>";
+var pageElement = document.querySelector('.page');
+pageElement.insertAdjacentHTML('afterbegin', results);
+
+window.onload = function() {
+    let searchbox = document.querySelector(".gsc-input input");
+    searchbox.setAttribute('placeholder', 'How Can We Help You?')
+};
+</script> --></div>
+
+<div class="main-icons">
+<div class="icon item"><a href="/newsroom?field_date_value%5Bmin%5D%5Bdate%5D=&amp;field_date_value%5Bmax%5D%5Bdate%5D=&amp;keys=&amp;field_release_type_tid=21&amp;sort_by=field_date_value&amp;sort_order=DESC"><img alt="Consumer Alerts" src="/sites/default/files/dc/sites/dlcp/bellicon.png" title="Consumer Alerts" /><br />
+Consumer Alerts</a></div>
+
+<div class="icon item"><a href="/service/business-licensing-division"><img alt="Business Licensing" src="/sites/default/files/dc/sites/dlcp/featured_content/images/1-Business%20Licensing.png" title="Business Licensing" /><br />
+Business Licensing</a></div>
+
+<div class="icon item"><a href="/node/1614386"><img alt="Corporate Registration" src="/sites/default/files/dc/sites/dlcp/featured_content/images/2-Corporate-Registration.png" title="Corporate Registration" /><br />
+Corporate Registration</a></div>
+
+<div class="icon item"><a href="/service/consumer-protection-assistance" title="Consumer Protection"><img alt="Consumer Protection" src="/sites/default/files/dc/sites/dlcp/featured_content/images/4-Consumer%20Protection.png" title="Consumer Protection" /><br />
+Consumer Protection</a></div>
+<!-- <div class="icon item"><a href="https://beta.business.dc.gov/" target="_blank"><img alt="DC Business Portal" src="/sites/default/files/dc/sites/dlcp/featured_content/images/icon-portal.png" title="DC Business Portal" /><br />
+DC Business Portal</a></div> -->
+
+<div class="icon item"><a href="/node/1614311"><img alt="Professional Licensing (OPL)" src="/sites/default/files/dc/sites/dlcp/featured_content/images/8-Weights%20and%20Measure.png" title="Professional Licensing (OPL)" /><br />
+Professional Licensing (OPL)</a></div>
+
+<div class="icon item"><a href="/page/special-events-unit" title="Special Events"><img alt="Special Events" src="/sites/default/files/dc/sites/dlcp/featured_content/images/5-Special-Events.png" title="Special Events" /><br />
+Special Events</a></div>
+
+<div class="icon item"><a href="/node/1616736"><img alt="Short-Term Rental" src="/sites/default/files/dc/sites/dlcp/featured_content/images/7-Short%20Term%20Rental.png" title="Short-Term Rental" /><br />
+Short-Term Rental</a></div>
+
+<div class="icon item"><a href="/service/vending-unit"><img alt="Vending" src="/sites/default/files/dc/sites/dlcp/featured_content/images/6-Vending.png" title="Vending" /><br />
+Vending</a></div>
+</div>
+</div>
+
+<div class="dropdown"><button>File a Complaint ▼</button>
+
+<div class="dropdown-content"><a href="https://dcra.kustomer.help/contact/consumer-complaint-form-Sk6BW94Lu" target="_blank" title="File a Complaint/Report a Business">File a Complaint/Report a Business</a> <a href="https://dcra.kustomer.help/contact/consumer-complaint-form-Sk6BW94Lu" title="Occupational and Professional Licensing Complaint Form">Occupational and Professional Licensing Complaint Form</a> <a href="https://dcra.kustomer.help/contact/submit-a-complaint-to-the-office-of-weights-and-measures-BJt1W9xAR" title="File a Complaint to the Office of Weights and Measures">File a Complaint to the Office of Weights and Measures</a> <a href="https://dcra.kustomer.help/contact/vending-complaint-BJXuKyt2P" target="_blank" title="Submit A Vending Complaint">Submit A Vending Complaint</a></div>
+</div>
+<!-- END NEW CODE --></div>
+
+<div class="header-form-mobile"><!-- NEW CODE -->
+<div class="caption-text-wrapper">
+<h2>Welcome to the Department of Licensing and Consumer Protection</h2>
+
+<div class="main-search-container"><!-- <script async src="https://cse.google.com/cse.js?cx=448ea1e08dc334299"></script>
+<div class="gcse-searchbox">&nbsp;</div>
+<script>
+
+var results = "<div class='resultsherePlease'><div class='gcse-searchresults'></div></div>";
+var pageElement = document.querySelector('.page');
+pageElement.insertAdjacentHTML('afterbegin', results);
+
+window.onload = function() {
+    let searchbox = document.querySelector(".gsc-input input");
+    searchbox.setAttribute('placeholder', 'How Can We Help You?')
+};
+</script> --></div>
+
+<div class="main-icons">
+<div class="icon item"><a href="/newsroom?field_date_value%5Bmin%5D%5Bdate%5D=&amp;field_date_value%5Bmax%5D%5Bdate%5D=&amp;keys=&amp;field_release_type_tid=21&amp;sort_by=field_date_value&amp;sort_order=DESC"><img alt="Consumer Alerts" src="/sites/default/files/dc/sites/dlcp/featured_content/images/bell.png" title="Consumer Alerts" /><br />
+Consumer Alerts</a></div>
+
+<div class="icon item"><a href="/service/business-licensing-division"><img alt="Business Licensing" src="/sites/default/files/dc/sites/dlcp/featured_content/images/1-Business%20Licensing.png" title="Business Licensing" /><br />
+Business Licensing</a></div>
+
+<div class="icon item"><a href="/node/1614386"><img alt="Corporate Registration" src="/sites/default/files/dc/sites/dlcp/featured_content/images/2-Corporate-Registration.png" title="Corporate Registration" /><br />
+Corporate Registration</a></div>
+
+<div class="icon item"><a href="/service/consumer-protection-assistance" title="Consumer Protection"><img alt="Consumer Protection" src="/sites/default/files/dc/sites/dlcp/featured_content/images/4-Consumer%20Protection.png" title="Consumer Protection" /><br />
+Consumer Protection</a></div>
+<!-- <div class="icon item"><a href="https://beta.business.dc.gov/" target="_blank"><img alt="DC Business Portal" src="/sites/default/files/dc/sites/dlcp/featured_content/images/icon-portal.png" title="DC Business Portal" /><br />
+DC Business Portal</a></div> -->
+
+<div class="icon item"><a href="/node/1614311"><img alt="Professional Licensing (OPL)" src="/sites/default/files/dc/sites/dlcp/featured_content/images/8-Weights%20and%20Measure.png" title="Professional Licensing (OPL)" /><br />
+Professional Licensing (OPL)</a></div>
+
+<div class="icon item"><a href="/page/special-events-unit" title="Special Events"><img alt="Special Events" src="/sites/default/files/dc/sites/dlcp/featured_content/images/5-Special-Events.png" title="Special Events" /><br />
+Special Events</a></div>
+
+<div class="icon item"><a href="/node/1616736"><img alt="Short-Term Rental" src="/sites/default/files/dc/sites/dlcp/featured_content/images/7-Short%20Term%20Rental.png" title="Short-Term Rental" /><br />
+Short-Term Rental</a></div>
+
+<div class="icon item"><a href="/service/vending-unit"><img alt="Vending" src="/sites/default/files/dc/sites/dlcp/featured_content/images/6-Vending.png" title="Vending" /><br />
+Vending</a></div>
+</div>
+</div>
+
+<div class="dropdown"><button>File a Complaint ▼</button>
+
+<div class="dropdown-content"><a href="https://dcra.kustomer.help/contact/consumer-complaint-form-Sk6BW94Lu" target="_blank" title="File a Complaint/Report a Business">File a Complaint/Report a Business</a> <a href="https://dcra.kustomer.help/contact/consumer-complaint-form-Sk6BW94Lu" title="Occupational and Professional Licensing Complaint Form">Occupational and Professional Licensing Complaint Form</a> <a href="https://dcra.kustomer.help/contact/submit-a-complaint-to-the-office-of-weights-and-measures-BJt1W9xAR" title="File a Complaint to the Office of Weights and Measures">File a Complaint to the Office of Weights and Measures</a> <a href="https://dcra.kustomer.help/contact/vending-complaint-BJXuKyt2P" target="_blank" title="Submit A Vending Complaint">Submit A Vending Complaint</a></div>
+</div>
+<!-- END NEW CODE --></div>
+</div>
+<script>
+jQuery(document).ready(function() {
+// Move icon to the top of feature blocks");
+  jQuery(".view-id-features_blocks .feature-icon").each(function() {
+        //console.log(jQuery(this));
+        jQuery(this).parent().parent().parent().parent().find('.views-field-title-field').before(jQuery(this));
+      });
+      // console.log("here is an icon");
+
+ if(jQuery('.view-id-agency_home_responsive .views-field-body .field-content').length > 0){
+  jQuery('.view-id-agency_home_responsive .views-field-body .slide .item-list ul').owlCarousel({
+      stagePadding: 0,
+      margin:0,
+      lazyLoad:true,
+      
+  })
+  }
+
+//Rotator initiation script
+jQuery(".view-id-agency_home_responsive .view-content").addClass("owl-carousel");
+jQuery(".view-id-agency_home_responsive .view-content").addClass("owl-theme");
+
+if(jQuery('.view-id-agency_home_responsive .views-field-title-1 .field-content').length > 0){
+  jQuery('.view-id-agency_home_responsive .view-content').owlCarousel({
+      stagePadding: 0,
+      margin:0,
+      lazyLoad:true,
+            loop:false,
+      nav:true,
+      responsive:{
+          0:{
+              items:1
+          },
+          750:{
+              items:1
+          },
+      },
+      autoplay:true,
+      autoplayTimeout:9000,
+      autoplayHoverPause:true
+  })
+  }
+
+//Adjust top padding for interior page leftNav
+if(jQuery('#block-menu-block-1').length == 0) {
+  jQuery("#region-sidebar-first").css("display","none");
+  jQuery("#region-content").css("width","100%");
+}
+
+//Desktop Menu
+
+function checkresponsive() {
+    if (jQuery('#desktop-head').length < 1) {
+        jQuery("<div id='desktop-head'><div id='desktop-main-menu-container'><ul id='desktop-main-menu'></ul></div>").insertAfter(".header-agency-logo.desktop");
+        jQuery("#block-domain-conf-domain-main-links ul:first-child").children().each(function() {
+          jQuery(this).clone().appendTo('#desktop-main-menu');
+        });
+ }
+
+//Rewrite event dates
+const eventDates = document.querySelectorAll(".front .views-field-field-date-time-rep .field-content,.front .views-field-field-date span");
+eventDates.forEach((date)=>{
+    let eventMonth = date.innerHTML.split('/')[0];
+    let eventDay = date.innerHTML.split('/')[1];
+    date.innerHTML = "<div class='release_date_day'>" + eventDay +"</div><div class='release_date_month'>" + getMonth(eventMonth) + "</div>";
+});
+function getMonth(number){
+  var monthArray = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul","Aug", "Sep", "Oct", "Nov", "Dec"];
+  return monthArray[parseInt(number)-1];
+}
+
+// DESKTOP HOMEPAGE SEARCH BOX
+jQuery("<script async src='https://cse.google.com/cse.js?cx=448ea1e08dc334299'><\/script><div class='gcse-search'>&nbsp;</div>").appendTo(".main-search-container");
+window.onload = function() {
+    let searchbox = document.querySelector(".gsc-input input");
+    searchbox.setAttribute('placeholder', 'How Can We Help You?')
+};
+
+jQuery("<script async src='https://cse.google.com/cse.js?cx=448ea1e08dc334299'><\/script><div class='gcse-search'>&nbsp;</div>").appendTo(".header-form");
+window.onload = function() {
+    let searchbox = document.querySelector(".header .gsc-input input");
+    searchbox.setAttribute('placeholder', 'How Can We Help You?')
+};
+
+//////////////   Menu dropdown script   //////////////////////
+
+jQuery('.region-header-first-inner li.expanded > a').each(function () {
+          var list = jQuery(this).siblings('ul.menu-sub');
+          jQuery(this).clone().prependTo(list).wrap('<li></li>');
+        });
+
+jQuery('.region-header-first-inner #block-domain-conf-domain-main-links div.content > ul.menu-sub > li.expanded > a').click(function () {
+       console.log("link was clicked");
+       var list =  jQuery(this).children('ul');
+       console.log(list);
+       console.log(jQuery(this));
+       jQuery(this).parent().children('ul').slideToggle();
+       return false;
+});
+
+
+}//End function
+
+checkresponsive();
+
+
+  //Adds hover class to top navigation on hover and active secondary level until mouseout
+  jQuery("#desktop-main-menu > li").hover(function(){
+    jQuery(this).addClass("hover");
+    jQuery(this).children('ul').show();
+  }, function(){
+       jQuery(this).removeClass("hover");
+       jQuery("#desktop-main-menu li.expanded ul").hide();
+  });
+
+//removed js
+
+jQuery('.views-field-field-external-link-url .field-content a, .view-display-id-upcoming_events .view-footer a').each(function() {
+        var text = jQuery(this).text();
+        jQuery(this).text(text.replace('more', 'More »')); 
+    });
+
+
+//GSE Search JavaScript
+jQuery("<script async src='https://cse.google.com/cse.js?cx=448ea1e08dc334299'><\/script><script>window.onload = function() {let searchbox = document.querySelector('.gsc-input input');searchbox.setAttribute('placeholder', 'How Can We Help You?')};<\/script><div class='gcse-search'></div>").prependTo("#block-domain-conf-domain-main-links");  
+
+//Make entire view rows clickable, usefull for mobile
+// jQuery('.fullpage-ribbon-banner').click(function() {
+//        var href = jQuery(this).find("a").attr("href");
+//        if(href) {
+//            window.location = href;
+//        }
+//    });
+
+// Move ribbon outside content section
+jQuery('.fullpage-ribbon-banner').each(function(){
+   // jQuery(this).parent()
+    var el = jQuery(this);
+    var parent = el.parent().parent().parent().parent().parent().parent().parent();
+    el.insertBefore(parent);
+   console.log(parent);
+});
+
+// FAQ toggle
+ if (jQuery('.question')) {
+                jQuery('.question').click(function () {
+                    console.log('im clicked');
+                    jQuery(this).siblings('div').slideToggle();
+                    jQuery(this).toggleClass('expanded');
+                });
+            }
+// Add header banner image to top
+jQuery(".fullpage-banner-image").prependTo(".section-content");
+//move section under rotator
+//jQuery(".tile-container").insertBefore(".view-display-id-homepage_d h2.views-field-title");
+
+  function openNav2() {
+      document.getElementById("block-domain-conf-domain-main-links").style.width = "100%";
+      document.getElementById("zone-preface-wrapper").style.opacity = ".3";
+      document.getElementById("zone-content-wrapper").style.opacity = ".3";
+      document.getElementById("zone-postscript-wrapper").style.opacity = ".3";
+    }
+
+  function closeNav2() {
+      document.getElementById("block-domain-conf-domain-main-links").style.width = "0";
+      document.getElementById("zone-preface-wrapper").style.opacity = "1";
+      document.getElementById("zone-content-wrapper").style.opacity = "1";
+      document.getElementById("zone-postscript-wrapper").style.opacity = "1";
+  }
+  jQuery("#menu-btn").click(openNav2);
+  jQuery("#search-btn").click(openNav2);
+  jQuery("#close-btn").click(closeNav2);
+
+jQuery("#block-domain-conf-domain-main-links ul li.expanded.active-trail a").click(function(){
+console.log("Lets dropdown");
+jQuery(this).parent().toggleClass('dropdown');
+});
+
+//Generate Accordion menu data for homepage quicktabs to be displayed on Mobile version
+    if(jQuery('#quicktabs-agency_responsive_featured_news_ ul li').length >= 1) {
+      var html = '<div id="accordion">';
+      jQuery('#quicktabs-agency_responsive_featured_news_ ul li a').each(function(i){
+        html = html + '<div id="dt">' + jQuery(this).text() + '</div>';
+        html = html + '<div id="dd">' + jQuery('#quicktabs-container-agency_responsive_featured_news_ > div:eq('+i+')').html() + '</div>';
+      });
+
+      jQuery(".front #block-quicktabs-agency-responsive-featured-news- .content").append(html);
+
+      //Add Accordion menu click functions
+      jQuery('#accordion #dd').hide();
+      jQuery('#accordion #dt').click(function(){
+        if (jQuery(this).hasClass('selected')) {
+          jQuery(this).removeClass('selected');
+          jQuery(this).next().slideUp();
+        } else {
+          jQuery('#accordion #dt').removeClass('selected');
+          jQuery(this).addClass('selected');
+          jQuery('#accordion #dd').slideUp();
+          jQuery(this).next().slideDown();
+        }
+        return false;
+      });
+    } // End of generating Accordian Menu for mobile version
+
+// Add full width banner to interior pages using Lead Image
+function addBanner(){
+  if ((jQuery(".field-name-field-image img").length > 0)&&(!jQuery("body").hasClass("front"))) {
+    console.log("there is an image on internal page");
+    jQuery(".field-name-field-image img").hide();
+    var imagesource = jQuery(".field-name-field-image img").attr("src");
+    var newsource = imagesource.replace('/styles/medium/public/', '/');
+    jQuery("#section-content").before("<div class='banner-image'><img src='" + newsource + "' /></div>");
+  }//end if
+  else{
+    console.log("there is no Lead Image on an internal page");
+  }
+}//end function
+addBanner();
+
+//MOVE ROTATOR BELOW BLOCK D
+
+jQuery('#block-views-features-blocks-homepage-d').prependTo("#zone-preface");
+jQuery('#region-agency-home-rotator').appendTo("#zone-preface");
+jQuery('#region-agency-home-3col-a').insertAfter("#region-agency-home-rotator");
+jQuery('.header-form-mobile').insertBefore(".front #zone-preface-wrapper");
+jQuery('.node-type-blog .banner-image').insertBefore('h1#page-title.title')
+
+// BLOG INSERTS
+jQuery('article.node-blog').append('<div class="blog-link"><p><a href="/blog">Return to the Blog Homepage</a></p></div>');
+//jQuery('.page-blog #region-content, .node-type-blog #region-content').prepend('<h1 class="blog-title" id="page-title">DLCP Hub</h1>');
+jQuery('.page-blog #section-content, .node-type-blog #section-content').prepend('<div class="title-image"><img src="/sites/default/files/dc/sites/dlcp/page_content/images/dlcp%20hub.png"></div>');
+
+}) //End jQuery
+
+</script>    </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>    </div>
+  </div>
+</div><div class="block block-domain-conf block-domain-main-links block-domain-conf-domain-main-links odd block-without-title" id="block-domain-conf-domain-main-links">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <ul class="menu-sub"><li class="first leaf"><a href="/" title="">Home</a></li>
+<li class="expanded"><a href="/page/do-business" title="Do Business">Do Business</a><ul class="menu-sub"><li class="first leaf"><a href="https://mybusiness.dc.gov/" title="Apply for/Renew a Basic Business License">Apply for/Renew a Basic Business License</a></li>
+<li class="leaf"><a href="https://govservices.dcra.dc.gov/oplanewlicense" title="Apply for a Professional License">Apply for a Professional License</a></li>
+<li class="leaf"><a href="https://govservices.dcra.dc.gov/oplarenewallicense" title="Renew a Professional License">Renew a Professional License</a></li>
+<li class="leaf"><a href="https://shorttermrentals.dc.gov/login" title="Apply for a Short-Term Rental License">Apply for a Short-Term Rental License</a></li>
+<li class="leaf"><a href="https://dcra.kustomer.help/contact/special-event-application-questionnaire-Byxc4dgRC" title="Apply for a Special Event License">Apply for a Special Event License</a></li>
+<li class="leaf"><a href="https://beta.business.dc.gov/" title="Apply for a Vending License">Apply for a Vending License</a></li>
+<li class="leaf"><a href="https://octo.quickbase.com/db/bd8kdmvk8" title="Register a Weighing &amp; Measuring Device">Register a Weighing &amp; Measuring Device</a></li>
+<li class="leaf"><a href="https://corponline.dlcp.dc.gov/" title="Submit a Corporate Filing/Register a Business Entity">Submit a Corporate Filing/Register a Business Entity</a></li>
+<li class="last leaf"><a href="/closeyourbusinessinthedistrict" title="Close Your Business">Close Your Business</a></li>
+</ul></li>
+<li class="expanded"><a href="/page/request-foia-information" title="Obtain Documents, Forms and Records">Request FOIA Information</a><ul class="menu-sub"><li class="first leaf"><a href="/service/biennial-report-trade-name-renewal-and-revocation-lists" title="Biennial Report, Trade Name Renewal and Revocation Lists">Biennial Report, Trade Name Renewal and Revocation Lists</a></li>
+<li class="leaf"><a href="https://eservices.dlcp.dc.gov/DLCPPayment" title="">Pay a Fine</a></li>
+<li class="leaf"><a href="http://dlcpsbrc.ecenterdirect.com/" title="">Register for a One-on-One Session (SBRC)</a></li>
+<li class="leaf"><a href="https://dcdcra.seamlessdocs.com/f/RecordCertificationRequest" title="">Request a Business License Record Certification</a></li>
+<li class="leaf"><a href="https://corponline.dlcp.dc.gov/" title="">Request a Good Standing Certificate</a></li>
+<li class="leaf"><a href="https://dlcp.dc.gov/page/dc-foia-information-0" title="">Request Information (FOIA)</a></li>
+<li class="leaf"><a href="https://dcra.kustomer.help/contact/access-dc-help-rk5pEAzQP" title="">Request Login Assistance</a></li>
+<li class="leaf"><a href="https://dcdcra.seamlessdocs.com/f/OPLDCertificationRequest" title="">Request a Professional License Verification</a></li>
+<li class="leaf"><a href="https://corponline.dlcp.dc.gov/" title="">Search Registered Businesses</a></li>
+<li class="leaf"><a href="https://scout.dcra.dc.gov/" title="">Verify a Business License</a></li>
+<li class="leaf"><a href="https://govservices.dcra.dc.gov/oplaportal" title="">Verify a Occupational/Professional License</a></li>
+<li class="last leaf"><a href="https://dlcp.dc.gov/vendinglotteryresults" title="">View MRV/SRV Lottery Results</a></li>
+</ul></li>
+<li class="expanded"><a href="/page/resources-18" title="Resources">Resources</a><ul class="menu-sub"><li class="first leaf"><a href="https://dlcp.dc.gov/service/small-business-resource-center-sbrc-0" title="">Business Resource Center (BRC)</a></li>
+<li class="collapsed"><a href="/consumerprotection">Consumer Protection Assistance</a></li>
+<li class="leaf"><a href="/page/office-weights-and-measures">Weights and Measures</a></li>
+<li class="leaf"><a href="/page/office-enforcement">Office of Enforcement</a></li>
+<li class="collapsed"><a href="/node/1615996" title="">Insurance Education Center</a></li>
+<li class="leaf"><a href="https://dlcp.dc.gov/page/laws-regulations-2" title="">Laws &amp; Regulations</a></li>
+<li class="leaf"><a href="https://dlcp.dc.gov/page/legislative-affairs-and-policy" title="">Legislative Affairs and Policy</a></li>
+<li class="collapsed"><a href="/page/request-foia-information" title="">Request FOIA Information</a></li>
+<li class="leaf"><a href="https://scout.dcra.dc.gov/" title="">SCOUT</a></li>
+<li class="leaf"><a href="/page/schedule-fines">Schedule of Fines</a></li>
+<li class="leaf"><a href="https://dlcp.dc.gov/ExternalResources" title="">External Resources</a></li>
+<li class="last leaf"><a href="https://dlcp.dc.gov/service/frequently-asked-questions-0" title="">FAQ</a></li>
+</ul></li>
+<li class="expanded"><a href="/newsroom" title="News &amp; Events">News &amp; Events</a><ul class="menu-sub"><li class="first leaf"><a href="https://dlcp.dc.gov/DLCPBoardMeetings" title="">DLCP Board Meetings</a></li>
+<li class="leaf"><a href="https://dlcp.dc.gov/newsroom" title="">News Room</a></li>
+<li class="leaf"><a href="https://dlcp.dc.gov/blog" title="">DLCP Hub</a></li>
+<li class="leaf"><a href="https://dlcp.dc.gov/events" title="">Events Calendar</a></li>
+<li class="leaf"><a href="/page/important-updates">Important Updates</a></li>
+<li class="last leaf"><a href="https://dlcp.dc.gov/node/1615926" title="">Media Inquiries</a></li>
+</ul></li>
+<li class="last expanded"><a href="https://dlcp.dc.gov/node/1614271" title="">About DLCP</a><ul class="menu-sub"><li class="first collapsed"><a href="/node/1615861">The Director</a></li>
+<li class="leaf"><a href="https://dcra.kustomer.help/contact/contactus-SkowCOjX8" title="">Contact Us</a></li>
+<li class="leaf"><a href="https://dlcp.dc.gov/page/ward-based-account-managers-0" title="">Contact a Ward-Based Accounts Manager</a></li>
+<li class="collapsed"><a href="/service/schedule-virtual-appointment">Schedule an Online Appointment</a></li>
+<li class="leaf"><a href="https://dlcp.dc.gov/jobs" title="">DLCP Careers</a></li>
+<li class="last leaf"><a href="https://dlcp.dc.gov/node/1615881" title="">Agency Performance</a></li>
+</ul></li>
+</ul>    </div>
+  </div>
+</div>  </div>
+</div>  </div>
+</div></header>    
+      <section id="section-content" class="section section-content">
+  <div id="zone-preface-wrapper" class="zone-wrapper zone-preface-wrapper clearfix">  
+  <div id="zone-preface" class="zone zone-preface clearfix container-24">
+      </div>
+</div><div id="zone-content-wrapper" class="zone-wrapper zone-content-wrapper clearfix">  
+  <div id="zone-content" class="zone zone-content clearfix container-24">    
+        
+        <aside class="grid-6 region region-sidebar-first" id="region-sidebar-first">
+  <div class="region-inner region-sidebar-first-inner">
+    <div class="block block-views block-agency-information-block block-views-agency-information-block odd block-without-title" id="block-views-agency-information-block">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <div class="view view-agency-information view-id-agency_information view-display-id-block view-dom-id-3783e7228cba740cf24ec2d3a537ebbd">
+        
+  
+  
+  
+  
+  
+  
+  
+  
+</div>    </div>
+  </div>
+</div><div class="block block-views block-d57ea9063772fb95c21cdfa73d7c2d80 block-views-d57ea9063772fb95c21cdfa73d7c2d80 even block-without-title" id="block-views-d57ea9063772fb95c21cdfa73d7c2d80">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <div class="view view-agency-information view-id-agency_information view-display-id-agency_director view-dom-id-3c781c7d36f42790153345960cb41da7">
+        
+  
+  
+  
+  
+  
+  
+  
+  
+</div>    </div>
+  </div>
+</div>  </div>
+</aside><div class="grid-12 region region-content" id="region-content">
+  <div class="region-inner region-content-inner">
+          <script src="//cdn1.readspeaker.com/script/6295/webReader/webReader.js?pids=wr" type="text/javascript"></script>
+            <style>
+        .readspeaker_button1 i {
+          color: #333
+        }
+        #rsbtn_scrollcontrols i {
+          color: #333;
+        }
+        .readspeaker_button1 {
+          display: none;
+        }
+      </style>
+      <div id="readspeaker_button1" class="readspeaker_button1 rs_skip rsbtn rs_preserve">
+        <a rel="nofollow" class="rsbtn_play" accesskey="L" title="Listen to this page using ReadSpeaker webReader" href="//app-na.readspeaker.com/cgi-bin/rsent?customerid=6295&amp;lang=en_us&amp;readid=content-start&amp;url=https://dlcp.dc.gov/BBLRenewalOverview">
+          <span class="rsbtn_left rsimg rspart"><span class="rsbtn_text"><span>Listen</span></span></span>
+          <span class="rsbtn_right rsimg rsplay rspart"></span>
+        </a>
+      </div>
+    
+    <a id="main-content"></a>
+                  <h1 class="title" id="page-title">Basic Business License Renewal Overview</h1>
+                          <div class="block block-system block-main block-system-main odd block-without-title" id="block-system-main">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <article about="/BBLRenewalOverview" typeof="sioc:Item foaf:Document" class="node node-service node-published node-not-promoted node-not-sticky author-tonyeatharpe odd clearfix" id="node-service-1619426">
+        <span property="dc:title" content="Basic Business License Renewal Overview" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>    
+  
+  <div class="content clearfix">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><div class="rtejustify">
+<h3><strong>Update to the License Period Format</strong></h3>
+
+<p>Effective August 1, 2025 , DLCP updated the license period format. Licenses will now be valid from the date of issuance until the last day of the same month two or four years later, based on the license term selected by the customer at the time of application (example 3/12/2025 - 3/31/2027). Anyone renewing their license after August 1, 2025, your updated license will reflect this new license period format. &nbsp;This new format will apply of all new applications and renewals moving forward.</p>
+
+<p class="rtejustify">&nbsp;</p>
+
+<h3 class="rtejustify">Renewal Eligibility</h3>
+
+<p>You may renew a Basic Business License&nbsp;(BBL) online at&nbsp;<a href="https://mybusiness.dc.gov/">My DC Business Center</a> (mybusiness.dc.gov) up to ninety (90) days prior to a license&#39;s expiration date.</p>
+
+<p>&nbsp;</p>
+
+<h3 class="rtejustify">Renewal&nbsp;Notification</h3>
+
+<p>Licensees are notified via the email address registered to&nbsp;the My DC Business Center account through which the BBL is managed ninety (90), sixty (60), thirty (30),&nbsp;and seven (7) days prior to the BBL&#39;s expiration date.</p>
+
+<p>&nbsp;</p>
+
+<h3 class="rtejustify">License Cancellation</h3>
+
+<p>If you are no are longer conducting the business activity for which your BBL is issued, you are required to notify the Department of Licensing and Consumer Protection by submitting a <a href="https://dcra.kustomer.help/contact/bbl-cancellation-request-form-SyztBUJTR">BBL Cancellation Request Form</a>.</p>
+
+<p>&nbsp;</p>
+
+<h3 class="rtejustify">Instructions for Online Renewal</h3>
+
+<div>
+<div class="rtejustify">
+<p><em>(Most compatible with Google Chrome or Microsoft Edge web browsers)</em></p>
+If you obtained your Basic Business License through&nbsp;<a href="https://mybusiness.dc.gov/">My DC Business Center</a>, you may renew the license by:</div>
+
+<div class="rtejustify">&nbsp;</div>
+
+<div>
+<div class="rtejustify">1) Logging into your existing <a href="https://mybusiness.dc.gov/">My DC Business Center</a>​ account;</div>
+
+<div class="rtejustify">2) Select &#39;My BBLs&#39;;</div>
+
+<div class="rtejustify">3) DO NOT Select the blue &quot;Renew an Existing License&quot;; scroll down to locate your BBL record;</div>
+
+<div class="rtejustify">4) Select the blue &#39;RENEW&#39; hyperlink to the right of your license;</div>
+
+<div class="rtejustify">5) Follow screen prompts to complete the renewal process.<br />
+&nbsp;</div>
+
+<div class="rtejustify">
+<div>All other licensees may renew via <a href="https://mybusiness.dc.gov/">My DC Business Center</a>&nbsp;by:</div>
+
+<div>&nbsp;</div>
+
+<div>1) Creating and/or logging into your&nbsp;<a data-sentry-component="LinkContents" data-sentry-source-file="LinkContents.js" href="https://mybusiness.dc.gov/">My DC Business Center</a>​ account;</div>
+
+<div>2) Select &#39;My BBLs&#39;;</div>
+
+<div>3) Select the blue &quot;Renew an Existing License&quot;;</div>
+
+<div>4) Input the requested credentials <em>(i.e., BBL number and last 4 digits of tax number)</em>;</div>
+
+<div>5) Follow the screen prompts to add the Basic Business License record to your My DC Business Center account;</div>
+
+<div>6) Return to your My DC Business Center dashboard and&nbsp;select &#39;My BBLs&#39;;</div>
+
+<div>7) DO NOT Select the blue &quot;Renew an Existing License&quot;; scroll down to locate your BBL record;
+<div class="rtejustify">9) Select the blue &#39;RENEW&#39; hyperlink to the right of your license;</div>
+
+<div class="rtejustify">10) Follow screen prompts to complete the renewal process.</div>
+</div>
+</div>
+</div>
+</div>
+
+<div>
+<div>
+<div class="rtejustify">&nbsp;</div>
+
+<div class="rtejustify">&nbsp;</div>
+</div>
+</div>
+
+<div>
+<h3 class="rtejustify">Linking&nbsp;My DC Business Center to AccessDC</h3>
+
+<div><em>(Most compatible with Google Chrome or Microsoft Edge web browsers)</em></div>
+
+<div>&nbsp;</div>
+
+<div>Effective June 20, 2020, <a href="https://mybusiness.dc.gov/">My DC Business Center</a>​ is linked with <a href="https://accessdc.dcra.dc.gov/">AccessDC</a>​, a single login to receive DC Government services.</div>
+</div>
+
+<div>&nbsp;</div>
+
+<div>If this is your first visit to the My DC Business Center since the June 20, 2020 launch of Access DC, please take the following steps:</div>
+
+<ul>
+	<li>Open a browser tab and go to <a href="https://mybusiness.dc.gov/">My DC Business Center</a>​;</li>
+	<li>Register with <a href="https://accessdc.dcra.dc.gov/">AccessDC</a>​ using email address;</li>
+	<li>Complete the link account step in the DC Business Center and enter User ID;</li>
+	<li>You will need to know the original My DC Business Center password or use the &#39;<em><strong>Forgot password?</strong></em>&#39; feature on the LINK PAGE.​</li>
+</ul>
+
+<div>If you already have registered for an AccessDC account, please take the following steps:</div>
+
+<ul data-offset-key="9gn2o-0-0">
+	<li data-block="true" data-editor="f9pf9" data-offset-key="9gn2o-0-0">
+	<div>Open a browser tab and go to <a href="https://mybusiness.dc.gov/">My DC Business Center</a>​;</div>
+	</li>
+	<li data-block="true" data-editor="f9pf9" data-offset-key="5ncr5-0-0">
+	<div>Log into the <a href="https://accessdc.dcra.dc.gov/">AccessDC</a> account using email address;</div>
+	</li>
+	<li data-block="true" data-editor="f9pf9" data-offset-key="9tahi-0-0">
+	<div>Complete the link account step in the DC Business Center and select User ID;</div>
+	</li>
+	<li data-block="true" data-editor="f9pf9" data-offset-key="5q2nd-0-0">
+	<div>You will need to know the original My DC Business Center password or use the &#39;<strong><em>Forgot password?</em></strong>&#39; feature on the LINK PAGE.</div>
+	</li>
+</ul>
+
+<div>&nbsp;</div>
+
+<div>&nbsp;</div>
+
+<h3 class="rtejustify">Penalty Fee Schedule</h3>
+
+<p>All Basic Business Licenses comply with the following Penalty Fee Schedule for failure to renew by the expiration date:</p>
+
+<p><img alt="" src="/sites/default/files/dc/sites/dlcp/BEST%20ACT%20Penalty%20Fee%20Schedule.jpg" style="width: 842px; height: 246px;" /></p>
+
+<div>The following license statuses correspond with the current penalty fee schedule:&nbsp;These fees do not include additional penalties that may be assessed for doing business without a license.</div>
+
+<div>&nbsp;</div>
+
+<ul>
+	<li style="margin-bottom: 0in;"><span style="line-height:normal"><em><strong>Lapsed</strong></em> = 1 day - 30 days post expiration; $75.<sup>00</sup> penalty assessed</span></li>
+	<li style="margin-bottom: 0in;"><span style="line-height:normal"><strong><em>Expired</em></strong> = 31 days - 6 months post expiration; additional $75.<sup>00</sup> penalty assessed</span></li>
+	<li style="margin-bottom: 0in;"><span style="line-height:normal"><strong><em>Pending Enforcement Referral</em></strong> - 6 months,&nbsp;1 day - 9 months post expiration; additional $200.<sup>00</sup> penalty assessed</span></li>
+	<li style="margin-bottom: 0in;"><span style="line-height:normal"><strong><em>Referred to Enforcement</em></strong> = 9 months,&nbsp;1 day +</span></li>
+</ul>
+
+<p>A license advanced to the <strong><em>Referred to Enforcement</em></strong> status is subject to&nbsp;investigation by the Consumer Protection Unit and additional fines for unlicensed business activity.</p>
+</div>
+</div></div></div><div class="field field-name-field-tty field-type-text field-label-above"><div class="field-label">Contact TTY:&nbsp;</div><div class="field-items"><div class="field-item even">711</div></div></div>  </div>
+  
+  <div class="clearfix">
+          <nav class="links node-links clearfix"></nav>
+    
+      </div>
+</article>
+    </div>
+  </div>
+</div>    
+  </div>
+</div>
+  </div>
+</div><div id="zone-postscript-wrapper" class="zone-wrapper zone-postscript-wrapper clearfix">  
+  <div id="zone-postscript" class="zone zone-postscript clearfix container-24">
+      </div>
+</div></section>    
+  
+      <footer id="section-footer" class="section section-footer">
+  <div id="zone-footer-wrapper" class="zone-wrapper zone-footer-wrapper clearfix">  
+  <div id="zone-footer" class="zone zone-footer clearfix container-12">
+    <div class="grid-12 region region-footer-first" id="region-footer-first">
+  <div class="region-inner region-footer-first-inner">
+    <div class="block block-views block-282b46b508c004bef35c3f43a1b5ee7b block-views-282b46b508c004bef35c3f43a1b5ee7b odd block-without-title" id="block-views-282b46b508c004bef35c3f43a1b5ee7b">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <div class="view view-custom-headers-and-footers view-id-custom_headers_and_footers view-display-id-custom_agency_footer1 view-dom-id-3ee25e2da59ea7b29d9e9d9a21343d84">
+        
+  
+  
+      <div class="view-content">
+        <div>
+      
+          <style type="text/css">.link-list{font-size:13px;}
+.link-list li {margin-top: 10px;}
+.kustomer-app-icon{
+bottom: 11px!important;
+right: 75px!important;
+}
+#block-views-features-blocks-homepage-a {
+height: auto;
+overflow: auto;
+}
+@media all and (min-width: 1220px) and (min-device-width: 1220px), all and (max-device-width: 1439px) and (min-width: 1439px){
+.link-list li {margin-top: 0px;}
+}
+</style>
+<div class="footer-wrapper footer" id="footer"><!-- <div class="footer-section lower">
+<div class="footer-content">
+<div class="item"><a href="/node/1619686" title="Spanish (Español)">Spanish (Espa&ntilde;ol)</a></div>
+
+<div class="item"><a href="/node/1619696" title="French (Français)">French (Fran&ccedil;ais)</a></div>
+
+<div class="item"><a href="/node/1619706" title="Vietnamese (Tiếng Việt)">Vietnamese (Tiếng Việt)</a></div>
+
+<div class="item"><a href="/node/1619721" title="Amharic (አማርኛ)">Amharic (አማርኛ)</a></div>
+
+<div class="item"><a href="/node/1619731" title="Chinese (中文)">Chinese (中文)</a></div>
+
+<div class="item"><a href="/node/1619741" title="Korean (한국어)">Korean (한국어)</a></div>
+</div>
+</div> -->
+<div class="footer-section lower">
+<div class="footer-content">
+<div class="footer-text item dlcplogo"><img alt="Department of Licensing and Consumer Protection" src="/sites/default/files/dc/sites/DLCP/dlcp-logo-footer.png" style="border-width: 0px;" /></div>
+
+<div class="footer-text item mmblogo"><img alt="Mayor Muriel Bowser Logo" src="/sites/default/files/dc/sites/dob/MayorBlogo.png" /></div>
+
+<div class="footer-text item hours">
+<div class="footer-header">Office Hours</div>
+
+<div>Monday, Tuesday<br />
+Wednesday &amp; Friday<br />
+8:30 am to 4:30 pm<br />
+Thursday 10:30 am to 4:30 pm<br />
+In-person service stops accepting<br />
+visitors at 4 pm Monday thru Friday.</div>
+</div>
+
+<div class="footer-text item connect1">
+<div class="footer-header">Connect With Us</div>
+
+<div>1100 4th Street, SW,<br />
+Washington, DC 20024<br />
+Phone: (202) 671-4500</div>
+</div>
+
+<div class="footer-text item connect2"><!-- Fax: (202) 442-9445<br /> -->TTY: 711<br />
+Email: <a href="/cdn-cgi/l/email-protection#f99d959a89b99d9ad79e968f"><span class="__cf_email__" data-cfemail="88ece4ebf8c8eceba6efe7fe">[email&#160;protected]</span></a></div>
+</div>
+</div>
+
+<div class="footer-section lower">
+<div class="footer-content last">
+<div class="footer-icons"><a class="icon" href="https://www.facebook.com/LicensingandConsumerProtection" target="_blank" title="Facebook"><img src="/sites/default/files/dc/sites/summerjobs/featured_content/images/facebook.png" title="Facebook" /></a> <a class="icon" href="https://twitter.com/DC_DLCP" target="_blank" title="X"><img src="/sites/default/files/dc/shared_assets/social_icons/x-logo-white.png" title="X" /></a><a class="icon" href="https://instagram.com/dc_dlcp?igshid=YmMyMTA2M2Y" target="_blank" title="Instagram"><img src="/sites/all/themes/dc_agency_bluesteel/images/Instagramlogo.png" title="Instagram" /></a><a class="icon" href="https://www.linkedin.com/company/licensingandconsumerprotection/" target="_blank" title="LinkedIn"><img src="/sites/default/files/dc/shared_assets/linkedin.png" title="LinkedIn" /></a><!-- <a class="icon" href="mailto:dcra@dc.gov" target="_blank" title="Mail"><img src="https://statehood.dc.gov/sites/default/files/dc/shared_assets/mail_icon.png" title="Mail" /></a> --></div>
+
+<div class="footer-link item">
+<ul class="link-list">
+	<li class="first list-item"><a href="https://dc.gov/node/298582">ACCESSIBILITY</a></li>
+	<li class="list-item"><a href="https://dc.gov/page/google-translate-disclaimer">GOOGLE TRANSLATE DISCLAIMER</a></li>
+	<li class="list-item"><a href="https://dc.gov/node/298592">PRIVACY AND SECURITY</a></li>
+	<li class="list-item"><a href="https://dc.gov/node/819092">ABOUT DC.GOV</a></li>
+	<li class="last list-item"><a href="https://dc.gov/node/900572">TERMS AND CONDITIONS</a></li>
+</ul>
+</div>
+
+<div class="footer-text item">&copy; 2019-2024 District of Columbia</div>
+</div>
+</div>
+</div>
+<!-- include IF Vox before closing HEAD tag --><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="text/javascript">(function(){setTimeout(function(){var d=document,t='script',f=d.getElementsByTagName(t)[0],s=d.createElement(t);s.type='text/java'+t;s.async=true;s.src='//d2rnkf2kqy5m6h.cloudfront.net/vxc/uwxO-8vMSgaKorrjBbcQ1A/surveys.js?'+(new Date)/1;f.parentNode.insertBefore(s,f);},1);})();</script><script
+  src="https://cdn.kustomerapp.com/chat-web/widget.js"
+  data-kustomer-api-key='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZTA4ZjBmMzA3OTBiY2EyZjdmYjdlMSIsInVzZXIiOiI2MWUwOGYwZjRiMTQ3Nzg3ZmYyZDQ0NjUiLCJvcmciOiI1ZDBhODZmNGFmOGViYzAwMTNkZTQ3Y2MiLCJvcmdOYW1lIjoiZGNyYSIsInVzZXJUeXBlIjoibWFjaGluZSIsInBvZCI6InByb2QxIiwicm9sZXMiOlsib3JnLnRyYWNraW5nIl0sImF1ZCI6InVybjpjb25zdW1lciIsImlzcyI6InVybjphcGkiLCJzdWIiOiI2MWUwOGYwZjRiMTQ3Nzg3ZmYyZDQ0NjUifQ.IWRjvDbJE78vA9kCHAzlzP6sFB2AFkV4Nn7fuUK3HKY'
+></script><!-- CHAT SCRIPT --><script>
+	Kustomer.start({
+		brandId: '5daf7916124be4f2960cb04a'
+	});
+  
+	async function startDCRAChat() {
+		const isDCRAOpen = await Kustomer.isChatAvailable();
+
+		if (isDCRAOpen && isDCRAOpen.availability === 'online') {
+			Kustomer.open();
+		} else {
+			Kustomer.close();
+		}
+	}
+
+	window.addEventListener('kustomerLoaded', () => {
+		console.log("kustomerLoaded");
+		//Kustomer.start({brandId:'5daf7916124be4f2960cb04a'});
+
+		const liveChatLinks = document.getElementsByClassName('liveChatLinks');
+		[...liveChatLinks].forEach(link => {
+			link.addEventListener('click', (event) => {
+				event.preventDefault();
+				startDCRAChat();
+			});
+		});
+	}); 
+</script>    </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>    </div>
+  </div>
+</div>  </div>
+</div>  </div>
+</div></footer>
+<script async src=https://siteimproveanalytics.com/js/siteanalyze_6002505.js></script>
+  </div>  <div class="region region-page-bottom" id="region-page-bottom">
+  <div class="region-inner region-page-bottom-inner">
+      </div>
+</div><script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"348872d504","applicationID":"496267014","transactionName":"YVYAZxQEC0EHBhVYWVgcI1ASDApcSQsOVVNpQwNUAzoTWwMS","queueTime":7,"applicationTime":487,"atts":"TREXEVweGB5EBEMLTUtO","errorBeacon":"bam.nr-data.net","agent":""}</script><script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a1cab56909b36165',t:'MTc4NDMwNjYzOA=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>
