@@ -11,8 +11,8 @@
    ]
   },
   "2F5R-R823": {
-   "basis": "ND corporate annual report (10-33-139(3)): 'before February second' \u2261 encoded 'February 1 each year'; confirms corporate_filing_deadline. ND verify 2026-07-17 secondary source.",
-   "skip": "PDF \u2014 the Perma/WARC stores the PDF text FlateDecode-compressed, so verify_perma's utf-8 WARC grep cannot read it (binary-blind). The load-bearing strings above are pdftotext byte-verified against the sha-pinned LOCAL archive (verify-strings OK this apply; verify-hashes recompute clean). Documented-skip tier for PDF primaries pending PDF-gate-v2 (pdftotext-from-WARC). 2026-07-17, ND verify.",
+   "basis": "ND corporate annual report (10-33-139(3)): 'before February second' ≡ encoded 'February 1 each year'; confirms corporate_filing_deadline. ND verify 2026-07-17 secondary source.",
+   "skip": "PDF — the Perma/WARC stores the PDF text FlateDecode-compressed, so verify_perma's utf-8 WARC grep cannot read it (binary-blind). The load-bearing strings above are pdftotext byte-verified against the sha-pinned LOCAL archive (verify-strings OK this apply; verify-hashes recompute clean). Documented-skip tier for PDF primaries pending PDF-gate-v2 (pdftotext-from-WARC). 2026-07-17, ND verify.",
    "source_url": "https://ndlegis.gov/cencode/t10c33.pdf",
    "strings": [
     "February second of each year",
@@ -20,22 +20,22 @@
    ]
   },
   "2K2T-XM6S": {
-   "skip": "pdf payload \u2014 v1 text/html-only",
+   "skip": "pdf payload — v1 text/html-only",
    "source_url": "https://oag.ca.gov/system/files/media/rrf1_form.pdf"
   },
   "2Q27-HMKV": {
-   "basis": "strings from the crank sign-off package in AL.sql; installed at batch-promote 2026-07-05; JSON tier \u2014 WARC payload is JSON text, grep reaches it",
+   "basis": "strings from the crank sign-off package in AL.sql; installed at batch-promote 2026-07-05; JSON tier — WARC payload is JSON text, grep reaches it",
    "source_url": "https://alison.legislature.state.al.us/api/code-of-alabama?page=32",
    "strings": [
     "within 90 days of the close of its fiscal year"
    ]
   },
   "2X8C-QJTA": {
-   "skip": "pdf payload \u2014 v1 text/html-only",
+   "skip": "pdf payload — v1 text/html-only",
    "source_url": "https://legislature.maine.gov/statutes/9/title9ch385.pdf"
   },
   "2YS2-RJT9": {
-   "basis": "RI \u00a75-53.1-3 \u2014 small-org $25k exemption + self-executing; verbatim in local bytes",
+   "basis": "RI §5-53.1-3 — small-org $25k exemption + self-executing; verbatim in local bytes",
    "source_url": "https://webserver.rilegislature.gov/Statutes/TITLE5/5-53.1/5-53.1-3.htm",
    "strings": [
     "twenty-five thousand dollars",
@@ -43,7 +43,7 @@
    ]
   },
   "32M8-EQJA": {
-   "basis": "RI \u00a75-53.1-4 \u2014 audit threshold $1M (post-SB783, eff. 2025-07-01); verbatim in local bytes",
+   "basis": "RI §5-53.1-4 — audit threshold $1M (post-SB783, eff. 2025-07-01); verbatim in local bytes",
    "source_url": "https://webserver.rilegislature.gov/Statutes/TITLE5/5-53.1/5-53.1-4.htm",
    "strings": [
     "one million dollars",
@@ -61,11 +61,11 @@
    ]
   },
   "3B7K-Z2C3": {
-   "skip": "corroborative secondary for SD reg=FALSE (https://consumer.sd.gov/fastfacts/charity.aspx); not the load-bearing artifact \u2014 the reg=FALSE finding rests on the by_sha256-anchored primary statute + the crank's exhaustive corpus enumeration. String-verification of this secondary skipped (documented, session-6 A8). [re-keyed from stale GUID 6PD9-AVWC after the source was re-captured under 3B7K-Z2C3, 2026-07-12]",
+   "skip": "corroborative secondary for SD reg=FALSE (https://consumer.sd.gov/fastfacts/charity.aspx); not the load-bearing artifact — the reg=FALSE finding rests on the by_sha256-anchored primary statute + the crank's exhaustive corpus enumeration. String-verification of this secondary skipped (documented, session-6 A8). [re-keyed from stale GUID 6PD9-AVWC after the source was re-captured under 3B7K-Z2C3, 2026-07-12]",
    "source_url": "https://consumer.sd.gov/fastfacts/charity.aspx"
   },
   "3DL3-TLG9": {
-   "skip": "pdf payload \u2014 v1 text/html-only. NB: this is SC's F1 DAY-OF-MONTH ORACLE (worked example 'due on November 15th') \u2014 byte-verified in the LOCAL artifact at capture 2026-06-12; the pdftotext-from-WARC v2 rider is now load-bearing for a live oracle artifact, not just nice-to-have",
+   "skip": "pdf payload — v1 text/html-only. NB: this is SC's F1 DAY-OF-MONTH ORACLE (worked example 'due on November 15th') — byte-verified in the LOCAL artifact at capture 2026-06-12; the pdftotext-from-WARC v2 rider is now load-bearing for a live oracle artifact, not just nice-to-have",
    "source_url": "https://sos.sc.gov/sites/sos/files/Documents/Charities/Annual%20Raffle%20Financial%20Report2024.pdf"
   },
   "3KN9-EV3S": {
@@ -77,17 +77,17 @@
    ]
   },
   "3NUX-EKDD": {
-   "basis": "DC late_fee remediation 2026-07-17 (Tony ruling (b) \u2014 archive-hygiene, captures verified sound): load-bearing string byte-present in the hash-matched local capture; see docs/regime_reread/DC_20260717.md + RECHECK_LEDGER DC late_fee rows.",
+   "basis": "DC late_fee remediation 2026-07-17 (Tony ruling (b) — archive-hygiene, captures verified sound): load-bearing string byte-present in the hash-matched local capture; see docs/regime_reread/DC_20260717.md + RECHECK_LEDGER DC late_fee rows.",
    "source_url": "https://code.dccouncil.gov/us/dc/council/code/sections/47-2851.07",
    "strings": [
     "valid for a period of 6 months, 2 years, or 4 years"
    ]
   },
   "3S5J-CM3S": {
-   "basis": "strings verified present in local artifact NE/nebraskalegislature.gov-laws-statutes.php-statute-87-302.html (amendment-currency source line Laws 2026 LB838 + the UDTPA conduct-only charitable clause \u00a787-302(a)(21))",
+   "basis": "strings verified present in local artifact NE/nebraskalegislature.gov-laws-statutes.php-statute-87-302.html (amendment-currency source line Laws 2026 LB838 + the UDTPA conduct-only charitable clause §87-302(a)(21))",
    "source_url": "https://nebraskalegislature.gov/laws/statutes.php?statute=87-302",
    "strings": [
-    "LB838, \u00a7 27.",
+    "LB838, § 27.",
     "charitable purpose, uses or employs any deception"
    ]
   },
@@ -98,7 +98,7 @@
     "needs to register if it solicits in Wisconsin and either has a paid employee(s) and/or receives $25,000 or more in contributions in a fiscal year.",
     "it must, within 30 days register with the division.",
     "A charitable organization must submit this form if it received $25,000 or less in contributions during its most recently completed fiscal year.",
-    "A Charitable organization with a \u2018home\u2019 office outside of Wisconsin needs to be registered if it solicits in Wisconsin"
+    "A Charitable organization with a ‘home’ office outside of Wisconsin needs to be registered if it solicits in Wisconsin"
    ]
   },
   "3V7E-PNEZ": {
@@ -109,7 +109,7 @@
    ]
   },
   "4257-DBRE": {
-   "basis": "strings verified present in local artifact CO/www.coloradosos.gov-pubs-charities-instructions-charity-renew.html.html (SOS plain-language renewal statement \u2014 corroborates the due-date-as-extended parse of C.R.S. 6-16-104(5)(a), Tony corroboration order 2026-07-02)",
+   "basis": "strings verified present in local artifact CO/www.coloradosos.gov-pubs-charities-instructions-charity-renew.html.html (SOS plain-language renewal statement — corroborates the due-date-as-extended parse of C.R.S. 6-16-104(5)(a), Tony corroboration order 2026-07-02)",
    "source_url": "https://www.coloradosos.gov/pubs/charities/instructions/charity/renew.html",
    "strings": [
     "due at the same time that the Form 990 is due to the IRS",
@@ -126,14 +126,14 @@
    ]
   },
   "452P-E2RY": {
-   "basis": "carve-out act: Occ. Code Ch. 1803 Public Safety Solicitation Act (narrow org-type, \u2192 SoS); authored at capture 2026-07-04",
+   "basis": "carve-out act: Occ. Code Ch. 1803 Public Safety Solicitation Act (narrow org-type, → SoS); authored at capture 2026-07-04",
    "source_url": "https://tcss.legis.texas.gov/resources/OC/htm/OC.1803.htm",
    "strings": [
     "registration statement"
    ]
   },
   "48XY-LAA8": {
-   "skip": "PDF payload \u2014 WARC grep needs text; pdftotext extraction EMPTY on the local artifact (image-scan slip law), measured 2026-07-02. Completeness rests on the manifest sha256 pin (7ecc1012...) of the local artifact + content verified by visual read at capture (LB 972 \u00a74 repeals \u00a7\u00a728-1440 to 28-1449, the solicitation-of-funds law) + wayback_url sibling capture.",
+   "skip": "PDF payload — WARC grep needs text; pdftotext extraction EMPTY on the local artifact (image-scan slip law), measured 2026-07-02. Completeness rests on the manifest sha256 pin (7ecc1012...) of the local artifact + content verified by visual read at capture (LB 972 §4 repeals §§28-1440 to 28-1449, the solicitation-of-funds law) + wayback_url sibling capture.",
    "source_url": "https://nebraskalegislature.gov/FloorDocs/94/PDF/Slip/LB972.pdf"
   },
   "49ZU-2X2A": {
@@ -146,7 +146,7 @@
   },
   "4A6A-8W8W": {
    "basis": "ND agency guide (REVISED AUGUST 2025 = post-69th-Assembly currency corroboration): Sept-1 annual report + FirstStop portal channel. ND verify 2026-07-17 secondary source.",
-   "skip": "PDF \u2014 the Perma/WARC stores the PDF text FlateDecode-compressed, so verify_perma's utf-8 WARC grep cannot read it (binary-blind). The load-bearing strings above are pdftotext byte-verified against the sha-pinned LOCAL archive (verify-strings OK this apply; verify-hashes recompute clean). Documented-skip tier for PDF primaries pending PDF-gate-v2 (pdftotext-from-WARC). 2026-07-17, ND verify.",
+   "skip": "PDF — the Perma/WARC stores the PDF text FlateDecode-compressed, so verify_perma's utf-8 WARC grep cannot read it (binary-blind). The load-bearing strings above are pdftotext byte-verified against the sha-pinned LOCAL archive (verify-strings OK this apply; verify-hashes recompute clean). Documented-skip tier for PDF primaries pending PDF-gate-v2 (pdftotext-from-WARC). 2026-07-17, ND verify.",
    "source_url": "https://www.sos.nd.gov/sites/www/files/documents/business/charitable-org-guide.pdf",
    "strings": [
     "REVISED AUGUST 2025",
@@ -155,7 +155,7 @@
    ]
   },
   "4A8A-G7SV": {
-   "basis": "strings verified present in local artifact TX/tcss.legis...BC.302.htm.html \u2014 Tex. Bus. & Com. Code \u00a7302.055 EXPRESS 501(c)(3) exemption from the telemarketing-seller registration chapter (real statute bytes via the TX Legislative Council backend; canonical cite statutes.capitol.texas.gov/Docs/BC/htm/BC.302.htm is an Angular SPA that serves only the app shell to non-browser clients); authored at capture 2026-07-04",
+   "basis": "strings verified present in local artifact TX/tcss.legis...BC.302.htm.html — Tex. Bus. & Com. Code §302.055 EXPRESS 501(c)(3) exemption from the telemarketing-seller registration chapter (real statute bytes via the TX Legislative Council backend; canonical cite statutes.capitol.texas.gov/Docs/BC/htm/BC.302.htm is an Angular SPA that serves only the app shell to non-browser clients); authored at capture 2026-07-04",
    "source_url": "https://tcss.legis.texas.gov/resources/BC/htm/BC.302.htm",
    "strings": [
     "This chapter does not apply",
@@ -163,7 +163,7 @@
    ]
   },
   "4CFG-WC96": {
-   "skip": "manually captured by Tony 2026-07-12 (WAC 434-120-225, WA annual-renewal \u2014 Perma crawler had failed app.leg.wa.gov). Binary PDF; content string-verified locally via by_sha256.",
+   "skip": "manually captured by Tony 2026-07-12 (WAC 434-120-225, WA annual-renewal — Perma crawler had failed app.leg.wa.gov). Binary PDF; content string-verified locally via by_sha256.",
    "source_url": "https://app.leg.wa.gov/WAC/default.aspx?cite=434-120-225&pdf=true"
   },
   "4CVX-Z9Y2": {
@@ -171,15 +171,15 @@
    "source_url": "https://www.legis.iowa.gov/docs/code/13C.pdf"
   },
   "4DL5-NMWG": {
-   "skip": "PDF tier (documented skip, batch-promote 2026-07-05): WARC payload is application/pdf \u2014 the v1 text-grep cannot reach it; load-bearing strings were byte-verified via pdftotext against the LOCAL artifact at crank (sign-off package in IL.sql); PDF-gate-v2 (WARC\u2192pdftotext\u2192grep) is the owed upgrade \u2014 ledger tripwire fires on the escalation-set recount.",
+   "skip": "PDF tier (documented skip, batch-promote 2026-07-05): WARC payload is application/pdf — the v1 text-grep cannot reach it; load-bearing strings were byte-verified via pdftotext against the LOCAL artifact at crank (sign-off package in IL.sql); PDF-gate-v2 (WARC→pdftotext→grep) is the owed upgrade — ledger tripwire fires on the escalation-set recount.",
    "source_url": "https://www.illinoisattorneygeneral.gov/Page-Attachments/FormAG990ILFilingInstuctions.pdf"
   },
   "4GEU-VGHA": {
-   "skip": "binary artifact (pdf/zip/docx); Perma capture exists (786866B WARC) but verify-perma's raw-byte grep can't read a binary payload \u2014 the intended PDF SKIP. Load-bearing strings verified against the LOCAL bytes via by_sha256 (c639cedf92c7\u2026).",
+   "skip": "binary artifact (pdf/zip/docx); Perma capture exists (786866B WARC) but verify-perma's raw-byte grep can't read a binary payload — the intended PDF SKIP. Load-bearing strings verified against the LOCAL bytes via by_sha256 (c639cedf92c7…).",
    "source_url": "https://mm.nh.gov/files/uploads/doj/remote-docs/nhct12-instructions.pdf"
   },
   "4L3W-TXHH": {
-   "basis": "DC late_fee remediation 2026-07-17 (Tony ruling (b) \u2014 archive-hygiene, captures verified sound): load-bearing string byte-present in the hash-matched local capture; see docs/regime_reread/DC_20260717.md + RECHECK_LEDGER DC late_fee rows.",
+   "basis": "DC late_fee remediation 2026-07-17 (Tony ruling (b) — archive-hygiene, captures verified sound): load-bearing string byte-present in the hash-matched local capture; see docs/regime_reread/DC_20260717.md + RECHECK_LEDGER DC late_fee rows.",
    "source_url": "https://code.dccouncil.gov/us/dc/council/code/sections/44-1702",
    "strings": [
     "General Business endorsement to a basic business license"
@@ -200,18 +200,18 @@
    "source_url": "https://www.sos.mo.gov/cmsimages/adrules/csr/current/15csr/15c60-3.pdf"
   },
   "4QUP-GS53": {
-   "skip": "Forms-directory capture (SOS charities filings list) \u2014 carries NO load-bearing claim for CO's encoded values; byte-inspected 2026-07-09 (form names/instruction links only, no deadline language). Load-bearing operational strings live in 4257-DBRE (renew.html) + RW99-CZZN (extensions.html). Retained as capture-context. Added 2026-07-09 at CO promote (0b rider findings).",
+   "skip": "Forms-directory capture (SOS charities filings list) — carries NO load-bearing claim for CO's encoded values; byte-inspected 2026-07-09 (form names/instruction links only, no deadline language). Load-bearing operational strings live in 4257-DBRE (renew.html) + RW99-CZZN (extensions.html). Retained as capture-context. Added 2026-07-09 at CO promote (0b rider findings).",
    "source_url": "https://www.coloradosos.gov/pubs/charities/filings.html"
   },
   "4QZM-DBCP": {
-   "basis": "DC late_fee remediation 2026-07-17 (Tony ruling (b) \u2014 archive-hygiene, captures verified sound): load-bearing string byte-present in the hash-matched local capture; see docs/regime_reread/DC_20260717.md + RECHECK_LEDGER DC late_fee rows.",
+   "basis": "DC late_fee remediation 2026-07-17 (Tony ruling (b) — archive-hygiene, captures verified sound): load-bearing string byte-present in the hash-matched local capture; see docs/regime_reread/DC_20260717.md + RECHECK_LEDGER DC late_fee rows.",
    "source_url": "https://code.dccouncil.gov/us/dc/council/code/sections/44-1704",
    "strings": [
     "valid for such period of time as shall be specified therein"
    ]
   },
   "4RN5-UG65": {
-   "skip": "DOCUMENTED SKIP 2026-07-05 (batch-promote archive remediation): the capture is a PowerApps portal SHELL ('You're offline. This is a read only version of the page.') \u2014 the DCA Charities portal renders content client-side behind Incapsula, so the archived bytes carry NO value-bearing renewal language (grep six|renewal|fiscal = 1 nav hit in 116KB). Nothing rests on this GUID: NJ's agency-lane evidence is the CRI-300R form + registration page read via Wayback (recorded in NJ.sql verification_notes), and the statute lane is the sha-verified STATUTES.TXT primary (wayback-tier remediation 2026-07-05, snapshot 20260705202129 byte-identical to recorded sha 10386d3c...). This GUID exists as a record of what the live portal serves, not as evidence.",
+   "skip": "DOCUMENTED SKIP 2026-07-05 (batch-promote archive remediation): the capture is a PowerApps portal SHELL ('You're offline. This is a read only version of the page.') — the DCA Charities portal renders content client-side behind Incapsula, so the archived bytes carry NO value-bearing renewal language (grep six|renewal|fiscal = 1 nav hit in 116KB). Nothing rests on this GUID: NJ's agency-lane evidence is the CRI-300R form + registration page read via Wayback (recorded in NJ.sql verification_notes), and the statute lane is the sha-verified STATUTES.TXT primary (wayback-tier remediation 2026-07-05, snapshot 20260705202129 byte-identical to recorded sha 10386d3c...). This GUID exists as a record of what the live portal serves, not as evidence.",
    "source_url": "https://charportal.dca.njoag.gov/"
   },
   "4S8L-6UWX": {
@@ -223,7 +223,7 @@
    ]
   },
   "4TU2-K4Y7": {
-   "basis": "MI preceding-year anchor (Tony's 'twist'): MCL 400.273(2)(j)/(k) \u2014 the financial statement/990 is for the preceding tax year, so the 19-month term runs from the prior-completed FYE. grep-verified byte-present in MI/www.legislature.mi.gov-Laws-MCL-objectName-MCL-400-273.html",
+   "basis": "MI preceding-year anchor (Tony's 'twist'): MCL 400.273(2)(j)/(k) — the financial statement/990 is for the preceding tax year, so the 19-month term runs from the prior-completed FYE. grep-verified byte-present in MI/www.legislature.mi.gov-Laws-MCL-objectName-MCL-400-273.html",
    "source_url": "https://www.legislature.mi.gov/Laws/MCL?objectName=MCL-400-273",
    "strings": [
     "preceding tax year"
@@ -265,7 +265,7 @@
    ]
   },
   "5FCD-F5G9": {
-   "skip": "binary artifact (pdf/zip/docx); Perma capture exists (294468B WARC) but verify-perma's raw-byte grep can't read a binary payload \u2014 the intended PDF SKIP. Load-bearing strings verified against the LOCAL bytes via by_sha256 (60f6121b90b9\u2026).",
+   "skip": "binary artifact (pdf/zip/docx); Perma capture exists (294468B WARC) but verify-perma's raw-byte grep can't read a binary payload — the intended PDF SKIP. Load-bearing strings verified against the LOCAL bytes via by_sha256 (60f6121b90b9…).",
    "source_url": "https://consumer.sd.gov/docs/TelemkgSolCharity_Statutes37-30.pdf"
   },
   "5NUX-YQ44": {
@@ -273,14 +273,14 @@
    "source_url": "https://www.ag.idaho.gov/content/uploads/2020/05/ICAPA-Frequently-Asked-Questions.pdf"
   },
   "5PCB-WN69": {
-   "basis": "string verified present in local artifact TX/www.texasattorneygeneral.gov-...html \u2014 TX AG admission (agency lane): 'most charities or nonprofit organizations are not required to register with the State'; authored at capture 2026-07-04",
+   "basis": "string verified present in local artifact TX/www.texasattorneygeneral.gov-...html — TX AG admission (agency lane): 'most charities or nonprofit organizations are not required to register with the State'; authored at capture 2026-07-04",
    "source_url": "https://www.texasattorneygeneral.gov/divisions/charitable-trusts/registration-and-filings",
    "strings": [
     "not required to register"
    ]
   },
   "5R7P-8FDC": {
-   "skip": "utf-16 tier \u2014 WARC utf-8 grep cannot reach it (sdlegislature.gov API). Secondary/corroborative source for SD reg=FALSE (https://sdlegislature.gov/api/Rules/Rule/20:11.html?all=true); load-bearing verification is on the by_sha256 primary.",
+   "skip": "utf-16 tier — WARC utf-8 grep cannot reach it (sdlegislature.gov API). Secondary/corroborative source for SD reg=FALSE (https://sdlegislature.gov/api/Rules/Rule/20:11.html?all=true); load-bearing verification is on the by_sha256 primary.",
    "source_url": "https://sdlegislature.gov/api/Rules/Rule/20:11.html?all=true"
   },
   "5T9Y-DRBN": {
@@ -291,15 +291,15 @@
    ]
   },
   "5Y6J-ARR7": {
-   "skip": "KNOWN-INCOMPLETE 2026-06-12: JS-triggered download glitches Perma entirely (capture ledger \u00a7Perma-incompatible); local 05-31 artifact authoritative + byte-confirmed via independent channel",
+   "skip": "KNOWN-INCOMPLETE 2026-06-12: JS-triggered download glitches Perma entirely (capture ledger §Perma-incompatible); local 05-31 artifact authoritative + byte-confirmed via independent channel",
    "source_url": "https://www.mass.gov/doc/form-pc-2023-update/download"
   },
   "5ZYT-YY85": {
-   "skip": "rules.sos.ri.gov is a JS-SPA; captured page = Securities subchapter 230-50-05, visible text a shell (part-list in embedded JSON, removed by strip_tags). Override-by-rule ABSENCE (no Charities subchapter under ch.230-RICR-50; only Securities+Franchises) is established by the LIVE portal navigation structure + domain-restricted search, recorded in scripts/phase_b_audits/RI.sql FINDING 2 + docs/RI_PRE_AUDIT_MEMO.md \u00a710 \u2014 NOT by this frozen page. Supporting context only; not load-bearing for any verified spec value (supports the override-by-rule residual closure). RI audit 2026-06-21.",
+   "skip": "rules.sos.ri.gov is a JS-SPA; captured page = Securities subchapter 230-50-05, visible text a shell (part-list in embedded JSON, removed by strip_tags). Override-by-rule ABSENCE (no Charities subchapter under ch.230-RICR-50; only Securities+Franchises) is established by the LIVE portal navigation structure + domain-restricted search, recorded in scripts/phase_b_audits/RI.sql FINDING 2 + docs/RI_PRE_AUDIT_MEMO.md §10 — NOT by this frozen page. Supporting context only; not load-bearing for any verified spec value (supports the override-by-rule residual closure). RI audit 2026-06-21.",
    "source_url": "https://rules.sos.ri.gov/organizations/subchapter/230-50-05"
   },
   "66JB-N68S": {
-   "skip": "binary artifact (pdf/zip/docx); Perma capture exists (41190231B WARC) but verify-perma's raw-byte grep can't read a binary payload \u2014 the intended PDF SKIP. Load-bearing strings verified against the LOCAL bytes via by_sha256 (2790eb4fd96f\u2026).",
+   "skip": "binary artifact (pdf/zip/docx); Perma capture exists (41190231B WARC) but verify-perma's raw-byte grep can't read a binary payload — the intended PDF SKIP. Load-bearing strings verified against the LOCAL bytes via by_sha256 (2790eb4fd96f…).",
    "source_url": "https://pub.njleg.state.nj.us/statutes/STATUTES-TEXT.zip"
   },
   "6B3H-VWPY": {
@@ -312,18 +312,18 @@
    ]
   },
   "6DTE-FC6S": {
-   "skip": "pdf payload \u2014 v1 text/html-only",
+   "skip": "pdf payload — v1 text/html-only",
    "source_url": "https://sos.sc.gov/sites/sos/files/Documents/Charities/Annual%20Financial%20Report%20for%20a%20Charitable%20Organization.pdf"
   },
   "6EJS-HPFE": {
-   "basis": "DC late_fee remediation 2026-07-17 (Tony ruling (b) \u2014 archive-hygiene, captures verified sound): load-bearing string byte-present in the hash-matched local capture; see docs/regime_reread/DC_20260717.md + RECHECK_LEDGER DC late_fee rows.",
+   "basis": "DC late_fee remediation 2026-07-17 (Tony ruling (b) — archive-hygiene, captures verified sound): load-bearing string byte-present in the hash-matched local capture; see docs/regime_reread/DC_20260717.md + RECHECK_LEDGER DC late_fee rows.",
    "source_url": "https://code.dccouncil.gov/us/dc/council/code/sections/47-2851.10",
    "strings": [
     "has not been renewed by its expiration date shall be deemed to be lapsed"
    ]
   },
   "6F28-UZ72": {
-   "skip": "GetHtmlDocument JSON endpoint did not render bill text to the capture UA (grep registration=0); the failed-2014-bill admission (HS 1 for HB 187) is corroborating-only per the DE-A read \u2014 verdict rests on the Subch X statute (8MKC-TJMN) + Division of Revenue admission (WVV8-BGZE), both byte-verified",
+   "skip": "GetHtmlDocument JSON endpoint did not render bill text to the capture UA (grep registration=0); the failed-2014-bill admission (HS 1 for HB 187) is corroborating-only per the DE-A read — verdict rests on the Subch X statute (8MKC-TJMN) + Division of Revenue admission (WVV8-BGZE), both byte-verified",
    "source_url": "https://legis.delaware.gov/json/BillDetail/GetHtmlDocument?fileAttachmentId=46189"
   },
   "6FKW-NJJX": {
@@ -334,8 +334,8 @@
    ]
   },
   "6L79-FAWQ": {
-   "basis": "PA charitable renewal AGENCY SOURCE, BCO-10 Instructions REV-2024: the Bureau administers the renewal deadline flatly as the 15th day of the eleventh month following FYE close ('refiled (postmarked) no later than...'), printed on each Certificate of Registration \u2014 the as-administered basis for the 11th-month/15th encoding + POSTMARK filing mechanics. pdftotext byte-verified against the hash-pinned local PA/...BCO-10-instructio.pdf (sha abc5ed8c) 2026-07-14.",
-   "skip": "PDF primary \u2014 the Perma/WARC stores the PDF text FlateDecode-compressed, so verify_perma's utf-8 WARC grep cannot read it (binary-blind, line 282/424). The load-bearing strings above are pdftotext byte-verified against the sha-pinned LOCAL archive (verify-strings OK; verify_hashes recompute clean). Documented-skip tier for PDF primaries pending PDF-gate-v2 (pdftotext-from-WARC). 2026-07-14, PA renewal verify.",
+   "basis": "PA charitable renewal AGENCY SOURCE, BCO-10 Instructions REV-2024: the Bureau administers the renewal deadline flatly as the 15th day of the eleventh month following FYE close ('refiled (postmarked) no later than...'), printed on each Certificate of Registration — the as-administered basis for the 11th-month/15th encoding + POSTMARK filing mechanics. pdftotext byte-verified against the hash-pinned local PA/...BCO-10-instructio.pdf (sha abc5ed8c) 2026-07-14.",
+   "skip": "PDF primary — the Perma/WARC stores the PDF text FlateDecode-compressed, so verify_perma's utf-8 WARC grep cannot read it (binary-blind, line 282/424). The load-bearing strings above are pdftotext byte-verified against the sha-pinned LOCAL archive (verify-strings OK; verify_hashes recompute clean). Documented-skip tier for PDF primaries pending PDF-gate-v2 (pdftotext-from-WARC). 2026-07-14, PA renewal verify.",
    "source_url": "https://www.pa.gov/content/dam/copapwp-pagov/en/dos/programs/charities/BCO-10-instructions-REV-2024.pdf",
    "strings": [
     "15th day of the eleventh month",
@@ -344,7 +344,7 @@
    ]
   },
   "6LEA-WWFG": {
-   "skip": "binary artifact (pdf/zip/docx); Perma capture exists (149750B WARC) but verify-perma's raw-byte grep can't read a binary payload \u2014 the intended PDF SKIP. Load-bearing strings verified against the LOCAL bytes via by_sha256 (df37705bb027\u2026).",
+   "skip": "binary artifact (pdf/zip/docx); Perma capture exists (149750B WARC) but verify-perma's raw-byte grep can't read a binary payload — the intended PDF SKIP. Load-bearing strings verified against the LOCAL bytes via by_sha256 (df37705bb027…).",
    "source_url": "https://publications.tnsosfiles.com/acts/113/pub/pc0615.pdf"
   },
   "6VNS-3G4V": {
@@ -366,7 +366,7 @@
    ]
   },
   "6ZDY-65UP": {
-   "basis": "DC late_fee remediation 2026-07-17 (Tony ruling (b) \u2014 archive-hygiene, captures verified sound): load-bearing string byte-present in the hash-matched local capture; see docs/regime_reread/DC_20260717.md + RECHECK_LEDGER DC late_fee rows.",
+   "basis": "DC late_fee remediation 2026-07-17 (Tony ruling (b) — archive-hygiene, captures verified sound): load-bearing string byte-present in the hash-matched local capture; see docs/regime_reread/DC_20260717.md + RECHECK_LEDGER DC late_fee rows.",
    "source_url": "https://dlcp.dc.gov/node/1618416",
    "strings": [
     "Charitable Exempt"
@@ -382,7 +382,7 @@
    ]
   },
   "74FR-AR4T": {
-   "basis": "strings verified present in local artifact NE/sos.nebraska.gov-licensing-information-charitable-solicitors.html (SOS plain-language no-registration statement, \u00a71.4 agency-lane grounding)",
+   "basis": "strings verified present in local artifact NE/sos.nebraska.gov-licensing-information-charitable-solicitors.html (SOS plain-language no-registration statement, §1.4 agency-lane grounding)",
    "source_url": "https://sos.nebraska.gov/licensing/information-charitable-solicitors",
    "strings": [
     "no longer required to register with our office",
@@ -390,15 +390,15 @@
    ]
   },
   "76UV-R5CQ": {
-   "skip": "pdf payload \u2014 WARC grep is text/html-only (disclosed cut). Secondary/corroborative source for IA reg=FALSE (https://www.iowaattorneygeneral.gov/media/cms/FundraiserFormRevised3_D3AFBBE149EAE.pdf); the load-bearing verification is the by_sha256-anchored primary statute, not this artifact.",
+   "skip": "pdf payload — WARC grep is text/html-only (disclosed cut). Secondary/corroborative source for IA reg=FALSE (https://www.iowaattorneygeneral.gov/media/cms/FundraiserFormRevised3_D3AFBBE149EAE.pdf); the load-bearing verification is the by_sha256-anchored primary statute, not this artifact.",
    "source_url": "https://www.iowaattorneygeneral.gov/media/cms/FundraiserFormRevised3_D3AFBBE149EAE.pdf"
   },
   "797S-QB9Q": {
-   "skip": "PDF tier (documented skip, batch-promote 2026-07-05): WARC payload is application/pdf \u2014 the v1 text-grep cannot reach it; load-bearing strings were byte-verified via pdftotext against the LOCAL artifact at crank (sign-off package in AR.sql); PDF-gate-v2 (WARC\u2192pdftotext\u2192grep) is the owed upgrade \u2014 ledger tripwire fires on the escalation-set recount.",
+   "skip": "PDF tier (documented skip, batch-promote 2026-07-05): WARC payload is application/pdf — the v1 text-grep cannot reach it; load-bearing strings were byte-verified via pdftotext against the LOCAL artifact at crank (sign-off package in AR.sql); PDF-gate-v2 (WARC→pdftotext→grep) is the owed upgrade — ledger tripwire fires on the escalation-set recount.",
    "source_url": "http://www.sos.arkansas.gov/uploads/bcs/SoS_CR-03_AnnualFinancialReportForm_5_2026.pdf"
   },
   "79MK-V4VH": {
-   "skip": "pdf payload \u2014 v1 text/html-only",
+   "skip": "pdf payload — v1 text/html-only",
    "source_url": "https://sos.sc.gov/sites/sos/files/Documents/Charities/Charities%20-%20Deadlines%20PDF2021.pdf"
   },
   "7ABS-UE5D": {
@@ -409,7 +409,7 @@
    ]
   },
   "7AHD-4KUF": {
-   "skip": "UTF-16 tier (documented skip, batch-2 2026-07-06): sdlegislature.gov API serves text/html;charset=utf-16 \u2014 v1 utf-8 text-grep cannot reach it; string 'Repealed by SL 1984, ch 260' byte-verified via iconv against the LOCAL artifact. Same E5 class as PDF/DOCX/JSON.",
+   "skip": "UTF-16 tier (documented skip, batch-2 2026-07-06): sdlegislature.gov API serves text/html;charset=utf-16 — v1 utf-8 text-grep cannot reach it; string 'Repealed by SL 1984, ch 260' byte-verified via iconv against the LOCAL artifact. Same E5 class as PDF/DOCX/JSON.",
    "source_url": "https://sdlegislature.gov/api/Statutes/37-27.html?all=true"
   },
   "7PHF-UQFC": {
@@ -422,14 +422,14 @@
    ]
   },
   "7QFZ-Z9JX": {
-   "basis": "DC late_fee remediation 2026-07-17 (Tony ruling (b) \u2014 archive-hygiene, captures verified sound): load-bearing string byte-present in the hash-matched local capture; see docs/regime_reread/DC_20260717.md + RECHECK_LEDGER DC late_fee rows.",
+   "basis": "DC late_fee remediation 2026-07-17 (Tony ruling (b) — archive-hygiene, captures verified sound): load-bearing string byte-present in the hash-matched local capture; see docs/regime_reread/DC_20260717.md + RECHECK_LEDGER DC late_fee rows.",
    "source_url": "https://code.dccouncil.gov/us/dc/council/laws/25-217",
    "strings": [
     "This act shall apply as of October 1, 2025"
    ]
   },
   "7TT8-RDDC": {
-   "basis": "DC late_fee remediation 2026-07-17 (Tony ruling (b) \u2014 archive-hygiene, captures verified sound): load-bearing string byte-present in the hash-matched local capture; see docs/regime_reread/DC_20260717.md + RECHECK_LEDGER DC late_fee rows.",
+   "basis": "DC late_fee remediation 2026-07-17 (Tony ruling (b) — archive-hygiene, captures verified sound): load-bearing string byte-present in the hash-matched local capture; see docs/regime_reread/DC_20260717.md + RECHECK_LEDGER DC late_fee rows.",
    "source_url": "https://code.dccouncil.gov/us/dc/council/laws/26-78",
    "strings": [
     "expire after 225 days"
@@ -445,7 +445,7 @@
    ]
   },
   "7X6S-2KJA": {
-   "basis": "DC late_fee remediation 2026-07-17 (Tony ruling (b) \u2014 archive-hygiene, captures verified sound): load-bearing string byte-present in the hash-matched local capture; see docs/regime_reread/DC_20260717.md + RECHECK_LEDGER DC late_fee rows.",
+   "basis": "DC late_fee remediation 2026-07-17 (Tony ruling (b) — archive-hygiene, captures verified sound): load-bearing string byte-present in the hash-matched local capture; see docs/regime_reread/DC_20260717.md + RECHECK_LEDGER DC late_fee rows.",
    "source_url": "https://code.dccouncil.gov/us/dc/council/code/sections/47-2851.09",
    "strings": [
     "Repealed",
@@ -453,7 +453,7 @@
    ]
   },
   "83PJ-5JFF": {
-   "skip": "PDF tier (documented skip, batch-promote 2026-07-05): WARC payload is application/pdf \u2014 the v1 text-grep cannot reach it; load-bearing strings were byte-verified via pdftotext against the LOCAL artifact at crank (sign-off package in MD.sql); PDF-gate-v2 (WARC\u2192pdftotext\u2192grep) is the owed upgrade \u2014 ledger tripwire fires on the escalation-set recount.",
+   "skip": "PDF tier (documented skip, batch-promote 2026-07-05): WARC payload is application/pdf — the v1 text-grep cannot reach it; load-bearing strings were byte-verified via pdftotext against the LOCAL artifact at crank (sign-off package in MD.sql); PDF-gate-v2 (WARC→pdftotext→grep) is the owed upgrade — ledger tripwire fires on the escalation-set recount.",
    "source_url": "https://sos.maryland.gov/Documents/AnnualUpdateForm.pdf"
   },
   "83SA-WBYR": {
@@ -467,7 +467,7 @@
    ]
   },
   "87KN-E83J": {
-   "basis": "NV currency sweep: 2023 session section table (AB126\u219282.534 = the extraction control; 0 rows for ch. 82A). Strings grep-verified byte-present (raw) in the hash-matched local archive NV/www.leg.state.nv.us-Session-82nd2023-Reports-TablesAndIndex-2023_82-Section.html.html (2026-07-18, NV apply-gate remediation; GUIDs minted at the 07-17 quota-refill retry).",
+   "basis": "NV currency sweep: 2023 session section table (AB126→82.534 = the extraction control; 0 rows for ch. 82A). Strings grep-verified byte-present (raw) in the hash-matched local archive NV/www.leg.state.nv.us-Session-82nd2023-Reports-TablesAndIndex-2023_82-Section.html.html (2026-07-18, NV apply-gate remediation; GUIDs minted at the 07-17 quota-refill retry).",
    "source_url": "https://www.leg.state.nv.us/Session/82nd2023/Reports/TablesAndIndex/2023_82-Section.html",
    "strings": [
     "82.534"
@@ -482,7 +482,7 @@
    ]
   },
   "8MKC-TJMN": {
-   "basis": "strings verified present in local artifact DE/delcode.delaware.gov-title6-c025-sc10-index.html.html \u2014 the Delaware Charitable/Fraternal Solicitation Act (6 Del. C. Subch. X, sec 2591-2597) TOC; NO registration/license/permit/bond section anywhere; authored at capture 2026-07-04",
+   "basis": "strings verified present in local artifact DE/delcode.delaware.gov-title6-c025-sc10-index.html.html — the Delaware Charitable/Fraternal Solicitation Act (6 Del. C. Subch. X, sec 2591-2597) TOC; NO registration/license/permit/bond section anywhere; authored at capture 2026-07-04",
    "source_url": "https://delcode.delaware.gov/title6/c025/sc10/index.html",
    "strings": [
     "Fraternal",
@@ -501,7 +501,7 @@
    ]
   },
   "8YUV-EKZT": {
-   "basis": "NV ch. 80: NRS 80.015 doing-business carve-out \u2014 the track-selection criterion's statutory basis. Strings grep-verified byte-present (raw) in the hash-matched local archive NV/www.leg.state.nv.us-NRS-NRS-080.html.html (2026-07-18, NV apply-gate remediation; GUIDs minted at the 07-17 quota-refill retry).",
+   "basis": "NV ch. 80: NRS 80.015 doing-business carve-out — the track-selection criterion's statutory basis. Strings grep-verified byte-present (raw) in the hash-matched local archive NV/www.leg.state.nv.us-NRS-NRS-080.html.html (2026-07-18, NV apply-gate remediation; GUIDs minted at the 07-17 quota-refill retry).",
    "source_url": "https://www.leg.state.nv.us/NRS/NRS-080.html",
    "strings": [
     "Activities not constituting doing business",
@@ -518,23 +518,23 @@
    ]
   },
   "94PT-UNF2": {
-   "skip": "corroborative secondary for IN reg=FALSE (https://www.in.gov/dor/business-tax/nonprofit-tax-forms/); not the load-bearing artifact \u2014 the reg=FALSE finding rests on the by_sha256-anchored primary statute + the crank's exhaustive corpus enumeration. String-verification of this secondary skipped (documented, session-6 A8).",
+   "skip": "corroborative secondary for IN reg=FALSE (https://www.in.gov/dor/business-tax/nonprofit-tax-forms/); not the load-bearing artifact — the reg=FALSE finding rests on the by_sha256-anchored primary statute + the crank's exhaustive corpus enumeration. String-verification of this secondary skipped (documented, session-6 A8).",
    "source_url": "https://www.in.gov/dor/business-tax/nonprofit-tax-forms/"
   },
   "9AYR-MDUY": {
-   "basis": "strings verified present in local artifact NE/nebraskalegislature.gov-laws-statutes.php-statute-28-1440.html (the operative repeal marker on the former registration statute \u2014 the reg=FALSE finding, primary)",
+   "basis": "strings verified present in local artifact NE/nebraskalegislature.gov-laws-statutes.php-statute-28-1440.html (the operative repeal marker on the former registration statute — the reg=FALSE finding, primary)",
    "source_url": "https://nebraskalegislature.gov/laws/statutes.php?statute=28-1440",
    "strings": [
-    "Repealed. Laws 1996, LB 972, \u00a7 4.",
+    "Repealed. Laws 1996, LB 972, § 4.",
     "28-1440"
    ]
   },
   "9DAG-DDUM": {
-   "skip": "PDF tier (item-4 --verify-perma v1 is text/html-only). STATUTE C.R.S. 6-16-104(5)(a) \u2014 the event-coupling MIN(8th-month day-15 cap, 990-authorized date) that the operational-page verify 4257-DBRE (coloradosos renew.html) does NOT surface. Coupling strings 'earlier of the fifteenth day of the eighth calendar month' + 'the date authorized for filing a form 990' byte-verified present via pdftotext of hash-matched local CO/leg.colorado.gov-sites-default-files-images-olls-crs2023-title-06.pdf.pdf (sha256 f6a1d1e14e...). pdftotext-from-WARC v2 owed (SC 3DL3-TLG9 tier). Added 2026-07-04 \u2014 CO corrected-method template.",
+   "skip": "PDF tier (item-4 --verify-perma v1 is text/html-only). STATUTE C.R.S. 6-16-104(5)(a) — the event-coupling MIN(8th-month day-15 cap, 990-authorized date) that the operational-page verify 4257-DBRE (coloradosos renew.html) does NOT surface. Coupling strings 'earlier of the fifteenth day of the eighth calendar month' + 'the date authorized for filing a form 990' byte-verified present via pdftotext of hash-matched local CO/leg.colorado.gov-sites-default-files-images-olls-crs2023-title-06.pdf.pdf (sha256 f6a1d1e14e...). pdftotext-from-WARC v2 owed (SC 3DL3-TLG9 tier). Added 2026-07-04 — CO corrected-method template.",
    "source_url": "https://leg.colorado.gov/sites/default/files/images/olls/crs2023-title-06.pdf"
   },
   "9GVH-N9MJ": {
-   "skip": "binary artifact (pdf/zip/docx); Perma capture exists (545625B WARC) but verify-perma's raw-byte grep can't read a binary payload \u2014 the intended PDF SKIP. Load-bearing strings verified against the LOCAL bytes via by_sha256 (179623564d76\u2026).",
+   "skip": "binary artifact (pdf/zip/docx); Perma capture exists (545625B WARC) but verify-perma's raw-byte grep can't read a binary payload — the intended PDF SKIP. Load-bearing strings verified against the LOCAL bytes via by_sha256 (179623564d76…).",
    "source_url": "https://iga.in.gov/ic/2026/Title_23/Article_7/Chapter_8.pdf"
   },
   "9JSA-94HL": {
@@ -546,7 +546,7 @@
    ]
   },
   "9N7N-TJWS": {
-   "skip": "manually captured by Tony 2026-07-12, but the page is a JS-rendered SPA \u2014 Perma's copy is a shell missing the content (verify-perma COMPLETENESS FAIL). Local bytes string-verified via by_sha256 (eaa4328b2d26\u2026).",
+   "skip": "manually captured by Tony 2026-07-12, but the page is a JS-rendered SPA — Perma's copy is a shell missing the content (verify-perma COMPLETENESS FAIL). Local bytes string-verified via by_sha256 (eaa4328b2d26…).",
    "source_url": "https://azsos.gov/business/other-services/veterans-charities-organizations"
   },
   "9R7X-G7YP": {
@@ -559,7 +559,7 @@
    ]
   },
   "9RP3-UL2Z": {
-   "skip": "pdf payload \u2014 WARC grep v1 is text/html-only (disclosed cut). Carries the must_apply=TRUE corroboration ('Charities claiming to be exempt from registration must still file a Charitable Organization Exemption Form'); local-byte-verified via pdftotext at capture. The string-backed must_apply witness is the AG HTML page KHP6-GX9X.",
+   "skip": "pdf payload — WARC grep v1 is text/html-only (disclosed cut). Carries the must_apply=TRUE corroboration ('Charities claiming to be exempt from registration must still file a Charitable Organization Exemption Form'); local-byte-verified via pdftotext at capture. The string-backed must_apply witness is the AG HTML page KHP6-GX9X.",
    "source_url": "https://www.ag.state.mn.us/brochures/pubGuidetoCharitieslaws.pdf"
   },
   "9Z4J-2D8Q": {
@@ -582,11 +582,11 @@
    ]
   },
   "A7QN-79YW": {
-   "skip": "pdf payload \u2014 v1 text/html-only",
+   "skip": "pdf payload — v1 text/html-only",
    "source_url": "https://www.ohioattorneygeneral.gov/Files/Publications-Files/Publications-for-Business/Online-Charitable-Registration-Information-Sheet"
   },
   "AG2B-YC27": {
-   "skip": "PDF tier (documented skip, batch-promote 2026-07-05): WARC payload is application/pdf \u2014 the v1 text-grep cannot reach it; load-bearing strings were byte-verified via pdftotext against the LOCAL artifact at crank (sign-off package in TN.sql); PDF-gate-v2 (WARC\u2192pdftotext\u2192grep) is the owed upgrade \u2014 ledger tripwire fires on the escalation-set recount.",
+   "skip": "PDF tier (documented skip, batch-promote 2026-07-05): WARC payload is application/pdf — the v1 text-grep cannot reach it; load-bearing strings were byte-verified via pdftotext against the LOCAL artifact at crank (sign-off package in TN.sql); PDF-gate-v2 (WARC→pdftotext→grep) is the owed upgrade — ledger tripwire fires on the escalation-set recount.",
    "source_url": "https://publications.tnsosfiles.com/acts/113/pub/pc0533.pdf"
   },
   "AMQ7-XDBG": {
@@ -599,7 +599,7 @@
    ]
   },
   "AWC9-75N5": {
-   "basis": "re-homed from stale perma B7PE-3LZK 2026-07-09 (GUID re-keyed, content unchanged) \u2014 $50k exemption threshold + 30-day tripwire; local WV/code.wvlegislature.gov-29-19-6.html",
+   "basis": "re-homed from stale perma B7PE-3LZK 2026-07-09 (GUID re-keyed, content unchanged) — $50k exemption threshold + 30-day tripwire; local WV/code.wvlegislature.gov-29-19-6.html",
    "source_url": "https://code.wvlegislature.gov/29-19-6/",
    "strings": [
     "in excess of $50,000 during a calendar year",
@@ -607,11 +607,11 @@
    ]
   },
   "B2Q4-5YM2": {
-   "skip": "MA source archived as a gzipped Perma-WARC download (perma.cc/B2Q4-5YM2); extract_text does not decompress .warc.gz so the substring checker sees no text \u2014 string-verification skipped. Non-primary corroborative; MA's load-bearing claim is carried by MA's primary artifact.",
+   "skip": "MA source archived as a gzipped Perma-WARC download (perma.cc/B2Q4-5YM2); extract_text does not decompress .warc.gz so the substring checker sees no text — string-verification skipped. Non-primary corroborative; MA's load-bearing claim is carried by MA's primary artifact.",
    "source_url": "https://perma.cc/B2Q4-5YM2"
   },
   "B3QJ-ADG4": {
-   "basis": "NV primary (NRS 82A): \u00a71 registration mandate 82A.100(1); Track A catch-up sentence 82A.100(3)(a); Track B anchor 82A.100(3)(b); must-apply exemption 82A.110(2). Strings grep-verified byte-present (raw) in the hash-matched local archive NV/www.leg.state.nv.us-NRS-NRS-082A.html.html (2026-07-18, NV apply-gate remediation; GUIDs minted at the 07-17 quota-refill retry).",
+   "basis": "NV primary (NRS 82A): §1 registration mandate 82A.100(1); Track A catch-up sentence 82A.100(3)(a); Track B anchor 82A.100(3)(b); must-apply exemption 82A.110(2). Strings grep-verified byte-present (raw) in the hash-matched local archive NV/www.leg.state.nv.us-NRS-NRS-082A.html.html (2026-07-18, NV apply-gate remediation; GUIDs minted at the 07-17 quota-refill retry).",
    "source_url": "https://www.leg.state.nv.us/NRS/NRS-082A.html",
    "strings": [
     "organization is registered with the Secretary of State",
@@ -621,18 +621,18 @@
    ]
   },
   "BGJ8-22RT": {
-   "basis": "strings from the crank sign-off package in IL.sql; installed at batch-promote 2026-07-05; 'annual' dropped \u2014 tag-separated in the render",
+   "basis": "strings from the crank sign-off package in IL.sql; installed at batch-promote 2026-07-05; 'annual' dropped — tag-separated in the render",
    "source_url": "https://www.ilga.gov/documents/legislation/ilcs/documents/076000550K7.htm",
    "strings": [
     "financial report within 6 months of the close"
    ]
   },
   "BQ67-XHR3": {
-   "skip": "DCMR ch.16-13 rule-LIST navigation page (dynamic dcregs render); not load-bearing for a specific claim \u2014 the load-bearing DCMR sections are the 4 .doc downloads above; captured as structure context",
+   "skip": "DCMR ch.16-13 rule-LIST navigation page (dynamic dcregs render); not load-bearing for a specific claim — the load-bearing DCMR sections are the 4 .doc downloads above; captured as structure context",
    "source_url": "https://www.dcregs.dc.gov/Common/DCMR/RuleList.aspx?ChapterNum=16-13"
   },
   "BW5Q-GGSE": {
-   "basis": "re-homed from stale perma G44L-753L 2026-07-09 (WV artifact re-Perma'd post-apply; GUID re-keyed, content unchanged) \u2014 operative ANNUAL-cycle finding, F1; local WV/code.wvlegislature.gov-29-19-5.html",
+   "basis": "re-homed from stale perma G44L-753L 2026-07-09 (WV artifact re-Perma'd post-apply; GUID re-keyed, content unchanged) — operative ANNUAL-cycle finding, F1; local WV/code.wvlegislature.gov-29-19-5.html",
    "source_url": "https://code.wvlegislature.gov/29-19-5/",
    "strings": [
     "good for one full year",
@@ -640,7 +640,7 @@
    ]
   },
   "C2NY-CNF6": {
-   "skip": "binary PDF secondary (Title 11, agriculture/gaming) \u2014 boundary corpus; gaming conditional documented in notes; sha-pinned + hash-verified.",
+   "skip": "binary PDF secondary (Title 11, agriculture/gaming) — boundary corpus; gaming conditional documented in notes; sha-pinned + hash-verified.",
    "source_url": "https://wyoleg.gov/statutes/compress/title11.pdf"
   },
   "C3NE-DY2U": {
@@ -661,30 +661,30 @@
    ]
   },
   "CEZ4-KK5R": {
-   "basis": "DC late_fee remediation 2026-07-17 (Tony ruling (b) \u2014 archive-hygiene, captures verified sound): load-bearing string byte-present in the hash-matched local capture; see docs/regime_reread/DC_20260717.md + RECHECK_LEDGER DC late_fee rows.",
+   "basis": "DC late_fee remediation 2026-07-17 (Tony ruling (b) — archive-hygiene, captures verified sound): load-bearing string byte-present in the hash-matched local capture; see docs/regime_reread/DC_20260717.md + RECHECK_LEDGER DC late_fee rows.",
    "source_url": "https://code.dccouncil.gov/us/dc/council/code/sections/44-1703",
    "strings": [
     "No person shall solicit in the District of Columbia unless"
    ]
   },
   "CUL6-DWLU": {
-   "skip": "pdf payload \u2014 WARC grep is text/html-only (disclosed cut). Secondary/corroborative source for IA reg=FALSE (https://www.legis.iowa.gov/docs/code/633A.pdf); the load-bearing verification is the by_sha256-anchored primary statute, not this artifact.",
+   "skip": "pdf payload — WARC grep is text/html-only (disclosed cut). Secondary/corroborative source for IA reg=FALSE (https://www.legis.iowa.gov/docs/code/633A.pdf); the load-bearing verification is the by_sha256-anchored primary statute, not this artifact.",
    "source_url": "https://www.legis.iowa.gov/docs/code/633A.pdf"
   },
   "D3XT-JZYV": {
-   "skip": "KNOWN-INCOMPLETE, MEASURED 2026-06-12: Perma's crawler ALSO archived the F5 'Request Rejected' WAF body (x6 in the 78KB WARC, title 'Request Rejected') \u2014 the law.alaska.gov URL-selective wall blocks Perma's egress too; refutes the 06-11 'likely clean (different egress)' prediction. FAQ content covered by the charityreg primary (inline, byte-verified) + the 2026-06-12 principal-browser-print PDF; nothing rests on this GUID. Was a MEASUREMENT entry; measurement complete.",
+   "skip": "KNOWN-INCOMPLETE, MEASURED 2026-06-12: Perma's crawler ALSO archived the F5 'Request Rejected' WAF body (x6 in the 78KB WARC, title 'Request Rejected') — the law.alaska.gov URL-selective wall blocks Perma's egress too; refutes the 06-11 'likely clean (different egress)' prediction. FAQ content covered by the charityreg primary (inline, byte-verified) + the 2026-06-12 principal-browser-print PDF; nothing rests on this GUID. Was a MEASUREMENT entry; measurement complete.",
    "source_url": "https://www.law.alaska.gov/consumer/charityFAQ.html"
   },
   "D4HD-EHKF": {
-   "skip": "SUPERSEDED-HISTORICAL (2013 AG PDF, captured 2026-07-10 then same-session demoted): its \u00a7305 is amendment MARKUP \u2014 the old offset text and the inserted 2013 day:15 text sit adjacent in extraction, so the artifact byte-contains BOTH deadline forms and any verify-string against it is ambiguous by construction. NEVER use for string verification. Retained as historical evidence of the CA rule flip-flop (offset -> day:15 (2013 amendment) -> offset (current, per Cornell \u00a7305 + RRF-1 Rev. 01/2024 + AG renewals page)).",
+   "skip": "SUPERSEDED-HISTORICAL (2013 AG PDF, captured 2026-07-10 then same-session demoted): its §305 is amendment MARKUP — the old offset text and the inserted 2013 day:15 text sit adjacent in extraction, so the artifact byte-contains BOTH deadline forms and any verify-string against it is ambiguous by construction. NEVER use for string verification. Retained as historical evidence of the CA rule flip-flop (offset -> day:15 (2013 amendment) -> offset (current, per Cornell §305 + RRF-1 Rev. 01/2024 + AG renewals page)).",
    "source_url": "https://oag.ca.gov/sites/all/files/agweb/pdfs/charities/Sections-300-312.1.pdf"
   },
   "D6E8-QZQK": {
-   "skip": "PDF tier (documented skip, batch-promote 2026-07-05): WARC payload is application/pdf \u2014 the v1 text-grep cannot reach it; load-bearing strings were byte-verified via pdftotext against the LOCAL artifact at crank (sign-off package in NM.sql); PDF-gate-v2 (WARC\u2192pdftotext\u2192grep) is the owed upgrade \u2014 ledger tripwire fires on the escalation-set recount. (367pp Chapter 57 compiler PDF)",
+   "skip": "PDF tier (documented skip, batch-promote 2026-07-05): WARC payload is application/pdf — the v1 text-grep cannot reach it; load-bearing strings were byte-verified via pdftotext against the LOCAL artifact at crank (sign-off package in NM.sql); PDF-gate-v2 (WARC→pdftotext→grep) is the owed upgrade — ledger tripwire fires on the escalation-set recount. (367pp Chapter 57 compiler PDF)",
    "source_url": "https://nmonesource.com/nmos/nmsa/en/4423/1/document.do"
   },
   "D73W-PAKM": {
-   "skip": "pdf payload \u2014 v1 text/html-only",
+   "skip": "pdf payload — v1 text/html-only",
    "source_url": "https://www.doj.state.or.us/wp-content/uploads/2026/01/2025_web_ct-12f.pdf"
   },
   "D8YS-CJ6P": {
@@ -718,22 +718,22 @@
    ]
   },
   "E5DK-8EBR": {
-   "basis": "DC late_fee remediation 2026-07-17 (Tony ruling (b) \u2014 archive-hygiene, captures verified sound): load-bearing string byte-present in the hash-matched local capture; see docs/regime_reread/DC_20260717.md + RECHECK_LEDGER DC late_fee rows.",
+   "basis": "DC late_fee remediation 2026-07-17 (Tony ruling (b) — archive-hygiene, captures verified sound): load-bearing string byte-present in the hash-matched local capture; see docs/regime_reread/DC_20260717.md + RECHECK_LEDGER DC late_fee rows.",
    "source_url": "https://code.dccouncil.gov/us/dc/council/code/sections/47-2851.07(Perm)",
    "strings": [
     "valid for a period of 6 months or 2 years"
    ]
   },
   "E8LU-TDEB": {
-   "skip": "binary artifact (pdf/zip/docx); Perma capture exists (500415B WARC) but verify-perma's raw-byte grep can't read a binary payload \u2014 the intended PDF SKIP. Load-bearing strings verified against the LOCAL bytes via by_sha256 (bbaefb74edfa\u2026).",
+   "skip": "binary artifact (pdf/zip/docx); Perma capture exists (500415B WARC) but verify-perma's raw-byte grep can't read a binary payload — the intended PDF SKIP. Load-bearing strings verified against the LOCAL bytes via by_sha256 (bbaefb74edfa…).",
    "source_url": "https://sos.wyo.gov/Business/docs/BusinessFees.pdf"
   },
   "E9VF-REJQ": {
-   "skip": "pdf payload \u2014 v1 text/html-only",
+   "skip": "pdf payload — v1 text/html-only",
    "source_url": "https://sos.sc.gov/sites/sos/files/Documents/Charities/Registration%20Statement%20for%20a%20Charitable%20Organization.pdf"
   },
   "EEH6-47DY": {
-   "skip": "binary artifact (pdf/zip/docx); Perma capture exists (269620B WARC) but verify-perma's raw-byte grep can't read a binary payload \u2014 the intended PDF SKIP. Load-bearing strings verified against the LOCAL bytes via by_sha256 (62b46738e952\u2026).",
+   "skip": "binary artifact (pdf/zip/docx); Perma capture exists (269620B WARC) but verify-perma's raw-byte grep can't read a binary payload — the intended PDF SKIP. Load-bearing strings verified against the LOCAL bytes via by_sha256 (62b46738e952…).",
    "source_url": "https://iga.in.gov/ic/2026/Title_23/Article_17/Chapter_25.5.pdf"
   },
   "EJA8-V62W": {
@@ -744,30 +744,30 @@
    ]
   },
   "EQ97-M63W": {
-   "skip": "binary OLE2/MS-Word .doc (16 DCMR \u00a71303); magic d0cf11e0 + readable section text verified 2026-07-17; strings not greppable in the Perma WARC binary payload",
+   "skip": "binary OLE2/MS-Word .doc (16 DCMR §1303); magic d0cf11e0 + readable section text verified 2026-07-17; strings not greppable in the Perma WARC binary payload",
    "source_url": "https://dcregs.dc.gov/Common/DCMR/RuleList.aspx?DownloadFile=50C2545F-0000-C0E4-B052-09164F1E0C29"
   },
   "EYK4-K49L": {
-   "basis": "DC late_fee remediation 2026-07-17 (Tony ruling (b) \u2014 archive-hygiene, captures verified sound): load-bearing string byte-present in the hash-matched local capture; see docs/regime_reread/DC_20260717.md + RECHECK_LEDGER DC late_fee rows.",
+   "basis": "DC late_fee remediation 2026-07-17 (Tony ruling (b) — archive-hygiene, captures verified sound): load-bearing string byte-present in the hash-matched local capture; see docs/regime_reread/DC_20260717.md + RECHECK_LEDGER DC late_fee rows.",
    "source_url": "https://code.dccouncil.gov/us/dc/council/code/sections/29-102.11",
    "strings": [
     "by April 1 of the year following the calendar year"
    ]
   },
   "F49K-SNC9": {
-   "skip": "binary PDF PRIMARY \u2014 load-bearing absence + positive controls enforced via by_sha256 (verify_strings), sha 2a7e997e4a18\u2026; verify_perma covers link-resolution only.",
+   "skip": "binary PDF PRIMARY — load-bearing absence + positive controls enforced via by_sha256 (verify_strings), sha 2a7e997e4a18…; verify_perma covers link-resolution only.",
    "source_url": "https://wyoleg.gov/statutes/compress/title40.pdf"
   },
   "F8AG-VSYV": {
-   "skip": "pdf payload \u2014 WARC grep is text/html-only (disclosed cut). Secondary/corroborative source for IA reg=FALSE (https://www.legis.iowa.gov/docs/code/714.16.pdf); the load-bearing verification is the by_sha256-anchored primary statute, not this artifact.",
+   "skip": "pdf payload — WARC grep is text/html-only (disclosed cut). Secondary/corroborative source for IA reg=FALSE (https://www.legis.iowa.gov/docs/code/714.16.pdf); the load-bearing verification is the by_sha256-anchored primary statute, not this artifact.",
    "source_url": "https://www.legis.iowa.gov/docs/code/714.16.pdf"
   },
   "FKA6-YMQD": {
-   "skip": "manually captured by Tony 2026-07-12 (Perma crawler had failed this host); binary artifact \u2014 verify-perma can't grep the payload, local bytes string-verified via by_sha256 (0d8a3b5038f6\u2026).",
+   "skip": "manually captured by Tony 2026-07-12 (Perma crawler had failed this host); binary artifact — verify-perma can't grep the payload, local bytes string-verified via by_sha256 (0d8a3b5038f6…).",
    "source_url": "https://web.archive.org/web/20250920120921/https://www.legis.iowa.gov/docs/code/504.1613.pdf"
   },
   "FW6P-URLQ": {
-   "basis": "strings verified present in local artifact NE/protectthegoodlife.nebraska.gov-nonprofit-corporations.html (AG no-registration statement + the AG's own repeal acknowledgment; both readers independently flagged the AG's 'Supreme Court decision' phrasing \u2014 operative event is the LEGISLATIVE repeal, LB 972 \u00a74)",
+   "basis": "strings verified present in local artifact NE/protectthegoodlife.nebraska.gov-nonprofit-corporations.html (AG no-registration statement + the AG's own repeal acknowledgment; both readers independently flagged the AG's 'Supreme Court decision' phrasing — operative event is the LEGISLATIVE repeal, LB 972 §4)",
    "source_url": "https://protectthegoodlife.nebraska.gov/nonprofit-corporations",
    "strings": [
     "does not trigger separate registration with the Nebraska Attorney General",
@@ -783,18 +783,18 @@
    ]
   },
   "G2N8-LFN2": {
-   "basis": "DC late_fee remediation 2026-07-17 (Tony ruling (b) \u2014 archive-hygiene, captures verified sound): load-bearing string byte-present in the hash-matched local capture; see docs/regime_reread/DC_20260717.md + RECHECK_LEDGER DC late_fee rows.",
+   "basis": "DC late_fee remediation 2026-07-17 (Tony ruling (b) — archive-hygiene, captures verified sound): load-bearing string byte-present in the hash-matched local capture; see docs/regime_reread/DC_20260717.md + RECHECK_LEDGER DC late_fee rows.",
    "source_url": "https://dlcp.dc.gov/BBLRenewalOverview",
    "strings": [
     "last day of the same month two or four years later"
    ]
   },
   "G75N-FNAT": {
-   "skip": "pdf payload \u2014 v1 text/html-only",
+   "skip": "pdf payload — v1 text/html-only",
    "source_url": "https://www.maine.gov/pfr/professionallicensing/sites/maine.gov.pfr.professionallicensing/files/inline-files/CHA-org-afar.pdf"
   },
   "GDF4-BEKD": {
-   "skip": "binary artifact (pdf/zip/docx); Perma capture exists (788322B WARC) but verify-perma's raw-byte grep can't read a binary payload \u2014 the intended PDF SKIP. Load-bearing strings verified against the LOCAL bytes via by_sha256 (6ac7cedbdf07\u2026).",
+   "skip": "binary artifact (pdf/zip/docx); Perma capture exists (788322B WARC) but verify-perma's raw-byte grep can't read a binary payload — the intended PDF SKIP. Load-bearing strings verified against the LOCAL bytes via by_sha256 (6ac7cedbdf07…).",
    "source_url": "https://ago.vermont.gov/sites/ago/files/2025-11/Chritable-Nonprofit-Board-Guidance.pdf"
   },
   "GN8L-VRND": {
@@ -807,7 +807,7 @@
    ]
   },
   "GPQ8-6JZB": {
-   "skip": "PDF tier (documented skip, batch-promote 2026-07-05): WARC payload is application/pdf \u2014 the v1 text-grep cannot reach it; load-bearing strings were byte-verified via pdftotext against the LOCAL artifact at crank (sign-off package in AL.sql); PDF-gate-v2 (WARC\u2192pdftotext\u2192grep) is the owed upgrade \u2014 ledger tripwire fires on the escalation-set recount.",
+   "skip": "PDF tier (documented skip, batch-promote 2026-07-05): WARC payload is application/pdf — the v1 text-grep cannot reach it; load-bearing strings were byte-verified via pdftotext against the LOCAL artifact at crank (sign-off package in AL.sql); PDF-gate-v2 (WARC→pdftotext→grep) is the owed upgrade — ledger tripwire fires on the escalation-set recount.",
    "source_url": "https://www.alabamaag.gov/wp-content/uploads/2026/05/File-Consumer-AL-Charitable-Organization-Registration.pdf"
   },
   "GXT4-EG73": {
@@ -820,7 +820,7 @@
    ]
   },
   "H3NW-EQ7R": {
-   "skip": "binary artifact (pdf/zip/docx); Perma capture exists (931727B WARC) but verify-perma's raw-byte grep can't read a binary payload \u2014 the intended PDF SKIP. Load-bearing strings verified against the LOCAL bytes via by_sha256 (70325aa75611\u2026).",
+   "skip": "binary artifact (pdf/zip/docx); Perma capture exists (931727B WARC) but verify-perma's raw-byte grep can't read a binary payload — the intended PDF SKIP. Load-bearing strings verified against the LOCAL bytes via by_sha256 (70325aa75611…).",
    "source_url": "https://le.utah.gov/Session/2026/bills/enrolled/SB0038.pdf"
   },
   "H586-UGHX": {
@@ -834,7 +834,7 @@
    ]
   },
   "H6FT-X49Z": {
-   "skip": "pdf payload \u2014 v1 text/html-only. The conjunctive-exemption checkbox ('performed wholly by volunteers and the organization does not employ a professional fundraiser'), 'No filing fee is required', two-officer signature, and one-time cadence (no annual/renew language) all local-byte-verified via pdftotext at capture.",
+   "skip": "pdf payload — v1 text/html-only. The conjunctive-exemption checkbox ('performed wholly by volunteers and the organization does not employ a professional fundraiser'), 'No filing fee is required', two-officer signature, and one-time cadence (no annual/renew language) all local-byte-verified via pdftotext at capture.",
    "source_url": "https://www.ag.state.mn.us/charity/Forms/C3_ExemptionForm.pdf"
   },
   "H93X-34VY": {
@@ -845,7 +845,7 @@
    ]
   },
   "HCV6-T85S": {
-   "basis": "carve-out act: Occ. Code Ch. 1804 Veterans Solicitation Act (narrow org-type, \u2192 SoS); authored at capture 2026-07-04",
+   "basis": "carve-out act: Occ. Code Ch. 1804 Veterans Solicitation Act (narrow org-type, → SoS); authored at capture 2026-07-04",
    "source_url": "https://tcss.legis.texas.gov/resources/OC/htm/OC.1804.htm",
    "strings": [
     "registration statement"
@@ -894,7 +894,7 @@
    ]
   },
   "J96L-K786": {
-   "basis": "carve-out act: Bus. & Com. Code Ch. 303 LETSA (law-enforcement charities soliciting by telephone, \u2192 AG); authored at capture 2026-07-04",
+   "basis": "carve-out act: Bus. & Com. Code Ch. 303 LETSA (law-enforcement charities soliciting by telephone, → AG); authored at capture 2026-07-04",
    "source_url": "https://tcss.legis.texas.gov/resources/BC/htm/BC.303.htm",
    "strings": [
     "registration statement"
@@ -908,7 +908,7 @@
    ]
   },
   "JW68-X843": {
-   "skip": "utf-16 tier \u2014 WARC utf-8 grep cannot reach it (sdlegislature.gov API). Secondary/corroborative source for SD reg=FALSE (https://sdlegislature.gov/api/Statutes/37-30.html?all=true); load-bearing verification is on the by_sha256 primary.",
+   "skip": "utf-16 tier — WARC utf-8 grep cannot reach it (sdlegislature.gov API). Secondary/corroborative source for SD reg=FALSE (https://sdlegislature.gov/api/Statutes/37-30.html?all=true); load-bearing verification is on the by_sha256 primary.",
    "source_url": "https://sdlegislature.gov/api/Statutes/37-30.html?all=true"
   },
   "K7TX-LEBM": {
@@ -928,7 +928,7 @@
    ]
   },
   "KHP6-GX9X": {
-   "basis": "strings verified present in local artifact MN/www.ag.state.mn.us-charity-InfoCharitableorgandTrusts.asp.html \u2014 the must_apply=TRUE HTML witness (the AG requires exempt orgs to file an exemption form); authored at capture, 2026-06-14",
+   "basis": "strings verified present in local artifact MN/www.ag.state.mn.us-charity-InfoCharitableorgandTrusts.asp.html — the must_apply=TRUE HTML witness (the AG requires exempt orgs to file an exemption form); authored at capture, 2026-06-14",
    "source_url": "https://www.ag.state.mn.us/charity/InfoCharitableorgandTrusts.asp",
    "strings": [
     "submit an exemption form"
@@ -953,11 +953,11 @@
    ]
   },
   "L4R4-E23K": {
-   "skip": "pdf payload (WARC grep is text/html-only). The MT Legislative Services Division study's '11 states that do not require registration ... Delaware, Idaho, ... Montana, ... Texas' admission (names all four batch states) is corroborating closure; verdict rests on the byte-verified \u00a730-14-1405 statute (N52X-GPLV) + DOJ admission (R9UM-YKNP)",
+   "skip": "pdf payload (WARC grep is text/html-only). The MT Legislative Services Division study's '11 states that do not require registration ... Delaware, Idaho, ... Montana, ... Texas' admission (names all four batch states) is corroborating closure; verdict rests on the byte-verified §30-14-1405 statute (N52X-GPLV) + DOJ admission (R9UM-YKNP)",
    "source_url": "https://archive.legmt.gov/content/Committees/Interim/2015-2016/Revenue-and-Transportation/Meetings/Nov-2015/state-nonprofit-reporting.pdf"
   },
   "L94T-58FM": {
-   "skip": "utf-16 tier \u2014 WARC utf-8 grep cannot reach it (sdlegislature.gov API). Secondary/corroborative source for SD reg=FALSE (https://sdlegislature.gov/api/Statutes/37-30A.html?all=true); load-bearing verification is on the by_sha256 primary.",
+   "skip": "utf-16 tier — WARC utf-8 grep cannot reach it (sdlegislature.gov API). Secondary/corroborative source for SD reg=FALSE (https://sdlegislature.gov/api/Statutes/37-30A.html?all=true); load-bearing verification is on the by_sha256 primary.",
    "source_url": "https://sdlegislature.gov/api/Statutes/37-30A.html?all=true"
   },
   "LA7K-VDW6": {
@@ -977,8 +977,8 @@
    ]
   },
   "M7FP-CDHP": {
-   "basis": "ND \u00a71 verify 2026-07-17: registration mandate (N.D.C.C. 50-22-02(1)), Sept-1 delivery-anchored annual report + $10 fee (50-22-04(1)), lapse-on-miss (50-22-04(5)), Dec-1 extension cap (50-22-04(1)). Strings chosen line-wrap-safe for pdftotext -layout; byte-verified against the local artifact at authoring; 3 independent fetches sha-identical. Read doc docs/regime_reread/ND_20260717.md.",
-   "skip": "PDF \u2014 the Perma/WARC stores the PDF text FlateDecode-compressed, so verify_perma's utf-8 WARC grep cannot read it (binary-blind). The load-bearing strings above are pdftotext byte-verified against the sha-pinned LOCAL archive (verify-strings OK this apply; verify-hashes recompute clean). Documented-skip tier for PDF primaries pending PDF-gate-v2 (pdftotext-from-WARC). 2026-07-17, ND verify.",
+   "basis": "ND §1 verify 2026-07-17: registration mandate (N.D.C.C. 50-22-02(1)), Sept-1 delivery-anchored annual report + $10 fee (50-22-04(1)), lapse-on-miss (50-22-04(5)), Dec-1 extension cap (50-22-04(1)). Strings chosen line-wrap-safe for pdftotext -layout; byte-verified against the local artifact at authoring; 3 independent fetches sha-identical. Read doc docs/regime_reread/ND_20260717.md.",
+   "skip": "PDF — the Perma/WARC stores the PDF text FlateDecode-compressed, so verify_perma's utf-8 WARC grep cannot read it (binary-blind). The load-bearing strings above are pdftotext byte-verified against the sha-pinned LOCAL archive (verify-strings OK this apply; verify-hashes recompute clean). Documented-skip tier for PDF primaries pending PDF-gate-v2 (pdftotext-from-WARC). 2026-07-17, ND verify.",
    "source_url": "https://ndlegis.gov/cencode/t50c22.pdf",
    "strings": [
     "may not solicit contributions from persons in this state",
@@ -989,11 +989,11 @@
    ]
   },
   "M8F9-4EFE": {
-   "skip": "Navigation/landing capture (SOS charities home) \u2014 carries NO load-bearing claim for CO's encoded values; byte-inspected 2026-07-09 (deadline/990/renewal strings absent; page is portal links + contact). Load-bearing operational strings live in 4257-DBRE (renew.html) + RW99-CZZN (extensions.html). Retained as capture-context. Added 2026-07-09 at CO promote (0b rider findings).",
+   "skip": "Navigation/landing capture (SOS charities home) — carries NO load-bearing claim for CO's encoded values; byte-inspected 2026-07-09 (deadline/990/renewal strings absent; page is portal links + contact). Load-bearing operational strings live in 4257-DBRE (renew.html) + RW99-CZZN (extensions.html). Retained as capture-context. Added 2026-07-09 at CO promote (0b rider findings).",
    "source_url": "https://www.coloradosos.gov/pubs/charities/charitableHome.html"
   },
   "M9A7-YN8F": {
-   "basis": "strings verified present in local artifact ID/legislature.idaho.gov-statutesrules-idstat-title48-t48ch12.html \u2014 the Idaho Charitable Solicitation Act (Title 48 Ch 12) TOC/sections; NO registration section (only 48-1203 unlawful-acts + container-label); authored at capture 2026-07-04",
+   "basis": "strings verified present in local artifact ID/legislature.idaho.gov-statutesrules-idstat-title48-t48ch12.html — the Idaho Charitable Solicitation Act (Title 48 Ch 12) TOC/sections; NO registration section (only 48-1203 unlawful-acts + container-label); authored at capture 2026-07-04",
    "source_url": "https://legislature.idaho.gov/statutesrules/idstat/title48/t48ch12/",
    "strings": [
     "Charitable Solicitation",
@@ -1002,7 +1002,7 @@
    ]
   },
   "N52X-GPLV": {
-   "basis": "strings verified present in local artifact MT/mca.legmt.gov-...0300-0140.html \u2014 MCA \u00a730-14-1405(2), the EXPRESS charitable exemption from the Telemarketing Registration Act ('do not apply to ... a person engaged in solicitation for a religious, charitable, ... or other noncommercial purpose'); authored at capture 2026-07-04",
+   "basis": "strings verified present in local artifact MT/mca.legmt.gov-...0300-0140.html — MCA §30-14-1405(2), the EXPRESS charitable exemption from the Telemarketing Registration Act ('do not apply to ... a person engaged in solicitation for a religious, charitable, ... or other noncommercial purpose'); authored at capture 2026-07-04",
    "source_url": "https://mca.legmt.gov/bills/mca/title_0300/chapter_0140/part_0140/section_0050/0300-0140-0140-0050.html",
    "strings": [
     "noncommercial purpose",
@@ -1011,7 +1011,7 @@
    ]
   },
   "N6KA-GLX2": {
-   "skip": "pdf payload \u2014 v1 text/html-only",
+   "skip": "pdf payload — v1 text/html-only",
    "source_url": "https://ag.ny.gov/sites/default/files/regulatory-documents/char500-user-guide.pdf"
   },
   "NAN2-PKN5": {
@@ -1025,11 +1025,11 @@
    ]
   },
   "NHT8-ESYQ": {
-   "skip": "manually captured by Tony 2026-07-12 (Perma crawler had failed this host); binary artifact \u2014 verify-perma can't grep the payload, local bytes string-verified via by_sha256 (4ae724f7b4d8\u2026).",
+   "skip": "manually captured by Tony 2026-07-12 (Perma crawler had failed this host); binary artifact — verify-perma can't grep the payload, local bytes string-verified via by_sha256 (4ae724f7b4d8…).",
    "source_url": "https://law.resource.org/pub/us/code/ga/gov.ga.ocga.2019.08.21.release.73.zip"
   },
   "NUV4-MSK6": {
-   "skip": "pdf payload \u2014 v1 text/html-only",
+   "skip": "pdf payload — v1 text/html-only",
    "source_url": "https://sos.sc.gov/sites/sos/files/Documents/Charities/Application_for_Registration_Exemption.pdf"
   },
   "P4ZH-6LBJ": {
@@ -1038,23 +1038,23 @@
    "source_url": "https://www.akleg.gov/basis/statutes.asp#45.68"
   },
   "P6A7-A9PJ": {
-   "skip": "pdf payload \u2014 WARC grep is text/html-only (disclosed cut). Secondary/corroborative source for IN reg=FALSE (https://www.in.gov/dor/files/ib17.pdf); the load-bearing verification is the by_sha256-anchored primary statute, not this artifact.",
+   "skip": "pdf payload — WARC grep is text/html-only (disclosed cut). Secondary/corroborative source for IN reg=FALSE (https://www.in.gov/dor/files/ib17.pdf); the load-bearing verification is the by_sha256-anchored primary statute, not this artifact.",
    "source_url": "https://www.in.gov/dor/files/ib17.pdf"
   },
   "PBK4-CKQ7": {
-   "skip": "pdf payload \u2014 WARC grep is text/html-only (disclosed cut). Secondary/corroborative source for IA reg=FALSE (https://www.legis.iowa.gov/docs/code/633A.5107.pdf); the load-bearing verification is the by_sha256-anchored primary statute, not this artifact.",
+   "skip": "pdf payload — WARC grep is text/html-only (disclosed cut). Secondary/corroborative source for IA reg=FALSE (https://www.legis.iowa.gov/docs/code/633A.5107.pdf); the load-bearing verification is the by_sha256-anchored primary statute, not this artifact.",
    "source_url": "https://www.legis.iowa.gov/docs/code/633A.5107.pdf"
   },
   "PER9-HBPJ": {
-   "skip": "binary artifact (pdf/zip/docx); Perma capture exists (451692B WARC) but verify-perma's raw-byte grep can't read a binary payload \u2014 the intended PDF SKIP. Load-bearing strings verified against the LOCAL bytes via by_sha256 (564842137b48\u2026).",
+   "skip": "binary artifact (pdf/zip/docx); Perma capture exists (451692B WARC) but verify-perma's raw-byte grep can't read a binary payload — the intended PDF SKIP. Load-bearing strings verified against the LOCAL bytes via by_sha256 (564842137b48…).",
    "source_url": "https://www.doj.state.or.us/wp-content/uploads/2026/01/2025_web_ct-12.pdf"
   },
   "PQW2-5A6W": {
-   "skip": "pdf payload \u2014 WARC grep v1 is text/html-only (disclosed cut)",
+   "skip": "pdf payload — WARC grep v1 is text/html-only (disclosed cut)",
    "source_url": "https://www.law.alaska.gov/pdf/consumer/RegIntructions-Online.pdf"
   },
   "PX7U-BSCY": {
-   "skip": "PDF tier (documented skip, batch-promote 2026-07-05): WARC payload is application/pdf \u2014 the v1 text-grep cannot reach it; load-bearing strings were byte-verified via pdftotext against the LOCAL artifact at crank (sign-off package in VA.sql); PDF-gate-v2 (WARC\u2192pdftotext\u2192grep) is the owed upgrade \u2014 ledger tripwire fires on the escalation-set recount.",
+   "skip": "PDF tier (documented skip, batch-promote 2026-07-05): WARC payload is application/pdf — the v1 text-grep cannot reach it; load-bearing strings were byte-verified via pdftotext against the LOCAL artifact at crank (sign-off package in VA.sql); PDF-gate-v2 (WARC→pdftotext→grep) is the owed upgrade — ledger tripwire fires on the escalation-set recount.",
    "source_url": "https://www.vdacs.virginia.gov/pdf/oca102registrationstatement.pdf"
   },
   "Q3SM-3EUC": {
@@ -1067,7 +1067,7 @@
    ]
   },
   "Q52B-AS5T": {
-   "skip": "manually captured by Tony 2026-07-12, but the page is a JS-rendered SPA \u2014 Perma's copy is a shell missing the content (verify-perma COMPLETENESS FAIL). Local bytes string-verified via by_sha256 (3e1b0a820a68\u2026).",
+   "skip": "manually captured by Tony 2026-07-12, but the page is a JS-rendered SPA — Perma's copy is a shell missing the content (verify-perma COMPLETENESS FAIL). Local bytes string-verified via by_sha256 (3e1b0a820a68…).",
    "source_url": "https://web.archive.org/web/20260517221825/https://azcc.gov/faqs/BusinessServicesFAQs"
   },
   "Q586-SMFN": {
@@ -1094,7 +1094,7 @@
    ]
   },
   "Q9EW-VS3G": {
-   "basis": "RI \u00a75-53.1-2 \u2014 renewal cycle/anchor (annual, approval-date) + $90 fee + override clause; verbatim in local bytes (RI audit 2026-06-21)",
+   "basis": "RI §5-53.1-2 — renewal cycle/anchor (annual, approval-date) + $90 fee + override clause; verbatim in local bytes (RI audit 2026-06-21)",
    "source_url": "https://webserver.rilegislature.gov/Statutes/TITLE5/5-53.1/5-53.1-2.htm",
    "strings": [
     "ninety dollars",
@@ -1111,7 +1111,7 @@
    ]
   },
   "R9UM-YKNP": {
-   "basis": "string verified present in local artifact MT/dojmt.gov-...telemarketing-businesses.html \u2014 the MT DOJ admission (agency lane): a nonprofit that 'seeks donations without selling anything ... does not qualify as telemarketing'; authored at capture 2026-07-04",
+   "basis": "string verified present in local artifact MT/dojmt.gov-...telemarketing-businesses.html — the MT DOJ admission (agency lane): a nonprofit that 'seeks donations without selling anything ... does not qualify as telemarketing'; authored at capture 2026-07-04",
    "source_url": "https://dojmt.gov/office-of-consumer-protection/telemarketing-businesses/",
    "strings": [
     "does not qualify as telemarketing"
@@ -1139,15 +1139,15 @@
    ]
   },
   "S4WE-4VUM": {
-   "skip": "PDF tier (documented skip, batch-promote 2026-07-05): WARC payload is application/pdf \u2014 the v1 text-grep cannot reach it; load-bearing strings were byte-verified via pdftotext against the LOCAL artifact at crank (sign-off package in NC.sql); PDF-gate-v2 (WARC\u2192pdftotext\u2192grep) is the owed upgrade \u2014 ledger tripwire fires on the escalation-set recount.",
+   "skip": "PDF tier (documented skip, batch-promote 2026-07-05): WARC payload is application/pdf — the v1 text-grep cannot reach it; load-bearing strings were byte-verified via pdftotext against the LOCAL artifact at crank (sign-off package in NC.sql); PDF-gate-v2 (WARC→pdftotext→grep) is the owed upgrade — ledger tripwire fires on the escalation-set recount.",
    "source_url": "https://www.ncleg.gov/EnactedLegislation/SessionLaws/PDF/2023-2024/SL2023-119.pdf"
   },
   "S5ZB-AA24": {
-   "skip": "manually captured by Tony 2026-07-12 \u2014 a SINGLE combined PDF assembled from the 7 other WA sources (WAC 434-120-042/047/140; RCW 1.16.050, 19.09.062/075/085). All 7 manifest entries point here; each source's content is string-verified locally via its own by_sha256 entry.",
+   "skip": "manually captured by Tony 2026-07-12 — a SINGLE combined PDF assembled from the 7 other WA sources (WAC 434-120-042/047/140; RCW 1.16.050, 19.09.062/075/085). All 7 manifest entries point here; each source's content is string-verified locally via its own by_sha256 entry.",
    "source_url": "https://app.leg.wa.gov/ (combined)"
   },
   "S6DY-B4KP": {
-   "skip": "binary artifact (pdf/zip/docx); Perma capture exists (399122B WARC) but verify-perma's raw-byte grep can't read a binary payload \u2014 the intended PDF SKIP. Load-bearing strings verified against the LOCAL bytes via by_sha256 (a4ac8c9d22c9\u2026).",
+   "skip": "binary artifact (pdf/zip/docx); Perma capture exists (399122B WARC) but verify-perma's raw-byte grep can't read a binary payload — the intended PDF SKIP. Load-bearing strings verified against the LOCAL bytes via by_sha256 (a4ac8c9d22c9…).",
    "source_url": "https://iga.in.gov/ic/2026/Title_24/Article_4.7/Chapter_1.pdf"
   },
   "S73Z-KZ2U": {
@@ -1178,19 +1178,19 @@
    ]
   },
   "SEA9-YQLS": {
-   "skip": "binary artifact (pdf/zip/docx); Perma capture exists (515679B WARC) but verify-perma's raw-byte grep can't read a binary payload \u2014 the intended PDF SKIP. Load-bearing strings verified against the LOCAL bytes via by_sha256 (02b19175a878\u2026).",
+   "skip": "binary artifact (pdf/zip/docx); Perma capture exists (515679B WARC) but verify-perma's raw-byte grep can't read a binary payload — the intended PDF SKIP. Load-bearing strings verified against the LOCAL bytes via by_sha256 (02b19175a878…).",
    "source_url": "https://ago.vermont.gov/sites/ago/files/wp-content/uploads/2018/03/CP-Rule-119.pdf"
   },
   "ST3X-TU2V": {
-   "skip": "binary OLE2/MS-Word .doc (16 DCMR \u00a71304); magic d0cf11e0 + readable section text verified 2026-07-17; strings not greppable in the Perma WARC binary payload",
+   "skip": "binary OLE2/MS-Word .doc (16 DCMR §1304); magic d0cf11e0 + readable section text verified 2026-07-17; strings not greppable in the Perma WARC binary payload",
    "source_url": "https://dcregs.dc.gov/Common/DCMR/RuleList.aspx?DownloadFile=60C2545F-0000-CF2A-8055-41C8FC0B1FE8"
   },
   "SY7N-FQCW": {
-   "skip": "pdf payload \u2014 WARC grep is text/html-only (disclosed cut). Secondary/corroborative source for SD reg=FALSE (https://consumer.sd.gov/docs/charities.pdf); the load-bearing verification is the by_sha256-anchored primary statute, not this artifact.",
+   "skip": "pdf payload — WARC grep is text/html-only (disclosed cut). Secondary/corroborative source for SD reg=FALSE (https://consumer.sd.gov/docs/charities.pdf); the load-bearing verification is the by_sha256-anchored primary statute, not this artifact.",
    "source_url": "https://consumer.sd.gov/docs/charities.pdf"
   },
   "SY9E-R59B": {
-   "skip": "binary artifact (pdf/zip/docx); Perma capture exists (147085B WARC) but verify-perma's raw-byte grep can't read a binary payload \u2014 the intended PDF SKIP. Load-bearing strings verified against the LOCAL bytes via by_sha256 (6b72ddf3e311\u2026).",
+   "skip": "binary artifact (pdf/zip/docx); Perma capture exists (147085B WARC) but verify-perma's raw-byte grep can't read a binary payload — the intended PDF SKIP. Load-bearing strings verified against the LOCAL bytes via by_sha256 (6b72ddf3e311…).",
    "source_url": "https://www.doa.la.gov/media/oz2lmv1v/16.docx"
   },
   "T22C-J9BK": {
@@ -1203,15 +1203,15 @@
    ]
   },
   "T3NQ-TMTB": {
-   "skip": "PDF tier (documented skip, batch-promote 2026-07-05): WARC payload is application/pdf \u2014 the v1 text-grep cannot reach it; load-bearing strings were byte-verified via pdftotext against the LOCAL artifact at crank (sign-off package in TN.sql); PDF-gate-v2 (WARC\u2192pdftotext\u2192grep) is the owed upgrade \u2014 ledger tripwire fires on the escalation-set recount.",
+   "skip": "PDF tier (documented skip, batch-promote 2026-07-05): WARC payload is application/pdf — the v1 text-grep cannot reach it; load-bearing strings were byte-verified via pdftotext against the LOCAL artifact at crank (sign-off package in TN.sql); PDF-gate-v2 (WARC→pdftotext→grep) is the owed upgrade — ledger tripwire fires on the escalation-set recount.",
    "source_url": "https://rda.tnsosfiles.com/legal-citation/2176.legal.pdf"
   },
   "T8JX-UD4N": {
-   "skip": "binary artifact (pdf/zip/docx); Perma capture exists (301067B WARC) but verify-perma's raw-byte grep can't read a binary payload \u2014 the intended PDF SKIP. Load-bearing strings verified against the LOCAL bytes via by_sha256 (4b115c3cbf9e\u2026).",
+   "skip": "binary artifact (pdf/zip/docx); Perma capture exists (301067B WARC) but verify-perma's raw-byte grep can't read a binary payload — the intended PDF SKIP. Load-bearing strings verified against the LOCAL bytes via by_sha256 (4b115c3cbf9e…).",
    "source_url": "https://ag.louisiana.gov/Files/Article/70/Documents/CharitableExemptionForm.pdf"
   },
   "TVD2-L824": {
-   "skip": "MEASURED 2026-07-05 (batch-promote string install): the HB1290IN capture is CONTENT-EMPTY at the byte layer \u2014 zero hits for 'charitable'/'fifteenth'/'79-11-503' in the 95KB local artifact and the WARC grep agrees (COMPLETENESS FAIL) \u2014 the capture holds a shell/frameset, NOT the bill text the crank cited as 'base-text reproduction'. DISCLOSED DEGRADATION of one currency-corroboration prong: MS's currency chain still stands on the died-bills sweep (HB367/HB134/HB1290/HB5/HB516 all died in committee through 2026) + the enacted SB2447 PRIMARY (H93X-34VY, strings verified in WARC). Nothing value-bearing rests on this GUID. Shown-at-next-packet per the D2(b) clause.",
+   "skip": "MEASURED 2026-07-05 (batch-promote string install): the HB1290IN capture is CONTENT-EMPTY at the byte layer — zero hits for 'charitable'/'fifteenth'/'79-11-503' in the 95KB local artifact and the WARC grep agrees (COMPLETENESS FAIL) — the capture holds a shell/frameset, NOT the bill text the crank cited as 'base-text reproduction'. DISCLOSED DEGRADATION of one currency-corroboration prong: MS's currency chain still stands on the died-bills sweep (HB367/HB134/HB1290/HB5/HB516 all died in committee through 2026) + the enacted SB2447 PRIMARY (H93X-34VY, strings verified in WARC). Nothing value-bearing rests on this GUID. Shown-at-next-packet per the D2(b) clause.",
    "source_url": "https://billstatus.ls.state.ms.us/documents/2024/html/HB/1200-1299/HB1290IN.htm"
   },
   "U5YT-ZBSG": {
@@ -1231,11 +1231,11 @@
    ]
   },
   "V6WZ-69C5": {
-   "skip": "PDF tier (documented skip, batch-promote 2026-07-05): WARC payload is application/pdf \u2014 the v1 text-grep cannot reach it; load-bearing strings were byte-verified via pdftotext against the LOCAL artifact at crank (sign-off package in AR.sql); PDF-gate-v2 (WARC\u2192pdftotext\u2192grep) is the owed upgrade \u2014 ledger tripwire fires on the escalation-set recount.",
+   "skip": "PDF tier (documented skip, batch-promote 2026-07-05): WARC payload is application/pdf — the v1 text-grep cannot reach it; load-bearing strings were byte-verified via pdftotext against the LOCAL artifact at crank (sign-off package in AR.sql); PDF-gate-v2 (WARC→pdftotext→grep) is the owed upgrade — ledger tripwire fires on the escalation-set recount.",
    "source_url": "https://arkleg.state.ar.us/Acts/FTPDocument?path=%2FACTS%2F2019R%2FPublic%2F&file=137.pdf"
   },
   "VG2X-AXXH": {
-   "basis": "WY reg=FALSE \u2014 load-bearing SoS admission (negative admission). Two-reader \u00a71 loop 2026-07-06.",
+   "basis": "WY reg=FALSE — load-bearing SoS admission (negative admission). Two-reader §1 loop 2026-07-06.",
    "source_url": "https://sos.wyo.gov/faqs.aspx?root=BUS",
    "strings": [
     "Wyoming has no state requirements for charities and fund raisers"
@@ -1257,15 +1257,15 @@
    ]
   },
   "W64R-HCNJ": {
-   "skip": "binary artifact (pdf/zip/docx); Perma capture exists (1140709B WARC) but verify-perma's raw-byte grep can't read a binary payload \u2014 the intended PDF SKIP. Load-bearing strings verified against the LOCAL bytes via by_sha256 (d11fc94e2091\u2026).",
+   "skip": "binary artifact (pdf/zip/docx); Perma capture exists (1140709B WARC) but verify-perma's raw-byte grep can't read a binary payload — the intended PDF SKIP. Load-bearing strings verified against the LOCAL bytes via by_sha256 (d11fc94e2091…).",
    "source_url": "https://www.sos.wa.gov/_assets/charities/charitable-organization-renewal.pdf"
   },
   "W7AD-EVLG": {
-   "skip": "binary artifact (pdf/zip/docx); Perma capture exists (758275B WARC) but verify-perma's raw-byte grep can't read a binary payload \u2014 the intended PDF SKIP. Load-bearing strings verified against the LOCAL bytes via by_sha256 (ffad00b3bddd\u2026).",
+   "skip": "binary artifact (pdf/zip/docx); Perma capture exists (758275B WARC) but verify-perma's raw-byte grep can't read a binary payload — the intended PDF SKIP. Load-bearing strings verified against the LOCAL bytes via by_sha256 (ffad00b3bddd…).",
    "source_url": "https://mm.nh.gov/files/uploads/doj/remote-docs/jus-400-adopted-rule.pdf"
   },
   "WVV8-BGZE": {
-   "basis": "string verified present in local artifact DE/revenue.delaware.gov-business-tax-forms-fundraisers-and-charitable-solicitations.html \u2014 the Division of Revenue admission (agency lane); authored at capture 2026-07-04",
+   "basis": "string verified present in local artifact DE/revenue.delaware.gov-business-tax-forms-fundraisers-and-charitable-solicitations.html — the Division of Revenue admission (agency lane); authored at capture 2026-07-04",
    "source_url": "https://revenue.delaware.gov/business-tax-forms/fundraisers-and-charitable-solicitations/",
    "strings": [
     "no State statute requiring registration"
@@ -1290,8 +1290,8 @@
    ]
   },
   "WY8M-AGYA": {
-   "basis": "PA charitable renewal STATUTE PRIMARY, 10 P.S. \u00a7162.5(k): the load-bearing operative deadline \u2014 the department may extend annual filing to a mailing date 'not to exceed the fifteenth day of the eleventh month following the close of the fiscal year' (the encoded 11th-month/15th ceiling, administered universally per BCO-10). Positive controls anchor the artifact as the real Act 202 reproduction. pdftotext byte-verified against the hash-pinned local PA/...CharitiesSolicita.pdf (sha 72254b37) 2026-07-14; two-reader \u00a71 verify.",
-   "skip": "PDF primary \u2014 the Perma/WARC stores the PDF text FlateDecode-compressed, so verify_perma's utf-8 WARC grep cannot read it (binary-blind, line 282/424). The load-bearing strings above are pdftotext byte-verified against the sha-pinned LOCAL archive (verify-strings OK; verify_hashes recompute clean). Documented-skip tier for PDF primaries pending PDF-gate-v2 (pdftotext-from-WARC). 2026-07-14, PA renewal verify.",
+   "basis": "PA charitable renewal STATUTE PRIMARY, 10 P.S. §162.5(k): the load-bearing operative deadline — the department may extend annual filing to a mailing date 'not to exceed the fifteenth day of the eleventh month following the close of the fiscal year' (the encoded 11th-month/15th ceiling, administered universally per BCO-10). Positive controls anchor the artifact as the real Act 202 reproduction. pdftotext byte-verified against the hash-pinned local PA/...CharitiesSolicita.pdf (sha 72254b37) 2026-07-14; two-reader §1 verify.",
+   "skip": "PDF primary — the Perma/WARC stores the PDF text FlateDecode-compressed, so verify_perma's utf-8 WARC grep cannot read it (binary-blind, line 282/424). The load-bearing strings above are pdftotext byte-verified against the sha-pinned LOCAL archive (verify-strings OK; verify_hashes recompute clean). Documented-skip tier for PDF primaries pending PDF-gate-v2 (pdftotext-from-WARC). 2026-07-14, PA renewal verify.",
    "source_url": "https://www.pa.gov/content/dam/copapwp-pagov/en/dos/programs/charities/CharitiesSolicitationAct-1-2018.pdf",
    "strings": [
     "fifteenth day of the eleventh month",
@@ -1307,15 +1307,15 @@
    ]
   },
   "X2LT-4CV4": {
-   "skip": "pdf payload \u2014 v1 text/html-only",
+   "skip": "pdf payload — v1 text/html-only",
    "source_url": "https://charitable.ohioago.gov/Charity-Registration/Publications/List-of-Annual-Report-Questions"
   },
   "X2MF-ABUZ": {
-   "skip": "binary artifact (pdf/zip/docx); Perma capture exists (179057B WARC) but verify-perma's raw-byte grep can't read a binary payload \u2014 the intended PDF SKIP. Load-bearing strings verified against the LOCAL bytes via by_sha256 (2a0db5e4140c\u2026).",
+   "skip": "binary artifact (pdf/zip/docx); Perma capture exists (179057B WARC) but verify-perma's raw-byte grep can't read a binary payload — the intended PDF SKIP. Load-bearing strings verified against the LOCAL bytes via by_sha256 (2a0db5e4140c…).",
    "source_url": "https://web.archive.org/web/20260523141254/https://ag.ny.gov/sites/default/files/2022-10/Regs-F.pdf"
   },
   "X2U6-T9NN": {
-   "basis": "MI charitable renewal (2026-07-05, Tony adjudication): the load-bearing MCL 400.277 phrases \u2014 expiration = 1yr7mo after the financial-statement end date; renewal filed 30 days before expiration. grep-verified byte-present in the hash-matched local HTML MI/www.legislature.mi.gov-Laws-MCL-objectName-MCL-400-277.html",
+   "basis": "MI charitable renewal (2026-07-05, Tony adjudication): the load-bearing MCL 400.277 phrases — expiration = 1yr7mo after the financial-statement end date; renewal filed 30 days before expiration. grep-verified byte-present in the hash-matched local HTML MI/www.legislature.mi.gov-Laws-MCL-objectName-MCL-400-277.html",
    "source_url": "https://www.legislature.mi.gov/Laws/MCL?objectName=MCL-400-277",
    "strings": [
     "1 year and 7 months",
@@ -1337,7 +1337,7 @@
    "basis": "strings from the crank sign-off package in NC.sql; installed at batch-promote 2026-07-05; byte-true fragment with the curly apostrophe as rendered",
    "source_url": "https://www.sosnc.gov/frequently_asked_questions/by_title/_charities",
    "strings": [
-    "based on your organization\u2019s fiscal year end"
+    "based on your organization’s fiscal year end"
    ]
   },
   "XSX5-L3P5": {
@@ -1369,7 +1369,7 @@
    ]
   },
   "Y6VK-2ZZH": {
-   "skip": "binary PDF secondary (Title 6, corporations) \u2014 boundary corpus for the code-wide absence sweep; not independently load-bearing; sha-pinned + hash-verified.",
+   "skip": "binary PDF secondary (Title 6, corporations) — boundary corpus for the code-wide absence sweep; not independently load-bearing; sha-pinned + hash-verified.",
    "source_url": "https://wyoleg.gov/statutes/compress/title06.pdf"
   },
   "YAC3-UNFX": {
@@ -1381,7 +1381,7 @@
    ]
   },
   "YF84-XRPU": {
-   "skip": "binary OLE2/MS-Word .doc (16 DCMR \u00a71301); magic d0cf11e0 + readable section text verified 2026-07-17; strings not greppable in the Perma WARC binary payload",
+   "skip": "binary OLE2/MS-Word .doc (16 DCMR §1301); magic d0cf11e0 + readable section text verified 2026-07-17; strings not greppable in the Perma WARC binary payload",
    "source_url": "https://dcregs.dc.gov/Common/DCMR/RuleList.aspx?DownloadFile={323FACC7-8663-45B9-829B-02DFB475C70A}"
   },
   "YVS9-S6MZ": {
@@ -1402,7 +1402,7 @@
    ]
   },
   "Z7TB-KHMY": {
-   "basis": "DC late_fee remediation 2026-07-17 (Tony ruling (b) \u2014 archive-hygiene, captures verified sound): load-bearing string byte-present in the hash-matched local capture; see docs/regime_reread/DC_20260717.md + RECHECK_LEDGER DC late_fee rows.",
+   "basis": "DC late_fee remediation 2026-07-17 (Tony ruling (b) — archive-hygiene, captures verified sound): load-bearing string byte-present in the hash-matched local capture; see docs/regime_reread/DC_20260717.md + RECHECK_LEDGER DC late_fee rows.",
    "source_url": "https://code.dccouncil.gov/us/dc/council/code/sections/47-2851.04",
    "strings": [
     "The Department shall not charge a license fee to a charity"
@@ -1423,7 +1423,7 @@
    ]
   },
   "ZG2H-SZK3": {
-   "basis": "FL 496.407 financial-statement thresholds: review-or-audit at $500K\u2013$1M, mandatory CPA audit at $1M+ in annual contributions",
+   "basis": "FL 496.407 financial-statement thresholds: review-or-audit at $500K–$1M, mandatory CPA audit at $1M+ in annual contributions",
    "source_url": "https://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&amp;URL=0400-0499/0496/Sections/0496.407.html",
    "strings": [
     "must file an annual financial statement for the immediately preceding fiscal year on a form prescribed by the department.",
@@ -1439,8 +1439,29 @@
    ]
   },
   "ZTY5-AFUX": {
-   "skip": "binary OLE2/MS-Word .doc (16 DCMR \u00a71305); magic d0cf11e0 + readable section text verified 2026-07-17; strings not greppable in the Perma WARC binary payload",
+   "skip": "binary OLE2/MS-Word .doc (16 DCMR §1305); magic d0cf11e0 + readable section text verified 2026-07-17; strings not greppable in the Perma WARC binary payload",
    "source_url": "https://dcregs.dc.gov/Common/DCMR/RuleList.aspx?DownloadFile=60C2545F-0000-C745-A56E-7B4A4DF553F0"
+  },
+  "PU43-FTCP": {
+   "basis": "WI Wis. Stat. 202.12 (2026-07-18 escalation re-capture; sha 754a9a0d byte-identical to the 2026-06-30 WXP2-EURJ capture => content unchanged): no charity may solicit unless registered (202.12(1)(a)); registrations expire July 31 (202.12(1)(e)); annual report within 12 months after FYE (202.12(3)(a)); audited over $1M / reviewed over $500k. WI_VERIFY_20260718.sql primary.",
+   "source_url": "https://docs.legis.wisconsin.gov/statutes/statutes/202/ii/12",
+   "strings": [
+    "no charitable organization may solicit in this state or have contributions solicited in this state on its behalf unless it is registered with the department",
+    "An audited financial statement for the most recently completed fiscal year of the charitable organization, if the charitable organization received contributions in excess of $1,000,000",
+    "A reviewed financial statement for the most recently completed fiscal year of the charitable organization, if the charitable organization received contributions in excess of $500,000",
+    "All charitable organization registrations expire on July 31 of each year"
+   ]
+  },
+  "F8DQ-QGQM": {
+   "basis": "WI DFI charitable FAQ (2026-07-18 escalation re-capture): register if soliciting with a paid employee or $25,000+ contributions; 30-day register-on-crossing; two-obligation (renewal vs annual report) confirmation. WI_VERIFY_20260718.sql secondary.",
+   "source_url": "https://dfi.wi.gov/Pages/BusinessServices/CharitableProfessionalOrganizations/CharitableOrganizationsFAQ.aspx",
+   "strings": [
+    "needs to register if it solicits in Wisconsin and either has a paid employee(s) and/or receives $25,000 or more in contributions in a fiscal year.",
+    "it must, within 30 days register with the division.",
+    "A charitable organization must submit this form if it received $25,000 or less in contributions during its most recently completed fiscal year.",
+    "A Charitable organization with a ‘home’ office outside of Wisconsin needs to be registered if it solicits in Wisconsin",
+    "The annual report and the renewal are two different annual requirements"
+   ]
   }
  },
  "by_sha256": {
@@ -1449,9 +1470,9 @@
    "source_url": "https://ago.vermont.gov/sites/ago/files/wp-content/uploads/2018/03/CP-Rule-119.pdf",
    "strings": [
     "RULE CP 119",
-    "ADOPTED PURSUANT TO 9 V.S.A. \u00a7 2479(b)",
+    "ADOPTED PURSUANT TO 9 V.S.A. § 2479(b)",
     "the fundraiser is being paid by the charity on whose behalf the solicitation is",
-    "It shall constitute an unfair and deceptive act or practice in commerce under 9 V.S.A. \u00a7"
+    "It shall constitute an unfair and deceptive act or practice in commerce under 9 V.S.A. §"
    ]
   },
   "0d8a3b5038f6a292795748bd5856825d8e8a113cb6c26b68d70c2a8b897cd9d0": {
@@ -1464,7 +1485,7 @@
    ]
   },
   "0f563db0ab22cb0ba2a551ba4b09e63e349203bedacaf7d765052745b0a31926": {
-   "basis": "ND corporate annual report (10-33-139(3)): 'before February second' \u2261 encoded 'February 1 each year'; confirms corporate_filing_deadline. ND verify 2026-07-17 secondary source.",
+   "basis": "ND corporate annual report (10-33-139(3)): 'before February second' ≡ encoded 'February 1 each year'; confirms corporate_filing_deadline. ND verify 2026-07-17 secondary source.",
    "source_url": "https://ndlegis.gov/cencode/t10c33.pdf",
    "strings": [
     "February second of each year",
@@ -1534,7 +1555,7 @@
    "absent": [
     "charit"
    ],
-   "basis": "WY reg=FALSE ABSENCE claim: Title 40 (Trade & Commerce, the natural home for charitable regulation) contains ZERO \"charit\" occurrences across all 33 chapters (the load-bearing negative). Positive controls anchor the artifact as the real Title 40 + the WCPA \u00a740-12-102 the reader relied on. Verified against the local hash-pinned artifact 2026-07-06 (charit count=0; controls present). Two-reader \u00a71 loop; record docs/BATCH2_REG_FALSE_SECOND_READ_2026-07-06.md.",
+   "basis": "WY reg=FALSE ABSENCE claim: Title 40 (Trade & Commerce, the natural home for charitable regulation) contains ZERO \"charit\" occurrences across all 33 chapters (the load-bearing negative). Positive controls anchor the artifact as the real Title 40 + the WCPA §40-12-102 the reader relied on. Verified against the local hash-pinned artifact 2026-07-06 (charit count=0; controls present). Two-reader §1 loop; record docs/BATCH2_REG_FALSE_SECOND_READ_2026-07-06.md.",
    "source_url": "https://wyoleg.gov/statutes/compress/title40.pdf",
    "strings": [
     "TITLE 40 - TRADE AND COMMERCE",
@@ -1561,7 +1582,7 @@
    ]
   },
   "44f430e8bbfeea86ca750237e3de84ff3d64a2103f4118d0cf8bb3d94d725e2e": {
-   "basis": "STATUTE, s. 496.407(1)(b) F.S. \u2014 the financial-statement audit/review threshold schedule the 2026-07-10 FL threshold encode rests on: <$500k optional; >=$500k <$1M reviewed-or-audited by an independent CPA; >=$1M audited. Captured 2026-07-10 (audit-sources 2859fa01) at the threshold-sweep fix; corroborated independently by the FDACS-10100 form (Rev. 01/26) question 19. MACHINE-VERIFIED via artifact_extract at encode.",
+   "basis": "STATUTE, s. 496.407(1)(b) F.S. — the financial-statement audit/review threshold schedule the 2026-07-10 FL threshold encode rests on: <$500k optional; >=$500k <$1M reviewed-or-audited by an independent CPA; >=$1M audited. Captured 2026-07-10 (audit-sources 2859fa01) at the threshold-sweep fix; corroborated independently by the FDACS-10100 form (Rev. 01/26) question 19. MACHINE-VERIFIED via artifact_extract at encode.",
    "source_url": "https://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0400-0499/0496/Sections/0496.407.html",
    "strings": [
     "at least $500,000 but less than $1 million",
@@ -1583,12 +1604,12 @@
    "basis": "LA Charitable Exemption Form: only listed org types may claim exemption; all others must register [moved from by_perma_guid T8JX-UD4N after verify-perma: Perma capture not string-verifiable]",
    "source_url": "https://ag.louisiana.gov/Files/Article/70/Documents/CharitableExemptionForm.pdf",
    "strings": [
-    "Pursuant to 16 LAC Pt. III \u00a7515 of the Louisiana Administrative Code, only the types of organizations listed",
+    "Pursuant to 16 LAC Pt. III §515 of the Louisiana Administrative Code, only the types of organizations listed",
     "below may file a registration exemption. All other organizations must register with the Louisiana Attorney"
    ]
   },
   "5200e394da4ff5aa02a716520ee53be9f401c951aa17edbe183136b928c6dae3": {
-   "basis": "STATUTE PRIMARY, RSA 7:28, V \u2014 the annual-report deadline clause (offset form): 'shall be filed not later than 4 months and 15 days following the close of the first calendar or fiscal year ... and annually thereafter'. Perma-null capture (Option B local-archive-first, retry-queued 2026-05-29) so verify_perma cannot cover it; this by_sha256 entry is the load-bearing string coverage. MACHINE-VERIFIED via artifact_extract (text/html lane) 2026-07-10 at the NH value-correction apply \u2014 these strings are the ones the corrected encode now rests on (the day:15 form they replace bore no support in this artifact). Added 2026-07-10.",
+   "basis": "STATUTE PRIMARY, RSA 7:28, V — the annual-report deadline clause (offset form): 'shall be filed not later than 4 months and 15 days following the close of the first calendar or fiscal year ... and annually thereafter'. Perma-null capture (Option B local-archive-first, retry-queued 2026-05-29) so verify_perma cannot cover it; this by_sha256 entry is the load-bearing string coverage. MACHINE-VERIFIED via artifact_extract (text/html lane) 2026-07-10 at the NH value-correction apply — these strings are the ones the corrected encode now rests on (the day:15 form they replace bore no support in this artifact). Added 2026-07-10.",
    "source_url": "https://gc.nh.gov/rsa/html/I/7/7-28.htm",
    "strings": [
     "4 months and 15 days following the close",
@@ -1605,7 +1626,7 @@
    ]
   },
   "567592807b88faff3856f13c412236ab76e4277ea277df4d697526041c3a6515": {
-   "basis": "REGULATION PRIMARY (current 11 CCR \u00a7305 text, Cornell LII mirror \u2014 tier documented in the manifest entry; official Westlaw calregs is browser-path-only). Bears the CURRENT offset rule verbatim: 'no later than four months and fifteen days after the organization's accounting period ends (May 15 for calendar-year filers)'. MACHINE-VERIFIED via artifact_extract 2026-07-10 at the CA value-correction apply. Amendment-check anchors: AG renewals page + RRF-1 Rev. 01/2024 (both current, same rule).",
+   "basis": "REGULATION PRIMARY (current 11 CCR §305 text, Cornell LII mirror — tier documented in the manifest entry; official Westlaw calregs is browser-path-only). Bears the CURRENT offset rule verbatim: 'no later than four months and fifteen days after the organization's accounting period ends (May 15 for calendar-year filers)'. MACHINE-VERIFIED via artifact_extract 2026-07-10 at the CA value-correction apply. Amendment-check anchors: AG renewals page + RRF-1 Rev. 01/2024 (both current, same rule).",
    "source_url": "https://www.law.cornell.edu/regulations/california/11-CCR-305",
    "strings": [
     "no later than four months and fifteen days after",
@@ -1659,12 +1680,12 @@
    ]
   },
   "6b72ddf3e311759b3c8d7641640c7f4811c39deaac740974f6c4d5d2702dc754": {
-   "basis": "LAC Title 16 Pt. III \u00a7515: charities using pro solicitors must annually register + $25 fee, 10 days before soliciting [moved from by_perma_guid SY9E-R59B after verify-perma: Perma capture not string-verifiable]",
+   "basis": "LAC Title 16 Pt. III §515: charities using pro solicitors must annually register + $25 fee, 10 days before soliciting [moved from by_perma_guid SY9E-R59B after verify-perma: Perma capture not string-verifiable]",
    "source_url": "https://www.doa.la.gov/media/oz2lmv1v/16.docx",
    "strings": [
     "fail to annually register and submit a $25 registration fee to the Consumer Protection Section of the Louisiana Department of Justice, at least 10 days prior to soliciting for contributions.",
     "It shall be an unfair and deceptive act or practice for any person or charitable organization utilizing a professional solicitor",
-    "Charitable Organization\u2015a group which is or holds itself out to be benevolent, civic, recreational, educational, voluntary health, social service, philanthropic, fraternal, humane, patriotic, religious, or eleemosynary organization"
+    "Charitable Organization―a group which is or holds itself out to be benevolent, civic, recreational, educational, voluntary health, social service, philanthropic, fraternal, humane, patriotic, religious, or eleemosynary organization"
    ]
   },
   "70325aa75611668e0129195d46b5200df0452330ca3339d06fa16c19e5d955c5": {
@@ -1678,8 +1699,8 @@
    ]
   },
   "72254b37ad5a1b79815f44174b57008d8e31194dac22729ee93a81d0b669b39b": {
-   "basis": "PA charitable renewal STATUTE PRIMARY, 10 P.S. \u00a7162.5(k): the load-bearing operative deadline \u2014 the department may extend annual filing to a mailing date 'not to exceed the fifteenth day of the eleventh month following the close of the fiscal year' (the encoded 11th-month/15th ceiling, administered universally per BCO-10). Positive controls anchor the artifact as the real Act 202 reproduction. pdftotext byte-verified against the hash-pinned local PA/...CharitiesSolicita.pdf (sha 72254b37) 2026-07-14; two-reader \u00a71 verify.",
-   "skip": "PDF primary \u2014 the Perma/WARC stores the PDF text FlateDecode-compressed, so verify_perma's utf-8 WARC grep cannot read it (binary-blind, line 282/424). The load-bearing strings above are pdftotext byte-verified against the sha-pinned LOCAL archive (verify-strings OK; verify_hashes recompute clean). Documented-skip tier for PDF primaries pending PDF-gate-v2 (pdftotext-from-WARC). 2026-07-14, PA renewal verify.",
+   "basis": "PA charitable renewal STATUTE PRIMARY, 10 P.S. §162.5(k): the load-bearing operative deadline — the department may extend annual filing to a mailing date 'not to exceed the fifteenth day of the eleventh month following the close of the fiscal year' (the encoded 11th-month/15th ceiling, administered universally per BCO-10). Positive controls anchor the artifact as the real Act 202 reproduction. pdftotext byte-verified against the hash-pinned local PA/...CharitiesSolicita.pdf (sha 72254b37) 2026-07-14; two-reader §1 verify.",
+   "skip": "PDF primary — the Perma/WARC stores the PDF text FlateDecode-compressed, so verify_perma's utf-8 WARC grep cannot read it (binary-blind, line 282/424). The load-bearing strings above are pdftotext byte-verified against the sha-pinned LOCAL archive (verify-strings OK; verify_hashes recompute clean). Documented-skip tier for PDF primaries pending PDF-gate-v2 (pdftotext-from-WARC). 2026-07-14, PA renewal verify.",
    "source_url": "https://www.pa.gov/content/dam/copapwp-pagov/en/dos/programs/charities/CharitiesSolicitationAct-1-2018.pdf",
    "strings": [
     "fifteenth day of the eleventh month",
@@ -1688,14 +1709,14 @@
    ]
   },
   "798de908335fc5ab81aba6320c5bda30ea2a6bceadd4f27d1ad9d2d717b51bc1": {
-   "basis": "DC late_fee remediation 2026-07-17 (Tony ruling (b) \u2014 archive-hygiene, captures verified sound): load-bearing string byte-present in the hash-matched local capture; see docs/regime_reread/DC_20260717.md + RECHECK_LEDGER DC late_fee rows.",
+   "basis": "DC late_fee remediation 2026-07-17 (Tony ruling (b) — archive-hygiene, captures verified sound): load-bearing string byte-present in the hash-matched local capture; see docs/regime_reread/DC_20260717.md + RECHECK_LEDGER DC late_fee rows.",
    "source_url": "https://code.dccouncil.gov/us/dc/council/code/sections/44-1703",
    "strings": [
     "No person shall solicit in the District of Columbia unless"
    ]
   },
   "7a27c87b7dd72ec4b1d03f205adb1d9241abeab6887f3814f224f1ce17fd9cdf": {
-   "basis": "ND \u00a71 verify 2026-07-17: registration mandate (N.D.C.C. 50-22-02(1)), Sept-1 delivery-anchored annual report + $10 fee (50-22-04(1)), lapse-on-miss (50-22-04(5)), Dec-1 extension cap (50-22-04(1)). Strings chosen line-wrap-safe for pdftotext -layout; byte-verified against the local artifact at authoring; 3 independent fetches sha-identical. Read doc docs/regime_reread/ND_20260717.md.",
+   "basis": "ND §1 verify 2026-07-17: registration mandate (N.D.C.C. 50-22-02(1)), Sept-1 delivery-anchored annual report + $10 fee (50-22-04(1)), lapse-on-miss (50-22-04(5)), Dec-1 extension cap (50-22-04(1)). Strings chosen line-wrap-safe for pdftotext -layout; byte-verified against the local artifact at authoring; 3 independent fetches sha-identical. Read doc docs/regime_reread/ND_20260717.md.",
    "source_url": "https://ndlegis.gov/cencode/t50c22.pdf",
    "strings": [
     "may not solicit contributions from persons in this state",
@@ -1724,7 +1745,7 @@
    ]
   },
   "a3e304766d681b2601397b5bc261e9ccfb3735f0524f3ca65bf56219ff803eab": {
-   "basis": "STATUTE, current NY Exec. Law \u00a7172-b (nysenate.gov Open Legislation print, page-dated 7/10/26; Perma RX6X-T2LS = Tony user-upload after Cloudflare walled scripted capture) \u2014 the threshold schedule closing NY's provenance-stale flag: audit >$1M (\u00a7172-b(1)); annual financial report with CPA review at >=$250k-$1M; unaudited <=$250k. ZERO seven-hundred-fifty-thousand residue = post-ramp current text (currency check passed). BONUS: the statute natively bears the day:15 deadline form ('fifteenth day of the fifth calendar month'). MACHINE-VERIFIED via artifact_extract 2026-07-10.",
+   "basis": "STATUTE, current NY Exec. Law §172-b (nysenate.gov Open Legislation print, page-dated 7/10/26; Perma RX6X-T2LS = Tony user-upload after Cloudflare walled scripted capture) — the threshold schedule closing NY's provenance-stale flag: audit >$1M (§172-b(1)); annual financial report with CPA review at >=$250k-$1M; unaudited <=$250k. ZERO seven-hundred-fifty-thousand residue = post-ramp current text (currency check passed). BONUS: the statute natively bears the day:15 deadline form ('fifteenth day of the fifth calendar month'). MACHINE-VERIFIED via artifact_extract 2026-07-10.",
    "source_url": "https://www.nysenate.gov/legislation/laws/EXC/172-B",
    "strings": [
     "in excess of one million dollars",
@@ -1752,8 +1773,8 @@
    ]
   },
   "abc5ed8c87011eb4648d6299abdada4d1c876fc2d3be8cc0aa9b4c7835bc4438": {
-   "basis": "PA charitable renewal AGENCY SOURCE, BCO-10 Instructions REV-2024: the Bureau administers the renewal deadline flatly as the 15th day of the eleventh month following FYE close ('refiled (postmarked) no later than...'), printed on each Certificate of Registration \u2014 the as-administered basis for the 11th-month/15th encoding + POSTMARK filing mechanics. pdftotext byte-verified against the hash-pinned local PA/...BCO-10-instructio.pdf (sha abc5ed8c) 2026-07-14.",
-   "skip": "PDF primary \u2014 the Perma/WARC stores the PDF text FlateDecode-compressed, so verify_perma's utf-8 WARC grep cannot read it (binary-blind, line 282/424). The load-bearing strings above are pdftotext byte-verified against the sha-pinned LOCAL archive (verify-strings OK; verify_hashes recompute clean). Documented-skip tier for PDF primaries pending PDF-gate-v2 (pdftotext-from-WARC). 2026-07-14, PA renewal verify.",
+   "basis": "PA charitable renewal AGENCY SOURCE, BCO-10 Instructions REV-2024: the Bureau administers the renewal deadline flatly as the 15th day of the eleventh month following FYE close ('refiled (postmarked) no later than...'), printed on each Certificate of Registration — the as-administered basis for the 11th-month/15th encoding + POSTMARK filing mechanics. pdftotext byte-verified against the hash-pinned local PA/...BCO-10-instructio.pdf (sha abc5ed8c) 2026-07-14.",
+   "skip": "PDF primary — the Perma/WARC stores the PDF text FlateDecode-compressed, so verify_perma's utf-8 WARC grep cannot read it (binary-blind, line 282/424). The load-bearing strings above are pdftotext byte-verified against the sha-pinned LOCAL archive (verify-strings OK; verify_hashes recompute clean). Documented-skip tier for PDF primaries pending PDF-gate-v2 (pdftotext-from-WARC). 2026-07-14, PA renewal verify.",
    "source_url": "https://www.pa.gov/content/dam/copapwp-pagov/en/dos/programs/charities/BCO-10-instructions-REV-2024.pdf",
    "strings": [
     "15th day of the eleventh month",
@@ -1829,7 +1850,7 @@
    ]
   },
   "dfa850b33ea515ef63d5102dbfcf5181d848fa793cc0df8c6d67fc96d8b374f9": {
-   "basis": "STATUTE PRIMARY, s. 496.405 F.S. (2025) \u2014 the annual registration/renewal-statement duty FL's verified row rests on ('an initial registration statement... and a renewal statement annually thereafter'; annual update on the department's renewal statement). Perma-null capture; this by_sha256 entry is the load-bearing coverage, MACHINE-VERIFIED via artifact_extract 2026-07-10 at the FL threshold-encode apply (the 0b rider surfaced the standing primary had no entry).",
+   "basis": "STATUTE PRIMARY, s. 496.405 F.S. (2025) — the annual registration/renewal-statement duty FL's verified row rests on ('an initial registration statement... and a renewal statement annually thereafter'; annual update on the department's renewal statement). Perma-null capture; this by_sha256 entry is the load-bearing coverage, MACHINE-VERIFIED via artifact_extract 2026-07-10 at the FL threshold-encode apply (the 0b rider surfaced the standing primary had no entry).",
    "source_url": "https://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0400-0499/0496/Sections/0496.405.html",
    "strings": [
     "a renewal statement annually thereafter",
@@ -1846,12 +1867,12 @@
    ]
   },
   "eaa4328b2d268313c880d61bcec5fcb1a38256e305cf49eec8aa56694f2828c6": {
-   "basis": "AZ requires only veterans' charities to file; general charitable registration was repealed (HB 2457, 2013) \u2014 non-veteran charities need not register",
+   "basis": "AZ requires only veterans' charities to file; general charitable registration was repealed (HB 2457, 2013) — non-veteran charities need not register",
    "source_url": "https://azsos.gov/business/other-services/veterans-charities-organizations",
    "strings": [
-    "The Secretary of State requires only Veteran\u2019s Charitable Organizations to file with our office.",
-    "a Veteran\u2019s Organization must file if a person is soliciting money",
-    "went into effect repealing this office\u2019s filing requirement",
+    "The Secretary of State requires only Veteran’s Charitable Organizations to file with our office.",
+    "a Veteran’s Organization must file if a person is soliciting money",
+    "went into effect repealing this office’s filing requirement",
     "you do not need to register or renew your charitable organization on file"
    ]
   },
@@ -1866,7 +1887,7 @@
    ]
   },
   "f6a1d1e14e806a4fe3f269fb9540f737dfd41f4f4c07f81afb11c016061d106a": {
-   "basis": "STATUTE PRIMARY, C.R.S. 6-16-104(5)(a) RENEWAL coupling clause (the corrected-method basis): 'The financial report must be filed on or before the earlier of the fifteenth day of the eighth calendar month after the close of each fiscal year ... or the date authorized for filing a form 990' \u2014 the earlier-of MIN the operational pages hid. Needles are single-line substrings of the frozen PDF's extraction (contains_all is raw-substring; the phrase straddles line breaks at 'fifteenth\\nday'), chosen to pin the EACH-fiscal-year renewal clause, not the first-fiscal-year amendment clause (which reads 'eighth month', no 'calendar'). MACHINE-BYTE-VERIFIED via artifact_extract (PDF lane) 2026-07-09 \u2014 upgrades the 9DAG-DDUM prose skip's pdftotext-by-hand tier per the CO.sql staged precondition (3). Added 2026-07-09 at CO promote.",
+   "basis": "STATUTE PRIMARY, C.R.S. 6-16-104(5)(a) RENEWAL coupling clause (the corrected-method basis): 'The financial report must be filed on or before the earlier of the fifteenth day of the eighth calendar month after the close of each fiscal year ... or the date authorized for filing a form 990' — the earlier-of MIN the operational pages hid. Needles are single-line substrings of the frozen PDF's extraction (contains_all is raw-substring; the phrase straddles line breaks at 'fifteenth\\nday'), chosen to pin the EACH-fiscal-year renewal clause, not the first-fiscal-year amendment clause (which reads 'eighth month', no 'calendar'). MACHINE-BYTE-VERIFIED via artifact_extract (PDF lane) 2026-07-09 — upgrades the 9DAG-DDUM prose skip's pdftotext-by-hand tier per the CO.sql staged precondition (3). Added 2026-07-09 at CO promote.",
    "source_url": "https://leg.colorado.gov/sites/default/files/images/olls/crs2023-title-06.pdf",
    "strings": [
     "day of the eighth calendar month after the close of each fiscal year",
@@ -1874,7 +1895,7 @@
    ]
   },
   "fc9a4b1ba858060a8912258e39adaf1b50f3e1559aca48cbac277135be8be279": {
-   "basis": "STATUTE PRIMARY, T.C.A. \u00a748-101-506(d)/(f) \u2014 the anniversary received-by command + anniversary definition + the late-fee expiration keying (the 2026-07-10 Tony anniversary adjudication rests on these). Perma T3NQ-TMTB exists but the artifact is PDF-tier (verify_perma text/html-only); this by_sha256 entry is the load-bearing coverage, MACHINE-VERIFIED via artifact_extract 2026-07-10 at the TN adjudication apply.",
+   "basis": "STATUTE PRIMARY, T.C.A. §48-101-506(d)/(f) — the anniversary received-by command + anniversary definition + the late-fee expiration keying (the 2026-07-10 Tony anniversary adjudication rests on these). Perma T3NQ-TMTB exists but the artifact is PDF-tier (verify_perma text/html-only); this by_sha256 entry is the load-bearing coverage, MACHINE-VERIFIED via artifact_extract 2026-07-10 at the TN adjudication apply.",
    "source_url": "https://rda.tnsosfiles.com/legal-citation/2176.legal.pdf",
    "strings": [
     "received by the secretary of state on or before the anniversary date",
