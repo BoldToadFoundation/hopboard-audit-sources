@@ -1462,6 +1462,14 @@
     "A Charitable organization with a ‘home’ office outside of Wisconsin needs to be registered if it solicits in Wisconsin",
     "The annual report and the renewal are two different annual requirements"
    ]
+  },
+  "S69D-NUUB": {
+   "skip": "binary artifact (pdf); Perma capture exists; load-bearing strings verified against LOCAL bytes via by_sha256 (d7677f9f93e2…).",
+   "source_url": "https://sdlegislature.gov/api/Statutes/37-27.html?all=true"
+  },
+  "5CLC-QC7Q": {
+   "skip": "binary artifact (pdf); Perma capture exists; load-bearing strings verified against LOCAL bytes via by_sha256 (3922560cdd4d…).",
+   "source_url": "https://sdlegislature.gov/api/Statutes/47-24-19.html?all=true"
   }
  },
  "by_sha256": {
@@ -1909,6 +1917,22 @@
     "PART Jus 402 REGISTRATION OF CHARITABLE TRUSTS",
     "register with the charitable trusts unit in accordance with RSA 7:28, I.",
     "The completed Form NHCT-11 shall be accompanied by a non-refundable fee of $25.00."
+   ]
+  },
+  "d7677f9f93e26f60539877e0d1fea6425a65d553d42168645a8992e4538cdcc4": {
+   "basis": "SDCL ch. 37-27 (Charitable and Professional Solicitation of Contributions) is [REPEALED] by SL 1984 ch 260 — the reg=FALSE absence-by-repeal primary. Tony browser-capture 2026-07-18 (sdlegislature.gov Vue SPA, curl-empty).",
+   "source_url": "https://sdlegislature.gov/api/Statutes/37-27.html?all=true",
+   "strings": [
+    "Repealed by SL 1984, ch 260",
+    "CHARITABLE AND PROFESSIONAL SOLICITATION OF CONTRIBUTIONS",
+    "[REPEALED]"
+   ]
+  },
+  "3922560cdd4d9640104cd266b6cedf3868460ab4ca3f1b8e2ab1a3b019c1ff9c": {
+   "basis": "SDCL 47-24-19 (SL 2021 ch 196) bars any agency from requiring nonprofit/charitable-trust filings beyond state/federal law — forecloses a post-2020 successor regime (currency).",
+   "source_url": "https://sdlegislature.gov/api/Statutes/47-24-19.html?all=true",
+   "strings": [
+    "SL 2021, ch 196"
    ]
   }
  }

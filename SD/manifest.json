@@ -50,14 +50,16 @@
   {
     "source_url": "https://sdlegislature.gov/api/Statutes/37-27.html?all=true",
     "primary": true,
-    "local_path": "SD/sdlegislature.gov-api-Statutes-37-27.html-all-true.html",
-    "content_type": "text/html; charset=utf-16",
-    "content_sha256": "f36a2e8a1d47b96bbfabe938632daf196590c54779d2c48652e328e4fd23d737",
-    "perma_url": "https://perma.cc/7AHD-4KUF",
-    "wayback_url": "https://web.archive.org/web/20260706184404/https://sdlegislature.gov/api/Statutes/37-27.html?all=true",
-    "captured_at": "2026-07-06T18:43:55.001777+00:00",
-    "signed": true,
-    "tls_chain_unverified": false
+    "local_path": "SD/sdlegislature.gov-api-Statutes-37-27.html-all-true.pdf",
+    "content_type": "application/pdf",
+    "content_sha256": "d7677f9f93e26f60539877e0d1fea6425a65d553d42168645a8992e4538cdcc4",
+    "perma_url": "https://perma.cc/S69D-NUUB",
+    "wayback_url": null,
+    "captured_at": "2026-07-18T23:11:08.891362+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "ingested_from_file": true,
+    "provenance": "Tony browser-capture 2026-07-18 (sdlegislature.gov Vue SPA; curl returns empty shell). Perma https://perma.cc/S69D-NUUB"
   },
   {
     "source_url": "https://sdlegislature.gov/api/Statutes/37-30.html?all=true",
@@ -82,5 +84,19 @@
     "captured_at": "2026-07-06T18:43:55.001777+00:00",
     "signed": true,
     "tls_chain_unverified": false
+  },
+  {
+    "source_url": "https://sdlegislature.gov/api/Statutes/47-24-19.html?all=true",
+    "primary": false,
+    "local_path": "SD/sdlegislature.gov-api-Statutes-47-24-19.html-all-true.pdf",
+    "content_type": "application/pdf",
+    "content_sha256": "3922560cdd4d9640104cd266b6cedf3868460ab4ca3f1b8e2ab1a3b019c1ff9c",
+    "perma_url": "https://perma.cc/5CLC-QC7Q",
+    "wayback_url": null,
+    "captured_at": "2026-07-18T23:11:08.981901+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "ingested_from_file": true,
+    "provenance": "Tony browser-capture 2026-07-18. Perma https://perma.cc/5CLC-QC7Q"
   }
 ]
