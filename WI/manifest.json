@@ -16,11 +16,11 @@
     "primary": false,
     "local_path": "WI/dfi.wi.gov-Pages-BusinessServices-CharitableProfessionalOrganizations-Charitable.html",
     "content_type": "text/html; charset=utf-8",
-    "content_sha256": "87e8254bf6143855df05f9a688d3f21eac369e6258ff8b522e638fa52be4f096",
-    "perma_url": "https://perma.cc/3SAE-K4JD",
-    "wayback_url": "https://web.archive.org/web/20260630234229/https://dfi.wi.gov/Pages/BusinessServices/CharitableProfessionalOrganizations/CharitableOrganizationsFAQ.aspx",
-    "captured_at": "2026-06-30T23:41:57.157233+00:00",
-    "signed": true,
+    "content_sha256": "198aae1b6b1a7820d9f3168e12e8763ad88c069525c98e6fd79d418b61f34310",
+    "perma_url": "https://perma.cc/F8DQ-QGQM",
+    "wayback_url": null,
+    "captured_at": "2026-07-18T21:29:26.141268+00:00",
+    "signed": false,
     "tls_chain_unverified": false
   },
   {
@@ -29,10 +29,10 @@
     "local_path": "WI/docs.legis.wisconsin.gov-statutes-statutes-202-ii-12.html",
     "content_type": "text/html; charset=utf-8",
     "content_sha256": "754a9a0d8ddd06c434e5a13797649dd10271787aa3725b82b1fb6cdca161e004",
-    "perma_url": "https://perma.cc/WXP2-EURJ",
-    "wayback_url": "https://web.archive.org/web/20260630234202/https://docs.legis.wisconsin.gov/statutes/statutes/202/ii/12",
-    "captured_at": "2026-06-30T23:41:57.157233+00:00",
-    "signed": true,
+    "perma_url": "https://perma.cc/PU43-FTCP",
+    "wayback_url": null,
+    "captured_at": "2026-07-18T21:29:26.141268+00:00",
+    "signed": false,
     "tls_chain_unverified": false
   }
 ]
