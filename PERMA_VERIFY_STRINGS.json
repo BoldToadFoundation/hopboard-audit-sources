@@ -1476,6 +1476,10 @@
   },
   "R2KS-GZ3M": {
    "skip": "628-pp Title-18 PDF — verify_perma utf-8 WARC grep can't cover FlateDecode-compressed PDF text (_verify_perma_blind). Perma replay is COMPLETE (2.44MB WARC, full PDF payload); §552.3 deadline + §552.2 Form-990 def pdftotext-verified from the ACTUAL Perma replay 2026-07-19 (char-identical to local). Content by_sha256-verified local 295515ff."
+  },
+  "D5B2-EQDE": {
+   "skip": "KRS 367.657 PDF — verify_perma utf-8 grep can't cover FlateDecode-compressed PDF text (_verify_perma_blind). Perma replay is the complete PDF payload; the load-bearing §367.657 clauses are pdftotext-verified from the local bytes via by_sha256 8498bfc6 (KY verify 2026-07-19).",
+   "source_url": "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=35030"
   }
  },
  "by_sha256": {
@@ -1956,6 +1960,16 @@
    "strings": [
     "shall register annually with the Secretary of State by the date that the charitable organization files its Form 990 or by the date, plus extensions, that it is required to file its Form 990, whichever occurs first",
     "means a return of an organization that is exempt from federal income tax"
+   ]
+  },
+  "8498bfc6f376105468de53f7f735a8059fdad9ffe21c5f2c120676415eb3db0f": {
+   "basis": "KRS 367.657 (Filing of federal Form 990 fulfills reporting requirement) — first-party apps.legislature.ky.gov, durable Perma D5B2-EQDE; source-of-record for the KY 990-coupled charitable-registration deadline (form_990_coupled §367.657(3)) + the Notice-of-Intent formation/re-entry triggers (§367.657(1)-(2)). KY verify 2026-07-19.",
+   "source_url": "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=35030",
+   "strings": [
+    "Filing of federal Form 990 fulfills reporting requirement",
+    "at the same time the form is filed with the Internal Revenue Service",
+    "a new notice of intent to solicit shall be filed with the Attorney General",
+    "notice shall expire on December 31 of the calendar year in which it was filed"
    ]
   }
  }
