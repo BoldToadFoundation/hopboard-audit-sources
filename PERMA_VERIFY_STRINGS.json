@@ -1472,13 +1472,10 @@
    "source_url": "https://sdlegislature.gov/api/Statutes/47-24-19.html?all=true"
   },
   "8PFB-HQWZ": {
-   "basis": "OK 18 O.S. §552.3(A) (OSCN §552.3 'Registration - Fee - Information to be Filed'): charitable registration required before soliciting; annual renewal = 990-coupled earlier-of(files 990, 990-due+extensions), whichever first. Source-of-record for the form_990_coupled encode (Tony-directed re-capture 2026-07-19, replacing the 07-17 Turnstile-challenge OSCN per-section captures).",
-   "source_url": "https://www.oscn.net/applications/oscn/DeliverDocument.asp?CiteID=66919",
-   "strings": [
-    "shall register annually with the Secretary of State by the date that the charitable organization files its Form 990 or by the date, plus extensions, that it is required to file its Form 990, whichever occurs first",
-    "No charitable organization that is either located within this state or that is soliciting contributions from any person in this state",
-    "shall solicit contributions until the charitable organization shall have registered with the Office of the Secretary of State"
-   ]
+   "skip": "OSCN DeliverDocument.asp is a dynamic/JS page; Perma server-side replay captured a 2.4MB asset shell lacking the statute text (verified 2026-07-19). Content verified via by_sha256 local bytes 68aa8a74. Durable §552.3 backstop = os18.pdf Perma R2KS-GZ3M (complete PDF, §552.3+§552.2 pdftotext-verified in the actual replay)."
+  },
+  "R2KS-GZ3M": {
+   "skip": "628-pp Title-18 PDF — verify_perma utf-8 WARC grep can't cover FlateDecode-compressed PDF text (_verify_perma_blind). Perma replay is COMPLETE (2.44MB WARC, full PDF payload); §552.3 deadline + §552.2 Form-990 def pdftotext-verified from the ACTUAL Perma replay 2026-07-19 (char-identical to local). Content by_sha256-verified local 295515ff."
   }
  },
  "by_sha256": {
@@ -1942,6 +1939,23 @@
    "source_url": "https://sdlegislature.gov/api/Statutes/47-24-19.html?all=true",
    "strings": [
     "SL 2021, ch 196"
+   ]
+  },
+  "68aa8a744e0f7829634d85910f83d7f951d5585cde00030a197455847c0609e5": {
+   "basis": "OK 18 O.S. §552.3(A) OSCN §552.3 (source-of-record for the form_990_coupled encode); local HTML capture, Perma 8PFB-HQWZ is a JS-shell so verified here on the sha-pinned local bytes.",
+   "source_url": "https://www.oscn.net/applications/oscn/DeliverDocument.asp?CiteID=66919",
+   "strings": [
+    "shall register annually with the Secretary of State by the date that the charitable organization files its Form 990 or by the date, plus extensions, that it is required to file its Form 990, whichever occurs first",
+    "No charitable organization that is either located within this state or that is soliciting contributions from any person in this state",
+    "shall solicit contributions until the charitable organization shall have registered with the Office of the Secretary of State"
+   ]
+  },
+  "295515ff3d064e987e39cf36b0782a3bf245381addf685a84cb46ab01861829b": {
+   "basis": "OK Title 18 complete statutes (os18.pdf) — first-party oklegislature.gov, durable third-party Perma R2KS-GZ3M; source-of-record for 18 O.S. §552.3 deadline (form_990_coupled coupling) + §552.2(8) Form 990 definition.",
+   "source_url": "https://www.oklegislature.gov/OK_Statutes/CompleteTitles/os18.pdf",
+   "strings": [
+    "shall register annually with the Secretary of State by the date that the charitable organization files its Form 990 or by the date, plus extensions, that it is required to file its Form 990, whichever occurs first",
+    "means a return of an organization that is exempt from federal income tax"
    ]
   }
  }
