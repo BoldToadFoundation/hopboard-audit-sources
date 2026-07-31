@@ -22,5 +22,17 @@
     "captured_at": "2026-07-05T01:49:10.174937+00:00",
     "signed": true,
     "tls_chain_unverified": false
+  },
+  {
+    "source_url": "https://www.ksrevisor.gov/statutes/chapters/ch17/017_075_0004.html",
+    "primary": true,
+    "local_path": "KS/www.ksrevisor.gov-statutes-chapters-ch17-017_075_0004.html.html",
+    "content_type": "text/html",
+    "content_sha256": "a2874791444e9b16539b8dc7c3a14514ab2c2357269ffd2e1a894adf243d2ad0",
+    "perma_url": "https://perma.cc/X7UN-9H3M",
+    "wayback_url": null,
+    "captured_at": "2026-07-31T16:55:35.431209+00:00",
+    "signed": false,
+    "tls_chain_unverified": false
   }
 ]
