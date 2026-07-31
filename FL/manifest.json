@@ -24,6 +24,18 @@
     "perma_backfilled_at": "2026-07-12T21:05:19.499962+00:00"
   },
   {
+    "source_url": "https://www.flsenate.gov/laws/statutes/2022/617.1622",
+    "primary": true,
+    "local_path": "FL/www.flsenate.gov-laws-statutes-2022-617.1622.html",
+    "content_type": "text/html; charset=utf-8",
+    "content_sha256": "be9deb18c882bd83f8d9897051990ba2691d02c7bb3d7a86916a6d91669e74fc",
+    "perma_url": "https://perma.cc/M76Q-9RHZ",
+    "wayback_url": null,
+    "captured_at": "2026-07-31T16:56:23.365391+00:00",
+    "signed": false,
+    "tls_chain_unverified": false
+  },
+  {
     "source_url": "https://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0400-0499/0496/Sections/0496.405.html",
     "primary": true,
     "local_path": "FL/www.leg.state.fl.us-statutes-index.cfm-App_mode-Display_Statute-URL-0400-0499-04.html",
