@@ -1,5 +1,17 @@
 [
   {
+    "source_url": "https://legislature.maine.gov/statutes/13-B/title13-Bch13.pdf",
+    "primary": true,
+    "local_path": "ME/legislature.maine.gov-statutes-13-B-title13-Bch13.pdf.pdf",
+    "content_type": "application/pdf",
+    "content_sha256": "3b2e98d224cb6717f7bcc475c4ed5fd9480bce25df696cbc77fd410d8e29e260",
+    "perma_url": "https://perma.cc/N66A-6RV8",
+    "wayback_url": null,
+    "captured_at": "2026-07-31T16:59:30.797738+00:00",
+    "signed": false,
+    "tls_chain_unverified": false
+  },
+  {
     "source_url": "https://legislature.maine.gov/statutes/9/title9ch385.pdf",
     "primary": false,
     "local_path": "ME/legislature.maine.gov-statutes-9-title9ch385.pdf.pdf",
