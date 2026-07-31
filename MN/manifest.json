@@ -70,5 +70,17 @@
     "captured_at": "2026-06-14T22:49:10.392291+00:00",
     "signed": true,
     "tls_chain_unverified": false
+  },
+  {
+    "source_url": "https://www.revisor.mn.gov/statutes/cite/317A.823",
+    "primary": true,
+    "local_path": "MN/www.revisor.mn.gov-statutes-cite-317A.823.html",
+    "content_type": "text/html; charset=utf-8",
+    "content_sha256": "f723ae6b5573734e548f570af8bc170dda54fd6e751ad8cab86328c7b64eb4db",
+    "perma_url": "https://perma.cc/K3PC-3TGP",
+    "wayback_url": "https://web.archive.org/web/20260731165326/https://www.revisor.mn.gov/statutes/cite/317A.823",
+    "captured_at": "2026-07-31T16:53:12.072426+00:00",
+    "signed": false,
+    "tls_chain_unverified": false
   }
 ]
