@@ -46,5 +46,17 @@
     "captured_at": "2026-06-21T22:06:26.113568+00:00",
     "signed": true,
     "tls_chain_unverified": false
+  },
+  {
+    "source_url": "https://webserver.rilegislature.gov/Statutes/TITLE7/7-6/7-6-91.htm",
+    "primary": true,
+    "local_path": "RI/webserver.rilegislature.gov-Statutes-TITLE7-7-6-7-6-91.htm.html",
+    "content_type": "text/html",
+    "content_sha256": "8a77df6c9c42f09e2e718666bc3d33de60b1a1bfa1b7f2bb68a913933578fd38",
+    "perma_url": "https://perma.cc/9LL4-NTTL",
+    "wayback_url": null,
+    "captured_at": "2026-07-31T16:57:10.648878+00:00",
+    "signed": false,
+    "tls_chain_unverified": false
   }
 ]
