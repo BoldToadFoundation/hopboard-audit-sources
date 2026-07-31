@@ -24,6 +24,18 @@
     "tls_chain_unverified": false
   },
   {
+    "source_url": "https://docs.legis.wisconsin.gov/statutes/statutes/181/ii/0214",
+    "primary": true,
+    "local_path": "WI/docs.legis.wisconsin.gov-statutes-statutes-181-ii-0214.html",
+    "content_type": "text/html; charset=utf-8",
+    "content_sha256": "2f2f22a51342230d2d1aa1b2c903c0348737efcee4d4eba1f4cb82d9c77e960d",
+    "perma_url": "https://perma.cc/8P33-BEDH",
+    "wayback_url": null,
+    "captured_at": "2026-07-31T16:57:57.270845+00:00",
+    "signed": false,
+    "tls_chain_unverified": false
+  },
+  {
     "source_url": "https://docs.legis.wisconsin.gov/statutes/statutes/202/ii/12",
     "primary": true,
     "local_path": "WI/docs.legis.wisconsin.gov-statutes-statutes-202-ii-12.html",
