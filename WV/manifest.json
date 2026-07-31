@@ -22,5 +22,17 @@
     "captured_at": "2026-07-04T22:57:04.361413+00:00",
     "signed": false,
     "tls_chain_unverified": false
+  },
+  {
+    "source_url": "https://code.wvlegislature.gov/59-1-2a/",
+    "primary": true,
+    "local_path": "WV/code.wvlegislature.gov-59-1-2a.html",
+    "content_type": "text/html; charset=UTF-8",
+    "content_sha256": "474d6882e9e25e8433596bc08e1d5b4fb38480c2f8f27336356a2d875c681cf6",
+    "perma_url": "https://perma.cc/4EVU-B97A",
+    "wayback_url": null,
+    "captured_at": "2026-07-31T16:54:46.806232+00:00",
+    "signed": false,
+    "tls_chain_unverified": false
   }
 ]
