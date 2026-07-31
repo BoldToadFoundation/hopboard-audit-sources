@@ -48,6 +48,18 @@
     "perma_backfilled_at": "2026-07-12T21:08:21.537493+00:00"
   },
   {
+    "source_url": "https://oregon.public.law/statutes/ors_65.787",
+    "primary": true,
+    "local_path": "OR/oregon.public.law-statutes-ors_65.787.html",
+    "content_type": "text/html; charset=utf-8",
+    "content_sha256": "43b237c17e0ac137c1db39aa32cd5155f5bfed99008cadb441a0b619c893f2c4",
+    "perma_url": "https://perma.cc/C2G2-G6K2",
+    "wayback_url": null,
+    "captured_at": "2026-07-31T16:58:43.986520+00:00",
+    "signed": false,
+    "tls_chain_unverified": false
+  },
+  {
     "source_url": "https://secure.sos.state.or.us/oard/viewAttachment.action?ruleVrsnRsn=10457",
     "primary": true,
     "local_path": "OR/secure.sos.state.or.us-oard-viewAttachment.action-ruleVrsnRsn-10457.pdf",
