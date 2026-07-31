@@ -22,5 +22,17 @@
     "captured_at": "2026-07-05T19:28:22.763570+00:00",
     "signed": true,
     "tls_chain_unverified": false
+  },
+  {
+    "source_url": "https://www.legislature.mi.gov/Laws/MCL?objectName=MCL-450-2911",
+    "primary": true,
+    "local_path": "MI/www.legislature.mi.gov-Laws-MCL-objectName-MCL-450-2911.html",
+    "content_type": "text/html; charset=utf-8",
+    "content_sha256": "e114ef2ecd6a5608415ab42556cc260e031951094e1d4e13c15960eb3b8c7cc9",
+    "perma_url": "https://perma.cc/6RCT-69FR",
+    "wayback_url": null,
+    "captured_at": "2026-07-31T16:53:57.245676+00:00",
+    "signed": false,
+    "tls_chain_unverified": false
   }
 ]
