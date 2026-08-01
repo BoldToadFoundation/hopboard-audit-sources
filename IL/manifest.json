@@ -24,6 +24,20 @@
     "tls_chain_unverified": false
   },
   {
+    "source_url": "https://www.ilga.gov/legislation/ILCS/details?ActName=General%20Not%20For%20Profit%20Corporation%20Act%20of%201986.&ActID=2280&ChapterID=65&SeqStart=11800000&SeqEnd=12200000",
+    "primary": true,
+    "local_path": "IL/www.ilga.gov-legislation-ILCS-details-ActName-General-20Not-20For-20Profit-20Cor.html",
+    "content_type": "text/html",
+    "content_sha256": "750a402e935980ccd458d0ec2b06a40d8d5d3807925a66c0bffa1a4b84253ee3",
+    "perma_url": null,
+    "wayback_url": null,
+    "captured_at": "2026-08-01T09:39:34.167725+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "ingested_from_file": true,
+    "provenance": "805 ILCS 105 Art. 14 (Reports), bearing 105/114.10. ILGA 403s non-browser User-Agents (capture tool sends hopboard-audit-capture/1.0), so fetched 2026-08-01 with a standard browser UA and ingested via --from-file per the documented UA-gated path (precedent: IN IC 23-7-8). Content-verified BEFORE ingest to contain '105/114.10)' + the annual-report text."
+  },
+  {
     "source_url": "https://www.illinoisattorneygeneral.gov/Page-Attachments/FormAG990ILFilingInstuctions.pdf",
     "primary": false,
     "local_path": "IL/www.illinoisattorneygeneral.gov-Page-Attachments-FormAG990ILFilingInstuctions.pd.pdf",
