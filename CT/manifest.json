@@ -34,5 +34,17 @@
     "captured_at": "2026-06-05T21:07:53.493834+00:00",
     "signed": true,
     "tls_chain_unverified": true
+  },
+  {
+    "source_url": "https://www.cga.ct.gov/current/pub/chap_602.htm",
+    "primary": true,
+    "local_path": "CT/www.cga.ct.gov-current-pub-chap_602.htm.html",
+    "content_type": "text/html",
+    "content_sha256": "fe74dce6687b5e0217866dd063eace352b32df343ccf1eddbf154c172f28999a",
+    "perma_url": null,
+    "wayback_url": null,
+    "captured_at": "2026-08-01T09:37:36.606485+00:00",
+    "signed": false,
+    "tls_chain_unverified": true
   }
 ]
