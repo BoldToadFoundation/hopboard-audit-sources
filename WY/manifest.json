@@ -71,6 +71,15 @@
     "wayback_url": null,
     "captured_at": "2026-07-06T18:57:31.120981+00:00",
     "signed": true,
-    "tls_chain_unverified": false
+    "tls_chain_unverified": false,
+    "content_corroborated": {
+      "at": "2026-08-07",
+      "by": "Crabdaddy",
+      "asserts": "the archived bytes ARE the document the citation names — identity, not integrity",
+      "method": "live refetch of the CITED url (https://www.wyoleg.gov/statutes/compress/title40.pdf, www host) compared byte-for-byte against this entry's recorded content_sha256",
+      "result": "sha256 2a7e997e4a18abb2eb8cc0f0a50f2ec030c338d9edbba3e82958399f05c1e301, 1314134 bytes — IDENTICAL",
+      "notes": "resolves the www-vs-bare-host cited/primary mismatch as a host ALIAS by measurement rather than assumption, and the same fetch demonstrates continuity across verified_at (capture 2026-07-06 < verified_at 2026-07-14 < probe 2026-08-07)",
+      "convention": "ABSENCE OF THIS FIELD MEANS UNKNOWN, PREDATES CONVENTION (introduced 2026-08-07) — it does NOT mean uncorroborated. 245 of 246 entries predate it and were deliberately NOT backfilled."
+    }
   }
 ]
