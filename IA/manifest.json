@@ -7,11 +7,13 @@
     "content_sha256": "0d8a3b5038f6a292795748bd5856825d8e8a113cb6c26b68d70c2a8b897cd9d0",
     "perma_url": "https://perma.cc/FKA6-YMQD",
     "wayback_url": null,
-    "captured_at": "2026-06-12T19:52:40.778151+00:00",
+    "captured_at": "2025-09-20T12:09:21+00:00",
     "signed": true,
     "tls_chain_unverified": false,
     "ingested_from_file": true,
-    "provenance": "wayback_snapshot re-homing 2026-06-12: id_ raw-variant fetch of the verification row's archive_snapshot_url; PDF sanity + pdftotext byte-grep at fetch ('504.1613': 3 hits); converts the Wayback-only row to local-backed per the 2026-06-11 local-artifact-required standard"
+    "provenance": "wayback_snapshot re-homing 2026-06-12: id_ raw-variant fetch of the verification row's archive_snapshot_url; PDF sanity + pdftotext byte-grep at fetch ('504.1613': 3 hits); converts the Wayback-only row to local-backed per the 2026-06-11 local-artifact-required standard",
+    "ingested_at": "2026-06-12T19:52:40.778151+00:00",
+    "captured_at_basis": "CORRECTED 2026-08-08 per Tony ruling (captured_at = when the BYTES were captured from the source, not when we ingested them). True date read from the 14-digit snapshot timestamp in this entry's own source_url; verified against the Internet Archive CDX index (a snapshot exists at exactly that timestamp, status 200) before the correction was propagated. Prior value was the 2026-06-12 wayback_snapshot re-homing INGEST date, preserved in ingested_at."
   },
   {
     "source_url": "https://www.iowaattorneygeneral.gov/for-businesses/charities-nonprofits-fundraising-information",

@@ -21,10 +21,12 @@
     "content_sha256": "c55e0d1e6b81e6672a9d44ff97cde16d923d461d7aff68352d233f779d91043e",
     "perma_url": null,
     "wayback_url": null,
-    "captured_at": "2026-06-12T19:52:26.302905+00:00",
+    "captured_at": "2025-09-20T12:09:00+00:00",
     "signed": true,
     "tls_chain_unverified": false,
     "ingested_from_file": true,
-    "provenance": "wayback_snapshot re-homing 2026-06-12: id_ raw-variant fetch of the verification row's archive_snapshot_url; load-bearing content byte-grepped at fetch ('43-17-5': 21 hits); shell-signature sweep (extended 2026-06-12) clean; converts the Wayback-only row to local-backed per the 2026-06-11 local-artifact-required standard"
+    "provenance": "wayback_snapshot re-homing 2026-06-12: id_ raw-variant fetch of the verification row's archive_snapshot_url; load-bearing content byte-grepped at fetch ('43-17-5': 21 hits); shell-signature sweep (extended 2026-06-12) clean; converts the Wayback-only row to local-backed per the 2026-06-11 local-artifact-required standard",
+    "ingested_at": "2026-06-12T19:52:26.302905+00:00",
+    "captured_at_basis": "CORRECTED 2026-08-08 per Tony ruling (captured_at = when the BYTES were captured from the source, not when we ingested them). True date read from the 14-digit snapshot timestamp in this entry's own source_url; verified against the Internet Archive CDX index (a snapshot exists at exactly that timestamp, status 200) before the correction was propagated. Prior value was the 2026-06-12 wayback_snapshot re-homing INGEST date, preserved in ingested_at."
   }
 ]

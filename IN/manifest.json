@@ -22,12 +22,14 @@
     "content_sha256": "179623564d767dd78a580755087a90972a316adb891e8a400abf306651a274b8",
     "perma_url": "https://perma.cc/9GVH-N9MJ",
     "wayback_url": null,
-    "captured_at": "2026-07-09T13:34:05.152554+00:00",
+    "captured_at": "2026-07-06T18:51:15+00:00",
     "signed": true,
     "tls_chain_unverified": false,
     "ingested_from_file": true,
     "provenance": "regression re-ingest 2026-07-09 (session-6 A6/A4): flips IC 23-7-8 (Professional Fundraiser Consultant & Solicitor Registration chapter) to primary:true via --from-file-primary; same content_sha256 as the original shell-hatch capture; discharges IN's zero-primary null-clause + the A4 --from-file-primary regression.",
-    "perma_backfilled_at": "2026-07-12T21:06:17.159329+00:00"
+    "perma_backfilled_at": "2026-07-12T21:06:17.159329+00:00",
+    "ingested_at": "2026-07-09T13:34:05.152554+00:00",
+    "captured_at_basis": "CORRECTED 2026-08-08 per Tony ruling. This entry is a 2026-07-09 'regression re-ingest' that reused the ORIGINAL bytes ('same content_sha256 as the original shell-hatch capture') to flip primary:true, so 2026-07-09 was the re-ingest date, not a capture. True date recovered from this manifest's git history: the earliest captured_at recorded for this source_url is 2026-07-06T18:51:15 (commit 939b2d5); a later same-day value 2026-07-06T19:05:45 also appears. The conservative earliest is used. Prior value preserved in ingested_at."
   },
   {
     "source_url": "https://iga.in.gov/ic/2026/Title_24/Article_4.7/Chapter_1.pdf",
@@ -52,12 +54,14 @@
     "content_sha256": "e9deeb488f8ccf27193a85f68070e851251bd461f08a3255f8796f511d166619",
     "perma_url": "https://perma.cc/35FU-XYE5",
     "wayback_url": null,
-    "captured_at": "2026-06-12T19:52:26.379327+00:00",
+    "captured_at": "2026-05-19T00:25:26+00:00",
     "signed": true,
     "tls_chain_unverified": false,
     "ingested_from_file": true,
     "provenance": "wayback_snapshot re-homing 2026-06-12: id_ raw-variant fetch of the verification row's archive_snapshot_url; load-bearing content byte-grepped at fetch ('business entity report': 17 hits); shell-signature sweep (extended 2026-06-12) clean; converts the Wayback-only row to local-backed per the 2026-06-11 local-artifact-required standard",
-    "perma_backfilled_at": "2026-07-12T21:06:30.802891+00:00"
+    "perma_backfilled_at": "2026-07-12T21:06:30.802891+00:00",
+    "ingested_at": "2026-06-12T19:52:26.379327+00:00",
+    "captured_at_basis": "CORRECTED 2026-08-08 per Tony ruling (captured_at = when the BYTES were captured from the source, not when we ingested them). True date read from the 14-digit snapshot timestamp in this entry's own source_url; verified against the Internet Archive CDX index (a snapshot exists at exactly that timestamp, status 200) before the correction was propagated. Prior value was the 2026-06-12 wayback_snapshot re-homing INGEST date, preserved in ingested_at."
   },
   {
     "source_url": "https://www.in.gov/attorneygeneral/consumer-protection-division/charities-and-donors/charitable-fundraising/",
