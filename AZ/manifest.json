@@ -7,11 +7,13 @@
     "content_sha256": "eaa4328b2d268313c880d61bcec5fcb1a38256e305cf49eec8aa56694f2828c6",
     "perma_url": "https://perma.cc/9N7N-TJWS",
     "wayback_url": null,
-    "captured_at": "2026-07-03T15:16:36.760756+00:00",
+    "captured_at": "2025-12-04T17:39:42+00:00",
     "signed": false,
     "tls_chain_unverified": false,
     "ingested_from_file": true,
-    "provenance": "archive fallback: azsos.gov Cloudflare-blocked (HTTP 403 to browser-UA + httpx); raw bytes from Wayback snapshot web/20251204173942 \u2014 verified title \"Veterans Charities Organizations | Arizona Secretary of State\"; attests HB2457 (2013) repeal of the office filing requirement + veterans-only survival"
+    "provenance": "archive fallback: azsos.gov Cloudflare-blocked (HTTP 403 to browser-UA + httpx); raw bytes from Wayback snapshot web/20251204173942 — verified title \"Veterans Charities Organizations | Arizona Secretary of State\"; attests HB2457 (2013) repeal of the office filing requirement + veterans-only survival",
+    "ingested_at": "2026-07-03T15:16:36.760756+00:00",
+    "captured_at_basis": "CORRECTED 2026-08-08 per Tony ruling: captured_at is when the BYTES were captured from the source, not when we ingested them. These bytes are Wayback snapshot web/20251204173942; the prior value 2026-07-03 was the ingest date and is preserved in ingested_at."
   },
   {
     "source_url": "https://web.archive.org/web/20260517221825/https://azcc.gov/faqs/BusinessServicesFAQs",
