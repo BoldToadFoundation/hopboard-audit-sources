@@ -1,0 +1,11 @@
+# Browser-capture staging inbox (BROWSER_CAPTURE_RUNBOOK.md).
+# Raw drops land here from Tony's browser and are consumed by
+# capture_audit_sources.py --from-file, which writes the DURABLE copy to
+# <STATE>/ with a manifest entry. Nothing here is the archive.
+#
+# Contents are ignored on purpose: a half-saved, wrong-URL or
+# WAF-challenge page must never reach a commit just by sitting in the
+# staging dir. The directory itself is tracked (via .gitkeep) so the path
+# is discoverable rather than folklore.
+.capture-drop/*
+!.capture-drop/.gitkeep

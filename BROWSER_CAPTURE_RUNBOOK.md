@@ -11,7 +11,19 @@ Design goal: **Tony's part takes five minutes; everything else stays script-enfo
 2. Save the artifact AS-IS:
    - PDF → just download it (don't print-to-PDF a PDF — keep original bytes).
    - Web page → "Save Page As… → Webpage, HTML Only" (not "Complete" — single file).
-3. Drop the file in `~/capture-drop/<STATE>/` (create the dir if needed).
+3. Drop the file in **`hopboard-audit-sources/.capture-drop/<STATE>/`**
+   (full path: `/mnt/data/ngo-go/hopboard-audit-sources/.capture-drop/<STATE>/`).
+   Create the state dir if needed.
+
+   > **MOVED 2026-08-08 (Tony).** This was `~/capture-drop/<STATE>/`. The home-dir
+   > path was namespaced by STATE, not by project — a shared catch-all, which the
+   > standing "keep each project's data under its own dir" rule exists to prevent
+   > (an `AZ/` drop for a second project would have collided). The staging dir now
+   > sits one directory from the archive it feeds. Contents are gitignored, which
+   > buys back the only thing the home-dir location provided: a raw, half-saved or
+   > WAF-challenge page can never reach a commit just by sitting in staging.
+   > Nothing in code ever read the old path — `--from-file` takes an explicit path
+   > argument — so this is convention only.
 4. Tell Crabdaddy (or note in the session): the URL you actually ended on (post-redirects),
    and roughly when. Done.
 
