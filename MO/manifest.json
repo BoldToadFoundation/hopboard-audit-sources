@@ -24,6 +24,42 @@
     "tls_chain_unverified": false
   },
   {
+    "source_url": "https://revisor.mo.gov/main/OneSection.aspx?section=355.021",
+    "primary": false,
+    "local_path": "MO/revisor.mo.gov-main-OneSection.aspx-section-355.021-bd60a758.html",
+    "content_type": "text/html; charset=utf-8",
+    "content_sha256": "8d270dc68427c2728b35659067f5d36e4e24624ab522248e514afd1517a184c8",
+    "perma_url": "https://perma.cc/JE94-W3HC",
+    "wayback_url": "https://web.archive.org/web/20260815192028/https://revisor.mo.gov/main/OneSection.aspx?section=355.021",
+    "captured_at": "2026-08-15T19:20:04.703297+00:00",
+    "signed": false,
+    "tls_chain_unverified": false
+  },
+  {
+    "source_url": "https://revisor.mo.gov/main/OneSection.aspx?section=355.856",
+    "primary": true,
+    "local_path": "MO/revisor.mo.gov-main-OneSection.aspx-section-355.856-cd88c3c0.html",
+    "content_type": "text/html; charset=utf-8",
+    "content_sha256": "4f36ad5eebcfe73e69deebfd1215a79f51bed0a699894b2b91cc5dc19a58a8fb",
+    "perma_url": "https://perma.cc/KYK7-NBPT",
+    "wayback_url": null,
+    "captured_at": "2026-08-15T19:20:04.703297+00:00",
+    "signed": false,
+    "tls_chain_unverified": false
+  },
+  {
+    "source_url": "https://revisor.mo.gov/main/OneSection.aspx?section=355.857",
+    "primary": false,
+    "local_path": "MO/revisor.mo.gov-main-OneSection.aspx-section-355.857-b7a9421b.html",
+    "content_type": "text/html; charset=utf-8",
+    "content_sha256": "c51fc6db6f094f3c4c9fe530555f45a9ce5e00b3039f96700f6f441eac3342df",
+    "perma_url": "https://perma.cc/7299-26NT",
+    "wayback_url": "https://web.archive.org/web/20260815192051/https://revisor.mo.gov/main/OneSection.aspx?section=355.857",
+    "captured_at": "2026-08-15T19:20:04.703297+00:00",
+    "signed": false,
+    "tls_chain_unverified": false
+  },
+  {
     "source_url": "https://revisor.mo.gov/main/OneSection.aspx?section=407.453",
     "primary": false,
     "local_path": "MO/revisor.mo.gov-main-OneSection.aspx-section-407.453.html",
@@ -98,6 +134,18 @@
     "provenance": "wayback_snapshot re-homing 2026-06-12: id_ raw-variant fetch of the verification row's archive_snapshot_url; load-bearing content byte-grepped at fetch ('355\\.857': 12 hits); shell-signature sweep (extended 2026-06-12) clean; converts the Wayback-only row to local-backed per the 2026-06-11 local-artifact-required standard",
     "ingested_at": "2026-06-12T19:52:26.455291+00:00",
     "captured_at_basis": "CORRECTED 2026-08-08 per Tony ruling (captured_at = when the BYTES were captured from the source, not when we ingested them). True date read from the 14-digit snapshot timestamp in this entry's own source_url; verified against the Internet Archive CDX index (a snapshot exists at exactly that timestamp, status 200) before the correction was propagated. Prior value was the 2026-06-12 wayback_snapshot re-homing INGEST date, preserved in ingested_at."
+  },
+  {
+    "source_url": "https://www.sos.mo.gov/CMSImages/Business/fees.pdf",
+    "primary": false,
+    "local_path": "MO/www.sos.mo.gov-CMSImages-Business-fees.pdf-8ddd432a.pdf",
+    "content_type": "application/pdf",
+    "content_sha256": "5e3d6f40bea7b1b9008b0b2995aeea28c0b8e33f7a8dba7239292e83fbb33833",
+    "perma_url": "https://perma.cc/RW76-SDWS",
+    "wayback_url": "https://web.archive.org/web/20260724070422/https://www.sos.mo.gov/CMSImages/Business/fees.pdf",
+    "captured_at": "2026-08-15T19:20:04.703297+00:00",
+    "signed": false,
+    "tls_chain_unverified": false
   },
   {
     "source_url": "https://www.sos.mo.gov/cmsimages/adrules/csr/current/15csr/15c60-3.pdf",
