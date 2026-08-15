@@ -2259,6 +2259,23 @@
         "the immediately preceding five calendar months",
         "is an excuse for failure to comply with this section"
       ]
+    },
+    "2934f526f531f4949864766f3fe638a2e592d637da07360757601d21c4506484": {
+      "basis": "DCMR 17-6 section 600, GENERAL PROVISIONS -- carries the 10% technology surcharge that applies on top of every Corporations Division filing fee, so it is load-bearing for the APPLIED fee, not background. Same binary/force-download shape as 603.",
+      "source_url": "https://dcregs.dc.gov/Common/DCMR/RuleList.aspx?DownloadFile=A0A6555F-0000-CA11-9301-3D0EE2256DEB",
+      "strings": [
+        "This chapter establishes the fees and charges",
+        "additional fee of ten percent"
+      ]
+    },
+    "de87b9d0dafe366030edf775e4376c7f6661262b216fe307fedea64f18c49637": {
+      "basis": "DCMR 17-6 section 603, NONPROFIT CORPORATIONS FILING FEES -- the rules the Mayor adopted under D.C. Code 29-102.12(a), which is where DC's corporate filing fee actually lives. 603.1(o) sets the biennial report fee and its late fee. Keyed by sha256 because the artifact is an MS Word binary served as application/force-download, which verify_perma's utf-8 WARC grep cannot read; extract_text reads it from the LOCAL capture (confirmed 2026-08-21).",
+      "source_url": "https://dcregs.dc.gov/Common/DCMR/RuleList.aspx?DownloadFile=D0A6555F-0000-C154-ABEF-3F80CC71D825",
+      "strings": [
+        "NONPROFIT CORPORATIONS FILING FEES",
+        "Biennial report: eighty dollars",
+        "Late fee: an additional fifty dollars"
+      ]
     }
   }
 }
