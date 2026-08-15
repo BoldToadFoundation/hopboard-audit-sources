@@ -861,14 +861,6 @@
         "82.193"
       ]
     },
-    "HTU5-GVS3": {
-      "basis": "AZ batch-1 2026-07-03: ARS compilation currency stamp (57th Leg 1st Reg = 2025); byte-verified.",
-      "source_url": "https://www.azleg.gov/arstitle/",
-      "strings": [
-        "57th Legislature",
-        "updated to include the revised sections"
-      ]
-    },
     "J4NN-JXDF": {
       "basis": "OAR 137-010-0030: per-report fee obligation, fund-balance fee thresholds ($20M/$50,000), and $20 delinquency fee",
       "source_url": "https://oregon.public.law/rules/oar_137-010-0030",
@@ -1568,6 +1560,39 @@
       "basis": "Texas SoS Form 802, the periodic-report instrument itself — 'Periodic Report of a Nonprofit Corporation', filed with the Secretary of State, Reports Unit. Added 2026-08-15 as a second agency-lane artifact after the FAQ's Perma came back incomplete; establishes form identity and filing agency from the agency's own document.",
       "source_url": "https://www.sos.state.tx.us/corp/forms/802_boc.pdf",
       "skip": "PDF — the completeness check is a RAW SUBSTRING GREP over the decoded WARC bytes, and a PDF's text lives in compressed streams, so it cannot be asserted by this instrument in either direction. Corpus norm, measured 2026-08-15: of 79 PDF perma entries, 76 already carry exactly this skip. Strings verified against the local artifact instead (TX/www.sos.state.tx.us-corp-forms-802_boc.pdf..., extractor-read: 'Periodic Report', 'Nonprofit Corporation', 'Secretary of State', 'Reports Unit', 'Form 802')."
+    },
+    "G7U6-QUHM": {
+      "basis": "A.R.S. 10-11622 (Annual report) — the AZ nonprofit corporate duty, its annual cadence, and the anniversary-month/ACC-assigned-date rule that the encoded deadline string compresses and that the engine's agency-assigned predicate keys on. Reader A of the 2026-08-15 AZ corporate read.",
+      "source_url": "https://www.azleg.gov/ars/10/11622.htm",
+      "strings": [
+        "Annual report",
+        "shall deliver to the commission for filing an annual report",
+        "in the anniversary month on the date assigned by the commission"
+      ]
+    },
+    "TT3D-5XFM": {
+      "basis": "A.R.S. 10-3122(A)(16) — the $10 nonprofit annual report filing fee, the only statutory source for AZ corporate_filing_fee.",
+      "source_url": "https://www.azleg.gov/ars/10/03122.htm",
+      "strings": [
+        "Filing, service and copying fees",
+        "Annual report",
+        "$ 10"
+      ]
+    },
+    "4VWT-B9XG": {
+      "basis": "Arizona Corporation Commission Business Services FAQs — reader B (agency lane) of the 2026-08-15 AZ corporate read, and a LIVE page confirming the regime is unchanged by the 2026 session that the ARS compilation does not yet cover. NOTE: this is also the page the 2026-05 verification rows cited for the corporate columns, and it contains NO occurrence of 'anniversary' — the citation did not support the encoded deadline even though the value is correct.",
+      "source_url": "https://azcc.gov/faqs/BusinessServicesFAQs",
+      "strings": [
+        "nonprofit corporations have an annual report filing fee of $10",
+        "by their designated due date each year"
+      ]
+    },
+    "TL2J-2J7K": {
+      "basis": "azleg.gov ARS index — the AMENDMENT-CHECK source for the AZ read, quoted for its own stated limit: the compilation covers the 57th Legislature 1st Regular Session and not the 2nd. Byte-identical (sha 5500bb6c) to the 2026-07-03 capture, so the statement has been stable across six weeks.",
+      "source_url": "https://www.azleg.gov/arstitle/",
+      "strings": [
+        "updated to include the revised sections from the 57th Legislature, 1st Regular Session"
+      ]
     }
   },
   "by_sha256": {
