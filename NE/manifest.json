@@ -12,6 +12,30 @@
     "tls_chain_unverified": false
   },
   {
+    "source_url": "https://nebraskalegislature.gov/laws/statutes.php?statute=21-19,172",
+    "primary": true,
+    "local_path": "NE/nebraskalegislature.gov-laws-statutes.php-statute-21-19-172-bd3cd85a.html",
+    "content_type": "text/html; charset=UTF-8",
+    "content_sha256": "b1f945ab84630c374759af4a18fb303b291bd524fcf4d68bbb125019ee9400fd",
+    "perma_url": "https://perma.cc/QJ8F-LMVR",
+    "wayback_url": null,
+    "captured_at": "2026-08-15T17:03:54.333323+00:00",
+    "signed": false,
+    "tls_chain_unverified": false
+  },
+  {
+    "source_url": "https://nebraskalegislature.gov/laws/statutes.php?statute=21-1905",
+    "primary": false,
+    "local_path": "NE/nebraskalegislature.gov-laws-statutes.php-statute-21-1905-d49ddaff.html",
+    "content_type": "text/html; charset=UTF-8",
+    "content_sha256": "0286a6bcf5dc1a9b79ea593ad7dc599d10908b01f99e3a310f9ae3fdcc347b4e",
+    "perma_url": "https://perma.cc/R58U-MRV5",
+    "wayback_url": null,
+    "captured_at": "2026-08-15T17:03:54.333323+00:00",
+    "signed": false,
+    "tls_chain_unverified": false
+  },
+  {
     "source_url": "https://nebraskalegislature.gov/laws/statutes.php?statute=28-1440",
     "primary": true,
     "local_path": "NE/nebraskalegislature.gov-laws-statutes.php-statute-28-1440.html",
@@ -45,6 +69,30 @@
     "wayback_url": null,
     "captured_at": "2026-07-02T09:18:52.997687+00:00",
     "signed": true,
+    "tls_chain_unverified": false
+  },
+  {
+    "source_url": "https://sos.nebraska.gov/business-services/annualbiennial-reporting",
+    "primary": false,
+    "local_path": "NE/sos.nebraska.gov-business-services-annualbiennial-reporting-eb4e049f.html",
+    "content_type": "text/html; charset=UTF-8",
+    "content_sha256": "fb53bee46f7aa17dbde08fd07d76aee66efbd57f996c1af8e8f8a62b2ba07911",
+    "perma_url": "https://perma.cc/R7A8-4YWK",
+    "wayback_url": "https://web.archive.org/web/20260815170410/https://sos.nebraska.gov/business-services/annualbiennial-reporting",
+    "captured_at": "2026-08-15T17:03:54.333323+00:00",
+    "signed": false,
+    "tls_chain_unverified": false
+  },
+  {
+    "source_url": "https://sos.nebraska.gov/business-services/forms-and-fee-information",
+    "primary": false,
+    "local_path": "NE/sos.nebraska.gov-business-services-forms-and-fee-information-50f5f5e1.html",
+    "content_type": "text/html; charset=UTF-8",
+    "content_sha256": "13b6c9e0678e04d0fb3d9317a5771f40297325ee2154ad697ce2bf7282f1868e",
+    "perma_url": "https://perma.cc/KE9X-QTXX",
+    "wayback_url": "https://web.archive.org/web/20260815170433/https://sos.nebraska.gov/business-services/forms-and-fee-information",
+    "captured_at": "2026-08-15T17:03:54.333323+00:00",
+    "signed": false,
     "tls_chain_unverified": false
   },
   {
