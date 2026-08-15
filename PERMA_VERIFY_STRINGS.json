@@ -1593,6 +1593,33 @@
       "strings": [
         "updated to include the revised sections from the 57th Legislature, 1st Regular Session"
       ]
+    },
+    "YK3L-PHHV": {
+      "basis": "Fla. Stat. §617.1622 — the Florida nonprofit corporate ANNUAL REPORT: the duty, the Department of State as filing authority, the May 1 due date and the Jan 1-May 1 window. Reader A of the 2026 FL corporate read. Replaces a record that cited §496.405 (Solicitation of Contributions Act) for these columns.",
+      "source_url": "https://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0600-0699/0617/Sections/0617.1622.html",
+      "strings": [
+        "shall deliver to the Department of State for filing a sworn annual report",
+        "on or before May 1",
+        "between January 1 and May 1",
+        "s. 41, ch. 2001-63"
+      ]
+    },
+    "L6P2-4RR6": {
+      "basis": "Fla. Stat. §617.0122(17) — 'Annual report: $61.25', the statutory source for FL corporate_filing_fee.",
+      "source_url": "https://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0600-0699/0617/Sections/0617.0122.html",
+      "strings": [
+        "Fees for filing documents and issuing certificates",
+        "Annual report"
+      ]
+    },
+    "T9P9-VZVY": {
+      "basis": "Florida Department of State, Division of Corporations (Sunbiz) — reader B, a different issuing body from the Legislature. Independently states the $61.25 nonprofit fee, that NON-PROFIT corporations are exempt from the $400 late fee, and the third-Friday-of-September administrative-dissolution backstop the statute does not give.",
+      "source_url": "https://dos.fl.gov/sunbiz/manage-business/efile/annual-report/",
+      "strings": [
+        "Non-profit corporations are not subject to the $400 late fee",
+        "Profit or Non-Profit Corporation: $61.25",
+        "third Friday of September"
+      ]
     }
   },
   "by_sha256": {
