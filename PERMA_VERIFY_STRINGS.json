@@ -1693,6 +1693,24 @@
       "basis": "Missouri Secretary of State, Schedule of Fees and Charges — reader B, and the source of what a filer ACTUALLY PAYS. Under 'CHAPTER 355 FEES—Not for Profit Corporations' it lists Annual Registration Report Filed Timely at $15 (paper) / $10 (on-line) and Biennial at $30 / $20. ⛔ THOSE EXCEED RSMo 355.021's base fees by exactly $5 (annual) and $10 (biennial). The $10 biennial delta is authorised by 355.857(1)(3) as a technology-trust fee; the $5 ANNUAL delta's authorising provision was NOT located and is recorded as unresolved rather than explained.",
       "source_url": "https://www.sos.mo.gov/CMSImages/Business/fees.pdf",
       "skip": "PDF — the perma completeness check greps raw WARC bytes and this is a genuine binary PDF, so its text layer is unassertable by that instrument. Strings verified against the local sha-pinned artifact via the by_sha256 entry."
+    },
+    "P5SE-SLU4": {
+      "basis": "KRS 14A.6-010 \"Annual report.\" — the OPERATIVE section for Kentucky's corporate annual report: the duty, the Secretary of State as filing authority, not-for-profit corporations named explicitly at (1)(d)1, and the Jan 1–Jun 30 window at (3). (7)'s exemptions do not reach nonprofit corporations. Effective 2017-06-29. ⭐ Its sha 2467f536… is the SAME prefix KY_VERIFY_20260719.sql quoted a month earlier without ever capturing the document — the claim was true, the archive was missing.",
+      "source_url": "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=47075",
+      "skip": "PDF — the perma completeness check greps raw WARC bytes and this source serves a genuine binary PDF, so its text layer is unassertable by that instrument. Strings verified against the local sha-pinned artifact via by_sha256."
+    },
+    "N5GH-SLG7": {
+      "basis": "KRS 273.3671 \"Annual report.\" — a PURE CROSS-REFERENCE, in full: \"Each corporation and each foreign corporation qualified to transact business in this Commonwealth is subject to KRS 14A.6-010.\" It establishes that KY nonprofit corporations are inside the regime and nothing else. sha f2c8879d… also matches KY_VERIFY's quoted prefix.",
+      "source_url": "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=36685",
+      "skip": "PDF — the perma completeness check greps raw WARC bytes and this source serves a genuine binary PDF, so its text layer is unassertable by that instrument. Strings verified against the local sha-pinned artifact via by_sha256."
+    },
+    "FVN9-FTDM": {
+      "basis": "Kentucky Secretary of State, Annual Reports — the AGENCY lane, a different issuing body from the Legislative Research Commission. Confirms the June 30 deadline and the Jan 1–Jun 30 window, and is the ONLY source for the $15 fee. ⚠ THE PAGE CITES NO KRS FOR THE FEE and KRS 14A.6-010 contains ZERO occurrences of \"fee\", so the fee's statutory basis is NOT LOCATED — which is NOT the same as a delegation (contrast IA §504.1613(4)(b) and DC §29-102.12(a), which delegate on their face). Recorded as not-found, not as delegated.",
+      "source_url": "https://www.sos.ky.gov/bus/business-filings/Pages/Annual-Reports.aspx",
+      "strings": [
+        "by June 30 of each year",
+        "accompanied by a $15 filing fee"
+      ]
     }
   },
   "by_sha256": {
@@ -2198,6 +2216,20 @@
         "CHAPTER 355 FEES",
         "Annual Registration Report Filed Timely",
         "Not for Profit Corporations"
+      ]
+    },
+    "2467f536c5608eb00beb6312b64debae7be32886f7c9005250afa28bbffb4eff": {
+      "basis": "KRS 14A.6-010 \"Annual report.\" — the OPERATIVE section for Kentucky's corporate annual report: the duty, the Secretary of State as filing authority, not-for-profit corporations named explicitly at (1)(d)1, and the Jan 1–Jun 30 window at (3). (7)'s exemptions do not reach nonprofit corporations. Effective 2017-06-29. ⭐ Its sha 2467f536… is the SAME prefix KY_VERIFY_20260719.sql quoted a month earlier without ever capturing the document — the claim was true, the archive was missing.",
+      "strings": [
+        "shall deliver to the Secretary of State for filing an annual report",
+        "between January 1 and June 30 of each following calendar year",
+        "Amended 2017 Ky. Acts ch. 193"
+      ]
+    },
+    "f2c8879ddb33d91962c70be2488fcd76c83ff2e85dd7eb74fae7ee6f67d852a4": {
+      "basis": "KRS 273.3671 \"Annual report.\" — a PURE CROSS-REFERENCE, in full: \"Each corporation and each foreign corporation qualified to transact business in this Commonwealth is subject to KRS 14A.6-010.\" It establishes that KY nonprofit corporations are inside the regime and nothing else. sha f2c8879d… also matches KY_VERIFY's quoted prefix.",
+      "strings": [
+        "is subject to KRS 14A.6-010"
       ]
     }
   }
