@@ -22,5 +22,29 @@
     "captured_at": "2026-08-15T22:15:32.146853+00:00",
     "signed": false,
     "tls_chain_unverified": false
+  },
+  {
+    "source_url": "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=47075",
+    "primary": true,
+    "local_path": "KY/apps.legislature.ky.gov-law-statutes-statute.aspx-id-47075-5823cd66.pdf",
+    "content_type": "application/PDF",
+    "content_sha256": "2467f536c5608eb00beb6312b64debae7be32886f7c9005250afa28bbffb4eff",
+    "perma_url": "https://perma.cc/P5SE-SLU4",
+    "wayback_url": "https://web.archive.org/web/20260414205820/https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=47075",
+    "captured_at": "2026-08-15T22:24:55.782161+00:00",
+    "signed": false,
+    "tls_chain_unverified": false
+  },
+  {
+    "source_url": "https://www.sos.ky.gov/bus/business-filings/Pages/Annual-Reports.aspx",
+    "primary": false,
+    "local_path": "KY/www.sos.ky.gov-bus-business-filings-Pages-Annual-Reports.aspx-3995cdd8.html",
+    "content_type": "text/html; charset=utf-8",
+    "content_sha256": "364c0059443a0a6d06cdc2e42d4d6335b132527fbafc5c327cd751c40157d0c6",
+    "perma_url": "https://perma.cc/FVN9-FTDM",
+    "wayback_url": "https://web.archive.org/web/20260815222510/https://www.sos.ky.gov/bus/business-filings/Pages/Annual-Reports.aspx",
+    "captured_at": "2026-08-15T22:24:55.782161+00:00",
+    "signed": false,
+    "tls_chain_unverified": false
   }
 ]
