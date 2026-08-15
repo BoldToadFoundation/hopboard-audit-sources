@@ -1666,6 +1666,33 @@
         "Every Odd numbered year beginning January 1st and due by April 1st",
         "Nonprofit corporations do not have a filing fee for their biennial reports"
       ]
+    },
+    "KYK7-NBPT": {
+      "basis": "RSMo 355.856 — the MO nonprofit CORPORATE REGISTRATION REPORT: the duty, the secretary of state as filing authority, the August 31 due date, the $15 late-acceptance fee, and administrative dissolution under 355.706 for failure to file.",
+      "source_url": "https://revisor.mo.gov/main/OneSection.aspx?section=355.856",
+      "strings": [
+        "shall file with the secretary of state a corporate registration report",
+        "no later than August thirty-first"
+      ]
+    },
+    "JE94-W3HC": {
+      "basis": "RSMo 355.021(17)-(18) — the STATUTORY BASE fees: annual $10 written / $5 electronic, biennial $20 written / $10 electronic. ⛔ THESE ARE NOT WHAT THE FILER PAYS — the SoS Schedule of Fees collects $15/$10 annual and $30/$20 biennial under its CHAPTER 355 heading. See that entry.",
+      "source_url": "https://revisor.mo.gov/main/OneSection.aspx?section=355.021",
+      "strings": [
+        "Corporate registration report filed annually, ten dollars if filed in a written format or five dollars if filed electronically"
+      ]
+    },
+    "7299-26NT": {
+      "basis": "RSMo 355.857 — the ELECTIVE biennial cadence (formation-year parity, 24-month lock-in) and, at (1)(3), an additional $10 technology-trust fee on each biennial report. This is the provision behind prod's corporate_filing_cadence_election='biennial', which is already correctly encoded.",
+      "source_url": "https://revisor.mo.gov/main/OneSection.aspx?section=355.857",
+      "strings": [
+        "the option of biennially filing corporate registration reports"
+      ]
+    },
+    "RW76-SDWS": {
+      "basis": "Missouri Secretary of State, Schedule of Fees and Charges — reader B, and the source of what a filer ACTUALLY PAYS. Under 'CHAPTER 355 FEES—Not for Profit Corporations' it lists Annual Registration Report Filed Timely at $15 (paper) / $10 (on-line) and Biennial at $30 / $20. ⛔ THOSE EXCEED RSMo 355.021's base fees by exactly $5 (annual) and $10 (biennial). The $10 biennial delta is authorised by 355.857(1)(3) as a technology-trust fee; the $5 ANNUAL delta's authorising provision was NOT located and is recorded as unresolved rather than explained.",
+      "source_url": "https://www.sos.mo.gov/CMSImages/Business/fees.pdf",
+      "skip": "PDF — the perma completeness check greps raw WARC bytes and this is a genuine binary PDF, so its text layer is unassertable by that instrument. Strings verified against the local sha-pinned artifact via the by_sha256 entry."
     }
   },
   "by_sha256": {
@@ -2163,6 +2190,14 @@
       "strings": [
         "shall deliver to the secretary of state for filing a biennial report",
         "A filing fee for the biennial report shall be determined by the secretary of state"
+      ]
+    },
+    "5e3d6f40bea7b1b9008b0b2995aeea28c0b8e33f7a8dba7239292e83fbb33833": {
+      "basis": "MO SoS Schedule of Fees local artifact — the CHAPTER 355 (Not for Profit) block, checked against the sha-pinned local PDF because the perma WARC cannot be grepped for a binary source.",
+      "strings": [
+        "CHAPTER 355 FEES",
+        "Annual Registration Report Filed Timely",
+        "Not for Profit Corporations"
       ]
     }
   }
