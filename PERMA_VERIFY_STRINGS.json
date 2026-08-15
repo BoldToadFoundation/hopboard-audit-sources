@@ -1620,6 +1620,39 @@
         "Profit or Non-Profit Corporation: $61.25",
         "third Friday of September"
       ]
+    },
+    "QJ8F-LMVR": {
+      "basis": "Neb. Rev. Stat. 21-19,172 — the NE nonprofit corporate BIENNIAL REPORT: the duty, the Secretary of State as filing authority, odd-numbered years, the Jan 1-Apr 1 window and the April 1 due date, and (e) the cross-reference routing the fee to 21-1905 (that section number is HYPERLINKED, so a needle spanning it fails on raw text). ⚠ THIS HOST EMITS A PER-RESPONSE CSP NONCE, so its sha256 is UNSTABLE BY CONSTRUCTION: an independent fetch minutes before the capture gave sha a4e11979 vs the captured b1f945ab — identical length (25651B), 14 differing lines, ALL nonce values, statutory text identical. Re-fetch-and-compare-sha is NOT a valid continuity test for this host; compare extracted text.",
+      "source_url": "https://nebraskalegislature.gov/laws/statutes.php?statute=21-19,172",
+      "strings": [
+        "shall deliver to the Secretary of State a biennial report",
+        "between January 1 and April 1 of the odd-numbered year",
+        "the biennial report is due on April 1 of the odd-numbered",
+        "Laws 2014, LB774"
+      ]
+    },
+    "R58U-MRV5": {
+      "basis": "Neb. Rev. Stat. 21-1905 — the nonprofit fee schedule, last amended Laws 2020 LB910. NO line item for the biennial report; it falls to (a)(11), the catch-all, at $30 written / $25 electronic. A DERIVATION (21-19,172(e) points here and no specific item exists), independently confirmed by the Secretary of State's own fee page.",
+      "source_url": "https://nebraskalegislature.gov/laws/statutes.php?statute=21-1905",
+      "strings": [
+        "Any other document required or permitted to be filed by the Nebraska Nonprofit Corporation Act",
+        "Laws 2020, LB910"
+      ]
+    },
+    "R7A8-4YWK": {
+      "basis": "Nebraska Secretary of State, Annual/Biennial Reporting — reader B, a different issuing body. Confirms biennial + odd-numbered years + April 1 and adds the DELINQUENCY date (June 16) the statute does not state. ⚠ Needles are split deliberately: the sentence carries &nbsp; entities and a <u> tag around 'odd numbered years', so a single spanning needle fails the extractor.",
+      "source_url": "https://sos.nebraska.gov/business-services/annualbiennial-reporting",
+      "strings": [
+        "Domestic and Foreign Nonprofit Corporations biennial reports are due in the",
+        "by April 1, delinquent June 16"
+      ]
+    },
+    "KE9X-QTXX": {
+      "basis": "Nebraska Secretary of State, Forms and Fee Information — the agency's own schedule. Under the nonprofit corporation headings it prices 'Any other document required or permitted to be filed' at $30 (In-Office) / $25 (Online), confirming the 21-1905(a)(11) routing from the agency side.",
+      "source_url": "https://sos.nebraska.gov/business-services/forms-and-fee-information",
+      "strings": [
+        "Any other document required or permitted to be filed"
+      ]
     }
   },
   "by_sha256": {
