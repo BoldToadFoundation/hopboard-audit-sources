@@ -1711,6 +1711,24 @@
         "by June 30 of each year",
         "accompanied by a $15 filing fee"
       ]
+    },
+    "F6P5-9V8S": {
+      "basis": "CA SoS Corporations - Statement of Information: the NONPROFIT row's own cadence and fee. Strings are BYTE-CONTIGUOUS fragments, deliberately: the rendered sentence 'Due within 90 days of initial registration and every two years thereafter' is split in the markup by an <a>/<strong>/<span> around 'every two years', so the full sentence is NOT a contiguous byte string and would fail a substring grep against a faithful capture. Fee confirmed as the nonprofit row's own: within the span from the nonprofit row to the next row, $20.00 is the ONLY dollar amount (the earlier $20.00 at a lower offset belongs to row 1's CID breakdown, $35.00 = SI $20.00 + CID $15.00).",
+      "source_url": "https://www.sos.ca.gov/business-programs/business-entities/forms/corporations-statement-information",
+      "strings": [
+        "Statement of Information - Nonprofit",
+        "Due within 90 days of initial registration and",
+        "every two years",
+        "$20.00"
+      ]
+    },
+    "4TDU-L664": {
+      "basis": "CA SoS Statements of Information: the recurring 6-month filing window that corroborates Corp Code 6210(c)'s 'calendar month during which its original articles were filed and the immediately preceding five calendar months'.",
+      "source_url": "https://www.sos.ca.gov/business-programs/business-entities/statements",
+      "strings": [
+        "Statutory Required 6 Month Filing Window",
+        "filing period when subsequent statements are due"
+      ]
     }
   },
   "by_sha256": {
