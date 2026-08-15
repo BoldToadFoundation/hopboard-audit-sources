@@ -1539,6 +1539,35 @@
       "basis": "13-B M.R.S. 1301: annual report of domestic and foreign corporations (ME corporate read, 2026-07-19; ME remains DEMOTED — agency-assigned, no anchor)",
       "source_url": "https://legislature.maine.gov/statutes/13-B/title13-Bch13.pdf",
       "skip": "pdf payload — WARC grep v1 is text/html-only; local-byte-verified via pdftotext at capture (heading '1301. Annual report of domestic and foreign corporations')"
+    },
+    "5JUZ-4Y74": {
+      "basis": "Tex. Bus. Orgs. Code 4.153(11) — the $5 filing fee for a Chapter 22 report, the only source for TX corporate_filing_fee. NOTE ON NEEDLE SHAPE: the extractor preserves markup and this source HYPERLINKS the chapter number, so the fee clause is split by an anchor tag; the third needle carries the tag boundary deliberately rather than a normalized reading that would silently miss. Authored at capture 2026-08-15.",
+      "source_url": "https://tcss.legis.texas.gov/resources/BO/htm/BO.4.htm",
+      "strings": [
+        "FILING FEES: NONPROFIT CORPORATIONS",
+        "for filing a report under Chapter",
+        ">22</a>, $5;"
+      ]
+    },
+    "K8CY-NU7X": {
+      "basis": "Tex. Bus. Orgs. Code ch. 22 subch. H — the nonprofit corporate PERIODIC REPORT: SoS-demanded, capped at once per four years (22.357), notice-triggered (22.358), due 30 days after mailing (22.359), forfeiture on failure (22.360). Load-bearing for the 2026-08-15 corporate read that replaced TX's franchise-tax encode. Re-capture of Y4XD-NLBG at the same content sha256 777cf9c4 (bytes stable across two fetches 12 minutes apart); the earlier GUID's entry is kept so both resolve.",
+      "source_url": "https://tcss.legis.texas.gov/resources/BO/htm/BO.22.htm",
+      "strings": [
+        "REPORT OF DOMESTIC AND FOREIGN CORPORATIONS",
+        "not more than once every four years",
+        "The secretary of state shall send written notice",
+        "not later than the 30th day after the date notice is mailed"
+      ]
+    },
+    "NNH5-JKTG": {
+      "basis": "Texas Secretary of State, FAQs for Nonprofit Corporation Periodic Reports — the AGENCY lane (reader B) of the 2026-08-15 TX corporate read. Carries the clause that independently refutes the Comptroller/PIR encode: the periodic-report duty binds 'regardless of the corporation's tax status'.",
+      "source_url": "https://www.sos.state.tx.us/corp/nonprofitfaqs.shtml",
+      "skip": "MEASURED TWICE, DIFFERENT GUIDS, SAME RESULT: Perma's render of www.sos.state.tx.us archives the right page (WARC <title> = 'Nonprofit Organizations FAQs') but NOT the FAQ answer bodies. 2026-08-15: GUID 2XMV-VWWM, 4676574 byte WARC, 3 of 4 needles absent; re-captured as NNH5-JKTG, 4676595 byte WARC, the SAME 3 absent. Not an outage and not rot — a deterministic partial render of a host that also bot-filters plain fetches (www.sos.state.tx.us/corp/formsfees.shtml 403s to curl). ⛔ THIS IS A DOCUMENTED SKIP OF THE PERMA LAYER ONLY, NOT OF THE EVIDENCE. The durable record is the local artifact TX/www.sos.state.tx.us-corp-nonprofitfaqs.shtml-979b9538.html, sha256 3c4f553c2e31e63170c60cd42085696a3821168e96faa25452711fb1e4cf442a, git-tracked, IDENTICAL at both captures 12 minutes apart, and byte-matched against an independent fetch made during the read itself before any capture ran. All four needles verify against it. WORKED CASE WORTH KEEPING: a Perma that RESOLVES is not a Perma that SUPPORTS — resolution was green here while completeness was red, and only the string grep could tell them apart."
+    },
+    "CV2Y-2YWY": {
+      "basis": "Texas SoS Form 802, the periodic-report instrument itself — 'Periodic Report of a Nonprofit Corporation', filed with the Secretary of State, Reports Unit. Added 2026-08-15 as a second agency-lane artifact after the FAQ's Perma came back incomplete; establishes form identity and filing agency from the agency's own document.",
+      "source_url": "https://www.sos.state.tx.us/corp/forms/802_boc.pdf",
+      "skip": "PDF — the completeness check is a RAW SUBSTRING GREP over the decoded WARC bytes, and a PDF's text lives in compressed streams, so it cannot be asserted by this instrument in either direction. Corpus norm, measured 2026-08-15: of 79 PDF perma entries, 76 already carry exactly this skip. Strings verified against the local artifact instead (TX/www.sos.state.tx.us-corp-forms-802_boc.pdf..., extractor-read: 'Periodic Report', 'Nonprofit Corporation', 'Secretary of State', 'Reports Unit', 'Form 802')."
     }
   },
   "by_sha256": {
