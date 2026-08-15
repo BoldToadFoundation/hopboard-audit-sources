@@ -1653,6 +1653,19 @@
       "strings": [
         "Any other document required or permitted to be filed"
       ]
+    },
+    "X6WW-KSD7": {
+      "basis": "Iowa Code 504.1613 (Iowa Code 2026 edition) — the IA nonprofit corporate BIENNIAL REPORT: the duty, the secretary of state as filing authority, the Jan 1-Apr 1 odd-year window, and 4(b) DELEGATING THE FEE ('A filing fee for the biennial report shall be determined by the secretary of state'), which is why the agency lane is not optional for IA. History: 2004 Acts, ch 1049, 175, 192.",
+      "source_url": "https://www.legis.iowa.gov/docs/code/504.1613.pdf",
+      "skip": "PDF — the perma completeness check is a RAW SUBSTRING GREP over decoded WARC bytes and this source URL is a genuine binary PDF, so its text layer is compressed and unassertable by that instrument in either direction (measured: WARC 53255 bytes, 0 of 3 needles). Corpus norm for real-PDF sources. Load-bearing strings ARE verified, against the local sha-pinned artifact, via the by_sha256 entry below — which is the lane that reads local files."
+    },
+    "VV9K-ZWRL": {
+      "basis": "Iowa Secretary of State, Business Entity Forms & Fees — reader B, and the ONLY source for IA's corporate fee since Iowa Code 504.1613(4)(b) delegates it. ⛔ THE HEADLINE NUMBER IS WRONG FOR OUR FILER AND THE FOOTNOTE GOVERNS: 'LLCs, LLPs, and Nonprofit Corporations: Every Odd numbered year ... The fee is $30* by online filing or $45* by paper' followed by '*Nonprofit corporations do not have a filing fee for their biennial reports.' Reading the headline alone would have produced a FALSE correction of prod's correct $0. ⚠ Needles avoid crossing tag boundaries: 'Nonprofit Corporations:' sits inside <strong> and the footnote inside <em>. ⚠ This host also varies per response (same byte length, 6 differing lines) so its sha is not a continuity test — same class as nebraskalegislature.gov.",
+      "source_url": "https://sos.iowa.gov/businesses/business-entity-forms-and-fees",
+      "strings": [
+        "Every Odd numbered year beginning January 1st and due by April 1st",
+        "Nonprofit corporations do not have a filing fee for their biennial reports"
+      ]
     }
   },
   "by_sha256": {
@@ -2143,6 +2156,13 @@
         "at the same time the form is filed with the Internal Revenue Service",
         "a new notice of intent to solicit shall be filed with the Attorney General",
         "notice shall expire on December 31 of the calendar year in which it was filed"
+      ]
+    },
+    "88e65068e8ee7941e44ebe0a12706bfaa6eb06d2b659e140fa45a8ecc3dcedb7": {
+      "basis": "Iowa Code 504.1613 local artifact — the load-bearing clauses, checked against the sha-pinned local PDF because the perma WARC cannot be grepped for a binary source.",
+      "strings": [
+        "shall deliver to the secretary of state for filing a biennial report",
+        "A filing fee for the biennial report shall be determined by the secretary of state"
       ]
     }
   }
