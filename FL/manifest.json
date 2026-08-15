@@ -1,5 +1,17 @@
 [
   {
+    "source_url": "https://dos.fl.gov/sunbiz/manage-business/efile/annual-report/",
+    "primary": false,
+    "local_path": "FL/dos.fl.gov-sunbiz-manage-business-efile-annual-report-60e34804.html",
+    "content_type": "text/html; charset=utf-8",
+    "content_sha256": "6d4884f377af9e12cad582da6887990cb06ed9959d207b10bde856e8a659d128",
+    "perma_url": "https://perma.cc/T9P9-VZVY",
+    "wayback_url": "https://web.archive.org/web/20260815164615/https://dos.fl.gov/sunbiz/manage-business/efile/annual-report/",
+    "captured_at": "2026-08-15T16:46:00.003898+00:00",
+    "signed": false,
+    "tls_chain_unverified": false
+  },
+  {
     "source_url": "https://forms.fdacs.gov/10100.pdf",
     "primary": false,
     "local_path": "FL/forms.fdacs.gov-10100.pdf.pdf",
@@ -61,5 +73,29 @@
     "ingested_from_file": true,
     "provenance": "curl script-fetch 2026-07-10 (http->https redirect followed; UA Firefox); threshold schedule byte-verified pre-ingest",
     "perma_backfilled_at": "2026-07-12T21:05:31.867429+00:00"
+  },
+  {
+    "source_url": "https://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0600-0699/0617/Sections/0617.0122.html",
+    "primary": false,
+    "local_path": "FL/www.leg.state.fl.us-statutes-index.cfm-App_mode-Display_Statute-URL-0600-0699-06-56766335.html",
+    "content_type": "text/html;charset=UTF-8",
+    "content_sha256": "3eb61b7d0fa6f685d7d043fbd3124d60a139b4bc500ae709ce53493d4e7f85cd",
+    "perma_url": "https://perma.cc/L6P2-4RR6",
+    "wayback_url": null,
+    "captured_at": "2026-08-15T16:46:00.003898+00:00",
+    "signed": false,
+    "tls_chain_unverified": false
+  },
+  {
+    "source_url": "https://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0600-0699/0617/Sections/0617.1622.html",
+    "primary": true,
+    "local_path": "FL/www.leg.state.fl.us-statutes-index.cfm-App_mode-Display_Statute-URL-0600-0699-06-4ee6759d.html",
+    "content_type": "text/html;charset=UTF-8",
+    "content_sha256": "f585cf18cc9fed3e2818890c59df9419bb99303fb0bdbc1f9ad058d47b31f2c8",
+    "perma_url": "https://perma.cc/YK3L-PHHV",
+    "wayback_url": null,
+    "captured_at": "2026-08-15T16:46:00.003898+00:00",
+    "signed": false,
+    "tls_chain_unverified": false
   }
 ]
