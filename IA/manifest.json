@@ -1,5 +1,17 @@
 [
   {
+    "source_url": "https://sos.iowa.gov/businesses/business-entity-forms-and-fees",
+    "primary": false,
+    "local_path": "IA/sos.iowa.gov-businesses-business-entity-forms-and-fees-321c7386.html",
+    "content_type": "text/html; charset=UTF-8",
+    "content_sha256": "1a19005bb4564de3e0b81a4066f00270bd564f40f1d33563a84b25b16d1847a5",
+    "perma_url": "https://perma.cc/VV9K-ZWRL",
+    "wayback_url": "https://web.archive.org/web/20260815182052/https://sos.iowa.gov/businesses/business-entity-forms-and-fees",
+    "captured_at": "2026-08-15T18:20:39.176211+00:00",
+    "signed": false,
+    "tls_chain_unverified": false
+  },
+  {
     "source_url": "https://web.archive.org/web/20250920120921/https://www.legis.iowa.gov/docs/code/504.1613.pdf",
     "primary": false,
     "local_path": "IA/web.archive.org-web-20250920120921-https-www.legis.iowa.gov-docs-code-504.1613.p.pdf",
@@ -67,6 +79,18 @@
     "wayback_url": "https://web.archive.org/web/20260706185225/https://www.legis.iowa.gov/docs/code/13C.pdf",
     "captured_at": "2026-07-06T18:51:59.555495+00:00",
     "signed": true,
+    "tls_chain_unverified": false
+  },
+  {
+    "source_url": "https://www.legis.iowa.gov/docs/code/504.1613.pdf",
+    "primary": true,
+    "local_path": "IA/www.legis.iowa.gov-docs-code-504.1613.pdf-ace64b15.pdf",
+    "content_type": "application/pdf",
+    "content_sha256": "88e65068e8ee7941e44ebe0a12706bfaa6eb06d2b659e140fa45a8ecc3dcedb7",
+    "perma_url": "https://perma.cc/X6WW-KSD7",
+    "wayback_url": "https://web.archive.org/web/20260815182042/https://www.legis.iowa.gov/docs/code/504.1613.pdf",
+    "captured_at": "2026-08-15T18:20:39.176211+00:00",
+    "signed": false,
     "tls_chain_unverified": false
   },
   {
