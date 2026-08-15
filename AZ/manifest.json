@@ -61,9 +61,9 @@
     "local_path": "AZ/www.azleg.gov-ars-10-11622.htm-7175cbd1.html",
     "content_type": "text/html",
     "content_sha256": "5e3a789919bb2b5d039f1b273d6d92c37b81a18e47c051a2e4a20c5592c63865",
-    "perma_url": "https://perma.cc/R8TG-Y434",
+    "perma_url": "https://perma.cc/G7U6-QUHM",
     "wayback_url": "https://web.archive.org/web/20260815121553/https://www.azleg.gov/ars/10/11622.htm",
-    "captured_at": "2026-08-15T12:15:44.687651+00:00",
+    "captured_at": "2026-08-15T12:19:15.265221+00:00",
     "signed": false,
     "tls_chain_unverified": false
   },
@@ -106,12 +106,12 @@
   {
     "source_url": "https://www.azleg.gov/arstitle/",
     "primary": false,
-    "local_path": "AZ/www.azleg.gov-arstitle.html",
+    "local_path": "AZ/www.azleg.gov-arstitle-f290d1e8.html",
     "content_type": "text/html; charset=UTF-8",
     "content_sha256": "5500bb6c9e4af66eddd5bdddfd44a7e7d5914692ef53e2718a0a80006f936ebf",
-    "perma_url": "https://perma.cc/HTU5-GVS3",
-    "wayback_url": "https://web.archive.org/web/20260703151525/https://www.azleg.gov/arstitle/",
-    "captured_at": "2026-07-03T15:07:18.862910+00:00",
+    "perma_url": "https://perma.cc/TL2J-2J7K",
+    "wayback_url": "https://web.archive.org/web/20260815122122/https://www.azleg.gov/arstitle/",
+    "captured_at": "2026-08-15T12:19:15.265221+00:00",
     "signed": false,
     "tls_chain_unverified": false
   },
