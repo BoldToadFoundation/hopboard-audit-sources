@@ -1,13 +1,25 @@
 [
   {
     "source_url": "https://code.dccouncil.gov/us/dc/council/code/sections/29-102.11",
-    "primary": false,
-    "local_path": "DC/code.dccouncil.gov-us-dc-council-code-sections-29-102.11.html",
+    "primary": true,
+    "local_path": "DC/code.dccouncil.gov-us-dc-council-code-sections-29-102.11-5729de81.html",
     "content_type": "text/html",
     "content_sha256": "1e3a1c4b7a9707505dd2b4a62dcd3ec3542ec4746ccafd0bbc7b144d564c662d",
-    "perma_url": "https://perma.cc/EYK4-K49L",
-    "wayback_url": null,
-    "captured_at": "2026-07-17T16:38:17.134502+00:00",
+    "perma_url": "https://perma.cc/67S7-6V8L",
+    "wayback_url": "https://web.archive.org/web/20260815221034/https://code.dccouncil.gov/us/dc/council/code/sections/29-102.11",
+    "captured_at": "2026-08-15T22:10:25.682963+00:00",
+    "signed": false,
+    "tls_chain_unverified": false
+  },
+  {
+    "source_url": "https://code.dccouncil.gov/us/dc/council/code/sections/29-102.12",
+    "primary": false,
+    "local_path": "DC/code.dccouncil.gov-us-dc-council-code-sections-29-102.12-cb7f0d49.html",
+    "content_type": "text/html",
+    "content_sha256": "21a4312d6ad82a1b93dee77d44e43b009b8df2aba42f37d4b453202c872d9669",
+    "perma_url": "https://perma.cc/KF2Y-YYC4",
+    "wayback_url": "https://web.archive.org/web/20260815221058/https://code.dccouncil.gov/us/dc/council/code/sections/29-102.12",
+    "captured_at": "2026-08-15T22:10:25.682963+00:00",
     "signed": false,
     "tls_chain_unverified": false
   },
