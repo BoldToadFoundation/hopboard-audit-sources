@@ -1,5 +1,17 @@
 [
   {
+    "source_url": "https://azcc.gov/faqs/BusinessServicesFAQs",
+    "primary": false,
+    "local_path": "AZ/azcc.gov-faqs-BusinessServicesFAQs-6eb40d49.html",
+    "content_type": "text/html; charset=utf-8",
+    "content_sha256": "0932ab3b8e63fad044bd61516dfb3df7f127a9d17fd5f9a5e7dbdbdb68774263",
+    "perma_url": "https://perma.cc/4VWT-B9XG",
+    "wayback_url": "https://web.archive.org/web/20260815121810/https://azcc.gov/faqs/BusinessServicesFAQs",
+    "captured_at": "2026-08-15T12:15:44.687651+00:00",
+    "signed": false,
+    "tls_chain_unverified": false
+  },
+  {
     "source_url": "https://azsos.gov/business/other-services/veterans-charities-organizations",
     "primary": false,
     "local_path": "AZ/azsos.gov-business-other-services-veterans-charities-organizations.html",
@@ -11,7 +23,7 @@
     "signed": false,
     "tls_chain_unverified": false,
     "ingested_from_file": true,
-    "provenance": "archive fallback: azsos.gov Cloudflare-blocked (HTTP 403 to browser-UA + httpx); raw bytes from Wayback snapshot web/20251204173942 — verified title \"Veterans Charities Organizations | Arizona Secretary of State\"; attests HB2457 (2013) repeal of the office filing requirement + veterans-only survival",
+    "provenance": "archive fallback: azsos.gov Cloudflare-blocked (HTTP 403 to browser-UA + httpx); raw bytes from Wayback snapshot web/20251204173942 \u2014 verified title \"Veterans Charities Organizations | Arizona Secretary of State\"; attests HB2457 (2013) repeal of the office filing requirement + veterans-only survival",
     "ingested_at": "2026-07-03T15:16:36.760756+00:00",
     "captured_at_basis": "CORRECTED 2026-08-08 per Tony ruling: captured_at is when the BYTES were captured from the source, not when we ingested them. These bytes are Wayback snapshot web/20251204173942; the prior value 2026-07-03 was the ingest date and is preserved in ingested_at."
   },
@@ -30,6 +42,30 @@
     "provenance": "wayback_snapshot re-homing 2026-06-12: id_ raw-variant fetch of the verification row's archive_snapshot_url; load-bearing content byte-grepped at fetch ('annual report': 23 hits); shell-signature sweep (extended 2026-06-12) clean; converts the Wayback-only row to local-backed per the 2026-06-11 local-artifact-required standard",
     "ingested_at": "2026-06-12T19:52:26.144144+00:00",
     "captured_at_basis": "CORRECTED 2026-08-08 per Tony ruling (captured_at = when the BYTES were captured from the source, not when we ingested them). True date read from the 14-digit snapshot timestamp in this entry's own source_url; verified against the Internet Archive CDX index (a snapshot exists at exactly that timestamp, status 200) before the correction was propagated. Prior value was the 2026-06-12 wayback_snapshot re-homing INGEST date, preserved in ingested_at."
+  },
+  {
+    "source_url": "https://www.azleg.gov/ars/10/03122.htm",
+    "primary": false,
+    "local_path": "AZ/www.azleg.gov-ars-10-03122.htm-7f86312a.html",
+    "content_type": "text/html",
+    "content_sha256": "894294b77d6bf096770914ed243aba1655b15b2c2244a9a2ecbe62eb288a48e1",
+    "perma_url": "https://perma.cc/TT3D-5XFM",
+    "wayback_url": "https://web.archive.org/web/20260815121749/https://www.azleg.gov/ars/10/03122.htm",
+    "captured_at": "2026-08-15T12:15:44.687651+00:00",
+    "signed": false,
+    "tls_chain_unverified": false
+  },
+  {
+    "source_url": "https://www.azleg.gov/ars/10/11622.htm",
+    "primary": true,
+    "local_path": "AZ/www.azleg.gov-ars-10-11622.htm-7175cbd1.html",
+    "content_type": "text/html",
+    "content_sha256": "5e3a789919bb2b5d039f1b273d6d92c37b81a18e47c051a2e4a20c5592c63865",
+    "perma_url": "https://perma.cc/R8TG-Y434",
+    "wayback_url": "https://web.archive.org/web/20260815121553/https://www.azleg.gov/ars/10/11622.htm",
+    "captured_at": "2026-08-15T12:15:44.687651+00:00",
+    "signed": false,
+    "tls_chain_unverified": false
   },
   {
     "source_url": "https://www.azleg.gov/ars/13/03722.htm",
