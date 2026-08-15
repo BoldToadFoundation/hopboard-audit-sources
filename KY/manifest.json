@@ -10,5 +10,17 @@
     "captured_at": "2026-07-19T16:37:59.952339+00:00",
     "signed": false,
     "tls_chain_unverified": false
+  },
+  {
+    "source_url": "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=36685",
+    "primary": true,
+    "local_path": "KY/apps.legislature.ky.gov-law-statutes-statute.aspx-id-36685-4a754234.pdf",
+    "content_type": "application/PDF",
+    "content_sha256": "f2c8879ddb33d91962c70be2488fcd76c83ff2e85dd7eb74fae7ee6f67d852a4",
+    "perma_url": "https://perma.cc/N5GH-SLG7",
+    "wayback_url": null,
+    "captured_at": "2026-08-15T22:15:32.146853+00:00",
+    "signed": false,
+    "tls_chain_unverified": false
   }
 ]
