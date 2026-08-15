@@ -2249,6 +2249,16 @@
       "strings": [
         "is subject to KRS 14A.6-010"
       ]
+    },
+    "f5cff7befc373bcb5d33edb93b2c7bf4ad5bcc2c3ea76df5e6b50388725116e3": {
+      "basis": "Cal. Corp. Code §6210 (nonprofit public benefit corporation Statement of Information): the corporate-axis primary. Keyed by sha256 rather than perma GUID because perma.cc CANNOT ARCHIVE THIS HOST — the capture of 3HYU-3QHM returned status 'failed' with an empty content_type, and a second attempt (QNC8-DDUR) was still 'pending' after 20+ minutes, while both sos.ca.gov captures in the SAME RUN succeeded fully. That rules out an outage: it is leginfo's JSF page defeating Perma's capture, and it will recur on every California statute section. Strings verified against the LOCAL capture 2026-08-21.",
+      "source_url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=6210.&lawCode=CORP",
+      "strings": [
+        "Every corporation shall, within 90 days after the filing of its original articles",
+        "on a form prescribed by the Secretary of State",
+        "the immediately preceding five calendar months",
+        "is an excuse for failure to comply with this section"
+      ]
     }
   }
 }
