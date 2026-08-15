@@ -1,0 +1,787 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head id="Head1"><meta name="robots" content="noindex" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><title>
+	 - DCRegs
+</title>
+    
+    
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js" ></script>
+    <link href="../../css/bootstrap.css" rel="stylesheet" /><link href="../../css/bootstrap.min.css" rel="stylesheet" /><link href="../../css/HeaderFooter.css" rel="stylesheet" /><link href="../../css/HeadFootMediaQueries.css" rel="stylesheet" /><link href="../../css/responsive-table.css" rel="stylesheet" /><link href="../../css/font-awesome.min.css" rel="stylesheet" />
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+
+
+    <link href="../../lib/themes/default.css" rel="stylesheet" /><link href="../../lib/themes/default.date.css" rel="stylesheet" />
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <link href="../../Content/Datatables.css" rel="stylesheet" />
+    
+    <script type="text/javascript" src="https://cdn.datatables.net/v/dt/dt-1.10.12/r-2.1.0/sc-1.4.2/datatables.min.js"></script>
+
+
+    <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet" /><script src="/Scripts/modernizr-2.5.3.js"></script>
+<link href="/Content/Site.css" rel="stylesheet"/>
+<link rel="icon" href="../../Images/favicon.ico" type="image/x-icon" />
+        <style>
+            #HideCol {
+                display: none !important;
+            }
+
+            #Hideheader {
+                display: none !important;
+            }
+        </style>
+    
+
+    <script type="text/javascript">
+
+        $(document).ready(function () { $("input").attr("autocomplete", "off"); });
+
+
+        function hideMenu() {
+            document.getElementById('mobileMenu').style.display = "none";
+        }
+
+        function toggle_visibility(mobileSearch) {
+            var e = document.getElementById(mobileSearch);
+            if (e.style.display == 'none')
+                e.style.display = 'block';
+            else
+                e.style.display = 'none';
+        }
+    </script>
+</head>
+<body>
+    <form method="post" action="./RuleList.aspx?ChapterNum=17-6" id="Form1">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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" />
+
+
+<script src="/bundles/MsAjaxJs?v=J4joXQqg80Lks57qbGfUAfRLic3bXKGafmR6wE4CFtc1" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side framework failed to load.');
+//]]>
+</script>
+
+<script src="../../Scripts/jquery-1.7.1.js" type="text/javascript"></script>
+<script src="../../Scripts/jquery-ui-1.8.20.js" type="text/javascript"></script>
+<script src="/bundles/WebFormsJs?v=q9E9g87bUDaS624mcBuZsBaM8xn2E5zd-f4FCdIk2cA1" type="text/javascript"></script>
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="535094F4" />
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="BPJJ3Z1YbovT/avD+fw/IV0OBteDcd3qJ1dol1RQTz7aXlunTCPlyCd22KPMkvv2FEVxBAsYdEKlBZS+gDsAosJE+0oO5Heuvaec5Q7ivNcR6trDnXXvIpVdpusPKExBCv8b4BfV9xst50O/5W5Z+zegmtPMeJ+91jhq/vQhi+8QMylVBxI8sYuXp14Bm/RaZ0YPd08mva3tBMOA/GVAIA+dzhzzKWNVPGxCiJ/m2/kbqbiLp7BA2oGlW8nb/qC5dyWNDeHUX6PXogy2Nov4nJWxyCb0KXGAUdtXuuBthj6rdkba2wWGM0NfEEt0hSn+FiOZodqjVe3wVOp2cLajXh+zCSsK6qDN5G+JWA+QAFBTXpBz2NbMrbmCdcAr4yToP7ntTzJUxBGZcArlEQEk1MWddTYdeo7U6sy2uPzJpi4pd5tDNZM+T5Q6gVl0LvFa7JO+227BNN1g5hgwDaXzmnxdMZ4w/OazSEoApKGl3DzACST6CMBhYQS4cBCEoEzsrD6FOn6wfbLbd8VkCq064rKTYEJDR2f7BoUnwPbwTgEhE0bbLw4tz0TY7JidreJUfxZqtekTvoUhaoYn5nMMK6A5qHB74MMAxnskL4DPdX+kGAn2dmUrG9omdv5/I6Q7YscV8lU226IkgFBRoP6KYV30VowV71FxkPEskkn9GXot2pbvptSyyrrb0W50N2oN71TB/gbqTcZcpnmNc2d2iNA5tEdw+DcxObPL0lwu5Z8U/ZlOBnHsMEGMrIWcOXtm" />
+        
+
+        <!-------HEADER STARTS HERE------>
+        <header>
+            <div class="header-wrapper row">
+                <div class="dots">
+                </div>
+                <div class="inner-wrapper">
+                    <div class="block-menu-block-2 ">
+                        <ul class="menu clearfix">
+                            <li class="first leaf menu-mlid-487 menu-487">
+                                <a href="http://311.dc.gov" title="311 Online" target="_blank">311 Online</a></li>
+                            <li class="leaf">
+                                <a href="http://dc.gov/directory" title="Agency Directory" target="_blank">Agency Directory</a></li>
+                            <li class="leaf">
+                                <a href="http://dc.gov/online-services" title="Online Services" target="_blank">Online Services</a></li>
+                            <li class="last">
+                                <a href="http://dc.gov/page/dcgov-accessibility-policy" title="Accessibility" target="_blank">Accessibility</a></li>
+                        </ul>
+                    </div>
+                    <div class="branding">
+                        <div class="dc-logo">
+                            <div class="logo-img">
+                                <a title="DC.Gov Home" href="http://dc.gov" target="_blank">
+                                    <img title="DC.Gov Home" alt="DC.Gov Home" src="/Images/dcgov_logo.jpg">
+                                </a>
+                                <div class="logo-text clearfix">
+                                    <a href="http://mayor.dc.gov" title="Mayor Muriel Bowser" target="_blank">Mayor Muriel Bowser</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mobile-menu-main clearfix">
+                        <div class="inner-menu">
+
+                            <div class="searchButton">
+                                <a href="#" onclick="toggle_visibility('mobileSearch');">Search</a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div id="mobileSearch" class="searchContainerMobile clearfix" style="display: none;">
+                    <div class="dcSearchContainerInnerMobile">
+                        <button class="dcSearchButtonContainerMobile" type="submit">
+                            <div class="dcSearchButtonIcon">
+                                &nbsp;
+                            </div>
+                        </button>
+                        <div class="dcSearchFormMobile">
+                            <input class="dcSearchFormInput" name="q" placeholder="Search DC.gov" style="padding: 0px; margin: 0px;" title="Type keyword, phrase or question" type="text" value="">
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="searchContainer clearfix">
+                    <div class="dcSearchContainerInner">
+                        <button class="dcSearchButtonContainer" type="submit">
+                            <div class="dcSearchButtonIcon">
+                                &nbsp;
+                            </div>
+                        </button>
+                        <div class="dcSearchForm">
+                            <input class="dcSearchFormInput" name="q" placeholder="Search DC.gov" style="padding: 0px; margin: 0px;" title="Type keyword, phrase or question" type="text" value="">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="row">
+                <p class="portal-title">District of Columbia Municipal Regulations and District of Columbia Register</p>
+                <p class="portal-subtitle">Office of the Secretary of the District of Columbia | Office of Documents and Administrative Issuances</p>
+
+            </div>
+
+            <div class="row">
+
+
+
+                
+
+                <div id="navbar">
+                    <nav class="navbar navbar-default navbar-static-top navbar-custom" role="navigation">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <!--<a class="navbar-brand" href="#"></a>-->
+                        </div>
+
+                        <div class="collapse navbar-collapse navbar-collapse-custom" id="navbar-collapse-1">
+                           
+                            <ul class="nav navbar-nav">
+                                <li class="list-custom"><a href="/default.aspx">Home</a></li>
+                                <li class="list-custom"><a href="../../About.aspx">About Us</a></li>
+                                <li class="list-custom"><a href="../../Contact.aspx">Contact Us</a></li>
+                                <li class="list-custom"><a href="../../Help.aspx">Help</a></li>
+
+                                
+
+                                
+                                
+                            </ul>
+                            <ul class="nav2">
+                                <span style='color: red' class="nav navbar-nav navbar-right">
+                                    &nbsp;</span>
+                                
+                                        <ul class="nav navbar-nav navbar-right">
+                                            
+                                            <li><a href="../../Account/Login.aspx" id="LoginView1_loginLink" style="color: #fff;">Log in</a></li>
+                                        </ul>
+                                    
+                            </ul>
+
+                        </div>
+                        <!-- /.navbar-collapse -->
+                    </nav>
+                    
+                    <div class="col-md-12 alert-danger" style="padding-left:25px;padding-right:10px;text-align:center;" >The Office of Documents publishes the DC Register Submission Deadline Schedule at the end of the online Register every week and on the DCRegs Home Page.        </div>
+
+            </div>
+        </header>
+
+        <!-------HEADER ENDS HERE------>
+        <div class="row content-box">
+            <div class="container " id="body">
+                
+    <section class="featured">
+        <div class="content-wrapper">
+
+            <!--<script src="../js/jquery-1.11.2.min.js" type="text/javascript"></script>-->
+            <link href="../lib/themes/default.css" rel="stylesheet" />
+            <link href="../lib/themes/default.date.css" rel="stylesheet" />
+            <link rel="stylesheet" href="../css/bootstrap.min.css" />
+            
+            <link href="Content/Datatables.css" rel="stylesheet" />
+            <script type="text/javascript" src="https://cdn.datatables.net/v/dt/dt-1.10.12/r-2.1.0/sc-1.4.2/datatables.min.js"></script>
+
+
+        </div>
+    </section>
+
+                <section class="content-wrapper main-content clear-fix">
+                    
+    <style>
+        table #chaptTable thead .sorting {
+            background-image: none !important;
+        }
+    </style>
+    <script lang="javascript">
+
+
+
+        $(document).ready(function () {
+            var oTable = $('#ruleTable').dataTable({
+                //  sPaginationType:"full_numbers"
+                "columnDefs": [
+
+                    { "targets": [1], "orderable": false },
+                ],
+                "dom": '<"top"ilf>rt<"bottom"p><"clear">',
+                "pageLength": 50
+            }
+                );
+            $("#ruleTable_info").detach().prependTo('#ruleTable_wrapper');
+        })
+        function OnSuccess(response) {
+            alert('success');
+        }
+
+        $(document).ready(function () {
+            var oTable = $('#ruleTable1').dataTable({
+                //  sPaginationType:"full_numbers"
+                "columnDefs": [
+
+                    { "targets": [1], "orderable": false },
+                ],
+                "dom": '<"top"ilf>rt<"bottom"p><"clear">',
+                "pageLength": 50
+            }
+                );
+            $("#ruleTable1_info").detach().prependTo('#ruleTable1_wrapper');
+        })
+        function OnSuccess(response) {
+            alert('success');
+        }
+
+
+        function mylinkfunction(e) {
+
+            window.location.href = "#targetDiv";
+            e.preventDefault();
+            e.stopPropagation();
+
+        }
+
+        function mylinkfunctionTop(e) {
+
+            window.location.href = "#targetTopDiv";
+            e.preventDefault();
+            e.stopPropagation();
+
+        }
+
+    </script>
+    <div class="container">
+        <div style="text-align: center;">
+        </div>
+        <div class="col-md-12 sub-heading-box">
+            <br />
+            <div class="text9 col-md-6" style="padding-left: 5px;">
+                <span id="MainContent_lblRule">Chapter: 17-6</span>
+            </div>
+            <input type="hidden" name="ctl00$MainContent$hdnSortOrder" id="MainContent_hdnSortOrder" value="Desc" />
+            <div>
+                <a id="MainContent_LinkButton1" class="role-text" href="javascript:__doPostBack(&#39;ctl00$MainContent$LinkButton1&#39;,&#39;&#39;)">Back To Main Menu</a>
+
+            </div>
+        </div>
+        <div class="text7 col-md-9" style="padding-left: 5px; color: black !important;">
+            <span id="MainContent_lblhdng">DCRA CORPORATIONS DIVISION SCHEDULE OF FEES</span>&nbsp; 
+            
+        </div>
+
+        <div />
+
+
+        <div class="col-md-12">
+            <div class="row">
+                <br />
+                <span id="MainContent_lblTitle" class="text15">Title: 17 BUSINESS, OCCUPATIONS, AND PROFESSIONALS</span><br />
+                 <span id="MainContent_lblSubTitle" class="text15"></span>
+                <p class="text">
+                    <br />
+                    Click on a table header to re-sort the results.<br />
+                    Click on  Chapter Number to display Sections.<br />
+                    Use Search Field to search by Keywords
+                </p>
+                
+                <div id="targetTopDiv"></div>
+                
+                        
+                        <table id="ruleTable" class="table  table-bordered table-responsive table-hover display responsive no-wrap" cellspacing="0" width="100%">
+                            <thead class="bg-primary">
+
+                                <tr>
+                                    <th id="Hideheader"></th>
+                                    <th>
+                                        <span style="color: white !important;">
+                                            <a id="MainContent_rpt_ruleList_lnkChaptNum" href="javascript:__doPostBack(&#39;ctl00$MainContent$rpt_ruleList$ctl00$lnkChaptNum&#39;,&#39;&#39;)" style="color: white !important;"><strong>Section Number</strong></a>
+
+                                        </span>
+                                    </th>
+
+                                    <th>
+                                        <span title="sorting disabled on this column"><strong>Section Heading</strong></span>
+                                    </th>
+                                    <th>
+                                        <span title="sorting disabled on this column"><strong>Latest Version</strong></span>
+                                    </th>
+                                    <th>
+                                        <span title="sorting disabled on this column"><strong>Effective Date</strong></span>
+                                    </th>
+
+                            </thead>
+                            <tbody>
+                    
+                        <tr>
+
+                            <td id="HideCol"></td>
+                            <td>
+                                <u>
+                                    <a id="MainContent_rpt_ruleList_lnkFile_0" title="https://dcregs.dc.gov/Common/DCMR/SectionList.aspx?SectionNumber=17-600" href="javascript:__doPostBack(&#39;ctl00$MainContent$rpt_ruleList$ctl01$lnkFile&#39;,&#39;&#39;)">17-600</a>
+                                </u>
+                            </td>
+
+                            <td>
+                                
+                                
+                                 <span id="MainContent_rpt_ruleList_lblRegCat_0">GENERAL PROVISIONS</span>
+                            </td>
+
+                            <td>
+                                <a id="MainContent_rpt_ruleList_Label1_0" title="https://dcregs.dc.gov/Common/DCMR/RuleList.aspx?DownloadFile=A0A6555F-0000-CA11-9301-3D0EE2256DEB" href="https://dcregs.dc.gov/Common/DCMR/RuleList.aspx?DownloadFile=A0A6555F-0000-CA11-9301-3D0EE2256DEB" href="javascript:__doPostBack(&#39;ctl00$MainContent$rpt_ruleList$ctl01$Label1&#39;,&#39;&#39;)">View text</a>
+                                
+                            </td>
+                            <td>
+                                <span id="MainContent_rpt_ruleList_Label2_0">1/20/2017</span>
+                            </td>
+
+                        </tr>
+                    
+                        <tr>
+
+                            <td id="HideCol"></td>
+                            <td>
+                                <u>
+                                    <a id="MainContent_rpt_ruleList_lnkFile_1" title="https://dcregs.dc.gov/Common/DCMR/SectionList.aspx?SectionNumber=17-601" href="javascript:__doPostBack(&#39;ctl00$MainContent$rpt_ruleList$ctl02$lnkFile&#39;,&#39;&#39;)">17-601</a>
+                                </u>
+                            </td>
+
+                            <td>
+                                
+                                
+                                 <span id="MainContent_rpt_ruleList_lblRegCat_1">FILING FEES FOR ALL ENTITIES</span>
+                            </td>
+
+                            <td>
+                                <a id="MainContent_rpt_ruleList_Label1_1" title="https://dcregs.dc.gov/Common/DCMR/RuleList.aspx?DownloadFile=A0A6555F-0000-CD3C-9AFF-9D84C517B5B0" href="https://dcregs.dc.gov/Common/DCMR/RuleList.aspx?DownloadFile=A0A6555F-0000-CD3C-9AFF-9D84C517B5B0" href="javascript:__doPostBack(&#39;ctl00$MainContent$rpt_ruleList$ctl02$Label1&#39;,&#39;&#39;)">View text</a>
+                                
+                            </td>
+                            <td>
+                                <span id="MainContent_rpt_ruleList_Label2_1">7/6/2012</span>
+                            </td>
+
+                        </tr>
+                    
+                        <tr>
+
+                            <td id="HideCol"></td>
+                            <td>
+                                <u>
+                                    <a id="MainContent_rpt_ruleList_lnkFile_2" title="https://dcregs.dc.gov/Common/DCMR/SectionList.aspx?SectionNumber=17-602" href="javascript:__doPostBack(&#39;ctl00$MainContent$rpt_ruleList$ctl03$lnkFile&#39;,&#39;&#39;)">17-602</a>
+                                </u>
+                            </td>
+
+                            <td>
+                                
+                                
+                                 <span id="MainContent_rpt_ruleList_lblRegCat_2">BUSINESS ORGANIZATIONS FILING FEES</span>
+                            </td>
+
+                            <td>
+                                <a id="MainContent_rpt_ruleList_Label1_2" title="https://dcregs.dc.gov/Common/DCMR/RuleList.aspx?DownloadFile={F754C8A8-0864-47FB-A1CD-88339B9C88BB}" href="https://dcregs.dc.gov/Common/DCMR/RuleList.aspx?DownloadFile={F754C8A8-0864-47FB-A1CD-88339B9C88BB}" href="javascript:__doPostBack(&#39;ctl00$MainContent$rpt_ruleList$ctl03$Label1&#39;,&#39;&#39;)">View text</a>
+                                
+                            </td>
+                            <td>
+                                <span id="MainContent_rpt_ruleList_Label2_2">11/13/2021</span>
+                            </td>
+
+                        </tr>
+                    
+                        <tr>
+
+                            <td id="HideCol"></td>
+                            <td>
+                                <u>
+                                    <a id="MainContent_rpt_ruleList_lnkFile_3" title="https://dcregs.dc.gov/Common/DCMR/SectionList.aspx?SectionNumber=17-603" href="javascript:__doPostBack(&#39;ctl00$MainContent$rpt_ruleList$ctl04$lnkFile&#39;,&#39;&#39;)">17-603</a>
+                                </u>
+                            </td>
+
+                            <td>
+                                
+                                
+                                 <span id="MainContent_rpt_ruleList_lblRegCat_3">NONPROFIT CORPORATIONS FILING FEES</span>
+                            </td>
+
+                            <td>
+                                <a id="MainContent_rpt_ruleList_Label1_3" title="https://dcregs.dc.gov/Common/DCMR/RuleList.aspx?DownloadFile=D0A6555F-0000-C154-ABEF-3F80CC71D825" href="https://dcregs.dc.gov/Common/DCMR/RuleList.aspx?DownloadFile=D0A6555F-0000-C154-ABEF-3F80CC71D825" href="javascript:__doPostBack(&#39;ctl00$MainContent$rpt_ruleList$ctl04$Label1&#39;,&#39;&#39;)">View text</a>
+                                
+                            </td>
+                            <td>
+                                <span id="MainContent_rpt_ruleList_Label2_3">7/6/2012</span>
+                            </td>
+
+                        </tr>
+                    
+                        <tr>
+
+                            <td id="HideCol"></td>
+                            <td>
+                                <u>
+                                    <a id="MainContent_rpt_ruleList_lnkFile_4" title="https://dcregs.dc.gov/Common/DCMR/SectionList.aspx?SectionNumber=17-604" href="javascript:__doPostBack(&#39;ctl00$MainContent$rpt_ruleList$ctl05$lnkFile&#39;,&#39;&#39;)">17-604</a>
+                                </u>
+                            </td>
+
+                            <td>
+                                
+                                
+                                 <span id="MainContent_rpt_ruleList_lblRegCat_4">PROFESSIONAL CORPORATIONS FILING FEES</span>
+                            </td>
+
+                            <td>
+                                <a id="MainContent_rpt_ruleList_Label1_4" title="https://dcregs.dc.gov/Common/DCMR/RuleList.aspx?DownloadFile=E0A6555F-0000-CC22-B3C3-6908F1AD4C7A" href="https://dcregs.dc.gov/Common/DCMR/RuleList.aspx?DownloadFile=E0A6555F-0000-CC22-B3C3-6908F1AD4C7A" href="javascript:__doPostBack(&#39;ctl00$MainContent$rpt_ruleList$ctl05$Label1&#39;,&#39;&#39;)">View text</a>
+                                
+                            </td>
+                            <td>
+                                <span id="MainContent_rpt_ruleList_Label2_4">7/6/2012</span>
+                            </td>
+
+                        </tr>
+                    
+                        <tr>
+
+                            <td id="HideCol"></td>
+                            <td>
+                                <u>
+                                    <a id="MainContent_rpt_ruleList_lnkFile_5" title="https://dcregs.dc.gov/Common/DCMR/SectionList.aspx?SectionNumber=17-605" href="javascript:__doPostBack(&#39;ctl00$MainContent$rpt_ruleList$ctl06$lnkFile&#39;,&#39;&#39;)">17-605</a>
+                                </u>
+                            </td>
+
+                            <td>
+                                
+                                
+                                 <span id="MainContent_rpt_ruleList_lblRegCat_5">GENERAL PARTNERSHIPS FILING FEES</span>
+                            </td>
+
+                            <td>
+                                <a id="MainContent_rpt_ruleList_Label1_5" title="https://dcregs.dc.gov/Common/DCMR/RuleList.aspx?DownloadFile=00A7555F-0000-CE11-8985-74F0A224FA81" href="https://dcregs.dc.gov/Common/DCMR/RuleList.aspx?DownloadFile=00A7555F-0000-CE11-8985-74F0A224FA81" href="javascript:__doPostBack(&#39;ctl00$MainContent$rpt_ruleList$ctl06$Label1&#39;,&#39;&#39;)">View text</a>
+                                
+                            </td>
+                            <td>
+                                <span id="MainContent_rpt_ruleList_Label2_5">7/6/2012</span>
+                            </td>
+
+                        </tr>
+                    
+                        <tr>
+
+                            <td id="HideCol"></td>
+                            <td>
+                                <u>
+                                    <a id="MainContent_rpt_ruleList_lnkFile_6" title="https://dcregs.dc.gov/Common/DCMR/SectionList.aspx?SectionNumber=17-606" href="javascript:__doPostBack(&#39;ctl00$MainContent$rpt_ruleList$ctl07$lnkFile&#39;,&#39;&#39;)">17-606</a>
+                                </u>
+                            </td>
+
+                            <td>
+                                
+                                
+                                 <span id="MainContent_rpt_ruleList_lblRegCat_6">LIMITED LIABILITY PARTNERSHIP FILING FEES</span>
+                            </td>
+
+                            <td>
+                                <a id="MainContent_rpt_ruleList_Label1_6" title="https://dcregs.dc.gov/Common/DCMR/RuleList.aspx?DownloadFile={1E2D545A-534E-481A-9EFA-4AB36B240992}" href="https://dcregs.dc.gov/Common/DCMR/RuleList.aspx?DownloadFile={1E2D545A-534E-481A-9EFA-4AB36B240992}" href="javascript:__doPostBack(&#39;ctl00$MainContent$rpt_ruleList$ctl07$Label1&#39;,&#39;&#39;)">View text</a>
+                                
+                            </td>
+                            <td>
+                                <span id="MainContent_rpt_ruleList_Label2_6">11/13/2021</span>
+                            </td>
+
+                        </tr>
+                    
+                        <tr>
+
+                            <td id="HideCol"></td>
+                            <td>
+                                <u>
+                                    <a id="MainContent_rpt_ruleList_lnkFile_7" title="https://dcregs.dc.gov/Common/DCMR/SectionList.aspx?SectionNumber=17-607" href="javascript:__doPostBack(&#39;ctl00$MainContent$rpt_ruleList$ctl08$lnkFile&#39;,&#39;&#39;)">17-607</a>
+                                </u>
+                            </td>
+
+                            <td>
+                                
+                                
+                                 <span id="MainContent_rpt_ruleList_lblRegCat_7">LIMITED PARTNERSHIPS FILING FEES</span>
+                            </td>
+
+                            <td>
+                                <a id="MainContent_rpt_ruleList_Label1_7" title="https://dcregs.dc.gov/Common/DCMR/RuleList.aspx?DownloadFile={BC43FB18-D31B-42CB-9DDC-717AAF9AC3F3}" href="https://dcregs.dc.gov/Common/DCMR/RuleList.aspx?DownloadFile={BC43FB18-D31B-42CB-9DDC-717AAF9AC3F3}" href="javascript:__doPostBack(&#39;ctl00$MainContent$rpt_ruleList$ctl08$Label1&#39;,&#39;&#39;)">View text</a>
+                                
+                            </td>
+                            <td>
+                                <span id="MainContent_rpt_ruleList_Label2_7">11/13/2021</span>
+                            </td>
+
+                        </tr>
+                    
+                        <tr>
+
+                            <td id="HideCol"></td>
+                            <td>
+                                <u>
+                                    <a id="MainContent_rpt_ruleList_lnkFile_8" title="https://dcregs.dc.gov/Common/DCMR/SectionList.aspx?SectionNumber=17-608" href="javascript:__doPostBack(&#39;ctl00$MainContent$rpt_ruleList$ctl09$lnkFile&#39;,&#39;&#39;)">17-608</a>
+                                </u>
+                            </td>
+
+                            <td>
+                                
+                                
+                                 <span id="MainContent_rpt_ruleList_lblRegCat_8">LIMITED LIABILITY COMPANIES FILING FEES</span>
+                            </td>
+
+                            <td>
+                                <a id="MainContent_rpt_ruleList_Label1_8" title="https://dcregs.dc.gov/Common/DCMR/RuleList.aspx?DownloadFile={D5DF151A-47F4-45E8-8DEC-A0F84D3314C8}" href="https://dcregs.dc.gov/Common/DCMR/RuleList.aspx?DownloadFile={D5DF151A-47F4-45E8-8DEC-A0F84D3314C8}" href="javascript:__doPostBack(&#39;ctl00$MainContent$rpt_ruleList$ctl09$Label1&#39;,&#39;&#39;)">View text</a>
+                                
+                            </td>
+                            <td>
+                                <span id="MainContent_rpt_ruleList_Label2_8">11/13/2021</span>
+                            </td>
+
+                        </tr>
+                    
+                        <tr>
+
+                            <td id="HideCol"></td>
+                            <td>
+                                <u>
+                                    <a id="MainContent_rpt_ruleList_lnkFile_9" title="https://dcregs.dc.gov/Common/DCMR/SectionList.aspx?SectionNumber=17-609" href="javascript:__doPostBack(&#39;ctl00$MainContent$rpt_ruleList$ctl10$lnkFile&#39;,&#39;&#39;)">17-609</a>
+                                </u>
+                            </td>
+
+                            <td>
+                                
+                                
+                                 <span id="MainContent_rpt_ruleList_lblRegCat_9">GENERAL COOPERATIVE ASSOCIATIONS FILING FEES</span>
+                            </td>
+
+                            <td>
+                                <a id="MainContent_rpt_ruleList_Label1_9" title="https://dcregs.dc.gov/Common/DCMR/RuleList.aspx?DownloadFile=C0F9555F-0000-CECF-8BB7-3A02E4329AA1" href="https://dcregs.dc.gov/Common/DCMR/RuleList.aspx?DownloadFile=C0F9555F-0000-CECF-8BB7-3A02E4329AA1" href="javascript:__doPostBack(&#39;ctl00$MainContent$rpt_ruleList$ctl10$Label1&#39;,&#39;&#39;)">View text</a>
+                                
+                            </td>
+                            <td>
+                                <span id="MainContent_rpt_ruleList_Label2_9">7/6/2012</span>
+                            </td>
+
+                        </tr>
+                    
+                        <tr>
+
+                            <td id="HideCol"></td>
+                            <td>
+                                <u>
+                                    <a id="MainContent_rpt_ruleList_lnkFile_10" title="https://dcregs.dc.gov/Common/DCMR/SectionList.aspx?SectionNumber=17-610" href="javascript:__doPostBack(&#39;ctl00$MainContent$rpt_ruleList$ctl11$lnkFile&#39;,&#39;&#39;)">17-610</a>
+                                </u>
+                            </td>
+
+                            <td>
+                                
+                                
+                                 <span id="MainContent_rpt_ruleList_lblRegCat_10">LIMITED COOPERATIVE ASSOCIATIONS FILING FEES</span>
+                            </td>
+
+                            <td>
+                                <a id="MainContent_rpt_ruleList_Label1_10" title="https://dcregs.dc.gov/Common/DCMR/RuleList.aspx?DownloadFile=D0F9555F-0000-C72D-A4C9-116BB08FF893" href="https://dcregs.dc.gov/Common/DCMR/RuleList.aspx?DownloadFile=D0F9555F-0000-C72D-A4C9-116BB08FF893" href="javascript:__doPostBack(&#39;ctl00$MainContent$rpt_ruleList$ctl11$Label1&#39;,&#39;&#39;)">View text</a>
+                                
+                            </td>
+                            <td>
+                                <span id="MainContent_rpt_ruleList_Label2_10">7/6/2012</span>
+                            </td>
+
+                        </tr>
+                    
+                        <tr>
+
+                            <td id="HideCol"></td>
+                            <td>
+                                <u>
+                                    <a id="MainContent_rpt_ruleList_lnkFile_11" title="https://dcregs.dc.gov/Common/DCMR/SectionList.aspx?SectionNumber=17-611" href="javascript:__doPostBack(&#39;ctl00$MainContent$rpt_ruleList$ctl12$lnkFile&#39;,&#39;&#39;)">17-611</a>
+                                </u>
+                            </td>
+
+                            <td>
+                                
+                                
+                                 <span id="MainContent_rpt_ruleList_lblRegCat_11">STATUTORY TRUSTS FILING FEES</span>
+                            </td>
+
+                            <td>
+                                <a id="MainContent_rpt_ruleList_Label1_11" title="https://dcregs.dc.gov/Common/DCMR/RuleList.aspx?DownloadFile={2AED120C-5CF7-4878-B43D-EA8DBD89F955}" href="https://dcregs.dc.gov/Common/DCMR/RuleList.aspx?DownloadFile={2AED120C-5CF7-4878-B43D-EA8DBD89F955}" href="javascript:__doPostBack(&#39;ctl00$MainContent$rpt_ruleList$ctl12$Label1&#39;,&#39;&#39;)">View text</a>
+                                
+                            </td>
+                            <td>
+                                <span id="MainContent_rpt_ruleList_Label2_11">11/13/2021</span>
+                            </td>
+
+                        </tr>
+                    
+                        <tr>
+
+                            <td id="HideCol"></td>
+                            <td>
+                                <u>
+                                    <a id="MainContent_rpt_ruleList_lnkFile_12" title="https://dcregs.dc.gov/Common/DCMR/SectionList.aspx?SectionNumber=17-612" href="javascript:__doPostBack(&#39;ctl00$MainContent$rpt_ruleList$ctl13$lnkFile&#39;,&#39;&#39;)">17-612</a>
+                                </u>
+                            </td>
+
+                            <td>
+                                
+                                
+                                 <span id="MainContent_rpt_ruleList_lblRegCat_12">TRADE NAME FILING FEES</span>
+                            </td>
+
+                            <td>
+                                <a id="MainContent_rpt_ruleList_Label1_12" title="https://dcregs.dc.gov/Common/DCMR/RuleList.aspx?DownloadFile=D0F9555F-0000-C76D-B369-7129218F510D" href="https://dcregs.dc.gov/Common/DCMR/RuleList.aspx?DownloadFile=D0F9555F-0000-C76D-B369-7129218F510D" href="javascript:__doPostBack(&#39;ctl00$MainContent$rpt_ruleList$ctl13$Label1&#39;,&#39;&#39;)">View text</a>
+                                
+                            </td>
+                            <td>
+                                <span id="MainContent_rpt_ruleList_Label2_12">7/6/2012</span>
+                            </td>
+
+                        </tr>
+                    
+                        <tr>
+
+                            <td id="HideCol"></td>
+                            <td>
+                                <u>
+                                    <a id="MainContent_rpt_ruleList_lnkFile_13" title="https://dcregs.dc.gov/Common/DCMR/SectionList.aspx?SectionNumber=17-699" href="javascript:__doPostBack(&#39;ctl00$MainContent$rpt_ruleList$ctl14$lnkFile&#39;,&#39;&#39;)">17-699</a>
+                                </u>
+                            </td>
+
+                            <td>
+                                
+                                
+                                 <span id="MainContent_rpt_ruleList_lblRegCat_13">DEFINITIONS</span>
+                            </td>
+
+                            <td>
+                                <a id="MainContent_rpt_ruleList_Label1_13" title="https://dcregs.dc.gov/Common/DCMR/RuleList.aspx?DownloadFile=40A7555F-0000-C567-BE0C-CF152F4F85D0" href="https://dcregs.dc.gov/Common/DCMR/RuleList.aspx?DownloadFile=40A7555F-0000-C567-BE0C-CF152F4F85D0" href="javascript:__doPostBack(&#39;ctl00$MainContent$rpt_ruleList$ctl14$Label1&#39;,&#39;&#39;)">View text</a>
+                                
+                            </td>
+                            <td>
+                                <span id="MainContent_rpt_ruleList_Label2_13">9/24/2010</span>
+                            </td>
+
+                        </tr>
+                    
+                        
+                        </tbody>	  
+            </table>
+                    
+
+                <div id="targetDiv">
+                    </div>
+                <div><a href="#targetTopDiv" id="MainContent_A1" class="role-text">top</a></div>
+                
+            </div>
+        </div>
+    </div>
+
+                </section>
+            </div>
+
+        </div>
+        
+
+        <!-------SECOND FOOTER STARTS HERE------>
+        
+
+        
+
+
+
+        <div class="row footer-custom">
+
+            <div class="col-md-4">
+               
+                <p class="footer-address">
+                    Office of Documents and Administrative Issuances</br>
+                    899 North Capitol Street, NE, Suite 8700</br>Washington, DC 20002</br>
+                    Phone:  (202) 727-5090 </br>
+                    Email: <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="5b3f383f34382e363e352f281b3f38753c342d">[email&#160;protected]</a></br>
+                    &copy; 2026
+                </p>
+            </div>
+            
+            
+
+            <div class="col-md-4">
+                <span class="" style="font-size: 11px; font-weight: bold; color: #fff; text-transform: uppercase;">About us</span>
+                <ul class="liststyle-custom1 footer-ul-details" style="padding-left: 0px !important;">
+                    <li><a href="../../History.aspx">History of the Office of Documents</a></li>
+
+                    <li><a href="../../About.aspx">What We Do</a></li>
+
+                    <li><a href="../../Contact.aspx#hours">Hours of Operation</a></li>
+
+                    <li><a href="../../Contact.aspx#contact">Contact Information</a></li>
+                </ul>
+
+            </div>
+            <div class="col-md-4">
+                <span class="" style="font-size: 11px; font-weight: bold; color: #fff; text-transform: uppercase;">Resources</span>
+
+                <ul class="liststyle-custom1 footer-ul-details" style="padding-left: 0px !important;">
+                    <li><a href="http://www.lexisnexis.com/hottopics/dccode/" target="_blank">DC Code</a></li>
+
+                    <li><a href="http://oag.dc.gov/" target="_blank">Office of the Attorney General</a></li>
+
+                    <li><a href="http://www.dccouncil.washington.dc.us/" target="_blank">Council of the District of Columbia</a></li>
+
+                    <li><a href="http://www.gpoaccess.gov/ecfr/" target="_blank">Federal Rules and Regulations</a></li>
+                </ul>
+
+            </div>
+
+
+        </div>
+        <div class="row">
+            <div style="background-color: #2b4888!important;padding:3px;text-align:center;">
+                <span class="dcFooterListLower anchor-color">
+                    <ul>
+                        <li class="dcFirstChild"><a title="Accessibility" href="http://dc.gov/DC/About+DC.Gov/Accessibility" target="_blank">Accessibility</a></li>
+                        <li><a title="Privacy and Security" href="http://dc.gov/DC/About+DC.Gov/Privacy+and+Security" target="_blank">Privacy and Security</a></li>
+                        <li><a title="Terms and Conditions" href="http://dc.gov/DC/About+DC.Gov/Terms+and+Conditions" target="_blank">Terms and Conditions</a></li>
+                        <li><a href="https://dc.gov/page/about-district-government-website" title="About DC.Gov" target="_blank">About DC.Gov</a></li>
+
+                    </ul>
+                </span>
+
+            </div>
+        </div>
+
+        <!-------SECOND FOOTER ENDS HERE------>
+
+
+    </form>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a2bc21e328feb266',t:'MTc4NjgzODE0OQ=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>

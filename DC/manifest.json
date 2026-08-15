@@ -180,6 +180,30 @@
     "tls_chain_unverified": false
   },
   {
+    "source_url": "https://dcregs.dc.gov/Common/DCMR/RuleList.aspx?DownloadFile=A0A6555F-0000-CA11-9301-3D0EE2256DEB",
+    "primary": false,
+    "local_path": "DC/dcregs.dc.gov-Common-DCMR-RuleList.aspx-DownloadFile-A0A6555F-0000-CA11-9301-3D0-49d6001f.bin",
+    "content_type": "application/force-download",
+    "content_sha256": "2934f526f531f4949864766f3fe638a2e592d637da07360757601d21c4506484",
+    "perma_url": "https://perma.cc/72Z2-VVRT",
+    "wayback_url": null,
+    "captured_at": "2026-08-15T23:55:41.376391+00:00",
+    "signed": false,
+    "tls_chain_unverified": false
+  },
+  {
+    "source_url": "https://dcregs.dc.gov/Common/DCMR/RuleList.aspx?DownloadFile=D0A6555F-0000-C154-ABEF-3F80CC71D825",
+    "primary": true,
+    "local_path": "DC/dcregs.dc.gov-Common-DCMR-RuleList.aspx-DownloadFile-D0A6555F-0000-C154-ABEF-3F8-9e539ee3.bin",
+    "content_type": "application/force-download",
+    "content_sha256": "de87b9d0dafe366030edf775e4376c7f6661262b216fe307fedea64f18c49637",
+    "perma_url": "https://perma.cc/E7T5-R9RP",
+    "wayback_url": null,
+    "captured_at": "2026-08-15T23:55:41.376391+00:00",
+    "signed": false,
+    "tls_chain_unverified": false
+  },
+  {
     "source_url": "https://dcregs.dc.gov/Common/DCMR/RuleList.aspx?DownloadFile={323FACC7-8663-45B9-829B-02DFB475C70A}",
     "primary": false,
     "local_path": "DC/dcregs.dc.gov-Common-DCMR-RuleList.aspx-DownloadFile-323FACC7-8663-45B9-829B-02D.bin",
@@ -240,6 +264,18 @@
     "perma_url": "https://perma.cc/BQ67-XHR3",
     "wayback_url": null,
     "captured_at": "2026-07-17T17:24:09.460579+00:00",
+    "signed": false,
+    "tls_chain_unverified": false
+  },
+  {
+    "source_url": "https://www.dcregs.dc.gov/Common/DCMR/RuleList.aspx?ChapterNum=17-6",
+    "primary": false,
+    "local_path": "DC/www.dcregs.dc.gov-Common-DCMR-RuleList.aspx-ChapterNum-17-6-8cc998b9.html",
+    "content_type": "text/html; charset=utf-8",
+    "content_sha256": "c2267916105c12d17c961a3dcfebc99b27815f814fef3d4146bad55dfccb564e",
+    "perma_url": "https://perma.cc/K58X-VJNX",
+    "wayback_url": "https://web.archive.org/web/20260815235557/https://www.dcregs.dc.gov/Common/DCMR/RuleList.aspx?ChapterNum=17-6",
+    "captured_at": "2026-08-15T23:55:41.376391+00:00",
     "signed": false,
     "tls_chain_unverified": false
   }
