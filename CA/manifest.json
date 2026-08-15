@@ -1,5 +1,17 @@
 [
   {
+    "source_url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=6210.&lawCode=CORP",
+    "primary": true,
+    "local_path": "CA/leginfo.legislature.ca.gov-faces-codes_displaySection.xhtml-sectionNum-6210.-law-19f502ba.html",
+    "content_type": "text/html; charset=UTF-8",
+    "content_sha256": "f5cff7befc373bcb5d33edb93b2c7bf4ad5bcc2c3ea76df5e6b50388725116e3",
+    "perma_url": "https://perma.cc/3HYU-3QHM",
+    "wayback_url": null,
+    "captured_at": "2026-08-15T23:14:55.315653+00:00",
+    "signed": false,
+    "tls_chain_unverified": false
+  },
+  {
     "source_url": "https://oag.ca.gov/charities/renewals",
     "primary": false,
     "local_path": "CA/oag.ca.gov-charities-renewals.html",
@@ -47,5 +59,29 @@
     "captured_at": "2026-05-30T18:26:42.477428+00:00",
     "signed": true,
     "primary_promoted": "2026-07-10 Tony ruling (CA fix): CCR \u00a7305 is the deadline authority (regulation > agency page > form). This is the only CURRENT regulation-text artifact in hand \u2014 tier documented: aggregator mirror (Cornell LII) of the current CCR; the OFFICIAL publisher (govt.westlaw.com/calregs) is browser-path-only (walled to scripted capture, logged); amendment-check anchors = the AG renewals page + RRF-1 Rev. 01/2024, both current and byte-bearing the same offset rule."
+  },
+  {
+    "source_url": "https://www.sos.ca.gov/business-programs/business-entities/forms/corporations-statement-information",
+    "primary": false,
+    "local_path": "CA/www.sos.ca.gov-business-programs-business-entities-forms-corporations-statement--8ca63707.html",
+    "content_type": "text/html; charset=UTF-8",
+    "content_sha256": "f53ef96b900a2155a765e3a677dbb151f3a633d58104fffb199b0d43e39c4b70",
+    "perma_url": "https://perma.cc/F6P5-9V8S",
+    "wayback_url": "https://web.archive.org/web/20260815231634/https://www.sos.ca.gov/business-programs/business-entities/forms/corporations-statement-information",
+    "captured_at": "2026-08-15T23:14:55.315653+00:00",
+    "signed": false,
+    "tls_chain_unverified": false
+  },
+  {
+    "source_url": "https://www.sos.ca.gov/business-programs/business-entities/statements",
+    "primary": false,
+    "local_path": "CA/www.sos.ca.gov-business-programs-business-entities-statements-ecbd5a1d.html",
+    "content_type": "text/html; charset=UTF-8",
+    "content_sha256": "bf93b9dd1aa48ceec9c2455b8ca0f0c2df6e29e2d2b792fbb7b229425bbedba9",
+    "perma_url": "https://perma.cc/4TDU-L664",
+    "wayback_url": null,
+    "captured_at": "2026-08-15T23:14:55.315653+00:00",
+    "signed": false,
+    "tls_chain_unverified": false
   }
 ]
