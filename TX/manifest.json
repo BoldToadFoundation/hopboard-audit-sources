@@ -24,6 +24,30 @@
     "tls_chain_unverified": false
   },
   {
+    "source_url": "https://tcss.legis.texas.gov/resources/BO/htm/BO.22.htm",
+    "primary": true,
+    "local_path": "TX/tcss.legis.texas.gov-resources-BO-htm-BO.22.htm-99647676.html",
+    "content_type": "text/html",
+    "content_sha256": "777cf9c461e8929978e1cc43d33ee09d51cfe30c1a9d1886340c14d169acc341",
+    "perma_url": "https://perma.cc/Y4XD-NLBG",
+    "wayback_url": "https://web.archive.org/web/20260815115430/https://tcss.legis.texas.gov/resources/BO/htm/BO.22.htm",
+    "captured_at": "2026-08-15T11:54:23.421622+00:00",
+    "signed": false,
+    "tls_chain_unverified": false
+  },
+  {
+    "source_url": "https://tcss.legis.texas.gov/resources/BO/htm/BO.4.htm",
+    "primary": false,
+    "local_path": "TX/tcss.legis.texas.gov-resources-BO-htm-BO.4.htm-c1d578b8.html",
+    "content_type": "text/html",
+    "content_sha256": "fd17a7d06e5ee5503ce7c841fe396a6da90e3ee1fe12bf312e9257b02f6c9bea",
+    "perma_url": "https://perma.cc/5JUZ-4Y74",
+    "wayback_url": "https://web.archive.org/web/20260815115450/https://tcss.legis.texas.gov/resources/BO/htm/BO.4.htm",
+    "captured_at": "2026-08-15T11:54:23.421622+00:00",
+    "signed": false,
+    "tls_chain_unverified": false
+  },
+  {
     "source_url": "https://tcss.legis.texas.gov/resources/OC/htm/OC.1803.htm",
     "primary": false,
     "local_path": "TX/tcss.legis.texas.gov-resources-OC-htm-OC.1803.htm.html",
@@ -62,6 +86,18 @@
     "provenance": "wayback_snapshot re-homing 2026-06-12: id_ raw-variant fetch of the verification row's archive_snapshot_url; origin gzip payload decompressed at ingest (id_ raw preserves Content-Encoding as crawled; gunzip applied, sweep gzip-flag added same day); load-bearing content byte-grepped at fetch ('public information report': 6 hits); shell-signature sweep (extended 2026-06-12) clean; converts the Wayback-only row to local-backed per the 2026-06-11 local-artifact-required standard",
     "ingested_at": "2026-06-12T19:52:26.688554+00:00",
     "captured_at_basis": "CORRECTED 2026-08-08 per Tony ruling (captured_at = when the BYTES were captured from the source, not when we ingested them). True date read from the 14-digit snapshot timestamp in this entry's own source_url; verified against the Internet Archive CDX index (a snapshot exists at exactly that timestamp, status 200) before the correction was propagated. Prior value was the 2026-06-12 wayback_snapshot re-homing INGEST date, preserved in ingested_at."
+  },
+  {
+    "source_url": "https://www.sos.state.tx.us/corp/nonprofitfaqs.shtml",
+    "primary": false,
+    "local_path": "TX/www.sos.state.tx.us-corp-nonprofitfaqs.shtml-979b9538.html",
+    "content_type": "text/html",
+    "content_sha256": "3c4f553c2e31e63170c60cd42085696a3821168e96faa25452711fb1e4cf442a",
+    "perma_url": "https://perma.cc/2XMV-VWWM",
+    "wayback_url": "https://web.archive.org/web/20260815115514/https://www.sos.state.tx.us/corp/nonprofitfaqs.shtml",
+    "captured_at": "2026-08-15T11:54:23.421622+00:00",
+    "signed": false,
+    "tls_chain_unverified": false
   },
   {
     "source_url": "https://www.texasattorneygeneral.gov/divisions/charitable-trusts/registration-and-filings",
