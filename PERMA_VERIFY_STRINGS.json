@@ -1729,6 +1729,39 @@
         "Statutory Required 6 Month Filing Window",
         "filing period when subsequent statements are due"
       ]
+    },
+    "67S7-6V8L": {
+      "basis": "D.C. Code 29-102.11 'Biennial report for Mayor' -- the section imposing DC's corporate biennial report duty and setting its April 1 deadline. The corporate-axis primary DC's parent row now cites, replacing 44-1703 (Charitable Solicitations).",
+      "source_url": "https://code.dccouncil.gov/us/dc/council/code/sections/29-102.11",
+      "strings": [
+        "Biennial report for Mayor",
+        "shall deliver to the Mayor for filing a biennial report",
+        "by April 1 of the year following the calendar year"
+      ]
+    },
+    "KF2Y-YYC4": {
+      "basis": "D.C. Code 29-102.12 'Fees.' -- the FACIAL DELEGATION of entity filing fees to the Mayor's rules. Load-bearing because it is what makes DCMR 17-6 the fee authority, and because a delegation is recorded as a read with a negative result rather than an absence.",
+      "source_url": "https://code.dccouncil.gov/us/dc/council/code/sections/29-102.12",
+      "strings": [
+        "§ 29–102.12. Fees.",
+        "shall adopt rules, to establish or revise fees for entity filings"
+      ]
+    },
+    "K58X-VJNX": {
+      "basis": "DCMR Title 17 Chapter 6 rule list -- the navigation artifact proving chapter 17-6 is 'DCRA CORPORATIONS DIVISION SCHEDULE OF FEES' and enumerating its sections. Held because how the chapter was FOUND is part of the record: prior passes missed it.",
+      "source_url": "https://www.dcregs.dc.gov/Common/DCMR/RuleList.aspx?ChapterNum=17-6",
+      "strings": [
+        "17-6",
+        "SCHEDULE OF FEES"
+      ]
+    },
+    "E7T5-R9RP": {
+      "skip": "BINARY PRIMARY -- DCMR section 603 NONPROFIT CORPORATIONS FILING FEES. dcregs.dc.gov serves DCMR sections as MS Word binaries under content_type 'application/force-download', which verify_perma's utf-8 WARC grep cannot read; a string check against the WARC would be noise either way, so it asserts nothing and must not pretend to. THE SUBSTANCE IS CHECKED, on the lane that can read it: by_sha256['de87b9d0dafe366030edf775e4376c7f6661262b216fe307fedea64f18c49637'] carries this artifact's load-bearing strings and is BLOCKING for primaries under --verify-strings (E5-2), verified against the LOCAL capture via extract_text (confirmed 2026-08-21). This routes the check, it does not waive it.",
+      "source_url": "https://dcregs.dc.gov/Common/DCMR/RuleList.aspx?DownloadFile=D0A6555F-0000-C154-ABEF-3F80CC71D825"
+    },
+    "72Z2-VVRT": {
+      "skip": "BINARY PRIMARY -- DCMR section 600 GENERAL PROVISIONS. dcregs.dc.gov serves DCMR sections as MS Word binaries under content_type 'application/force-download', which verify_perma's utf-8 WARC grep cannot read; a string check against the WARC would be noise either way, so it asserts nothing and must not pretend to. THE SUBSTANCE IS CHECKED, on the lane that can read it: by_sha256['2934f526f531f4949864766f3fe638a2e592d637da07360757601d21c4506484'] carries this artifact's load-bearing strings and is BLOCKING for primaries under --verify-strings (E5-2), verified against the LOCAL capture via extract_text (confirmed 2026-08-21). This routes the check, it does not waive it.",
+      "source_url": "https://dcregs.dc.gov/Common/DCMR/RuleList.aspx?DownloadFile=A0A6555F-0000-CA11-9301-3D0EE2256DEB"
     }
   },
   "by_sha256": {
