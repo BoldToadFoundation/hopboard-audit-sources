@@ -1762,6 +1762,126 @@
     "72Z2-VVRT": {
       "skip": "BINARY PRIMARY -- DCMR section 600 GENERAL PROVISIONS. dcregs.dc.gov serves DCMR sections as MS Word binaries under content_type 'application/force-download', which verify_perma's utf-8 WARC grep cannot read; a string check against the WARC would be noise either way, so it asserts nothing and must not pretend to. THE SUBSTANCE IS CHECKED, on the lane that can read it: by_sha256['2934f526f531f4949864766f3fe638a2e592d637da07360757601d21c4506484'] carries this artifact's load-bearing strings and is BLOCKING for primaries under --verify-strings (E5-2), verified against the LOCAL capture via extract_text (confirmed 2026-08-21). This routes the check, it does not waive it.",
       "source_url": "https://dcregs.dc.gov/Common/DCMR/RuleList.aspx?DownloadFile=A0A6555F-0000-CA11-9301-3D0EE2256DEB"
+    },
+    "2VJG-YZHS": {
+      "basis": "HI escalation read 2026-08-18 (docs/regime_reread/HI_20260818.md; HI_VERIFY_20260818.sql) — DCCA BREG FAQ: annual-report due date keyed to registration date (quarter system)",
+      "source_url": "https://cca.hawaii.gov/breg/faqs/",
+      "strings": [
+        "the annual report or annual statement due date is dependent on the registration date"
+      ]
+    },
+    "3TRT-6HC5": {
+      "basis": "HI escalation read 2026-08-18 (docs/regime_reread/HI_20260818.md; HI_VERIFY_20260818.sql) — portal submit page + live amnesty banner (transient, captured)",
+      "source_url": "https://charity.ehawaii.gov/charity/apply-info.html",
+      "strings": [
+        "Charities Amnesty Program: Extended to October 31, 2026"
+      ]
+    },
+    "4AC4-WEKJ": {
+      "basis": "HI escalation read 2026-08-18 (docs/regime_reread/HI_20260818.md; HI_VERIFY_20260818.sql) — live exemption application: exemption requires application (religious_must_apply / small_org_must_apply)",
+      "source_url": "https://charity.ehawaii.gov/charity/apply-exemption.html",
+      "strings": [
+        "must register in the State of Hawaii with the Attorney General"
+      ]
+    },
+    "8LYT-BQR6": {
+      "basis": "HI escalation read 2026-08-18 (docs/regime_reread/HI_20260818.md; HI_VERIFY_20260818.sql) — DCCA FNP-INFO: foreign nonprofit annual report fee + revocation",
+      "source_url": "https://cca.hawaii.gov/wp-content/uploads/2025/12/FNP-INFO_3-2023.pdf",
+      "strings": [
+        "Foreign Nonprofit Corporation Annual Report",
+        "certificate of authority may be revoked"
+      ]
+    },
+    "9TZS-294A": {
+      "basis": "HI escalation read 2026-08-18 (docs/regime_reread/HI_20260818.md; HI_VERIFY_20260818.sql) — AG Tax & Charities Division main page (charitable regulator identity)",
+      "source_url": "https://ag.hawaii.gov/tax/",
+      "strings": [
+        "Tax &amp; Charities Division"
+      ]
+    },
+    "CXT6-4Y74": {
+      "basis": "HI escalation read 2026-08-18 (docs/regime_reread/HI_20260818.md; HI_VERIFY_20260818.sql) — 2021 Annual Report Guide: the 990-coupled due-date rule (990/990-EZ/990-PF)",
+      "source_url": "https://ag.hawaii.gov/tax/files/2021/10/Hawaii-Charity-Annual-Report-Guide-October-2021.pdf",
+      "strings": [
+        "within 10 business days of when the organization files its IRS Form 990/990-EZ/990-PF"
+      ]
+    },
+    "D8YS-6AYH": {
+      "basis": "HI escalation read 2026-08-18 (docs/regime_reread/HI_20260818.md; HI_VERIFY_20260818.sql) — DCCA DNP-INFO: quarter-end schedule verbatim + domestic nonprofit annual report fee + delinquency",
+      "source_url": "https://cca.hawaii.gov/wp-content/uploads/2025/12/DNP-INFO_3-2023.pdf",
+      "strings": [
+        "an annual report shall be filed on or before September 30 of each year",
+        "Domestic Nonprofit Corporation Annual Report: $5.00",
+        "dissolved involuntarily by the"
+      ]
+    },
+    "G9PS-AJ29": {
+      "basis": "HI escalation read 2026-08-18 (docs/regime_reread/HI_20260818.md; HI_VERIFY_20260818.sql) — portal help: the $20/day cap $1,000 late fee",
+      "source_url": "https://charity.ehawaii.gov/charity/help.html",
+      "strings": [
+        "late fees of $20 per day up to a maximum fee of $1,000"
+      ]
+    },
+    "JH3J-C8PV": {
+      "basis": "HI escalation read 2026-08-18 (docs/regime_reread/HI_20260818.md; HI_VERIFY_20260818.sql) — legacy annual-report portal, self-describing redirect to hbe.dcca.hawaii.gov",
+      "source_url": "https://hbe.ehawaii.gov/annuals/",
+      "strings": [
+        "All services offered through Hawaii Business Express will be available via this new portal"
+      ]
+    },
+    "JL87-5C3P": {
+      "basis": "HI escalation read 2026-08-18 (docs/regime_reread/HI_20260818.md; HI_VERIFY_20260818.sql) — Registration Guide: one-time registration, no fee",
+      "source_url": "https://ag.hawaii.gov/tax/files/2018/06/Hawaii-Charity-Registration-Guide-7.10.19.pdf",
+      "strings": [
+        "Organizations complete a Registration only once",
+        "There is no fee to submit a Registration"
+      ]
+    },
+    "NU82-YJ6T": {
+      "basis": "HI escalation read 2026-08-18 (docs/regime_reread/HI_20260818.md; HI_VERIFY_20260818.sql) — AG amnesty news release (suspension as administered delinquency consequence)",
+      "source_url": "https://charity.ehawaii.gov/charity/static/Hawaii%20-%20Amnesty%20Period%20for%20Charitable%20Organizations.pdf",
+      "strings": [
+        "Amnesty Period"
+      ]
+    },
+    "QFM3-S4AM": {
+      "basis": "HI escalation read 2026-08-18 (docs/regime_reread/HI_20260818.md; HI_VERIFY_20260818.sql) — AG File page: registration/annual report/exemption filed via the state portal",
+      "source_url": "https://ag.hawaii.gov/tax/file/",
+      "strings": [
+        "Submit your initial registration, annual report, or exemption application"
+      ]
+    },
+    "S5ZV-YRFR": {
+      "basis": "HI escalation read 2026-08-18 (docs/regime_reread/HI_20260818.md; HI_VERIFY_20260818.sql) — BREG Q3-2026 press release: quarter framing + nonprofit online fee",
+      "source_url": "https://cca.hawaii.gov/breg/third-quarter-hawaii-annual-business-reports-due-2026/",
+      "strings": [
+        "Nonprofit corporations: $2.50"
+      ]
+    },
+    "T5Y6-RGD7": {
+      "basis": "HI escalation read 2026-08-18 (docs/regime_reread/HI_20260818.md; HI_VERIFY_20260818.sql) — Special Transmittal Guide: 15th-day-of-5th-month rule for 990-N/non-filers/failed-to-file",
+      "source_url": "https://ag.hawaii.gov/tax/files/2018/06/Hawaii-Charity-Special-Annual-Transmittal-Guide-7.10.19.pdf",
+      "strings": [
+        "due no later than the 15th day of the",
+        "5th month after the end of its fiscal year"
+      ]
+    },
+    "U2PS-EFKS": {
+      "basis": "HI escalation read 2026-08-18 (docs/regime_reread/HI_20260818.md; HI_VERIFY_20260818.sql) — Annual Reporting Requirements sheet",
+      "skip": "image-only scanned PDF, no text layer (ExtractionEmpty); quotes in the read doc are transcriptions; every load-bearing value it carries is also string-verified in the 2021 Annual Report Guide (CXT6-4Y74), the Special Guide (T5Y6-RGD7), the portal help page (G9PS-AJ29) or the statute primary (by_sha256 b5e648d1...)",
+      "source_url": "https://ag.hawaii.gov/tax/files/2020/02/Annual-Reporting-Requirements.pdf"
+    },
+    "YMX8-5FAL": {
+      "basis": "HI escalation read 2026-08-18 (docs/regime_reread/HI_20260818.md; HI_VERIFY_20260818.sql) — the state filing portal page the AG links to (renewal_form_url)",
+      "source_url": "https://efile.form990.org/frmNPParticipatingStateSCOHI.asp",
+      "strings": [
+        "Hawaii"
+      ]
+    },
+    "YX7N-E5E7": {
+      "basis": "HI escalation read 2026-08-18 (docs/regime_reread/HI_20260818.md; HI_VERIFY_20260818.sql) — AG Tax & Charities FAQs",
+      "skip": "image-only scanned PDF, no text layer (ExtractionEmpty); quotes in the read doc are transcriptions; load-bearing values corroborated in text-bearing artifacts (Registration Guide JL87-5C3P, 2021 Guide CXT6-4Y74, portal pages) and the statute captures",
+      "source_url": "https://ag.hawaii.gov/tax/files/2020/09/T-C-FAQs.pdf"
     }
   },
   "by_sha256": {
@@ -2308,6 +2428,17 @@
         "NONPROFIT CORPORATIONS FILING FEES",
         "Biennial report: eighty dollars",
         "Late fee: an additional fifty dollars"
+      ]
+    },
+    "b5e648d1a08762769750ff71c0ebd206490e12b7dfbbcec9394ee6f73fb55748": {
+      "basis": "HI escalation read 2026-08-18 (docs/regime_reread/HI_20260818.md; HI_VERIFY_20260818.sql) — PRIMARY, HRS 467B-6.5 (browser capture, perma NULL — sha lane): both due-date tracks, the $0 first fee tier, the $20/day cap $1,000 late fee",
+      "source_url": "https://www.capitol.hawaii.gov/hrscurrent/Vol10_Ch0436-0474/HRS0467B/HRS_0467B-0006_0005.htm",
+      "strings": [
+        "within ten business days of the date that the organization files the form with the Internal Revenue Service",
+        "not later than the fifteenth day of the fifth month following the close of its fiscal year",
+        "$0, if total revenue is less than $25,000",
+        "a late filing fee of $20 shall be imposed for each day",
+        "shall not exceed $1,000"
       ]
     }
   }
