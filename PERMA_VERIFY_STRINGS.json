@@ -1888,6 +1888,17 @@
       "basis": "HI escalation read 2026-08-18 (docs/regime_reread/HI_20260818.md; HI_VERIFY_20260818.sql) — AG Tax & Charities FAQs",
       "skip": "image-only scanned PDF, no text layer (ExtractionEmpty); quotes in the read doc are transcriptions; load-bearing values corroborated in text-bearing artifacts (Registration Guide JL87-5C3P, 2021 Guide CXT6-4Y74, portal pages) and the statute captures",
       "source_url": "https://ag.hawaii.gov/tax/files/2020/09/T-C-FAQs.pdf"
+    },
+    "Q99C-637G": {
+      "basis": "HI escalation read 2026-08-18 (docs/regime_reread/HI_20260818.md; HI_VERIFY_20260818.sql) — PRIMARY, HRS 467B-6.5 (Perma backfilled 2026-08-18 via perma_retry.py after the walled-host record was falsified by measurement; spare witness SC4T-SX6U same page): both due-date tracks, the $0 first fee tier, the $20/day cap $1,000 late fee",
+      "source_url": "https://www.capitol.hawaii.gov/hrscurrent/Vol10_Ch0436-0474/HRS0467B/HRS_0467B-0006_0005.htm",
+      "strings": [
+        "within ten business days of the date that the organization files the form with the Internal Revenue Service",
+        "not later than the fifteenth day of the fifth month following the close of its fiscal year",
+        "$0, if total revenue is less than $25,000",
+        "a late filing fee of $20 shall be imposed for each day",
+        "shall not exceed $1,000"
+      ]
     }
   },
   "by_sha256": {

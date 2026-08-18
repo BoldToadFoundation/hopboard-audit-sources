@@ -545,13 +545,14 @@
     "local_path": "HI/www.capitol.hawaii.gov-hrscurrent-Vol10_Ch0436-0474-HRS0467B-HRS_0467B-0006_0005-0de870a8.capitol.hawaii.gov-hrscurrent-Vol10_Ch0436-0474-HRS0467B-HRS_0467B-0006_0005.htm",
     "content_type": "text/html",
     "content_sha256": "b5e648d1a08762769750ff71c0ebd206490e12b7dfbbcec9394ee6f73fb55748",
-    "perma_url": null,
+    "perma_url": "https://perma.cc/Q99C-637G",
     "wayback_url": null,
     "captured_at": "2026-08-18T10:48:58.273854+00:00",
     "signed": false,
     "tls_chain_unverified": false,
     "ingested_from_file": true,
-    "provenance": "browser_captured (automated variant): playwright chromium-1223 headless, raw HTTP response.body() bytes (pre-render), UA Chrome/126, from the local capture machine 2026-08-18; host 403s plain curl (Cloudflare) but served HTTP 200 to the browser engine with no challenge/captcha solved; --from-file lane per BROWSER_CAPTURE_RUNBOOK; automation-of-runbook variant flagged for Tony ratification, RECHECK_LEDGER 2026-08-18"
+    "provenance": "browser_captured (automated variant): playwright chromium-1223 headless, raw HTTP response.body() bytes (pre-render), UA Chrome/126, from the local capture machine 2026-08-18; host 403s plain curl (Cloudflare) but served HTTP 200 to the browser engine with no challenge/captcha solved; --from-file lane per BROWSER_CAPTURE_RUNBOOK; automation-of-runbook variant flagged for Tony ratification, RECHECK_LEDGER 2026-08-18",
+    "perma_backfilled_at": "2026-08-18T11:16:19.286236+00:00"
   },
   {
     "source_url": "https://www.capitol.hawaii.gov/hrscurrent/Vol10_Ch0436-0474/HRS0467B/HRS_0467B-0007.htm",

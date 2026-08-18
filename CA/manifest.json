@@ -5,17 +5,18 @@
     "local_path": "CA/leginfo.legislature.ca.gov-faces-codes_displaySection.xhtml-sectionNum-6210.-law-19f502ba.html",
     "content_type": "text/html; charset=UTF-8",
     "content_sha256": "f5cff7befc373bcb5d33edb93b2c7bf4ad5bcc2c3ea76df5e6b50388725116e3",
-    "perma_url": null,
+    "perma_url": "https://perma.cc/XQ4V-NA4S",
     "wayback_url": null,
     "captured_at": "2026-08-15T23:14:55.315653+00:00",
     "signed": false,
     "tls_chain_unverified": false,
     "archival_class": "local_pinned_no_third_party",
-    "archival_class_reason": "No third-party archive of this document exists. perma.cc CANNOT CAPTURE this host: GUID 3HYU-3QHM returned primary capture status 'failed' with an empty content_type, and a second attempt (QNC8-DDUR) was still 'pending' 25+ minutes later. Both sos.ca.gov captures made in the SAME capture run succeeded fully, which rules out an outage — it is leginfo's JSF page defeating Perma's capture, and it will recur on every California statute section. One archive.org Save Page Now attempt was made 2026-08-21 (Tony instruction): HTTP 500, and the availability API returned 429. WHAT REMAINS, AND IT IS A GATE NOT AN EXEMPTION: the document is captured locally and sha-pinned (f5cff7be...), and its load-bearing strings are gated by the by_sha256 lane in PERMA_VERIFY_STRINGS.json, which is BLOCKING for primaries under --verify-strings (E5-2). perma_url is null rather than pointing at 3HYU-3QHM because that GUID plays back nothing: recording a URL that archives no document would be the false claim. The failed GUIDs are retained here so the attempt is not erased. NOT a skip: skips suppress a check, and this moves the document from the perma-keyed lane to the sha-keyed one, where it is still checked.",
+    "archival_class_reason": "No third-party archive of this document exists. perma.cc CANNOT CAPTURE this host: GUID 3HYU-3QHM returned primary capture status 'failed' with an empty content_type, and a second attempt (QNC8-DDUR) was still 'pending' 25+ minutes later. Both sos.ca.gov captures made in the SAME capture run succeeded fully, which rules out an outage \u2014 it is leginfo's JSF page defeating Perma's capture, and it will recur on every California statute section. One archive.org Save Page Now attempt was made 2026-08-21 (Tony instruction): HTTP 500, and the availability API returned 429. WHAT REMAINS, AND IT IS A GATE NOT AN EXEMPTION: the document is captured locally and sha-pinned (f5cff7be...), and its load-bearing strings are gated by the by_sha256 lane in PERMA_VERIFY_STRINGS.json, which is BLOCKING for primaries under --verify-strings (E5-2). perma_url is null rather than pointing at 3HYU-3QHM because that GUID plays back nothing: recording a URL that archives no document would be the false claim. The failed GUIDs are retained here so the attempt is not erased. NOT a skip: skips suppress a check, and this moves the document from the perma-keyed lane to the sha-keyed one, where it is still checked.",
     "perma_failed_guids": [
       "3HYU-3QHM",
       "QNC8-DDUR"
-    ]
+    ],
+    "perma_backfilled_at": "2026-08-18T11:15:44.330194+00:00"
   },
   {
     "source_url": "https://oag.ca.gov/charities/renewals",
@@ -27,7 +28,7 @@
     "wayback_url": "https://web.archive.org/web/20260530163327/https://oag.ca.gov/charities/renewals",
     "captured_at": "2026-05-30T18:26:42.477428+00:00",
     "signed": true,
-    "primary_demoted": "2026-07-10 Tony ruling (CA fix): re-pointed to CCR §305 (regulation authority); renewals page retained as bearing secondary (current, agency-authoritative guidance; bears the offset rule x2 + the FYE table)."
+    "primary_demoted": "2026-07-10 Tony ruling (CA fix): re-pointed to CCR \u00a7305 (regulation authority); renewals page retained as bearing secondary (current, agency-authoritative guidance; bears the offset rule x2 + the FYE table)."
   },
   {
     "source_url": "https://oag.ca.gov/sites/all/files/agweb/pdfs/charities/Sections-300-312.1.pdf",
@@ -40,7 +41,7 @@
     "captured_at": "2026-07-10T12:45:43.443509+00:00",
     "signed": true,
     "tls_chain_unverified": false,
-    "primary_demoted": "2026-07-10 SAME-SESSION demote: captured as intended official primary, then byte-read FAILED CURRENCY — Last-Modified 2013, and its §305 is amendment MARKUP (old offset text + inserted day:15 text flattened adjacent by extraction). Retained as superseded-historical evidence of the rule flip-flop (offset -> day:15 (2013) -> offset (current)). NEVER a verify-string source: it byte-contains BOTH forms, so any string check against it is ambiguous by construction."
+    "primary_demoted": "2026-07-10 SAME-SESSION demote: captured as intended official primary, then byte-read FAILED CURRENCY \u2014 Last-Modified 2013, and its \u00a7305 is amendment MARKUP (old offset text + inserted day:15 text flattened adjacent by extraction). Retained as superseded-historical evidence of the rule flip-flop (offset -> day:15 (2013) -> offset (current)). NEVER a verify-string source: it byte-contains BOTH forms, so any string check against it is ambiguous by construction."
   },
   {
     "source_url": "https://oag.ca.gov/system/files/media/rrf1_form.pdf",
@@ -64,7 +65,7 @@
     "wayback_url": "https://web.archive.org/web/20260530163353/https://www.law.cornell.edu/regulations/california/11-CCR-305",
     "captured_at": "2026-05-30T18:26:42.477428+00:00",
     "signed": true,
-    "primary_promoted": "2026-07-10 Tony ruling (CA fix): CCR §305 is the deadline authority (regulation > agency page > form). This is the only CURRENT regulation-text artifact in hand — tier documented: aggregator mirror (Cornell LII) of the current CCR; the OFFICIAL publisher (govt.westlaw.com/calregs) is browser-path-only (walled to scripted capture, logged); amendment-check anchors = the AG renewals page + RRF-1 Rev. 01/2024, both current and byte-bearing the same offset rule."
+    "primary_promoted": "2026-07-10 Tony ruling (CA fix): CCR \u00a7305 is the deadline authority (regulation > agency page > form). This is the only CURRENT regulation-text artifact in hand \u2014 tier documented: aggregator mirror (Cornell LII) of the current CCR; the OFFICIAL publisher (govt.westlaw.com/calregs) is browser-path-only (walled to scripted capture, logged); amendment-check anchors = the AG renewals page + RRF-1 Rev. 01/2024, both current and byte-bearing the same offset rule."
   },
   {
     "source_url": "https://www.sos.ca.gov/business-programs/business-entities/forms/corporations-statement-information",
