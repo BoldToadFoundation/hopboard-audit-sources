@@ -37,13 +37,13 @@
   },
   {
     "source_url": "https://code.dccouncil.gov/us/dc/council/code/sections/44-1703",
-    "primary": true,
-    "local_path": "DC/code.dccouncil.gov-us-dc-council-code-sections-44-1703.html",
+    "primary": false,
+    "local_path": "DC/code.dccouncil.gov-us-dc-council-code-sections-44-1703-3a0ed770.html",
     "content_type": "text/html",
     "content_sha256": "798de908335fc5ab81aba6320c5bda30ea2a6bceadd4f27d1ad9d2d717b51bc1",
-    "perma_url": "https://perma.cc/CEZ4-KK5R",
-    "wayback_url": "https://web.archive.org/web/20260717163827/https://code.dccouncil.gov/us/dc/council/code/sections/44-1703",
-    "captured_at": "2026-07-17T17:24:09.460579+00:00",
+    "perma_url": "https://perma.cc/9QU4-QSMU",
+    "wayback_url": "https://web.archive.org/web/20260818155445/https://code.dccouncil.gov/us/dc/council/code/sections/44-1703",
+    "captured_at": "2026-08-18T15:54:35.526843+00:00",
     "signed": false,
     "tls_chain_unverified": false
   },
@@ -146,14 +146,16 @@
   {
     "source_url": "https://dcregs.dc.gov/Common/DCMR/RuleList.aspx?DownloadFile=50C2545F-0000-C0E4-B052-09164F1E0C29",
     "primary": false,
-    "local_path": "DC/dcregs.dc.gov-Common-DCMR-RuleList.aspx-DownloadFile-50C2545F-0000-C0E4-B052-091.bin",
-    "content_type": "application/force-download",
+    "local_path": "DC/dcregs.dc.gov-Common-DCMR-RuleList.aspx-DownloadFile-50C2545F-0000-C0E4-B052-091-43d0e5c3.dc.gov-Common-DCMR-RuleList.aspx-DownloadFile-50C2545F-0000-C0E4-B052-091.bin",
+    "content_type": "application/octet-stream",
     "content_sha256": "7b8ade596a75a925d6fa193fe88eef18fabdea1f857db4d3b604f3e06e7f3724",
-    "perma_url": "https://perma.cc/EQ97-M63W",
-    "wayback_url": "https://web.archive.org/web/20260717164533/https://dcregs.dc.gov/Common/DCMR/RuleList.aspx?DownloadFile=50C2545F-0000-C0E4-B052-09164F1E0C29",
-    "captured_at": "2026-07-17T17:24:09.460579+00:00",
+    "perma_url": null,
+    "wayback_url": null,
+    "captured_at": "2026-08-18T15:54:35.526843+00:00",
     "signed": false,
-    "tls_chain_unverified": false
+    "tls_chain_unverified": false,
+    "ingested_from_file": true,
+    "provenance": "re-ingest no-op guard: same bytes, existing entry (16 DCMR ch.13; original capture 2026-07-17)"
   },
   {
     "source_url": "https://dcregs.dc.gov/Common/DCMR/RuleList.aspx?DownloadFile=60C2545F-0000-C745-A56E-7B4A4DF553F0",
