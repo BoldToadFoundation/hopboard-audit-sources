@@ -146,16 +146,14 @@
   {
     "source_url": "https://dcregs.dc.gov/Common/DCMR/RuleList.aspx?DownloadFile=50C2545F-0000-C0E4-B052-09164F1E0C29",
     "primary": false,
-    "local_path": "DC/dcregs.dc.gov-Common-DCMR-RuleList.aspx-DownloadFile-50C2545F-0000-C0E4-B052-091-43d0e5c3.dc.gov-Common-DCMR-RuleList.aspx-DownloadFile-50C2545F-0000-C0E4-B052-091.bin",
-    "content_type": "application/octet-stream",
+    "local_path": "DC/dcregs.dc.gov-Common-DCMR-RuleList.aspx-DownloadFile-50C2545F-0000-C0E4-B052-091.bin",
+    "content_type": "application/force-download",
     "content_sha256": "7b8ade596a75a925d6fa193fe88eef18fabdea1f857db4d3b604f3e06e7f3724",
-    "perma_url": null,
-    "wayback_url": null,
-    "captured_at": "2026-08-18T15:54:35.526843+00:00",
+    "perma_url": "https://perma.cc/EQ97-M63W",
+    "wayback_url": "https://web.archive.org/web/20260717164533/https://dcregs.dc.gov/Common/DCMR/RuleList.aspx?DownloadFile=50C2545F-0000-C0E4-B052-09164F1E0C29",
+    "captured_at": "2026-07-17T17:24:09.460579+00:00",
     "signed": false,
-    "tls_chain_unverified": false,
-    "ingested_from_file": true,
-    "provenance": "re-ingest no-op guard: same bytes, existing entry (16 DCMR ch.13; original capture 2026-07-17)"
+    "tls_chain_unverified": false
   },
   {
     "source_url": "https://dcregs.dc.gov/Common/DCMR/RuleList.aspx?DownloadFile=60C2545F-0000-C745-A56E-7B4A4DF553F0",
