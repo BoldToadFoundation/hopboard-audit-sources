@@ -1,0 +1,1117 @@
+
+
+
+
+
+
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html lang="en" class="no-js lt-ie10 lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html lang="en" class="no-js lt-ie10 lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html lang="en" class="no-js lt-ie10 lt-ie9"> <![endif]-->
+<!--[if IE 9]>         <html lang="en" class="no-js lt-ie10"> <![endif]-->
+<!--[if gt IE 9]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
+  <head>
+    <title>Hawaii Charities</title>
+
+    <!-- Meta Tags -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="/charity/static/img/favicon.ico" type="image/x-icon" />
+
+    <!-- CSS -->
+    <link href="/charity/static/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="/charity/static/css/style-v2.css" rel="stylesheet" />
+    <link href="/charity/static/css/charities.css" rel="stylesheet" />
+    <script src="/charity/static/js/modernizr-respond.js"></script>
+
+    <!--[if lt IE 9]>
+    <link href="/charity/static/css/ie.css" rel="stylesheet">
+    <![endif]-->
+
+    <script src="/charity/static/js/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript">
+        // Pre-paint guard: if the temporary banner was already dismissed this session, flag <html>
+        // now (before the body renders) so CSS hides the banner from the very first paint - no flash.
+        try {
+            if (window.sessionStorage && sessionStorage.getItem('charitiesTemporaryBannerClosed') === '1') {
+                jQuery('html').addClass('temporary-banner-dismissed');
+            }
+        } catch (e) { /* sessionStorage unavailable - just show the banner */ }
+    </script>
+    <script src="/charity/static/js/scripts.js"></script>
+    <script src="/charity/static/js/global.js"></script>
+    <!--[if lte IE 7]><script src="/charity/static/js/ie-fixes.js"></script><![endif]-->
+    <script src="/charity/static/js/jquery.button-toggler.js"></script>
+    <script src="/charity/static/js/jquery.form.min.js"></script>
+    <script src="/charity/static/js/copyright.js"></script>
+    <script type="text/javascript">
+        $(function(){
+            $('.tooltips').tooltip();
+        });
+    </script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-4LQ8SBX9EZ"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-4LQ8SBX9EZ');
+    </script>
+    
+    
+      
+    
+</head>
+
+<body onload="" onunload="" style="padding-top: 0px;">
+
+<!--[if lt IE 7]>
+<p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
+<![endif]-->
+
+<!-- Navigation top -->
+<nav class="navbar navbar-inverse navbar-fixed-top affix" data-spy="affix">
+    <a class="skip-to-content-link" href="#main">Skip to main content</a>
+    <a class="skip-to-content-link" href="#navigation">Skip to navigation</a>
+    <div class="navbar-inner">
+        <div class="container">
+            <button class="button-toggler btn btn-navbar hidden-toggler hidden-phone hidden-tablet" value="Toggle Element" data-target="#off-canvas-header" data-transition="slide" type="button">
+                <i class="icon-plus-sign"></i>
+            </button>
+            <button data-target=".nav-collapse" data-toggle="collapse" class="btn btn-navbar" type="button">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="brand" href="//portal.ehawaii.gov" title="Official website of the State of Hawaii" target="_blank" rel="noopener noreferrer"><span class="ehawaii_logo">e</span><span class="ehawaii_brand">hawaii.gov</span></a>
+            <div class="nav-collapse collapse">
+                <ul class="nav pull-right" id="navigation">
+                    
+                        <li><a href="http://ag.hawaii.gov/tax/" title="Hawaii Tax and Charities website" target="_blank" rel="noopener noreferrer"><i class="icon-home"></i> Tax &amp; Charities</a></li>
+                    
+                    
+                    
+                    <!--
+                                            <li><a href="http://stayconnected.hawaii.gov" title="Stay connected at Hawaii.gov"><i class="icon-globe"></i> Stay Connected</a></li>
+
+                                            <li><a target="_blank" rel="noopener noreferrer" title="" href="https://messenger.providesupport.com/messenger/15lnfhnn7ggpt1ehjjev1e3mrn.html" class="help-chat"><i class="icon-comment"></i> Help Chat</a></li>
+                    -->
+                    <li><a href="#" class="button-toggler hidden-phone hidden-tablet" id="desktop-settings" value="Toggle Element" data-target="#off-canvas-header" data-transition="slide"><i class="icon-plus-sign"></i><span class="visually-hidden"> More</span></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Hidden content -->
+    <div id="off-canvas-header" class="hide off-canvas-header hidden-phone">
+        <ul class="unstyled inline settings-list">
+            <li><a href="https://portal.ehawaii.gov/government/departments-and-agencies/" title="Government Directory at Hawaii.gov" target="_blank" rel="noopener noreferrer"><i class="icon-globe"></i> Government Directory</a></li>
+            <li class="header-textsizer visible-desktop pull-right">
+                <span aria-hidden="true" data-icon="!" class="smaller-icon"></span> Text size: <a href="#" title="Smaller text size" class="decreaseFont">Smaller</a> | <a href="#" title="Reset text size" class="resetFont">Reset</a> | <a href="#" title="Larger text size" class="increaseFont">Larger</a>
+            </li>
+
+        </ul>
+    </div>
+
+</nav>
+<!-- end navigation top -->
+
+<div class="container-fluid site-wrapper">
+
+    <header class="site-header clearfix" role="banner">
+        <div class="row-fluid">
+            
+            
+            <div class="span9">
+                <div class="pull-left visible-desktop">
+                    <img src="/charity/static/img/logo.png" alt="">
+                </div>
+
+                <div class="headergroup">
+                    <p class="h1">Hawaii Charities</p>
+                    <p class="h2">Tax &amp; Charities Division, Hawaii Attorney General</p>
+                </div>
+            </div>
+
+            
+            <div class="span3">
+                <div class="charities_registered">
+                    <p class="text-center count">
+                        10902
+                    </p>
+                    <p class="text-center type">Charitable Organizations</p>
+                    <p class="text-center description">registered with the State of Hawaii</p>
+                </div>
+            </div>
+            
+            
+        </div>
+
+    </header>
+
+    
+        
+            <div id="temporary-banner" class="temporary-banner" role="alert">
+                <button type="button" class="close" data-dismiss="alert" aria-label="Close">&times;</button>
+                <i class="icon-warning-sign temporary-banner-icon" aria-hidden="true"></i>
+                <h4>Charities Amnesty Program: Extended to October 31, 2026</h4><p>Eligible charitable organizations that are behind on required filings or fees may use this amnesty period to return to compliance. Organizations that complete all required filings and satisfy program requirements by October 31, 2026, may qualify for waiver of certain late fees and penalties.</p><p><a href="/charity/static/Hawaii%20-%20Amnesty%20Period%20for%20Charitable%20Organizations.pdf" target="_blank" rel="noopener noreferrer">Learn more about eligibility and how to participate</a></p>
+            </div>
+            <script type="text/javascript">
+                (function ($) {
+                    // Remember the dismissal for the rest of this browsing session. The pre-paint
+                    // guard in <head> reads this to hide the banner before first paint on later pages.
+                    // sessionStorage is per session/tab, so a brand new session shows it again.
+                    $('#temporary-banner').on('click', '.close', function () {
+                        try { window.sessionStorage.setItem('charitiesTemporaryBannerClosed', '1'); } catch (e) { /* ignore */ }
+                    });
+                })(jQuery);
+            </script>
+        
+    
+
+    <nav class="navbar navbar-app navbar-gets-fixed">
+        <div class="navbar-inner">
+            <div class="container">
+                <div class="nav-collapse collapse">
+                    <ul class="nav pull-left" id="navigation">
+
+                        
+                        
+                            <li><a href="/charity/welcome.html" title="Hawaii Charities home"> Home</a></li>
+                            <li><a href="/charity/new-search.html"> Search</a></li>
+                            <li><a href="/charity/fein.html"> Pay Fees</a></li>
+                            <li><a href="/charity/apply-info.html"> Submit</a></li>
+                            <li><a href="/charity/help.html"> Help</a></li>
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main class="main" id="main">
+        
+        <section class="white-bg padded">
+
+            <ul class="breadcrumb">
+                <li><i class="icon-edit"></i> <a href="apply-info.html">Submit</a><span class="divider">/</span></li>
+                <li class="active">Exemption from Registration</li>
+            </ul>
+            <h1><i class="icon-edit"></i> Apply for Exemption from Registration</h1>
+
+            <form id="formObject" class="validate-form" action="/charity/apply-exemption.html" method="post">
+                
+
+                <p class="gray">
+                    All charitable organizations must register in the State of Hawaii with the Attorney General's
+                    office if they solicit funds <strong>unless covered by an exemption in the law</strong>.
+                    To apply for exemption from registration, complete &amp; submit the following form.
+                </p>
+
+                <p class="lead">Charitable Organization Information</p>
+
+                <div class="row-fluid">
+                    <div class="span6">
+                        <label for="organizationName">Organization Name:</label>
+                        <input id="organizationName" name="organizationName" class="span12 required" type="text" value=""/>
+                    </div>
+                    <div class="span2">
+                        <label for="fein"><abbr title="9-digit Federal Employer Identification Number, example 99-1234567">FEIN: <i class="icon-question-sign"></i></abbr></label>
+                        <input id="fein" name="fein" class="fein span12 required" type="text" value=""/>
+                        <span class="help-block">##-#######</span>
+                    </div>
+                    <div class="span4" style="overflow-wrap: break-word;">
+                        <input type="hidden" name="_nameAliases" value="" />
+                        <label for="nameAliases">Other Name(s):</label>
+                        <div class="input-append">
+                            <input class="span12" type="text" id="aliasName" name="aliasName" maxlength="75" title="Other name or names"/>
+                            <button type="button" id="add-alias" class="btn"><i class="icon-plus" aria-hidden="true"></i> Add</button>
+                        </div>
+                        <ul id="aliasList" class="unstyled list-lined" role="presentation">
+                            
+                                
+                            
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="row-fluid">
+                    <div class="span6">
+                        <label for="nteeCodes">
+                            <abbr title="Classification system for categorizing the activities and purposes of nonprofit organizations.">NTEE Code: <i class="icon-question-sign"></i></abbr>
+                        </label>
+                        <select id="nteeCodes" name="nteeCodes" class="span12">
+                            <option value="">-Select-</option>
+                            <option value="A">A - Arts, Culture &amp; Humanities</option><option value="B">B - Education</option><option value="C">C - Environment</option><option value="D">D - Animal-Related</option><option value="E">E - Health Care</option><option value="F">F - Mental Health &amp; Crisis Intervention</option><option value="G">G - Diseases, Disorders &amp; Medical Disciplines</option><option value="H">H - Medical Research</option><option value="I">I - Crime &amp; Legal-Related</option><option value="J">J - Employment</option><option value="K">K - Food, Agriculture &amp; Nutrition</option><option value="L">L - Housing &amp; Shelter</option><option value="M">M - Public Safety, Disaster Preparedness &amp; Relief</option><option value="N">N - Recreation &amp; Sports</option><option value="O">O - Youth Development</option><option value="P">P - Human Services</option><option value="Q">Q - International, Foreign Affairs &amp; National Security</option><option value="R">R - Civil Rights, Social Action &amp; Advocacy</option><option value="S">S - Community Improvement &amp; Capacity Building</option><option value="T">T - Philanthropy, Voluntarism &amp; Grantmaking Foundations</option><option value="U">U - Science &amp; Technology</option><option value="V">V - Social Science</option><option value="W">W - Public &amp; Societal Benefit</option><option value="X">X - Religion-Related</option><option value="Y">Y - Mutual &amp; Membership Benefit</option><option value="Z">Z - Unknown</option>
+                        </select>
+                        <ul id="nteeList" class="unstyled list-lined" role="presentation">
+                            
+                                
+                            
+                        </ul>
+                    </div>
+                    <div class="span6" style="overflow-wrap: break-word;">
+                        <input type="hidden" name="_subordinates" value="" />
+                        <label for="subordinates">Subordinate Organizations:</label>
+                        <div class="input-append">
+                            <input class="span12" type="text" id="subordinate" name="subordinate" maxlength="75" title="Subordinate Organizations"/>
+                            <button type="button" id="add-subordinate" class="btn"><i class="icon-plus" aria-hidden="true"></i> Add</button>
+                        </div>
+                        <ul id="subordinates" class="unstyled list-lined" role="presentation">
+                            
+                                
+                            
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="row-fluid">
+                    <div class="span6">
+                        <label for="addressStreet">Street:</label>
+                        <input id="addressStreet" name="address.street" class="span12 required" type="text" value=""/>
+                    </div>
+                    <div class="span4">
+                        <label for="addressCity">City:</label>
+                        <input id="addressCity" name="address.city" class="span12 required" type="text" value=""/>
+                    </div>
+                </div>
+
+                <div class="row-fluid">
+                    <div class="row-fluid">
+                        <div class="span5">
+                            <label for="address.country">Country:</label>
+                            <select id="address.country" name="address.country" class="span12 required addressCountry">
+                                <option value="">-Select Country-</option>
+                                <option value="US" selected="selected">United States</option><option value="AF">Afghanistan</option><option value="AX">Aland Islands</option><option value="AL">Albania</option><option value="DZ">Algeria</option><option value="AS">American Samoa</option><option value="AD">Andorra</option><option value="AO">Angola</option><option value="AI">Anguilla</option><option value="AQ">Antarctica</option><option value="AG">Antigua And Barbuda</option><option value="AR">Argentina</option><option value="AM">Armenia</option><option value="AW">Aruba</option><option value="AU">Australia</option><option value="AT">Austria</option><option value="AZ">Azerbaijan</option><option value="BS">Bahamas</option><option value="BH">Bahrain</option><option value="BD">Bangladesh</option><option value="BB">Barbados</option><option value="BY">Belarus</option><option value="BE">Belgium</option><option value="BZ">Belize</option><option value="BJ">Benin</option><option value="BM">Bermuda</option><option value="BT">Bhutan</option><option value="BO">Bolivia</option><option value="BA">Bosnia And Herzegovina</option><option value="BW">Botswana</option><option value="BV">Bouvet Island</option><option value="BR">Brazil</option><option value="IO">British Indian Ocean Territory</option><option value="BN">Brunei Darussalam</option><option value="BG">Bulgaria</option><option value="BF">Burkina Faso</option><option value="BI">Burundi</option><option value="KH">Cambodia</option><option value="CM">Cameroon</option><option value="CA">Canada</option><option value="IC">Canary Islands</option><option value="CV">Cape Verde</option><option value="KY">Cayman Islands</option><option value="CF">Central African Republic</option><option value="TD">Chad</option><option value="CL">Chile</option><option value="CN">China</option><option value="CX">Christmas Island</option><option value="CC">Cocos (Keeling) Islands</option><option value="CO">Colombia</option><option value="KM">Comoros</option><option value="CG">Congo</option><option value="CD">Congo, The Democratic Republic Of The</option><option value="CK">Cook Islands</option><option value="CR">Costa Rica</option><option value="CI">Cote D&#39;ivoire</option><option value="HR">Croatia</option><option value="CU">Cuba</option><option value="CW">Cura&ccedil;ao</option><option value="CY">Cyprus</option><option value="CZ">Czech Republic</option><option value="DK">Denmark</option><option value="DJ">Djibouti</option><option value="DM">Dominica</option><option value="DO">Dominican Republic</option><option value="EC">Ecuador</option><option value="EG">Egypt</option><option value="SV">El Salvador</option><option value="GQ">Equatorial Guinea</option><option value="ER">Eritrea</option><option value="EE">Estonia</option><option value="ET">Ethiopia</option><option value="FK">Falkland Islands (Malvinas)</option><option value="FO">Faroe Islands</option><option value="FJ">Fiji</option><option value="FI">Finland</option><option value="FR">France</option><option value="GF">French Guiana</option><option value="PF">French Polynesia</option><option value="TF">French Southern Territories</option><option value="GA">Gabon</option><option value="GM">Gambia</option><option value="GE">Georgia</option><option value="DE">Germany</option><option value="GH">Ghana</option><option value="GI">Gibraltar</option><option value="GR">Greece</option><option value="GL">Greenland</option><option value="GD">Grenada</option><option value="GP">Guadeloupe</option><option value="GU">Guam</option><option value="GT">Guatemala</option><option value="GG">Guernsey</option><option value="GN">Guinea</option><option value="GW">Guinea-Bissau</option><option value="GY">Guyana</option><option value="HT">Haiti</option><option value="HM">Heard Island And Mcdonald Islands</option><option value="VA">Holy See (Vatican City State)</option><option value="HN">Honduras</option><option value="HK">Hong Kong</option><option value="HU">Hungary</option><option value="IS">Iceland</option><option value="IN">India</option><option value="ID">Indonesia</option><option value="IR">Iran, Islamic Republic Of</option><option value="IQ">Iraq</option><option value="IE">Ireland</option><option value="IM">Isle Of Man</option><option value="IL">Israel</option><option value="IT">Italy</option><option value="JM">Jamaica</option><option value="JP">Japan</option><option value="JE">Jersey</option><option value="JO">Jordan</option><option value="KZ">Kazakhstan</option><option value="KE">Kenya</option><option value="KI">Kiribati</option><option value="KP">Korea, Democratic People&#39;s Republic Of</option><option value="KR">Korea, Republic Of</option><option value="KW">Kuwait</option><option value="KG">Kyrgyzstan</option><option value="LA">Lao People&#39;s Democratic Republic</option><option value="LV">Latvia</option><option value="LB">Lebanon</option><option value="LS">Lesotho</option><option value="LR">Liberia</option><option value="LY">Libyan Arab Jamahiriya</option><option value="LI">Liechtenstein</option><option value="LT">Lithuania</option><option value="LU">Luxembourg</option><option value="MO">Macao</option><option value="MK">Macedonia, The Former Yugoslav Republic Of</option><option value="MG">Madagascar</option><option value="MW">Malawi</option><option value="MY">Malaysia</option><option value="MV">Maldives</option><option value="ML">Mali</option><option value="MT">Malta</option><option value="MH">Marshall Islands</option><option value="MQ">Martinique</option><option value="MR">Mauritania</option><option value="MU">Mauritius</option><option value="YT">Mayotte</option><option value="MX">Mexico</option><option value="FM">Micronesia, Federated States Of</option><option value="MD">Moldova, Republic Of</option><option value="MC">Monaco</option><option value="MN">Mongolia</option><option value="ME">Montenegro</option><option value="MS">Montserrat</option><option value="MA">Morocco</option><option value="MZ">Mozambique</option><option value="MM">Myanmar</option><option value="NA">Namibia</option><option value="NR">Nauru</option><option value="NP">Nepal</option><option value="NL">Netherlands</option><option value="NC">New Caledonia</option><option value="NZ">New Zealand</option><option value="NI">Nicaragua</option><option value="NE">Niger</option><option value="NG">Nigeria</option><option value="NU">Niue</option><option value="NF">Norfolk Island</option><option value="MP">Northern Mariana Islands</option><option value="NO">Norway</option><option value="OM">Oman</option><option value="OT">Other</option><option value="PK">Pakistan</option><option value="PW">Palau</option><option value="PS">Palestinian Territory, Occupied</option><option value="PA">Panama</option><option value="PG">Papua New Guinea</option><option value="PY">Paraguay</option><option value="PE">Peru</option><option value="PH">Philippines</option><option value="PN">Pitcairn</option><option value="PL">Poland</option><option value="PT">Portugal</option><option value="PR">Puerto Rico</option><option value="QA">Qatar</option><option value="RE">Reunion</option><option value="RO">Romania</option><option value="RU">Russian Federation</option><option value="RW">Rwanda</option><option value="BL">Saint Barth&eacute;lemy</option><option value="SH">Saint Helena</option><option value="KN">Saint Kitts And Nevis</option><option value="LC">Saint Lucia</option><option value="PM">Saint Pierre And Miquelon</option><option value="VC">Saint Vincent And The Grenadines</option><option value="WS">Samoa</option><option value="SM">San Marino</option><option value="ST">Sao Tome And Principe</option><option value="SA">Saudi Arabia</option><option value="SN">Senegal</option><option value="RS">Serbia</option><option value="CS">Serbia And Montenegro</option><option value="SC">Seychelles</option><option value="SL">Sierra Leone</option><option value="SG">Singapore</option><option value="SX">Sint Maarten</option><option value="SK">Slovakia</option><option value="SI">Slovenia</option><option value="SB">Solomon Islands</option><option value="SO">Somalia</option><option value="ZA">South Africa</option><option value="GS">South Georgia And The South Sandwich Islands</option><option value="ES">Spain</option><option value="LK">Sri Lanka</option><option value="SD">Sudan</option><option value="SR">Suriname</option><option value="SJ">Svalbard And Jan Mayen</option><option value="SZ">Swaziland</option><option value="SE">Sweden</option><option value="CH">Switzerland</option><option value="SY">Syrian Arab Republic</option><option value="TW">Taiwan, Province Of China</option><option value="TJ">Tajikistan</option><option value="TZ">Tanzania, United Republic Of</option><option value="TH">Thailand</option><option value="TL">Timor-Leste</option><option value="TG">Togo</option><option value="TK">Tokelau</option><option value="TO">Tonga</option><option value="TT">Trinidad And Tobago</option><option value="TN">Tunisia</option><option value="TR">Turkey</option><option value="TM">Turkmenistan</option><option value="TC">Turks And Caicos Islands</option><option value="TV">Tuvalu</option><option value="UG">Uganda</option><option value="UA">Ukraine</option><option value="AE">United Arab Emirates</option><option value="GB">United Kingdom</option><option value="UM">United States Minor Outlying Islands</option><option value="UY">Uruguay</option><option value="UZ">Uzbekistan</option><option value="VU">Vanuatu</option><option value="VE">Venezuela</option><option value="VN">Viet Nam</option><option value="VG">Virgin Islands, British</option><option value="VI">Virgin Islands, U.S.</option><option value="WF">Wallis And Futuna</option><option value="EH">Western Sahara</option><option value="YE">Yemen</option><option value="ZM">Zambia</option><option value="ZW">Zimbabwe</option>
+                            </select>
+                        </div>
+                        <div class="span2 addressState">
+                            <label for="addressState">State:</label>
+                            <select id="addressState" name="address.state" class="span12 required">
+                                <option value="">-Select State-</option>
+                                <option value="HI">Hawaii</option><option value="AL">Alabama</option><option value="AK">Alaska</option><option value="AZ">Arizona</option><option value="AR">Arkansas</option><option value="CA">California</option><option value="CO">Colorado</option><option value="CT">Connecticut</option><option value="DE">Delaware</option><option value="DC">District of Columbia</option><option value="FL">Florida</option><option value="GA">Georgia</option><option value="ID">Idaho</option><option value="IL">Illinois</option><option value="IN">Indiana</option><option value="IA">Iowa</option><option value="KS">Kansas</option><option value="KY">Kentucky</option><option value="LA">Louisiana</option><option value="ME">Maine</option><option value="MD">Maryland</option><option value="MA">Massachusetts</option><option value="MI">Michigan</option><option value="MN">Minnesota</option><option value="MS">Mississippi</option><option value="MO">Missouri</option><option value="MT">Montana</option><option value="NE">Nebraska</option><option value="NV">Nevada</option><option value="NH">New Hampshire</option><option value="NJ">New Jersey</option><option value="NM">New Mexico</option><option value="NY">New York</option><option value="NC">North Carolina</option><option value="ND">North Dakota</option><option value="OH">Ohio</option><option value="OK">Oklahoma</option><option value="OR">Oregon</option><option value="PA">Pennsylvania</option><option value="PR">Puerto Rico</option><option value="RI">Rhode Island</option><option value="SC">South Carolina</option><option value="SD">South Dakota</option><option value="TN">Tennessee</option><option value="TX">Texas</option><option value="UT">Utah</option><option value="VT">Vermont</option><option value="VA">Virginia</option><option value="WA">Washington</option><option value="WV">West Virginia</option><option value="WI">Wisconsin</option><option value="WY">Wyoming</option>
+                            </select>
+                        </div>
+                        <div class="span5 addressProvince" style="display: none;">
+                            <label for="addressProvince">Province:</label>
+                            <input id="addressProvince" name="address.province" class="span12 required" type="text" value=""/>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row-fluid">
+                    <div class="span3">
+                        <label for="addressZipCode">Zip Code:</label>
+                        <input id="addressZipCode" name="address.zipCode" class="span8 required" type="text" value="" maxlength="50"/>
+                    </div>
+                    <div class="span2">
+                        <label for="phoneNumber">Phone:</label>
+                        <input id="phoneNumber" name="phoneNumber" class="span12 phoneNumber required" type="text" value="" maxlength="50"/>
+                        <span class="help-block phoneNumberHelpBlock" >Format: ###-###-####</span>
+                    </div>
+                    <div class="span5">
+                        <label for="email">Organization's Email:</label>
+                        <input id="email" name="email" class="span9 required" type="text" value=""/>
+                        <span class="help-block">Format: username@provider.ext</span>
+                    </div>
+                </div>
+
+                <div class="row-fluid">
+                    <div class="span4">
+                        <label for="stateOfIncorporation">State Incorporated:</label>
+                        <select id="stateOfIncorporation" name="stateOfIncorporation" class="span12">
+                            <option value="">-Select State-</option>
+                            <option value="HI">Hawaii</option><option value="AL">Alabama</option><option value="AK">Alaska</option><option value="AZ">Arizona</option><option value="AR">Arkansas</option><option value="CA">California</option><option value="CO">Colorado</option><option value="CT">Connecticut</option><option value="DE">Delaware</option><option value="DC">District of Columbia</option><option value="FL">Florida</option><option value="GA">Georgia</option><option value="ID">Idaho</option><option value="IL">Illinois</option><option value="IN">Indiana</option><option value="IA">Iowa</option><option value="KS">Kansas</option><option value="KY">Kentucky</option><option value="LA">Louisiana</option><option value="ME">Maine</option><option value="MD">Maryland</option><option value="MA">Massachusetts</option><option value="MI">Michigan</option><option value="MN">Minnesota</option><option value="MS">Mississippi</option><option value="MO">Missouri</option><option value="MT">Montana</option><option value="NE">Nebraska</option><option value="NV">Nevada</option><option value="NH">New Hampshire</option><option value="NJ">New Jersey</option><option value="NM">New Mexico</option><option value="NY">New York</option><option value="NC">North Carolina</option><option value="ND">North Dakota</option><option value="OH">Ohio</option><option value="OK">Oklahoma</option><option value="OR">Oregon</option><option value="PA">Pennsylvania</option><option value="PR">Puerto Rico</option><option value="RI">Rhode Island</option><option value="SC">South Carolina</option><option value="SD">South Dakota</option><option value="TN">Tennessee</option><option value="TX">Texas</option><option value="UT">Utah</option><option value="VT">Vermont</option><option value="VA">Virginia</option><option value="WA">Washington</option><option value="WV">West Virginia</option><option value="WI">Wisconsin</option><option value="WY">Wyoming</option>
+                        </select>
+                        <span class="help-block">If incorporated, please list the state of incorporation.</span>
+                    </div>
+                    <div class="span7">
+                        <label for="agoRegistered">Is this organization already registered with the Hawaii Attorney General's Office?</label>
+                        <div class="switch" data-on-label="Yes" data-off-label="No" setOffClass="danger"><input id="agoRegistered1" name="agoRegistered" type="checkbox" value="true"/><input type="hidden" name="_agoRegistered" value="on"/></div>
+                    </div>
+                </div>
+
+                <hr />
+
+                <p class="lead">Type of Exemption</p>
+
+                <div class="row-fluid">
+                    <div class="span12">
+                        <label class="radio">
+                            <input id="exemptionReason1" name="exemptionReason" class="hic-radio-toggler" data-target="#type1" type="radio" value="IRS"/>
+                            A duly organized religious corporation, institution or society that is exempt from filing
+                            Form 990 with the Internal Revenue Service (IRS) under IRC &sect;&sect; 6033(a)(3)(A)(i)
+                            and (iii) and 6033(a)(3)(C)(i).
+                        </label>
+                        <div id="type1" class="radios exemptionReason hide">
+                            <div class="indent_border">
+                                <p>
+                                    The applicant must submit substantiation that the applicant is a "church",
+                                    an integrated auxiliary of a church, or nondenominational ministries,
+                                    interdenominational and ecumenical organizations, and other entities whose principal
+                                    purpose is the study or advancement of religion. If the applicant is neither
+                                    a church nor integrated auxiliary, please submit a copy of your IRS determination
+                                    letter with this application. Please consult IRS Publication No. 1828 for guidance
+                                    on religious corporations and organizations exempt from taxation.
+                                </p>
+                                <p>You must attach the IRS Exemption Ruling Letter. (<span class="text-error">PDF only</span>)</p>
+                                
+                                
+                                <div id="addendum-1" >
+                                    <label>Upload: <input type="file" id="rulingLetter" name="uploadedFile" /></label>
+                                    <button type="button" class="btn btn-success uploadConfirm" data-target="rulingLetter" data-type="RL" data-refresh="type1"><i class="icon-ok"></i> Upload</button>
+                                </div>
+                                <p class="text-error"><strong>WARNING: All files that are uploaded will be available for the public to view in the Attorney General’s Hawaii Charities database.</strong></p>
+                            </div>
+                        </div>
+
+                        <label class="radio">
+                            <input id="exemptionReason2" name="exemptionReason" class="hic-radio-toggler" data-target="#type2" type="radio" value="PT"/>
+                            A parent-teacher association.
+                        </label>
+                        <div id="type2" class="radios exemptionReason hide">
+                          <div class="indent_border">
+                            <div class="row-fluid">
+                              <div class="span6">
+                                <p>You must attach articles of incorporation and bylaws.</p>
+                                
+                                
+                                <div id="addendum-2" >
+                                    <label>Upload (<span class="text-error">PDF only</span>): <input type="file" id="parentTeacher" name="uploadedFile" /></label>
+                                    <button type="button" class="btn btn-success uploadConfirm" data-target="parentTeacher" data-type="PT" data-refresh="type2"><i class="icon-ok"></i> Upload</button>
+                                </div>
+                              </div>
+                              <div class="span6">
+                                <p><span class="text-allcaps">Optional</span> Upload: <a data-transition="slide" data-target=".optional_upload_info" class="button-toggler" href="#">What's this for?</a></p>
+                                <div class="alert optional_upload_info hide" id="">
+                                  <span class="close"><a data-transition="slide" data-target=".optional_upload_info" class="button-toggler" href="#"><i aria-hidden="true" class="icon-remove"></i></a><span class="visually-hidden">Close</span></span>
+                                  <span class="text-semibold">Use if Articles of Incorporation and Bylaws require separate file uploads.</span>
+                                </div>
+                                
+                                
+                                <div id="addendum-3" >
+                                    <label>Upload (<span class="text-error">PDF only</span>): <input type="file" id="parentTeacherOptional" name="uploadedFile" /></label>
+                                    <button type="button" class="btn btn-success uploadConfirm" data-target="parentTeacherOptional" data-type="PTO" data-refresh="type2"><i class="icon-ok"></i> Upload</button>
+                                </div>
+                              </div>
+                                <p class="text-error"><strong>WARNING: All files that are uploaded will be available for the public to view in the Attorney General’s Hawaii Charities database.</strong></p>
+                            </div>
+                          </div>
+                        </div>
+
+                        <label class="radio">
+                            <input id="exemptionReason3" name="exemptionReason" class="hic-radio-toggler" data-target="#type3_a" type="radio" value="ALU"/>
+                            A supporting organization that meets the requirements of HRS § 467B-11.5(4) and that supports an educational institution.
+                        </label>
+                        <div id="type3_a" class="radios exemptionReason hide">
+                            <label for="alumniInstitution">Name of the accredited educational institution</label>
+                            <input id="alumniInstitution" name="alumniInstitution" type="text" value="" maxlength="75"/>
+                            <div class="indent_border">
+                                <p>
+                                    Any organization exempt from taxation under section 501(c)(3) of the Internal Revenue Code expressly authorized by, and having an established identity with, an educational institution that is licensed or accredited by any of the following organizations or their successor organizations, provided that the organization's solicitation of contributions is primarily directed to the students, alumni, faculty, and trustees of the educational institution and their respective families.
+                                </p>
+                                
+                                    
+                                        
+                                        
+                                            <label class="checkbox">
+                                                <input id="accreditors1" name="accreditors" type="checkbox" value="HCA"/><input type="hidden" name="_accreditors" value="on"/>&nbsp;Hawaii Council of Private Schools
+                                            </label>
+                                        
+                                    
+                                
+                                    
+                                        
+                                        
+                                            <label class="checkbox">
+                                                <input id="accreditors2" name="accreditors" type="checkbox" value="HAA"/><input type="hidden" name="_accreditors" value="on"/>&nbsp;Hawaii Association of Independent Schools
+                                            </label>
+                                        
+                                    
+                                
+                                    
+                                        
+                                        
+                                            <label class="checkbox">
+                                                <input id="accreditors3" name="accreditors" type="checkbox" value="WAA"/><input type="hidden" name="_accreditors" value="on"/>&nbsp;Western Association of Schools and Colleges
+                                            </label>
+                                        
+                                    
+                                
+                                    
+                                        
+                                        
+                                            <label class="checkbox">
+                                                <input id="accreditors4" name="accreditors" type="checkbox" value="MSA"/><input type="hidden" name="_accreditors" value="on"/>&nbsp;Middle States Association of Colleges and Schools
+                                            </label>
+                                        
+                                    
+                                
+                                    
+                                        
+                                        
+                                            <label class="checkbox">
+                                                <input id="accreditors5" name="accreditors" type="checkbox" value="NEA"/><input type="hidden" name="_accreditors" value="on"/>&nbsp;New England Association of Schools and Colleges
+                                            </label>
+                                        
+                                    
+                                
+                                    
+                                        
+                                        
+                                            <label class="checkbox">
+                                                <input id="accreditors6" name="accreditors" type="checkbox" value="NCA"/><input type="hidden" name="_accreditors" value="on"/>&nbsp;Higher Learning Commission
+                                            </label>
+                                        
+                                    
+                                
+                                    
+                                        
+                                        
+                                            <label class="checkbox">
+                                                <input id="accreditors7" name="accreditors" type="checkbox" value="NWCA"/><input type="hidden" name="_accreditors" value="on"/>&nbsp;Northwest Commission On Colleges and Universities
+                                            </label>
+                                        
+                                    
+                                
+                                    
+                                        
+                                        
+                                            <label class="checkbox">
+                                                <input id="accreditors8" name="accreditors" type="checkbox" value="SAA"/><input type="hidden" name="_accreditors" value="on"/>&nbsp;Southern Association of Schools and Colleges
+                                            </label>
+                                        
+                                    
+                                
+                                    
+                                        
+                                        
+                                            <label class="checkbox">
+                                                <input id="accreditors9" name="accreditors" type="checkbox" value="NAA"/><input type="hidden" name="_accreditors" value="on"/>&nbsp;The National Association for the Education of Young Children
+                                            </label>
+                                        
+                                    
+                                
+                                    
+                                        
+                                        
+                                            <label class="checkbox">
+                                                <input id="accreditors10" name="accreditors" type="checkbox" value="NACPSS"/><input type="hidden" name="_accreditors" value="on"/>&nbsp;AdvancED
+                                            </label>
+                                        
+                                    
+                                
+                                <p class="extra-top-margin no-bottom-margin">Is the organization’s solicitation of contributions primarily directed to the students, alumni, faculty, and trustees of the institutions and their respective families?</p>
+                                <label class="radio inline">
+                                    <input id="organizationQualifyTrue" name="organizationQualify" class="fundraisers-toggler hic-radio-toggler" type="radio" value="true"/>
+                                    Yes
+                                </label>
+                                <label class="radio inline">
+                                    <input id="organizationQualifyFalse" name="organizationQualify" class="fundraisers-toggler hic-radio-toggler" type="radio" value="false"/>
+                                    No
+                                </label>
+                            </div>
+                        </div>
+
+                        <label class="radio">
+                            <input id="exemptionReason4" name="exemptionReason" class="hic-radio-toggler" data-target="#type3" type="radio" value="EDU"/>
+                            An Educational institution that is licensed or accredited by any of the following organizations or their successor organizations.
+                        </label>
+                        <div id="type3" class="radios exemptionReason hide">
+                            <div class="indent_border">
+                                
+                                    
+                                        
+                                        
+                                            <label class="checkbox">
+                                                <input id="accreditors11" name="accreditors" type="checkbox" value="HCA"/><input type="hidden" name="_accreditors" value="on"/>&nbsp;Hawaii Council of Private Schools
+                                            </label>
+                                        
+                                    
+                                
+                                    
+                                        
+                                        
+                                            <label class="checkbox">
+                                                <input id="accreditors12" name="accreditors" type="checkbox" value="HAA"/><input type="hidden" name="_accreditors" value="on"/>&nbsp;Hawaii Association of Independent Schools
+                                            </label>
+                                        
+                                    
+                                
+                                    
+                                        
+                                        
+                                            <label class="checkbox">
+                                                <input id="accreditors13" name="accreditors" type="checkbox" value="WAA"/><input type="hidden" name="_accreditors" value="on"/>&nbsp;Western Association of Schools and Colleges
+                                            </label>
+                                        
+                                    
+                                
+                                    
+                                        
+                                        
+                                            <label class="checkbox">
+                                                <input id="accreditors14" name="accreditors" type="checkbox" value="MSA"/><input type="hidden" name="_accreditors" value="on"/>&nbsp;Middle States Association of Colleges and Schools
+                                            </label>
+                                        
+                                    
+                                
+                                    
+                                        
+                                        
+                                            <label class="checkbox">
+                                                <input id="accreditors15" name="accreditors" type="checkbox" value="NEA"/><input type="hidden" name="_accreditors" value="on"/>&nbsp;New England Association of Schools and Colleges
+                                            </label>
+                                        
+                                    
+                                
+                                    
+                                        
+                                        
+                                            <label class="checkbox">
+                                                <input id="accreditors16" name="accreditors" type="checkbox" value="NCA"/><input type="hidden" name="_accreditors" value="on"/>&nbsp;Higher Learning Commission
+                                            </label>
+                                        
+                                    
+                                
+                                    
+                                        
+                                        
+                                            <label class="checkbox">
+                                                <input id="accreditors17" name="accreditors" type="checkbox" value="NWCA"/><input type="hidden" name="_accreditors" value="on"/>&nbsp;Northwest Commission On Colleges and Universities
+                                            </label>
+                                        
+                                    
+                                
+                                    
+                                        
+                                        
+                                            <label class="checkbox">
+                                                <input id="accreditors18" name="accreditors" type="checkbox" value="SAA"/><input type="hidden" name="_accreditors" value="on"/>&nbsp;Southern Association of Schools and Colleges
+                                            </label>
+                                        
+                                    
+                                
+                                    
+                                        
+                                        
+                                            <label class="checkbox">
+                                                <input id="accreditors19" name="accreditors" type="checkbox" value="NAA"/><input type="hidden" name="_accreditors" value="on"/>&nbsp;The National Association for the Education of Young Children
+                                            </label>
+                                        
+                                    
+                                
+                                    
+                                        
+                                        
+                                            <label class="checkbox">
+                                                <input id="accreditors20" name="accreditors" type="checkbox" value="NACPSS"/><input type="hidden" name="_accreditors" value="on"/>&nbsp;AdvancED
+                                            </label>
+                                        
+                                    
+                                
+                            </div>
+                        </div>
+
+                        <label class="radio">
+                            <input id="exemptionReason5" name="exemptionReason" data-target="#type5" class="hic-radio-toggler" type="radio" value="HSP"/>
+                            A nonprofit hospital licensed by the State or any similar provision of laws of any other state.
+                        </label>
+                        <div id="type5" class="radios exemptionReason hide">
+                            <div class="indent_border">
+                                
+                                    <p>You are required to provide your license number and the state of issuance if claiming this exemption.</p>
+                                    <label for="hospitalLicense.licenseNumber">License Number</label>
+                                    <input id="hospitalLicense.licenseNumber" name="hospitalLicense.licenseNumber" type="text" value=""/>
+                                    <label for="hospitalLicense.stateOfIssuance">State of Issuance</label>
+                                    <select id="hospitalLicense.stateOfIssuance" name="hospitalLicense.stateOfIssuance" class="required">
+                                        <option value="">-Select State-</option>
+                                        <option value="HI">Hawaii</option><option value="AL">Alabama</option><option value="AK">Alaska</option><option value="AZ">Arizona</option><option value="AR">Arkansas</option><option value="CA">California</option><option value="CO">Colorado</option><option value="CT">Connecticut</option><option value="DE">Delaware</option><option value="DC">District of Columbia</option><option value="FL">Florida</option><option value="GA">Georgia</option><option value="ID">Idaho</option><option value="IL">Illinois</option><option value="IN">Indiana</option><option value="IA">Iowa</option><option value="KS">Kansas</option><option value="KY">Kentucky</option><option value="LA">Louisiana</option><option value="ME">Maine</option><option value="MD">Maryland</option><option value="MA">Massachusetts</option><option value="MI">Michigan</option><option value="MN">Minnesota</option><option value="MS">Mississippi</option><option value="MO">Missouri</option><option value="MT">Montana</option><option value="NE">Nebraska</option><option value="NV">Nevada</option><option value="NH">New Hampshire</option><option value="NJ">New Jersey</option><option value="NM">New Mexico</option><option value="NY">New York</option><option value="NC">North Carolina</option><option value="ND">North Dakota</option><option value="OH">Ohio</option><option value="OK">Oklahoma</option><option value="OR">Oregon</option><option value="PA">Pennsylvania</option><option value="PR">Puerto Rico</option><option value="RI">Rhode Island</option><option value="SC">South Carolina</option><option value="SD">South Dakota</option><option value="TN">Tennessee</option><option value="TX">Texas</option><option value="UT">Utah</option><option value="VT">Vermont</option><option value="VA">Virginia</option><option value="WA">Washington</option><option value="WV">West Virginia</option><option value="WI">Wisconsin</option><option value="WY">Wyoming</option>
+                                    </select>
+                                
+                            </div>
+                        </div>
+
+                        <label class="radio">
+                            <input id="exemptionReason6" name="exemptionReason" data-target="#type6" class="hic-radio-toggler" type="radio" value="CGR"/>
+                            A corporation established by act of Congress that is required by federal law to submit
+                            to Congress annual reports, fully audited by the United States Department of Defense,
+                            of its activities.
+                        </label>
+
+                        <label class="radio">
+                            <input id="exemptionReason7" name="exemptionReason" data-target="#type7" class="hic-radio-toggler" type="radio" value="HA"/>
+                            An agency of Hawaii, another state, or the federal government.
+                        </label>
+
+                        <label class="radio">
+                            <input id="exemptionReason8" name="exemptionReason" data-target="#type8" class="hic-radio-toggler" type="radio" value="CTR"/>
+                            A charitable organization that normally receives less than $25,000 in contributions annually,
+                            if the organization does not compensate any professional solicitor or professional fundraising counsel.
+                            For purpose of this exemption, an organization normally receives less than $25,000 in contributions
+                            annually if, during the immediate preceding three fiscal years, the organization received,
+                            on average, less than $25,000 in contributions.
+                        </label>
+                        <div id="type8" class="radios exemptionReason hide">
+                            <div class="indent_border">
+                                <p>
+                                    You must provide evidence that your organization normally receives less than $25,000 annually
+                                    in contributions such as the Forms 990, or 990EZ or other documentation that states
+                                    the amount of contributions your organization received for each of the immediate preceding 3 years.
+                                </p>
+                                <p>Upload proof of annual contributions. <span class="text-error">Accepted formats: doc/docx, xls/xlsx, PDF</span></p>
+                                
+                                
+                                <div id="addendum-8" >
+                                    <label>Upload: <input type="file" id="proofOfContributions" name="uploadedFile" /></label>
+                                    <button type="button" class="btn btn-success uploadConfirm" data-target="proofOfContributions" data-type="PAC" data-refresh="type8"><i class="icon-ok"></i> Upload</button>
+                                </div>
+                                <p class="text-error"><strong>WARNING: All files that are uploaded will be available for the public to view in the Attorney General’s Hawaii Charities database.</strong></p>
+                                <p class="extra-top-margin no-bottom-margin">Does your organization compensate any professional solicitor or professional fundraising counsel?</p>
+                                <label class="radio inline">
+                                    <input id="fundraiserCompensated1" name="fundraiserCompensated" data-target="#type9" class="fundraisers-toggler hic-radio-toggler" type="radio" value="true"/>
+                                    Yes
+                                </label>
+                                <label class="radio inline">
+                                    <input id="fundraiserCompensated2" name="fundraiserCompensated" data-target="#type8" class="fundraisers-toggler hic-radio-toggler" type="radio" value="false"/>
+                                    No
+                                </label>
+                                <div id="type9" class="extra-top-margin radios fundraiserCompensated hide">
+                                    <label for="fundraisers">Professional Fundraising Counsel and/or Solicitor Name(s):</label>
+                                    <input id="fundraisers" name="fundraisers" class="span12" type="text" value=""/>
+                                    <span class="help-block">Separate names by a comma.</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <hr />
+
+                <p class="lead">Signatory Information</p>
+
+                <p>
+                    <label class="text-error">
+                        <input id="certified" name="certified" class="certify_checkbox" type="checkbox" value="true"/><input type="hidden" name="_certified" value="on"/>
+                        I hereby certify under penalty provided by section 710-1063, Hawaii Revised Statutes
+                        (unsworn falsification to government authority) that I am authorized to submit this application
+                        for exemption on behalf of this organization to the Department of the Attorney General,
+                        State of Hawaii and the statements set forth herein are true and correct.
+                    </label>
+                </p>
+
+                <div class="row-fluid">
+                    
+                        <div class="span3">
+                            <label for="submitter.name">Name: </label>
+                            <input id="submitter.name" name="submitter.name" class="span12 required" type="text" value=""/>
+                            <span class="help-block">First &amp; Last Name</span>
+                        </div>
+                        <div class="span3">
+                            <label for="submitter.title">Title: </label>
+                            <input id="submitter.title" name="submitter.title" class="span12 required" type="text" value=""/>
+                        </div>
+                        <div class="span2">
+                            <label for="submitter.phoneNumber">Phone: </label>
+                            <input id="submitter.phoneNumber" name="submitter.phoneNumber" class="span12 phoneNumber required" type="text" value="" maxlength="50"/>
+                            <span class="help-block phoneNumberHelpBlock">Format: ###-###-####</span>
+                        </div>
+                        <div class="span4">
+                            <label for="submitter.email">Email of Signer:</label>
+                            <input id="submitter.email" name="submitter.email" class="span9 required" type="text" value=""/>
+                            <span class="help-block">Format: username@provider.ext</span>
+                        </div>
+                    
+                </div>
+
+                <div class="row-fluid">
+                    <div class="span3">
+                        <label for="dateSubmitted">Date &amp; Time:</label>
+                        <input id="dateSubmitted" name="dateSubmitted" class="span12" disabled="disabled" type="text" value="08/18/2026 00:37"/>
+                    </div>
+                </div>
+
+                <hr class="hidden-phone" />
+
+                <div class="row-fluid">
+                    <div class="span3">
+                        <button type="submit" id="submit_button" class="btn btn-large btn-block btn-info submit_button"><i class="icon-ok"></i> Submit</button>
+                    </div>
+                    <div class="span3">
+                        <button class="btn btn-large btn-block btn-danger" type="button" data-toggle="modal" data-target=".cancelConfirm"><i class="icon-ban-circle"></i> Cancel</button>
+                    </div>
+                </div>
+
+                <!-- SUBMIT CONFIRM modal -->
+                <div id="submitConfirm" class="modal hide fade submitConfirm" tabindex="-1" role="dialog" aria-labelledby="submitConfirm-label" aria-hidden="true">
+                    <div class="modal-header">
+                        <h3 id="submitConfirm-label">Submission Confirmation</h3>
+                    </div>
+                    <div class="modal-body">
+                        <p class="lead"><span class="text-success"><i class="icon-thumbs-up" aria-hidden="true"></i> You have successfully submitted the Application for Recognition of Exemption from the Registration under Hawaii's Charitable Solicitation Law.</span></p>
+                        <p class="text-semibold">The Hawaii Office of the Attorney General Tax &amp; Charities Division will review your application and you will receive an email notification when their review is complete.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <div class="row-fluid">
+                            <div class="span4 offset4">
+                                <button type="button" class="btn btn-large btn-block btn-success submitAppConfirmed" data-dismiss="modal"><i class="icon-ok"></i> Continue</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- CANCEL CONFIRM modal -->
+                <div id="cancelConfirm" class="modal hide fade cancelConfirm" tabindex="-1" role="dialog" aria-labelledby="cancelConfirm-label" aria-hidden="true">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">&times;</button>
+                        <h2 id="cancelConfirm-label">Cancel Confirmation</h2>
+                    </div>
+                    <div class="modal-body">
+                        <p class="lead"><span class="text-error">Do you really want to cancel this application?</span></p>
+
+                    </div>
+                    <div class="modal-footer">
+                        <div class="row-fluid">
+                            <div class="span6">
+                                <button type="submit" name="cancel" class="btn btn-large btn-block btn-default cancelAppConfirmed"><i class="icon-ok"></i> Yes, cancel it.</button>
+                            </div>
+                            <div class="span6">
+                                <button type="button" class="btn btn-large btn-block btn-default" data-dismiss="modal"><i class="icon-remove"></i> No, keep it.</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="organizationNotQualifyInfo" class="modal hide fade organizationNotQualifyInfo" tabindex="-1" role="dialog"
+                     aria-labelledby="organizationNotQualifyInfo-label" aria-hidden="true">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">&#215;</button>
+                    </div>
+                    <div class="modal-body">
+                        <p class="lead"><span class="text-error"><i class="icon-thumbs-down" aria-hidden="true">&nbsp;</i>Based on your answer, your organization does not qualify for this exemption category.</span>
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                        <div class="row-fluid">
+                            <div class="span4 offset4">
+                                <button type="button" class="btn btn-large btn-block"
+                                        data-dismiss="modal"><i class="icon-ok"></i> OK
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            <div>
+<input type="hidden" name="_csrf" value="8665aee0-04b4-4bb2-8f48-007edcd1dd3b" />
+</div></form>
+
+        </section>
+
+        
+    
+    </main>
+
+    <footer role="contentinfo" class="white-bg padding">
+
+        <div class="row-fluid">
+
+            <section class="span8">
+                <p class="lead">Tax &amp; Charities Division, Department of the Attorney General</p>
+                <address>
+                    <small>425 Queen Street • Honolulu, HI 96813<br>
+                        Phone: (808) 586-1480 </small>
+                </address>
+                <ul class="clearfix horizontal unstyled space-right bottom-margin">
+                    <li><a href="https://portal.ehawaii.gov/page/about-us/" title="Link" target="_blank" rel="noopener noreferrer">Contact</a></li>
+                    <li><a href="https://portal.ehawaii.gov/page/feedback/?applicationId=101" title="Link" target="_blank" rel="noopener noreferrer">Feedback</a></li>
+                    <li><a href="https://portal.ehawaii.gov/page/help/subscriber-account/" title="Link" target="_blank" rel="noopener noreferrer">Subscriber Services</a></li>
+                    <li class="last"><a href="https://portal.ehawaii.gov/page/terms-of-use/" title="Link" target="_blank" rel="noopener noreferrer">Terms of Use</a></li>
+                    
+                    
+                        <a href="/charity/login.html">Admin Login</a>
+                    
+
+                </ul>
+            </section>
+
+            <section class="span4 text-right">
+                <p class="lead">Copyright &copy; <span id="copyright_year_start">2014</span><span class="copyright_year_current"></span>
+                <small>State of Hawaii. All rights reserved.<br>
+                    An Equal Opportunity Employer.</small>
+                <div>
+                    <span class="gray">Powered by </span> <a href=" https://www.tylertech.com" target="_blank" rel="noopener noreferrer">Tyler Technologies</a>
+                </div>
+            </section>
+
+        </div>
+
+
+    </footer>
+
+</div> <!-- /container -->
+
+<div class="modal hide fade signin-modal" id="signin-modal">
+    <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h3>Login</h3>
+    </div>
+    <div class="modal-body">
+        <div class="row-fluid">
+            <div class="span12">
+                <input type="text" name="username" id="username" class="span12 logins" placeholder="Username">
+            </div>
+        </div>
+        <div class="row-fluid">
+            <div class="span12">
+                <input type="password" name="password" id="password" class="span12 logins" placeholder="Password">
+            </div>
+        </div>
+        <div class="row-fluid">
+            <div class="span12">
+                <a href="#" class="small">Forgot Password?</a>
+            </div>
+        </div>
+
+        <div class="row-fluid">
+            <div class="span12">
+                <a class="pull-left btn btn-info btn-large" href="solicitor/"><i class="icon-lock icon-white"></i> Sign In</a>
+                <button class="pull-right btn btn-large"><i class="icon-edit"></i> Register</button>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+
+
+            <script src="/charity/static/js/jquery.validate-form.min.js"></script>
+            <script src="/charity/static/js/jquery.validate-form-plugin.js"></script>
+            <script src="/charity/static/js/bootstrap-switch.js"></script>
+            <script src="/charity/static/js/jquery.radio-toggler.js"></script>
+            <script src="/charity/static/js/jquery.maskedinput.min.js"></script>
+
+            <script type="text/javascript">
+                $(function(){
+                    $('.validate-form').validateForm({
+                        ignore: 'button, :hidden'
+                    });
+                });
+            </script>
+
+            <script type="text/javascript">
+
+                setActivityOfSubmitButton();
+                $('.certify_checkbox').on('change', function () {
+                    setActivityOfSubmitButton();
+                });
+
+                function setActivityOfSubmitButton() {
+                    if ($('.certify_checkbox').is(':checked')) {
+                        $('.submit_button').prop('disabled', false);
+                    }
+                    else {
+                        $('.submit_button').prop('disabled', true);
+                    }
+                }
+            </script>
+
+            <script type="text/javascript">
+            $(function() {
+                $('.fein').mask('99-9999999', { placeholder: "__-_______" });
+
+                function updateListSource(source, list) {
+                    $(source).val('');
+                    if ($('li', list).length >= 3) {
+                        $(source).prop("disabled", true);
+                    }
+                }
+
+                updateListSource('#nteeCodes', '#nteeList');
+
+                $('#nteeCodes').change(
+                    function () {
+                        var element = $(this).val();
+                        if ((element !== "") && (0 == $('li[data-code="' + element + '"]', '#nteeList').length)) {
+                            $('#nteeList').append('<li data-code="' + element + '">' + $("option:selected", this).text() + ' <a href="#" class="text-error remove-element" data-origin="#nteeCodes"><i class="icon-remove" aria-hidden="true"></i><span class="visually-hidden">Remove</span></a><input type="hidden" name="nteeCodes" value="' + element + '" /></li>');
+                        }
+                        updateListSource('#nteeCodes', '#nteeList');
+                    });
+
+                $("#add-alias").click(function () {
+                    var element = $("#aliasName").val();
+                    if ((element !== "") && (0 == $('input[name="nameAliases"]').filter(function() { return $(this).val() == element; }).length)) {
+                        $("#aliasList").append('<li>' + xssEscape(element) + ' <a href="#" class="text-error remove-element" data-origin="#aliasName"><i class="icon-remove" aria-hidden="true"></i><span class="visually-hidden">Remove</span></a><input type="hidden" name="nameAliases" value="' + element + '" /></li>');
+                        $("#aliasName").val('');
+                    }
+                    if ($('#aliasList li').length >= 3) {
+                        $("#aliasName").prop("disabled", true);
+                    }
+                }).click();
+
+                $("#add-subordinate").click(function () {
+                    var element = $("#subordinate").val();
+                    if ((element !== "") && (0 == $('input[name="subordinates"]').filter(function() { return $(this).val() == element; }).length)) {
+                        $("#subordinates").append('<li>' + xssEscape(element) + ' <a href="#" class="text-error remove-element" data-origin="#subordinate"><i class="icon-remove" aria-hidden="true"></i><span class="visually-hidden">Remove</span></a><input type="hidden" name="subordinates" value="' + element + '" /></li>');
+                        $("#subordinate").val('');
+                    }
+                }).click();
+
+                $(document).on('click', '.remove-element',
+                    function(e) {
+                        e.preventDefault();
+                        var parent = $(this).parents("ul");
+                        var originator = $(this).data("origin");
+                        $(this).parent('li').remove();
+                        if ($('li', parent).length < 3) {
+                            $(originator).prop("disabled", false);
+                        }
+                    });
+                $(document).on('click', '.remove-addendum',
+                    function(e) {
+                        e.preventDefault();
+                        var container = $(this).parent("div");
+                        var target = $(this).data("target");
+                        var addendum = $(this).data("addendum");
+                        var attachmentId = $(this).data("id");
+                        $.post('/charity/apply.json', { 'removeAddendum': addendum, 'attachmentId' : attachmentId },
+                                function() {
+                                    $(container).hide();
+                                    $(target).show();
+                                });
+                    });
+                $('.comment-toggler').click(
+                    function() {
+                        var target = $(this).data("target");
+                        if ($(this).is(':checked')) {
+                            $(target).show();
+                        } else {
+                            $(target).hide();
+                        }
+                    });
+                $('input:checked').each(
+                    function(i, element) {
+                        var target = $(element).data("target");
+                        if (target) {
+                            $(target).show();
+                        }
+                    });
+                $('.fundraisers-toggler').change(function(e) {
+                    e.preventDefault();
+                    if ($(this).is(':checked')) {
+                        $("#fundraisers").addClass('required');
+                    } else {
+                        $("#fundraisers").removeClass('required');
+                    }
+                });
+
+                $("input[name='exemptionReason'][value='ALU']").click(function(e) {
+                    $("input[name='accreditors']").prop('checked', false);
+                    $("#ALUo501C3").hide();
+                });
+
+                $("input[name='exemptionReason'][value='EDU']").click(function(e) {
+                    $("input[name='accreditors']").prop('checked', false);
+                    $("#EDUo501C3").hide();
+                });
+
+                $('.submitAppConfirmed').click(function(e) { e.preventDefault(); window.location = 'welcome.html'; });
+                
+
+                $(document).on('click', '.uploadConfirm', function(e) {
+                    e.preventDefault();
+                    var _target = $(this).data("target");
+                    var _type = $(this).data("type");
+                    var _refresh = $(this).data("refresh");
+                    var _form = $('<form/>', {action : 'apply.json', method : 'POST', enctype :"multipart/form-data"})
+                        .append($('<input/>', {type : 'hidden', name : '_csrf', value : '8665aee0-04b4-4bb2-8f48-007edcd1dd3b'}))
+                        .append($('<input/>', {type : 'hidden', name : 'uploadAttachment', value : 'true'}))
+                        .append($('<input/>', {type : 'hidden', name : 'addendumType', value : _type}))
+                        .append($("input[type='file'][id='"+_target+"']"))
+                        .append($("input[type='radio'][name='exemptionReason']").clone())
+                        .append($('<input/>', {type : 'submit', value : ""}))
+                        .ajaxSubmit({
+                            success: function (data) {
+//                                if(data.status ==='SUCCESS' || $('html').is('.lt-ie10')) {
+                                    $("#"+_refresh).load(window.location.href + " #"+_refresh+" .indent_border");
+//                                }
+                                if(data.status ==='FAILURE'){
+                                    alert(data.message);
+                                }
+                            },
+                            error: function(data){
+                                alert(data);
+                            }
+                        });
+                });
+
+                $('#organizationQualifyFalse').change(function() {
+                    $("#organizationNotQualifyInfo").modal('show')
+                });
+
+
+            });
+            function initialize() {
+                $(".addressCountry").on('change',
+                    function(event) {
+                        var value = $(this).val();
+                        if (value == "US") {
+                            $(".addressProvince").hide();
+                            $("#addressProvince").val('');
+                            $(".addressState").show();
+                            $('label[for=addressZipCode]').text('ZIP Code');
+                            $('.phoneNumber').mask('999-999-9999', { placeholder: "___-___-____" });
+                            $('.phoneNumberHelpBlock').show();
+
+                        }
+                        if (value !== "US") {
+                            $(".addressState").hide();
+                            $("#addressState").val('');
+                            $(".addressProvince").show();
+                            $('label[for=addressZipCode]').text('Postal Code');
+                            $('.phoneNumber').unmask();
+                            $('.phoneNumberHelpBlock').hide();
+                        }
+                }).triggerHandler('change');
+
+
+                $(".addressCountry").on('change',
+                    function(event) {
+                        var value = $(this).val();
+                        if (value == "US") {
+                            $('.phoneNumber').val('');
+                        }
+                });
+            }
+            $(document).ready(initialize);
+            </script>
+        
+<script type="text/javascript">
+    /* <![CDATA[ */
+    var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+    document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    /* ]]> */
+</script>
+<script type="text/javascript">
+    /* <![CDATA[ */
+    try {
+        var pageTracker = _gat._getTracker("UA-939376-1");
+        pageTracker._trackPageview();
+    } catch(err) {}
+    /* ]]> */
+</script>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        copyrightYear();
+    });
+</script>
+</body>
+</html>
