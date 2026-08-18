@@ -1888,6 +1888,14 @@
       "basis": "HI escalation read 2026-08-18 (docs/regime_reread/HI_20260818.md; HI_VERIFY_20260818.sql) — AG Tax & Charities FAQs",
       "skip": "image-only scanned PDF, no text layer (ExtractionEmpty); quotes in the read doc are transcriptions; load-bearing values corroborated in text-bearing artifacts (Registration Guide JL87-5C3P, 2021 Guide CXT6-4Y74, portal pages) and the statute captures",
       "source_url": "https://ag.hawaii.gov/tax/files/2020/09/T-C-FAQs.pdf"
+    },
+    "9QU4-QSMU": {
+      "basis": "DC exemption-procedure correction 2026-08-18: D.C. Code §44-1703(a)-(b) — registration duty + the statute-layer religious exemption (self-executing wording) that 16 DCMR 1303.1 conditions on a proof-of-exemption filing",
+      "source_url": "https://code.dccouncil.gov/us/dc/council/code/sections/44-1703",
+      "strings": [
+        "No person shall solicit in the District of Columbia unless he holds a valid certificate of registration",
+        "shall not apply to any person making solicitations, including solicitations for educational purposes, solely for a church or a religious corporation"
+      ]
     }
   },
   "by_sha256": {
