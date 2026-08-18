@@ -180,6 +180,18 @@
     "tls_chain_unverified": false
   },
   {
+    "source_url": "https://efile.form990.org/frmNPParticipatingStateSCOHI.asp",
+    "primary": false,
+    "local_path": "HI/efile.form990.org-frmNPParticipatingStateSCOHI.asp-a4377c48.html",
+    "content_type": "text/html",
+    "content_sha256": "8aea6ebef4c35358eb9e775efbe06a9836d62d638b2b15aa90aac1eac3426c0e",
+    "perma_url": "https://perma.cc/YMX8-5FAL",
+    "wayback_url": "https://web.archive.org/web/20260818104907/https://efile.form990.org/frmNPParticipatingStateSCOHI.asp",
+    "captured_at": "2026-08-18T10:48:58.273854+00:00",
+    "signed": false,
+    "tls_chain_unverified": false
+  },
+  {
     "source_url": "https://hbe.ehawaii.gov/annuals/",
     "primary": false,
     "local_path": "HI/hbe.ehawaii.gov-annuals-524104d0.html",
@@ -535,7 +547,7 @@
     "content_sha256": "b5e648d1a08762769750ff71c0ebd206490e12b7dfbbcec9394ee6f73fb55748",
     "perma_url": null,
     "wayback_url": null,
-    "captured_at": "2026-08-18T10:35:20.636397+00:00",
+    "captured_at": "2026-08-18T10:48:58.273854+00:00",
     "signed": false,
     "tls_chain_unverified": false,
     "ingested_from_file": true,
