@@ -1790,7 +1790,8 @@
       "strings": [
         "Foreign Nonprofit Corporation Annual Report",
         "certificate of authority may be revoked"
-      ]
+      ],
+      "skip": "PDF — the Perma/WARC stores the PDF text FlateDecode-compressed, so verify_perma's utf-8 WARC grep cannot read it (binary-blind). The load-bearing strings above are pdftotext byte-verified against the sha-pinned LOCAL archive (extract_text + contains_all, run 2026-08-18 before authoring; verify-strings lane covers them on every apply). Documented-skip tier for PDFs pending PDF-gate-v2 WARC-side extraction. 2026-08-18, HI verify."
     },
     "9TZS-294A": {
       "basis": "HI escalation read 2026-08-18 (docs/regime_reread/HI_20260818.md; HI_VERIFY_20260818.sql) — AG Tax & Charities Division main page (charitable regulator identity)",
@@ -1804,7 +1805,8 @@
       "source_url": "https://ag.hawaii.gov/tax/files/2021/10/Hawaii-Charity-Annual-Report-Guide-October-2021.pdf",
       "strings": [
         "within 10 business days of when the organization files its IRS Form 990/990-EZ/990-PF"
-      ]
+      ],
+      "skip": "PDF — the Perma/WARC stores the PDF text FlateDecode-compressed, so verify_perma's utf-8 WARC grep cannot read it (binary-blind). The load-bearing strings above are pdftotext byte-verified against the sha-pinned LOCAL archive (extract_text + contains_all, run 2026-08-18 before authoring; verify-strings lane covers them on every apply). Documented-skip tier for PDFs pending PDF-gate-v2 WARC-side extraction. 2026-08-18, HI verify."
     },
     "D8YS-6AYH": {
       "basis": "HI escalation read 2026-08-18 (docs/regime_reread/HI_20260818.md; HI_VERIFY_20260818.sql) — DCCA DNP-INFO: quarter-end schedule verbatim + domestic nonprofit annual report fee + delinquency",
@@ -1813,7 +1815,8 @@
         "an annual report shall be filed on or before September 30 of each year",
         "Domestic Nonprofit Corporation Annual Report: $5.00",
         "dissolved involuntarily by the"
-      ]
+      ],
+      "skip": "PDF — the Perma/WARC stores the PDF text FlateDecode-compressed, so verify_perma's utf-8 WARC grep cannot read it (binary-blind). The load-bearing strings above are pdftotext byte-verified against the sha-pinned LOCAL archive (extract_text + contains_all, run 2026-08-18 before authoring; verify-strings lane covers them on every apply). Documented-skip tier for PDFs pending PDF-gate-v2 WARC-side extraction. 2026-08-18, HI verify."
     },
     "G9PS-AJ29": {
       "basis": "HI escalation read 2026-08-18 (docs/regime_reread/HI_20260818.md; HI_VERIFY_20260818.sql) — portal help: the $20/day cap $1,000 late fee",
@@ -1835,14 +1838,16 @@
       "strings": [
         "Organizations complete a Registration only once",
         "There is no fee to submit a Registration"
-      ]
+      ],
+      "skip": "PDF — the Perma/WARC stores the PDF text FlateDecode-compressed, so verify_perma's utf-8 WARC grep cannot read it (binary-blind). The load-bearing strings above are pdftotext byte-verified against the sha-pinned LOCAL archive (extract_text + contains_all, run 2026-08-18 before authoring; verify-strings lane covers them on every apply). Documented-skip tier for PDFs pending PDF-gate-v2 WARC-side extraction. 2026-08-18, HI verify."
     },
     "NU82-YJ6T": {
       "basis": "HI escalation read 2026-08-18 (docs/regime_reread/HI_20260818.md; HI_VERIFY_20260818.sql) — AG amnesty news release (suspension as administered delinquency consequence)",
       "source_url": "https://charity.ehawaii.gov/charity/static/Hawaii%20-%20Amnesty%20Period%20for%20Charitable%20Organizations.pdf",
       "strings": [
         "Amnesty Period"
-      ]
+      ],
+      "skip": "PDF — the Perma/WARC stores the PDF text FlateDecode-compressed, so verify_perma's utf-8 WARC grep cannot read it (binary-blind). The load-bearing strings above are pdftotext byte-verified against the sha-pinned LOCAL archive (extract_text + contains_all, run 2026-08-18 before authoring; verify-strings lane covers them on every apply). Documented-skip tier for PDFs pending PDF-gate-v2 WARC-side extraction. 2026-08-18, HI verify."
     },
     "QFM3-S4AM": {
       "basis": "HI escalation read 2026-08-18 (docs/regime_reread/HI_20260818.md; HI_VERIFY_20260818.sql) — AG File page: registration/annual report/exemption filed via the state portal",
@@ -1864,7 +1869,8 @@
       "strings": [
         "due no later than the 15th day of the",
         "5th month after the end of its fiscal year"
-      ]
+      ],
+      "skip": "PDF — the Perma/WARC stores the PDF text FlateDecode-compressed, so verify_perma's utf-8 WARC grep cannot read it (binary-blind). The load-bearing strings above are pdftotext byte-verified against the sha-pinned LOCAL archive (extract_text + contains_all, run 2026-08-18 before authoring; verify-strings lane covers them on every apply). Documented-skip tier for PDFs pending PDF-gate-v2 WARC-side extraction. 2026-08-18, HI verify."
     },
     "U2PS-EFKS": {
       "basis": "HI escalation read 2026-08-18 (docs/regime_reread/HI_20260818.md; HI_VERIFY_20260818.sql) — Annual Reporting Requirements sheet",
