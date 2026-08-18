@@ -1896,6 +1896,15 @@
         "No person shall solicit in the District of Columbia unless he holds a valid certificate of registration",
         "shall not apply to any person making solicitations, including solicitations for educational purposes, solely for a church or a religious corporation"
       ]
+    },
+    "XE7U-A27U": {
+      "basis": "CT corporate-axis capture (CGS ch. 602, Nonstock Corporations) from the 2026-08-01 corporate breadth arc; covered 2026-08-18 when the CT exemption-procedure apply surfaced it as a pre-sidecar-convention entry. Corroborating corporate-lane artifact; the charitable corrections do not rest on it.",
+      "source_url": "https://www.cga.ct.gov/current/pub/chap_602.htm",
+      "strings": [
+        "Chapter 602",
+        "Nonstock Corporations",
+        "annual report"
+      ]
     }
   },
   "by_sha256": {
