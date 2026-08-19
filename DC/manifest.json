@@ -24,6 +24,18 @@
     "tls_chain_unverified": false
   },
   {
+    "source_url": "https://code.dccouncil.gov/us/dc/council/code/sections/44-1701",
+    "primary": true,
+    "local_path": "DC/code.dccouncil.gov-us-dc-council-code-sections-44-1701-3ba2a0ff.html",
+    "content_type": "text/html",
+    "content_sha256": "d025f8e69da0a01e64ba751cd2dc0a0b53f5cd3991fe155a3f0f5ed954c91305",
+    "perma_url": "https://perma.cc/EWL9-WZ9K",
+    "wayback_url": null,
+    "captured_at": "2026-08-19T23:58:58.737676+00:00",
+    "signed": false,
+    "tls_chain_unverified": false
+  },
+  {
     "source_url": "https://code.dccouncil.gov/us/dc/council/code/sections/44-1702",
     "primary": false,
     "local_path": "DC/code.dccouncil.gov-us-dc-council-code-sections-44-1702.html",
