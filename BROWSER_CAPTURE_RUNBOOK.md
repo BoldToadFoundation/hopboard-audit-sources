@@ -46,3 +46,32 @@ A browser capture is weaker provenance than a machine capture (no controlled UA,
 the loop, save-dialog variability). The `browser_captured: true` flag exists so the
 extraction pass and any future audit can weight it accordingly. It is disclosed degradation,
 not silent substitution.
+
+## ⛔ SIDECAR ENTRY IS PART OF THE CAPTURE, NOT A FOLLOW-UP (2026-08-21, Tony)
+
+**A capture without a sidecar entry silently blocks that state's next apply —
+during whatever unrelated write happens to come first.** Measured: DC §44-1701
+was captured here on 2026-08-19 with no sidecar entry and blocked every DC apply
+for two days, surfacing only when an unrelated carry-forward tried to land. Five
+other captures were in the same state (CA, IL, OR, UT ×2).
+
+**This runbook is why they exist.** It described how to get bytes past a wall and
+into a manifest, and never mentioned `PERMA_VERIFY_STRINGS.json` — so the
+walled-site path produced uncovered captures *by construction*, while the
+canonical `capture_audit_sources.py` path did not.
+
+**So: a capture is not finished until its sidecar entry exists.** Two forms, and
+the choice is a judgment about what the capture BACKS:
+
+- **strings** — one or more verbatim substrings that are PRESENT IN THE LOCAL
+  BYTES (grep the artifact before writing them; do not transcribe from the
+  rendered page — the SC "½" vs "4 1/2" transliteration proves a generated
+  string can fail the very grep it powers), plus a `basis` sentence naming what
+  the capture supports.
+- **skip** — a documented reason the artifact cannot be string-verified (a PDF
+  whose text is FlateDecoded, an image scan), still with a `basis`.
+
+`scripts/check_perma_sidecar.py` is wired into hopboard's pre-commit as of
+2026-08-21 and BLOCKS a new uncovered capture. The declared backlog lives in
+`scripts/perma_sidecar_baseline.txt`; adding to it is not a substitute for a
+disposition.
