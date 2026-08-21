@@ -1905,6 +1905,14 @@
         "Nonstock Corporations",
         "annual report"
       ]
+    },
+    "EWL9-WZ9K": {
+      "basis": "DC §44-1701(6) DEFINITIONS — the definitional-lane check Tony ordered after NV's method error (RECHECK_LEDGER 2026-08-19). LOAD-BEARING because it runs the OPPOSITE way to NV: NRS 82A.025(2) EXCLUDES religious organizations from the definition of 'charitable organization' so the duty never attaches, while DC ENUMERATES church / religious sect / religious denomination INTO 'Person'. Same lane, opposite structure — which is why the sweep's standing caveat needed the definitional read on each state rather than a transfer.",
+      "source_url": "https://code.dccouncil.gov/us/dc/council/code/sections/44-1701",
+      "strings": [
+        "church, religious sect, religious denomination, society, organization, or league",
+        "means and includes philanthropic, social service, patriotic, welfare, benevolent, or educational"
+      ]
     }
   },
   "by_sha256": {
