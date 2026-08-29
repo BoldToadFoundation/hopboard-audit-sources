@@ -23,11 +23,28 @@
       "skip": "pdf payload — v1 text/html-only",
       "source_url": "https://oag.ca.gov/system/files/media/rrf1_form.pdf"
     },
+    "2NRS-CDUX": {
+      "basis": "UT S.B. 38 (2026) enrolled — recodifies ch. 13-22; §13-22-110 is the annual 990-to-DCCC filing that survives H.B. 43's repeal of the solicitation permit (the UT reg=FALSE-with-live-duty case)",
+      "source_url": "https://le.utah.gov/Session/2026/bills/enrolled/SB0038.pdf",
+      "strings": [
+        "unredacted copy of the charitable organization's most",
+        "Division of Corporations and Commercial Code",
+        "Foreign nonprofit corporation\" means the same as that term is defined in Section 16-6a-102"
+      ],
+      "superseded_perma_guid": "H3NW-EQ7R"
+    },
     "2Q27-HMKV": {
       "basis": "strings from the crank sign-off package in AL.sql; installed at batch-promote 2026-07-05; JSON tier — WARC payload is JSON text, grep reaches it",
       "source_url": "https://alison.legislature.state.al.us/api/code-of-alabama?page=32",
       "strings": [
         "within 90 days of the close of its fiscal year"
+      ]
+    },
+    "2VJG-YZHS": {
+      "basis": "HI escalation read 2026-08-18 (docs/regime_reread/HI_20260818.md; HI_VERIFY_20260818.sql) — DCCA BREG FAQ: annual-report due date keyed to registration date (quarter system)",
+      "source_url": "https://cca.hawaii.gov/breg/faqs/",
+      "strings": [
+        "the annual report or annual statement due date is dependent on the registration date"
       ]
     },
     "2X8C-QJTA": {
@@ -91,14 +108,11 @@
         "charitable purpose, uses or employs any deception"
       ]
     },
-    "3SAE-K4JD": {
-      "basis": "WI charitable FAQ: register if soliciting with paid employee or $25,000+ contributions; 30-day register-on-crossing; financial-report thresholds",
-      "source_url": "https://dfi.wi.gov/Pages/BusinessServices/CharitableProfessionalOrganizations/CharitableOrganizationsFAQ.aspx",
+    "3TRT-6HC5": {
+      "basis": "HI escalation read 2026-08-18 (docs/regime_reread/HI_20260818.md; HI_VERIFY_20260818.sql) — portal submit page + live amnesty banner (transient, captured)",
+      "source_url": "https://charity.ehawaii.gov/charity/apply-info.html",
       "strings": [
-        "needs to register if it solicits in Wisconsin and either has a paid employee(s) and/or receives $25,000 or more in contributions in a fiscal year.",
-        "it must, within 30 days register with the division.",
-        "A charitable organization must submit this form if it received $25,000 or less in contributions during its most recently completed fiscal year.",
-        "A Charitable organization with a ‘home’ office outside of Wisconsin needs to be registered if it solicits in Wisconsin"
+        "Charities Amnesty Program: Extended to October 31, 2026"
       ]
     },
     "3V7E-PNEZ": {
@@ -162,6 +176,13 @@
         "501(c)(3)"
       ]
     },
+    "4AC4-WEKJ": {
+      "basis": "HI escalation read 2026-08-18 (docs/regime_reread/HI_20260818.md; HI_VERIFY_20260818.sql) — live exemption application: exemption requires application (religious_must_apply / small_org_must_apply)",
+      "source_url": "https://charity.ehawaii.gov/charity/apply-exemption.html",
+      "strings": [
+        "must register in the State of Hawaii with the Attorney General"
+      ]
+    },
     "4CFG-WC96": {
       "skip": "manually captured by Tony 2026-07-12 (WAC 434-120-225, WA annual-renewal — Perma crawler had failed app.leg.wa.gov). Binary PDF; content string-verified locally via by_sha256.",
       "source_url": "https://app.leg.wa.gov/WAC/default.aspx?cite=434-120-225&pdf=true"
@@ -173,6 +194,13 @@
     "4DL5-NMWG": {
       "skip": "PDF tier (documented skip, batch-promote 2026-07-05): WARC payload is application/pdf — the v1 text-grep cannot reach it; load-bearing strings were byte-verified via pdftotext against the LOCAL artifact at crank (sign-off package in IL.sql); PDF-gate-v2 (WARC→pdftotext→grep) is the owed upgrade — ledger tripwire fires on the escalation-set recount.",
       "source_url": "https://www.illinoisattorneygeneral.gov/Page-Attachments/FormAG990ILFilingInstuctions.pdf"
+    },
+    "4EVU-B97A": {
+      "basis": "W.Va. Code 59-1-2a(e): annual report fee/filing to the Secretary of State (WV corporate breadth read, 2026-07-19)",
+      "source_url": "https://code.wvlegislature.gov/59-1-2a/",
+      "strings": [
+        "Annual and biennial business fees to be paid to the Secretary of State"
+      ]
     },
     "4GEU-VGHA": {
       "skip": "binary artifact (pdf/zip/docx); Perma capture exists (786866B WARC) but verify-perma's raw-byte grep can't read a binary payload — the intended PDF SKIP. Load-bearing strings verified against the LOCAL bytes via by_sha256 (c639cedf92c7…).",
@@ -222,6 +250,14 @@
         "44-1522"
       ]
     },
+    "4TDU-L664": {
+      "basis": "CA SoS Statements of Information: the recurring 6-month filing window that corroborates Corp Code 6210(c)'s 'calendar month during which its original articles were filed and the immediately preceding five calendar months'.",
+      "source_url": "https://www.sos.ca.gov/business-programs/business-entities/statements",
+      "strings": [
+        "Statutory Required 6 Month Filing Window",
+        "filing period when subsequent statements are due"
+      ]
+    },
     "4TU2-K4Y7": {
       "basis": "MI preceding-year anchor (Tony's 'twist'): MCL 400.273(2)(j)/(k) — the financial statement/990 is for the preceding tax year, so the 19-month term runs from the prior-completed FYE. grep-verified byte-present in MI/www.legislature.mi.gov-Laws-MCL-objectName-MCL-400-273.html",
       "source_url": "https://www.legislature.mi.gov/Laws/MCL?objectName=MCL-400-273",
@@ -245,6 +281,14 @@
         "Section 8F"
       ]
     },
+    "4VWT-B9XG": {
+      "basis": "Arizona Corporation Commission Business Services FAQs — reader B (agency lane) of the 2026-08-15 AZ corporate read, and a LIVE page confirming the regime is unchanged by the 2026 session that the ARS compilation does not yet cover. NOTE: this is also the page the 2026-05 verification rows cited for the corporate columns, and it contains NO occurrence of 'anniversary' — the citation did not support the encoded deadline even though the value is correct.",
+      "source_url": "https://azcc.gov/faqs/BusinessServicesFAQs",
+      "strings": [
+        "nonprofit corporations have an annual report filing fee of $10",
+        "by their designated due date each year"
+      ]
+    },
     "4WT2-YMRR": {
       "basis": "FL 496.405 (2025 official): charitable orgs/sponsors must file an initial registration statement (with attestation) and annual renewal; $25/month late fee",
       "source_url": "https://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&amp;URL=0400-0499/0496/Sections/0496.405.html",
@@ -264,9 +308,22 @@
         "requires a charitable organization to provide certain tax documents in a manner"
       ]
     },
+    "5CLC-QC7Q": {
+      "skip": "binary artifact (pdf); Perma capture exists; load-bearing strings verified against LOCAL bytes via by_sha256 (3922560cdd4d…).",
+      "source_url": "https://sdlegislature.gov/api/Statutes/47-24-19.html?all=true"
+    },
     "5FCD-F5G9": {
       "skip": "binary artifact (pdf/zip/docx); Perma capture exists (294468B WARC) but verify-perma's raw-byte grep can't read a binary payload — the intended PDF SKIP. Load-bearing strings verified against the LOCAL bytes via by_sha256 (60f6121b90b9…).",
       "source_url": "https://consumer.sd.gov/docs/TelemkgSolCharity_Statutes37-30.pdf"
+    },
+    "5JUZ-4Y74": {
+      "basis": "Tex. Bus. Orgs. Code 4.153(11) — the $5 filing fee for a Chapter 22 report, the only source for TX corporate_filing_fee. NOTE ON NEEDLE SHAPE: the extractor preserves markup and this source HYPERLINKS the chapter number, so the fee clause is split by an anchor tag; the third needle carries the tag boundary deliberately rather than a normalized reading that would silently miss. Authored at capture 2026-08-15.",
+      "source_url": "https://tcss.legis.texas.gov/resources/BO/htm/BO.4.htm",
+      "strings": [
+        "FILING FEES: NONPROFIT CORPORATIONS",
+        "for filing a report under Chapter",
+        ">22</a>, $5;"
+      ]
     },
     "5NUX-YQ44": {
       "skip": "pdf payload (WARC grep is text/html-only) + tls_chain_downgrade (Idaho AG expired cert, retried verify=False per --allow-incomplete-chain). COMPENSATING CONTROL: the FAQ 2.7 admission ('No. ICAPA does not require charitable organizations ... to register') was cross-verified by the ID-B agency reader via curl -k, and the reg=FALSE rests on the byte-verified Ch 12 statute lane (M9A7-YN8F) + full 74-title boundary enumeration",
@@ -301,6 +358,16 @@
     "66JB-N68S": {
       "skip": "binary artifact (pdf/zip/docx); Perma capture exists (41190231B WARC) but verify-perma's raw-byte grep can't read a binary payload — the intended PDF SKIP. Load-bearing strings verified against the LOCAL bytes via by_sha256 (2790eb4fd96f…).",
       "source_url": "https://pub.njleg.state.nj.us/statutes/STATUTES-TEXT.zip"
+    },
+    "67S7-6V8L": {
+      "basis": "D.C. Code 29-102.11 'Biennial report for Mayor' -- the section imposing DC's corporate biennial report duty and setting its April 1 deadline. The corporate-axis primary DC's parent row now cites, replacing 44-1703 (Charitable Solicitations).",
+      "source_url": "https://code.dccouncil.gov/us/dc/council/code/sections/29-102.11",
+      "strings": [
+        "Biennial report for Mayor",
+        "by April 1 of the year following the calendar year",
+        "shall deliver to the Mayor for filing a biennial report"
+      ],
+      "superseded_perma_guid": "EYK4-K49L"
     },
     "6B3H-VWPY": {
       "basis": "FL 496.405 (2022): charitable orgs/sponsors must file an initial registration statement and annual renewal unless exempt; $25/month late fee",
@@ -347,6 +414,13 @@
       "skip": "binary artifact (pdf/zip/docx); Perma capture exists (149750B WARC) but verify-perma's raw-byte grep can't read a binary payload — the intended PDF SKIP. Load-bearing strings verified against the LOCAL bytes via by_sha256 (df37705bb027…).",
       "source_url": "https://publications.tnsosfiles.com/acts/113/pub/pc0615.pdf"
     },
+    "6RCT-69FR": {
+      "basis": "MCL 450.2911(1): nonprofit annual report due October 1 each year (MI corporate breadth read, 2026-07-19)",
+      "source_url": "https://www.legislature.mi.gov/Laws/MCL?objectName=MCL-450-2911",
+      "strings": [
+        "shall file a report with the administrator not later than October 1 of e"
+      ]
+    },
     "6VNS-3G4V": {
       "note": "verified byte-present against the LOCAL archived artifact 2026-07-06 (batch-2 crank)",
       "source_url": "https://legislature.vermont.gov/statutes/section/09/063/02473",
@@ -371,6 +445,17 @@
       "strings": [
         "Charitable Exempt"
       ]
+    },
+    "7299-26NT": {
+      "basis": "RSMo 355.857 — the ELECTIVE biennial cadence (formation-year parity, 24-month lock-in) and, at (1)(3), an additional $10 technology-trust fee on each biennial report. This is the provision behind prod's corporate_filing_cadence_election='biennial', which is already correctly encoded.",
+      "source_url": "https://revisor.mo.gov/main/OneSection.aspx?section=355.857",
+      "strings": [
+        "the option of biennially filing corporate registration reports"
+      ]
+    },
+    "72Z2-VVRT": {
+      "skip": "BINARY PRIMARY -- DCMR section 600 GENERAL PROVISIONS. dcregs.dc.gov serves DCMR sections as MS Word binaries under content_type 'application/force-download', which verify_perma's utf-8 WARC grep cannot read; a string check against the WARC would be noise either way, so it asserts nothing and must not pretend to. THE SUBSTANCE IS CHECKED, on the lane that can read it: by_sha256['2934f526f531f4949864766f3fe638a2e592d637da07360757601d21c4506484'] carries this artifact's load-bearing strings and is BLOCKING for primaries under --verify-strings (E5-2), verified against the LOCAL capture via extract_text (confirmed 2026-08-21). This routes the check, it does not waive it.",
+      "source_url": "https://dcregs.dc.gov/Common/DCMR/RuleList.aspx?DownloadFile=A0A6555F-0000-CA11-9301-3D0EE2256DEB"
     },
     "73XP-A469": {
       "basis": "strings verified present in local artifact MN/www.revisor.mn.gov-statutes-cite-309.515.html (authored at capture, 2026-06-14)",
@@ -407,10 +492,6 @@
       "strings": [
         "21a-190"
       ]
-    },
-    "7AHD-4KUF": {
-      "skip": "UTF-16 tier (documented skip, batch-2 2026-07-06): sdlegislature.gov API serves text/html;charset=utf-16 — v1 utf-8 text-grep cannot reach it; string 'Repealed by SL 1984, ch 260' byte-verified via iconv against the LOCAL artifact. Same E5 class as PDF/DOCX/JSON.",
-      "source_url": "https://sdlegislature.gov/api/Statutes/37-27.html?all=true"
     },
     "7PHF-UQFC": {
       "basis": "Utah 13-22-110 requires charitable nonprofits to annually file their most recent IRS Form 990/990-EZ/990-N/990-PF",
@@ -481,6 +562,15 @@
         "in all cases before solicitation"
       ]
     },
+    "8LYT-BQR6": {
+      "basis": "HI escalation read 2026-08-18 (docs/regime_reread/HI_20260818.md; HI_VERIFY_20260818.sql) — DCCA FNP-INFO: foreign nonprofit annual report fee + revocation",
+      "skip": "PDF — the Perma/WARC stores the PDF text FlateDecode-compressed, so verify_perma's utf-8 WARC grep cannot read it (binary-blind). The load-bearing strings above are pdftotext byte-verified against the sha-pinned LOCAL archive (extract_text + contains_all, run 2026-08-18 before authoring; verify-strings lane covers them on every apply). Documented-skip tier for PDFs pending PDF-gate-v2 WARC-side extraction. 2026-08-18, HI verify.",
+      "source_url": "https://cca.hawaii.gov/wp-content/uploads/2025/12/FNP-INFO_3-2023.pdf",
+      "strings": [
+        "Foreign Nonprofit Corporation Annual Report",
+        "certificate of authority may be revoked"
+      ]
+    },
     "8MKC-TJMN": {
       "basis": "strings verified present in local artifact DE/delcode.delaware.gov-title6-c025-sc10-index.html.html — the Delaware Charitable/Fraternal Solicitation Act (6 Del. C. Subch. X, sec 2591-2597) TOC; NO registration/license/permit/bond section anywhere; authored at capture 2026-07-04",
       "source_url": "https://delcode.delaware.gov/title6/c025/sc10/index.html",
@@ -489,6 +579,16 @@
         "2596",
         "2594"
       ]
+    },
+    "8P33-BEDH": {
+      "basis": "Wis. Stat. 181.0214: annual report for department (WI corporate breadth read, 2026-07-19)",
+      "source_url": "https://docs.legis.wisconsin.gov/statutes/statutes/181/ii/0214",
+      "strings": [
+        "Annual report for department"
+      ]
+    },
+    "8PFB-HQWZ": {
+      "skip": "OSCN DeliverDocument.asp is a dynamic/JS page; Perma server-side replay captured a 2.4MB asset shell lacking the statute text (verified 2026-07-19). Content verified via by_sha256 local bytes 68aa8a74. Durable §552.3 backstop = os18.pdf Perma R2KS-GZ3M (complete PDF, §552.3+§552.2 pdftotext-verified in the actual replay)."
     },
     "8WK8-39NR": {
       "basis": "NV ch. 82: foreign list anchor 82.523(1); list fee + default penalty 82.193(3); foreign forfeiture 82.5235(2). Strings grep-verified byte-present (raw) in the hash-matched local archive NV/www.leg.state.nv.us-NRS-NRS-082.html.html (2026-07-18, NV apply-gate remediation; GUIDs minted at the 07-17 quota-refill retry).",
@@ -545,9 +645,26 @@
         "2 separate reports"
       ]
     },
+    "9LL4-NTTL": {
+      "basis": "R.I.G.L. 7-6-91: filing of annual report of domestic and foreign corporations (RI corporate breadth read, 2026-07-19)",
+      "source_url": "https://webserver.rilegislature.gov/Statutes/TITLE7/7-6/7-6-91.htm",
+      "strings": [
+        "Filing of annual report of domestic and foreign corporations"
+      ]
+    },
     "9N7N-TJWS": {
       "skip": "manually captured by Tony 2026-07-12, but the page is a JS-rendered SPA — Perma's copy is a shell missing the content (verify-perma COMPLETENESS FAIL). Local bytes string-verified via by_sha256 (eaa4328b2d26…).",
       "source_url": "https://azsos.gov/business/other-services/veterans-charities-organizations"
+    },
+    "9QU4-QSMU": {
+      "basis": "DC exemption-procedure correction 2026-08-18: D.C. Code §44-1703(a)-(b) — registration duty + the statute-layer religious exemption (self-executing wording) that 16 DCMR 1303.1 conditions on a proof-of-exemption filing",
+      "source_url": "https://code.dccouncil.gov/us/dc/council/code/sections/44-1703",
+      "strings": [
+        "No person shall solicit in the District of Columbia unless",
+        "No person shall solicit in the District of Columbia unless he holds a valid certificate of registration",
+        "shall not apply to any person making solicitations, including solicitations for educational purposes, solely for a church or a religious corporation"
+      ],
+      "superseded_perma_guid": "CEZ4-KK5R"
     },
     "9R7X-G7YP": {
       "basis": "ORC 1716.02: charities must register annually with the AG, refiling deadline (15th day of 5th month after FY close), and sub-$5,000 fee exemption",
@@ -561,6 +678,13 @@
     "9RP3-UL2Z": {
       "skip": "pdf payload — WARC grep v1 is text/html-only (disclosed cut). Carries the must_apply=TRUE corroboration ('Charities claiming to be exempt from registration must still file a Charitable Organization Exemption Form'); local-byte-verified via pdftotext at capture. The string-backed must_apply witness is the AG HTML page KHP6-GX9X.",
       "source_url": "https://www.ag.state.mn.us/brochures/pubGuidetoCharitieslaws.pdf"
+    },
+    "9TZS-294A": {
+      "basis": "HI escalation read 2026-08-18 (docs/regime_reread/HI_20260818.md; HI_VERIFY_20260818.sql) — AG Tax & Charities Division main page (charitable regulator identity)",
+      "source_url": "https://ag.hawaii.gov/tax/",
+      "strings": [
+        "Tax &amp; Charities Division"
+      ]
     },
     "9Z4J-2D8Q": {
       "basis": "LA AG charities page: annual registration (10 days prior), $25 fee, and exemption categories",
@@ -639,6 +763,13 @@
         "refiled in the next and each following year"
       ]
     },
+    "C2G2-G6K2": {
+      "basis": "ORS 65.787(1): annual report current as of 30 days before the corporation's anniversary (OR corporate breadth read, 2026-07-19)",
+      "source_url": "https://oregon.public.law/statutes/ors_65.787",
+      "strings": [
+        "must be current as of 30 days before the anniversary of the corporation"
+      ]
+    },
     "C2NY-CNF6": {
       "skip": "binary PDF secondary (Title 11, agriculture/gaming) — boundary corpus; gaming conditional documented in notes; sha-pinned + hash-verified.",
       "source_url": "https://wyoleg.gov/statutes/compress/title11.pdf"
@@ -660,16 +791,22 @@
         "The penalty for not filing a completed Annual Report on or before March 1st is $200.00"
       ]
     },
-    "CEZ4-KK5R": {
-      "basis": "DC late_fee remediation 2026-07-17 (Tony ruling (b) — archive-hygiene, captures verified sound): load-bearing string byte-present in the hash-matched local capture; see docs/regime_reread/DC_20260717.md + RECHECK_LEDGER DC late_fee rows.",
-      "source_url": "https://code.dccouncil.gov/us/dc/council/code/sections/44-1703",
-      "strings": [
-        "No person shall solicit in the District of Columbia unless"
-      ]
-    },
     "CUL6-DWLU": {
       "skip": "pdf payload — WARC grep is text/html-only (disclosed cut). Secondary/corroborative source for IA reg=FALSE (https://www.legis.iowa.gov/docs/code/633A.pdf); the load-bearing verification is the by_sha256-anchored primary statute, not this artifact.",
       "source_url": "https://www.legis.iowa.gov/docs/code/633A.pdf"
+    },
+    "CV2Y-2YWY": {
+      "basis": "Texas SoS Form 802, the periodic-report instrument itself — 'Periodic Report of a Nonprofit Corporation', filed with the Secretary of State, Reports Unit. Added 2026-08-15 as a second agency-lane artifact after the FAQ's Perma came back incomplete; establishes form identity and filing agency from the agency's own document.",
+      "skip": "PDF — the completeness check is a RAW SUBSTRING GREP over the decoded WARC bytes, and a PDF's text lives in compressed streams, so it cannot be asserted by this instrument in either direction. Corpus norm, measured 2026-08-15: of 79 PDF perma entries, 76 already carry exactly this skip. Strings verified against the local artifact instead (TX/www.sos.state.tx.us-corp-forms-802_boc.pdf..., extractor-read: 'Periodic Report', 'Nonprofit Corporation', 'Secretary of State', 'Reports Unit', 'Form 802').",
+      "source_url": "https://www.sos.state.tx.us/corp/forms/802_boc.pdf"
+    },
+    "CXT6-4Y74": {
+      "basis": "HI escalation read 2026-08-18 (docs/regime_reread/HI_20260818.md; HI_VERIFY_20260818.sql) — 2021 Annual Report Guide: the 990-coupled due-date rule (990/990-EZ/990-PF)",
+      "skip": "PDF — the Perma/WARC stores the PDF text FlateDecode-compressed, so verify_perma's utf-8 WARC grep cannot read it (binary-blind). The load-bearing strings above are pdftotext byte-verified against the sha-pinned LOCAL archive (extract_text + contains_all, run 2026-08-18 before authoring; verify-strings lane covers them on every apply). Documented-skip tier for PDFs pending PDF-gate-v2 WARC-side extraction. 2026-08-18, HI verify.",
+      "source_url": "https://ag.hawaii.gov/tax/files/2021/10/Hawaii-Charity-Annual-Report-Guide-October-2021.pdf",
+      "strings": [
+        "within 10 business days of when the organization files its IRS Form 990/990-EZ/990-PF"
+      ]
     },
     "D3XT-JZYV": {
       "skip": "KNOWN-INCOMPLETE, MEASURED 2026-06-12: Perma's crawler ALSO archived the F5 'Request Rejected' WAF body (x6 in the 78KB WARC, title 'Request Rejected') — the law.alaska.gov URL-selective wall blocks Perma's egress too; refutes the 06-11 'likely clean (different egress)' prediction. FAQ content covered by the charityreg primary (inline, byte-verified) + the 2026-06-12 principal-browser-print PDF; nothing rests on this GUID. Was a MEASUREMENT entry; measurement complete.",
@@ -679,6 +816,10 @@
       "skip": "SUPERSEDED-HISTORICAL (2013 AG PDF, captured 2026-07-10 then same-session demoted): its §305 is amendment MARKUP — the old offset text and the inserted 2013 day:15 text sit adjacent in extraction, so the artifact byte-contains BOTH deadline forms and any verify-string against it is ambiguous by construction. NEVER use for string verification. Retained as historical evidence of the CA rule flip-flop (offset -> day:15 (2013 amendment) -> offset (current, per Cornell §305 + RRF-1 Rev. 01/2024 + AG renewals page)).",
       "source_url": "https://oag.ca.gov/sites/all/files/agweb/pdfs/charities/Sections-300-312.1.pdf"
     },
+    "D5B2-EQDE": {
+      "skip": "KRS 367.657 PDF — verify_perma utf-8 grep can't cover FlateDecode-compressed PDF text (_verify_perma_blind). Perma replay is the complete PDF payload; the load-bearing §367.657 clauses are pdftotext-verified from the local bytes via by_sha256 8498bfc6 (KY verify 2026-07-19).",
+      "source_url": "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=35030"
+    },
     "D6E8-QZQK": {
       "skip": "PDF tier (documented skip, batch-promote 2026-07-05): WARC payload is application/pdf — the v1 text-grep cannot reach it; load-bearing strings were byte-verified via pdftotext against the LOCAL artifact at crank (sign-off package in NM.sql); PDF-gate-v2 (WARC→pdftotext→grep) is the owed upgrade — ledger tripwire fires on the escalation-set recount. (367pp Chapter 57 compiler PDF)",
       "source_url": "https://nmonesource.com/nmos/nmsa/en/4423/1/document.do"
@@ -686,6 +827,16 @@
     "D73W-PAKM": {
       "skip": "pdf payload — v1 text/html-only",
       "source_url": "https://www.doj.state.or.us/wp-content/uploads/2026/01/2025_web_ct-12f.pdf"
+    },
+    "D8YS-6AYH": {
+      "basis": "HI escalation read 2026-08-18 (docs/regime_reread/HI_20260818.md; HI_VERIFY_20260818.sql) — DCCA DNP-INFO: quarter-end schedule verbatim + domestic nonprofit annual report fee + delinquency",
+      "skip": "PDF — the Perma/WARC stores the PDF text FlateDecode-compressed, so verify_perma's utf-8 WARC grep cannot read it (binary-blind). The load-bearing strings above are pdftotext byte-verified against the sha-pinned LOCAL archive (extract_text + contains_all, run 2026-08-18 before authoring; verify-strings lane covers them on every apply). Documented-skip tier for PDFs pending PDF-gate-v2 WARC-side extraction. 2026-08-18, HI verify.",
+      "source_url": "https://cca.hawaii.gov/wp-content/uploads/2025/12/DNP-INFO_3-2023.pdf",
+      "strings": [
+        "an annual report shall be filed on or before September 30 of each year",
+        "Domestic Nonprofit Corporation Annual Report: $5.00",
+        "dissolved involuntarily by the"
+      ]
     },
     "D8YS-CJ6P": {
       "basis": "AZ batch-1 2026-07-03: live A.R.S. 44-6551 definitions (surviving anti-fraud bookend); byte-verified.",
@@ -724,6 +875,10 @@
         "valid for a period of 6 months or 2 years"
       ]
     },
+    "E7T5-R9RP": {
+      "skip": "BINARY PRIMARY -- DCMR section 603 NONPROFIT CORPORATIONS FILING FEES. dcregs.dc.gov serves DCMR sections as MS Word binaries under content_type 'application/force-download', which verify_perma's utf-8 WARC grep cannot read; a string check against the WARC would be noise either way, so it asserts nothing and must not pretend to. THE SUBSTANCE IS CHECKED, on the lane that can read it: by_sha256['de87b9d0dafe366030edf775e4376c7f6661262b216fe307fedea64f18c49637'] carries this artifact's load-bearing strings and is BLOCKING for primaries under --verify-strings (E5-2), verified against the LOCAL capture via extract_text (confirmed 2026-08-21). This routes the check, it does not waive it.",
+      "source_url": "https://dcregs.dc.gov/Common/DCMR/RuleList.aspx?DownloadFile=D0A6555F-0000-C154-ABEF-3F80CC71D825"
+    },
     "E8LU-TDEB": {
       "skip": "binary artifact (pdf/zip/docx); Perma capture exists (500415B WARC) but verify-perma's raw-byte grep can't read a binary payload — the intended PDF SKIP. Load-bearing strings verified against the LOCAL bytes via by_sha256 (bbaefb74edfa…).",
       "source_url": "https://sos.wyo.gov/Business/docs/BusinessFees.pdf"
@@ -747,24 +902,55 @@
       "skip": "binary OLE2/MS-Word .doc (16 DCMR §1303); magic d0cf11e0 + readable section text verified 2026-07-17; strings not greppable in the Perma WARC binary payload",
       "source_url": "https://dcregs.dc.gov/Common/DCMR/RuleList.aspx?DownloadFile=50C2545F-0000-C0E4-B052-09164F1E0C29"
     },
-    "EYK4-K49L": {
-      "basis": "DC late_fee remediation 2026-07-17 (Tony ruling (b) — archive-hygiene, captures verified sound): load-bearing string byte-present in the hash-matched local capture; see docs/regime_reread/DC_20260717.md + RECHECK_LEDGER DC late_fee rows.",
-      "source_url": "https://code.dccouncil.gov/us/dc/council/code/sections/29-102.11",
+    "EWL9-WZ9K": {
+      "basis": "DC §44-1701(6) DEFINITIONS — the definitional-lane check Tony ordered after NV's method error (RECHECK_LEDGER 2026-08-19). LOAD-BEARING because it runs the OPPOSITE way to NV: NRS 82A.025(2) EXCLUDES religious organizations from the definition of 'charitable organization' so the duty never attaches, while DC ENUMERATES church / religious sect / religious denomination INTO 'Person'. Same lane, opposite structure — which is why the sweep's standing caveat needed the definitional read on each state rather than a transfer.",
+      "source_url": "https://code.dccouncil.gov/us/dc/council/code/sections/44-1701",
       "strings": [
-        "by April 1 of the year following the calendar year"
+        "church, religious sect, religious denomination, society, organization, or league",
+        "means and includes philanthropic, social service, patriotic, welfare, benevolent, or educational"
       ]
     },
     "F49K-SNC9": {
       "skip": "binary PDF PRIMARY — load-bearing absence + positive controls enforced via by_sha256 (verify_strings), sha 2a7e997e4a18…; verify_perma covers link-resolution only.",
       "source_url": "https://wyoleg.gov/statutes/compress/title40.pdf"
     },
+    "F6P5-9V8S": {
+      "basis": "CA SoS Corporations - Statement of Information: the NONPROFIT row's own cadence and fee. Strings are BYTE-CONTIGUOUS fragments, deliberately: the rendered sentence 'Due within 90 days of initial registration and every two years thereafter' is split in the markup by an <a>/<strong>/<span> around 'every two years', so the full sentence is NOT a contiguous byte string and would fail a substring grep against a faithful capture. Fee confirmed as the nonprofit row's own: within the span from the nonprofit row to the next row, $20.00 is the ONLY dollar amount (the earlier $20.00 at a lower offset belongs to row 1's CID breakdown, $35.00 = SI $20.00 + CID $15.00).",
+      "source_url": "https://www.sos.ca.gov/business-programs/business-entities/forms/corporations-statement-information",
+      "strings": [
+        "Statement of Information - Nonprofit",
+        "Due within 90 days of initial registration and",
+        "every two years",
+        "$20.00"
+      ]
+    },
     "F8AG-VSYV": {
       "skip": "pdf payload — WARC grep is text/html-only (disclosed cut). Secondary/corroborative source for IA reg=FALSE (https://www.legis.iowa.gov/docs/code/714.16.pdf); the load-bearing verification is the by_sha256-anchored primary statute, not this artifact.",
       "source_url": "https://www.legis.iowa.gov/docs/code/714.16.pdf"
     },
+    "F8DQ-QGQM": {
+      "basis": "WI DFI charitable FAQ (2026-07-18 escalation re-capture): register if soliciting with a paid employee or $25,000+ contributions; 30-day register-on-crossing; two-obligation (renewal vs annual report) confirmation. WI_VERIFY_20260718.sql secondary.",
+      "source_url": "https://dfi.wi.gov/Pages/BusinessServices/CharitableProfessionalOrganizations/CharitableOrganizationsFAQ.aspx",
+      "strings": [
+        "A Charitable organization with a ‘home’ office outside of Wisconsin needs to be registered if it solicits in Wisconsin",
+        "A charitable organization must submit this form if it received $25,000 or less in contributions during its most recently completed fiscal year.",
+        "The annual report and the renewal are two different annual requirements",
+        "it must, within 30 days register with the division.",
+        "needs to register if it solicits in Wisconsin and either has a paid employee(s) and/or receives $25,000 or more in contributions in a fiscal year."
+      ],
+      "superseded_perma_guid": "3SAE-K4JD"
+    },
     "FKA6-YMQD": {
       "skip": "manually captured by Tony 2026-07-12 (Perma crawler had failed this host); binary artifact — verify-perma can't grep the payload, local bytes string-verified via by_sha256 (0d8a3b5038f6…).",
       "source_url": "https://web.archive.org/web/20250920120921/https://www.legis.iowa.gov/docs/code/504.1613.pdf"
+    },
+    "FVN9-FTDM": {
+      "basis": "Kentucky Secretary of State, Annual Reports — the AGENCY lane, a different issuing body from the Legislative Research Commission. Confirms the June 30 deadline and the Jan 1–Jun 30 window, and is the ONLY source for the $15 fee. ⚠ THE PAGE CITES NO KRS FOR THE FEE and KRS 14A.6-010 contains ZERO occurrences of \"fee\", so the fee's statutory basis is NOT LOCATED — which is NOT the same as a delegation (contrast IA §504.1613(4)(b) and DC §29-102.12(a), which delegate on their face). Recorded as not-found, not as delegated.",
+      "source_url": "https://www.sos.ky.gov/bus/business-filings/Pages/Annual-Reports.aspx",
+      "strings": [
+        "by June 30 of each year",
+        "accompanied by a $15 filing fee"
+      ]
     },
     "FW6P-URLQ": {
       "basis": "strings verified present in local artifact NE/protectthegoodlife.nebraska.gov-nonprofit-corporations.html (AG no-registration statement + the AG's own repeal acknowledgment; both readers independently flagged the AG's 'Supreme Court decision' phrasing — operative event is the LEGISLATIVE repeal, LB 972 §4)",
@@ -793,6 +979,22 @@
       "skip": "pdf payload — v1 text/html-only",
       "source_url": "https://www.maine.gov/pfr/professionallicensing/sites/maine.gov.pfr.professionallicensing/files/inline-files/CHA-org-afar.pdf"
     },
+    "G7U6-QUHM": {
+      "basis": "A.R.S. 10-11622 (Annual report) — the AZ nonprofit corporate duty, its annual cadence, and the anniversary-month/ACC-assigned-date rule that the encoded deadline string compresses and that the engine's agency-assigned predicate keys on. Reader A of the 2026-08-15 AZ corporate read.",
+      "source_url": "https://www.azleg.gov/ars/10/11622.htm",
+      "strings": [
+        "Annual report",
+        "shall deliver to the commission for filing an annual report",
+        "in the anniversary month on the date assigned by the commission"
+      ]
+    },
+    "G9PS-AJ29": {
+      "basis": "HI escalation read 2026-08-18 (docs/regime_reread/HI_20260818.md; HI_VERIFY_20260818.sql) — portal help: the $20/day cap $1,000 late fee",
+      "source_url": "https://charity.ehawaii.gov/charity/help.html",
+      "strings": [
+        "late fees of $20 per day up to a maximum fee of $1,000"
+      ]
+    },
     "GDF4-BEKD": {
       "skip": "binary artifact (pdf/zip/docx); Perma capture exists (788322B WARC) but verify-perma's raw-byte grep can't read a binary payload — the intended PDF SKIP. Load-bearing strings verified against the LOCAL bytes via by_sha256 (6ac7cedbdf07…).",
       "source_url": "https://ago.vermont.gov/sites/ago/files/2025-11/Chritable-Nonprofit-Board-Guidance.pdf"
@@ -818,10 +1020,6 @@
         "In the event the charitable organization has total annual gross receipts of $50,000 or more or total assets of $100,000 or more",
         "Charitable organizations are required to file annual reports covering all time periods preceding the date that the organization requested closure"
       ]
-    },
-    "H3NW-EQ7R": {
-      "skip": "binary artifact (pdf/zip/docx); Perma capture exists (931727B WARC) but verify-perma's raw-byte grep can't read a binary payload — the intended PDF SKIP. Load-bearing strings verified against the LOCAL bytes via by_sha256 (70325aa75611…).",
-      "source_url": "https://le.utah.gov/Session/2026/bills/enrolled/SB0038.pdf"
     },
     "H586-UGHX": {
       "basis": "NV NRS 82A.100 bars a charitable organization from soliciting contributions unless it is registered with the Secretary of State.",
@@ -878,6 +1076,14 @@
         "later date that the Secretary of State sets"
       ]
     },
+    "J7KM-LSKE": {
+      "basis": "UT DCP charities page — the agency's own statement that DCCC is a REPOSITORY for the Form 990 on DCP's behalf; the as-administered layer behind §13-22-110",
+      "source_url": "https://commerce.utah.gov/dcp/for-businesses/charities/",
+      "strings": [
+        "no longer need to submit the seven-page DCP application",
+        "is simply to be a repository for the Form 990 on behalf of the Utah Division of Consumer Protection"
+      ]
+    },
     "J86A-9RR6": {
       "basis": "strings verified present in local artifact CA/www.law.cornell.edu-regulations-california-11-CCR-305.html",
       "source_url": "https://www.law.cornell.edu/regulations/california/11-CCR-305",
@@ -892,6 +1098,29 @@
         "registration statement"
       ]
     },
+    "JE94-W3HC": {
+      "basis": "RSMo 355.021(17)-(18) — the STATUTORY BASE fees: annual $10 written / $5 electronic, biennial $20 written / $10 electronic. ⛔ THESE ARE NOT WHAT THE FILER PAYS — the SoS Schedule of Fees collects $15/$10 annual and $30/$20 biennial under its CHAPTER 355 heading. See that entry.",
+      "source_url": "https://revisor.mo.gov/main/OneSection.aspx?section=355.021",
+      "strings": [
+        "Corporate registration report filed annually, ten dollars if filed in a written format or five dollars if filed electronically"
+      ]
+    },
+    "JH3J-C8PV": {
+      "basis": "HI escalation read 2026-08-18 (docs/regime_reread/HI_20260818.md; HI_VERIFY_20260818.sql) — legacy annual-report portal, self-describing redirect to hbe.dcca.hawaii.gov",
+      "source_url": "https://hbe.ehawaii.gov/annuals/",
+      "strings": [
+        "All services offered through Hawaii Business Express will be available via this new portal"
+      ]
+    },
+    "JL87-5C3P": {
+      "basis": "HI escalation read 2026-08-18 (docs/regime_reread/HI_20260818.md; HI_VERIFY_20260818.sql) — Registration Guide: one-time registration, no fee",
+      "skip": "PDF — the Perma/WARC stores the PDF text FlateDecode-compressed, so verify_perma's utf-8 WARC grep cannot read it (binary-blind). The load-bearing strings above are pdftotext byte-verified against the sha-pinned LOCAL archive (extract_text + contains_all, run 2026-08-18 before authoring; verify-strings lane covers them on every apply). Documented-skip tier for PDFs pending PDF-gate-v2 WARC-side extraction. 2026-08-18, HI verify.",
+      "source_url": "https://ag.hawaii.gov/tax/files/2018/06/Hawaii-Charity-Registration-Guide-7.10.19.pdf",
+      "strings": [
+        "Organizations complete a Registration only once",
+        "There is no fee to submit a Registration"
+      ]
+    },
     "JMV5-MFRH": {
       "basis": "strings from the crank sign-off package in VA.sql; installed at batch-promote 2026-07-05; string tightened to the byte-continuous fragment (a tag splits 'calendar'/'month' in the render)",
       "source_url": "https://www.vdacs.virginia.gov/food-charitable-solicitation.shtml",
@@ -903,11 +1132,34 @@
       "skip": "utf-16 tier — WARC utf-8 grep cannot reach it (sdlegislature.gov API). Secondary/corroborative source for SD reg=FALSE (https://sdlegislature.gov/api/Statutes/37-30.html?all=true); load-bearing verification is on the by_sha256 primary.",
       "source_url": "https://sdlegislature.gov/api/Statutes/37-30.html?all=true"
     },
+    "K3PC-3TGP": {
+      "basis": "MN Minn. Stat. 317A.823 — CAPTURE VOID, NOT A RECEIPT. revisor.mn.gov serves a JS shell: the raw payload contains only site chrome and the page title, no statutory text. Found 2026-07-31 when sidecar-string extraction returned nothing; my pre-capture content check had matched the section NUMBER in the title, not the statute text — an insufficient check, recorded here. MN's READ (2026-07-19, primary) is unaffected and its citation stands; MN is re-queued for capture via a text-serving source.",
+      "skip": "js-shell payload — no statutory text to grep; capture void and re-queued, NOT a durability downgrade of the read",
+      "source_url": "https://www.revisor.mn.gov/statutes/cite/317A.823"
+    },
+    "K58X-VJNX": {
+      "basis": "DCMR Title 17 Chapter 6 rule list -- the navigation artifact proving chapter 17-6 is 'DCRA CORPORATIONS DIVISION SCHEDULE OF FEES' and enumerating its sections. Held because how the chapter was FOUND is part of the record: prior passes missed it.",
+      "source_url": "https://www.dcregs.dc.gov/Common/DCMR/RuleList.aspx?ChapterNum=17-6",
+      "strings": [
+        "17-6",
+        "SCHEDULE OF FEES"
+      ]
+    },
     "K7TX-LEBM": {
       "note": "verified byte-present against the LOCAL archived artifact 2026-07-06 (batch-2 crank)",
       "source_url": "https://revisor.mo.gov/main/OneSection.aspx?section=407.453",
       "strings": [
         "does business in this state or holds property in this state"
+      ]
+    },
+    "K8CY-NU7X": {
+      "basis": "Tex. Bus. Orgs. Code ch. 22 subch. H — the nonprofit corporate PERIODIC REPORT: SoS-demanded, capped at once per four years (22.357), notice-triggered (22.358), due 30 days after mailing (22.359), forfeiture on failure (22.360). Load-bearing for the 2026-08-15 corporate read that replaced TX's franchise-tax encode. Re-capture of Y4XD-NLBG at the same content sha256 777cf9c4 (bytes stable across two fetches 12 minutes apart); the earlier GUID's entry is kept so both resolve.",
+      "source_url": "https://tcss.legis.texas.gov/resources/BO/htm/BO.22.htm",
+      "strings": [
+        "REPORT OF DOMESTIC AND FOREIGN CORPORATIONS",
+        "not more than once every four years",
+        "The secretary of state shall send written notice",
+        "not later than the 30th day after the date notice is mailed"
       ]
     },
     "KDV3-UFZJ": {
@@ -917,6 +1169,21 @@
         "Application for such certificate of registration shall be made upon such form or forms as shall be prescribed by the Council of the District of Columbia",
         "shall be filed with the Mayor at least 15 days prior to the time when the certificate of registration applied for shall become effective",
         "The Mayor shall issue a certificate of registration within 10 days after the filing of an application therefor"
+      ]
+    },
+    "KE9X-QTXX": {
+      "basis": "Nebraska Secretary of State, Forms and Fee Information — the agency's own schedule. Under the nonprofit corporation headings it prices 'Any other document required or permitted to be filed' at $30 (In-Office) / $25 (Online), confirming the 21-1905(a)(11) routing from the agency side.",
+      "source_url": "https://sos.nebraska.gov/business-services/forms-and-fee-information",
+      "strings": [
+        "Any other document required or permitted to be filed"
+      ]
+    },
+    "KF2Y-YYC4": {
+      "basis": "D.C. Code 29-102.12 'Fees.' -- the FACIAL DELEGATION of entity filing fees to the Mayor's rules. Load-bearing because it is what makes DCMR 17-6 the fee authority, and because a delegation is recorded as a read with a negative result rather than an absence.",
+      "source_url": "https://code.dccouncil.gov/us/dc/council/code/sections/29-102.12",
+      "strings": [
+        "§ 29–102.12. Fees.",
+        "shall adopt rules, to establish or revise fees for entity filings"
       ]
     },
     "KHP6-GX9X": {
@@ -944,9 +1211,25 @@
         "deemed to be professional solicitors"
       ]
     },
+    "KYK7-NBPT": {
+      "basis": "RSMo 355.856 — the MO nonprofit CORPORATE REGISTRATION REPORT: the duty, the secretary of state as filing authority, the August 31 due date, the $15 late-acceptance fee, and administrative dissolution under 355.706 for failure to file.",
+      "source_url": "https://revisor.mo.gov/main/OneSection.aspx?section=355.856",
+      "strings": [
+        "shall file with the secretary of state a corporate registration report",
+        "no later than August thirty-first"
+      ]
+    },
     "L4R4-E23K": {
       "skip": "pdf payload (WARC grep is text/html-only). The MT Legislative Services Division study's '11 states that do not require registration ... Delaware, Idaho, ... Montana, ... Texas' admission (names all four batch states) is corroborating closure; verdict rests on the byte-verified §30-14-1405 statute (N52X-GPLV) + DOJ admission (R9UM-YKNP)",
       "source_url": "https://archive.legmt.gov/content/Committees/Interim/2015-2016/Revenue-and-Transportation/Meetings/Nov-2015/state-nonprofit-reporting.pdf"
+    },
+    "L6P2-4RR6": {
+      "basis": "Fla. Stat. §617.0122(17) — 'Annual report: $61.25', the statutory source for FL corporate_filing_fee.",
+      "source_url": "https://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0600-0699/0617/Sections/0617.0122.html",
+      "strings": [
+        "Fees for filing documents and issuing certificates",
+        "Annual report"
+      ]
     },
     "L94T-58FM": {
       "skip": "utf-16 tier — WARC utf-8 grep cannot reach it (sdlegislature.gov API). Secondary/corroborative source for SD reg=FALSE (https://sdlegislature.gov/api/Statutes/37-30A.html?all=true); load-bearing verification is on the by_sha256 primary.",
@@ -966,6 +1249,13 @@
       "source_url": "https://www.mass.gov/info-details/frequently-asked-questions-about-charitable-organizations",
       "strings": [
         "four and one-half months"
+      ]
+    },
+    "M76Q-9RHZ": {
+      "basis": "Fla. Stat. 617.1622: nonprofit annual report, on or before May 1 (FL corporate breadth read, 2026-07-19)",
+      "source_url": "https://www.flsenate.gov/laws/statutes/2022/617.1622",
+      "strings": [
+        "on or before May 1"
       ]
     },
     "M7FP-CDHP": {
@@ -1002,6 +1292,16 @@
         "do not apply"
       ]
     },
+    "N5GH-SLG7": {
+      "basis": "KRS 273.3671 \"Annual report.\" — a PURE CROSS-REFERENCE, in full: \"Each corporation and each foreign corporation qualified to transact business in this Commonwealth is subject to KRS 14A.6-010.\" It establishes that KY nonprofit corporations are inside the regime and nothing else. sha f2c8879d… also matches KY_VERIFY's quoted prefix.",
+      "skip": "PDF — the perma completeness check greps raw WARC bytes and this source serves a genuine binary PDF, so its text layer is unassertable by that instrument. Strings verified against the local sha-pinned artifact via by_sha256.",
+      "source_url": "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=36685"
+    },
+    "N66A-6RV8": {
+      "basis": "13-B M.R.S. 1301: annual report of domestic and foreign corporations (ME corporate read, 2026-07-19; ME remains DEMOTED — agency-assigned, no anchor)",
+      "skip": "pdf payload — WARC grep v1 is text/html-only; local-byte-verified via pdftotext at capture (heading '1301. Annual report of domestic and foreign corporations')",
+      "source_url": "https://legislature.maine.gov/statutes/13-B/title13-Bch13.pdf"
+    },
     "N6KA-GLX2": {
       "skip": "pdf payload — v1 text/html-only",
       "source_url": "https://ag.ny.gov/sites/default/files/regulatory-documents/char500-user-guide.pdf"
@@ -1020,6 +1320,19 @@
       "skip": "manually captured by Tony 2026-07-12 (Perma crawler had failed this host); binary artifact — verify-perma can't grep the payload, local bytes string-verified via by_sha256 (4ae724f7b4d8…).",
       "source_url": "https://law.resource.org/pub/us/code/ga/gov.ga.ocga.2019.08.21.release.73.zip"
     },
+    "NNH5-JKTG": {
+      "basis": "Texas Secretary of State, FAQs for Nonprofit Corporation Periodic Reports — the AGENCY lane (reader B) of the 2026-08-15 TX corporate read. Carries the clause that independently refutes the Comptroller/PIR encode: the periodic-report duty binds 'regardless of the corporation's tax status'.",
+      "skip": "MEASURED TWICE, DIFFERENT GUIDS, SAME RESULT: Perma's render of www.sos.state.tx.us archives the right page (WARC <title> = 'Nonprofit Organizations FAQs') but NOT the FAQ answer bodies. 2026-08-15: GUID 2XMV-VWWM, 4676574 byte WARC, 3 of 4 needles absent; re-captured as NNH5-JKTG, 4676595 byte WARC, the SAME 3 absent. Not an outage and not rot — a deterministic partial render of a host that also bot-filters plain fetches (www.sos.state.tx.us/corp/formsfees.shtml 403s to curl). ⛔ THIS IS A DOCUMENTED SKIP OF THE PERMA LAYER ONLY, NOT OF THE EVIDENCE. The durable record is the local artifact TX/www.sos.state.tx.us-corp-nonprofitfaqs.shtml-979b9538.html, sha256 3c4f553c2e31e63170c60cd42085696a3821168e96faa25452711fb1e4cf442a, git-tracked, IDENTICAL at both captures 12 minutes apart, and byte-matched against an independent fetch made during the read itself before any capture ran. All four needles verify against it. WORKED CASE WORTH KEEPING: a Perma that RESOLVES is not a Perma that SUPPORTS — resolution was green here while completeness was red, and only the string grep could tell them apart.",
+      "source_url": "https://www.sos.state.tx.us/corp/nonprofitfaqs.shtml"
+    },
+    "NU82-YJ6T": {
+      "basis": "HI escalation read 2026-08-18 (docs/regime_reread/HI_20260818.md; HI_VERIFY_20260818.sql) — AG amnesty news release (suspension as administered delinquency consequence)",
+      "skip": "PDF — the Perma/WARC stores the PDF text FlateDecode-compressed, so verify_perma's utf-8 WARC grep cannot read it (binary-blind). The load-bearing strings above are pdftotext byte-verified against the sha-pinned LOCAL archive (extract_text + contains_all, run 2026-08-18 before authoring; verify-strings lane covers them on every apply). Documented-skip tier for PDFs pending PDF-gate-v2 WARC-side extraction. 2026-08-18, HI verify.",
+      "source_url": "https://charity.ehawaii.gov/charity/static/Hawaii%20-%20Amnesty%20Period%20for%20Charitable%20Organizations.pdf",
+      "strings": [
+        "Amnesty Period"
+      ]
+    },
     "NUV4-MSK6": {
       "skip": "pdf payload — v1 text/html-only",
       "source_url": "https://sos.sc.gov/sites/sos/files/Documents/Charities/Application_for_Registration_Exemption.pdf"
@@ -1028,6 +1341,11 @@
       "basis": "AK Title 45 ch. 68 charitable-solicitation statute archived as a gzipped WARC that the extractor does not decompress",
       "skip": "extract_text under content_type application/octet-stream returned the undecompressed .warc.gz payload (gzip binary, ~9.3MB, begins with 0x1f8b magic); output is non-text garbage with zero occurrences of 'statute', 'Alaska', '45.68', or 'solicit', so no verbatim legal prose is visible to the substring checker",
       "source_url": "https://www.akleg.gov/basis/statutes.asp#45.68"
+    },
+    "P5SE-SLU4": {
+      "basis": "KRS 14A.6-010 \"Annual report.\" — the OPERATIVE section for Kentucky's corporate annual report: the duty, the Secretary of State as filing authority, not-for-profit corporations named explicitly at (1)(d)1, and the Jan 1–Jun 30 window at (3). (7)'s exemptions do not reach nonprofit corporations. Effective 2017-06-29. ⭐ Its sha 2467f536… is the SAME prefix KY_VERIFY_20260719.sql quoted a month earlier without ever capturing the document — the claim was true, the archive was missing.",
+      "skip": "PDF — the perma completeness check greps raw WARC bytes and this source serves a genuine binary PDF, so its text layer is unassertable by that instrument. Strings verified against the local sha-pinned artifact via by_sha256.",
+      "source_url": "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=47075"
     },
     "P6A7-A9PJ": {
       "skip": "pdf payload — WARC grep is text/html-only (disclosed cut). Secondary/corroborative source for IN reg=FALSE (https://www.in.gov/dor/files/ib17.pdf); the load-bearing verification is the by_sha256-anchored primary statute, not this artifact.",
@@ -1044,6 +1362,17 @@
     "PQW2-5A6W": {
       "skip": "pdf payload — WARC grep v1 is text/html-only (disclosed cut)",
       "source_url": "https://www.law.alaska.gov/pdf/consumer/RegIntructions-Online.pdf"
+    },
+    "PU43-FTCP": {
+      "basis": "WI Wis. Stat. 202.12 (2026-07-18 escalation re-capture; sha 754a9a0d byte-identical to the 2026-06-30 WXP2-EURJ capture => content unchanged): no charity may solicit unless registered (202.12(1)(a)); registrations expire July 31 (202.12(1)(e)); annual report within 12 months after FYE (202.12(3)(a)); audited over $1M / reviewed over $500k. WI_VERIFY_20260718.sql primary.",
+      "source_url": "https://docs.legis.wisconsin.gov/statutes/statutes/202/ii/12",
+      "strings": [
+        "A reviewed financial statement for the most recently completed fiscal year of the charitable organization, if the charitable organization received contributions in excess of $500,000",
+        "All charitable organization registrations expire on July 31 of each year",
+        "An audited financial statement for the most recently completed fiscal year of the charitable organization, if the charitable organization received contributions in excess of $1,000,000",
+        "no charitable organization may solicit in this state or have contributions solicited in this state on its behalf unless it is registered with the department"
+      ],
+      "superseded_perma_guid": "WXP2-EURJ"
     },
     "PX7U-BSCY": {
       "skip": "PDF tier (documented skip, batch-promote 2026-07-05): WARC payload is application/pdf — the v1 text-grep cannot reach it; load-bearing strings were byte-verified via pdftotext against the LOCAL artifact at crank (sign-off package in VA.sql); PDF-gate-v2 (WARC→pdftotext→grep) is the owed upgrade — ledger tripwire fires on the escalation-set recount.",
@@ -1094,12 +1423,48 @@
         "prescribes a different period"
       ]
     },
+    "QFM3-S4AM": {
+      "basis": "HI escalation read 2026-08-18 (docs/regime_reread/HI_20260818.md; HI_VERIFY_20260818.sql) — AG File page: registration/annual report/exemption filed via the state portal",
+      "source_url": "https://ag.hawaii.gov/tax/file/",
+      "strings": [
+        "Submit your initial registration, annual report, or exemption application"
+      ]
+    },
+    "QJ8F-LMVR": {
+      "basis": "Neb. Rev. Stat. 21-19,172 — the NE nonprofit corporate BIENNIAL REPORT: the duty, the Secretary of State as filing authority, odd-numbered years, the Jan 1-Apr 1 window and the April 1 due date, and (e) the cross-reference routing the fee to 21-1905 (that section number is HYPERLINKED, so a needle spanning it fails on raw text). ⚠ THIS HOST EMITS A PER-RESPONSE CSP NONCE, so its sha256 is UNSTABLE BY CONSTRUCTION: an independent fetch minutes before the capture gave sha a4e11979 vs the captured b1f945ab — identical length (25651B), 14 differing lines, ALL nonce values, statutory text identical. Re-fetch-and-compare-sha is NOT a valid continuity test for this host; compare extracted text.",
+      "source_url": "https://nebraskalegislature.gov/laws/statutes.php?statute=21-19,172",
+      "strings": [
+        "shall deliver to the Secretary of State a biennial report",
+        "between January 1 and April 1 of the odd-numbered year",
+        "the biennial report is due on April 1 of the odd-numbered",
+        "Laws 2014, LB774"
+      ]
+    },
     "QQ3R-GJPB": {
       "basis": "strings from the crank sign-off package in IL.sql; installed at batch-promote 2026-07-05",
       "source_url": "https://www.ilga.gov/documents/legislation/ilcs/documents/022504600K4.htm",
       "strings": [
         "on or before June 30 of each year",
         "within 6 months after the close of its fiscal year"
+      ]
+    },
+    "R2KS-GZ3M": {
+      "skip": "628-pp Title-18 PDF — verify_perma utf-8 WARC grep can't cover FlateDecode-compressed PDF text (_verify_perma_blind). Perma replay is COMPLETE (2.44MB WARC, full PDF payload); §552.3 deadline + §552.2 Form-990 def pdftotext-verified from the ACTUAL Perma replay 2026-07-19 (char-identical to local). Content by_sha256-verified local 295515ff."
+    },
+    "R58U-MRV5": {
+      "basis": "Neb. Rev. Stat. 21-1905 — the nonprofit fee schedule, last amended Laws 2020 LB910. NO line item for the biennial report; it falls to (a)(11), the catch-all, at $30 written / $25 electronic. A DERIVATION (21-19,172(e) points here and no specific item exists), independently confirmed by the Secretary of State's own fee page.",
+      "source_url": "https://nebraskalegislature.gov/laws/statutes.php?statute=21-1905",
+      "strings": [
+        "Any other document required or permitted to be filed by the Nebraska Nonprofit Corporation Act",
+        "Laws 2020, LB910"
+      ]
+    },
+    "R7A8-4YWK": {
+      "basis": "Nebraska Secretary of State, Annual/Biennial Reporting — reader B, a different issuing body. Confirms biennial + odd-numbered years + April 1 and adds the DELINQUENCY date (June 16) the statute does not state. ⚠ Needles are split deliberately: the sentence carries &nbsp; entities and a <u> tag around 'odd numbered years', so a single spanning needle fails the extractor.",
+      "source_url": "https://sos.nebraska.gov/business-services/annualbiennial-reporting",
+      "strings": [
+        "Domestic and Foreign Nonprofit Corporations biennial reports are due in the",
+        "by April 1, delinquent June 16"
       ]
     },
     "R9UM-YKNP": {
@@ -1122,6 +1487,11 @@
       "skip": "PDF tier (documented skip, batch-2 2026-07-06): strings 'DO NOT complete or submit this form or pay filling fees' + 'exempt from registration with the Attorney General' byte-verified via pdftotext against the LOCAL artifact; WARC text-grep unreachable until PDF-gate-v2 apply wiring (packet E5).",
       "source_url": "https://ago.mo.gov/wp-content/uploads/charityinitialCH.pdf"
     },
+    "RW76-SDWS": {
+      "basis": "Missouri Secretary of State, Schedule of Fees and Charges — reader B, and the source of what a filer ACTUALLY PAYS. Under 'CHAPTER 355 FEES—Not for Profit Corporations' it lists Annual Registration Report Filed Timely at $15 (paper) / $10 (on-line) and Biennial at $30 / $20. ⛔ THOSE EXCEED RSMo 355.021's base fees by exactly $5 (annual) and $10 (biennial). The $10 biennial delta is authorised by 355.857(1)(3) as a technology-trust fee; the $5 ANNUAL delta's authorising provision was NOT located and is recorded as unresolved rather than explained.",
+      "skip": "PDF — the perma completeness check greps raw WARC bytes and this is a genuine binary PDF, so its text layer is unassertable by that instrument. Strings verified against the local sha-pinned artifact via the by_sha256 entry.",
+      "source_url": "https://www.sos.mo.gov/CMSImages/Business/fees.pdf"
+    },
     "RW99-CZZN": {
       "basis": "strings verified present in local artifact CO/www.coloradosos.gov-pubs-charities-instructions-charity-extensions.html.html (SOS extension mechanics: auto 3-month + requested second 3-month, IRS-coupled)",
       "source_url": "https://www.coloradosos.gov/pubs/charities/instructions/charity/extensions.html",
@@ -1137,6 +1507,18 @@
     "S5ZB-AA24": {
       "skip": "manually captured by Tony 2026-07-12 — a SINGLE combined PDF assembled from the 7 other WA sources (WAC 434-120-042/047/140; RCW 1.16.050, 19.09.062/075/085). All 7 manifest entries point here; each source's content is string-verified locally via its own by_sha256 entry.",
       "source_url": "https://app.leg.wa.gov/ (combined)"
+    },
+    "S5ZV-YRFR": {
+      "basis": "HI escalation read 2026-08-18 (docs/regime_reread/HI_20260818.md; HI_VERIFY_20260818.sql) — BREG Q3-2026 press release: quarter framing + nonprofit online fee",
+      "source_url": "https://cca.hawaii.gov/breg/third-quarter-hawaii-annual-business-reports-due-2026/",
+      "strings": [
+        "Nonprofit corporations: $2.50"
+      ]
+    },
+    "S69D-NUUB": {
+      "skip": "binary artifact (pdf); Perma capture exists; load-bearing strings verified against LOCAL bytes via by_sha256 (d7677f9f93e2…).",
+      "source_url": "https://sdlegislature.gov/api/Statutes/37-27.html?all=true",
+      "superseded_perma_guid": "7AHD-4KUF"
     },
     "S6DY-B4KP": {
       "skip": "binary artifact (pdf/zip/docx); Perma capture exists (399122B WARC) but verify-perma's raw-byte grep can't read a binary payload — the intended PDF SKIP. Load-bearing strings verified against the LOCAL bytes via by_sha256 (a4ac8c9d22c9…).",
@@ -1198,13 +1580,52 @@
       "skip": "PDF tier (documented skip, batch-promote 2026-07-05): WARC payload is application/pdf — the v1 text-grep cannot reach it; load-bearing strings were byte-verified via pdftotext against the LOCAL artifact at crank (sign-off package in TN.sql); PDF-gate-v2 (WARC→pdftotext→grep) is the owed upgrade — ledger tripwire fires on the escalation-set recount.",
       "source_url": "https://rda.tnsosfiles.com/legal-citation/2176.legal.pdf"
     },
+    "T5Y6-RGD7": {
+      "basis": "HI escalation read 2026-08-18 (docs/regime_reread/HI_20260818.md; HI_VERIFY_20260818.sql) — Special Transmittal Guide: 15th-day-of-5th-month rule for 990-N/non-filers/failed-to-file",
+      "skip": "PDF — the Perma/WARC stores the PDF text FlateDecode-compressed, so verify_perma's utf-8 WARC grep cannot read it (binary-blind). The load-bearing strings above are pdftotext byte-verified against the sha-pinned LOCAL archive (extract_text + contains_all, run 2026-08-18 before authoring; verify-strings lane covers them on every apply). Documented-skip tier for PDFs pending PDF-gate-v2 WARC-side extraction. 2026-08-18, HI verify.",
+      "source_url": "https://ag.hawaii.gov/tax/files/2018/06/Hawaii-Charity-Special-Annual-Transmittal-Guide-7.10.19.pdf",
+      "strings": [
+        "due no later than the 15th day of the",
+        "5th month after the end of its fiscal year"
+      ]
+    },
     "T8JX-UD4N": {
       "skip": "binary artifact (pdf/zip/docx); Perma capture exists (301067B WARC) but verify-perma's raw-byte grep can't read a binary payload — the intended PDF SKIP. Load-bearing strings verified against the LOCAL bytes via by_sha256 (4b115c3cbf9e…).",
       "source_url": "https://ag.louisiana.gov/Files/Article/70/Documents/CharitableExemptionForm.pdf"
     },
+    "T9P9-VZVY": {
+      "basis": "Florida Department of State, Division of Corporations (Sunbiz) — reader B, a different issuing body from the Legislature. Independently states the $61.25 nonprofit fee, that NON-PROFIT corporations are exempt from the $400 late fee, and the third-Friday-of-September administrative-dissolution backstop the statute does not give.",
+      "source_url": "https://dos.fl.gov/sunbiz/manage-business/efile/annual-report/",
+      "strings": [
+        "Non-profit corporations are not subject to the $400 late fee",
+        "Profit or Non-Profit Corporation: $61.25",
+        "third Friday of September"
+      ]
+    },
+    "TL2J-2J7K": {
+      "basis": "azleg.gov ARS index — the AMENDMENT-CHECK source for the AZ read, quoted for its own stated limit: the compilation covers the 57th Legislature 1st Regular Session and not the 2nd. Byte-identical (sha 5500bb6c) to the 2026-07-03 capture, so the statement has been stable across six weeks.",
+      "source_url": "https://www.azleg.gov/arstitle/",
+      "strings": [
+        "updated to include the revised sections from the 57th Legislature, 1st Regular Session"
+      ]
+    },
+    "TT3D-5XFM": {
+      "basis": "A.R.S. 10-3122(A)(16) — the $10 nonprofit annual report filing fee, the only statutory source for AZ corporate_filing_fee.",
+      "source_url": "https://www.azleg.gov/ars/10/03122.htm",
+      "strings": [
+        "Filing, service and copying fees",
+        "Annual report",
+        "$ 10"
+      ]
+    },
     "TVD2-L824": {
       "skip": "MEASURED 2026-07-05 (batch-promote string install): the HB1290IN capture is CONTENT-EMPTY at the byte layer — zero hits for 'charitable'/'fifteenth'/'79-11-503' in the 95KB local artifact and the WARC grep agrees (COMPLETENESS FAIL) — the capture holds a shell/frameset, NOT the bill text the crank cited as 'base-text reproduction'. DISCLOSED DEGRADATION of one currency-corroboration prong: MS's currency chain still stands on the died-bills sweep (HB367/HB134/HB1290/HB5/HB516 all died in committee through 2026) + the enacted SB2447 PRIMARY (H93X-34VY, strings verified in WARC). Nothing value-bearing rests on this GUID. Shown-at-next-packet per the D2(b) clause.",
       "source_url": "https://billstatus.ls.state.ms.us/documents/2024/html/HB/1200-1299/HB1290IN.htm"
+    },
+    "U2PS-EFKS": {
+      "basis": "HI escalation read 2026-08-18 (docs/regime_reread/HI_20260818.md; HI_VERIFY_20260818.sql) — Annual Reporting Requirements sheet",
+      "skip": "image-only scanned PDF, no text layer (ExtractionEmpty); quotes in the read doc are transcriptions; every load-bearing value it carries is also string-verified in the 2021 Annual Report Guide (CXT6-4Y74), the Special Guide (T5Y6-RGD7), the portal help page (G9PS-AJ29) or the statute primary (by_sha256 b5e648d1...)",
+      "source_url": "https://ag.hawaii.gov/tax/files/2020/02/Annual-Reporting-Requirements.pdf"
     },
     "U5YT-ZBSG": {
       "basis": "NV NAC 82: earlier-only election 82.330(2); fewer-than-15 gloss 82.205(2) (analogical-only; chapeau keys to repealed 82.392); dynamic-markup page, text-identical class. Strings grep-verified byte-present (raw) in the hash-matched local archive NV/www.leg.state.nv.us-nac-NAC-082.html.html (2026-07-18, NV apply-gate remediation; GUIDs minted at the 07-17 quota-refill retry).",
@@ -1248,6 +1669,14 @@
         "seventy-five days"
       ]
     },
+    "VV9K-ZWRL": {
+      "basis": "Iowa Secretary of State, Business Entity Forms & Fees — reader B, and the ONLY source for IA's corporate fee since Iowa Code 504.1613(4)(b) delegates it. ⛔ THE HEADLINE NUMBER IS WRONG FOR OUR FILER AND THE FOOTNOTE GOVERNS: 'LLCs, LLPs, and Nonprofit Corporations: Every Odd numbered year ... The fee is $30* by online filing or $45* by paper' followed by '*Nonprofit corporations do not have a filing fee for their biennial reports.' Reading the headline alone would have produced a FALSE correction of prod's correct $0. ⚠ Needles avoid crossing tag boundaries: 'Nonprofit Corporations:' sits inside <strong> and the footnote inside <em>. ⚠ This host also varies per response (same byte length, 6 differing lines) so its sha is not a continuity test — same class as nebraskalegislature.gov.",
+      "source_url": "https://sos.iowa.gov/businesses/business-entity-forms-and-fees",
+      "strings": [
+        "Every Odd numbered year beginning January 1st and due by April 1st",
+        "Nonprofit corporations do not have a filing fee for their biennial reports"
+      ]
+    },
     "W64R-HCNJ": {
       "skip": "binary artifact (pdf/zip/docx); Perma capture exists (1140709B WARC) but verify-perma's raw-byte grep can't read a binary payload — the intended PDF SKIP. Load-bearing strings verified against the LOCAL bytes via by_sha256 (d11fc94e2091…).",
       "source_url": "https://www.sos.wa.gov/_assets/charities/charitable-organization-renewal.pdf"
@@ -1269,16 +1698,6 @@
       "strings": [
         "Fiscal Year End",
         "RRF-1"
-      ]
-    },
-    "WXP2-EURJ": {
-      "basis": "WI 202.12: no charity may solicit unless registered; audited statement over $1,000,000, reviewed over $500,000; registrations expire July 31",
-      "source_url": "https://docs.legis.wisconsin.gov/statutes/statutes/202/ii/12",
-      "strings": [
-        "no charitable organization may solicit in this state or have contributions solicited in this state on its behalf unless it is registered with the department",
-        "An audited financial statement for the most recently completed fiscal year of the charitable organization, if the charitable organization received contributions in excess of $1,000,000",
-        "A reviewed financial statement for the most recently completed fiscal year of the charitable organization, if the charitable organization received contributions in excess of $500,000",
-        "All charitable organization registrations expire on July 31 of each year"
       ]
     },
     "WY8M-AGYA": {
@@ -1315,6 +1734,18 @@
         "end date of the financial statement"
       ]
     },
+    "X6WW-KSD7": {
+      "basis": "Iowa Code 504.1613 (Iowa Code 2026 edition) — the IA nonprofit corporate BIENNIAL REPORT: the duty, the secretary of state as filing authority, the Jan 1-Apr 1 odd-year window, and 4(b) DELEGATING THE FEE ('A filing fee for the biennial report shall be determined by the secretary of state'), which is why the agency lane is not optional for IA. History: 2004 Acts, ch 1049, 175, 192.",
+      "skip": "PDF — the perma completeness check is a RAW SUBSTRING GREP over decoded WARC bytes and this source URL is a genuine binary PDF, so its text layer is compressed and unassertable by that instrument in either direction (measured: WARC 53255 bytes, 0 of 3 needles). Corpus norm for real-PDF sources. Load-bearing strings ARE verified, against the local sha-pinned artifact, via the by_sha256 entry below — which is the lane that reads local files.",
+      "source_url": "https://www.legis.iowa.gov/docs/code/504.1613.pdf"
+    },
+    "X7UN-9H3M": {
+      "basis": "K.S.A. 17-7504: biennial report due not later than June 15 (KS corporate breadth read, 2026-07-19)",
+      "source_url": "https://www.ksrevisor.gov/statutes/chapters/ch17/017_075_0004.html",
+      "strings": [
+        "The report shall be filed not later than June 15."
+      ]
+    },
     "X9XU-D9W6": {
       "basis": "MO 355.857 lets corporations file corporate registration reports biennially rather than annually, with a $10 additional fee.",
       "source_url": "https://web.archive.org/web/20260521135408/https://revisor.mo.gov/main/OneSection.aspx?section=355.857",
@@ -1330,6 +1761,22 @@
       "source_url": "https://www.sosnc.gov/frequently_asked_questions/by_title/_charities",
       "strings": [
         "based on your organization’s fiscal year end"
+      ]
+    },
+    "XE7U-A27U": {
+      "basis": "CT corporate-axis capture (CGS ch. 602, Nonstock Corporations) from the 2026-08-01 corporate breadth arc; covered 2026-08-18 when the CT exemption-procedure apply surfaced it as a pre-sidecar-convention entry. Corroborating corporate-lane artifact; the charitable corrections do not rest on it.",
+      "source_url": "https://www.cga.ct.gov/current/pub/chap_602.htm",
+      "strings": [
+        "Chapter 602",
+        "Nonstock Corporations",
+        "annual report"
+      ]
+    },
+    "XQ4V-NA4S": {
+      "basis": "CA Corp Code §6210 — statement-of-information content requirements",
+      "source_url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=6210.&lawCode=CORP",
+      "strings": [
+        "statement containing all the information required by subdivisions (a) and (b)"
       ]
     },
     "XSX5-L3P5": {
@@ -1372,9 +1819,34 @@
         "selected an alternative due date"
       ]
     },
+    "YCP6-BGMP": {
+      "basis": "OR OARD attachment — the income-banded charitable filing fee schedule",
+      "source_url": "https://secure.sos.state.or.us/oard/viewAttachment.action?ruleVrsnRsn=10457",
+      "strings": [
+        "Income during Time Period of Report",
+        "$1 million or more"
+      ]
+    },
     "YF84-XRPU": {
       "skip": "binary OLE2/MS-Word .doc (16 DCMR §1301); magic d0cf11e0 + readable section text verified 2026-07-17; strings not greppable in the Perma WARC binary payload",
       "source_url": "https://dcregs.dc.gov/Common/DCMR/RuleList.aspx?DownloadFile={323FACC7-8663-45B9-829B-02DFB475C70A}"
+    },
+    "YK3L-PHHV": {
+      "basis": "Fla. Stat. §617.1622 — the Florida nonprofit corporate ANNUAL REPORT: the duty, the Department of State as filing authority, the May 1 due date and the Jan 1-May 1 window. Reader A of the 2026 FL corporate read. Replaces a record that cited §496.405 (Solicitation of Contributions Act) for these columns.",
+      "source_url": "https://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0600-0699/0617/Sections/0617.1622.html",
+      "strings": [
+        "shall deliver to the Department of State for filing a sworn annual report",
+        "on or before May 1",
+        "between January 1 and May 1",
+        "s. 41, ch. 2001-63"
+      ]
+    },
+    "YMX8-5FAL": {
+      "basis": "HI escalation read 2026-08-18 (docs/regime_reread/HI_20260818.md; HI_VERIFY_20260818.sql) — the state filing portal page the AG links to (renewal_form_url)",
+      "source_url": "https://efile.form990.org/frmNPParticipatingStateSCOHI.asp",
+      "strings": [
+        "Hawaii"
+      ]
     },
     "YVS9-S6MZ": {
       "basis": "strings from the crank sign-off package in KS.sql; installed at batch-promote 2026-07-05",
@@ -1382,6 +1854,11 @@
       "strings": [
         "expire on the last day of the sixth month following the month"
       ]
+    },
+    "YX7N-E5E7": {
+      "basis": "HI escalation read 2026-08-18 (docs/regime_reread/HI_20260818.md; HI_VERIFY_20260818.sql) — AG Tax & Charities FAQs",
+      "skip": "image-only scanned PDF, no text layer (ExtractionEmpty); quotes in the read doc are transcriptions; load-bearing values corroborated in text-bearing artifacts (Registration Guide JL87-5C3P, 2021 Guide CXT6-4Y74, portal pages) and the statute captures",
+      "source_url": "https://ag.hawaii.gov/tax/files/2020/09/T-C-FAQs.pdf"
     },
     "Z48D-DY2Z": {
       "basis": "strings verified present in local artifact MN/www.revisor.mn.gov-statutes-cite-309.53.html (authored at capture per convention, 2026-06-14)",
@@ -1423,6 +1900,13 @@
         "receives $1 million or more in annual contributions, the financial statement shall be audited by an independent certified public accountant."
       ]
     },
+    "ZR3T-C2HC": {
+      "basis": "IL General Not For Profit Corporation Act of 1986 — annual report of domestic or foreign corporation",
+      "source_url": "https://www.ilga.gov/legislation/ILCS/details?ActName=General%20Not%20For%20Profit%20Corporation%20Act%20of%201986.&ActID=2280&ChapterID=65&SeqStart=11800000&SeqEnd=12200000",
+      "strings": [
+        "Annual report of domestic or foreign corporation"
+      ]
+    },
     "ZS3B-QTZR": {
       "basis": "strings verified present in local artifact ME/www.mainelegislature.org-legis-statutes-9-title9sec5004.html.html",
       "source_url": "https://www.mainelegislature.org/legis/statutes/9/title9sec5004.html",
@@ -1433,486 +1917,6 @@
     "ZTY5-AFUX": {
       "skip": "binary OLE2/MS-Word .doc (16 DCMR §1305); magic d0cf11e0 + readable section text verified 2026-07-17; strings not greppable in the Perma WARC binary payload",
       "source_url": "https://dcregs.dc.gov/Common/DCMR/RuleList.aspx?DownloadFile=60C2545F-0000-C745-A56E-7B4A4DF553F0"
-    },
-    "PU43-FTCP": {
-      "basis": "WI Wis. Stat. 202.12 (2026-07-18 escalation re-capture; sha 754a9a0d byte-identical to the 2026-06-30 WXP2-EURJ capture => content unchanged): no charity may solicit unless registered (202.12(1)(a)); registrations expire July 31 (202.12(1)(e)); annual report within 12 months after FYE (202.12(3)(a)); audited over $1M / reviewed over $500k. WI_VERIFY_20260718.sql primary.",
-      "source_url": "https://docs.legis.wisconsin.gov/statutes/statutes/202/ii/12",
-      "strings": [
-        "no charitable organization may solicit in this state or have contributions solicited in this state on its behalf unless it is registered with the department",
-        "An audited financial statement for the most recently completed fiscal year of the charitable organization, if the charitable organization received contributions in excess of $1,000,000",
-        "A reviewed financial statement for the most recently completed fiscal year of the charitable organization, if the charitable organization received contributions in excess of $500,000",
-        "All charitable organization registrations expire on July 31 of each year"
-      ]
-    },
-    "F8DQ-QGQM": {
-      "basis": "WI DFI charitable FAQ (2026-07-18 escalation re-capture): register if soliciting with a paid employee or $25,000+ contributions; 30-day register-on-crossing; two-obligation (renewal vs annual report) confirmation. WI_VERIFY_20260718.sql secondary.",
-      "source_url": "https://dfi.wi.gov/Pages/BusinessServices/CharitableProfessionalOrganizations/CharitableOrganizationsFAQ.aspx",
-      "strings": [
-        "needs to register if it solicits in Wisconsin and either has a paid employee(s) and/or receives $25,000 or more in contributions in a fiscal year.",
-        "it must, within 30 days register with the division.",
-        "A charitable organization must submit this form if it received $25,000 or less in contributions during its most recently completed fiscal year.",
-        "A Charitable organization with a ‘home’ office outside of Wisconsin needs to be registered if it solicits in Wisconsin",
-        "The annual report and the renewal are two different annual requirements"
-      ]
-    },
-    "S69D-NUUB": {
-      "skip": "binary artifact (pdf); Perma capture exists; load-bearing strings verified against LOCAL bytes via by_sha256 (d7677f9f93e2…).",
-      "source_url": "https://sdlegislature.gov/api/Statutes/37-27.html?all=true"
-    },
-    "5CLC-QC7Q": {
-      "skip": "binary artifact (pdf); Perma capture exists; load-bearing strings verified against LOCAL bytes via by_sha256 (3922560cdd4d…).",
-      "source_url": "https://sdlegislature.gov/api/Statutes/47-24-19.html?all=true"
-    },
-    "8PFB-HQWZ": {
-      "skip": "OSCN DeliverDocument.asp is a dynamic/JS page; Perma server-side replay captured a 2.4MB asset shell lacking the statute text (verified 2026-07-19). Content verified via by_sha256 local bytes 68aa8a74. Durable §552.3 backstop = os18.pdf Perma R2KS-GZ3M (complete PDF, §552.3+§552.2 pdftotext-verified in the actual replay)."
-    },
-    "R2KS-GZ3M": {
-      "skip": "628-pp Title-18 PDF — verify_perma utf-8 WARC grep can't cover FlateDecode-compressed PDF text (_verify_perma_blind). Perma replay is COMPLETE (2.44MB WARC, full PDF payload); §552.3 deadline + §552.2 Form-990 def pdftotext-verified from the ACTUAL Perma replay 2026-07-19 (char-identical to local). Content by_sha256-verified local 295515ff."
-    },
-    "D5B2-EQDE": {
-      "skip": "KRS 367.657 PDF — verify_perma utf-8 grep can't cover FlateDecode-compressed PDF text (_verify_perma_blind). Perma replay is the complete PDF payload; the load-bearing §367.657 clauses are pdftotext-verified from the local bytes via by_sha256 8498bfc6 (KY verify 2026-07-19).",
-      "source_url": "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=35030"
-    },
-    "6RCT-69FR": {
-      "basis": "MCL 450.2911(1): nonprofit annual report due October 1 each year (MI corporate breadth read, 2026-07-19)",
-      "source_url": "https://www.legislature.mi.gov/Laws/MCL?objectName=MCL-450-2911",
-      "strings": [
-        "shall file a report with the administrator not later than October 1 of e"
-      ]
-    },
-    "4EVU-B97A": {
-      "basis": "W.Va. Code 59-1-2a(e): annual report fee/filing to the Secretary of State (WV corporate breadth read, 2026-07-19)",
-      "source_url": "https://code.wvlegislature.gov/59-1-2a/",
-      "strings": [
-        "Annual and biennial business fees to be paid to the Secretary of State"
-      ]
-    },
-    "X7UN-9H3M": {
-      "basis": "K.S.A. 17-7504: biennial report due not later than June 15 (KS corporate breadth read, 2026-07-19)",
-      "source_url": "https://www.ksrevisor.gov/statutes/chapters/ch17/017_075_0004.html",
-      "strings": [
-        "The report shall be filed not later than June 15."
-      ]
-    },
-    "M76Q-9RHZ": {
-      "basis": "Fla. Stat. 617.1622: nonprofit annual report, on or before May 1 (FL corporate breadth read, 2026-07-19)",
-      "source_url": "https://www.flsenate.gov/laws/statutes/2022/617.1622",
-      "strings": [
-        "on or before May 1"
-      ]
-    },
-    "9LL4-NTTL": {
-      "basis": "R.I.G.L. 7-6-91: filing of annual report of domestic and foreign corporations (RI corporate breadth read, 2026-07-19)",
-      "source_url": "https://webserver.rilegislature.gov/Statutes/TITLE7/7-6/7-6-91.htm",
-      "strings": [
-        "Filing of annual report of domestic and foreign corporations"
-      ]
-    },
-    "8P33-BEDH": {
-      "basis": "Wis. Stat. 181.0214: annual report for department (WI corporate breadth read, 2026-07-19)",
-      "source_url": "https://docs.legis.wisconsin.gov/statutes/statutes/181/ii/0214",
-      "strings": [
-        "Annual report for department"
-      ]
-    },
-    "C2G2-G6K2": {
-      "basis": "ORS 65.787(1): annual report current as of 30 days before the corporation's anniversary (OR corporate breadth read, 2026-07-19)",
-      "source_url": "https://oregon.public.law/statutes/ors_65.787",
-      "strings": [
-        "must be current as of 30 days before the anniversary of the corporation"
-      ]
-    },
-    "K3PC-3TGP": {
-      "basis": "MN Minn. Stat. 317A.823 — CAPTURE VOID, NOT A RECEIPT. revisor.mn.gov serves a JS shell: the raw payload contains only site chrome and the page title, no statutory text. Found 2026-07-31 when sidecar-string extraction returned nothing; my pre-capture content check had matched the section NUMBER in the title, not the statute text — an insufficient check, recorded here. MN's READ (2026-07-19, primary) is unaffected and its citation stands; MN is re-queued for capture via a text-serving source.",
-      "source_url": "https://www.revisor.mn.gov/statutes/cite/317A.823",
-      "skip": "js-shell payload — no statutory text to grep; capture void and re-queued, NOT a durability downgrade of the read"
-    },
-    "N66A-6RV8": {
-      "basis": "13-B M.R.S. 1301: annual report of domestic and foreign corporations (ME corporate read, 2026-07-19; ME remains DEMOTED — agency-assigned, no anchor)",
-      "source_url": "https://legislature.maine.gov/statutes/13-B/title13-Bch13.pdf",
-      "skip": "pdf payload — WARC grep v1 is text/html-only; local-byte-verified via pdftotext at capture (heading '1301. Annual report of domestic and foreign corporations')"
-    },
-    "5JUZ-4Y74": {
-      "basis": "Tex. Bus. Orgs. Code 4.153(11) — the $5 filing fee for a Chapter 22 report, the only source for TX corporate_filing_fee. NOTE ON NEEDLE SHAPE: the extractor preserves markup and this source HYPERLINKS the chapter number, so the fee clause is split by an anchor tag; the third needle carries the tag boundary deliberately rather than a normalized reading that would silently miss. Authored at capture 2026-08-15.",
-      "source_url": "https://tcss.legis.texas.gov/resources/BO/htm/BO.4.htm",
-      "strings": [
-        "FILING FEES: NONPROFIT CORPORATIONS",
-        "for filing a report under Chapter",
-        ">22</a>, $5;"
-      ]
-    },
-    "K8CY-NU7X": {
-      "basis": "Tex. Bus. Orgs. Code ch. 22 subch. H — the nonprofit corporate PERIODIC REPORT: SoS-demanded, capped at once per four years (22.357), notice-triggered (22.358), due 30 days after mailing (22.359), forfeiture on failure (22.360). Load-bearing for the 2026-08-15 corporate read that replaced TX's franchise-tax encode. Re-capture of Y4XD-NLBG at the same content sha256 777cf9c4 (bytes stable across two fetches 12 minutes apart); the earlier GUID's entry is kept so both resolve.",
-      "source_url": "https://tcss.legis.texas.gov/resources/BO/htm/BO.22.htm",
-      "strings": [
-        "REPORT OF DOMESTIC AND FOREIGN CORPORATIONS",
-        "not more than once every four years",
-        "The secretary of state shall send written notice",
-        "not later than the 30th day after the date notice is mailed"
-      ]
-    },
-    "NNH5-JKTG": {
-      "basis": "Texas Secretary of State, FAQs for Nonprofit Corporation Periodic Reports — the AGENCY lane (reader B) of the 2026-08-15 TX corporate read. Carries the clause that independently refutes the Comptroller/PIR encode: the periodic-report duty binds 'regardless of the corporation's tax status'.",
-      "source_url": "https://www.sos.state.tx.us/corp/nonprofitfaqs.shtml",
-      "skip": "MEASURED TWICE, DIFFERENT GUIDS, SAME RESULT: Perma's render of www.sos.state.tx.us archives the right page (WARC <title> = 'Nonprofit Organizations FAQs') but NOT the FAQ answer bodies. 2026-08-15: GUID 2XMV-VWWM, 4676574 byte WARC, 3 of 4 needles absent; re-captured as NNH5-JKTG, 4676595 byte WARC, the SAME 3 absent. Not an outage and not rot — a deterministic partial render of a host that also bot-filters plain fetches (www.sos.state.tx.us/corp/formsfees.shtml 403s to curl). ⛔ THIS IS A DOCUMENTED SKIP OF THE PERMA LAYER ONLY, NOT OF THE EVIDENCE. The durable record is the local artifact TX/www.sos.state.tx.us-corp-nonprofitfaqs.shtml-979b9538.html, sha256 3c4f553c2e31e63170c60cd42085696a3821168e96faa25452711fb1e4cf442a, git-tracked, IDENTICAL at both captures 12 minutes apart, and byte-matched against an independent fetch made during the read itself before any capture ran. All four needles verify against it. WORKED CASE WORTH KEEPING: a Perma that RESOLVES is not a Perma that SUPPORTS — resolution was green here while completeness was red, and only the string grep could tell them apart."
-    },
-    "CV2Y-2YWY": {
-      "basis": "Texas SoS Form 802, the periodic-report instrument itself — 'Periodic Report of a Nonprofit Corporation', filed with the Secretary of State, Reports Unit. Added 2026-08-15 as a second agency-lane artifact after the FAQ's Perma came back incomplete; establishes form identity and filing agency from the agency's own document.",
-      "source_url": "https://www.sos.state.tx.us/corp/forms/802_boc.pdf",
-      "skip": "PDF — the completeness check is a RAW SUBSTRING GREP over the decoded WARC bytes, and a PDF's text lives in compressed streams, so it cannot be asserted by this instrument in either direction. Corpus norm, measured 2026-08-15: of 79 PDF perma entries, 76 already carry exactly this skip. Strings verified against the local artifact instead (TX/www.sos.state.tx.us-corp-forms-802_boc.pdf..., extractor-read: 'Periodic Report', 'Nonprofit Corporation', 'Secretary of State', 'Reports Unit', 'Form 802')."
-    },
-    "G7U6-QUHM": {
-      "basis": "A.R.S. 10-11622 (Annual report) — the AZ nonprofit corporate duty, its annual cadence, and the anniversary-month/ACC-assigned-date rule that the encoded deadline string compresses and that the engine's agency-assigned predicate keys on. Reader A of the 2026-08-15 AZ corporate read.",
-      "source_url": "https://www.azleg.gov/ars/10/11622.htm",
-      "strings": [
-        "Annual report",
-        "shall deliver to the commission for filing an annual report",
-        "in the anniversary month on the date assigned by the commission"
-      ]
-    },
-    "TT3D-5XFM": {
-      "basis": "A.R.S. 10-3122(A)(16) — the $10 nonprofit annual report filing fee, the only statutory source for AZ corporate_filing_fee.",
-      "source_url": "https://www.azleg.gov/ars/10/03122.htm",
-      "strings": [
-        "Filing, service and copying fees",
-        "Annual report",
-        "$ 10"
-      ]
-    },
-    "4VWT-B9XG": {
-      "basis": "Arizona Corporation Commission Business Services FAQs — reader B (agency lane) of the 2026-08-15 AZ corporate read, and a LIVE page confirming the regime is unchanged by the 2026 session that the ARS compilation does not yet cover. NOTE: this is also the page the 2026-05 verification rows cited for the corporate columns, and it contains NO occurrence of 'anniversary' — the citation did not support the encoded deadline even though the value is correct.",
-      "source_url": "https://azcc.gov/faqs/BusinessServicesFAQs",
-      "strings": [
-        "nonprofit corporations have an annual report filing fee of $10",
-        "by their designated due date each year"
-      ]
-    },
-    "TL2J-2J7K": {
-      "basis": "azleg.gov ARS index — the AMENDMENT-CHECK source for the AZ read, quoted for its own stated limit: the compilation covers the 57th Legislature 1st Regular Session and not the 2nd. Byte-identical (sha 5500bb6c) to the 2026-07-03 capture, so the statement has been stable across six weeks.",
-      "source_url": "https://www.azleg.gov/arstitle/",
-      "strings": [
-        "updated to include the revised sections from the 57th Legislature, 1st Regular Session"
-      ]
-    },
-    "YK3L-PHHV": {
-      "basis": "Fla. Stat. §617.1622 — the Florida nonprofit corporate ANNUAL REPORT: the duty, the Department of State as filing authority, the May 1 due date and the Jan 1-May 1 window. Reader A of the 2026 FL corporate read. Replaces a record that cited §496.405 (Solicitation of Contributions Act) for these columns.",
-      "source_url": "https://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0600-0699/0617/Sections/0617.1622.html",
-      "strings": [
-        "shall deliver to the Department of State for filing a sworn annual report",
-        "on or before May 1",
-        "between January 1 and May 1",
-        "s. 41, ch. 2001-63"
-      ]
-    },
-    "L6P2-4RR6": {
-      "basis": "Fla. Stat. §617.0122(17) — 'Annual report: $61.25', the statutory source for FL corporate_filing_fee.",
-      "source_url": "https://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0600-0699/0617/Sections/0617.0122.html",
-      "strings": [
-        "Fees for filing documents and issuing certificates",
-        "Annual report"
-      ]
-    },
-    "T9P9-VZVY": {
-      "basis": "Florida Department of State, Division of Corporations (Sunbiz) — reader B, a different issuing body from the Legislature. Independently states the $61.25 nonprofit fee, that NON-PROFIT corporations are exempt from the $400 late fee, and the third-Friday-of-September administrative-dissolution backstop the statute does not give.",
-      "source_url": "https://dos.fl.gov/sunbiz/manage-business/efile/annual-report/",
-      "strings": [
-        "Non-profit corporations are not subject to the $400 late fee",
-        "Profit or Non-Profit Corporation: $61.25",
-        "third Friday of September"
-      ]
-    },
-    "QJ8F-LMVR": {
-      "basis": "Neb. Rev. Stat. 21-19,172 — the NE nonprofit corporate BIENNIAL REPORT: the duty, the Secretary of State as filing authority, odd-numbered years, the Jan 1-Apr 1 window and the April 1 due date, and (e) the cross-reference routing the fee to 21-1905 (that section number is HYPERLINKED, so a needle spanning it fails on raw text). ⚠ THIS HOST EMITS A PER-RESPONSE CSP NONCE, so its sha256 is UNSTABLE BY CONSTRUCTION: an independent fetch minutes before the capture gave sha a4e11979 vs the captured b1f945ab — identical length (25651B), 14 differing lines, ALL nonce values, statutory text identical. Re-fetch-and-compare-sha is NOT a valid continuity test for this host; compare extracted text.",
-      "source_url": "https://nebraskalegislature.gov/laws/statutes.php?statute=21-19,172",
-      "strings": [
-        "shall deliver to the Secretary of State a biennial report",
-        "between January 1 and April 1 of the odd-numbered year",
-        "the biennial report is due on April 1 of the odd-numbered",
-        "Laws 2014, LB774"
-      ]
-    },
-    "R58U-MRV5": {
-      "basis": "Neb. Rev. Stat. 21-1905 — the nonprofit fee schedule, last amended Laws 2020 LB910. NO line item for the biennial report; it falls to (a)(11), the catch-all, at $30 written / $25 electronic. A DERIVATION (21-19,172(e) points here and no specific item exists), independently confirmed by the Secretary of State's own fee page.",
-      "source_url": "https://nebraskalegislature.gov/laws/statutes.php?statute=21-1905",
-      "strings": [
-        "Any other document required or permitted to be filed by the Nebraska Nonprofit Corporation Act",
-        "Laws 2020, LB910"
-      ]
-    },
-    "R7A8-4YWK": {
-      "basis": "Nebraska Secretary of State, Annual/Biennial Reporting — reader B, a different issuing body. Confirms biennial + odd-numbered years + April 1 and adds the DELINQUENCY date (June 16) the statute does not state. ⚠ Needles are split deliberately: the sentence carries &nbsp; entities and a <u> tag around 'odd numbered years', so a single spanning needle fails the extractor.",
-      "source_url": "https://sos.nebraska.gov/business-services/annualbiennial-reporting",
-      "strings": [
-        "Domestic and Foreign Nonprofit Corporations biennial reports are due in the",
-        "by April 1, delinquent June 16"
-      ]
-    },
-    "KE9X-QTXX": {
-      "basis": "Nebraska Secretary of State, Forms and Fee Information — the agency's own schedule. Under the nonprofit corporation headings it prices 'Any other document required or permitted to be filed' at $30 (In-Office) / $25 (Online), confirming the 21-1905(a)(11) routing from the agency side.",
-      "source_url": "https://sos.nebraska.gov/business-services/forms-and-fee-information",
-      "strings": [
-        "Any other document required or permitted to be filed"
-      ]
-    },
-    "X6WW-KSD7": {
-      "basis": "Iowa Code 504.1613 (Iowa Code 2026 edition) — the IA nonprofit corporate BIENNIAL REPORT: the duty, the secretary of state as filing authority, the Jan 1-Apr 1 odd-year window, and 4(b) DELEGATING THE FEE ('A filing fee for the biennial report shall be determined by the secretary of state'), which is why the agency lane is not optional for IA. History: 2004 Acts, ch 1049, 175, 192.",
-      "source_url": "https://www.legis.iowa.gov/docs/code/504.1613.pdf",
-      "skip": "PDF — the perma completeness check is a RAW SUBSTRING GREP over decoded WARC bytes and this source URL is a genuine binary PDF, so its text layer is compressed and unassertable by that instrument in either direction (measured: WARC 53255 bytes, 0 of 3 needles). Corpus norm for real-PDF sources. Load-bearing strings ARE verified, against the local sha-pinned artifact, via the by_sha256 entry below — which is the lane that reads local files."
-    },
-    "VV9K-ZWRL": {
-      "basis": "Iowa Secretary of State, Business Entity Forms & Fees — reader B, and the ONLY source for IA's corporate fee since Iowa Code 504.1613(4)(b) delegates it. ⛔ THE HEADLINE NUMBER IS WRONG FOR OUR FILER AND THE FOOTNOTE GOVERNS: 'LLCs, LLPs, and Nonprofit Corporations: Every Odd numbered year ... The fee is $30* by online filing or $45* by paper' followed by '*Nonprofit corporations do not have a filing fee for their biennial reports.' Reading the headline alone would have produced a FALSE correction of prod's correct $0. ⚠ Needles avoid crossing tag boundaries: 'Nonprofit Corporations:' sits inside <strong> and the footnote inside <em>. ⚠ This host also varies per response (same byte length, 6 differing lines) so its sha is not a continuity test — same class as nebraskalegislature.gov.",
-      "source_url": "https://sos.iowa.gov/businesses/business-entity-forms-and-fees",
-      "strings": [
-        "Every Odd numbered year beginning January 1st and due by April 1st",
-        "Nonprofit corporations do not have a filing fee for their biennial reports"
-      ]
-    },
-    "KYK7-NBPT": {
-      "basis": "RSMo 355.856 — the MO nonprofit CORPORATE REGISTRATION REPORT: the duty, the secretary of state as filing authority, the August 31 due date, the $15 late-acceptance fee, and administrative dissolution under 355.706 for failure to file.",
-      "source_url": "https://revisor.mo.gov/main/OneSection.aspx?section=355.856",
-      "strings": [
-        "shall file with the secretary of state a corporate registration report",
-        "no later than August thirty-first"
-      ]
-    },
-    "JE94-W3HC": {
-      "basis": "RSMo 355.021(17)-(18) — the STATUTORY BASE fees: annual $10 written / $5 electronic, biennial $20 written / $10 electronic. ⛔ THESE ARE NOT WHAT THE FILER PAYS — the SoS Schedule of Fees collects $15/$10 annual and $30/$20 biennial under its CHAPTER 355 heading. See that entry.",
-      "source_url": "https://revisor.mo.gov/main/OneSection.aspx?section=355.021",
-      "strings": [
-        "Corporate registration report filed annually, ten dollars if filed in a written format or five dollars if filed electronically"
-      ]
-    },
-    "7299-26NT": {
-      "basis": "RSMo 355.857 — the ELECTIVE biennial cadence (formation-year parity, 24-month lock-in) and, at (1)(3), an additional $10 technology-trust fee on each biennial report. This is the provision behind prod's corporate_filing_cadence_election='biennial', which is already correctly encoded.",
-      "source_url": "https://revisor.mo.gov/main/OneSection.aspx?section=355.857",
-      "strings": [
-        "the option of biennially filing corporate registration reports"
-      ]
-    },
-    "RW76-SDWS": {
-      "basis": "Missouri Secretary of State, Schedule of Fees and Charges — reader B, and the source of what a filer ACTUALLY PAYS. Under 'CHAPTER 355 FEES—Not for Profit Corporations' it lists Annual Registration Report Filed Timely at $15 (paper) / $10 (on-line) and Biennial at $30 / $20. ⛔ THOSE EXCEED RSMo 355.021's base fees by exactly $5 (annual) and $10 (biennial). The $10 biennial delta is authorised by 355.857(1)(3) as a technology-trust fee; the $5 ANNUAL delta's authorising provision was NOT located and is recorded as unresolved rather than explained.",
-      "source_url": "https://www.sos.mo.gov/CMSImages/Business/fees.pdf",
-      "skip": "PDF — the perma completeness check greps raw WARC bytes and this is a genuine binary PDF, so its text layer is unassertable by that instrument. Strings verified against the local sha-pinned artifact via the by_sha256 entry."
-    },
-    "P5SE-SLU4": {
-      "basis": "KRS 14A.6-010 \"Annual report.\" — the OPERATIVE section for Kentucky's corporate annual report: the duty, the Secretary of State as filing authority, not-for-profit corporations named explicitly at (1)(d)1, and the Jan 1–Jun 30 window at (3). (7)'s exemptions do not reach nonprofit corporations. Effective 2017-06-29. ⭐ Its sha 2467f536… is the SAME prefix KY_VERIFY_20260719.sql quoted a month earlier without ever capturing the document — the claim was true, the archive was missing.",
-      "source_url": "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=47075",
-      "skip": "PDF — the perma completeness check greps raw WARC bytes and this source serves a genuine binary PDF, so its text layer is unassertable by that instrument. Strings verified against the local sha-pinned artifact via by_sha256."
-    },
-    "N5GH-SLG7": {
-      "basis": "KRS 273.3671 \"Annual report.\" — a PURE CROSS-REFERENCE, in full: \"Each corporation and each foreign corporation qualified to transact business in this Commonwealth is subject to KRS 14A.6-010.\" It establishes that KY nonprofit corporations are inside the regime and nothing else. sha f2c8879d… also matches KY_VERIFY's quoted prefix.",
-      "source_url": "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=36685",
-      "skip": "PDF — the perma completeness check greps raw WARC bytes and this source serves a genuine binary PDF, so its text layer is unassertable by that instrument. Strings verified against the local sha-pinned artifact via by_sha256."
-    },
-    "FVN9-FTDM": {
-      "basis": "Kentucky Secretary of State, Annual Reports — the AGENCY lane, a different issuing body from the Legislative Research Commission. Confirms the June 30 deadline and the Jan 1–Jun 30 window, and is the ONLY source for the $15 fee. ⚠ THE PAGE CITES NO KRS FOR THE FEE and KRS 14A.6-010 contains ZERO occurrences of \"fee\", so the fee's statutory basis is NOT LOCATED — which is NOT the same as a delegation (contrast IA §504.1613(4)(b) and DC §29-102.12(a), which delegate on their face). Recorded as not-found, not as delegated.",
-      "source_url": "https://www.sos.ky.gov/bus/business-filings/Pages/Annual-Reports.aspx",
-      "strings": [
-        "by June 30 of each year",
-        "accompanied by a $15 filing fee"
-      ]
-    },
-    "F6P5-9V8S": {
-      "basis": "CA SoS Corporations - Statement of Information: the NONPROFIT row's own cadence and fee. Strings are BYTE-CONTIGUOUS fragments, deliberately: the rendered sentence 'Due within 90 days of initial registration and every two years thereafter' is split in the markup by an <a>/<strong>/<span> around 'every two years', so the full sentence is NOT a contiguous byte string and would fail a substring grep against a faithful capture. Fee confirmed as the nonprofit row's own: within the span from the nonprofit row to the next row, $20.00 is the ONLY dollar amount (the earlier $20.00 at a lower offset belongs to row 1's CID breakdown, $35.00 = SI $20.00 + CID $15.00).",
-      "source_url": "https://www.sos.ca.gov/business-programs/business-entities/forms/corporations-statement-information",
-      "strings": [
-        "Statement of Information - Nonprofit",
-        "Due within 90 days of initial registration and",
-        "every two years",
-        "$20.00"
-      ]
-    },
-    "4TDU-L664": {
-      "basis": "CA SoS Statements of Information: the recurring 6-month filing window that corroborates Corp Code 6210(c)'s 'calendar month during which its original articles were filed and the immediately preceding five calendar months'.",
-      "source_url": "https://www.sos.ca.gov/business-programs/business-entities/statements",
-      "strings": [
-        "Statutory Required 6 Month Filing Window",
-        "filing period when subsequent statements are due"
-      ]
-    },
-    "67S7-6V8L": {
-      "basis": "D.C. Code 29-102.11 'Biennial report for Mayor' -- the section imposing DC's corporate biennial report duty and setting its April 1 deadline. The corporate-axis primary DC's parent row now cites, replacing 44-1703 (Charitable Solicitations).",
-      "source_url": "https://code.dccouncil.gov/us/dc/council/code/sections/29-102.11",
-      "strings": [
-        "Biennial report for Mayor",
-        "shall deliver to the Mayor for filing a biennial report",
-        "by April 1 of the year following the calendar year"
-      ]
-    },
-    "KF2Y-YYC4": {
-      "basis": "D.C. Code 29-102.12 'Fees.' -- the FACIAL DELEGATION of entity filing fees to the Mayor's rules. Load-bearing because it is what makes DCMR 17-6 the fee authority, and because a delegation is recorded as a read with a negative result rather than an absence.",
-      "source_url": "https://code.dccouncil.gov/us/dc/council/code/sections/29-102.12",
-      "strings": [
-        "§ 29–102.12. Fees.",
-        "shall adopt rules, to establish or revise fees for entity filings"
-      ]
-    },
-    "K58X-VJNX": {
-      "basis": "DCMR Title 17 Chapter 6 rule list -- the navigation artifact proving chapter 17-6 is 'DCRA CORPORATIONS DIVISION SCHEDULE OF FEES' and enumerating its sections. Held because how the chapter was FOUND is part of the record: prior passes missed it.",
-      "source_url": "https://www.dcregs.dc.gov/Common/DCMR/RuleList.aspx?ChapterNum=17-6",
-      "strings": [
-        "17-6",
-        "SCHEDULE OF FEES"
-      ]
-    },
-    "E7T5-R9RP": {
-      "skip": "BINARY PRIMARY -- DCMR section 603 NONPROFIT CORPORATIONS FILING FEES. dcregs.dc.gov serves DCMR sections as MS Word binaries under content_type 'application/force-download', which verify_perma's utf-8 WARC grep cannot read; a string check against the WARC would be noise either way, so it asserts nothing and must not pretend to. THE SUBSTANCE IS CHECKED, on the lane that can read it: by_sha256['de87b9d0dafe366030edf775e4376c7f6661262b216fe307fedea64f18c49637'] carries this artifact's load-bearing strings and is BLOCKING for primaries under --verify-strings (E5-2), verified against the LOCAL capture via extract_text (confirmed 2026-08-21). This routes the check, it does not waive it.",
-      "source_url": "https://dcregs.dc.gov/Common/DCMR/RuleList.aspx?DownloadFile=D0A6555F-0000-C154-ABEF-3F80CC71D825"
-    },
-    "72Z2-VVRT": {
-      "skip": "BINARY PRIMARY -- DCMR section 600 GENERAL PROVISIONS. dcregs.dc.gov serves DCMR sections as MS Word binaries under content_type 'application/force-download', which verify_perma's utf-8 WARC grep cannot read; a string check against the WARC would be noise either way, so it asserts nothing and must not pretend to. THE SUBSTANCE IS CHECKED, on the lane that can read it: by_sha256['2934f526f531f4949864766f3fe638a2e592d637da07360757601d21c4506484'] carries this artifact's load-bearing strings and is BLOCKING for primaries under --verify-strings (E5-2), verified against the LOCAL capture via extract_text (confirmed 2026-08-21). This routes the check, it does not waive it.",
-      "source_url": "https://dcregs.dc.gov/Common/DCMR/RuleList.aspx?DownloadFile=A0A6555F-0000-CA11-9301-3D0EE2256DEB"
-    },
-    "2VJG-YZHS": {
-      "basis": "HI escalation read 2026-08-18 (docs/regime_reread/HI_20260818.md; HI_VERIFY_20260818.sql) — DCCA BREG FAQ: annual-report due date keyed to registration date (quarter system)",
-      "source_url": "https://cca.hawaii.gov/breg/faqs/",
-      "strings": [
-        "the annual report or annual statement due date is dependent on the registration date"
-      ]
-    },
-    "3TRT-6HC5": {
-      "basis": "HI escalation read 2026-08-18 (docs/regime_reread/HI_20260818.md; HI_VERIFY_20260818.sql) — portal submit page + live amnesty banner (transient, captured)",
-      "source_url": "https://charity.ehawaii.gov/charity/apply-info.html",
-      "strings": [
-        "Charities Amnesty Program: Extended to October 31, 2026"
-      ]
-    },
-    "4AC4-WEKJ": {
-      "basis": "HI escalation read 2026-08-18 (docs/regime_reread/HI_20260818.md; HI_VERIFY_20260818.sql) — live exemption application: exemption requires application (religious_must_apply / small_org_must_apply)",
-      "source_url": "https://charity.ehawaii.gov/charity/apply-exemption.html",
-      "strings": [
-        "must register in the State of Hawaii with the Attorney General"
-      ]
-    },
-    "8LYT-BQR6": {
-      "basis": "HI escalation read 2026-08-18 (docs/regime_reread/HI_20260818.md; HI_VERIFY_20260818.sql) — DCCA FNP-INFO: foreign nonprofit annual report fee + revocation",
-      "source_url": "https://cca.hawaii.gov/wp-content/uploads/2025/12/FNP-INFO_3-2023.pdf",
-      "strings": [
-        "Foreign Nonprofit Corporation Annual Report",
-        "certificate of authority may be revoked"
-      ],
-      "skip": "PDF — the Perma/WARC stores the PDF text FlateDecode-compressed, so verify_perma's utf-8 WARC grep cannot read it (binary-blind). The load-bearing strings above are pdftotext byte-verified against the sha-pinned LOCAL archive (extract_text + contains_all, run 2026-08-18 before authoring; verify-strings lane covers them on every apply). Documented-skip tier for PDFs pending PDF-gate-v2 WARC-side extraction. 2026-08-18, HI verify."
-    },
-    "9TZS-294A": {
-      "basis": "HI escalation read 2026-08-18 (docs/regime_reread/HI_20260818.md; HI_VERIFY_20260818.sql) — AG Tax & Charities Division main page (charitable regulator identity)",
-      "source_url": "https://ag.hawaii.gov/tax/",
-      "strings": [
-        "Tax &amp; Charities Division"
-      ]
-    },
-    "CXT6-4Y74": {
-      "basis": "HI escalation read 2026-08-18 (docs/regime_reread/HI_20260818.md; HI_VERIFY_20260818.sql) — 2021 Annual Report Guide: the 990-coupled due-date rule (990/990-EZ/990-PF)",
-      "source_url": "https://ag.hawaii.gov/tax/files/2021/10/Hawaii-Charity-Annual-Report-Guide-October-2021.pdf",
-      "strings": [
-        "within 10 business days of when the organization files its IRS Form 990/990-EZ/990-PF"
-      ],
-      "skip": "PDF — the Perma/WARC stores the PDF text FlateDecode-compressed, so verify_perma's utf-8 WARC grep cannot read it (binary-blind). The load-bearing strings above are pdftotext byte-verified against the sha-pinned LOCAL archive (extract_text + contains_all, run 2026-08-18 before authoring; verify-strings lane covers them on every apply). Documented-skip tier for PDFs pending PDF-gate-v2 WARC-side extraction. 2026-08-18, HI verify."
-    },
-    "D8YS-6AYH": {
-      "basis": "HI escalation read 2026-08-18 (docs/regime_reread/HI_20260818.md; HI_VERIFY_20260818.sql) — DCCA DNP-INFO: quarter-end schedule verbatim + domestic nonprofit annual report fee + delinquency",
-      "source_url": "https://cca.hawaii.gov/wp-content/uploads/2025/12/DNP-INFO_3-2023.pdf",
-      "strings": [
-        "an annual report shall be filed on or before September 30 of each year",
-        "Domestic Nonprofit Corporation Annual Report: $5.00",
-        "dissolved involuntarily by the"
-      ],
-      "skip": "PDF — the Perma/WARC stores the PDF text FlateDecode-compressed, so verify_perma's utf-8 WARC grep cannot read it (binary-blind). The load-bearing strings above are pdftotext byte-verified against the sha-pinned LOCAL archive (extract_text + contains_all, run 2026-08-18 before authoring; verify-strings lane covers them on every apply). Documented-skip tier for PDFs pending PDF-gate-v2 WARC-side extraction. 2026-08-18, HI verify."
-    },
-    "G9PS-AJ29": {
-      "basis": "HI escalation read 2026-08-18 (docs/regime_reread/HI_20260818.md; HI_VERIFY_20260818.sql) — portal help: the $20/day cap $1,000 late fee",
-      "source_url": "https://charity.ehawaii.gov/charity/help.html",
-      "strings": [
-        "late fees of $20 per day up to a maximum fee of $1,000"
-      ]
-    },
-    "JH3J-C8PV": {
-      "basis": "HI escalation read 2026-08-18 (docs/regime_reread/HI_20260818.md; HI_VERIFY_20260818.sql) — legacy annual-report portal, self-describing redirect to hbe.dcca.hawaii.gov",
-      "source_url": "https://hbe.ehawaii.gov/annuals/",
-      "strings": [
-        "All services offered through Hawaii Business Express will be available via this new portal"
-      ]
-    },
-    "JL87-5C3P": {
-      "basis": "HI escalation read 2026-08-18 (docs/regime_reread/HI_20260818.md; HI_VERIFY_20260818.sql) — Registration Guide: one-time registration, no fee",
-      "source_url": "https://ag.hawaii.gov/tax/files/2018/06/Hawaii-Charity-Registration-Guide-7.10.19.pdf",
-      "strings": [
-        "Organizations complete a Registration only once",
-        "There is no fee to submit a Registration"
-      ],
-      "skip": "PDF — the Perma/WARC stores the PDF text FlateDecode-compressed, so verify_perma's utf-8 WARC grep cannot read it (binary-blind). The load-bearing strings above are pdftotext byte-verified against the sha-pinned LOCAL archive (extract_text + contains_all, run 2026-08-18 before authoring; verify-strings lane covers them on every apply). Documented-skip tier for PDFs pending PDF-gate-v2 WARC-side extraction. 2026-08-18, HI verify."
-    },
-    "NU82-YJ6T": {
-      "basis": "HI escalation read 2026-08-18 (docs/regime_reread/HI_20260818.md; HI_VERIFY_20260818.sql) — AG amnesty news release (suspension as administered delinquency consequence)",
-      "source_url": "https://charity.ehawaii.gov/charity/static/Hawaii%20-%20Amnesty%20Period%20for%20Charitable%20Organizations.pdf",
-      "strings": [
-        "Amnesty Period"
-      ],
-      "skip": "PDF — the Perma/WARC stores the PDF text FlateDecode-compressed, so verify_perma's utf-8 WARC grep cannot read it (binary-blind). The load-bearing strings above are pdftotext byte-verified against the sha-pinned LOCAL archive (extract_text + contains_all, run 2026-08-18 before authoring; verify-strings lane covers them on every apply). Documented-skip tier for PDFs pending PDF-gate-v2 WARC-side extraction. 2026-08-18, HI verify."
-    },
-    "QFM3-S4AM": {
-      "basis": "HI escalation read 2026-08-18 (docs/regime_reread/HI_20260818.md; HI_VERIFY_20260818.sql) — AG File page: registration/annual report/exemption filed via the state portal",
-      "source_url": "https://ag.hawaii.gov/tax/file/",
-      "strings": [
-        "Submit your initial registration, annual report, or exemption application"
-      ]
-    },
-    "S5ZV-YRFR": {
-      "basis": "HI escalation read 2026-08-18 (docs/regime_reread/HI_20260818.md; HI_VERIFY_20260818.sql) — BREG Q3-2026 press release: quarter framing + nonprofit online fee",
-      "source_url": "https://cca.hawaii.gov/breg/third-quarter-hawaii-annual-business-reports-due-2026/",
-      "strings": [
-        "Nonprofit corporations: $2.50"
-      ]
-    },
-    "T5Y6-RGD7": {
-      "basis": "HI escalation read 2026-08-18 (docs/regime_reread/HI_20260818.md; HI_VERIFY_20260818.sql) — Special Transmittal Guide: 15th-day-of-5th-month rule for 990-N/non-filers/failed-to-file",
-      "source_url": "https://ag.hawaii.gov/tax/files/2018/06/Hawaii-Charity-Special-Annual-Transmittal-Guide-7.10.19.pdf",
-      "strings": [
-        "due no later than the 15th day of the",
-        "5th month after the end of its fiscal year"
-      ],
-      "skip": "PDF — the Perma/WARC stores the PDF text FlateDecode-compressed, so verify_perma's utf-8 WARC grep cannot read it (binary-blind). The load-bearing strings above are pdftotext byte-verified against the sha-pinned LOCAL archive (extract_text + contains_all, run 2026-08-18 before authoring; verify-strings lane covers them on every apply). Documented-skip tier for PDFs pending PDF-gate-v2 WARC-side extraction. 2026-08-18, HI verify."
-    },
-    "U2PS-EFKS": {
-      "basis": "HI escalation read 2026-08-18 (docs/regime_reread/HI_20260818.md; HI_VERIFY_20260818.sql) — Annual Reporting Requirements sheet",
-      "skip": "image-only scanned PDF, no text layer (ExtractionEmpty); quotes in the read doc are transcriptions; every load-bearing value it carries is also string-verified in the 2021 Annual Report Guide (CXT6-4Y74), the Special Guide (T5Y6-RGD7), the portal help page (G9PS-AJ29) or the statute primary (by_sha256 b5e648d1...)",
-      "source_url": "https://ag.hawaii.gov/tax/files/2020/02/Annual-Reporting-Requirements.pdf"
-    },
-    "YMX8-5FAL": {
-      "basis": "HI escalation read 2026-08-18 (docs/regime_reread/HI_20260818.md; HI_VERIFY_20260818.sql) — the state filing portal page the AG links to (renewal_form_url)",
-      "source_url": "https://efile.form990.org/frmNPParticipatingStateSCOHI.asp",
-      "strings": [
-        "Hawaii"
-      ]
-    },
-    "YX7N-E5E7": {
-      "basis": "HI escalation read 2026-08-18 (docs/regime_reread/HI_20260818.md; HI_VERIFY_20260818.sql) — AG Tax & Charities FAQs",
-      "skip": "image-only scanned PDF, no text layer (ExtractionEmpty); quotes in the read doc are transcriptions; load-bearing values corroborated in text-bearing artifacts (Registration Guide JL87-5C3P, 2021 Guide CXT6-4Y74, portal pages) and the statute captures",
-      "source_url": "https://ag.hawaii.gov/tax/files/2020/09/T-C-FAQs.pdf"
-    },
-    "9QU4-QSMU": {
-      "basis": "DC exemption-procedure correction 2026-08-18: D.C. Code §44-1703(a)-(b) — registration duty + the statute-layer religious exemption (self-executing wording) that 16 DCMR 1303.1 conditions on a proof-of-exemption filing",
-      "source_url": "https://code.dccouncil.gov/us/dc/council/code/sections/44-1703",
-      "strings": [
-        "No person shall solicit in the District of Columbia unless he holds a valid certificate of registration",
-        "shall not apply to any person making solicitations, including solicitations for educational purposes, solely for a church or a religious corporation"
-      ]
-    },
-    "XE7U-A27U": {
-      "basis": "CT corporate-axis capture (CGS ch. 602, Nonstock Corporations) from the 2026-08-01 corporate breadth arc; covered 2026-08-18 when the CT exemption-procedure apply surfaced it as a pre-sidecar-convention entry. Corroborating corporate-lane artifact; the charitable corrections do not rest on it.",
-      "source_url": "https://www.cga.ct.gov/current/pub/chap_602.htm",
-      "strings": [
-        "Chapter 602",
-        "Nonstock Corporations",
-        "annual report"
-      ]
-    },
-    "EWL9-WZ9K": {
-      "basis": "DC §44-1701(6) DEFINITIONS — the definitional-lane check Tony ordered after NV's method error (RECHECK_LEDGER 2026-08-19). LOAD-BEARING because it runs the OPPOSITE way to NV: NRS 82A.025(2) EXCLUDES religious organizations from the definition of 'charitable organization' so the duty never attaches, while DC ENUMERATES church / religious sect / religious denomination INTO 'Person'. Same lane, opposite structure — which is why the sweep's standing caveat needed the definitional read on each state rather than a transfer.",
-      "source_url": "https://code.dccouncil.gov/us/dc/council/code/sections/44-1701",
-      "strings": [
-        "church, religious sect, religious denomination, society, organization, or league",
-        "means and includes philanthropic, social service, patriotic, welfare, benevolent, or educational"
-      ]
     }
   },
   "by_sha256": {
@@ -1963,6 +1967,14 @@
         "of fifty dollars ($50) must accompany this update."
       ]
     },
+    "2467f536c5608eb00beb6312b64debae7be32886f7c9005250afa28bbffb4eff": {
+      "basis": "KRS 14A.6-010 \"Annual report.\" — the OPERATIVE section for Kentucky's corporate annual report: the duty, the Secretary of State as filing authority, not-for-profit corporations named explicitly at (1)(d)1, and the Jan 1–Jun 30 window at (3). (7)'s exemptions do not reach nonprofit corporations. Effective 2017-06-29. ⭐ Its sha 2467f536… is the SAME prefix KY_VERIFY_20260719.sql quoted a month earlier without ever capturing the document — the claim was true, the archive was missing.",
+      "strings": [
+        "shall deliver to the Secretary of State for filing an annual report",
+        "between January 1 and June 30 of each following calendar year",
+        "Amended 2017 Ky. Acts ch. 193"
+      ]
+    },
     "2634f9c53d03ae45b60a4b1654bbeb9c5407be6c1126ea04fc6c91c7675859e8": {
       "basis": "ND agency guide (REVISED AUGUST 2025 = post-69th-Assembly currency corroboration): Sept-1 annual report + FirstStop portal channel. ND verify 2026-07-17 secondary source.",
       "source_url": "https://www.sos.nd.gov/sites/www/files/documents/business/charitable-org-guide.pdf",
@@ -1980,6 +1992,22 @@
         "A renewal statement must be filed annually within six months after the close of the charitable organization's fiscal year",
         "the Attorney General may extend the time for the annual filing of the renewal statement and financial report for a period not to exceed 180 days",
         "45:17A-23"
+      ]
+    },
+    "2934f526f531f4949864766f3fe638a2e592d637da07360757601d21c4506484": {
+      "basis": "DCMR 17-6 section 600, GENERAL PROVISIONS -- carries the 10% technology surcharge that applies on top of every Corporations Division filing fee, so it is load-bearing for the APPLIED fee, not background. Same binary/force-download shape as 603.",
+      "source_url": "https://dcregs.dc.gov/Common/DCMR/RuleList.aspx?DownloadFile=A0A6555F-0000-CA11-9301-3D0EE2256DEB",
+      "strings": [
+        "This chapter establishes the fees and charges",
+        "additional fee of ten percent"
+      ]
+    },
+    "295515ff3d064e987e39cf36b0782a3bf245381addf685a84cb46ab01861829b": {
+      "basis": "OK Title 18 complete statutes (os18.pdf) — first-party oklegislature.gov, durable third-party Perma R2KS-GZ3M; source-of-record for 18 O.S. §552.3 deadline (form_990_coupled coupling) + §552.2(8) Form 990 definition.",
+      "source_url": "https://www.oklegislature.gov/OK_Statutes/CompleteTitles/os18.pdf",
+      "strings": [
+        "shall register annually with the Secretary of State by the date that the charitable organization files its Form 990 or by the date, plus extensions, that it is required to file its Form 990, whichever occurs first",
+        "means a return of an organization that is exempt from federal income tax"
       ]
     },
     "297d5aa6a5aea0d98f9f512e56bcd92ec4de9819d67b6b81692835c55a731f63": {
@@ -2020,6 +2048,13 @@
         "RCW 19.09.085 Registration",
         "Registration under this chapter is effective for one year or as",
         "no sooner than twenty days after receipt of the registration"
+      ]
+    },
+    "3922560cdd4d9640104cd266b6cedf3868460ab4ca3f1b8e2ab1a3b019c1ff9c": {
+      "basis": "SDCL 47-24-19 (SL 2021 ch 196) bars any agency from requiring nonprofit/charitable-trust filings beyond state/federal law — forecloses a post-2020 successor regime (currency).",
+      "source_url": "https://sdlegislature.gov/api/Statutes/47-24-19.html?all=true",
+      "strings": [
+        "SL 2021, ch 196"
       ]
     },
     "3e1b0a820a68de288be6bac3e1367346b7ef0528a82d6733b5e6addad8d77651": {
@@ -2084,6 +2119,14 @@
         "accounting period ends (May 15 for calendar-year filers)"
       ]
     },
+    "5e3d6f40bea7b1b9008b0b2995aeea28c0b8e33f7a8dba7239292e83fbb33833": {
+      "basis": "MO SoS Schedule of Fees local artifact — the CHAPTER 355 (Not for Profit) block, checked against the sha-pinned local PDF because the perma WARC cannot be grepped for a binary source.",
+      "strings": [
+        "CHAPTER 355 FEES",
+        "Annual Registration Report Filed Timely",
+        "Not for Profit Corporations"
+      ]
+    },
     "607df7f5d314c40855a3dab71dd975d7d17d01dd92be22810308dbd21a70202b": {
       "basis": "Charitable org must register before soliciting and renew by the last business day of the 11th month after accounting-year end",
       "source_url": "https://app.leg.wa.gov/WAC/default.aspx?cite=434-120-140&pdf=true",
@@ -2119,6 +2162,15 @@
       "strings": [
         "13-22-110",
         "Charitable Solicitations Act"
+      ]
+    },
+    "68aa8a744e0f7829634d85910f83d7f951d5585cde00030a197455847c0609e5": {
+      "basis": "OK 18 O.S. §552.3(A) OSCN §552.3 (source-of-record for the form_990_coupled encode); local HTML capture, Perma 8PFB-HQWZ is a JS-shell so verified here on the sha-pinned local bytes.",
+      "source_url": "https://www.oscn.net/applications/oscn/DeliverDocument.asp?CiteID=66919",
+      "strings": [
+        "shall register annually with the Secretary of State by the date that the charitable organization files its Form 990 or by the date, plus extensions, that it is required to file its Form 990, whichever occurs first",
+        "No charitable organization that is either located within this state or that is soliciting contributions from any person in this state",
+        "shall solicit contributions until the charitable organization shall have registered with the Office of the Secretary of State"
       ]
     },
     "6ac7cedbdf071012a63d1cc33c2887432c59d2d483d27d8a153527011821368b": {
@@ -2177,6 +2229,16 @@
         "beyond December first"
       ]
     },
+    "8498bfc6f376105468de53f7f735a8059fdad9ffe21c5f2c120676415eb3db0f": {
+      "basis": "KRS 367.657 (Filing of federal Form 990 fulfills reporting requirement) — first-party apps.legislature.ky.gov, durable Perma D5B2-EQDE; source-of-record for the KY 990-coupled charitable-registration deadline (form_990_coupled §367.657(3)) + the Notice-of-Intent formation/re-entry triggers (§367.657(1)-(2)). KY verify 2026-07-19.",
+      "source_url": "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=35030",
+      "strings": [
+        "Filing of federal Form 990 fulfills reporting requirement",
+        "at the same time the form is filed with the Internal Revenue Service",
+        "a new notice of intent to solicit shall be filed with the Attorney General",
+        "notice shall expire on December 31 of the calendar year in which it was filed"
+      ]
+    },
     "84d3300674e6979669d3ab04db098dd426d28e8786ddef8d0c768aa56b8a73c6": {
       "basis": "Utah R152-22 (Charitable Solicitations Act Rule): charities must submit an unredacted IRS 990-series return at least annually to the Division of Corporations [moved from by_perma_guid 626X-YHKF after verify-perma: Perma capture not string-verifiable]",
       "source_url": "https://adminrules.utah.gov/api/public/getfile/uac-html/3efc525b-4029-4642-8aa2-e6c22ddac209.html/R152-22.html",
@@ -2184,6 +2246,13 @@
         "A charitable organization shall submit an unredacted copy of its most recent IRS Form 990, 990-EZ, 990-N, or",
         "shall be submitted at least annually, at the time the charitable organization",
         "Charitable Solicitations Act Rule"
+      ]
+    },
+    "88e65068e8ee7941e44ebe0a12706bfaa6eb06d2b659e140fa45a8ecc3dcedb7": {
+      "basis": "Iowa Code 504.1613 local artifact — the load-bearing clauses, checked against the sha-pinned local PDF because the perma WARC cannot be grepped for a binary source.",
+      "strings": [
+        "shall deliver to the secretary of state for filing a biennial report",
+        "A filing fee for the biennial report shall be determined by the secretary of state"
       ]
     },
     "9e7d67527f3c4761e64f36f0f720270399ddf9ea6d51a8bcfa048d1b18a9154c": {
@@ -2243,6 +2312,17 @@
         "bona fide salaried officer, employee, or volunteer of a charitable organization"
       ]
     },
+    "b5e648d1a08762769750ff71c0ebd206490e12b7dfbbcec9394ee6f73fb55748": {
+      "basis": "HI escalation read 2026-08-18 (docs/regime_reread/HI_20260818.md; HI_VERIFY_20260818.sql) — PRIMARY, HRS 467B-6.5 (browser capture, perma NULL — sha lane): both due-date tracks, the $0 first fee tier, the $20/day cap $1,000 late fee",
+      "source_url": "https://www.capitol.hawaii.gov/hrscurrent/Vol10_Ch0436-0474/HRS0467B/HRS_0467B-0006_0005.htm",
+      "strings": [
+        "within ten business days of the date that the organization files the form with the Internal Revenue Service",
+        "not later than the fifteenth day of the fifth month following the close of its fiscal year",
+        "$0, if total revenue is less than $25,000",
+        "a late filing fee of $20 shall be imposed for each day",
+        "shall not exceed $1,000"
+      ]
+    },
     "bbaefb74edfa885839a01317dfb79006e81d200e47b6d876ded223eadc97bc8b": {
       "basis": "WY SoS fee schedule (eff. 7/1/2026): nonprofit incorporation $50 and annual report $25 [moved from by_perma_guid E8LU-TDEB after verify-perma: Perma capture not string-verifiable]",
       "source_url": "https://sos.wyo.gov/Business/docs/BusinessFees.pdf",
@@ -2291,6 +2371,24 @@
         "under the conditions set out in RCW 19.09.305"
       ]
     },
+    "d7677f9f93e26f60539877e0d1fea6425a65d553d42168645a8992e4538cdcc4": {
+      "basis": "SDCL ch. 37-27 (Charitable and Professional Solicitation of Contributions) is [REPEALED] by SL 1984 ch 260 — the reg=FALSE absence-by-repeal primary. Tony browser-capture 2026-07-18 (sdlegislature.gov Vue SPA, curl-empty).",
+      "source_url": "https://sdlegislature.gov/api/Statutes/37-27.html?all=true",
+      "strings": [
+        "Repealed by SL 1984, ch 260",
+        "CHARITABLE AND PROFESSIONAL SOLICITATION OF CONTRIBUTIONS",
+        "[REPEALED]"
+      ]
+    },
+    "de87b9d0dafe366030edf775e4376c7f6661262b216fe307fedea64f18c49637": {
+      "basis": "DCMR 17-6 section 603, NONPROFIT CORPORATIONS FILING FEES -- the rules the Mayor adopted under D.C. Code 29-102.12(a), which is where DC's corporate filing fee actually lives. 603.1(o) sets the biennial report fee and its late fee. Keyed by sha256 because the artifact is an MS Word binary served as application/force-download, which verify_perma's utf-8 WARC grep cannot read; extract_text reads it from the LOCAL capture (confirmed 2026-08-21).",
+      "source_url": "https://dcregs.dc.gov/Common/DCMR/RuleList.aspx?DownloadFile=D0A6555F-0000-C154-ABEF-3F80CC71D825",
+      "strings": [
+        "NONPROFIT CORPORATIONS FILING FEES",
+        "Biennial report: eighty dollars",
+        "Late fee: an additional fifty dollars"
+      ]
+    },
     "df37705bb0273536dda35ebbeabca47d6df6258a122fbb3889a41ba62de63d77": {
       "basis": "TN Public Chapter 615: raises the charitable-solicitation audit/financial-report threshold from $500,000 to $1,000,000 gross revenue and adds a $25/month late fee [moved from by_perma_guid 6LEA-WWFG after verify-perma: Perma capture not string-verifiable]",
       "source_url": "https://publications.tnsosfiles.com/acts/113/pub/pc0615.pdf",
@@ -2327,6 +2425,12 @@
         "you do not need to register or renew your charitable organization on file"
       ]
     },
+    "f2c8879ddb33d91962c70be2488fcd76c83ff2e85dd7eb74fae7ee6f67d852a4": {
+      "basis": "KRS 273.3671 \"Annual report.\" — a PURE CROSS-REFERENCE, in full: \"Each corporation and each foreign corporation qualified to transact business in this Commonwealth is subject to KRS 14A.6-010.\" It establishes that KY nonprofit corporations are inside the regime and nothing else. sha f2c8879d… also matches KY_VERIFY's quoted prefix.",
+      "strings": [
+        "is subject to KRS 14A.6-010"
+      ]
+    },
     "f36a2e8a1d47b96bbfabe938632daf196590c54779d2c48652e328e4fd23d737": {
       "absent": [
         "regist"
@@ -2335,6 +2439,16 @@
       "strings": [
         "37-27",
         "Repealed by SL 1984, ch 260"
+      ]
+    },
+    "f5cff7befc373bcb5d33edb93b2c7bf4ad5bcc2c3ea76df5e6b50388725116e3": {
+      "basis": "Cal. Corp. Code §6210 (nonprofit public benefit corporation Statement of Information): the corporate-axis primary. Keyed by sha256 rather than perma GUID because perma.cc CANNOT ARCHIVE THIS HOST — the capture of 3HYU-3QHM returned status 'failed' with an empty content_type, and a second attempt (QNC8-DDUR) was still 'pending' after 20+ minutes, while both sos.ca.gov captures in the SAME RUN succeeded fully. That rules out an outage: it is leginfo's JSF page defeating Perma's capture, and it will recur on every California statute section. Strings verified against the LOCAL capture 2026-08-21.",
+      "source_url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=6210.&lawCode=CORP",
+      "strings": [
+        "Every corporation shall, within 90 days after the filing of its original articles",
+        "on a form prescribed by the Secretary of State",
+        "the immediately preceding five calendar months",
+        "is an excuse for failure to comply with this section"
       ]
     },
     "f6a1d1e14e806a4fe3f269fb9540f737dfd41f4f4c07f81afb11c016061d106a": {
@@ -2360,116 +2474,6 @@
         "PART Jus 402 REGISTRATION OF CHARITABLE TRUSTS",
         "register with the charitable trusts unit in accordance with RSA 7:28, I.",
         "The completed Form NHCT-11 shall be accompanied by a non-refundable fee of $25.00."
-      ]
-    },
-    "d7677f9f93e26f60539877e0d1fea6425a65d553d42168645a8992e4538cdcc4": {
-      "basis": "SDCL ch. 37-27 (Charitable and Professional Solicitation of Contributions) is [REPEALED] by SL 1984 ch 260 — the reg=FALSE absence-by-repeal primary. Tony browser-capture 2026-07-18 (sdlegislature.gov Vue SPA, curl-empty).",
-      "source_url": "https://sdlegislature.gov/api/Statutes/37-27.html?all=true",
-      "strings": [
-        "Repealed by SL 1984, ch 260",
-        "CHARITABLE AND PROFESSIONAL SOLICITATION OF CONTRIBUTIONS",
-        "[REPEALED]"
-      ]
-    },
-    "3922560cdd4d9640104cd266b6cedf3868460ab4ca3f1b8e2ab1a3b019c1ff9c": {
-      "basis": "SDCL 47-24-19 (SL 2021 ch 196) bars any agency from requiring nonprofit/charitable-trust filings beyond state/federal law — forecloses a post-2020 successor regime (currency).",
-      "source_url": "https://sdlegislature.gov/api/Statutes/47-24-19.html?all=true",
-      "strings": [
-        "SL 2021, ch 196"
-      ]
-    },
-    "68aa8a744e0f7829634d85910f83d7f951d5585cde00030a197455847c0609e5": {
-      "basis": "OK 18 O.S. §552.3(A) OSCN §552.3 (source-of-record for the form_990_coupled encode); local HTML capture, Perma 8PFB-HQWZ is a JS-shell so verified here on the sha-pinned local bytes.",
-      "source_url": "https://www.oscn.net/applications/oscn/DeliverDocument.asp?CiteID=66919",
-      "strings": [
-        "shall register annually with the Secretary of State by the date that the charitable organization files its Form 990 or by the date, plus extensions, that it is required to file its Form 990, whichever occurs first",
-        "No charitable organization that is either located within this state or that is soliciting contributions from any person in this state",
-        "shall solicit contributions until the charitable organization shall have registered with the Office of the Secretary of State"
-      ]
-    },
-    "295515ff3d064e987e39cf36b0782a3bf245381addf685a84cb46ab01861829b": {
-      "basis": "OK Title 18 complete statutes (os18.pdf) — first-party oklegislature.gov, durable third-party Perma R2KS-GZ3M; source-of-record for 18 O.S. §552.3 deadline (form_990_coupled coupling) + §552.2(8) Form 990 definition.",
-      "source_url": "https://www.oklegislature.gov/OK_Statutes/CompleteTitles/os18.pdf",
-      "strings": [
-        "shall register annually with the Secretary of State by the date that the charitable organization files its Form 990 or by the date, plus extensions, that it is required to file its Form 990, whichever occurs first",
-        "means a return of an organization that is exempt from federal income tax"
-      ]
-    },
-    "8498bfc6f376105468de53f7f735a8059fdad9ffe21c5f2c120676415eb3db0f": {
-      "basis": "KRS 367.657 (Filing of federal Form 990 fulfills reporting requirement) — first-party apps.legislature.ky.gov, durable Perma D5B2-EQDE; source-of-record for the KY 990-coupled charitable-registration deadline (form_990_coupled §367.657(3)) + the Notice-of-Intent formation/re-entry triggers (§367.657(1)-(2)). KY verify 2026-07-19.",
-      "source_url": "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=35030",
-      "strings": [
-        "Filing of federal Form 990 fulfills reporting requirement",
-        "at the same time the form is filed with the Internal Revenue Service",
-        "a new notice of intent to solicit shall be filed with the Attorney General",
-        "notice shall expire on December 31 of the calendar year in which it was filed"
-      ]
-    },
-    "88e65068e8ee7941e44ebe0a12706bfaa6eb06d2b659e140fa45a8ecc3dcedb7": {
-      "basis": "Iowa Code 504.1613 local artifact — the load-bearing clauses, checked against the sha-pinned local PDF because the perma WARC cannot be grepped for a binary source.",
-      "strings": [
-        "shall deliver to the secretary of state for filing a biennial report",
-        "A filing fee for the biennial report shall be determined by the secretary of state"
-      ]
-    },
-    "5e3d6f40bea7b1b9008b0b2995aeea28c0b8e33f7a8dba7239292e83fbb33833": {
-      "basis": "MO SoS Schedule of Fees local artifact — the CHAPTER 355 (Not for Profit) block, checked against the sha-pinned local PDF because the perma WARC cannot be grepped for a binary source.",
-      "strings": [
-        "CHAPTER 355 FEES",
-        "Annual Registration Report Filed Timely",
-        "Not for Profit Corporations"
-      ]
-    },
-    "2467f536c5608eb00beb6312b64debae7be32886f7c9005250afa28bbffb4eff": {
-      "basis": "KRS 14A.6-010 \"Annual report.\" — the OPERATIVE section for Kentucky's corporate annual report: the duty, the Secretary of State as filing authority, not-for-profit corporations named explicitly at (1)(d)1, and the Jan 1–Jun 30 window at (3). (7)'s exemptions do not reach nonprofit corporations. Effective 2017-06-29. ⭐ Its sha 2467f536… is the SAME prefix KY_VERIFY_20260719.sql quoted a month earlier without ever capturing the document — the claim was true, the archive was missing.",
-      "strings": [
-        "shall deliver to the Secretary of State for filing an annual report",
-        "between January 1 and June 30 of each following calendar year",
-        "Amended 2017 Ky. Acts ch. 193"
-      ]
-    },
-    "f2c8879ddb33d91962c70be2488fcd76c83ff2e85dd7eb74fae7ee6f67d852a4": {
-      "basis": "KRS 273.3671 \"Annual report.\" — a PURE CROSS-REFERENCE, in full: \"Each corporation and each foreign corporation qualified to transact business in this Commonwealth is subject to KRS 14A.6-010.\" It establishes that KY nonprofit corporations are inside the regime and nothing else. sha f2c8879d… also matches KY_VERIFY's quoted prefix.",
-      "strings": [
-        "is subject to KRS 14A.6-010"
-      ]
-    },
-    "f5cff7befc373bcb5d33edb93b2c7bf4ad5bcc2c3ea76df5e6b50388725116e3": {
-      "basis": "Cal. Corp. Code §6210 (nonprofit public benefit corporation Statement of Information): the corporate-axis primary. Keyed by sha256 rather than perma GUID because perma.cc CANNOT ARCHIVE THIS HOST — the capture of 3HYU-3QHM returned status 'failed' with an empty content_type, and a second attempt (QNC8-DDUR) was still 'pending' after 20+ minutes, while both sos.ca.gov captures in the SAME RUN succeeded fully. That rules out an outage: it is leginfo's JSF page defeating Perma's capture, and it will recur on every California statute section. Strings verified against the LOCAL capture 2026-08-21.",
-      "source_url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=6210.&lawCode=CORP",
-      "strings": [
-        "Every corporation shall, within 90 days after the filing of its original articles",
-        "on a form prescribed by the Secretary of State",
-        "the immediately preceding five calendar months",
-        "is an excuse for failure to comply with this section"
-      ]
-    },
-    "2934f526f531f4949864766f3fe638a2e592d637da07360757601d21c4506484": {
-      "basis": "DCMR 17-6 section 600, GENERAL PROVISIONS -- carries the 10% technology surcharge that applies on top of every Corporations Division filing fee, so it is load-bearing for the APPLIED fee, not background. Same binary/force-download shape as 603.",
-      "source_url": "https://dcregs.dc.gov/Common/DCMR/RuleList.aspx?DownloadFile=A0A6555F-0000-CA11-9301-3D0EE2256DEB",
-      "strings": [
-        "This chapter establishes the fees and charges",
-        "additional fee of ten percent"
-      ]
-    },
-    "de87b9d0dafe366030edf775e4376c7f6661262b216fe307fedea64f18c49637": {
-      "basis": "DCMR 17-6 section 603, NONPROFIT CORPORATIONS FILING FEES -- the rules the Mayor adopted under D.C. Code 29-102.12(a), which is where DC's corporate filing fee actually lives. 603.1(o) sets the biennial report fee and its late fee. Keyed by sha256 because the artifact is an MS Word binary served as application/force-download, which verify_perma's utf-8 WARC grep cannot read; extract_text reads it from the LOCAL capture (confirmed 2026-08-21).",
-      "source_url": "https://dcregs.dc.gov/Common/DCMR/RuleList.aspx?DownloadFile=D0A6555F-0000-C154-ABEF-3F80CC71D825",
-      "strings": [
-        "NONPROFIT CORPORATIONS FILING FEES",
-        "Biennial report: eighty dollars",
-        "Late fee: an additional fifty dollars"
-      ]
-    },
-    "b5e648d1a08762769750ff71c0ebd206490e12b7dfbbcec9394ee6f73fb55748": {
-      "basis": "HI escalation read 2026-08-18 (docs/regime_reread/HI_20260818.md; HI_VERIFY_20260818.sql) — PRIMARY, HRS 467B-6.5 (browser capture, perma NULL — sha lane): both due-date tracks, the $0 first fee tier, the $20/day cap $1,000 late fee",
-      "source_url": "https://www.capitol.hawaii.gov/hrscurrent/Vol10_Ch0436-0474/HRS0467B/HRS_0467B-0006_0005.htm",
-      "strings": [
-        "within ten business days of the date that the organization files the form with the Internal Revenue Service",
-        "not later than the fifteenth day of the fifth month following the close of its fiscal year",
-        "$0, if total revenue is less than $25,000",
-        "a late filing fee of $20 shall be imposed for each day",
-        "shall not exceed $1,000"
       ]
     }
   }
