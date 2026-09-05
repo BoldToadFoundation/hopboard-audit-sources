@@ -646,13 +646,6 @@
     "2 separate reports"
    ]
   },
-  "9LL4-NTTL": {
-   "basis": "R.I.G.L. 7-6-91: filing of annual report of domestic and foreign corporations (RI corporate breadth read, 2026-07-19)",
-   "source_url": "https://webserver.rilegislature.gov/Statutes/TITLE7/7-6/7-6-91.htm",
-   "strings": [
-    "Filing of annual report of domestic and foreign corporations"
-   ]
-  },
   "9N7N-TJWS": {
    "skip": "manually captured by Tony 2026-07-12, but the page is a JS-rendered SPA — Perma's copy is a shell missing the content (verify-perma COMPLETENESS FAIL). Local bytes string-verified via by_sha256 (eaa4328b2d26…).",
    "source_url": "https://azsos.gov/business/other-services/veterans-charities-organizations"
@@ -944,6 +937,13 @@
   "FKA6-YMQD": {
    "skip": "manually captured by Tony 2026-07-12 (Perma crawler had failed this host); binary artifact — verify-perma can't grep the payload, local bytes string-verified via by_sha256 (0d8a3b5038f6…).",
    "source_url": "https://web.archive.org/web/20250920120921/https://www.legis.iowa.gov/docs/code/504.1613.pdf"
+  },
+  "FT7L-4YKQ": {
+   "basis": "RI 7-6-91 re-capture 2026-09-05 (BATCH2 item 3, session A3; Tony disposition 2026-09-05: RETAKE the 2026-07-31 capture that tripped tiny_html at RI's apply step 0b). RE-KEYED from stale GUID 9LL4-NTTL for the SAME source_url, strings PRESERVED per the check_perma_sidecar instruction (re-key/merge, do not re-capture). The retake is BYTE-IDENTICAL to the 2026-07-31 capture (sha256 8a77df6c9c42f09e2e718666bc3d33de60b1a1bfa1b7f2bb68a913933578fd38 on both; 5,682 bytes; 1,738 bytes after tag-strip — a genuinely short section, tiny_html on LENGTH only). Original basis: R.I.G.L. 7-6-91: filing of annual report of domestic and foreign corporations (RI corporate breadth read, 2026-07-19)",
+   "source_url": "https://webserver.rilegislature.gov/Statutes/TITLE7/7-6/7-6-91.htm",
+   "strings": [
+    "Filing of annual report of domestic and foreign corporations"
+   ]
   },
   "FVN9-FTDM": {
    "basis": "Kentucky Secretary of State, Annual Reports — the AGENCY lane, a different issuing body from the Legislative Research Commission. Confirms the June 30 deadline and the Jan 1–Jun 30 window, and is the ONLY source for the $15 fee. ⚠ THE PAGE CITES NO KRS FOR THE FEE and KRS 14A.6-010 contains ZERO occurrences of \"fee\", so the fee's statutory basis is NOT LOCATED — which is NOT the same as a delegation (contrast IA §504.1613(4)(b) and DC §29-102.12(a), which delegate on their face). Recorded as not-found, not as delegated.",
