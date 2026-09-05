@@ -12,6 +12,20 @@
     "tls_chain_unverified": false
   },
   {
+    "source_url": "https://web.archive.org/web/20251216054948/https://www.nysenate.gov/legislation/laws/EXC/172-A",
+    "primary": false,
+    "local_path": "NY/web.archive.org-web-20251216054948-https-www.nysenate.gov-legislation-laws-EXC-1-259eafa4.html",
+    "content_type": "text/html",
+    "content_sha256": "6291843747d4d3a352d4116ac8fb7ac16f4a073ad9b7b80a677c7f3178e9c79c",
+    "perma_url": null,
+    "wayback_url": null,
+    "captured_at": "2026-09-05T23:48:48.254824+00:00",
+    "signed": true,
+    "tls_chain_unverified": false,
+    "ingested_from_file": true,
+    "provenance": "wayback_snapshot id_ raw-variant fetch (https://web.archive.org/web/20251216054948id_/https://www.nysenate.gov/legislation/laws/EXC/172-A) of the Internet Archive's 2025-12-16T05:49:48Z crawl of N.Y. Exec. Law \u00a7172-a on nysenate.gov Open Legislation \u2014 the whole section; page marker 'This entry was published on 2019-01-11'. Ingested 2026-09-05 (BATCH3 item 3, A3) because every fresh route was closed this session: nysenate.gov 403s the capture UA (Cloudflare wall, as recorded 2026-07-10); Perma's own crawler capture DH67-5ARP returned captures[0].status=failed; web.archive.org/save answered HTTP 520 on 5 tries; no browser available for the BROWSER_CAPTURE_RUNBOOK route. CURRENCY: these are the bytes as of 2025-12-16, not re-verified against the live page today; the write this capture backs moves NY's basis in the over-warn direction only and leaves the 25,000 figure unchanged, so a post-snapshot amendment could only make the encoding over-warn. captured_at below is the INGEST time (the tool cannot set the source-capture date); the true source-capture date is the 14-digit timestamp in source_url."
+  },
+  {
     "source_url": "https://web.archive.org/web/20260523141254/https://ag.ny.gov/sites/default/files/2022-10/Regs-F.pdf",
     "primary": true,
     "local_path": "NY/web.archive.org-web-20260523141254-https-ag.ny.gov-sites-default-files-2022-10-R.pdf",
@@ -40,6 +54,6 @@
     "signed": true,
     "tls_chain_unverified": false,
     "ingested_from_file": true,
-    "provenance": "Perma RX6X-T2LS (Tony browser capture 2026-07-10; user-uploaded PDF replacing a failed automated capture — nysenate.gov is Cloudflare-walled to scripted fetch); PDF payload extracted from the perma WARC via authenticated API; thresholds byte-verified pre-ingest"
+    "provenance": "Perma RX6X-T2LS (Tony browser capture 2026-07-10; user-uploaded PDF replacing a failed automated capture \u2014 nysenate.gov is Cloudflare-walled to scripted fetch); PDF payload extracted from the perma WARC via authenticated API; thresholds byte-verified pre-ingest"
   }
 ]
