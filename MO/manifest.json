@@ -60,6 +60,18 @@
     "tls_chain_unverified": false
   },
   {
+    "source_url": "https://revisor.mo.gov/main/OneSection.aspx?section=407.450",
+    "primary": false,
+    "local_path": "MO/revisor.mo.gov-main-OneSection.aspx-section-407.450-fb2587fd.html",
+    "content_type": "text/html; charset=utf-8",
+    "content_sha256": "29e26fb69d2a1752793c66d3a0cbe2968621166a9f4e48bedb1f1ae9418c2f59",
+    "perma_url": "https://perma.cc/RUN9-TGEF",
+    "wayback_url": null,
+    "captured_at": "2026-09-05T22:30:10.535666+00:00",
+    "signed": true,
+    "tls_chain_unverified": false
+  },
+  {
     "source_url": "https://revisor.mo.gov/main/OneSection.aspx?section=407.453",
     "primary": false,
     "local_path": "MO/revisor.mo.gov-main-OneSection.aspx-section-407.453.html",
@@ -80,6 +92,18 @@
     "perma_url": "https://perma.cc/Q3SM-3EUC",
     "wayback_url": null,
     "captured_at": "2026-07-06T18:36:26.031426+00:00",
+    "signed": true,
+    "tls_chain_unverified": false
+  },
+  {
+    "source_url": "https://revisor.mo.gov/main/OneSection.aspx?section=407.459",
+    "primary": false,
+    "local_path": "MO/revisor.mo.gov-main-OneSection.aspx-section-407.459-66084fd5.html",
+    "content_type": "text/html; charset=utf-8",
+    "content_sha256": "1f0bf948be795760c2f5671f3a265c70812a047b11abbc1df804803d78aabf56",
+    "perma_url": "https://perma.cc/2JFX-6N57",
+    "wayback_url": null,
+    "captured_at": "2026-09-05T22:30:10.535666+00:00",
     "signed": true,
     "tls_chain_unverified": false
   },
@@ -108,6 +132,30 @@
     "tls_chain_unverified": false
   },
   {
+    "source_url": "https://revisor.mo.gov/main/OneSection.aspx?section=407.469",
+    "primary": false,
+    "local_path": "MO/revisor.mo.gov-main-OneSection.aspx-section-407.469-9a76b6c1.html",
+    "content_type": "text/html; charset=utf-8",
+    "content_sha256": "a45a2e77e7f4e4faa22adf7c2211d6538c6215fb3a07a588c056c3cfb3e39c36",
+    "perma_url": "https://perma.cc/ANL8-6S9F",
+    "wayback_url": null,
+    "captured_at": "2026-09-05T22:30:10.535666+00:00",
+    "signed": true,
+    "tls_chain_unverified": false
+  },
+  {
+    "source_url": "https://revisor.mo.gov/main/OneSection.aspx?section=407.472",
+    "primary": false,
+    "local_path": "MO/revisor.mo.gov-main-OneSection.aspx-section-407.472-2c3944c8.html",
+    "content_type": "text/html; charset=utf-8",
+    "content_sha256": "0226da259c9481cf3711ea071635cffa3ae2bfd9457c323ae2e25b34c283fae6",
+    "perma_url": "https://perma.cc/WP5M-B3YP",
+    "wayback_url": null,
+    "captured_at": "2026-09-05T22:30:10.535666+00:00",
+    "signed": true,
+    "tls_chain_unverified": false
+  },
+  {
     "source_url": "https://revisor.mo.gov/main/OneSection.aspx?section=407.475",
     "primary": false,
     "local_path": "MO/revisor.mo.gov-main-OneSection.aspx-section-407.475.html",
@@ -118,6 +166,20 @@
     "captured_at": "2026-07-06T18:36:26.031426+00:00",
     "signed": true,
     "tls_chain_unverified": false
+  },
+  {
+    "source_url": "https://revisor.mo.gov/main/OneSection.aspx?section=407.478",
+    "primary": false,
+    "local_path": "MO/revisor.mo.gov-main-OneSection.aspx-section-407.478-91994314.478.html",
+    "content_type": "text/html",
+    "content_sha256": "2f932d408c187b94744edb3819832d382814fd769b08dafb5ce40a172dfe5e19",
+    "perma_url": null,
+    "wayback_url": null,
+    "captured_at": "2026-09-05T22:30:10.535666+00:00",
+    "signed": true,
+    "tls_chain_unverified": false,
+    "ingested_from_file": true,
+    "provenance": "curl -sS -A hopboard-audit-capture/1.0 (the script UA) https://revisor.mo.gov/main/OneSection.aspx?section=407.478 at 2026-09-05T22:16Z, BATCH3 item 1 (A1) range-existence probe; ingested via --from-file because the CLI requires a --primary slot and MO load-bearing primary \u00a7407.456 is already archived (sha 9710b710\u2026) \u2014 a retake would orphan the predecessor that verification row 84 cites (the RI 2026-09-05 trap); no third primary tagged"
   },
   {
     "source_url": "https://web.archive.org/web/20260521135408/https://revisor.mo.gov/main/OneSection.aspx?section=355.857",
