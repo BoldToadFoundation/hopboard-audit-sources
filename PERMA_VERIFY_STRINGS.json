@@ -2521,6 +2521,17 @@
     "register with the charitable trusts unit in accordance with RSA 7:28, I.",
     "The completed Form NHCT-11 shall be accompanied by a non-refundable fee of $25.00."
    ]
+  },
+  "6291843747d4d3a352d4116ac8fb7ac16f4a073ad9b7b80a677c7f3178e9c79c": {
+   "basis": "STATUTE, N.Y. Exec. Law §172-a (Certain persons exempted) — nysenate.gov Open Legislation text as crawled by the Internet Archive 2025-12-16T05:49:48Z, ingested --from-file 2026-09-05 (BATCH3 item 3, A3; archive 3fad0877) after every fresh route was closed: nysenate.gov 403s the capture UA, Perma crawler DH67-5ARP failed, web.archive.org/save HTTP 520 x5, no browser. Backs NY_THRESHOLD_BASIS_20260905.sql: §172-a(2)(d) measures 'gross contributions' with NO New York-source qualifier, conditions the exemption on no professional fund raisers or fund raising counsel, and carries the thirty-day register-after-exceeding-$25,000 clock. Page marker 'This entry was published on 2019-01-11' = the text version served. Strings are single source lines (the statute text wraps on <br />; contains_all folds whitespace, not tags). No Perma: the crawler capture failed; the sha is the record.",
+   "source_url": "https://web.archive.org/web/20251216054948/https://www.nysenate.gov/legislation/laws/EXC/172-A",
+   "strings": [
+    "contributions of less than twenty-five thousand dollars during a fiscal",
+    "on by professional fund raisers or fund raising counsel. However, if the",
+    "thousand dollars, it shall within thirty days after the date it shall",
+    "dollars register with the attorney general as required by section one",
+    "This entry was published on 2019-01-11"
+   ]
   }
  }
 }
