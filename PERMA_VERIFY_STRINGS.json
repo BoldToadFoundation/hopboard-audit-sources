@@ -1,5 +1,33 @@
 {
  "by_perma_guid": {
+  "RUN9-TGEF": {
+   "note": "verified byte-present against the LOCAL archived artifact 2026-09-05 (BATCH3 item 1, A1): the remaining sections of Mo. Rev. Stat. §§407.450–.478 captured so the range is complete; completeness capture — the load-bearing sentences live in §407.456 (Q3SM-3EUC) and §407.462 (VU65-UNF9)",
+   "source_url": "https://revisor.mo.gov/main/OneSection.aspx?section=407.450",
+   "strings": [
+    "shall be known and may be cited as the \"Charitable Organizations and Solicitations Law\""
+   ]
+  },
+  "2JFX-6N57": {
+   "note": "verified byte-present against the LOCAL archived artifact 2026-09-05 (BATCH3 item 1, A1): the remaining sections of Mo. Rev. Stat. §§407.450–.478 captured so the range is complete; completeness capture — the load-bearing sentences live in §407.456 (Q3SM-3EUC) and §407.462 (VU65-UNF9)",
+   "source_url": "https://revisor.mo.gov/main/OneSection.aspx?section=407.459",
+   "strings": [
+    "The attorney general shall establish and maintain a register of all documents filed by charitable organizations"
+   ]
+  },
+  "ANL8-6S9F": {
+   "note": "verified byte-present against the LOCAL archived artifact 2026-09-05 (BATCH3 item 1, A1): the remaining sections of Mo. Rev. Stat. §§407.450–.478 captured so the range is complete; completeness capture — §407.469.1 is disapplied for exempt orgs by §407.456.2 and modifies no deadline",
+   "source_url": "https://revisor.mo.gov/main/OneSection.aspx?section=407.469",
+   "strings": [
+    "shall, upon request, disclose the percentage of the funds solicited which were spent on the costs of fund raising"
+   ]
+  },
+  "WP5M-B3YP": {
+   "note": "verified byte-present against the LOCAL archived artifact 2026-09-05 (BATCH3 item 1, A1): the remaining sections of Mo. Rev. Stat. §§407.450–.478 captured so the range is complete; completeness capture (AG investigation powers; conduct, no filing)",
+   "source_url": "https://revisor.mo.gov/main/OneSection.aspx?section=407.472",
+   "strings": [
+    "When it appears to the attorney general that a person has engaged in, is engaging in or is about to engage in any method, use, act or practice declared to be unlawful"
+   ]
+  },
   "24V5-4NJR": {
    "basis": "LA R.S. 51:1901.1: professional solicitors register 10 days prior; $150 fee; $25,000 bond",
    "source_url": "https://legis.la.gov/legis/Law.aspx?d=104160",
@@ -1931,6 +1959,13 @@
   }
  },
  "by_sha256": {
+  "2f932d408c187b94744edb3819832d382814fd769b08dafb5ce40a172dfe5e19": {
+   "basis": "Mo. Rev. Stat. §407.478 (no bar to private civil actions) — ingested via --from-file 2026-09-05 (BATCH3 item 1, A1; same-UA curl probe of the live page). No Perma: the capture CLI's --primary slot could not be used without re-capturing the archived load-bearing primary §407.456 (a retake would orphan the predecessor verification row 84 cites). Completeness capture; strings verified against the LOCAL sha-pinned bytes.",
+   "source_url": "https://revisor.mo.gov/main/OneSection.aspx?section=407.478",
+   "strings": [
+    "shall be construed to preclude any person or group of persons from asserting any private cause of action they might have against a charitable organization"
+   ]
+  },
   "02b19175a87852a53667673c70e2732b1f67500e6654b539a178ef461c8489b3": {
    "basis": "Vermont CP Rule 119 (paid-fundraiser charitable-solicitation disclosure rule) with its statutory authority and mandatory paid-fundraiser disclosure [moved from by_perma_guid SEA9-YQLS after verify-perma: Perma capture not string-verifiable]",
    "source_url": "https://ago.vermont.gov/sites/ago/files/wp-content/uploads/2018/03/CP-Rule-119.pdf",
