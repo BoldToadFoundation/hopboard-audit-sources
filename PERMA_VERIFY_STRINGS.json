@@ -60,13 +60,8 @@
    "source_url": "https://oag.ca.gov/system/files/media/rrf1_form.pdf"
   },
   "2NRS-CDUX": {
-   "basis": "UT S.B. 38 (2026) enrolled — recodifies ch. 13-22; §13-22-110 is the annual 990-to-DCCC filing that survives H.B. 43's repeal of the solicitation permit (the UT reg=FALSE-with-live-duty case)",
+   "skip": "PDF tier (documented skip, 2026-09-06, BATCH3 item 6 A6). UT S.B. 38 (2026) enrolled — recodifies ch. 13-22; §13-22-110 is the annual 990-to-DCCC filing that survives H.B. 43's repeal of the solicitation permit. The manifest content_type is application/pdf, so verify_perma's utf-8 WARC grep is BLIND to this artifact by the sweep's own rule (sweep_artifact_integrity._verify_perma_blind); the string-form entry written 2026-07-14 failed COMPLETENESS against the 931,727-byte WARC on the first state-scoped run since (UT_ANNUAL_990_HOME_20260906.sql apply, step 0b, refused before any mutation). The load-bearing strings are byte-verified via pdftotext against the LOCAL sha-pinned artifact by the by_sha256 entry 70325aa75611668e0129195d46b5200df0452330ca3339d06fa16c19e5d955c5 (4 present + 0 absent in that same run); the old entry's third string ('Foreign nonprofit corporation\" means the same as that term is defined in Section 16-6a-102') does not fold-match the pdftotext text (0 hits, 2026-09-06) and is not load-bearing for any UT write — the §16-6a-102 definition is cited from the 07-13 packet, not encoded. PDF-gate-v2 (WARC→pdftotext→grep) is the owed upgrade (the MD 83PJ-5JFF precedent).",
    "source_url": "https://le.utah.gov/Session/2026/bills/enrolled/SB0038.pdf",
-   "strings": [
-    "unredacted copy of the charitable organization's most",
-    "Division of Corporations and Commercial Code",
-    "Foreign nonprofit corporation\" means the same as that term is defined in Section 16-6a-102"
-   ],
    "superseded_perma_guid": "H3NW-EQ7R"
   },
   "2Q27-HMKV": {
