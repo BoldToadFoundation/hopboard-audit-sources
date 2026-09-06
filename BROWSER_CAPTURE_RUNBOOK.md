@@ -47,8 +47,17 @@ Ingest goes through the canonical capture tool, NOT a hand-assembled manifest en
     is what the HI 43 did. Measured 2026-09-06: `sdlegislature.gov/Statutes/37-30` returns
     HTTP 200 / 5,982 bytes / zero "37-30" hits to curl, and **28,015 chars with 73 "37-30" hits
     under headless Playwright**. No residential IP needed.
-  - **IP / datacenter blocks** (403 to every UA from this machine — GA's `sos.ga.gov` is the
-    live one). **These need Tony's browser**, and only these.
+  - **IP / datacenter blocks** (403 to every UA from this machine). **These need Tony's
+    browser** — but re-measured 2026-09-06 across all 50 monitored sources, **not one state
+    needs it for its STATUTORY source.** GA was the canonical example and is NOT one: its two
+    target PDFs (C-100, C-200) download under headless Playwright at 1,071,792 B and
+    195,543 B with `%PDF-` magic. A `ctx.request.get()` 403s them; a real page navigation
+    does not, because the fetch API does not carry navigation headers — **probe with a page
+    navigation, never a fetch, before calling a host blocked.** MS was a threshold artifact.
+    MT, KS and NH do block at their AG/DOJ hosts, and each has a working statutory publisher
+    instead (legmt.gov / Justia · ksrevisor.org · gencourt.state.nh.us) — which is the source
+    the protocol prefers anyway. What may still need a browser is an AGENCY-instrument read
+    on a blocked agency host; that is a per-read question, not a scheduling constraint.
   Classify the wall BEFORE routing to a human; the default assumption that a wall means Tony
   is what made SD's F7 residual look like it was queued behind a person.
 
