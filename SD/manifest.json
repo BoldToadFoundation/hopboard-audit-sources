@@ -36,6 +36,20 @@
     "tls_chain_unverified": false
   },
   {
+    "source_url": "https://sdlegislature.gov/Statutes/37-30",
+    "primary": false,
+    "local_path": "SD/sdlegislature.gov-Statutes-37-30-d19ec08a.gov-Statutes-37-30.html",
+    "content_type": "text/html",
+    "content_sha256": "d4f3224402b81149bc4a944381ec4abf3185ac00f9dd2b588b3bf84b51fefafc",
+    "perma_url": null,
+    "wayback_url": null,
+    "captured_at": "2026-09-06T19:06:44.568683+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "ingested_from_file": true,
+    "provenance": "browser_captured (automated variant): playwright chromium headless, RENDERED DOM (raw response body is an empty SPA shell: curl returns 200/5,982 bytes with zero '37-30' occurrences). Captured 2026-09-06 as the INDEPENDENT SECOND ARTIFACT for SD's F7 reconciling lane \u2014 Legislative Research Council (statutory publisher), distinct issuing body from the AG codified-reproduction PDF that both existing readers resolved to. Per BROWSER_CAPTURE_RUNBOOK."
+  },
+  {
     "source_url": "https://sdlegislature.gov/api/Rules/Rule/20:11.html?all=true",
     "primary": false,
     "local_path": "SD/sdlegislature.gov-api-Rules-Rule-20-11.html-all-true.html",

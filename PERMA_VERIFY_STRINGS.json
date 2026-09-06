@@ -2545,6 +2545,16 @@
     "var versionDefault=\"C13-22-S110_2026050620260506\";",
     "var affectURL = \"13-22-S110_bills.html\";"
    ]
+  },
+  "d4f3224402b81149bc4a944381ec4abf3185ac00f9dd2b588b3bf84b51fefafc": {
+   "basis": "SDCL ch. 37-30 (Solicitation of Charitable Contributions), full chapter as published by the South Dakota Legislative Research Council. Ingested via --from-file 2026-09-06 (BATCH4/7) as the INDEPENDENT SECOND ARTIFACT for SD's F7 reconciling lane: both existing readers resolved to the SAME AG codified-reproduction PDF (Justia walled at read time), which is what holds all four SD (state,field) pairs at completeness='partial_caveat'. The LRC is the statutory publisher and a distinct issuing body from the Attorney General — the DC pattern (Council statute + DLCP instrument) that already satisfies independence.",
+   "no_perma": "The capture route is the rendered DOM, not the response body: sdlegislature.gov is a JS SPA and curl returns HTTP 200 / 5,982 bytes with ZERO occurrences of '37-30'. Perma's crawler has the same problem with this host, so there is no Perma pin; the sha256 above pins the bytes a reader actually sees.",
+   "verify_strings": [
+    "37-30-1",
+    "37-30-3",
+    "37-30-26"
+   ],
+   "verified_byte_present": "2026-09-06 (this entry written only after grepping the archived file)"
   }
  }
 }
