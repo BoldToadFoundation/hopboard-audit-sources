@@ -2532,6 +2532,24 @@
     "dollars register with the attorney general as required by section one",
     "This entry was published on 2019-01-11"
    ]
+  },
+  "db7d4a1d6059d17c46c88319e19c53e034e7928ac4f4c41721b3470a10df3d19": {
+   "basis": "CURRENCY WITNESS for Utah Code §13-22-104 (BATCH3 item 6, A6; DEFERRED_REGISTER K1's post-2026-05-06 amendment check). le.utah.gov's UNPINNED section URL serves a static HTML shell — the statute text is rendered client-side by /xcode/js/code.js (K1's JS blocker) — but the shell's own bytes embed the version list: exactly one entry, labelled 'Current Version', = C13-22-S104_2026050620260506, the 2026-05-06 text already sha-pinned (S7S7-4337, sha 58311d09...). So no post-05-06 amendment version is published for §13-22-104. Control run the same minute: 16-1a-S212.html lists a future-effective version labelled 'Effective 10/1/2026', so an amendment would appear here labelled by date; LIMIT: a pending repeal is NOT surfaced by this mechanism (16-6a-S1607.html, repealed eff. 2026-10-01 per S.B. 40, also shows only 'Current Version'). Ingested --from-file (curl, UA hopboard-audit-capture/1.0, 2026-09-06T10:23:58Z); no Perma — the sha is the record.",
+   "source_url": "https://le.utah.gov/xcode/Title13/Chapter22/13-22-S104.html",
+   "strings": [
+    "['C13-22-S104_2026050620260506.html','Current Version','C13-22-S104_2026050620260506']",
+    "var versionDefault=\"C13-22-S104_2026050620260506\";",
+    "var affectURL = \"13-22-S104_bills.html\";"
+   ]
+  },
+  "9014bf96de2664a351312e487167acb9b573e0abce4c9d7d7806246e21ee2ed8": {
+   "basis": "CURRENCY WITNESS for Utah Code §13-22-110 (BATCH3 item 6, A6; DEFERRED_REGISTER K1's post-2026-05-06 amendment check). le.utah.gov's UNPINNED section URL serves a static HTML shell — the statute text is rendered client-side by /xcode/js/code.js (K1's JS blocker) — but the shell's own bytes embed the version list: exactly one entry, labelled 'Current Version', = C13-22-S110_2026050620260506, the 2026-05-06 text already sha-pinned as UT's standing primary (7PHF-UQFC, sha 62fc79a9...). So no post-05-06 amendment version is published for §13-22-110; the D2 encoding (UT_ANNUAL_990_HOME_20260906.sql) reads the pinned text. Control run the same minute: 16-1a-S212.html lists a future-effective version labelled 'Effective 10/1/2026'; LIMIT: a pending repeal is NOT surfaced by this mechanism (16-6a-S1607.html shows only 'Current Version'). Ingested --from-file (curl, UA hopboard-audit-capture/1.0, 2026-09-06T10:23:58Z); no Perma — the sha is the record.",
+   "source_url": "https://le.utah.gov/xcode/Title13/Chapter22/13-22-S110.html",
+   "strings": [
+    "['C13-22-S110_2026050620260506.html','Current Version','C13-22-S110_2026050620260506']",
+    "var versionDefault=\"C13-22-S110_2026050620260506\";",
+    "var affectURL = \"13-22-S110_bills.html\";"
+   ]
   }
  }
 }
