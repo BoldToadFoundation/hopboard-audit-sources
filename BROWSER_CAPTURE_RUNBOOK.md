@@ -32,13 +32,25 @@ Design goal: **Tony's part takes five minutes; everything else stays script-enfo
 Ingest goes through the canonical capture tool, NOT a hand-assembled manifest entry
 ([[feedback_canonical_path_for_prod_writes]] — the script-enforced discipline IS the gate):
 
-- **Pending tool support:** a `--from-file PATH --source-url URL --browser-captured` ingest
-  mode for `capture_audit_sources.py` (~30–60 min build, priced for the batch session): same
-  SHA-256/manifest/signed-commit flow, plus `browser_captured: true` + who/when in the entry,
-  Perma capture still attempted from the capture machine (Perma's own crawler has different
-  egress and may succeed where we 403).
-- **Until that flag exists, browser-captured artifacts WAIT in the drop dir** — they are not
-  in the archive, and the ledger row stays BLOCKED. No manual manifest writes.
+- **✅ BUILT — this said "pending tool support" until 2026-09-06 and was stale by ~3 months.**
+  The ingest mode is `--from-file PATH --from-file-url URL --from-file-provenance TEXT`
+  (all three required together), built 2026-06-11 for the AK Perma-WARC localization. Same
+  SHA-256 / manifest / signed-commit flow, no hand-edited manifests. Provenance is free text;
+  the runbook's convention is `browser_captured per BROWSER_CAPTURE_RUNBOOK` (the flag's own
+  `--help` gives that as the example). `--from-file-primary` marks the artifact load-bearing.
+- **It has been used.** 54 manifest entries already carry a browser-capture provenance:
+  11 `browser_capture_2026-08-08` and **43 `browser_captured (automated variant): playwright
+  chromium-1223 headless, raw HTTP response.body() bytes`** (HI, 2026-08-18).
+- **⚠ TWO DIFFERENT WALLS, and only one needs Tony.** The distinction was not written down and
+  it is the whole cost question:
+  - **JS-render walls** (the host returns 200 with an empty SPA shell). **Automatable** — this
+    is what the HI 43 did. Measured 2026-09-06: `sdlegislature.gov/Statutes/37-30` returns
+    HTTP 200 / 5,982 bytes / zero "37-30" hits to curl, and **28,015 chars with 73 "37-30" hits
+    under headless Playwright**. No residential IP needed.
+  - **IP / datacenter blocks** (403 to every UA from this machine — GA's `sos.ga.gov` is the
+    live one). **These need Tony's browser**, and only these.
+  Classify the wall BEFORE routing to a human; the default assumption that a wall means Tony
+  is what made SD's F7 residual look like it was queued behind a person.
 
 ## Chain-of-custody note
 
