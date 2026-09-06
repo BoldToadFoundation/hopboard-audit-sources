@@ -36,6 +36,20 @@
     "tls_chain_unverified": false
   },
   {
+    "source_url": "https://le.utah.gov/xcode/Title13/Chapter22/13-22-S104.html",
+    "primary": false,
+    "local_path": "UT/le.utah.gov-xcode-Title13-Chapter22-13-22-S104.html-54311527.html",
+    "content_type": "text/html",
+    "content_sha256": "db7d4a1d6059d17c46c88319e19c53e034e7928ac4f4c41721b3470a10df3d19",
+    "perma_url": null,
+    "wayback_url": null,
+    "captured_at": "2026-09-06T10:24:16.294203+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "ingested_from_file": true,
+    "provenance": "curl, UA hopboard-audit-capture/1.0, 2026-09-06T10:23:58Z, HTTP 200, 26654 bytes: le.utah.gov's UNPINNED section URL serves a static HTML shell (the text is rendered client-side by /xcode/js/code.js \u2014 DEFERRED_REGISTER K1's JS blocker) whose embedded versionArr/versionDefault name the CURRENT version \u2014 exactly one entry, ['C13-22-S104_2026050620260506.html','Current Version',...] \u2014 i.e. the sha-pinned 2026-05-06 text (S7S7-4337, sha 58311d09...). Captured as the supersession / currency witness for \u00a713-22-104 (BATCH3 item 6, A6). Control: 16-1a-S212.html lists ['...','Effective 10/1/2026',...] for a future-effective version, so a post-05-06 amendment version would appear here labelled by date; a pending REPEAL is not surfaced by this mechanism (16-6a-S1607.html, repealed eff. 2026-10-01 per S.B. 40, shows only 'Current Version')."
+  },
+  {
     "source_url": "https://le.utah.gov/xcode/Title13/Chapter22/C13-22-S104_2026050620260506.html",
     "primary": false,
     "local_path": "UT/le.utah.gov-xcode-Title13-Chapter22-C13-22-S104_2026050620260506.html.html",
