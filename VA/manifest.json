@@ -12,6 +12,18 @@
     "tls_chain_unverified": false
   },
   {
+    "source_url": "https://law.lis.virginia.gov/vacode/title57/chapter5/section57-60/",
+    "primary": true,
+    "local_path": "VA/law.lis.virginia.gov-vacode-title57-chapter5-section57-60-472f492f.html",
+    "content_type": "text/html; charset=utf-8",
+    "content_sha256": "bc46dd0c4e02d15fa7a3b14000cf0cb26a79f74f28630c6c2b8c45a4ad669578",
+    "perma_url": "https://perma.cc/T6MD-UZ4C",
+    "wayback_url": "https://web.archive.org/web/20260907151525/https://law.lis.virginia.gov/vacode/title57/chapter5/section57-60/",
+    "captured_at": "2026-09-07T15:15:18.873255+00:00",
+    "signed": false,
+    "tls_chain_unverified": false
+  },
+  {
     "source_url": "https://www.vdacs.virginia.gov/food-charitable-solicitation.shtml",
     "primary": false,
     "local_path": "VA/www.vdacs.virginia.gov-food-charitable-solicitation.shtml.html",

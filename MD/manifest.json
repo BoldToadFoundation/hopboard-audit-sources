@@ -1,5 +1,17 @@
 [
   {
+    "source_url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gbr&section=6-102",
+    "primary": true,
+    "local_path": "MD/mgaleg.maryland.gov-mgawebsite-Laws-StatuteText-article-gbr-section-6-102-d744110d.html",
+    "content_type": "text/html; charset=utf-8",
+    "content_sha256": "bad8c9fa9d822bfd82816de7f0b60d7382440a3f662bc6ce80953958bf5983f5",
+    "perma_url": "https://perma.cc/RSE7-KYDC",
+    "wayback_url": null,
+    "captured_at": "2026-09-07T15:13:44.443886+00:00",
+    "signed": false,
+    "tls_chain_unverified": false
+  },
+  {
     "source_url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gbr&section=6-408&enactments=false",
     "primary": true,
     "local_path": "MD/mgaleg.maryland.gov-mgawebsite-Laws-StatuteText-article-gbr-section-6-408-enactm.html",

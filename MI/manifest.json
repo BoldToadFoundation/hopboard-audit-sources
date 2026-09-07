@@ -34,5 +34,19 @@
     "captured_at": "2026-07-31T16:53:57.245676+00:00",
     "signed": false,
     "tls_chain_unverified": false
+  },
+  {
+    "source_url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-400-283",
+    "primary": true,
+    "local_path": "MI/www.legislature.mi.gov-Laws-MCL-objectName-mcl-400-283-1453a532.html",
+    "content_type": "text/html",
+    "content_sha256": "d6381fcad4fbf5f75baf92f69eca1a12ae7b5a6100a298960c51b4d366d1da76",
+    "perma_url": null,
+    "wayback_url": null,
+    "captured_at": "2026-09-07T15:17:01.520358+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "ingested_from_file": true,
+    "provenance": "browser_captured per BROWSER_CAPTURE_RUNBOOK: headless Playwright page navigation (networkidle), 2026-09-07, for BATCH11's frame read of MCL 400.283 (Charitable Organizations and Solicitations Act exemptions). The script's own fetch could not archive this host; the headless PAGE NAVIGATION returned 200 / 5,191 rendered chars with 2 occurrences of 'exempt'. Probe kind stated per the guard."
   }
 ]

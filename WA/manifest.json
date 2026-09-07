@@ -11,6 +11,18 @@
     "signed": true
   },
   {
+    "source_url": "https://app.leg.wa.gov/RCW/default.aspx?cite=19.09&full=true",
+    "primary": true,
+    "local_path": "WA/app.leg.wa.gov-RCW-default.aspx-cite-19.09-full-true-d2b22c0d.html",
+    "content_type": "text/html; charset=utf-8",
+    "content_sha256": "69b3b3e3be8b538e5ebc9c8695c3931433048dba4c1fa04607793023d5dfc456",
+    "perma_url": "https://perma.cc/2GSW-C572",
+    "wayback_url": "https://web.archive.org/web/20260907151916/https://app.leg.wa.gov/RCW/default.aspx?cite=19.09&full=true",
+    "captured_at": "2026-09-07T15:19:10.720067+00:00",
+    "signed": false,
+    "tls_chain_unverified": false
+  },
+  {
     "source_url": "https://app.leg.wa.gov/RCW/default.aspx?cite=19.09.062&pdf=true",
     "primary": false,
     "local_path": "WA/app.leg.wa.gov-RCW-default.aspx-cite-19.09.062-pdf-true.pdf",
@@ -31,6 +43,18 @@
     "wayback_url": "https://web.archive.org/web/20260525221902/https://app.leg.wa.gov/RCW/default.aspx?cite=19.09.075&pdf=true",
     "captured_at": "2026-05-25T22:18:47.243014+00:00",
     "signed": true
+  },
+  {
+    "source_url": "https://app.leg.wa.gov/RCW/default.aspx?cite=19.09.076",
+    "primary": true,
+    "local_path": "WA/app.leg.wa.gov-RCW-default.aspx-cite-19.09.076-df995345.html",
+    "content_type": "text/html; charset=utf-8",
+    "content_sha256": "a6cadc508f4d98a1e2dc88e4992c6304af825945269a742f0a1af57124aaeaa2",
+    "perma_url": "https://perma.cc/63ER-TAE2",
+    "wayback_url": null,
+    "captured_at": "2026-09-07T15:15:39.846036+00:00",
+    "signed": false,
+    "tls_chain_unverified": false
   },
   {
     "source_url": "https://app.leg.wa.gov/RCW/default.aspx?cite=19.09.085&pdf=true",

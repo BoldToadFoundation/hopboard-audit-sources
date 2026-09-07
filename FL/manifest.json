@@ -1,5 +1,17 @@
 [
   {
+    "source_url": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0400-0499/0496/Sections/0496.406.html",
+    "primary": true,
+    "local_path": "FL/www.leg.state.fl.us-statutes-index.cfm-App_mode-Display_Statute-URL-0400-0499-04-545d1473.html",
+    "content_type": "text/html;charset=UTF-8",
+    "content_sha256": "eac4e7b02dde84f74a44b0f34dd160216ab9f7c45310c3a827973079c57954b4",
+    "perma_url": "https://perma.cc/CPN9-W3U9",
+    "wayback_url": "https://web.archive.org/web/20260907151320/https://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0400-0499%2F0496%2FSections%2F0496.406.html",
+    "captured_at": "2026-09-07T15:13:08.571988+00:00",
+    "signed": false,
+    "tls_chain_unverified": false
+  },
+  {
     "source_url": "https://dos.fl.gov/sunbiz/manage-business/efile/annual-report/",
     "primary": false,
     "local_path": "FL/dos.fl.gov-sunbiz-manage-business-efile-annual-report-60e34804.html",
@@ -21,6 +33,18 @@
     "wayback_url": null,
     "captured_at": "2026-06-10T23:00:12.298094+00:00",
     "signed": true,
+    "tls_chain_unverified": false
+  },
+  {
+    "source_url": "https://www.flsenate.gov/Laws/Statutes/2024/0496.406",
+    "primary": true,
+    "local_path": "FL/www.flsenate.gov-Laws-Statutes-2024-0496.406-bd18227b.html",
+    "content_type": "text/html; charset=utf-8",
+    "content_sha256": "421ea81921856f33b78054bff2f5070978f74466d466b3e424fe4d4a4b0a7c97",
+    "perma_url": "https://perma.cc/7CUD-C9M2",
+    "wayback_url": "https://web.archive.org/web/20260907151940/https://www.flsenate.gov/Laws/Statutes/2024/0496.406",
+    "captured_at": "2026-09-07T15:19:32.021303+00:00",
+    "signed": false,
     "tls_chain_unverified": false
   },
   {

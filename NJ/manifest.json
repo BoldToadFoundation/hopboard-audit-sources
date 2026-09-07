@@ -25,5 +25,17 @@
     "ingested_from_file": true,
     "provenance": "per-section extract of N.J.S.A. 45:17A-23: lines 484126-484138 of STATUTES.TXT inside STATUTES-TEXT.zip (file dated 2026-07-04 06:00, re-fetched 2026-07-05, zip sha256 10386d3c56950543b464a7e439c227993b5b47cfd44e0380bd5a898f679fa09c \u2014 byte-identical to the sha recorded at the 2026-07-05 crank); extraction via sed by Crabdaddy 2026-07-05; carries the verified renewal clause verbatim",
     "perma_backfilled_at": "2026-07-12T21:07:30.272803+00:00"
+  },
+  {
+    "source_url": "https://www.njconsumeraffairs.gov/regulations/Chapter-30-Rules-of-the-Office-of-Consumer-Protection.pdf",
+    "primary": true,
+    "local_path": "NJ/www.njconsumeraffairs.gov-regulations-Chapter-30-Rules-of-the-Office-of-Consumer-46ddbd9d.pdf",
+    "content_type": "text/html",
+    "content_sha256": "d02032286070b4dd9d8fbd985a7bdca8af8edf52b89ff177db3bfcb2c8a9c43d",
+    "perma_url": "https://perma.cc/5XWD-VAQ8",
+    "wayback_url": null,
+    "captured_at": "2026-09-07T15:17:50.358813+00:00",
+    "signed": false,
+    "tls_chain_unverified": false
   }
 ]

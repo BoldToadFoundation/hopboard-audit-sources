@@ -26,14 +26,16 @@
   {
     "source_url": "https://www.cga.ct.gov/current/pub/chap_419d.htm",
     "primary": true,
-    "local_path": "CT/www.cga.ct.gov-current-pub-chap_419d.htm.html",
+    "local_path": "CT/www.cga.ct.gov-current-pub-chap_419d.htm-b1c2a3d5.html",
     "content_type": "text/html",
-    "content_sha256": "3a92b45a35199040407aceb4084b5547764d2df1ac1d9db115ced4ef374f7dcd",
-    "perma_url": "https://perma.cc/7ABS-UE5D",
-    "wayback_url": "https://web.archive.org/web/20260429180727/https://www.cga.ct.gov/current/pub/chap_419d.htm",
-    "captured_at": "2026-06-05T21:07:53.493834+00:00",
-    "signed": true,
-    "tls_chain_unverified": true
+    "content_sha256": "e2e0911da6eefa4f172fb713088222ffa7d46f0ff5823354b285e2f27a78baf6",
+    "perma_url": null,
+    "wayback_url": null,
+    "captured_at": "2026-09-07T15:17:01.589705+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "ingested_from_file": true,
+    "provenance": "browser_captured per BROWSER_CAPTURE_RUNBOOK: headless Playwright page navigation (networkidle), 2026-09-07, for BATCH11's frame read of CGS chapter 419d (Solicitation of Charitable Funds). The script's own fetch could not archive this host; the headless PAGE NAVIGATION returned 200 / 45,429 rendered chars with 4 occurrences of 'exempt'. Probe kind stated per the guard."
   },
   {
     "source_url": "https://www.cga.ct.gov/current/pub/chap_602.htm",
