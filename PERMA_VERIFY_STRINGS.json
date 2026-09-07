@@ -515,7 +515,8 @@
    "source_url": "https://www.cga.ct.gov/current/pub/chap_419d.htm",
    "strings": [
     "21a-190"
-   ]
+   ],
+   "note": "STALE 2026-09-07 (BATCH11): this GUID is in no current manifest. The SAME URL (cga.ct.gov/current/pub/chap_419d.htm) is now captured via --from-file after headless page navigation, which takes no Perma, so the GUID is orphaned rather than the source uncaptured. Re-key or retire deliberately; not done here."
   },
   "7PHF-UQFC": {
    "basis": "Utah 13-22-110 requires charitable nonprofits to annually file their most recent IRS Form 990/990-EZ/990-N/990-PF",
@@ -1951,6 +1952,57 @@
   "ZTY5-AFUX": {
    "skip": "binary OLE2/MS-Word .doc (16 DCMR §1305); magic d0cf11e0 + readable section text verified 2026-07-17; strings not greppable in the Perma WARC binary payload",
    "source_url": "https://dcregs.dc.gov/Common/DCMR/RuleList.aspx?DownloadFile=60C2545F-0000-C745-A56E-7B4A4DF553F0"
+  },
+  "7CUD-C9M2": {
+   "source_url": "https://www.flsenate.gov/Laws/Statutes/2024/0496.406",
+   "note": "FL §496.406(1)(d) small-org exemption, captured 2026-09-07 for BATCH11's frame read of all 29 threshold states. Verified byte-present against the LOCAL archived artifact. This is the artifact the FL read rests on; CPN9-W3U9 (leg.state.fl.us, same section) rendered a navigation shell and is a documented skip below.",
+   "strings": [
+    "carried on by volunteers, members, or officers who are not compensated"
+   ]
+  },
+  "CPN9-W3U9": {
+   "source_url": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0400-0499/0496/Sections/0496.406.html",
+   "skip": "SHELL — the capture fetch of this URL returns the Online Sunshine navigation chrome (5,456 chars after tag-strip) rather than §496.406; the tail of it is a chapter-617 corporate fee schedule, which is how the wrong-section content was noticed. Superseded for load-bearing purposes by 7CUD-C9M2 (flsenate.gov, same section, verified). Kept rather than deleted because deleting a Perma'd artifact orphans its GUID; the disposition is 'do not read this one'. BATCH11 2026-09-07."
+  },
+  "RSE7-KYDC": {
+   "source_url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gbr&section=6-102",
+   "note": "MD Bus. Reg. §6-102(c)(1) — the exemption is a two-part AND whose condition (i) is 'does not employ a professional solicitor'; the corpus basis omits it (BATCH11, the eight-state denying-conjunct class). Verified byte-present against the LOCAL archived artifact 2026-09-07.",
+   "strings": [
+    "does not employ a professional solicitor"
+   ]
+  },
+  "JK3N-SDCH": {
+   "source_url": "https://codes.ohio.gov/ohio-revised-code/section-1716.03",
+   "note": "ORC §1716.03(G) — captured 2026-09-07 under the lifted halt to answer whether OH's encoded $25,000 exemption exists at all. It does, and the corpus model of it is right; the batch-6 under-warn suspicion is retired by this artifact. Verified byte-present against the LOCAL archived artifact.",
+   "strings": [
+    "does not compensate any person primarily to solicit contributions"
+   ]
+  },
+  "T6MD-UZ4C": {
+   "source_url": "https://law.lis.virginia.gov/vacode/title57/chapter5/section57-60/",
+   "note": "Va. Code §57-60(A)(3) — a FOUR-year test (the current year's intent plus 'any of the three next preceding calendar years'). The engine reads one row and VA is not in UNEVALUABLE_CONJUNCTS, so nothing abstains: VA is a second Hawaii (BATCH11). Verified byte-present against the LOCAL archived artifact 2026-09-07.",
+   "strings": [
+    "during any of the three next preceding calendar years"
+   ]
+  },
+  "63ER-TAE2": {
+   "source_url": "https://app.leg.wa.gov/RCW/default.aspx?cite=19.09.076",
+   "note": "WA — this URL renders the chapter DISPOSITIONS index, not §19.09.076's text; the section text is in 2GSW-C572 (full-chapter retake, same day). Kept and string-backed on what it actually contains, rather than described as the section. BATCH11 2026-09-07.",
+   "strings": [
+    "Charitable organizations — Application for registration — Exemptions"
+   ]
+  },
+  "2GSW-C572": {
+   "source_url": "https://app.leg.wa.gov/RCW/default.aspx?cite=19.09&full=true",
+   "note": "RCW 19.09.081(1) — WA's small-org exemption, reached by retaking the FULL chapter after the per-section URL returned a dispositions index. Verified byte-present against the LOCAL archived artifact 2026-09-07 (BATCH11). Strings chosen raw-contiguous: the sentence 'The application requirements of RCW 19.09.075 do not apply to' is broken by markup in the source bytes, and the checker greps bytes, not tag-stripped text — a byte claim, not a semantic one.",
+   "strings": [
+    "raising less than fifty thousand dollars in any accounting year",
+    "carried on by persons who are unpaid for their services"
+   ]
+  },
+  "5XWD-VAQ8": {
+   "source_url": "https://www.njconsumeraffairs.gov/regulations/Chapter-30-Rules-of-the-Office-of-Consumer-Protection.pdf",
+   "skip": "PDF THAT YIELDS NO TEXT — pdftotext -layout extracts ZERO characters from this artifact, so no verification string can be taken from it and NJ remains UNREADABLE for the frame read. Captured and kept because the bytes are the record of the attempt; the disposition is 'held, unreadable', not 'covered'. NJ's statute (N.J.S.A. 45:17A-26) is still owed: justia 403s under headless PAGE NAVIGATION (not a fetch). BATCH11 2026-09-07."
   }
  },
  "by_sha256": {
