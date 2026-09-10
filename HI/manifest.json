@@ -695,7 +695,7 @@
   },
   {
     "source_url": "https://www.capitol.hawaii.gov/hrscurrent/Vol10_Ch0436-0474/HRS0467B/HRS_0467B-0011_0005.htm",
-    "primary": false,
+    "primary": true,
     "local_path": "HI/www.capitol.hawaii.gov-hrscurrent-Vol10_Ch0436-0474-HRS0467B-HRS_0467B-0011_0005-84601bdd.capitol.hawaii.gov-hrscurrent-Vol10_Ch0436-0474-HRS0467B-HRS_0467B-0011_0005.htm",
     "content_type": "text/html",
     "content_sha256": "958aef3621c3ccbed3dfbbb316b88d988640c9dd1dae452db43760126eb42f13",

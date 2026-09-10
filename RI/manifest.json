@@ -25,7 +25,7 @@
   },
   {
     "source_url": "https://webserver.rilegislature.gov/Statutes/TITLE5/5-53.1/5-53.1-3.htm",
-    "primary": false,
+    "primary": true,
     "local_path": "RI/webserver.rilegislature.gov-Statutes-TITLE5-5-53.1-5-53.1-3.htm.html",
     "content_type": "text/html",
     "content_sha256": "d7934a816da661419fb1024d3a2901787ea7dc7fa369ed5ab7932454d512b53f",

@@ -13,7 +13,7 @@
   },
   {
     "source_url": "https://legislature.maine.gov/statutes/9/title9ch385.pdf",
-    "primary": false,
+    "primary": true,
     "local_path": "ME/legislature.maine.gov-statutes-9-title9ch385.pdf.pdf",
     "content_type": "application/pdf",
     "content_sha256": "ef9d72564a536c87c78165b0e49a1436c75caa1d63df7c7b2d229cefd4736373",

@@ -37,7 +37,7 @@
   },
   {
     "source_url": "https://www.revisor.mn.gov/statutes/cite/309.515",
-    "primary": false,
+    "primary": true,
     "local_path": "MN/www.revisor.mn.gov-statutes-cite-309.515.html",
     "content_type": "text/html; charset=utf-8",
     "content_sha256": "7d8af25e75e6875a0f4508eb04b512708eca9cb1fd23832817b720c986a6eddc",

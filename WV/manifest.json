@@ -13,7 +13,7 @@
   },
   {
     "source_url": "https://code.wvlegislature.gov/29-19-6/",
-    "primary": false,
+    "primary": true,
     "local_path": "WV/code.wvlegislature.gov-29-19-6.html",
     "content_type": "text/html; charset=UTF-8",
     "content_sha256": "b60dedfae3950ba28b8671c08309f11e3af7f84e1ae61f76ab93a1278a05b0ee",

@@ -97,7 +97,7 @@
   },
   {
     "source_url": "https://advance.lexis.com/documentpage/?pdmfid=1000516&pddocfullpath=%2Fshared%2Fdocument%2Fstatutes-legislation%2Furn%3AcontentItem%3A681N-C6B0-R03K-X1CB-00008-00",
-    "primary": false,
+    "primary": true,
     "local_path": "AR/advance.lexis.com-documentpage-pdmfid-1000516-pddocfullpath-2Fshared-2Fdocument--2b2997bc.html",
     "content_type": "text/html",
     "content_sha256": "4047c00d275b8133899b9838318a84cc2e3b36870051b0d5aae7f4414c81af71",

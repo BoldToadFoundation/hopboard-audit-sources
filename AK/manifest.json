@@ -1,7 +1,7 @@
 [
   {
     "source_url": "https://www.akleg.gov/basis/statutes.asp#45.68",
-    "primary": false,
+    "primary": true,
     "local_path": "AK/www.akleg.gov-basis-statutes.asp-45.68.warc.gz",
     "content_type": "application/octet-stream",
     "content_sha256": "d29bd21d0fdb36e29635d2c12676cd203f113f9b964e484082dfb831c2d2cc1f",
