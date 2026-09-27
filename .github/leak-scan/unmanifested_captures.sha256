@@ -1,0 +1,42 @@
+# Captures that no manifest pins, by sha256 (sha256sum line format; lines starting # are comments).
+# One-time index, hopboard D-056 (2026-09-27): leak_scan.py skips these bytes as third-party content.
+# A new capture belongs in its state's manifest.json, not here. A file edited after indexing stops
+# matching and is scanned like anything else.
+59c8545fa0dfb7ca52cec6a95d257d69c8b6a6b3e573e3830fc3f819c849007d  AK/www.akleg.gov-basis-statutes.asp-45.68.html
+3a92b45a35199040407aceb4084b5547764d2df1ac1d9db115ced4ef374f7dcd  CT/www.cga.ct.gov-current-pub-chap_419d.htm.html
+29f65cd39594e62225326d8eda8df49207fa4b9b35d5a44b201f1476a53589c8  DC/code.dccouncil.gov-us-dc-council-code-sections-47-2851.07.html
+ade862f441d5afd3b758608d27f397e41fa00633e65a881762e24b7593508fc7  NV/tony-browser-20260718/Charitable Organizations _ Nevada Secretary of State.pdf
+e8dd7a8de48aa2008cae3f103008178e8db3bbf3e5acbdf9e73a92e4c53423db  NV/tony-browser-20260718/Charitable Solicitation Exemption Statement NRS82SolicitationExemptionpdf.pdf
+e81120359dfee1e413ed78668b5166cd76909eb849cc2d2149071a35af95298e  NV/tony-browser-20260718/Charitable Solicitation Registration Statement NRS82SolicitationRegistrationpdf.pdf
+e375647a41a8645a3d4b31b7ae3f2e9018f1759854b96bdafbf34eeb902d90fc  NV/tony-browser-20260718/Nevada Charity Form Collection.pdf
+05ec8ff773107986f0efdce8c1043024c63762addb3acdd70ac260c4cd483f3f  NV/tony-browser-20260718/NonRegistered Solicitation Registration Exemption NonRegisteredEntitySolicitationExemptionpdf.pdf
+574a077aa67a22d881f6c24ae193c1bd2be6f9e3c5a7d27475f1fbb46f354a8d  NV/tony-browser-20260718/NonRegistered Solicitation Registration Statement NonRegisteredEntitySolicitationRegistrationpdf.pdf
+e81120359dfee1e413ed78668b5166cd76909eb849cc2d2149071a35af95298e  NV/wayback-20250307-nvsos-form-2912-CSRS-handarchived.pdf
+7b4c0d1136b2b0dce739e54f4e55cd2eae0a07c473d1c5bc1655a1b884bcc5d5  NV/wayback-20250607-nvsos-nonprofit-solicitation-faq-handarchived.html
+f4155977a9e7b88635d5f33043c8ffebedaea6bb5547efe8ccc56ecf878550d0  NV/wayback-20250617-nvsos-doc-6529-annual-list-packet-handarchived.pdf
+e8dd7a8de48aa2008cae3f103008178e8db3bbf3e5acbdf9e73a92e4c53423db  NV/wayback-20250617-nvsos-form-3099-CSRX-handarchived.pdf
+05ec8ff773107986f0efdce8c1043024c63762addb3acdd70ac260c4cd483f3f  NV/wayback-20250617-nvsos-form-4023-outofstate-CSRX-handarchived.pdf
+574a077aa67a22d881f6c24ae193c1bd2be6f9e3c5a7d27475f1fbb46f354a8d  NV/wayback-20250617-nvsos-form-4024-outofstate-CSRS-handarchived.pdf
+7e3b7291da7d30e259964cf7ea65202933143039c65079ad910f698d7f358765  NV/wayback-20260116-nvsos-charitable-organizations-handarchived.html
+9af5ab40141329d57582f03174fb825d0b9bf55c8da3443187adb850d48fef47  OK/oscn-prewall-sections/sec_552.1.html
+97276e51211012651c145a5019b9e1be8e92781f0545e9369e5c7043677cdad0  OK/oscn-prewall-sections/sec_552.13.html
+ffd9f239d1d8a2c6345d25e9a5e72597c3910ea5c5199471b1fac5adc0ead5e7  OK/oscn-prewall-sections/sec_552.14a.html
+e01bc8890b6861f207bf74c9996ecc8db350105d66af046a39c194be17240072  OK/oscn-prewall-sections/sec_552.16.html
+b1113b1d8bd9eac2b6bdfec377ec781ccfd61034847f2b44d014d658d2de7b36  OK/oscn-prewall-sections/sec_552.19.html
+0ac247b44a1be579ef45a0d030b20c7747ab27fee54272450204d68dc47d59d7  OK/oscn-prewall-sections/sec_552.1a.html
+0cd8719f3577ce7de5eed7028dfd682c98b1171d7b76a680884ca6a0e0916213  OK/oscn-prewall-sections/sec_552.2.html
+343cf7d3a2d06c77293696aa95e552a830a73fc69abc0200d573a6723e531c47  OK/oscn-prewall-sections/sec_552.20.html
+e76ccfb21e303306744d8df48e18b7472290789f26889847423024855063ae81  OK/oscn-prewall-sections/sec_552.21.html
+9b6f23cf8a0e8885fb68e29f13aad61d2144df30444e2b77ef7a72f5b88d1869  OK/oscn-prewall-sections/sec_552.22.html
+6034325dcdc84295b1b4739fceeddf6ebe27dfcab3790ad42610f68c37b4e47a  OK/oscn-prewall-sections/sec_552.23.html
+c4fd2ce534ab6c0963ea0c7f9d25896ee6cc8726d366803ca98b3c6da640844d  OK/oscn-prewall-sections/sec_552.24.html
+a2f86a54dbb97c7bb035114f27f9f61f4966a085dc3051e164478a7b3d6d90ae  OK/oscn-prewall-sections/sec_552.4.html
+df3a0dcf1a460345c762e787da096f53bc466c9b04479384c3bae92ec82c715d  OK/oscn-prewall-sections/sec_552.6.html
+77137333592e2def35735fa2f1c09fff83ba219a3f397601c9e270b5e14139c3  OK/oscn-prewall-sections/sec_552.7.html
+66ad8c04251df4691de961a0e721536a3e0aa78479070556883b9d69ca2ff68b  OK/oscn-prewall-sections/sec_552.8.html
+536773f20d6f2c5aeb6b15e32c666ee1b9d5e9201d585228b6baa2f215586b18  OK/oscn-prewall-sections/sec_552.9.html
+7d499faa72a243832bf1085dc849013b0cf3aa8d948df3a1319edbd91413c641  OK/oscn-prewall-sections/sec_553.1.html
+aabee30a0480674e4fd70793949c302e877e35935eccb598d66de65d38b43c96  OK/oscn-prewall-sections/sec_553.2.html
+969a77ac8224ebecc01e21f586405e80e4b414257c5714c4af2cfaf3b92fbef2  OK/oscn-prewall-sections/sec_553.3.html
+6ac42c8278c3a6fd5a83fedfae46a7ef1ee2d7b38e577e3e18b8276ec5d2662b  OK/sos.ok.gov-forms-FM0101-handarchived.pdf
+f36a2e8a1d47b96bbfabe938632daf196590c54779d2c48652e328e4fd23d737  SD/sdlegislature.gov-api-Statutes-37-27.html-all-true.html

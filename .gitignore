@@ -9,3 +9,6 @@
 # is discoverable rather than folklore.
 .capture-drop/*
 !.capture-drop/.gitkeep
+
+# leak-scan self-test bytecode (hopboard D-056): compiled constants can rebuild a split test value
+__pycache__/

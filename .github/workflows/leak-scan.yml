@@ -1,0 +1,55 @@
+name: leak-scan
+
+# This repository's CI leak check (hopboard D-056). A credential scan (gitleaks, default rules)
+# and a LEAK_PATTERN scan of project-written content only; captured third-party bytes are
+# skipped by hash. LEAK_PATTERN holds infrastructure markers only: identity terms are never
+# stored at GitHub, secrets included (hopboard D-055 amendment 1). Identity is the local
+# pre-push gate's job. The log is public, so every step prints counts only.
+#
+# CI cannot refuse a push; it reports one. Merge pull requests locally, through the pre-push
+# gate, never with the web UI's merge button.
+
+on:
+  push:
+  pull_request:
+  schedule:
+    - cron: '41 13 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  leak-scan:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262  # v4.4.0
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+
+      - name: Install gitleaks (pinned release, checksum-verified)
+        env:
+          GITLEAKS_VERSION: 8.30.1
+          GITLEAKS_SHA256: 551f6fc83ea457d62a0d98237cbad105af8d557003051f41f3e7ca7b3f2470eb
+        run: |
+          curl -fsSL -o /tmp/gitleaks.tar.gz \
+            "https://github.com/gitleaks/gitleaks/releases/download/v${GITLEAKS_VERSION}/gitleaks_${GITLEAKS_VERSION}_linux_x64.tar.gz"
+          echo "${GITLEAKS_SHA256}  /tmp/gitleaks.tar.gz" | sha256sum -c -
+          tar -xzf /tmp/gitleaks.tar.gz -C /tmp gitleaks
+          sudo install /tmp/gitleaks /usr/local/bin/gitleaks
+          gitleaks version
+
+      - name: Self-test (the scan must catch planted values before its verdict counts)
+        run: |
+          python3 -m unittest discover -s .github/leak-scan -p 'test_*.py'
+
+      - name: Leak scan (counts only)
+        env:
+          LEAK_PATTERN: ${{ secrets.LEAK_PATTERN }}
+          LEAK_SCAN_BEFORE: ${{ github.event.before }}
+          LEAK_SCAN_BASE: ${{ github.event.pull_request.base.sha }}
+          LEAK_SCAN_HEAD: ${{ github.event.pull_request.head.sha || github.sha }}
+          LEAK_SCAN_FORK: ${{ github.event.pull_request.head.repo.fork }}
+        run: |
+          python3 .github/leak-scan/leak_scan.py
