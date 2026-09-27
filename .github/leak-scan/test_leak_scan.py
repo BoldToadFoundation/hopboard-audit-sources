@@ -334,3 +334,168 @@ class WorkflowTests(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class PrePushRepo(Repo):
+    """Repo plus a local bare remote holding the baseline, and a stand-in for hopboard's
+    identity gate that records the stdin and arguments it was given and exits as told."""
+
+    def __init__(self):
+        super().__init__()
+        self.remote = Path(str(self.dir) + "-remote.git")
+        subprocess.run(["git", "init", "-q", "--bare", "-b", "main", str(self.remote)], env=self.env,
+                       check=True, capture_output=True)
+        self.git("remote", "add", "origin", str(self.remote))
+        self.git("push", "-q", "origin", "main")
+        self.gate = Path(str(self.dir) + "-gate.sh")
+        self.set_gate(0)
+
+    def set_gate(self, rc):
+        self.gate.write_text(f'#!/usr/bin/env bash\ncat > "{self.gate}.stdin"\necho "$@" > "{self.gate}.args"\n'
+                             f'echo "[stand-in identity gate] exit {rc}" >&2\nexit {rc}\n')
+        self.gate.chmod(0o755)
+
+    def lines(self):
+        return [f"refs/heads/main {self.head()} refs/heads/main {self.git('rev-parse', 'refs/remotes/origin/main')}"]
+
+    def pre_push(self, lines=None, gate=True, **env):
+        args = [sys.executable, str(SCRIPT), "--repo", str(self.dir), "--pre-push"]
+        if gate:
+            args += ["--identity-gate", str(self.gate)]
+        e = {**self.env, **env}
+        r = subprocess.run(args + ["origin", str(self.remote)], input="\n".join(lines or self.lines()) + "\n",
+                           env=e, capture_output=True, text=True)
+        out = r.stdout + r.stderr
+        for v in PLANTS:
+            assert v not in out, f"the scan printed a planted value: {v}"
+        return r.returncode, out
+
+    def install_hook(self):
+        """The same shape as the clone's real wrapper: exec the shared script with the gate."""
+        h = self.dir / ".git" / "hooks" / "pre-push"
+        h.write_text(f'#!/usr/bin/env bash\nexec "{sys.executable}" "{SCRIPT}" --pre-push '
+                     f'--identity-gate "{self.gate}" "$@"\n')
+        h.chmod(0o755)
+
+    def close(self):
+        super().close()
+        shutil.rmtree(self.remote, ignore_errors=True)
+        for p in (self.gate, Path(f"{self.gate}.stdin"), Path(f"{self.gate}.args")):
+            p.unlink(missing_ok=True)
+
+
+class PrePushTests(unittest.TestCase):
+    """The clone's pre-push hook: hopboard's identity gate, then a credential scan of the outgoing
+    commits' project-written content, sharing this script's capture-skip logic with CI (D-057)."""
+
+    def setUp(self):
+        self.r = PrePushRepo()
+
+    def tearDown(self):
+        self.r.close()
+
+    def test_a_credential_in_a_project_written_file_is_refused(self):
+        self.r.write("notes.md", f"key {CRED}\n")
+        self.r.commit()
+        rc, out = self.r.pre_push()
+        self.assertEqual(rc, 1, out)
+        self.assertIn("aws-access-token", out)
+        self.assertIn("PUSH REFUSED", out)
+
+    def test_a_credential_inside_a_capture_pinned_in_the_same_push_goes_through(self):
+        page = f"<p>third party {CRED}</p>\n".encode()
+        self.r.write("DD/page.html", page)
+        self.r.write("DD/manifest.json", json.dumps([{"local_path": "DD/page.html", "content_sha256": sha(page)}]))
+        self.r.commit()
+        rc, out = self.r.pre_push()
+        self.assertEqual(rc, 0, out)
+        self.assertIn("credentials (gitleaks", out)
+        self.assertIn("0 finding(s)", out)
+
+    def test_a_credential_only_in_the_commit_message_is_refused(self):
+        self.r.commit(msg=f"rotated {CRED}")
+        rc, out = self.r.pre_push()
+        self.assertEqual(rc, 1, out)
+        self.assertIn("commit object", out)
+
+    def test_only_outgoing_commits_are_read(self):
+        self.r.write("README.md", f"already public {CRED}\n")
+        self.r.commit()
+        self.r.git("push", "-q", "origin", "main")          # on the remote before this push
+        self.r.write("other.md", "clean\n")
+        self.r.commit()
+        rc, out = self.r.pre_push()
+        self.assertEqual(rc, 0, out)
+        self.assertIn("1 outgoing commit(s)", out)
+
+    def test_the_identity_gate_runs_first_with_the_same_input(self):
+        self.r.commit()
+        lines = self.r.lines()
+        rc, out = self.r.pre_push(lines)
+        self.assertEqual(rc, 0, out)
+        self.assertEqual(Path(f"{self.r.gate}.stdin").read_text().split("\n")[0], lines[0])
+        self.assertEqual(Path(f"{self.r.gate}.args").read_text().split(), ["origin", str(self.r.remote)])
+
+    def test_a_credential_in_an_annotated_tag_is_refused(self):
+        self.r.git("tag", "-a", "v1", "-m", f"release {CRED}")
+        tag = self.r.git("rev-parse", "v1")
+        rc, out = self.r.pre_push([f"refs/tags/v1 {tag} refs/tags/v1 {ZERO}"])
+        self.assertEqual(rc, 1, out)
+        self.assertIn("tag object", out)
+
+    def test_an_identity_refusal_refuses_the_push(self):
+        self.r.set_gate(1)
+        self.r.commit()
+        rc, out = self.r.pre_push()
+        self.assertEqual(rc, 1, out)
+        self.assertIn("the identity gate refused", out)
+
+    def test_a_missing_identity_gate_refuses(self):
+        self.r.gate.unlink()
+        self.r.commit()
+        rc, out = self.r.pre_push()
+        self.assertEqual(rc, 2, out)
+        self.assertIn("CANNOT RUN: the identity gate", out)
+
+    def test_no_leak_pattern_is_needed_before_a_push(self):
+        self.r.commit()
+        rc, out = self.r.pre_push(LEAK_PATTERN="")
+        self.assertEqual(rc, 0, out)
+        self.assertIn("leak-scan: pre-push", out)
+
+    def test_a_deletion_scans_nothing(self):
+        rc, out = self.r.pre_push([f"(delete) {ZERO} refs/heads/old {self.r.head()}"])
+        self.assertEqual(rc, 0, out)
+        self.assertIn("0 outgoing commit(s)", out)
+
+    def test_missing_gitleaks_refuses_before_a_push(self):
+        path = ":".join(p for p in os.environ["PATH"].split(":") if not (Path(p) / "gitleaks").exists())
+        self.r.commit()
+        rc, out = self.r.pre_push(PATH=path)
+        self.assertEqual(rc, 2, out)
+        self.assertIn("CANNOT RUN: gitleaks", out)
+
+    def test_findings_name_the_local_path_and_line_but_never_the_text(self):
+        self.r.write("notes.md", f"a\nkey {CRED}\n")
+        self.r.commit()
+        rc, out = self.r.pre_push()
+        self.assertEqual(rc, 1, out)
+        self.assertIn("notes.md", out)
+
+    def test_a_real_git_push_is_refused_on_a_credential_and_allowed_when_clean(self):
+        self.r.install_hook()
+        self.r.write("clean.md", "clean\n")
+        self.r.commit()
+        ok = subprocess.run(["git", "push", "origin", "main"], cwd=self.r.dir, env=self.r.env,
+                            capture_output=True, text=True)
+        self.assertEqual(ok.returncode, 0, ok.stderr)
+        self.r.git("fetch", "-q", "origin")
+        before = self.r.git("rev-parse", "refs/remotes/origin/main")
+        self.r.write("notes.md", f"key {CRED}\n")
+        self.r.commit()
+        bad = subprocess.run(["git", "push", "origin", "main"], cwd=self.r.dir, env=self.r.env,
+                             capture_output=True, text=True)
+        self.assertNotEqual(bad.returncode, 0)
+        self.assertIn("aws-access-token", bad.stderr + bad.stdout)
+        self.assertNotIn(CRED, bad.stderr + bad.stdout)
+        self.assertEqual(self.r.git("ls-remote", "origin", "refs/heads/main").split()[0], before)

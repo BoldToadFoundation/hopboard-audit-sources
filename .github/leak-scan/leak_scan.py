@@ -9,6 +9,11 @@ SCANNED: a file whose sha256 is pinned by a manifest's `content_sha256`, or list
 and the IPs, `/home/...` URLs, timestamps and tokens third-party pages carry would fire every
 run. A capture edited after pinning stops matching its hash and is scanned like anything else.
 
+TWO PLACES, ONE SCRIPT. CI runs it on every push, pull request and week. This clone's pre-push
+hook runs it with --pre-push (hopboard D-057): hopboard's identity gate first, then the credential
+check below over the OUTGOING commits only, with the same capture skip, so a credential is refused
+before it is public instead of reported after. One copy of the skip logic serves both.
+
 TWO CHECKS.
   * credentials: gitleaks' default rules, on that project-written material.
   * LEAK_PATTERN: an extended regex from the repository secret of that name. It holds
@@ -210,6 +215,86 @@ def plan(repo, args):
     return event, [], git(repo, "rev-list", head).split(), head
 
 
+def scan_units(gitleaks, units, pattern):
+    """The one scan step CI and the pre-push hook share: gitleaks' default rules over the units
+    and, when a pattern is given, LEAK_PATTERN. Returns (gitleaks version, credential counts by
+    (rule, scope), their (where, line)s, pattern counts by scope, their (where, line)s)."""
+    with tempfile.TemporaryDirectory(prefix="leakscan-") as tmp:
+        names = {}
+        for k, (scope, where, data) in enumerate(units):
+            f = os.path.join(tmp, f"u{k:06d}.txt")
+            with open(f, "wb") as fh:
+                fh.write(data)
+            names[f] = (scope, where)
+        report = os.path.join(tmp, "..", f"gitleaks-{os.getpid()}.json")
+        ver = subprocess.run([gitleaks, "version"], capture_output=True, text=True,
+                             stdin=subprocess.DEVNULL).stdout.strip()
+        r = subprocess.run([gitleaks, "dir", tmp, "--no-banner", "--log-level", "error", "--redact",
+                            "-f", "json", "-r", report, "--exit-code", "0"], capture_output=True,
+                           stdin=subprocess.DEVNULL)
+        if r.returncode:
+            raise CannotRun(f"gitleaks failed (exit {r.returncode})")
+        with open(report) as fh:
+            findings = json.load(fh) or []
+        os.unlink(report)
+        cred = Counter((f["RuleID"], names[f["File"]][0]) for f in findings)
+        cred_where = [(names[f["File"]][1], f.get("StartLine")) for f in findings]
+        pat, pat_where = Counter(), []
+        if pattern:
+            for f, lines in grep_matches(pattern, list(names)).items():
+                pat[names[f][0]] += len(lines)
+                pat_where += [(names[f][1], ln) for ln in lines]
+    return ver, cred, cred_where, pat, pat_where
+
+
+def pre_push(repo, gitleaks, gate, hook_args, lines):
+    """This clone's pre-push hook (hopboard D-057): hopboard's identity gate first, with the same
+    stdin and arguments, then a credential scan (gitleaks) of the OUTGOING commits' project-written
+    content, skipping pinned captures exactly as CI does. No LEAK_PATTERN here: it is a GitHub
+    secret, and CI applies it. Refuses when either refuses. The terminal is local, so findings name
+    paths and line numbers; never text."""
+    if not gate or not (os.path.isfile(gate) and os.access(gate, os.X_OK)):
+        raise CannotRun("the identity gate is missing or not executable; this hook refuses without it")
+    remote = hook_args[0] if hook_args else "origin"
+    g = subprocess.run([gate, *hook_args], input="".join(l + "\n" for l in lines).encode())
+    commits, tips, tags = [], [], []
+    for line in lines:
+        f = line.split()
+        if len(f) != 4 or f[1] == ZERO:
+            continue                      # malformed, or a deletion: publishes no content
+        local_ref, local_sha, _remote_ref, remote_sha = f
+        if git(repo, "cat-file", "-t", local_sha).strip() == "tag":
+            tags.append(local_sha)
+        tip = git(repo, "rev-parse", f"{local_sha}^{{commit}}").strip()
+        tips.append(tip)
+        excl = ["--not", f"--remotes={remote}"]
+        if remote_sha != ZERO and subprocess.run(["git", "-C", repo, "cat-file", "-e", remote_sha],
+                                                 capture_output=True, stdin=subprocess.DEVNULL).returncode == 0:
+            excl.append(remote_sha)
+        commits += git(repo, "rev-list", "--reverse", tip, *excl).split()
+    commits = list(dict.fromkeys(commits))
+    all_pins = set()
+    for rev in dict.fromkeys(tips + commits):
+        p_c, i_c = pins(repo, rev)
+        all_pins |= p_c | i_c
+    units = range_units(repo, commits, all_pins)
+    units += [(f"tag object {t[:9]}", f"tag {t}", git(repo, "cat-file", "tag", t, text=False)) for t in tags]
+    ver, cred, cred_where, _p, _pw = scan_units(gitleaks, units, "")
+    print(f"{TAG} pre-push: {len(commits)} outgoing commit(s); credentials (gitleaks {ver or '?'}, default "
+          f"rules) over their project-written content: {sum(cred.values())} finding(s)"
+          + "".join(f"; {rule} x{n} in {scope}" for (rule, scope), n in sorted(cred.items())), file=sys.stderr)
+    for where, ln in sorted(set(cred_where), key=str):
+        print(f"{TAG}   {where}:{ln}" if not where.startswith(("commit ", "tag ")) else f"{TAG}   {where} line {ln}",
+              file=sys.stderr)
+    if g.returncode:
+        print(f"{TAG} the identity gate refused (its lines are above).", file=sys.stderr)
+    if cred or g.returncode:
+        print(f"{TAG} PUSH REFUSED. Take the credential or the term out of the unpushed commits, then push "
+              f"again. Never --no-verify (hopboard D-055, D-057).", file=sys.stderr)
+        return 1
+    return 0
+
+
 def main(argv):
     ap = argparse.ArgumentParser()
     ap.add_argument("--repo", default=".")
@@ -219,6 +304,10 @@ def main(argv):
     ap.add_argument("--pattern-file")
     ap.add_argument("--details", action="store_true",
                     help="paths and line numbers of findings (never text); local runs only")
+    ap.add_argument("--pre-push", action="store_true",
+                    help="run as this clone's pre-push hook: refs on stdin, git's hook arguments after")
+    ap.add_argument("--identity-gate", help="the pre-push identity gate to run first (pre-push mode)")
+    ap.add_argument("hook_args", nargs="*", help=argparse.SUPPRESS)
     args = ap.parse_args(argv)
     repo = args.repo
     try:
@@ -227,6 +316,8 @@ def main(argv):
         gitleaks = shutil.which("gitleaks")
         if not gitleaks:
             raise CannotRun("gitleaks is not installed")
+        if args.pre_push:
+            return pre_push(repo, gitleaks, args.identity_gate, args.hook_args, sys.stdin.read().splitlines())
         if args.pattern_file:
             with open(args.pattern_file, encoding="utf-8") as fh:
                 pattern = fh.read()
@@ -268,31 +359,7 @@ def main(argv):
         units += [(f"commit object {c[:9]}", f"commit {c}", git(repo, "cat-file", "commit", c, text=False))
                   for c in extra_msgs if c not in rng]
 
-        with tempfile.TemporaryDirectory(prefix="leakscan-") as tmp:
-            names = {}
-            for k, (scope, where, data) in enumerate(units):
-                f = os.path.join(tmp, f"u{k:06d}.txt")
-                with open(f, "wb") as fh:
-                    fh.write(data)
-                names[f] = (scope, where)
-            report = os.path.join(tmp, "..", f"gitleaks-{os.getpid()}.json")
-            ver = subprocess.run([gitleaks, "version"], capture_output=True, text=True,
-                                 stdin=subprocess.DEVNULL).stdout.strip()
-            r = subprocess.run([gitleaks, "dir", tmp, "--no-banner", "--log-level", "error", "--redact",
-                                "-f", "json", "-r", report, "--exit-code", "0"], capture_output=True,
-                               stdin=subprocess.DEVNULL)
-            if r.returncode:
-                raise CannotRun(f"gitleaks failed (exit {r.returncode})")
-            with open(report) as fh:
-                findings = json.load(fh) or []
-            os.unlink(report)
-            cred = Counter((f["RuleID"], names[f["File"]][0]) for f in findings)
-            cred_where = [(names[f["File"]][1], f.get("StartLine")) for f in findings]
-            pat, pat_where = Counter(), []
-            if pattern:
-                for f, lines in grep_matches(pattern, list(names)).items():
-                    pat[names[f][0]] += len(lines)
-                    pat_where += [(names[f][1], ln) for ln in lines]
+        ver, cred, cred_where, pat, pat_where = scan_units(gitleaks, units, pattern)
 
         print(f"{TAG} event {event}: {len(rng)} commit(s) in range, {len(extra_msgs)} more commit object(s) "
               f"read; tree at {head_sha[:9]}: {n_tree} project-written file(s) scanned, {n_pin + n_idx} "
@@ -320,7 +387,7 @@ def main(argv):
             print(f"{TAG} CLEAN.")
         return 1 if found else 0
     except CannotRun as e:
-        print(f"{TAG} CANNOT RUN: {e}")
+        print(f"{TAG} CANNOT RUN: {e}", file=sys.stderr if args.pre_push else sys.stdout)
         return 2
 
 
