@@ -101,6 +101,18 @@
     "signed": true
   },
   {
+    "source_url": "https://app.leg.wa.gov/WAC/default.aspx?cite=434-120-225",
+    "primary": false,
+    "local_path": "WA/app.leg.wa.gov-WAC-default.aspx-cite-434-120-225-902a4305.html",
+    "content_type": "text/html; charset=utf-8",
+    "content_sha256": "365178d4b8884d6b72778d7a07b4364d6c1c9c710e619107b231f79ae3e65f47",
+    "perma_url": "https://perma.cc/X6U3-85WG",
+    "wayback_url": "https://web.archive.org/web/20260929194353/https://app.leg.wa.gov/WAC/default.aspx?cite=434-120-225",
+    "captured_at": "2026-09-29T19:43:47.327052+00:00",
+    "signed": false,
+    "tls_chain_unverified": false
+  },
+  {
     "source_url": "https://app.leg.wa.gov/WAC/default.aspx?cite=434-120-225&pdf=true",
     "primary": true,
     "local_path": "WA/app.leg.wa.gov-WAC-default.aspx-cite-434-120-225-pdf-true.pdf",
