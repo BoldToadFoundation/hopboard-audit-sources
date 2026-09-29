@@ -24,6 +24,45 @@
     "tls_chain_unverified": false
   },
   {
+    "source_url": "https://legislature.maine.gov/statutes/9/title9sec5012.html",
+    "primary": false,
+    "local_path": "ME/legislature.maine.gov-statutes-9-title9sec5012.html-d4d1f59f.html",
+    "content_type": "text/html",
+    "content_sha256": "b7dee470ae3c4e6717313313683679b1e555b5ffb6866638bfbae01e7a12222e",
+    "perma_url": null,
+    "wayback_url": null,
+    "captured_at": "2026-09-29T20:17:14.540025+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
+  },
+  {
+    "source_url": "https://www.maine.gov/pfr/professionallicensing/professions/charitable-solicitations-act",
+    "primary": false,
+    "local_path": "ME/www.maine.gov-pfr-professionallicensing-professions-charitable-solicitations-act-3002f2ab.html",
+    "content_type": "text/html; charset=UTF-8",
+    "content_sha256": "7b843038d745faffffd9877dde35825c9303a5ee0452fa03e1c13aa0b3b1cb5c",
+    "perma_url": null,
+    "wayback_url": "https://web.archive.org/web/20260929201718/https://www.maine.gov/pfr/professionallicensing/professions/charitable-solicitations-act",
+    "captured_at": "2026-09-29T20:17:14.540025+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
+  },
+  {
+    "source_url": "https://www.maine.gov/pfr/professionallicensing/professions/charitable-solicitations-act/applications-forms",
+    "primary": false,
+    "local_path": "ME/www.maine.gov-pfr-professionallicensing-professions-charitable-solicitations-act-20abd597.html",
+    "content_type": "text/html; charset=UTF-8",
+    "content_sha256": "4646e799c58758f64dcae38879a83347774211c0f254d0b6454c05d49646bf40",
+    "perma_url": null,
+    "wayback_url": null,
+    "captured_at": "2026-09-29T20:17:14.540025+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
+  },
+  {
     "source_url": "https://www.maine.gov/pfr/professionallicensing/professions/charitable-solicitations-act/licensing/charitable-organizations",
     "primary": false,
     "local_path": "ME/www.maine.gov-pfr-professionallicensing-professions-charitable-solicitations-act.html",
@@ -48,6 +87,19 @@
     "tls_chain_unverified": false
   },
   {
+    "source_url": "https://www.maine.gov/sos/corporations-commissions/filing-an-annual-report",
+    "primary": false,
+    "local_path": "ME/www.maine.gov-sos-corporations-commissions-filing-an-annual-report-901c6829.html",
+    "content_type": "text/html; charset=UTF-8",
+    "content_sha256": "1e0b8c47e32be27c2c37dfd3f393c0fe13885c51d0fe65fccb0e08955b902c7b",
+    "perma_url": null,
+    "wayback_url": null,
+    "captured_at": "2026-09-29T20:17:14.540025+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
+  },
+  {
     "source_url": "https://www.mainelegislature.org/legis/statutes/9/title9sec5004.html",
     "primary": true,
     "local_path": "ME/www.mainelegislature.org-legis-statutes-9-title9sec5004.html.html",
@@ -70,6 +122,19 @@
     "captured_at": "2026-06-11T09:17:38.986973+00:00",
     "signed": true,
     "tls_chain_unverified": false
+  },
+  {
+    "source_url": "https://www.mainelegislature.org/legis/statutes/9/title9sec5006.html",
+    "primary": false,
+    "local_path": "ME/www.mainelegislature.org-legis-statutes-9-title9sec5006.html-234df191.html",
+    "content_type": "text/html",
+    "content_sha256": "a271ccc3cc2d89085cdcb48be366d70de7672fdb066a33fce1331e27359c3ea1",
+    "perma_url": null,
+    "wayback_url": "https://web.archive.org/web/20260929201824/https://www.mainelegislature.org/legis/statutes/9/title9sec5006.html",
+    "captured_at": "2026-09-29T20:17:14.540025+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
   },
   {
     "source_url": "https://www.mainelegislature.org/legis/statutes/9/title9sec5015-A.html",
