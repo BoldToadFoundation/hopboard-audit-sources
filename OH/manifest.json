@@ -12,6 +12,18 @@
     "tls_chain_unverified": false
   },
   {
+    "source_url": "https://codes.ohio.gov/ohio-revised-code/section-1716.02",
+    "primary": false,
+    "local_path": "OH/codes.ohio.gov-ohio-revised-code-section-1716.02-f25bc880.html",
+    "content_type": "text/html;charset=UTF-8",
+    "content_sha256": "a575699d396fb437c64320caff19a2ec3e441799e7493b1050b368812af9dc6c",
+    "perma_url": "https://perma.cc/2THA-GYHL",
+    "wayback_url": "https://web.archive.org/web/20260929193900/https://codes.ohio.gov/ohio-revised-code/section-1716.02",
+    "captured_at": "2026-09-29T19:41:55.824963+00:00",
+    "signed": false,
+    "tls_chain_unverified": false
+  },
+  {
     "source_url": "https://codes.ohio.gov/ohio-revised-code/section-1716.03",
     "primary": true,
     "local_path": "OH/codes.ohio.gov-ohio-revised-code-section-1716.03-c614018e.html",
