@@ -1,5 +1,18 @@
 [
   {
+    "source_url": "https://charitable.ohioago.gov/Charity-Registration",
+    "primary": false,
+    "local_path": "OH/charitable.ohioago.gov-Charity-Registration-9380711b.html",
+    "content_type": "text/html; charset=utf-8",
+    "content_sha256": "090b44e5199b1d29eac99255107a1ddfaa4b013ee6a7abc1213e9029642e97ca",
+    "perma_url": null,
+    "wayback_url": null,
+    "captured_at": "2026-09-29T20:18:51.122032+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
+  },
+  {
     "source_url": "https://charitable.ohioago.gov/Charity-Registration/Publications/List-of-Annual-Report-Questions",
     "primary": false,
     "local_path": "OH/charitable.ohioago.gov-Charity-Registration-Publications-List-of-Annual-Report-Q.pdf",
@@ -10,6 +23,32 @@
     "captured_at": "2026-06-10T22:59:29.604425+00:00",
     "signed": true,
     "tls_chain_unverified": false
+  },
+  {
+    "source_url": "https://codes.ohio.gov/ohio-revised-code/chapter-1716",
+    "primary": false,
+    "local_path": "OH/codes.ohio.gov-ohio-revised-code-chapter-1716-2a715820.html",
+    "content_type": "text/html;charset=UTF-8",
+    "content_sha256": "c1d5a0dd1fed0534b4237cb1a1aaa1490b42b94e839009f7c3695267b75b0649",
+    "perma_url": null,
+    "wayback_url": null,
+    "captured_at": "2026-09-29T20:18:51.122032+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
+  },
+  {
+    "source_url": "https://codes.ohio.gov/ohio-revised-code/section-109.31",
+    "primary": false,
+    "local_path": "OH/codes.ohio.gov-ohio-revised-code-section-109.31-b815faea.html",
+    "content_type": "text/html;charset=UTF-8",
+    "content_sha256": "377466ba3f4e16b82742f963224dc767f89da778ad4479f4ee2420e742b404c5",
+    "perma_url": null,
+    "wayback_url": null,
+    "captured_at": "2026-09-29T20:18:51.122032+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
   },
   {
     "source_url": "https://codes.ohio.gov/ohio-revised-code/section-1716.02",
@@ -64,5 +103,18 @@
     "signed": true,
     "tls_chain_unverified": false,
     "primary_demoted": "2026-07-10 Tony ruling: retag reverted (see statute entry note); AG publication retained as secondary \u2014 it also bears the deadline and remains corroboration."
+  },
+  {
+    "source_url": "https://www.ohiosos.gov/businesses/filing-forms--fee-schedule/",
+    "primary": false,
+    "local_path": "OH/www.ohiosos.gov-businesses-filing-forms--fee-schedule-0f72c1d1.html",
+    "content_type": "text/html; charset=utf-8",
+    "content_sha256": "866ae36e52d173d06e61e3cfc61b042a1bfe980fae78e734c7045428f0aa9942",
+    "perma_url": null,
+    "wayback_url": "https://web.archive.org/web/20260929201904/https://www.ohiosos.gov/business/business-filing-forms#filing-forms-domestic-for-profit-corporation",
+    "captured_at": "2026-09-29T20:18:51.122032+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
   }
 ]
