@@ -1,5 +1,29 @@
 [
   {
+    "source_url": "https://adminrules.utah.gov/api/public/getfile/uac-html/11d3ed97-02d8-4867-9db1-5b4446db9d9d.html/R154-100.html",
+    "primary": false,
+    "local_path": "UT/adminrules.utah.gov-api-public-getfile-uac-html-11d3ed97-02d8-4867-9db1-5b4446db-9494d3b6.html",
+    "content_type": "text/html",
+    "content_sha256": "72048ad15895d5fe51ebd0868a8d05d1a4f0086c3ed9fdb041d095a314ac4b37",
+    "perma_url": "https://perma.cc/5J2D-GYLU",
+    "wayback_url": "https://web.archive.org/web/20260929110308/https://adminrules.utah.gov/api/public/getfile/uac-html/11d3ed97-02d8-4867-9db1-5b4446db9d9d.html/R154-100.html",
+    "captured_at": "2026-09-29T11:01:19.118162+00:00",
+    "signed": false,
+    "tls_chain_unverified": false
+  },
+  {
+    "source_url": "https://adminrules.utah.gov/api/public/getfile/uac-html/16e8d60f-f110-4b7c-934c-0aa6c67e196b.html/R154-1.html",
+    "primary": false,
+    "local_path": "UT/adminrules.utah.gov-api-public-getfile-uac-html-16e8d60f-f110-4b7c-934c-0aa6c67e-2cb6c51c.html",
+    "content_type": "text/html",
+    "content_sha256": "cdc696d06d4e76bef16aff3376a3c53031171a51a17294dcf3fa4ec8b2c92b24",
+    "perma_url": "https://perma.cc/PQ84-XSDT",
+    "wayback_url": "https://web.archive.org/web/20260929110204/https://adminrules.utah.gov/api/public/getfile/uac-html/16e8d60f-f110-4b7c-934c-0aa6c67e196b.html/R154-1.html",
+    "captured_at": "2026-09-29T11:01:19.118162+00:00",
+    "signed": false,
+    "tls_chain_unverified": false
+  },
+  {
     "source_url": "https://adminrules.utah.gov/api/public/getfile/uac-html/3efc525b-4029-4642-8aa2-e6c22ddac209.html/R152-22.html",
     "primary": false,
     "local_path": "UT/adminrules.utah.gov-api-public-getfile-uac-html-3efc525b-4029-4642-8aa2-e6c22dda.html",
@@ -9,6 +33,30 @@
     "wayback_url": "https://web.archive.org/web/20260706190257/https://adminrules.utah.gov/api/public/getfile/uac-html/3efc525b-4029-4642-8aa2-e6c22ddac209.html/R152-22.html",
     "captured_at": "2026-07-06T19:02:01.699651+00:00",
     "signed": true,
+    "tls_chain_unverified": false
+  },
+  {
+    "source_url": "https://adminrules.utah.gov/api/public/getfile/uac-html/b9832f71-c1e1-47cc-a049-0e34e5235b5a.html/R154-2.html",
+    "primary": false,
+    "local_path": "UT/adminrules.utah.gov-api-public-getfile-uac-html-b9832f71-c1e1-47cc-a049-0e34e523-4833f0c1.html",
+    "content_type": "text/html",
+    "content_sha256": "3b5d85e00e5632955eff7232c24c8181e5123d7ec7196cb3a87ed0889b8366b3",
+    "perma_url": "https://perma.cc/8B2C-2PHX",
+    "wayback_url": "https://web.archive.org/web/20260929110225/https://adminrules.utah.gov/api/public/getfile/uac-html/b9832f71-c1e1-47cc-a049-0e34e5235b5a.html/R154-2.html",
+    "captured_at": "2026-09-29T11:01:19.118162+00:00",
+    "signed": false,
+    "tls_chain_unverified": false
+  },
+  {
+    "source_url": "https://adminrules.utah.gov/api/public/getfile/uac-html/ce6b49b3-5d3a-4756-a7bc-5c7c683d34e7.html/R154-3.html",
+    "primary": false,
+    "local_path": "UT/adminrules.utah.gov-api-public-getfile-uac-html-ce6b49b3-5d3a-4756-a7bc-5c7c683d-92316577.html",
+    "content_type": "text/html",
+    "content_sha256": "b45dc9a0a1931726d33dd8711b20c7411d9d61e6ab159ceebcaf337424de3237",
+    "perma_url": "https://perma.cc/NNY3-XJ4T",
+    "wayback_url": "https://web.archive.org/web/20260929110245/https://adminrules.utah.gov/api/public/getfile/uac-html/ce6b49b3-5d3a-4756-a7bc-5c7c683d34e7.html/R154-3.html",
+    "captured_at": "2026-09-29T11:01:19.118162+00:00",
+    "signed": false,
     "tls_chain_unverified": false
   },
   {
@@ -100,6 +148,30 @@
     "signed": true,
     "tls_chain_unverified": false,
     "perma_backfilled_at": "2026-07-12T21:09:49.867453+00:00"
+  },
+  {
+    "source_url": "https://le.utah.gov/xcode/Title16/Chapter1A/16-1a-S212.html",
+    "primary": false,
+    "local_path": "UT/le.utah.gov-xcode-Title16-Chapter1A-16-1a-S212.html-65361d5b.html",
+    "content_type": "text/html",
+    "content_sha256": "9e7e9507219e6f6a0aaba43200aa8c4455c1b08bca6fa9595e3a54cebe80d551",
+    "perma_url": "https://perma.cc/V8KJ-Z5WP",
+    "wayback_url": "https://web.archive.org/web/20260929110143/https://le.utah.gov/xcode/Title16/Chapter1A/16-1a-S212.html",
+    "captured_at": "2026-09-29T11:01:19.118162+00:00",
+    "signed": false,
+    "tls_chain_unverified": false
+  },
+  {
+    "source_url": "https://le.utah.gov/xcode/Title16/Chapter1A/C16-1a-S212_2026050620261001.html",
+    "primary": true,
+    "local_path": "UT/le.utah.gov-xcode-Title16-Chapter1A-C16-1a-S212_2026050620261001.html-a1b39b24.html",
+    "content_type": "text/html",
+    "content_sha256": "8737b85f910842f23f3c7eb803cae81ad9bf2c737eb3470a2766e51f146bad39",
+    "perma_url": "https://perma.cc/3N9Q-VBFC",
+    "wayback_url": "https://web.archive.org/web/20260929110123/https://le.utah.gov/xcode/Title16/Chapter1A/C16-1a-S212_2026050620261001.html",
+    "captured_at": "2026-09-29T11:01:19.118162+00:00",
+    "signed": false,
+    "tls_chain_unverified": false
   },
   {
     "source_url": "https://le.utah.gov/~2024/bills/hbillint/HB0043S01.htm",
