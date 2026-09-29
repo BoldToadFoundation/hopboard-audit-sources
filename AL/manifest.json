@@ -12,6 +12,19 @@
     "tls_chain_unverified": false
   },
   {
+    "source_url": "https://www.alabamaag.gov/licensing-registration/charitable-organizations/",
+    "primary": false,
+    "local_path": "AL/www.alabamaag.gov-licensing-registration-charitable-organizations-aab4a445.html",
+    "content_type": "text/html; charset=UTF-8",
+    "content_sha256": "d1bf5573607bd640a1e5991726c2e4d5f3ca2bee16cf4b9dc15c68d2944e5c89",
+    "perma_url": null,
+    "wayback_url": null,
+    "captured_at": "2026-09-29T20:19:48.839461+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
+  },
+  {
     "source_url": "https://www.alabamaag.gov/wp-content/uploads/2026/05/File-Consumer-AL-Charitable-Organization-Renewal.pdf",
     "primary": false,
     "local_path": "AL/www.alabamaag.gov-wp-content-uploads-2026-05-File-Consumer-AL-Charitable-Organiz.pdf",
@@ -22,5 +35,18 @@
     "captured_at": "2026-07-05T13:31:38.359557+00:00",
     "signed": true,
     "tls_chain_unverified": false
+  },
+  {
+    "source_url": "https://www.revenue.alabama.gov/sales-use/tax-exempt-entities/",
+    "primary": false,
+    "local_path": "AL/www.revenue.alabama.gov-sales-use-tax-exempt-entities-132f3dba.html",
+    "content_type": "text/html; charset=UTF-8",
+    "content_sha256": "778976f631d08e3fbaf38bd6163f87ae67253e53f91a92771935c920c131462f",
+    "perma_url": null,
+    "wayback_url": "https://web.archive.org/web/20260929202012/https://www.revenue.alabama.gov/sales-use/tax-exempt-entities/",
+    "captured_at": "2026-09-29T20:19:48.839461+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
   }
 ]
