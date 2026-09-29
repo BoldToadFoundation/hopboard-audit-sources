@@ -124,6 +124,19 @@
     "tls_chain_unverified": false
   },
   {
+    "source_url": "https://www.sos.texas.gov/corp/nonprofitfaqs.shtml",
+    "primary": false,
+    "local_path": "TX/www.sos.texas.gov-corp-nonprofitfaqs.shtml-9d3f0ceb.html",
+    "content_type": "text/html",
+    "content_sha256": "5a9914c4315370f5a4b19c389852449db19219c4550366a3094ea985745f4f48",
+    "perma_url": null,
+    "wayback_url": null,
+    "captured_at": "2026-09-29T20:25:56.390900+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
+  },
+  {
     "source_url": "https://www.texasattorneygeneral.gov/divisions/charitable-trusts/registration-and-filings",
     "primary": false,
     "local_path": "TX/www.texasattorneygeneral.gov-divisions-charitable-trusts-registration-and-filing.html",
