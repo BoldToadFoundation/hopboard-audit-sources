@@ -55,6 +55,20 @@
     "provenance": "OCGA 43-17-9 (Exemptions) extracted verbatim from gov.ga.ocga.2019.08.21.r73.title.43.odt inside the release ZIP already recorded as GA's source_url (zip content-length 110661665, last-modified 2019-10-01); extracted 2026-09-07 by BATCH8 item 3. Captured because UNEVALUABLE_CONJUNCTS['GA'] cited 43-17-5, which is the REGISTRATION section and routes exemptions to 43-17-9 \u2014 whose text was in neither existing GA capture. CURRENCY: 2019 release; section history ends at Ga. L. 2008 p.683 s7/HB 1104; 2019->2026 changes UNVERIFIED. CORRECTED 2026-09-07, same day: the first wording said hosts '403 to a scripted fetch', which is measuring the probe and not the host \u2014 the exact error this archive's own runbook records after the sos.ga.gov case (commit 4054b50: 'probe with a page navigation, never a fetch, before calling a host blocked'). RE-PROBED WITH A HEADLESS PAGE NAVIGATION: law.justia.com 403, codes.findlaw.com 403, ga.elaws.us 503, lawserver.com 307 \u2014 unreachable under navigation too, so the currency gap is real. sos.ga.gov was NOT tested here; 4054b50's finding concerned SoS FORMS, not the code."
   },
   {
+    "source_url": "https://public.fastcase.com/Jhe1Qn%2bmJndQYQU6z%2feNm7IO4DoC8S59akUNB0HM1%2b1QOzwijz9DhDhgrIrJIeNkRnjd%2bx5w7eMVIN4GZkKttA%3d%3d",
+    "primary": false,
+    "local_path": "GA/public.fastcase.com-Jhe1Qn-2bmJndQYQU6z-2feNm7IO4DoC8S59akUNB0HM1-2b1QOzwijz9DhD-d6b4b942.dom.html",
+    "content_type": "text/html",
+    "content_sha256": "fe9ef93e52241114b0f008fe5fe411b4223b95ae1a612d8657dae3cf19daa01c",
+    "perma_url": null,
+    "wayback_url": null,
+    "captured_at": "2026-09-29T21:54:48.052380+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "ingested_from_file": true,
+    "provenance": "browser_captured (automated variant): playwright chromium headless PAGE NAVIGATION 2026-09-29 to the O.C.G.A. 43-17-9 link that the Georgia Secretary of State's rules site gives for the section (rules.sos.ga.gov/gac/590-9-6-.03, Authority line); page title 'GA. Code 43-17-9 Exemptions (Georgia Code (2026 Edition))'. Bytes are the rendered DOM (page.content()); the raw navigation body is a JavaScript shell without the section text."
+  },
+  {
     "source_url": "https://sos.ga.gov/sites/default/files/forms/Application%20-%20Certificate%20of%20Authority%20for%20Profit%20or%20Nonprofit%20Corporation%20(CD%20236).pdf",
     "primary": false,
     "local_path": "GA/sos.ga.gov-sites-default-files-forms-Application-20--20Certificate-20of-20Author-44dcb6ed.bin",
