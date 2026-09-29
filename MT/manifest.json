@@ -12,6 +12,20 @@
     "tls_chain_unverified": false
   },
   {
+    "source_url": "https://dojmt.gov/office-of-consumer-protection",
+    "primary": false,
+    "local_path": "MT/dojmt.gov-office-of-consumer-protection-b02221c4.html",
+    "content_type": "text/html",
+    "content_sha256": "e35f6841be029943f444e79927c6c82a2a98d8b9cba8c833d517f6212dd176db",
+    "perma_url": null,
+    "wayback_url": null,
+    "captured_at": "2026-09-29T21:07:37.184856+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "ingested_from_file": true,
+    "provenance": "browser_captured (automated variant): playwright chromium headless PAGE NAVIGATION, raw main-frame document response.body() (HTTP 200) recorded after the site's JavaScript challenge cleared, 2026-09-29"
+  },
+  {
     "source_url": "https://dojmt.gov/office-of-consumer-protection/telemarketing-businesses/",
     "primary": false,
     "local_path": "MT/dojmt.gov-office-of-consumer-protection-telemarketing-businesses.html",
