@@ -2067,6 +2067,56 @@
         "This rule is adopted by the Division under the authority of Sections 48-5-103 and 48-5-109 to enable the division to",
         "Terms used in this rule are defined in Title 48, Chapter 5, Decentralized Autonomous Organization Act. In"
       ]
+    },
+    "2THA-GYHL": {
+      "basis": "Ohio Rev. Code §1716.02: the charitable organization's annual registration statement is refiled on or before the fifteenth day of the fifth calendar month after fiscal-year close, or by any federal extension date, whichever is later [D-062/D-070 bulk capture of corpus-cited deadline sources, 2026-09-29; strings verified against the local capture via check_perma_sidecar.artifact_text]",
+      "source_url": "https://codes.ohio.gov/ohio-revised-code/section-1716.02",
+      "strings": [
+        "The annual registration statement shall be refiled on or before the fifteenth day of the fifth calendar month after the close of each fiscal year",
+        "or by the date of any applicable extension of the federal filing date, whichever is later"
+      ]
+    },
+    "2XKY-8J9K": {
+      "basis": "New Jersey Legislature public statutes download directory — an INDEX of bulk statute files, NOT the operative section; the NJ corpus cites it for a deadline-bearing field, so the operative statute text itself is still uncaptured (flagged) [D-062/D-070 bulk capture of corpus-cited deadline sources, 2026-09-29; strings verified against the local capture via check_perma_sidecar.artifact_text]",
+      "source_url": "https://pub.njleg.state.nj.us/statutes/",
+      "strings": [
+        "pub.njleg.state.nj.us - /statutes/"
+      ]
+    },
+    "D59J-PXR4": {
+      "basis": "Indiana Secretary of State (INBiz): the business entity report is filed every other year; due date is the month and day the business was formed or registered [D-062/D-070 bulk capture of corpus-cited deadline sources, 2026-09-29; strings verified against the local capture via check_perma_sidecar.artifact_text]",
+      "source_url": "https://inbiz.in.gov/business-filings/business-entityreport",
+      "strings": [
+        "Reports must be filed every other year",
+        "The month and day the business was formed or registered"
+      ]
+    },
+    "TUE7-C78S": {
+      "basis": "Texas Comptroller, franchise tax PIR/OIR filing requirements: the Public Information Report is due on the annual franchise tax report due date [D-062/D-070 bulk capture of corpus-cited deadline sources, 2026-09-29; strings verified against the local capture via check_perma_sidecar.artifact_text]",
+      "source_url": "https://comptroller.texas.gov/taxes/franchise/pir-oir-filing-req.php",
+      "strings": [
+        "The PIR is due on the annual franchise tax report due date"
+      ]
+    },
+    "X6U3-85WG": {
+      "basis": "Wash. Admin. Code 434-120-225 (fund-raiser renewal): received no later than the last business day of the eleventh month after the end of its accounting year [D-062/D-070 bulk capture of corpus-cited deadline sources, 2026-09-29; strings verified against the local capture via check_perma_sidecar.artifact_text]",
+      "source_url": "https://app.leg.wa.gov/WAC/default.aspx?cite=434-120-225",
+      "strings": [
+        "no later than the last business day of the eleventh month after the end of its accounting year",
+        "may cause the due date of a renewal to be more than one year after the previous registration or renewal"
+      ]
+    },
+    "Z583-QUHZ": {
+      "basis": "Delaware Division of Corporations, annual report and franchise tax: received no later than March 1st of each year; exempt domestic corporations file an annual report without tax [D-062/D-070 bulk capture of corpus-cited deadline sources, 2026-09-29; strings verified against the local capture via check_perma_sidecar.artifact_text]",
+      "source_url": "https://corp.delaware.gov/frtax/",
+      "strings": [
+        "Taxes and Annual Reports are to be received no later than March 1st of each year",
+        "Exempt domestic corporations do not pay a tax but must file an Annual Report"
+      ]
+    },
+    "E3JF-XRDZ": {
+      "skip": "PDF tier (documented skip, 2026-09-29, D-062/D-070 bulk capture). NY AG Charities Bureau Regs-F (13 NYCRR Part 91 guidance PDF): registration and annual filing deadlines. The manifest content_type is application/pdf, so verify_perma's utf-8 WARC read cannot see the text; the strings live in by_sha256 against the local bytes.",
+      "source_url": "https://ag.ny.gov/sites/default/files/2022-10/Regs-F.pdf"
     }
   },
   "by_sha256": {
@@ -2184,7 +2234,9 @@
         "Article 7-A requires registration of charitable and other nonprofit organizations that solicit",
         "Section 8-1.4 of the EPTL requires registration of charitable",
         "reporting period is more than $250,000.",
-        "must pay an article 7-A filing fee of $25"
+        "must pay an article 7-A filing fee of $25",
+        "the submission is due by the earlier of the two deadlines",
+        "All submissions must be mailed, postmarked by the deadline"
       ]
     },
     "2a7e997e4a18abb2eb8cc0f0a50f2ec030c338d9edbba3e82958399f05c1e301": {
