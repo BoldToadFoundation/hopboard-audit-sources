@@ -1,0 +1,1308 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" prefix="og: https://ogp.me/ns#">
+<head>
+   <script> document.addEventListener("DOMContentLoaded", function () {
+  document.body.classList.remove("no-js");
+});</script>
+  <meta charset="utf-8" />
+<script type="text/javascript">(window.NREUM||(NREUM={})).init={privacy:{cookies_enabled:true},ajax:{deny_list:["bam.nr-data.net"]},distributed_tracing:{enabled:true}};(window.NREUM||(NREUM={})).loader_config={agentID:"1386220600",accountID:"3501078",trustKey:"1431930",xpid:"VwMHUFZUABABVlZQAwgOUFQE",licenseKey:"NRJS-2c7539f8219c23d5717",applicationID:"1272499605",browserID:"1386220600"};;/*! For license information please see nr-loader-spa-1.322.0.min.js.LICENSE.txt */
+(()=>{var e={8122(e,t,r){"use strict";r.d(t,{a:()=>i});var n=r(944);function i(e,t){try{if(!e||"object"!=typeof e)return(0,n.R)(3);if(!t||"object"!=typeof t)return(0,n.R)(4);const r=Object.create(Object.getPrototypeOf(t),Object.getOwnPropertyDescriptors(t)),s=0===Object.keys(r).length?e:r;for(let a in s)if(void 0!==e[a])try{if(null===e[a]){r[a]=null;continue}Array.isArray(e[a])&&Array.isArray(t[a])?r[a]=Array.from(new Set([...e[a],...t[a]])):e[a]instanceof Map||e[a]instanceof Set||e[a]instanceof Date||e[a]instanceof RegExp?r[a]=e[a]:"object"==typeof e[a]&&null!==t[a]&&"object"==typeof t[a]?r[a]=i(e[a],t[a]):r[a]=e[a]}catch(e){r[a]||(0,n.R)(1,e)}return r}catch(e){(0,n.R)(2,e)}}},2555(e,t,r){"use strict";r.d(t,{f:()=>a});var n=r(384),i=r(8122);const s={beacon:n.NT.beacon,errorBeacon:n.NT.errorBeacon,licenseKey:void 0,applicationID:void 0,sa:void 0,queueTime:void 0,applicationTime:void 0,ttGuid:void 0,user:void 0,account:void 0,product:void 0,extra:void 0,jsAttributes:{},userAttributes:void 0,atts:void 0,transactionName:void 0,tNamePlain:void 0};function a(e){try{return!!e.licenseKey&&!!e.errorBeacon&&!!e.applicationID}catch(e){return!1}}r.d(t,["D",0,e=>(0,i.a)(e,s)])},7699(e,t,r){"use strict";var n=r(860);const i={[n.K7.logging]:!0,[n.K7.genericEvents]:!0,[n.K7.jserrors]:!0,[n.K7.ajax]:!0};r.d(t,["It",0,1e6,"KC",0,i,"qh",0,"SESSION_ERROR"])},9324(e,t,r){"use strict";r.d(t,["A",0,"@newrelic/rrweb","x",0,"1.322.0"])},981(e,t,r){"use strict";r.d(t,["R",0,{AJAX:"AjaxRequest",PA:"PageAction",UA:"UserAction",BP:"BrowserPerformance",WS:"WebSocket",SPV:"SecurityPolicyViolation",JSE:"JavaScriptError",LOG:"Log",PVE:"PageView",PVT:"PageViewTiming",SR:"SessionReplay",ST:"SessionTrace",BI:"BrowserInteraction"}])},9752(e,t,r){"use strict";const n="newrelic-iframe-",i=n+"timing-update",s=n+"api",a=n+"api-response",o=n+"vitals-update",c=n+"ajax";r.d(t,["$8",0,o,"Gi",0,a,"KU",0,c,"Pl",0,n,"cS",0,s,"cr",0,i])},6154(e,t,r){"use strict";var n=r(1863);const i="undefined"!=typeof window&&!!window.document,s="undefined"!=typeof WorkerGlobalScope&&("undefined"!=typeof self&&self instanceof WorkerGlobalScope&&self.navigator instanceof WorkerNavigator||"undefined"!=typeof globalThis&&globalThis instanceof WorkerGlobalScope&&globalThis.navigator instanceof WorkerNavigator),a=i?window:"undefined"!=typeof WorkerGlobalScope&&("undefined"!=typeof self&&self instanceof WorkerGlobalScope&&self||"undefined"!=typeof globalThis&&globalThis instanceof WorkerGlobalScope&&globalThis),o=Boolean("hidden"===a?.document?.visibilityState),c=""+a?.location,d=/iPad|iPhone|iPod/.test(a.navigator?.userAgent),u=d&&"undefined"==typeof SharedWorker,l=(()=>{const e=a.navigator?.userAgent?.match(/Firefox[/\s](\d+\.\d+)/);return Array.isArray(e)&&e.length>=2?+e[1]:0})(),f=Date.now()-(0,n.t)();r.d(t,["OF",0,d,"RI",0,i,"WN",0,f,"bv",0,s,"gm",0,a,"lR",0,l,"m",0,c,"mw",0,o,"sb",0,u,"zk",0,()=>{const e=a?.performance?.getEntriesByType?.("navigation")?.[0];if(e&&e.responseStart>0&&e.responseStart<a.performance.now())return e}])},7295(e,t,r){"use strict";r.d(t,{Xv:()=>a,gX:()=>i,iW:()=>s});var n=[];function i(e){if(!e||s(e))return!1;if(0===n.length)return!0;if("*"===n[0].hostname)return!1;for(var t=0;t<n.length;t++){var r=n[t];if(r.hostname.test(e.hostname)&&r.pathname.test(e.pathname))return!1}return!0}function s(e){return void 0===e.hostname}function a(e){if(n=[],e&&e.length)for(var t=0;t<e.length;t++){let r=e[t];if(!r)continue;if("*"===r)return void(n=[{hostname:"*"}]);0===r.indexOf("http://")?r=r.substring(7):0===r.indexOf("https://")&&(r=r.substring(8));const i=r.indexOf("/");let s,a;i>0?(s=r.substring(0,i),a=r.substring(i)):(s=r,a="*");let[c]=s.split(":");n.push({hostname:o(c),pathname:o(a,!0)})}}function o(e,t=!1){const r=e.replace(/[.+?^${}()|[\]\\]/g,e=>"\\"+e).replace(/\*/g,".*?");return new RegExp((t?"^":"")+r+"$")}},3241(e,t,r){"use strict";r.d(t,{W:()=>i});var n=r(6154);function i(e={}){try{n.gm.dispatchEvent(new CustomEvent("newrelic",{detail:e}))}catch(e){}}},1687(e,t,r){"use strict";r.d(t,{Ak:()=>o,Ze:()=>d,x3:()=>c});var n=r(3241),i=r(3606),s=r(860),a=r(2646);function o(e,t){if(!e)return;const r={staged:!1,priority:s.P3[t]||0};e.runtime.drainRegistry.get(t)||e.runtime.drainRegistry.set(t,r)}function c(e,t){if(!e)return;const r=e.runtime.drainRegistry;r&&(r.get(t)&&r.delete(t),l(e,t,!1),r.size&&u(e))}function d(e,t="feature",r=!1){if(e){if(!e.runtime.drainRegistry.get(t)||r)return l(e,t);e.runtime.drainRegistry.get(t).staged=!0,u(e)}}function u(e){if(!e)return;const t=Array.from(e.runtime.drainRegistry);t.every(([e,t])=>t.staged)&&(t.sort((e,t)=>e[1].priority-t[1].priority),t.forEach(([t])=>{e.runtime.drainRegistry.delete(t),l(e,t)}))}function l(e,t,r=!0){if(!e)return;const s=e.ee,o=i.i.handlers;if(s&&!s.aborted&&s.backlog&&o){if((0,n.W)({type:"lifecycle",name:"drain",feature:t}),r){const e=s.backlog[t],r=o[t];if(r){for(let t=0;e&&t<e.length;++t)f(e[t],r);Object.entries(r).forEach(([e,t])=>{Object.values(t||{}).forEach(t=>{t[0]?.on&&t[0].context()instanceof a.y&&!t[0].listeners(e).includes(t[1])&&t[0].on(e,t[1])})})}}s.isolatedBacklog||delete o[t],s.backlog[t]=null,s.emit("drain-"+t,[])}}function f(e,t){var r=e[1];Object.values(t[r]||{}).forEach(t=>{var r=e[0];if(t[0]===r){var n=t[1],i=e[3],s=e[2];n.apply(i,s)}})}},7836(e,t,r){"use strict";var n=r(384),i=r(8990),s=r(2646),a=r(5607);const o="nr@context:".concat(a.W),c=function e(t,r){var n={},a={},u={},l=!1;try{l=16===r.length&&d.initializedAgents?.[r]?.runtime.isolatedBacklog}catch(e){}var f={on:p,addEventListener:p,removeEventListener:function(e,t){var r=n[e];if(!r)return;for(var i=0;i<r.length;i++)r[i]===t&&r.splice(i,1)},emit:function(e,r,n,i,s){!1!==s&&(s=!0);if(c.aborted&&!i)return;t&&s&&t.emit(e,r,n);var o=h(n);g(e).forEach(e=>{e.apply(o,r)});var d=v()[a[e]];d&&d.push([f,e,r,o]);return o},get:m,listeners:g,context:h,buffer:function(e,t){const r=v();if(t=t||"feature",f.aborted)return;Object.entries(e||{}).forEach(([e,n])=>{a[n]=t,t in r||(r[t]=[])})},abort:function(){f._aborted=!0,Object.keys(f.backlog).forEach(e=>{delete f.backlog[e]})},isBuffering:function(e){return!!v()[a[e]]},debugId:r,backlog:l?{}:t&&"object"==typeof t.backlog?t.backlog:{},isolatedBacklog:l};return Object.defineProperty(f,"aborted",{get:()=>{let e=f._aborted||!1;return e||(t&&(e=t.aborted),e)}}),f;function h(e){return e&&e instanceof s.y?e:e?(0,i.I)(e,o,()=>new s.y(o)):new s.y(o)}function p(e,t){n[e]=g(e).concat(t)}function g(e){return n[e]||[]}function m(t){return u[t]=u[t]||e(f,t)}function v(){return f.backlog}}(void 0,"globalEE"),d=(0,n.Zm)();d.ee||(d.ee=c),r.d(t,["P",0,o,"ee",0,c])},2646(e,t,r){"use strict";r.d(t,{y:()=>n});class n{constructor(e){this.contextId=e}}},9908(e,t,r){"use strict";r.d(t,{d:()=>n,p:()=>i});var n=r(7836).ee.get("handle");function i(e,t,r,i,s){s?(s.buffer([e],i),s.emit(e,t,r)):(n.buffer([e],i),n.emit(e,t,r))}},3606(e,t,r){"use strict";r.d(t,{i:()=>s});var n=r(9908);s.on=a;var i=s.handlers={};function s(e,t,r,s){a(s||n.d,i,e,t,r)}function a(e,t,r,i,s){s||(s="feature"),e||(e=n.d);var a=t[s]=t[s]||{};(a[r]=a[r]||[]).push([e,i])}},3878(e,t,r){"use strict";function n(e,t){return{capture:e,passive:!1,signal:t}}function i(e,t,r=!1,i){window.addEventListener(e,t,n(r,i))}function s(e,t,r=!1,i){document.addEventListener(e,t,n(r,i))}r.d(t,{DD:()=>s,jT:()=>n,sp:()=>i})},5607(e,t,r){"use strict";const n=(0,r(9566).bz)();r.d(t,["W",0,n])},9566(e,t,r){"use strict";r.d(t,{LA:()=>a,ZF:()=>o,bz:()=>s,el:()=>c});var n=r(6154);function i(e,t){return e?15&e[t]:16*Math.random()|0}function s(){const e=n.gm?.crypto||n.gm?.msCrypto;let t,r=0;return e&&e.getRandomValues&&(t=e.getRandomValues(new Uint8Array(30))),"xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx".split("").map(e=>"x"===e?i(t,r++).toString(16):"y"===e?(3&i()|8).toString(16):e).join("")}function a(e){const t=n.gm?.crypto||n.gm?.msCrypto;let r,s=0;t&&t.getRandomValues&&(r=t.getRandomValues(new Uint8Array(e)));const a=[];for(var o=0;o<e;o++)a.push(i(r,s++).toString(16));return a.join("")}function o(){return a(16)}function c(){return a(32)}},2614(e,t,r){"use strict";r.d(t,["BB",0,18e5,"Wt",0,"NRBA_SESSION::","g",0,{OFF:0,FULL:1,ERROR:2},"iL",0,{SAME_TAB:"same-tab",CROSS_TAB:"cross-tab"},"tS",0,{STARTED:"session-started",PAUSE:"session-pause",RESET:"session-reset",RESUME:"session-resume",UPDATE:"session-update"},"wk",0,144e5])},733(e,t,r){"use strict";function n(e,t){return function(e){let t=2166136261;for(let r=0;r<e.length;r++)t^=e.charCodeAt(r),t=Math.imul(t,16777619);return(t>>>0).toString(16).padStart(8,"0")}("".concat(String(e),":").concat(String(t)))}r.d(t,{Y:()=>n})},1863(e,t,r){"use strict";function n(){return Math.floor(performance.now())}r.d(t,{t:()=>n})},9119(e,t,r){"use strict";r.d(t,{L:()=>s});var n=/([^?#]*)[^#]*(#[^?]*|$).*/,i=/([^?#]*)().*/;function s(e,t){return e?e.replace(t?n:i,"$1$2"):e}},7485(e,t,r){"use strict";r.d(t,{D:()=>i});var n=r(6154);function i(e){if(0===(e||"").indexOf("data:"))return{protocol:"data"};try{const t=new URL(e,location.href),r={port:t.port,hostname:t.hostname,pathname:t.pathname,search:t.search,protocol:t.protocol.slice(0,t.protocol.indexOf(":")),sameOrigin:t.protocol===n.gm?.location?.protocol&&t.host===n.gm?.location?.host};return r.port&&""!==r.port||("http:"===t.protocol&&(r.port="80"),"https:"===t.protocol&&(r.port="443")),r.pathname&&""!==r.pathname?r.pathname.startsWith("/")||(r.pathname="/".concat(r.pathname)):r.pathname="/",r}catch(e){return{}}}},7866(e,t,r){"use strict";r.d(t,["Nc",0,/^\s*at Function code \(Function code:\d+:\d+\)\s*/i,"cn",0,/^\s*(?:([^@]*)(?:\(.*?\))?@)?((?:file|http|https|chrome|safari-extension).*?):(\d+)(?::(\d+))?\s*$/i,"fL",0,/^\s*at .+ \(eval at \S+ \((?:(?:file|http|https):[^)]+)?\)(?:, [^:]*:\d+:\d+)?\)$/i,"h3",0,/function (.+?)\s*\(/,"hB",0,/^\s*at (?:((?:\[object object\])?(?:[^(]*\([^)]*\))*[^()]*(?: \[as \S+\])?) )?\(?((?:file|http|https|chrome-extension):.*?)?:(\d+)(?::(\d+))?\)?\s*$/i])},944(e,t,r){"use strict";r.d(t,{R:()=>i});var n=r(3241);function i(e,t){"function"==typeof console.debug&&(console.debug("New Relic Warning: https://github.com/newrelic/newrelic-browser-agent/blob/main/docs/warning-codes.md#".concat(e),t),(0,n.W)({drained:null,type:"data",name:"warn",feature:"warn",data:{code:e,secondary:t}}))}},8990(e,t,r){"use strict";r.d(t,{I:()=>i});var n=Object.prototype.hasOwnProperty;function i(e,t,r){if(n.call(e,t))return e[t];var i=r();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:i,writable:!0,enumerable:!1}),i}catch(e){}return e[t]=i,i}},6389(e,t,r){"use strict";function n(e,t=500,r={}){const n=r?.leading||!1;let i;return(...r)=>{n&&void 0===i&&(e.apply(this,r),i=setTimeout(()=>{i=clearTimeout(i)},t)),n||(clearTimeout(i),i=setTimeout(()=>{e.apply(this,r)},t))}}function i(e){let t=!1;return(...r)=>{t||(t=!0,e.apply(this,r))}}r.d(t,{J:()=>i,s:()=>n})},1910(e,t,r){"use strict";r.d(t,{i:()=>s});var n=r(944);const i=new Map;function s(...e){return e.every(e=>{if(i.has(e))return i.get(e);const t="function"==typeof e?e.toString():"",r=t.includes("[native code]"),s=t.includes("nrWrapper");return r||s||(0,n.R)(64,e?.name||t),i.set(e,r),r})}},3304(e,t,r){"use strict";r.d(t,{A:()=>i});var n=r(7836);function i(e){try{return JSON.stringify(e,(()=>{const e=new WeakSet;return(t,r)=>{if("object"==typeof r&&null!==r){if(e.has(r))return;e.add(r)}return r}})())??""}catch(e){try{n.ee.emit("internal-error",[e])}catch(e){}return""}}},9232(e,t,r){"use strict";r.d(t,["f",0,{MFE:"MFE",BA:"BA"}])},7560(e,t,r){"use strict";r.d(t,{N:()=>a,j:()=>c});var n=r(9119),i=r(944);const s=(0,r(6389).J)(e=>(0,i.R)(80,e));function a(e){if(!Array.isArray(e?.assets)||!e.assets.length)return;const t=e.assets.map(o).filter(Boolean);return t.length?{assets:t,scripts:t.filter(e=>e.isScript)}:void 0}function o(e){if(!e||"object"!=typeof e)return;const{matcher:t,type:r}=e;let i="string"==typeof t&&t.endsWith(".js");return void 0!==r&&(!function(e){return"script"===e||"asset"===e}(r)?s(r):i=function(e){return"script"===e}(r)),a=t,"[object RegExp]"===Object.prototype.toString.call(a)?{pattern:t,test:e=>(t.lastIndex=0,t.test((0,n.L)(e))),isScript:i}:"string"==typeof t&&t.length>0?{pattern:t,test:e=>(0,n.L)(e).includes(t),isScript:i}:void s(t);var a}function c(e,t,{scriptsOnly:r=!1}={}){if(!e||!t)return!1;return(r?e.scripts:e.assets).some(e=>e.test(t))}},5718(e,t,r){"use strict";r.d(t,{xo:()=>T,AZ:()=>v,cI:()=>g,Qr:()=>A,QL:()=>y});var n=r(6154),i=r(1863),s=r(9119),a=r(7866);class o{dom=new c;performance=new c;constructor(e){this.url=e,this.claimedBy=new Set}get script(){const e=Math.max(this.dom.start,this.performance.end);return{start:e,end:Math.max(this.dom.end,this.performance.end,e)}}}class c{start=0;end=0;value=void 0}function d(e=()=>{},t){return{get:()=>void 0!==t?t:e(),set:e=>{t=e}}}let u;try{u=v(y())[0]}catch(e){u=v(e)[0]}const l=new Map;let f=[];const h=new WeakMap;function p(e){let t=h.get(e);return t||(t={weighedAssetUrls:new Set,recordManifestScriptWindow:(t,r)=>{t&&(e.scriptStart=e.scriptStart>0?Math.min(e.scriptStart,t):t),r&&(e.scriptEnd=e.scriptEnd>0?Math.max(e.scriptEnd,r):r)}},h.set(e,t)),t}function g(e){return l.get(e)}function m(e){const t=g(e);if(t)return t;const r=new o(e);if(l.set(e,r),l.size>1e3){const e=l.keys().next().value;l.delete(e)}return r}if(n.gm.MutationObserver&&n.gm.document){new MutationObserver(e=>{e.forEach(e=>{e.addedNodes.forEach(e=>{if("SCRIPT"===e.nodeName&&e.src){const t=m((0,s.L)(e.src));t.dom.start=(0,i.t)(),t.dom.value=e;const r=()=>{t.dom.end=(0,i.t)()};["load","error"].forEach(t=>e.addEventListener(t,r,{once:!0}))}})})}).observe(n.gm.document,{childList:!0,subtree:!0})}if(n.gm.PerformanceObserver?.supportedEntryTypes.includes("resource")){new PerformanceObserver(e=>{e.getEntries().forEach(e=>{if((e=>"script"===e.initiatorType||["link","fetch"].includes(e.initiatorType)&&(0,s.L)(e.name).endsWith(".js"))(e)){const t=m((0,s.L)(e.name));t.performance.start=Math.floor(e.startTime),t.performance.end=Math.floor(e.responseEnd),t.performance.value=e}if(!f.length)return;const t=[];f.forEach(({test:r,addedAt:n},s)=>{(r(e)||(0,i.t)()-n>1e4)&&t.push(s)}),f=f.filter((e,r)=>!t.includes(r))})}).observe({type:"resource",buffered:!0})}function v(e){if(!e||"string"!=typeof e)return[];const t=new Set,r=e.split("\n");for(const e of r){const r=e.match(a.cn)||e.match(a.hB)||e.match(a.fL);if(r&&r[2])t.add((0,s.L)(r[2]));else{const r=e.match(/\(([^)]+\.js):\d+:\d+\)/)||e.match(/^\s+at\s+([^\s(]+\.js):\d+:\d+/);r&&r[1]&&t.add((0,s.L)(r[1]))}}return[...t]}function y(){let e;try{const t=Error.stackTraceLimit;Error.stackTraceLimit=50,e=(new Error).stack,Error.stackTraceLimit=t}catch(t){e=(new Error).stack}return e}function b(e,t){return(0,s.L)(e.name)===t}function E(e,t){e.fetchStart=Math.floor(t.startTime),e.fetchEnd=Math.floor(t.responseEnd),e.asset=t.name,e.type=t.initiatorType,w(e,t)}function w(e,t){const r=(0,s.L)(t.name),{weighedAssetUrls:n}=p(e);n.has(r)||(n.add(r),e.totalWeight=(e.totalWeight||0)+(t.transferSize||0),"blocking"===t.renderBlockingStatus?e.renderBlocking=!0:"non-blocking"===t.renderBlockingStatus&&!0!==e.renderBlocking&&(e.renderBlocking=!1))}function R(e,t,r,n,i){if(w(e,t),"scripts"!==i&&"all"!==i)return;if("all"===i||r.isScript){const r=Math.floor(t.startTime),n=Math.floor(t.responseEnd);e.fetchStart=e.fetchStart>0?Math.min(e.fetchStart,r):r,e.fetchEnd=e.fetchEnd>0?Math.max(e.fetchEnd,n):n}if(r.isScript){const r=g((0,s.L)(t.name));if(r){const t=()=>{const{start:t,end:n}=r.script;p(e).recordManifestScriptWindow(t,n)};t(),!r.dom.end&&r.dom.value&&["load","error"].forEach(e=>r.dom.value.addEventListener(e,t,{once:!0}))}n.resolved||(e.asset=t.name,e.type=t.initiatorType,n.resolved=!0)}}function T(e,t){const r=t?.manifest;if(!r||!r.assets.length)return;const s={resolved:!1},a=new Set(r.assets);(n.gm.performance?.getEntriesByType("resource")||[]).forEach(r=>{const n=[...a].find(e=>e.test(r.name));n&&(R(e,r,n,s,t.timingMethod),a.delete(n))}),a.size&&function(e,t,r,s){n.gm.PerformanceObserver?.supportedEntryTypes?.includes("resource")&&f.push({addedAt:(0,i.t)(),test:n=>{const i=[...t].find(e=>e.test(n.name));return i&&(R(e,n,i,r,s),t.delete(i)),0===t.size}})}(e,a,s,t.timingMethod)}function A(e){const t=e?.id,r={registeredAt:(0,i.t)(),reportedAt:void 0,fetchStart:0,fetchEnd:0,scriptStart:0,scriptEnd:0,asset:void 0,type:"unknown",totalWeight:0,renderBlocking:void 0},a=y();if(!a)return r;const o=n.gm.performance?.getEntriesByType("navigation")?.[0]?.name||"";try{const e=v(a),c=(e.length>1?e.filter(e=>u!==e):e)[0];if(!c)return r;if(o.includes(c))return r.asset=(0,s.L)(o),r.type="inline",r;r.correlation=g(c);const l=r.correlation?.performance.value||n.gm.performance?.getEntriesByType("resource")?.find(e=>b(e,c));if(l)E(r,l);else{(function(e){if(!e||!n.gm.document)return!1;try{const t=n.gm.document.querySelectorAll('link[rel="preload"][as="script"]');for(const r of t)if((0,s.L)(r.href)===e)return!0}catch(e){}return!1})(c)&&(r.asset=c,r.type="preload"),function(e,t){n.gm.PerformanceObserver?.supportedEntryTypes?.includes("resource")&&f.push({addedAt:(0,i.t)(),test:r=>!!b(r,t)&&(E(e,r),!0)})}(r,c)}const h=r.correlation,m=!!t&&!!h?.claimedBy.has(t);h&&t&&h.claimedBy.add(t);const y=()=>{const e=h?.script.start;if(!m||!e)return!1;return r.registeredAt-e>1e4};let w=0,R=0;p(r).recordManifestScriptWindow=(e,t)=>{e&&(w=w>0?Math.min(w,e):e),t&&(R=R>0?Math.max(R,t):t)},Object.defineProperty(r,"scriptStart",d(()=>{const e=y()?r.registeredAt:h?.script.start??r.fetchEnd;return w>0?Math.min(e,w):e})),Object.defineProperty(r,"scriptEnd",d(()=>{const e=y()?r.registeredAt:h?.script.end??r.registeredAt;return R>0?Math.max(e,R):e}))}catch(e){}return r}},5732(e,t,r){"use strict";r.d(t,{$5:()=>m,B5:()=>g,K6:()=>u,M$:()=>o,Ms:()=>d,NG:()=>c,Ux:()=>h,YA:()=>p,yx:()=>l});var n=r(5718),i=r(7560),s=r(9119),a=r(9232);function o(e){return e?.type===a.f.MFE}function c(e,t){if(!y(e,t))return;const r=t.runtime.registeredEntities;return r?.find(t=>t.metadata.target.iframeInterfaceId===e)}function d(e,t){if(!y(e,t))return[];const r=t.runtime.registeredEntities;return r?.filter(t=>String(t.metadata.target.id)===String(e)).map(e=>e.metadata.target)||[]}function u(e,t){if(!y(e,t))return[];const r=t.runtime.registeredEntities,n=(0,s.L)(e),a=r?.filter(t=>{const r=t.metadata.target?.manifest;return r?(0,i.j)(r,e,{scriptsOnly:!1}):!!t.metadata.timings?.asset&&(0,s.L)(t.metadata.timings.asset)===n});return f(a).map(e=>e.metadata.target)}function l(e,t){if(!y(e,t))return[];const r=t.runtime.registeredEntities,n=r?.filter(t=>{const r=t.metadata.target?.manifest;return r?(0,i.j)(r,e,{scriptsOnly:!0}):!!t.metadata.timings?.asset?.endsWith(e)});return f(n).map(e=>e.metadata.target)}function f(e){if(!e?.length)return e||[];const t=new Map,r=[];for(const n of e){const e=n.metadata?.timings?.asset;if(!e){r.push(n);continue}const i="".concat(e,"::").concat(n.metadata?.target?.id),s=t.get(i);if(s){if(s.metadata.target?.blocked&&!n.metadata.target?.blocked){const e=r.indexOf(s);-1!==e&&(r[e]=n),t.set(i,n)}}else t.set(i,n),r.push(n)}return r}function h(e,t){return v(t)?o(e)?e.attributes:t.agentRef.runtime.v2Target.attributes:{}}function p(e,t){return g(e,t)?{"child.id":e.id,"child.type":e.type,...h(void 0,t)}:{}}function g(e,t){return o(e)&&!!v(t)&&t.agentRef.init.api.register.duplicate_data_to_container}function m(e){if(!e?.runtime)return[];if(!y(!0,e)||!e.runtime.registeredEntities?.length)return[e.runtime.v2Target];const t=[];try{var r=(0,n.AZ)((0,n.QL)());let i=r.length-1;for(;r[i];)t.push(...l(r[i--],e))}catch(e){}const i=function(e){const t=new Set,r=[];for(const n of e){const e=n?.instance;t.has(e)||(t.add(e),r.push(n))}return r}(t);return i.length||i.push(e.runtime.v2Target),i}function v(e){return 2===e?.harvestEndpointVersion}function y(e,t){return!!e&&!!t?.init.api.register.enabled}},5289(e,t,r){"use strict";r.d(t,{GG:()=>a,Qr:()=>c,sB:()=>o});var n=r(3878),i=r(6389);function s(){return"undefined"==typeof document||"complete"===document.readyState}function a(e,t){if(s())return e();const r=(0,i.J)(e),a=setInterval(()=>{s()&&(clearInterval(a),r())},500);(0,n.sp)("load",r,t)}function o(e){if(s())return e();(0,n.DD)("DOMContentLoaded",e)}function c(e){if(s())return e();(0,n.sp)("popstate",e)}},384(e,t,r){"use strict";r.d(t,{Zm:()=>c,bQ:()=>u,dV:()=>d,pV:()=>l});var n=r(6154),i=r(1863),s=r(944),a=r(1910);const o={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net"};function c(){return n.gm.NREUM||(n.gm.NREUM={}),void 0===n.gm.newrelic&&(n.gm.newrelic=n.gm.NREUM),n.gm.NREUM}function d(){let e=c();return e.o||(e.o={ST:n.gm.setTimeout,SI:n.gm.setImmediate||n.gm.setInterval,CT:n.gm.clearTimeout,XHR:n.gm.XMLHttpRequest,REQ:n.gm.Request,EV:n.gm.Event,PR:n.gm.Promise,MO:n.gm.MutationObserver,FETCH:n.gm.fetch,WS:n.gm.WebSocket},(0,a.i)(...Object.values(e.o))),e}function u(e,t){let r=c();r.initializedAgents??={},t.initializedAt={ms:(0,i.t)(),date:new Date},r.initializedAgents[e]=t,2===Object.keys(r.initializedAgents).length&&(0,s.R)(69)}function l(){return function(){let e=c();const t=e.info||{};e.info={beacon:o.beacon,errorBeacon:o.errorBeacon,...t}}(),function(){let e=c();const t=e.init||{};e.init={...t}}(),d(),function(){let e=c();const t=e.loader_config||{};e.loader_config={...t}}(),c()}r.d(t,["NT",0,o])},2843(e,t,r){"use strict";r.d(t,{G:()=>s,u:()=>i});var n=r(3878);function i(e,t=!1,r,i){(0,n.DD)("visibilitychange",function(){if(t)return void("hidden"===document.visibilityState&&e());e(document.visibilityState)},r,i)}function s(e,t,r){(0,n.sp)("pagehide",e,t,r)}},8139(e,t,r){"use strict";r.d(t,{u:()=>f});var n=r(7836),i=r(3434),s=r(8990),a=r(6154);const o={},c=a.gm.XMLHttpRequest,d="addEventListener",u="removeEventListener",l="nr@wrapped:".concat(n.P);function f(e,t){var r=function(e){return(e||n.ee).get("events")}(e);if(o[r.debugId]++)return r;o[r.debugId]=1;var f=(0,i.YM)(r,!0,t);function p(e){f.inPlace(e,[d,u],"-",g)}function g(e,t){return e[1]}return"getPrototypeOf"in Object&&(a.RI&&h(document,p),c&&h(c.prototype,p),h(a.gm,p)),r.on(d+"-start",function(e,t){var r=e[1];if(null!==r&&("function"==typeof r||"object"==typeof r)&&"newrelic"!==e[0]){var n=(0,s.I)(r,l,function(){var e={object:function(){if("function"!=typeof r.handleEvent)return;return r.handleEvent.apply(r,arguments)},function:r}[typeof r];return e?f(e,"fn-",null,e.name||"anonymous"):r});this.wrapped=e[1]=n}}),r.on(u+"-start",function(e){e[1]=this.wrapped||e[1]}),r}function h(e,t,...r){let n=e;for(;"object"==typeof n&&!Object.prototype.hasOwnProperty.call(n,d);)n=Object.getPrototypeOf(n);n&&t(n,...r)}},3434(e,t,r){"use strict";r.d(t,{YM:()=>d});var n=r(7836),i=r(5607),s=r(5732);const a="nr@original:".concat(i.W);var o=Object.prototype.hasOwnProperty,c=!1;function d(e,t,r){return e||(e=n.ee),i.inPlace=function(e,t,r,n,s,a){r||(r="");const o="-"===r.charAt(0);for(let c=0;c<t.length;c++){const d=t[c],u=e[d];l(u)||(e[d]=i(u,o?d+r:r,n,d,s,a))}},i.flag=a,i;function i(t,n,i,c,f,h){return l(t)?t:(n||(n=""),nrWrapper[a]=t,function(e,t,r){if(Object.defineProperty&&Object.keys)try{return Object.keys(e).forEach(function(r){Object.defineProperty(t,r,{get:function(){return e[r]},set:function(t){return e[r]=t,t}})}),t}catch(e){u([e],r)}for(var n in e)o.call(e,n)&&(t[n]=e[n])}(t,nrWrapper,e),nrWrapper);function nrWrapper(){var a,o,l,p;let g,m;try{o=this,a=[...arguments],m=h?(0,s.$5)(r):[r?.runtime?.v2Target],l="function"==typeof i?i(a,o):i||{}}catch(t){u([t,"",[a,o,c],l],e)}d(n+"start",[a,o,c,m],l,f);const v=performance.now();let y;try{return p=t.apply(o,a),y=performance.now(),p}catch(e){throw y=performance.now(),d(n+"err",[a,o,e,m],l,f),g=e,g}finally{const e=y-v,t={start:v,end:y,duration:e,isLongTask:e>=50,methodName:c,thrownError:g};t.isLongTask&&d("long-task",[t,o,m],l,f),d(n+"end",[a,o,p,m],l,f)}}}function d(r,n,i,s){if(!c||t){var a=c;c=!0;try{e.emit(r,n,i,t,s)}catch(t){u([t,r,n,i],e)}c=a}}}function u(e,t){t||(t=n.ee);try{t.emit("internal-error",e)}catch(e){}}function l(e){return!(e&&"function"==typeof e&&e.apply&&!e[a])}r.d(t,["Jt",0,a])},9300(e,t,r){"use strict";const n=r(860).K7.ajax;r.d(t,["TZ",0,n,"f5",0,"ajaxRequest.id","mo",0,{NONE:"none",FAILURES:"failures",ALL:"all"}])},3333(e,t,r){"use strict";var n=r(981);const i=r(860).K7.genericEvents,s=[n.R.PA,n.R.UA,n.R.BP];r.d(t,["$v",0,{RESOURCES:"experimental.resources",REGISTER:"register"},"TZ",0,i,"Zp",0,["auxclick","click","copy","keydown","paste","scrollend"],"kd",0,s,"qN",0,["focus","blur"]])},6774(e,t,r){"use strict";const n=r(860).K7.jserrors;r.d(t,["T",0,n])},993(e,t,r){"use strict";const n=r(860).K7.logging;r.d(t,["A$",0,{OFF:0,ERROR:1,WARN:2,INFO:3,DEBUG:4,TRACE:5},"TZ",0,n,"p_",0,{ERROR:"ERROR",WARN:"WARN",INFO:"INFO",DEBUG:"DEBUG",TRACE:"TRACE"}])},3785(e,t,r){"use strict";r.d(t,{R:()=>c,b:()=>d});var n=r(9908),i=r(1863),s=r(860),a=r(3969),o=r(993);function c(e,t,r={},c=o.p_.INFO,d=!0,u,l=(0,i.t)()){(0,n.p)(a.xV,["API/logging/".concat(c.toLowerCase(),"/called")],void 0,s.K7.metrics,e),(0,n.p)("log",[l,t,r,c,d,u],void 0,s.K7.logging,e)}function d(e){return"string"==typeof e&&Object.values(o.p_).some(t=>t===e.toUpperCase().trim())}},3969(e,t,r){"use strict";const n=r(860).K7.metrics;r.d(t,["TZ",0,n,"XG",0,"storeEventMetrics","xV",0,"storeSupportabilityMetrics"])},6630(e,t,r){"use strict";const n=r(860).K7.pageViewEvent;r.d(t,["T",0,n])},782(e,t,r){"use strict";const n=r(860).K7.pageViewTiming;r.d(t,["T",0,n])},6344(e,t,r){"use strict";var n=r(2614);const i=r(860).K7.sessionReplay,s={[n.g.ERROR]:15e3,[n.g.FULL]:3e5,[n.g.OFF]:0};r.d(t,["Qb",0,{API:"api",RESUME:"resume",SWITCH_TO_FULL:"switchToFull",INITIALIZE:"initialize",PRELOAD:"preload"},"TZ",0,i,"Vh",0,"errorDuringReplay","_s",0,{DomContentLoaded:0,Load:1,FullSnapshot:2,IncrementalSnapshot:3,Meta:4,Custom:5},"bc",0,{RESET:{message:"Session was reset",sm:"Reset"},IMPORT:{message:"Recorder failed to import",sm:"Import"},TOO_MANY:{message:"429: Too Many Requests",sm:"Too-Many"},TOO_BIG:{message:"Payload was too large",sm:"Too-Big"},CROSS_TAB:{message:"Session Entity was set to OFF on another tab",sm:"Cross-Tab"},ENTITLEMENTS:{message:"Session Replay is not allowed and will not be started",sm:"Entitlement"}},"yP",0,s])},5270(e,t,r){"use strict";r.d(t,{Aw:()=>a,SR:()=>s,rF:()=>o});var n=r(384),i=r(7767);function s(e){return!!(0,n.dV)().o.MO&&(0,i.V)(e)&&!0===e?.session_trace.enabled}function a(e){return!0===e?.session_replay.preload&&s(e)}function o(e,t){try{if("string"==typeof t?.type&&"password"===t.type.toLowerCase())return"*".repeat(e?.length||0);if(void 0!==t?.dataset?.nrUnmask||t?.classList?.contains("nr-unmask"))return e}catch(e){}return"string"==typeof e?e.replace(/[\S]/g,"*"):"*".repeat(e?.length||0)}},3738(e,t,r){"use strict";const n=r(860).K7.sessionTrace,i="-start",s="-end",a="fn"+i,o="fn"+s;r.d(t,["He",0,"bstResource","Kp",0,s,"Lc",0,o,"Rz",0,"pushState","TZ",0,n,"bD",0,"resource","bc",0,{CROSS_TAB:{message:"Session Entity was set to OFF on another tab"},ENTITLEMENTS:{message:"Session Trace is not allowed and will not be started"},RESET:{message:"Session was reset"},SESSION_CHANGED:{message:"Session identifier changed unexpectedly"}},"d3",0,i,"uP",0,a])},3962(e,t,r){"use strict";const n=r(860).K7.softNav;r.d(t,["O2",0,{INITIAL_PAGE_LOAD:"",ROUTE_CHANGE:1,UNSPECIFIED:2},"OV",0,"popstate","Qu",0,{INTERACTION:1,AJAX:2,CUSTOM_END:3,CUSTOM_TRACER:4},"TZ",0,n,"ih",0,{IP:"in progress",PF:"pending finish",FIN:"finished",CAN:"cancelled"},"pP",0,"initialPageLoad","tC",0,["click","keydown","submit"]])},4234(e,t,r){"use strict";r.d(t,{W:()=>i});var n=r(1687);class i{constructor(e,t){this.agentRef=e,this.ee=e?.ee,this.featureName=t,this.blocked=!1}deregisterDrain(){(0,n.x3)(this.agentRef,this.featureName)}}},7767(e,t,r){"use strict";var n=r(6154);r.d(t,["V",0,e=>n.RI&&!0===e?.privacy.cookies_enabled])},8362(e,t,r){"use strict";r.d(t,{d:()=>s});var n=r(9566),i=r(1741);class s extends i.W{agentIdentifier=(0,n.LA)(16)}},1741(e,t,r){"use strict";r.d(t,{W:()=>s});var n=r(944),i=r(4261);class s{#e(e,...t){if(this[e]!==s.prototype[e])return this[e](...t);(0,n.R)(35,e)}addPageAction(e,t){return this.#e(i.hG,e,t)}register(e){return this.#e(i.eY,e)}recordCustomEvent(e,t){return this.#e(i.fF,e,t)}setPageViewName(e,t){return this.#e(i.Fw,e,t)}setCustomAttribute(e,t,r){return this.#e(i.cD,e,t,r)}noticeError(e,t){return this.#e(i.o5,e,t)}setUserId(e,t=!1){return this.#e(i.Dl,e,t)}setApplicationVersion(e){return this.#e(i.nb,e)}setErrorHandler(e){return this.#e(i.bt,e)}addRelease(e,t){return this.#e(i.k6,e,t)}log(e,t){return this.#e("log",e,t)}start(){return this.#e("start")}finished(e){return this.#e(i.BL,e)}recordReplay(){return this.#e(i.CH)}pauseReplay(){return this.#e(i.Tb)}addToTrace(e){return this.#e(i.U2,e)}setCurrentRouteName(e){return this.#e(i.PA,e)}interaction(e){return this.#e(i.dT,e)}wrapLogger(e,t,r){return this.#e(i.Wb,e,t,r)}measure(e,t){return this.#e(i.V1,e,t)}consent(e){return this.#e(i.Pv,e)}}},4261(e,t,r){"use strict";r.d(t,["BL",0,"finished","CH",0,"recordReplay","Dl",0,"setUserId","Fw",0,"setPageViewName","PA",0,"setCurrentRouteName","Pv",0,"consent","Tb",0,"pauseReplay","U2",0,"addToTrace","V1",0,"measure","Wb",0,"wrapLogger","bt",0,"setErrorHandler","cD",0,"setCustomAttribute","dT",0,"interaction","eY",0,"register","fF",0,"recordCustomEvent","hG",0,"addPageAction","hw",0,"api-ixn-","k6",0,"addRelease","nb",0,"setApplicationVersion","o5",0,"noticeError"])},1738(e,t,r){"use strict";r.d(t,{U:()=>l,Y:()=>u});var n=r(3241),i=r(9908),s=r(1863),a=r(944),o=r(3969),c=r(8362),d=r(860);function u(e,t,r,s){const u=s||r;!u||u[e]&&u[e]!==c.d.prototype[e]||(u[e]=function(){(0,i.p)(o.xV,["API/"+e+"/called"],void 0,d.K7.metrics,r.ee),(0,n.W)({drained:!!r.runtime?.activatedFeatures,type:"data",name:"api",feature:"api-"+e,data:{}});try{return t.apply(this,arguments)}catch(e){(0,a.R)(23,e)}})}function l(e,t,r,n,a){const o=e.info;null===r?delete o.jsAttributes[t]:o.jsAttributes[t]=r,(a||null===r)&&(0,i.p)("api-"+n,[(0,s.t)(),t,r],void 0,"session",e.ee)}},8374(e,t,r){r.nc=(()=>{try{return document?.currentScript?.nonce}catch(e){}return""})()},860(e,t,r){"use strict";const n="events",i="jserrors",s="browser/blobs",a="browser/logs",o={ajax:"ajax",genericEvents:"generic_events",jserrors:i,logging:"logging",metrics:"metrics",pageAction:"page_action",pageViewEvent:"page_view_event",pageViewTiming:"page_view_timing",sessionReplay:"session_replay",sessionTrace:"session_trace",softNav:"soft_navigations"},c={[o.pageViewEvent]:1,[o.pageViewTiming]:2,[o.metrics]:3,[o.jserrors]:4,[o.softNav]:5,[o.ajax]:6,[o.sessionTrace]:7,[o.sessionReplay]:8,[o.logging]:9,[o.genericEvents]:10},d={[o.pageViewEvent]:"rum",[o.pageViewTiming]:n,[o.ajax]:n,[o.softNav]:n,[o.metrics]:i,[o.jserrors]:i,[o.sessionTrace]:s,[o.sessionReplay]:s,[o.logging]:a,[o.genericEvents]:"ins"};r.d(t,["$J",0,d,"K7",0,o,"P3",0,c,"XX",0,i,"Yy",0,a,"df",0,s,"hg",0,"connect"])}};const t={};function r(n){const i=t[n];if(void 0!==i)return i.exports;const s=t[n]={exports:{}};return e[n](s,s.exports,r),s.exports}r.m=e,r.d=(e,t)=>{if(Array.isArray(t))for(var n=0;n<t.length;){var i=t[n++],s=t[n++];r.o(e,i)?0===s&&n++:0===s?Object.defineProperty(e,i,{enumerable:!0,value:t[n++]}):Object.defineProperty(e,i,{enumerable:!0,get:s})}else for(var i in t)r.o(t,i)&&!r.o(e,i)&&Object.defineProperty(e,i,{enumerable:!0,get:t[i]})},r.f={},r.e=e=>Promise.all(Object.keys(r.f).reduce((t,n)=>(r.f[n](e,t),t),[])),r.u=e=>({212:"nr-spa-compressor",238:"nr-spa-iframe-message-handler",249:"nr-spa-recorder",478:"nr-spa"}[e]+"-1.322.0.min.js"),r.o=(e,t)=>Object.prototype.hasOwnProperty.call(e,t),(()=>{const e={},t="NRBA-1.322.0.PROD:";r.l=(n,i,s,a)=>{if(e[n])return void e[n].push(i);let o,c;if(void 0!==s){const e=document.getElementsByTagName("script");for(var d=0;d<e.length;d++){const r=e[d];if(r.getAttribute("src")==n||r.getAttribute("data-webpack")==t+s){o=r;break}}}if(!o){c=!0;var u={478:"sha512-SARROoir04gFygxlr/+mTI+PyMeFL+epi1vnUA2G5mTQ7s3G44ItQBJKbOaIMdIE5OBzuaKhb4k5JYta0NICxg==",249:"sha512-6DKQo5WP7YlpzX6l9UfYkgGLGK2oITdoaYTcZtgl5Foa22NY63lED/0z1hBBLeD7qZCz/YdlY19/r8drlol1tg==",212:"sha512-CYxuvSpDx6ErqWJwAvpoHn54eY37YdMcFao/axOumlw3BsSL7yioOeB2LWViY/Njs818sQG10dSglUhYCMfLPw==",238:"sha512-mvbMILWa3ohYst+u6TLfNrmtY2swUIB3rbJFN/uzt3W62KhgvUVwB81UEZ1R0/it5bfrQ5EVz864pi/CAmucNQ=="};o=document.createElement("script"),o.charset="utf-8",r.nc&&o.setAttribute("nonce",r.nc),o.setAttribute("data-webpack",t+s),o.src=n,0!==o.src.indexOf(window.location.origin+"/")&&(o.crossOrigin="anonymous"),u[a]&&(o.integrity=u[a])}e[n]=[i];const l=(t,r)=>{o.onerror=o.onload=null,clearTimeout(f);const i=e[n];if(delete e[n],o.parentNode?.removeChild(o),i?.forEach(e=>e(r)),t)return t(r)},f=setTimeout(l.bind(null,void 0,{type:"timeout",target:o}),12e4);o.onerror=l.bind(null,o.onerror),o.onload=l.bind(null,o.onload),c&&document.head.appendChild(o)}})(),r.r=e=>{Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},r.p="https://js-agent.newrelic.com/",(()=>{const e={38:0,788:0};r.f.j=(t,n)=>{let i=r.o(e,t)?e[t]:void 0;if(0!==i)if(i)n.push(i[2]);else{const s=new Promise((r,n)=>i=e[t]=[r,n]);n.push(i[2]=s);const a=r.p+r.u(t),o=new Error,c=n=>{if(r.o(e,t)&&(i=e[t],0!==i&&(e[t]=void 0),i)){const e=n&&("load"===n.type?"missing":n.type),r=n&&n.target&&n.target.src;o.message="Loading chunk "+t+" failed: ("+e+": "+r+")",o.name="ChunkLoadError",o.type=e,o.request=r,i[1](o)}};r.l(a,c,"chunk-"+t,t)}};const t=(t,n)=>{let[i,s,a]=n;var o,c,d=0;if(i.some(t=>0!==e[t])){for(o in s)r.o(s,o)&&(r.m[o]=s[o]);if(a)a(r)}for(t&&t(n);d<i.length;d++)c=i[d],r.o(e,c)&&e[c]&&e[c][0](),e[c]=0},n=self["webpackChunk:NRBA-1.322.0.PROD"]=self["webpackChunk:NRBA-1.322.0.PROD"]||[];n.forEach(t.bind(null,0)),n.push=t.bind(null,n.push.bind(n))})(),(()=>{"use strict";r(8374);var e=r(8362),t=r(860);const n=Object.values(t.K7);var i=r(384),s=r(1741);var a=r(2555),o=r(3333),c=r(9300);const d=e=>{if(!e||"string"!=typeof e)return!1;try{document.createDocumentFragment().querySelector(e)}catch{return!1}return!0};var u=r(2614),l=r(944),f=r(8122);const h="[data-nr-mask]",p=e=>(0,f.a)(e,(()=>{const e={feature_flags:[],experimental:{register:!1,resources:!1,iframe_bridge:!1,iframe_domains:[]},mask_selector:"*",block_selector:"[data-nr-block]",mask_input_options:{color:!1,date:!1,"datetime-local":!1,email:!1,month:!1,number:!1,range:!1,search:!1,tel:!1,text:!1,time:!1,url:!1,week:!1,textarea:!1,select:!1,password:!0}};return{ajax:{deny_list:void 0,block_internal:!0,enabled:!0,autoStart:!0,capture_payloads:c.mo.NONE},api:{register:{get enabled(){return e.feature_flags.includes(o.$v.REGISTER)||e.experimental.register},set enabled(t){e.experimental.register=t},duplicate_data_to_container:!1,get allow_iframe_bridge(){return e.feature_flags.includes(o.$v.IFRAME_BRIDGE)||e.experimental.iframe_bridge},set allow_iframe_bridge(t){e.experimental.iframe_bridge=t},get iframe_domains(){return e.experimental.iframe_domains},set iframe_domains(t){Array.isArray(t)?e.experimental.iframe_domains=t:(0,l.R)(1,t)}}},browser_consent_mode:{enabled:!1},distributed_tracing:{enabled:void 0,exclude_newrelic_header:void 0,cors_use_newrelic_header:void 0,cors_use_tracecontext_headers:void 0,allowed_origins:void 0},get feature_flags(){return e.feature_flags},set feature_flags(t){e.feature_flags=t},generic_events:{enabled:!0,autoStart:!0},harvest:{interval:30},jserrors:{enabled:!0,autoStart:!0},logging:{enabled:!0,autoStart:!0},metrics:{enabled:!0,autoStart:!0},obfuscate:void 0,page_action:{enabled:!0},page_view_event:{enabled:!0,autoStart:!0},page_view_timing:{enabled:!0,autoStart:!0},performance:{capture_marks:!1,capture_measures:!1,capture_detail:!0,resources:{get enabled(){return e.feature_flags.includes(o.$v.RESOURCES)||e.experimental.resources},set enabled(t){e.experimental.resources=t},asset_types:[],first_party_domains:[],ignore_newrelic:!0}},privacy:{cookies_enabled:!0},proxy:{assets:void 0,beacon:void 0},session:{expiresMs:u.wk,inactiveMs:u.BB},session_replay:{autoStart:!0,enabled:!1,preload:!1,sampling_rate:10,error_sampling_rate:100,collect_fonts:!1,inline_images:!1,fix_stylesheets:!0,mask_all_inputs:!0,get mask_text_selector(){return e.mask_selector},set mask_text_selector(t){d(t)?e.mask_selector="".concat(t,",").concat(h):""===t||null===t?e.mask_selector=h:(0,l.R)(5,t)},get block_class(){return"nr-block"},get ignore_class(){return"nr-ignore"},get mask_text_class(){return"nr-mask"},get block_selector(){return e.block_selector},set block_selector(t){d(t)?e.block_selector+=",".concat(t):""!==t&&(0,l.R)(6,t)},get mask_input_options(){return e.mask_input_options},set mask_input_options(t){t&&"object"==typeof t?e.mask_input_options={...t,password:!0}:(0,l.R)(7,t)}},session_trace:{enabled:!0,autoStart:!0},soft_navigations:{enabled:!0,autoStart:!0},ssl:void 0,user_actions:{enabled:!0,elementAttributes:["id","className","tagName","type"]},web_sockets:{enabled:!1}}})());var g=r(6154),m=r(9324);let v=0;const y={buildEnv:"PROD",distMethod:"CDN",version:m.x,originTime:g.WN},b={consented:!1},E={activatedFeatures:void 0,appMetadata:{},configured:!1,get consented(){return this.session?.state?.consent||b.consented},set consented(e){b.consented=e},customTransaction:void 0,denyList:[],disabled:!1,drainRegistry:new Map,connector:void 0,harvester:void 0,v2Target:void 0,isolatedBacklog:!1,isRecording:!1,loaderType:void 0,maxBytes:3e4,obfuscator:void 0,onerror:void 0,ptid:void 0,releaseIds:{},session:void 0,timeKeeper:void 0,registeredEntities:[],jsAttributesMetadata:{bytes:0},get harvestCount(){return++v},listeningForIframeMessages:!1};var w=r(9232);var R=r(7836),T=r(3241);const A={accountID:void 0,trustKey:void 0,agentID:void 0,licenseKey:void 0,applicationID:void 0,xpid:void 0};var S=r(9908),x=r(9752);function O(e,t={},n,o){let{init:c,info:d,loader_config:u,runtime:l={},exposed:h=!0}=t;if(!d){const e=(0,i.pV)();c=e.init,d=e.info,u=e.loader_config}var m;e.init=p(c||{}),e.loader_config=(m=u||{},(0,f.a)(m,A)),d.jsAttributes??={},g.bv&&(d.jsAttributes.isWorker=!0),e.info=(0,a.D)(d);const v=e.init;e.runtime??=(e=>{const t=(0,f.a)(e,E),r=Object.keys(y).reduce((e,t)=>(e[t]={value:y[t],writable:!1,configurable:!0,enumerable:!0},e),{});return Object.defineProperties(t,r)})(l),e.runtime.v2Target??={type:w.f.BA,instance:e.agentIdentifier,get id(){return e.runtime.appMetadata?.agents?.[0]?.entityGuid},get attributes(){return{"entity.guid":this.id,appId:e.info.applicationID}}},v.proxy.assets&&(e=>{const t=e.startsWith("http");e+="/",r.p=t?e:"https://"+e})(v.proxy.assets),e.runtime.configured||(Object.defineProperty(e,"beacons",{get:()=>[e.info.beacon,e.info.errorBeacon,e.init.proxy.assets,e.init.proxy.beacon].filter(Boolean)}),Object.defineProperty(e.runtime,"denyList",{get:()=>[...e.init.ajax.deny_list||[],...e.init.ajax.block_internal?e.beacons:[]]}),e.runtime.ptid=e.agentIdentifier,function(e){const t=(0,i.pV)();Object.getOwnPropertyNames(s.W.prototype).forEach(r=>{const n=s.W.prototype[r];if("function"!=typeof n||"constructor"===n)return;let i=t[r];e[r]&&!1!==e.exposed&&"micro-agent"!==e.runtime?.loaderType&&(t[r]=(...t)=>{const n=e[r](...t);return i?i(...t):n})})}(e),e.runtime.loaderType=n,e.ee=R.ee.get(e.agentIdentifier),e.exposed=h,(0,T.W)({drained:!!e.runtime.activatedFeatures,type:"lifecycle",name:"initialize",feature:void 0,data:e.config}),e.init.api.register.allow_iframe_bridge&&g.gm.addEventListener("message",t=>{"string"==typeof t.data?.type&&t.data.type.startsWith(x.Pl)&&(0,S.p)("iframe-message",[t],void 0,"IFRAME",e.ee)}),e.runtime.configured=!0)}var _=r(1863),k=r(4261),N=r(1738);var L=r(1687),M=r(4234),P=r(5289),I=r(5270),j=r(7767),C=r(6389),D=r(7699);const B=new WeakSet,H=new WeakMap;class W extends M.W{constructor(e,t){super(e,t),this.abortHandler=void 0,this.featAggregate=void 0,this.loadedSuccessfully=void 0,this.onAggregateImported=new Promise(e=>{this.loadedSuccessfully=e}),this.deferred=Promise.resolve(),!1===e.init[this.featureName].autoStart?this.deferred=new Promise((t,r)=>{this.ee.on("manual-start-all",(0,C.J)(()=>{(0,L.Ak)(e,this.featureName),t()}))}):(0,L.Ak)(e,t)}importAggregator(e,t,n={}){if(this.featAggregate)return;const i=async()=>{if(await this.deferred,this.#t(e),!(0,a.f)(e.info))return(0,l.R)(43),e.ee.abort(),void this.loadedSuccessfully(!1);try{await async function(e,t,n){if(H.has(e))return H.get(e);const i=(async()=>{if((0,j.V)(e.init))try{const{setupAgentSession:t}=await r.e(478).then(r.bind(r,8766));t(e)}catch(e){(0,l.R)(20,e),t.emit("internal-error",[e]),(0,S.p)(D.qh,[e],void 0,n,t)}if(e.init.api.register.allow_iframe_bridge)try{const{setupIframeMFEMessageListener:t}=await r.e(238).then(r.bind(r,6417));t(e)}catch(e){(0,l.R)(23,e)}const[{Connector:i},{Harvester:s}]=await Promise.all([r.e(478).then(r.bind(r,6589)),r.e(478).then(r.bind(r,5237))]);e.runtime.connector=new i(e),e.runtime.harvester=new s(e);const a=Object.values(e.features).filter(t=>e.runtime.drainRegistry.has(t.featureName));Promise.all(a.map(e=>e.onAggregateImported)).then(()=>e.runtime.harvester.startTimer())})();H.set(e,i),await i}(e,this.ee,this.featureName)}catch(e){return(0,l.R)(79,e),this.ee.abort(),void this.loadedSuccessfully(!1)}try{if(!this.#r(this.featureName,e.runtime.session,e.init))return this.abortHandler?.(),(0,L.Ze)(this.agentRef,this.featureName),void this.loadedSuccessfully(!1);const{Aggregate:r}=await t();this.featAggregate=new r(e,n),e.runtime.harvester.initializedAggregates.push(this.featAggregate),this.loadedSuccessfully(!0)}catch(e){(0,l.R)(34,e),this.abortHandler?.(),(0,L.Ze)(this.agentRef,this.featureName,!0),this.loadedSuccessfully(!1)}};g.RI?(0,P.GG)(()=>i(),!0):i()}#r(e,r,n){if(this.blocked)return!1;switch(e){case t.K7.sessionReplay:return(0,I.SR)(n)&&!!r;case t.K7.sessionTrace:return!!r;default:return!0}}#t(e){if(!B.has(e)&&(B.add(e),!(0,a.f)(e.info))){const t=(0,i.pV)();let r={...t.info?.jsAttributes};try{r={...r,...e.info?.jsAttributes}}catch(e){}O(e,{...t,info:{...t.info,jsAttributes:r},runtime:e.runtime},e.runtime.loaderType)}}}var U=r(6630);class K extends W{static featureName=U.T;constructor(e){var t;super(e,U.T),this.setupInspectionEvents(),t=e,(0,N.Y)(k.Fw,function(e,r){"string"==typeof e&&("/"!==e.charAt(0)&&(e="/"+e),t.runtime.customTransaction=(r||"http://custom.transaction")+e,(0,S.p)("api-"+k.Fw,[(0,_.t)()],void 0,void 0,t.ee))},t),this.importAggregator(e,()=>e.init.feature_flags.includes("rum_v2")?r.e(478).then(r.bind(r,908)):r.e(478).then(r.bind(r,7927)))}setupInspectionEvents(){const e=(e,t)=>{e&&(0,T.W)({timeStamp:e.timeStamp,loaded:"complete"===e.target.readyState,type:"window",name:t,data:e.target.location+""})};(0,P.sB)(t=>{e(t,"DOMContentLoaded")}),(0,P.GG)(t=>{e(t,"load")}),(0,P.Qr)(t=>{e(t,"navigate")}),this.ee.on(u.tS.UPDATE,(e,t)=>{(0,T.W)({type:"lifecycle",name:"session",data:t})})}}class F extends e.d{constructor(e){var t;(super(),g.gm)?(this.features={},(0,i.bQ)(this.agentIdentifier,this),this.desiredFeatures=new Set(e.features||[]),this.desiredFeatures.add(K),O(this,e,e.loaderType||"agent"),t=this,(0,N.Y)(k.cD,function(e,r,n=!1){if("string"==typeof e){if(["string","number","boolean"].includes(typeof r)||null===r)return(0,N.U)(t,e,r,k.cD,n);(0,l.R)(40,typeof r)}else(0,l.R)(39,typeof e)},t),function(e){(0,N.Y)(k.Dl,function(t,r=!1){if("string"!=typeof t&&null!==t)return void(0,l.R)(41,typeof t);const n=e.info.jsAttributes["enduser.id"];r&&null!=n&&n!==t?(0,S.p)("api-setUserIdAndResetSession",[t],void 0,"session",e.ee):(0,N.U)(e,"enduser.id",t,k.Dl,!0)},e)}(this),function(e){(0,N.Y)(k.nb,function(t){if("string"==typeof t||null===t)return(0,N.U)(e,"application.version",t,k.nb,!1);(0,l.R)(42,typeof t)},e)}(this),function(e){(0,N.Y)("start",function(){e.ee.emit("manual-start-all")},e)}(this),function(e){(0,N.Y)(k.Pv,function(t=!0){if("boolean"==typeof t){if((0,S.p)("api-"+k.Pv,[t],void 0,"session",e.ee),e.runtime.consented=t,t){const t=e.features.page_view_event;t.onAggregateImported.then(e=>{const r=t.featAggregate;e&&!r.sentRum&&r.sendRum?.()})}}else(0,l.R)(65,typeof t)},e)}(this),this.run()):(0,l.R)(21)}get config(){return{info:this.info,init:this.init,loader_config:this.loader_config,runtime:this.runtime}}get api(){return this}run(){try{const e=function(e){const t={};return n.forEach(r=>{t[r]=!!e[r]?.enabled}),t}(this.init),r=[...this.desiredFeatures],i=this.init.feature_flags.includes("rum_v2");r.sort((e,r)=>t.P3[e.featureName]-t.P3[r.featureName]),r.forEach(r=>{if(!e[r.featureName]&&(i||r.featureName!==t.K7.pageViewEvent))return;const n=function(e){switch(e){case t.K7.ajax:return[t.K7.jserrors];case t.K7.sessionTrace:return[t.K7.ajax,t.K7.pageViewEvent];case t.K7.sessionReplay:return[t.K7.sessionTrace];case t.K7.pageViewTiming:return[t.K7.pageViewEvent];default:return[]}}(r.featureName).filter(e=>!(e in this.features));n.length>0&&(0,l.R)(36,{targetFeature:r.featureName,missingDependencies:n}),this.features[r.featureName]=new r(this)})}catch(e){(0,l.R)(22,e);for(const e in this.features)this.features[e].abortHandler?.();const t=(0,i.Zm)();delete t.initializedAgents[this.agentIdentifier]?.features,delete this.sharedAggregator;return t.ee.get(this.agentIdentifier).abort(),!1}}}var V=r(2843),z=r(782);class G extends W{static featureName=z.T;constructor(e){super(e,z.T),g.RI&&((0,V.u)(()=>(0,S.p)("docHidden",[(0,_.t)()],void 0,z.T,this.ee),!0),(0,V.G)(()=>(0,S.p)("winPagehide",[(0,_.t)()],void 0,z.T,this.ee)),this.importAggregator(e,()=>r.e(478).then(r.bind(r,9917))))}}var q=r(3969);class Y extends W{static featureName=q.TZ;constructor(e){super(e,q.TZ),this.importAggregator(e,()=>r.e(478).then(r.bind(r,6555)))}}var Z=r(6774),J=r(3878),X=r(3304);class Q{constructor(e,t,r,n,i){this.name="UncaughtError",this.message="string"==typeof e?e:(0,X.A)(e),this.sourceURL=t,this.line=r,this.column=n,this.__newrelic=i}}function ee(e){return ne(e)?e:new Q(void 0!==e?.message?e.message:e,e?.filename||e?.sourceURL,e?.lineno||e?.line,e?.colno||e?.col,e?.__newrelic,e?.cause)}function te(e){const t="Unhandled Promise Rejection: ";if(!e?.reason)return;if(ne(e.reason)){try{e.reason.message.startsWith(t)||(e.reason.message=t+e.reason.message)}catch(e){}return ee(e.reason)}const r=ee(e.reason);return(r.message||"").startsWith(t)||(r.message=t+r.message),r}function re(e){if(e.error instanceof SyntaxError&&!/:\d+$/.test(e.error.stack?.trim())){const t=new Q(e.message,e.filename,e.lineno,e.colno,e.error.__newrelic,e.cause);return t.name=SyntaxError.name,t}return ne(e.error)?e.error:ee(e)}function ne(e){return e instanceof Error&&!!e.stack}function ie(e,r,n,i,s=(0,_.t)()){"string"==typeof e&&(e=new Error(e)),(0,S.p)("err",[e,s,!1,r,n.runtime.isRecording,void 0,i],void 0,t.K7.jserrors,n.ee),(0,S.p)("uaErr",[],void 0,t.K7.genericEvents,n.ee)}var se=r(993),ae=r(3785);function oe(e,{customAttributes:t={},level:r=se.p_.INFO}={},n,i,s=(0,_.t)()){(0,ae.R)(n.ee,e,t,r,!1,i,s)}function ce(e,r,n,i,s=(0,_.t)()){(0,S.p)("api-"+k.hG,[s,e,r,i],void 0,t.K7.genericEvents,n.ee)}function de(e,r,n,i,s=(0,_.t)()){const{start:a,end:o,customAttributes:c}=r||{},d={customAttributes:c||{}};if("object"!=typeof d.customAttributes||"string"!=typeof e||0===e.length)return void(0,l.R)(57);const u=(e,t)=>null==e?t:"number"==typeof e?e:e instanceof PerformanceMark?e.startTime:Number.NaN;if(d.start=u(a,0),d.end=u(o,s),Number.isNaN(d.start)||Number.isNaN(d.end))(0,l.R)(57);else{if(d.duration=d.end-d.start,!(d.duration<0))return(0,S.p)("api-"+k.V1,[d,e,i],void 0,t.K7.genericEvents,n.ee),d;(0,l.R)(58)}}function ue(e,r={},n,i,s=(0,_.t)()){(0,S.p)("api-"+k.fF,[s,e,r,i],void 0,t.K7.genericEvents,n.ee)}var le=r(5718);const fe=(e,t)=>e?.nrMfeId===t.id&&(!e?.nrMfeObserved||e?.nrMfeObserved===t.instance),he=e=>{try{return g.gm.CSS.escape(e)}catch(t){return e}},pe=(e,t={})=>{const r=t.id,n=t.instance;if(!e||!r||!n)return!1;try{let r=1===e.nodeType?e:e.parentElement;for(;r?.tagName;){if(fe(r.dataset,t))return r.dataset.nrMfeObserved=n,!0;r=r.parentNode}}catch(e){}return!1},ge=(e,t)=>{const r=g.gm.document?.querySelectorAll('[data-nr-mfe-id="'.concat(he(e.id),'"]')),n=(Array.from(r)||[]).find(t=>fe(t.dataset,e));let i=!!n;i&&(n.dataset.nrMfeObserved??=e.instance);const s=new g.gm.MutationObserver(r=>{r.forEach(r=>{r.addedNodes.forEach(r=>{const n=1===r.nodeType?r:null;!i&&fe(n?.dataset,e)&&(s.disconnect(),s.observe(n,{childList:!0,subtree:!0}),i=!0,n.dataset.nrMfeObserved=e.instance),(e=>{try{return e?.textContent?.trim()||["img","video","canvas","svg"].includes(e?.nodeName?.toLowerCase())}catch(e){return!1}})(r)&&(i||pe(r,e))&&t(r,s)})})});return s.observe(n||g.gm.document,{childList:!0,subtree:!0}),s},me=(e,t,r)=>{try{const n=new g.gm.PerformanceObserver(e=>{e.getEntries().forEach(r)});return n.observe(t),e.push(n),n}catch(e){return null}};function ve(e,t){let r,n,i=!1;const s=e=>null==e?e:e-(t?.scriptStart||t?.registeredAt||0),a={fcp:{get value(){const e=s(r);return e>1e4?void 0:e},set value(e){i||(r=e)}},lcp:{get value(){if(void 0!==a.fcp.value)return s(n)},set value(e){i||(n=e)}},cls:{value:void 0},inp:{value:void 0},disconnect:()=>{}};if(!(e&&g.RI&&g.gm.MutationObserver&&g.gm.PerformanceObserver))return a;const o=[];setTimeout(()=>{r||a.disconnect()},1e4);const c=()=>{if(!i){if(null==r){const e=(0,_.t)();if(s(e)>1e4)return void a.disconnect();r=e}n??=(0,_.t)(),a.cls.value??=0}},d=ge(e,(e,t)=>{c(),t.disconnect()});o.push(d);let u=0,l=null;const f=new Set;try{l=new g.gm.ResizeObserver(e=>{i||e.forEach(e=>{try{const t=e.contentRect.width*e.contentRect.height;t>u&&(u=t,a.lcp.value=(0,_.t)()),l.unobserve(e.target)}catch(e){}})})}catch(e){}const h=ge(e,e=>{if(c(),l)try{const t=1===e.nodeType?e:e.parentElement;t&&!f.has(t)&&(f.add(t),"IMG"===t.tagName?t.complete?l.observe(t):t.addEventListener("load",()=>{l.observe(t)},{once:!0}):"VIDEO"===t.tagName?t.readyState>=2?l.observe(t):t.addEventListener("loadeddata",()=>{l.observe(t)},{once:!0}):l.observe(t))}catch(e){}});l&&o.push(l),o.push(h),me(o,{type:"layout-shift",buffered:!0},t=>{i||t.hadRecentInput||(t.sources||[]).some(r=>!!pe(r.node,e)&&(c(),a.cls.value+=t.value,!0))}),me(o,{type:"event",buffered:!0,durationThreshold:40},t=>{!i&&t.interactionId&&pe(t.target,e)&&(void 0===a.inp.value||t.duration>a.inp.value)&&(c(),a.inp.value=t.duration)});const p=["pointerdown","keydown"],m=()=>{p.forEach(e=>{g.gm.removeEventListener(e,v,{passive:!0})})};a.disconnect=()=>{i=!0,o.forEach(e=>{try{e?.disconnect()}catch(e){}}),m(),["visibilitychange","pagehide"].forEach(e=>{g.gm.removeEventListener(e,a.disconnect,{once:!0,passive:!0})})};const v=t=>{pe(t?.target,e)&&((()=>{try{h?.disconnect(),l?.disconnect()}catch(e){}})(),m())};p.forEach(e=>{g.gm.addEventListener(e,v,{passive:!0})}),["visibilitychange","pagehide"].forEach(e=>{g.gm.addEventListener(e,a.disconnect,{once:!0,passive:!0})});const y=g.gm.document?.querySelectorAll('[data-nr-mfe-id="'.concat(he(e.id),'"]'));return Array.from(y||[]).some(t=>fe(t.dataset,e))&&c(),a}var ye=r(9566),be=r(7560),Ee=r(9119);const we=["entry","scripts","all"],Re=["name","id","type"],Te=new Map([[ce,"addPageAction"],[oe,"log"],[de,"measure"],[ie,"noticeError"],[ue,"recordCustomEvent"]]),Ae={experimental:(0,C.J)(()=>(0,l.R)(54,"newrelic.register")),disabled:(0,C.J)(()=>(0,l.R)(55)),invalidTarget:(0,C.J)(e=>(0,l.R)(48,e)),deregistered:(0,C.J)(()=>(0,l.R)(68)),invalidTimingMethod:(0,C.J)(e=>(0,l.R)(80,e)),duplicateName:(0,C.J)(e=>(0,l.R)(81,e)),duplicateId:(0,C.J)(e=>(0,l.R)(82,e))};function Se(e){(0,N.Y)(k.eY,function(t){return xe(e,t)},e)}function xe(e,r){Ae.experimental(),r||={},r.instance=(0,ye.LA)(8),r.type=w.f.MFE,r.licenseKey||=e.info.licenseKey,r.blocked=!1,("object"!=typeof r.tags||null===r.tags||Array.isArray(r.tags))&&(r.tags={}),r.parent??={get id(){return e.runtime.appMetadata.agents?.[0].entityGuid},type:w.f.BA},r.manifest=(0,be.N)(r.manifest),void 0===r.timingMethod||we.includes(r.timingMethod)||(Ae.invalidTimingMethod(r.timingMethod),r.timingMethod=void 0);const n=(0,le.Qr)(r);r.manifest&&(0,le.xo)(n,r);const i=ve(r,n),s=(0,Ee.L)(""+location),a={};Object.prototype.hasOwnProperty.call(r,"attributes")||Object.defineProperty(r,"attributes",{get:()=>({...a,"source.id":r.id,"source.name":r.name,"source.type":r.type,"parent.type":r.parent?.type||w.f.BA,"parent.id":r.parent?.id})}),Object.entries(r.tags).forEach(([e,t])=>{Re.includes(e)||(a["source.".concat(e)]=t)});let o=()=>{};const c=e.runtime.registeredEntities,d=e=>{r.blocked=!0,o=e};function u(e){return"string"==typeof e&&!!e.trim()&&e.trim().length<501}e.init.api.register.enabled||d(Ae.disabled),u(r.id)&&u(r.name)||d(()=>Ae.invalidTarget(r)),c.forEach(e=>{try{const{name:t,id:n}=e.metadata.target;t===r.name&&n!==r.id&&Ae.duplicateName(r),n===r.id&&t!==r.name&&Ae.duplicateId(r)}catch(e){}});const f={addPageAction:(t,n={})=>m(ce,[t,{...a,...n},e],r),deregister:()=>{p(),d(Ae.deregistered)},log:(t,n={})=>m(oe,[t,{...n,customAttributes:{...a,...n.customAttributes||{}}},e],r),measure:(t,n={})=>m(de,[t,{...n,customAttributes:{...a,...n.customAttributes||{}}},e],r),noticeError:(t,n={})=>m(ie,[t,{...a,...n},e],r),recordCustomEvent:(t,n={})=>m(ue,[t,{...a,...n},e],r),setApplicationVersion:e=>g("application.version",e),setCustomAttribute:(e,t)=>g(e,t),setUserId:e=>g("enduser.id",e),metadata:{get customAttributes(){return a},target:r,timings:n,vitals:i,events:{latestTimestamp:void 0}}},h=()=>(r.blocked&&o(),r.blocked);function p(){if(n.reportedAt)return;n.reportedAt=(0,_.t)(),i.disconnect(),n.fcp=i.fcp,n.lcp=i.lcp,n.cls=i.cls,n.inp=i.inp;const e=n.fetchEnd-n.fetchStart,t=n.scriptEnd-n.scriptStart,r={assetUrl:n.asset,assetType:n.type,registerUrl:s,deregisterUrl:(0,Ee.L)(""+location),pageUrl:void 0,currentUrl:void 0,timeAlive:n.reportedAt-n.registeredAt,timeToBeRequested:n.fetchStart,timeToExecute:t,timeToFetch:e,timeToLoad:e+t,timeToRegister:n.registeredAt,totalWeight:n.totalWeight,...void 0!==n.renderBlocking&&{renderBlocking:n.renderBlocking},...i.fcp.value>=0&&{"vitals.fcp.value":i.fcp.value},...i.lcp.value>=0&&{"vitals.lcp.value":i.lcp.value},...i.cls.value>=0&&{"vitals.cls.value":i.cls.value},...i.inp.value>=0&&{"vitals.inp.value":i.inp.value}};f.recordCustomEvent("MicroFrontEndTiming",r)}h()||(c.push(f),(0,V.G)(p));const g=(e,t)=>{h()||(a[e]=t)},m=(r,n,i)=>{if(h()&&r!==xe)return;const s=f.metadata.events.latestTimestamp??(0,_.t)();f.metadata.events.latestTimestamp=void 0;const a=Te.get(r)||"unknown";(0,S.p)(q.xV,["API/register/".concat(a,"/called")],void 0,t.K7.metrics,e.ee);try{return r(...n,i,s)}catch(e){(0,l.R)(50,e)}};return f}class Oe extends W{static featureName=Z.T;constructor(e){var t;super(e,Z.T),t=e,(0,N.Y)(k.o5,(e,r)=>ie(e,r,t),t),function(e){(0,N.Y)(k.bt,function(t){e.runtime.onerror=t},e)}(e),function(e){let t=0;(0,N.Y)(k.k6,function(e,r){++t>10||(this.runtime.releaseIds[e.slice(-200)]=(""+r).slice(-200))},e)}(e),Se(e);try{this.removeOnAbort=new AbortController}catch(e){}this.ee.on("internal-error",(t,r)=>{this.abortHandler&&(0,S.p)("ierr",[ee(t),(0,_.t)(),!0,{},e.runtime.isRecording,r],void 0,this.featureName,this.ee)}),g.gm.addEventListener("unhandledrejection",t=>{this.abortHandler&&(0,S.p)("err",[te(t),(0,_.t)(),!1,{unhandledPromiseRejection:1},e.runtime.isRecording],void 0,this.featureName,this.ee)},(0,J.jT)(!1,this.removeOnAbort?.signal)),g.gm.addEventListener("error",t=>{this.abortHandler&&(0,S.p)("err",[re(t),(0,_.t)(),!1,{},e.runtime.isRecording],void 0,this.featureName,this.ee)},(0,J.jT)(!1,this.removeOnAbort?.signal)),this.abortHandler=this.#n,this.importAggregator(e,()=>r.e(478).then(r.bind(r,9377)))}#n(){this.removeOnAbort?.abort(),this.abortHandler=void 0}}var _e=r(8990);let ke=1;function Ne(e){const t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===g.gm?0:(0,_e.I)(e,"nr@id",function(){return ke++})}function Le(e){if("string"==typeof e)return e.length;if("object"==typeof e){if("undefined"!=typeof ArrayBuffer&&e instanceof ArrayBuffer&&e.byteLength)return e.byteLength;if("undefined"!=typeof Blob&&e instanceof Blob&&e.size)return e.size;if(!("undefined"!=typeof FormData&&e instanceof FormData))try{return(0,X.A)(e).length}catch(e){return}}}var Me=r(8139),Pe=r(3434),Ie=r(5732);const je={},Ce=["open","send","setRequestHeader"];function De(e,t){var r=e||R.ee;const n=function(e){return(e||R.ee).get("xhr")}(r);if(void 0===g.gm.XMLHttpRequest)return n;if(je[n.debugId]++)return n;je[n.debugId]=1,(0,Me.u)(r,t);var i=(0,Pe.YM)(n,void 0,t),s=g.gm.XMLHttpRequest,a=g.gm.MutationObserver,o=g.gm.Promise,c=g.gm.setInterval,d="readystatechange",u=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],f=[],h=g.gm.XMLHttpRequest=function(e){const r=new s(e),a=n.context(r);a.targets=(0,Ie.$5)(t);try{n.emit("new-xhr",[r],a),r.addEventListener(d,(o=a,function(){var e=this;e.readyState>3&&!o.resolved&&(o.resolved=!0,n.emit("xhr-resolved",[],e)),i.inPlace(e,u,"fn-",E)}),(0,J.jT)(!1))}catch(e){(0,l.R)(15,e);try{n.emit("internal-error",[e])}catch(e){}}var o;return r};function p(e,t){i.inPlace(t,["onreadystatechange"],"fn-",E)}if(function(e,t){for(var r in e)t[r]=e[r]}(s,h),h.prototype=s.prototype,i.inPlace(h.prototype,Ce,"-xhr-",E),n.on("send-xhr-start",function(e,t){p(e,t),function(e){f.push(e),a&&(m?m.then(b):c?c(b):(v=-v,y.data=v))}(t)}),n.on("open-xhr-start",p),a){var m=o&&o.resolve();if(!c&&!o){var v=1,y=document.createTextNode(v);new a(b).observe(y,{characterData:!0})}}else r.on("fn-end",function(e){e[0]&&e[0].type===d||b()});function b(){for(var e=0;e<f.length;e++)p(0,f[e]);f.length&&(f=[])}function E(e,t){return t}return n}var Be="fetch-",He=Be+"body-",We=["arrayBuffer","blob","json","text","formData"],Ue=g.gm.Request,Ke=g.gm.Response,Fe="prototype";const Ve={};function ze(e,t){const r=function(e){return(e||R.ee).get("fetch")}(e);if(!(Ue&&Ke&&g.gm.fetch))return r;if(Ve[r.debugId]++)return r;function n(e,n,i){var s=e[n];"function"==typeof s&&(e[n]=function(){var e=[...arguments];const n={},a=(0,Ie.$5)(t);var o;r.emit(i+"before-start",[e],n),n[R.P]&&n[R.P].dt&&(o=n[R.P].dt);var c=s.apply(this,e);return r.emit(i+"start",[e,o],c),c.then(function(e){return r.emit(i+"end",[null,e,a],c),e},function(e){throw r.emit(i+"end",[e,void 0,a],c),e})})}return Ve[r.debugId]=1,We.forEach(e=>{n(Ue[Fe],e,He),n(Ke[Fe],e,He)}),n(g.gm,"fetch",Be),r.on(Be+"end",function(e,n,i){var s=this;if(s.targets=i||[t.runtime.v2Target],n){var a=n.headers.get("content-length");null!==a&&(s.rxSize=a),r.emit(Be+"done",[null,n],s)}else r.emit(Be+"done",[e],s)}),r}var Ge=r(7485);class qe{constructor(e){this.agentRef=e}generateTracePayload(e){const t=this.agentRef.loader_config;if(!this.shouldGenerateTrace(e)||!t)return null;var r=(t.accountID||"").toString()||null,n=(t.agentID||"").toString()||null,i=(t.trustKey||"").toString()||null;if(!r||!n)return null;var s=(0,ye.ZF)(),a=(0,ye.el)(),o=Date.now(),c={spanId:s,traceId:a,timestamp:o};return(e.sameOrigin||this.isAllowedOrigin(e)&&this.useTraceContextHeadersForCors())&&(c.traceContextParentHeader=this.generateTraceContextParentHeader(s,a),c.traceContextStateHeader=this.generateTraceContextStateHeader(s,o,r,n,i)),(e.sameOrigin&&!this.excludeNewrelicHeader()||!e.sameOrigin&&this.isAllowedOrigin(e)&&this.useNewrelicHeaderForCors())&&(c.newrelicHeader=this.generateTraceHeader(s,a,o,r,n,i)),c}generateTraceContextParentHeader(e,t){return"00-"+t+"-"+e+"-01"}generateTraceContextStateHeader(e,t,r,n,i){return i+"@nr=0-1-"+r+"-"+n+"-"+e+"----"+t}generateTraceHeader(e,t,r,n,i,s){if(!("function"==typeof g.gm?.btoa))return null;var a={v:[0,1],d:{ty:"Browser",ac:n,ap:i,id:e,tr:t,ti:r}};return s&&n!==s&&(a.d.tk=s),btoa((0,X.A)(a))}shouldGenerateTrace(e){return this.agentRef.init?.distributed_tracing?.enabled&&this.isAllowedOrigin(e)}isAllowedOrigin(e){var t=!1;const r=this.agentRef.init?.distributed_tracing;if(e.sameOrigin)t=!0;else if(r?.allowed_origins instanceof Array)for(var n=0;n<r.allowed_origins.length;n++){var i=(0,Ge.D)(r.allowed_origins[n]);if(e.hostname===i.hostname&&e.protocol===i.protocol&&e.port===i.port){t=!0;break}}return t}excludeNewrelicHeader(){var e=this.agentRef.init?.distributed_tracing;return!!e&&!!e.exclude_newrelic_header}useNewrelicHeaderForCors(){var e=this.agentRef.init?.distributed_tracing;return!!e&&!1!==e.cors_use_newrelic_header}useTraceContextHeadersForCors(){var e=this.agentRef.init?.distributed_tracing;return!!e&&!!e.cors_use_tracecontext_headers}}var Ye=r(7295);function Ze(e){return"string"==typeof e?e:e instanceof(0,i.dV)().o.REQ?e.url:g.gm?.URL&&e instanceof URL?e.href:void 0}function $e(e,t){var r=(0,Ge.D)(t),n=e.params||e;n.hostname=r.hostname,n.port=r.port,n.protocol=r.protocol,n.host=r.hostname+":"+r.port,n.pathname=r.pathname,e.parsedOrigin=r,e.sameOrigin=r.sameOrigin}var Je=["load","error","abort","timeout"],Xe=Je.length,Qe=(0,i.dV)().o.REQ,et=(0,i.dV)().o.XHR;const tt="X-NewRelic-App-Data",rt="internal-error";class nt extends W{static featureName=c.TZ;constructor(e){super(e,c.TZ),this.dt=new qe(e),this.handler=(e,t,r,n)=>(0,S.p)(e,t,r,n,this.ee);try{const e={xmlhttprequest:"xhr",fetch:"fetch",beacon:"beacon"};g.gm?.performance?.getEntriesByType("resource").forEach(r=>{if(r.initiatorType in e&&0!==r.responseStatus){const n={status:r.responseStatus},i={rxSize:r.transferSize,duration:Math.floor(r.duration),cbTime:0};$e(n,r.name),this.handler("xhr",[n,i,r.startTime,r.responseEnd,e[r.initiatorType]],void 0,t.K7.ajax)}})}catch(e){}ze(this.ee,e),De(this.ee,e),function(e,r,n,i){const s=[c.mo.ALL,c.mo.FAILURES].includes(e.init.ajax?.capture_payloads);function a(e){var t=this;t.totalCbs=0,t.called=0,t.cbTime=0,t.end=A,t.ended=!1,t.xhrGuids={},t.lastSize=null,t.loadCaptureCalled=!1,t.params=this.params||{},t.metrics=this.metrics||{},t.latestLongtaskEnd=0,e.addEventListener("load",function(r){O(t,e)},(0,J.jT)(!1)),g.lR||e.addEventListener("progress",function(e){t.lastSize=e.loaded},(0,J.jT)(!1))}function o(e){this.params={method:e[0]},$e(this,e[1]),this.metrics={}}function d(t,r){e.loader_config.xpid&&this.sameOrigin&&r.setRequestHeader("X-NewRelic-ID",e.loader_config.xpid);var n=i.generateTracePayload(this.parsedOrigin);if(n){var s=!1;n.newrelicHeader&&(r.setRequestHeader("newrelic",n.newrelicHeader),s=!0),n.traceContextParentHeader&&(r.setRequestHeader("traceparent",n.traceContextParentHeader),n.traceContextStateHeader&&r.setRequestHeader("tracestate",n.traceContextStateHeader),s=!0),s&&(this.dt=n)}}function u(e,t){s&&e.length>=2&&(this.requestHeaders??={},this.requestHeaders[e[0].toLowerCase()]=e[1])}function l(e,t){var n=this.metrics,i=e[0],s=this;if(n&&i){var a=Le(i);a&&(n.txSize=a)}this.startTime=(0,_.t)(),this.requestBody=i,this.listener=function(e){try{"abort"!==e.type||s.loadCaptureCalled||(s.params.aborted=!0),("load"!==e.type||s.called===s.totalCbs&&(s.onloadCalled||"function"!=typeof t.onload)&&"function"==typeof s.end)&&s.end(t)}catch(e){try{r.emit(rt,[e])}catch(e){}}};for(var o=0;o<Xe;o++)t.addEventListener(Je[o],this.listener,(0,J.jT)(!1))}function f(e,t,r){this.cbTime+=e,t?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof r.onload||"function"!=typeof this.end||this.end(r)}function h(e,t){var r=""+Ne(e)+!!t;this.xhrGuids&&!this.xhrGuids[r]&&(this.xhrGuids[r]=!0,this.totalCbs+=1)}function p(e,t){var r=""+Ne(e)+!!t;this.xhrGuids&&this.xhrGuids[r]&&(delete this.xhrGuids[r],this.totalCbs-=1)}function m(){this.endTime=(0,_.t)()}function v(e,t){t instanceof et&&"load"===e[0]&&r.emit("xhr-load-added",[e[1],e[2]],t)}function y(e,t){t instanceof et&&"load"===e[0]&&r.emit("xhr-load-removed",[e[1],e[2]],t)}function b(e,t,r){t instanceof et&&("onload"===r&&(this.onload=!0),("load"===(e[0]&&e[0].type)||this.onload)&&(this.xhrCbStart=(0,_.t)()))}function E(e,t){this.xhrCbStart&&r.emit("xhr-cb-time",[(0,_.t)()-this.xhrCbStart,this.onload,t],t)}function w(e){var t,r=e[1]||{};if("string"==typeof e[0]?0===(t=e[0]).length&&g.RI&&(t=""+g.gm.location.href):e[0]&&e[0].url?t=e[0].url:g.gm?.URL&&e[0]&&e[0]instanceof URL?t=e[0].href:"function"==typeof e[0].toString&&(t=e[0].toString()),"string"==typeof t&&0!==t.length){t&&(this.parsedOrigin=(0,Ge.D)(t),this.sameOrigin=this.parsedOrigin.sameOrigin);var n=i.generateTracePayload(this.parsedOrigin);if(n&&(n.newrelicHeader||n.traceContextParentHeader))if(e[0]&&e[0].headers)o(e[0].headers,n)&&(this.dt=n);else{var s={};for(var a in r)s[a]=r[a];s.headers=new Headers(r.headers||{}),o(s.headers,n)&&(this.dt=n),e.length>1?e[1]=s:e.push(s)}}function o(e,t){var r=!1;return t.newrelicHeader&&(e.set("newrelic",t.newrelicHeader),r=!0),t.traceContextParentHeader&&(e.set("traceparent",t.traceContextParentHeader),t.traceContextStateHeader&&e.set("tracestate",t.traceContextStateHeader),r=!0),r}}function R(e,t){this.params={},this.metrics={},this.startTime=(0,_.t)(),this.dt=t;let[r,n={}]=e;$e(this,Ze(r));const i=(""+(r&&r instanceof Qe&&r.method||n.method||"GET")).toUpperCase();this.params.method=i,this.txSize=Le(n.body||r?.body)||0;try{var a=n.headers||r?.headers;if(s&&a)if(this.requestHeaders??={},a instanceof Headers)a.forEach(function(e,t){this.requestHeaders[t.toLowerCase()]=e}.bind(this));else if("object"==typeof a)for(var o in a)this.requestHeaders[o.toLowerCase()]=a[o]}catch(e){}this.requestBody=n.body||r?.body}function T(e,t){if(this.endTime=(0,_.t)(),this.params||(this.params={}),(0,Ye.iW)(this.params))return;this.params.status=t?t.status:0;const n=()=>{const e=+this.rxSize,t=null==this.rxSize||isNaN(e)?void 0:e,r={txSize:this.txSize,rxSize:t,duration:this.endTime-this.startTime},n=[this.params,r,this.startTime,this.endTime,"fetch"];this.targets.forEach(e=>x(n,this,e))};t&&s?t.clone().text().then(e=>{this.responseBody=e,this.rxSize&&"0"!==this.rxSize&&0!==this.rxSize||void 0===e||0===this.params.status||(this.rxSize=Le(e)),t?.headers&&(this.responseHeaders={},t.headers.forEach(function(e,t){this.responseHeaders[t.toLowerCase()]=e}.bind(this)))}).catch(e=>{r.emit(rt,[e])}).finally(()=>{n()}):n()}function A(e){const t=this.params,n=this.metrics;if(this.ended)return;this.ended=!0;for(let t=0;t<Xe;t++)e.removeEventListener(Je[t],this.listener,!1);if(t.aborted)return;if((0,Ye.iW)(t))return;if(n.duration=this.endTime-this.startTime,this.loadCaptureCalled||4!==e.readyState?null==t.status&&(t.status=0):O(this,e),n.cbTime=this.cbTime,s){try{this.responseBody=e.responseText}catch(t){this.responseBody=e.response}if((!n.rxSize||0===n.rxSize)&&void 0!==this.responseBody&&0!==t.status){const e=Le(this.responseBody);void 0!==e&&(n.rxSize=e)}try{this.responseHeaders=function(e){const t={};return e?(e.split("\r\n").forEach(function(e){const r=e.indexOf(": ");if(r>0){const n=e.substring(0,r),i=e.substring(r+2);t[n.toLowerCase()]=i}}),t):t}(e.getAllResponseHeaders())}catch(e){r.emit(rt,[e])}}const i=[t,n,this.startTime,this.endTime,"xhr"];this.targets.forEach(e=>x(i,this,e))}function x(e,r,i){n("xhr",[...e,i],r,t.K7.ajax)}function O(e,n){e.params.status=n.status;var i=function(e,t){var r=e.responseType;return"json"===r&&null!==t?t:"arraybuffer"===r||"blob"===r||"json"===r?Le(e.response):"text"===r||""===r||void 0===r?Le(e.responseText):void 0}(n,e.lastSize);if(void 0!==i&&0!==n.status&&(e.metrics.rxSize=i),e.sameOrigin&&n.getAllResponseHeaders().indexOf(tt)>=0){var s=n.getResponseHeader(tt);s&&((0,S.p)("sm",["Ajax/CrossApplicationTracing/Header/Seen"],void 0,t.K7.metrics,r),e.params.cat=s.split(", ").pop())}e.loadCaptureCalled=!0}r.on("new-xhr",a),r.on("open-xhr-start",o),r.on("open-xhr-end",d),r.on("send-xhr-start",l),r.on("setRequestHeader-xhr-start",u),r.on("xhr-cb-time",f),r.on("xhr-load-added",h),r.on("xhr-load-removed",p),r.on("xhr-resolved",m),r.on("addEventListener-end",v),r.on("removeEventListener-end",y),r.on("fn-end",E),r.on("fetch-before-start",w),r.on("fetch-start",R),r.on("fn-start",b),r.on("fetch-done",T)}(e,this.ee,this.handler,this.dt),this.importAggregator(e,()=>r.e(478).then(r.bind(r,3845)))}}const it={},st=["pushState","replaceState"];function at(e,t){const r=function(e){return(e||R.ee).get("history")}(e);return!g.RI||it[r.debugId]++||(it[r.debugId]=1,(0,Pe.YM)(r,void 0,t).inPlace(window.history,st,"-")),r}var ot=r(3738);function ct(e){(0,N.Y)(k.BL,function(r=Date.now()){const n=r-g.WN;n<0&&(0,l.R)(62,r),(0,S.p)(q.XG,[k.BL,{time:n}],void 0,t.K7.metrics,e.ee),e.addToTrace({name:k.BL,start:r,origin:"nr"}),(0,S.p)("api-"+k.hG,[n,k.BL],void 0,t.K7.genericEvents,e.ee)},e)}const{He:dt,bD:ut,d3:lt,Kp:ft,TZ:ht,Lc:pt,uP:gt,Rz:mt}=ot;class vt extends W{static featureName=ht;constructor(e){var n;super(e,ht),n=e,(0,N.Y)(k.U2,function(e){if(!(e&&"object"==typeof e&&e.name&&e.start))return;const r={n:e.name,s:e.start-g.WN,e:(e.end||e.start)-g.WN,o:e.origin||"",t:"api"};r.s<0||r.e<0||r.e<r.s?(0,l.R)(61,{start:r.s,end:r.e}):(0,S.p)("bstApi",[r],void 0,t.K7.sessionTrace,n.ee)},n),ct(e);if(!(0,j.V)(e.init))return void this.deregisterDrain();const i=this.ee;let s;at(i,e),this.eventsEE=(0,Me.u)(i,e),this.eventsEE.on(gt,function(e,t){this.bstStart=(0,_.t)()}),this.eventsEE.on(pt,function(e,r){(0,S.p)("bst",[e[0],r,this.bstStart,(0,_.t)()],void 0,t.K7.sessionTrace,i)}),i.on(mt+lt,function(e){this.time=(0,_.t)(),this.startPath=location.pathname+location.hash}),i.on(mt+ft,function(e){(0,S.p)("bstHist",[location.pathname+location.hash,this.startPath,this.time],void 0,t.K7.sessionTrace,i)});try{s=new PerformanceObserver(e=>{const r=e.getEntries();(0,S.p)(dt,[r],void 0,t.K7.sessionTrace,i)}),s.observe({type:ut,buffered:!0})}catch(e){}this.importAggregator(e,()=>r.e(478).then(r.bind(r,6974)),{resourceObserver:s})}}var yt=r(733),bt=r(6344);class Et extends W{static featureName=bt.TZ;#i;recorder;constructor(e){var n;let i;super(e,bt.TZ),n=e,(0,N.Y)(k.CH,function(){(0,S.p)(k.CH,[],void 0,t.K7.sessionReplay,n.ee)},n),function(e){(0,N.Y)(k.Tb,function(){(0,S.p)(k.Tb,[],void 0,t.K7.sessionReplay,e.ee)},e)}(e);const s="".concat(u.Wt).concat((0,yt.Y)(e.info.licenseKey,e.info.applicationID));try{i=JSON.parse(localStorage.getItem(s))}catch(e){}(0,I.SR)(e.init)&&this.ee.on(k.CH,()=>this.#s()),this.#a(i)&&this.importRecorder().then(e=>{e.startRecording(bt.Qb.PRELOAD,i?.sessionReplayMode)}),this.abortHandler=this.#n,this.importAggregator(this.agentRef,()=>r.e(478).then(r.bind(r,6167)),this),this.ee.on("err",e=>{this.blocked||this.agentRef.runtime.isRecording&&(this.errorNoticed=!0,(0,S.p)(bt.Vh,[e],void 0,this.featureName,this.ee))})}#a(e){return e&&(e.sessionReplayMode===u.g.FULL||e.sessionReplayMode===u.g.ERROR)||(0,I.Aw)(this.agentRef.init)}importRecorder(){return this.recorder?Promise.resolve(this.recorder):(this.#i??=Promise.all([r.e(478),r.e(249)]).then(r.bind(r,4866)).then(({Recorder:e})=>(this.recorder=new e(this),this.recorder)).catch(e=>{throw this.ee.emit("internal-error",[e]),this.blocked=!0,e}),this.#i)}#s(){this.blocked||(this.featAggregate?this.featAggregate.mode!==u.g.FULL&&this.featAggregate.initializeRecording(u.g.FULL,!0,bt.Qb.API):this.importRecorder().then(()=>{this.recorder.startRecording(bt.Qb.API,u.g.FULL)}))}#n(){this.recorder?.stopRecording()}}var wt=r(3962);class Rt extends W{static featureName=wt.TZ;constructor(e){if(super(e,wt.TZ),function(e){const r=e.ee.get("tracer");function n(){}(0,N.Y)(k.dT,function(e){return(new n).get("object"==typeof e?e:{})},e);const i=n.prototype={createTracer:function(n,i){var s={},a=this,o="function"==typeof i;return(0,S.p)(q.xV,["API/createTracer/called"],void 0,t.K7.metrics,e.ee),function(){if(r.emit((o?"":"no-")+"fn-start",[(0,_.t)(),a,o],s),o)try{return i.apply(this,arguments)}catch(e){const t="string"==typeof e?new Error(e):e;throw r.emit("fn-err",[arguments,this,t],s),t}finally{r.emit("fn-end",[(0,_.t)()],s)}}}};["actionText","setName","setAttribute","save","ignore","onEnd","getContext","end","get"].forEach(r=>{N.Y.apply(this,[r,function(){return(0,S.p)(k.hw+r,[performance.now(),...arguments],this,t.K7.softNav,e.ee),this},e,i])}),(0,N.Y)(k.PA,function(){(0,S.p)(k.hw+"routeName",[performance.now(),...arguments],void 0,t.K7.softNav,e.ee)},e)}(e),!g.RI||!(0,i.dV)().o.MO)return;const n=at(this.ee,e);try{this.removeOnAbort=new AbortController}catch(e){}wt.tC.forEach(e=>{(0,J.sp)(e,e=>{c(e)},!0,this.removeOnAbort?.signal)});const s=()=>(0,S.p)("newURL",[(0,_.t)(),""+window.location],void 0,this.featureName,this.ee);n.on("pushState-end",s),n.on("replaceState-end",s),(0,J.sp)(wt.OV,e=>{c(e),(0,S.p)("newURL",[e.timeStamp,""+window.location],void 0,this.featureName,this.ee)},!0,this.removeOnAbort?.signal);let a=!1;const o=new((0,i.dV)().o.MO)((e,t)=>{a||(a=!0,requestAnimationFrame(()=>{(0,S.p)("newDom",[(0,_.t)()],void 0,this.featureName,this.ee),a=!1}))}),c=(0,C.s)(e=>{"loading"!==document.readyState&&((0,S.p)("newUIEvent",[e],void 0,this.featureName,this.ee),o.observe(document.body,{attributes:!0,childList:!0,subtree:!0,characterData:!0}))},100,{leading:!0});this.abortHandler=function(){this.removeOnAbort?.abort(),o.disconnect(),this.abortHandler=void 0},this.importAggregator(e,()=>r.e(478).then(r.bind(r,4393)),{domObserver:o})}}var Tt=r(981);const At={},St=new Set;function xt(e){return"string"==typeof e?{type:"string",size:(new TextEncoder).encode(e).length}:e instanceof ArrayBuffer?{type:"ArrayBuffer",size:e.byteLength}:e instanceof Blob?{type:"Blob",size:e.size}:e instanceof DataView?{type:"DataView",size:e.byteLength}:ArrayBuffer.isView(e)?{type:"TypedArray",size:e.byteLength}:{type:"unknown",size:0}}class Ot{constructor(e,t){this.timestamp=(0,_.t)(),this.currentUrl=(0,Ee.L)(window.location.href),this.socketId=(0,ye.LA)(8),this.requestedUrl=(0,Ee.L)(e),this.requestedProtocols=Array.isArray(t)?t.join(","):t||"",this.openedAt=void 0,this.protocol=void 0,this.extensions=void 0,this.binaryType=void 0,this.messageOrigin=void 0,this.messageCount=0,this.messageBytes=0,this.messageBytesMin=0,this.messageBytesMax=0,this.messageTypes=void 0,this.sendCount=0,this.sendBytes=0,this.sendBytesMin=0,this.sendBytesMax=0,this.sendTypes=void 0,this.closedAt=void 0,this.closeCode=void 0,this.closeReason="unknown",this.closeWasClean=void 0,this.connectedDuration=0,this.hasErrors=void 0}}class _t extends W{static featureName=o.TZ;constructor(e){super(e,o.TZ);const n=e.init.feature_flags.includes("websockets")||e.init.web_sockets?.enabled,s=!e.init.feature_flags.includes("no_spv"),a=[e.init.page_action.enabled,e.init.performance.capture_marks,e.init.performance.capture_measures,e.init.performance.resources.enabled,e.init.user_actions.enabled,n,s];var c;let d;if(c=e,(0,N.Y)(k.hG,(e,t)=>ce(e,t,c),c),function(e){(0,N.Y)(k.fF,(t,r)=>ue(t,r,e),e)}(e),ct(e),Se(e),function(e){(0,N.Y)(k.V1,(t,r)=>de(t,r,e),e)}(e),this.removeOnAbort=new AbortController,this.abortHandler=()=>{this.removeOnAbort.abort(),this.abortHandler=void 0},n){const u=function(e,t){if(!(0,i.dV)().o.WS)return e;const r=e.get("websockets");if(At[r.debugId]++)return r;At[r.debugId]=1,(0,V.G)(()=>{const e=(0,_.t)();St.forEach(t=>{t.nrData.closedAt=e,t.nrData.closeCode=1001,t.nrData.closeReason="Page navigating away",t.nrData.closeWasClean=!1,t.nrData.openedAt&&(t.nrData.connectedDuration=e-t.nrData.openedAt),r.emit("ws",[t.nrData,t.targets],t)})});class n extends WebSocket{static name=Tt.R.WS;static toString(){return"function WebSocket() { [native code] }"}toString(){return"[object WebSocket]"}get[Symbol.toStringTag](){return n.name}#o(e){(e.__newrelic??={}).socketId=this.nrData.socketId,this.nrData.hasErrors??=!0}constructor(...e){super(...e),this.nrData=new Ot(e[0],e[1]),this.targets=(0,Ie.$5)(t),this.addEventListener("open",()=>{this.nrData.openedAt=(0,_.t)(),["protocol","extensions","binaryType"].forEach(e=>{this.nrData[e]=this[e]}),St.add(this)}),this.addEventListener("message",e=>{const{type:t,size:r}=xt(e.data);this.nrData.messageOrigin??=(0,Ee.L)(e.origin),this.nrData.messageCount++,this.nrData.messageBytes+=r,this.nrData.messageBytesMin=Math.min(this.nrData.messageBytesMin||1/0,r),this.nrData.messageBytesMax=Math.max(this.nrData.messageBytesMax,r),(this.nrData.messageTypes??"").includes(t)||(this.nrData.messageTypes=this.nrData.messageTypes?"".concat(this.nrData.messageTypes,",").concat(t):t)}),this.addEventListener("close",e=>{this.nrData.closedAt=(0,_.t)(),this.nrData.closeCode=e.code,e.reason&&(this.nrData.closeReason=e.reason),this.nrData.closeWasClean=e.wasClean,this.nrData.connectedDuration=this.nrData.closedAt-this.nrData.openedAt,St.delete(this),r.emit("ws",[this.nrData,this.targets],this)})}addEventListener(e,t,...r){const n=this,i="function"==typeof t?function(...e){try{return t.apply(this,e)}catch(e){throw n.#o(e),e}}:t?.handleEvent?{handleEvent:function(...e){try{return t.handleEvent.apply(t,e)}catch(e){throw n.#o(e),e}}}:t;return super.addEventListener(e,i,...r)}send(e){if(this.readyState===WebSocket.OPEN){const{type:t,size:r}=xt(e);this.nrData.sendCount++,this.nrData.sendBytes+=r,this.nrData.sendBytesMin=Math.min(this.nrData.sendBytesMin||1/0,r),this.nrData.sendBytesMax=Math.max(this.nrData.sendBytesMax,r),(this.nrData.sendTypes??"").includes(t)||(this.nrData.sendTypes=this.nrData.sendTypes?"".concat(this.nrData.sendTypes,",").concat(t):t)}try{return super.send(e)}catch(e){throw this.#o(e),e}}close(...e){try{super.close(...e)}catch(e){throw this.#o(e),e}}}return g.gm.WebSocket=n,r}(this.ee,e);u.on("ws",(e,t)=>{(0,S.p)("ws-complete",[e,t],void 0,this.featureName,this.ee)})}if(s){if("function"==typeof g.gm.ReportingObserver){const l=new g.gm.ReportingObserver(e=>{e.forEach(e=>{(0,S.p)("spv",[kt(e),(0,_.t)()],void 0,t.K7.genericEvents,this.ee)}),l.disconnect()},{types:["csp-violation"],buffered:!0});l.observe()}g.gm.addEventListener("securitypolicyviolation",e=>{(0,S.p)("spv",[kt(e),e.timeStamp],void 0,t.K7.genericEvents,this.ee)},(0,J.jT)(!1,this.removeOnAbort.signal))}if(g.RI){if(ze(this.ee,e),De(this.ee,e),d=at(this.ee,e),e.init.user_actions.enabled){function f(t){const r=(0,Ge.D)(t);return e.beacons.includes(r.hostname+":"+r.port)}function h(){d.emit("navChange")}o.Zp.forEach(e=>(0,J.sp)(e,e=>(0,S.p)("ua",[e],void 0,this.featureName,this.ee),!0)),o.qN.forEach(e=>{const t=(0,C.s)(e=>{(0,S.p)("ua",[e],void 0,this.featureName,this.ee)},500,{leading:!0});(0,J.sp)(e,t)}),g.gm.addEventListener("error",()=>{(0,S.p)("uaErr",[],void 0,t.K7.genericEvents,this.ee)},(0,J.jT)(!1,this.removeOnAbort.signal)),this.ee.on("open-xhr-start",(e,r)=>{f(e[1])||r.addEventListener("readystatechange",()=>{2===r.readyState&&(0,S.p)("uaXhr",[],void 0,t.K7.genericEvents,this.ee)},(0,J.jT)(void 0,this.removeOnAbort.signal))}),this.ee.on("fetch-start",e=>{e.length>=1&&!f(Ze(e[0]))&&(0,S.p)("uaXhr",[],void 0,t.K7.genericEvents,this.ee)}),d.on("pushState-end",h),d.on("replaceState-end",h),window.addEventListener("hashchange",h,(0,J.jT)(!0,this.removeOnAbort.signal)),window.addEventListener("popstate",h,(0,J.jT)(!0,this.removeOnAbort.signal))}if(e.init.performance.resources.enabled&&g.gm.PerformanceObserver?.supportedEntryTypes.includes("resource")){new PerformanceObserver(e=>{e.getEntries().forEach(e=>{(0,S.p)("browserPerformance.resource",[e],void 0,this.featureName,this.ee)})}).observe({type:"resource",buffered:!0})}}a.some(e=>e)?this.importAggregator(e,()=>r.e(478).then(r.bind(r,8019))):this.deregisterDrain()}}function kt(e){const t=e.body??e;return{blockedUrl:t.blockedURL??e.blockedURI,documentUrl:t.documentURL??e.documentURI,effectiveDirective:t.effectiveDirective,originalPolicy:t.originalPolicy,sourceFile:t.sourceFile,statusCode:t.statusCode,lineNumber:t.lineNumber,columnNumber:t.columnNumber,disposition:"reporting"===t.disposition?"report":t.disposition,sample:t.sample,referrer:t.referrer}}var Nt=r(2646);const Lt=new Map;function Mt(e,t,r,n,i=!0,s){if("object"!=typeof t||!t||"string"!=typeof r||!r||"function"!=typeof t[r])return(0,l.R)(29);const a=function(e){return(e||R.ee).get("logger")}(e),o=(0,Pe.YM)(a,void 0,s),c=new Nt.y(R.P);c.level=n.level,c.customAttributes=n.customAttributes,c.autoCaptured=i;const d=t[r]?.[Pe.Jt]||t[r];return Lt.set(d,c),o.inPlace(t,[r],"wrap-logger-",()=>Lt.get(d),void 0,!0),a}var Pt=r(1910);class It extends W{static featureName=se.TZ;constructor(e){var t;super(e,se.TZ),t=e,(0,N.Y)("log",(e,r)=>oe(e,r,t),t),function(e){(0,N.Y)(k.Wb,(t,r,{customAttributes:n={},level:i=se.p_.INFO}={})=>{Mt(e.ee,t,r,{customAttributes:n,level:i},!1,e)},e)}(e),Se(e);const n=this.ee;["log","error","warn","info","debug","trace"].forEach(t=>{(0,Pt.i)(g.gm.console[t]),Mt(n,g.gm.console,t,{level:"log"===t?"info":t},void 0,e)}),this.ee.on("wrap-logger-end",function([t],r,i,s=[e.runtime.v2Target]){const{level:a,customAttributes:o,autoCaptured:c}=this;s.forEach(e=>{(0,ae.R)(n,t,o,a,c,e)})}),this.importAggregator(e,()=>r.e(478).then(r.bind(r,5288)))}}new F({features:[nt,K,G,vt,Et,Y,Oe,_t,It,Rt],loaderType:"spa"})})()})();</script>
+<link rel="canonical" href="https://dor.sc.gov/sales-use-tax-index/sales-tax-exemptions" />
+<meta property="og:image" content="https://dor.sc.gov/sites/dor/files/SCDOR-LOGO.png" />
+<meta name="google-site-verification" content="BgTinQEBjz35kq9udPuKLhtssR2Xlya9BkUHUGk0ZdE" />
+<meta name="Generator" content="Drupal 10 (https://www.drupal.org)" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+<link href="https://cdn.metroui.org.ua/current/icons.css" rel="stylesheet" />
+<meta http-equiv="x-ua-compatible" content="ie=edge" />
+<style>html:root {
+--header_title_text_color: #ffffff;
+--header_title_background_color: #ffffff;
+--header_menu_text_color: #003e53;
+--header_menu_text_flyout_color: #ffffff;
+--header_background_color: #ffffff;
+--header_search_text_color: #003e53;
+--header_search_text_outline_color: #ffffff;
+--header_search_button_text_color: #003e53;
+--header_search_button_bg_color: #ffffff;
+--header_search_button_outline_color: #ffffff;
+--topbar_background_color: #eeeeee;
+--topbar_text_color: #003e53;
+--flyout_background_color: #0d204a;
+--flyout_text_color: #ffffff;
+--header_callout_outline_color: #dcb72b;
+--header_callout_button_text: #ffffff;
+--header_callout_button_bg: #003366;
+--header_callout_button_outline: #003366;
+--accordion_title_background_color: #f6f6f6;
+--accordion_title_font_color: #1f5999;
+--accordion_title_background_color_hover: #ffffff;
+--accordion_title_font_color_hover: #1f5999;
+--accordion_font_color: #003e53;
+--accordion_accent_color: #1f5999;
+--accordion_body_background_color: #f6f6f6;
+--icon_card_background_color: #eaedf1;
+--icon_card_title_text_color: #0d2049;
+--icon_card_text_color: #000000;
+--icon_card_active_text_color: #ffffff;
+--icon_card_active_background_color: #0d2049;
+--icon_card_background_color_1: #153660;
+--icon_card_title_text_color_1: #ffffff;
+--icon_card_text_color_1: #ffffff;
+--icon_card_active_text_color_1: #000000;
+--icon_card_active_background_color_1: #ffffff;
+--icon_card_background_color_2: #dcb72b;
+--icon_card_title_text_color_2: #153660;
+--icon_card_text_color_2: #ffffff;
+--icon_card_active_text_color_2: #000000;
+--icon_card_active_background_color_2: #ffffff;
+--button_card_launchpad_background_color: #003c71;
+--button_card_launchpad_text_color: #ffffff;
+--button_card_background_color: #dcb72b;
+--button_card_text_color: #000000;
+--view_accent_color: #3681f4;
+--view_link_color: #003e53;
+--view_body_color: #515151;
+--view_label_color: #003366;
+--view_title_color: #3681f4;
+--footer_background_color: #0d204a;
+--footer_text_color: #ffffff;
+--footer_text_link_color: #ffffff;
+--button_primary_color: #002c89;
+--button_primary_text_color: #ffffff;
+--button_secondary_color: #003e53;
+--button_secondary_text_color: #ffffff;
+--tags_text_color: #003e53;
+--tags_background_color: #bac1c9;
+--tags_border_color: #bac1c9;
+--tags_background_color_hover: #003e53;
+--tags_text_color_hover: #ffffff;
+--tags_border_color_hover: #003e53;
+--body_link_color: #1f5999;
+--body_link_hover_color: #1a70c1;
+--highlight_color_option_1: #52789e;
+--highlight_color_option_2: #72a078;
+--highlight_color_option_3: #0d204b;
+--spotlight_heading_color: #174881;
+--spotlight_text_color: #4e4f4e;
+--spotlight_button_background: #0d204a;
+--spotlight_button_color: #ffffff;
+--flyout_text_color_1: #ffffff;
+--flyout_text_color_2: #ffffff;
+--flyout_text_color_3: #ffffff;
+--menu_divider_color_desktop: #515151;
+--menu_divider_color_mobile: #003e53;
+--search_block_layer_background_color: #305268;
+--search_block_layer_text_color: #ffffff;
+--search_block_layer_link_color: #ffffff;
+--search_block_layer_input_color: #004875;
+--search_block_layer_submit_text_color: #000000;
+--search_block_layer_submit_button_color: #b0dfa3;
+--search_block_layer_submit_button_hover_color: #000000;
+--footer_navigation_link_color: #f1c400;
+--menu_toggle_color_closed: #ffffff;
+--menu_toggle_background_color_closed: #003e53;
+--menu_toggle_color_open: #ffffff;
+--menu_toggle_background_color_open: #003e53;
+--alerts_colors_warning_background: #9b3123;
+--alerts_colors_warning_background_muted: #9b3123;
+--alerts_colors_warning_color: #ffffff;
+--alerts_colors_caution_background: #a0570e;
+--alerts_colors_caution_background_muted: #a0570e;
+--alerts_colors_caution_color: #ffffff;
+--alerts_colors_info_background: #1b6634;
+--alerts_colors_info_background_muted: #1b6634;
+--alerts_colors_info_color: #ffffff;
+--alerts_colors_status_background: #00304b;
+--alerts_colors_status_background_muted: #19567b;
+--alerts_colors_status_color: #ffffff;
+--variables_primary_shade: #1f5999;
+--variables_accent_shade: #0266ff;
+--variables_accent_highlight: #0166ff;
+--variables_title_hr: #0f0e58;
+--variables_body_bg: #f6f6f6;
+--variables_black: #000000;
+--variables_dark_gray: #1b1b1b;
+--variables_med_gray: #515151;
+--variables_light_gray: #dbdbdb;
+--variables_gray_100: #f8f9fa;
+--variables_gray_200: #e9ecef;
+--variables_gray_800: #343a40;
+--variables_white: #ffffff;
+--variables_red: #dc3545;
+--variables_canary: #ffcd00;
+--variables_yellow: #ffc107;
+--variables_mustard: #eac642;
+--variables_green: #28a745;
+--variables_med_green: #22884c;
+--variables_cyan: #17a2b8;
+--variables_dark_blue: #0a1e40;
+--variables_launchpad_button_background: #86c8bc;
+--variables_launchpad_button_color: #000000;
+--variables_launchpad_link_background: #003e53;
+--variables_launchpad_link_color: #ffffff;
+--variables_launchpad_link_background_hover: ;
+--variables_launchpad_link_color_hover: ;
+--variables_accordion_link_color: #1f5999;
+--variables_accordion_link_hover_color: #1a70c1;
+--variables_alert_box_info_color: #ffffff;
+--variables_alert_box_warning_background: #9b3123;
+--variables_alert_box_warning_color: #ffffff;
+--variables_alert_box_caution_background: #a0570e;
+--variables_alert_box_caution_color: #ffffff;
+--variables_html_field_text_color: #001d39;
+--variables_nav_link_outline: #003c71;
+--variables_sidebar_card_header_border_color: #003c71;
+--variables_hero_button_color: #1b1b1b;
+--variables_hero_button_background_color: #ffeb94;
+--menu_text_desktop_1: ;
+--menu_text_mobile_1: ;
+--menu_text_desktop_2: ;
+--menu_text_mobile_2: ;
+--menu_text_desktop_3: ;
+--menu_text_mobile_3: ;
+--variables_accordion_link_color_rgb: 31, 89, 153;
+}
+</style>
+<link rel="icon" href="/sites/dor/files/SCDOR-favicon_0.ico" type="image/vnd.microsoft.icon" />
+
+  <title>Sales Tax Exemptions | SCDOR</title>
+  <link rel="stylesheet" media="all" href="/core/modules/system/css/components/align.module.css?tm2bh7" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/fieldgroup.module.css?tm2bh7" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/container-inline.module.css?tm2bh7" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/clearfix.module.css?tm2bh7" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/details.module.css?tm2bh7" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/hidden.module.css?tm2bh7" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/item-list.module.css?tm2bh7" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/js.module.css?tm2bh7" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/nowrap.module.css?tm2bh7" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/position-container.module.css?tm2bh7" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/reset-appearance.module.css?tm2bh7" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/resize.module.css?tm2bh7" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/system-status-counter.css?tm2bh7" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/system-status-report-counters.css?tm2bh7" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/system-status-report-general-info.css?tm2bh7" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/tablesort.module.css?tm2bh7" />
+<link rel="stylesheet" media="all" href="/modules/contrib/ckeditor_accordion/css/accordion.frontend.css?tm2bh7" />
+<link rel="stylesheet" media="all" href="/modules/contrib/collapsiblock/theme/dist/collapsiblock.css?tm2bh7" />
+<link rel="stylesheet" media="all" href="/modules/contrib/extlink/css/extlink.css?tm2bh7" />
+<link rel="stylesheet" media="all" href="/modules/contrib/paragraphs/css/paragraphs.unpublished.css?tm2bh7" />
+<link rel="stylesheet" media="all" href="/modules/contrib/social_media_links/css/social_media_links.theme.css?tm2bh7" />
+<link rel="stylesheet" media="all" href="/themes/contrib/bootstrap_barrio/css/components/node.css?tm2bh7" />
+<link rel="stylesheet" media="all" href="/themes/contrib/bootstrap_barrio/css/colors/messages/messages-light.css?tm2bh7" />
+<link rel="stylesheet" media="all" href="/themes/contrib/bootstrap_barrio/fonts/monserrat_lato.css?tm2bh7" />
+<link rel="stylesheet" media="all" href="//fonts.googleapis.com/css?family=Lato:300,400,300italic,400italic" />
+<link rel="stylesheet" media="all" href="//fonts.googleapis.com/css?family=Montserrat:400,700" />
+<link rel="stylesheet" media="all" href="/core/../themes/contrib/bootstrap_barrio/components/breadcrumb/breadcrumb.css?tm2bh7" />
+<link rel="stylesheet" media="all" href="/themes/custom/ngpsb2/css/style.css?tm2bh7" />
+<link rel="stylesheet" media="all" href="//fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,300;0,500;0,700;1,500;1,700&amp;display=swap" />
+<link rel="stylesheet" media="all" href="/themes/custom/style_logonavbar/css/style.css?tm2bh7" />
+<link rel="stylesheet" media="all" href="/themes/custom/style_logonavbar/js/plugins/fancybox/jquery.fancybox.min.css?tm2bh7" />
+<link rel="stylesheet" media="all" href="/sites/dor/files/asset_injector/css/custom_site_css-323a8baa80d21013a6fc1cc825f9e47b.css?tm2bh7" />
+<link rel="stylesheet" media="all" href="/sites/dor/files/asset_injector/css/dgsdev_10153_alert_colors-9975fcefbf92e8b9dcc80083796ef7d3.css?tm2bh7" />
+<link rel="stylesheet" media="all" href="/sites/dor/files/asset_injector/css/dgsdev_7239-deb6e7f3be8c528a12fb8f53213a84df.css?tm2bh7" />
+<link rel="stylesheet" media="all" href="/sites/dor/files/asset_injector/css/dgsdev_7772-c1e9c80a55f63a7df42dc4e9a55c4a06.css?tm2bh7" />
+<link rel="stylesheet" media="all" href="/sites/dor/files/asset_injector/css/dgsdev_7826-2296f6fda9a09efb68340187130afe5f.css?tm2bh7" />
+<link rel="stylesheet" media="all" href="/sites/dor/files/asset_injector/css/dgsdev_7829-9181344d76775239e65815453a132587.css?tm2bh7" />
+<link rel="stylesheet" media="all" href="/sites/dor/files/asset_injector/css/dgsdev_7977-ec38d26e183d9e616f893eb0cddd068f.css?tm2bh7" />
+<link rel="stylesheet" media="all" href="/sites/dor/files/asset_injector/css/dgsdev_8273-a1503a51f4dd95785bb38c208f6dfb3a.css?tm2bh7" />
+<link rel="stylesheet" media="all" href="/sites/dor/files/asset_injector/css/dgsdev_8333_remove_swipe_to_view-ac87f486ee642c26765021b6153e7ac3.css?tm2bh7" />
+<link rel="stylesheet" media="all" href="/sites/dor/files/asset_injector/css/dgsdev_9011_mobile_arrest_dates-24800edf8e1e162771e9375e31a9835d.css?tm2bh7" />
+<link rel="stylesheet" media="all" href="/sites/dor/files/asset_injector/css/dynamic_grid-30203fd4145bd064431c7ffca5104c3b.css?tm2bh7" />
+<link rel="stylesheet" media="all" href="/sites/dor/files/asset_injector/css/header_styles-4dd81199c3b32c68751396807c2eecc7.css?tm2bh7" />
+<link rel="stylesheet" media="all" href="/sites/dor/files/asset_injector/css/metro_icon_font-5058f1af8388633f609cadb75a75dc9d.css?tm2bh7" />
+<link rel="stylesheet" media="all" href="/sites/dor/files/asset_injector/css/table_style-a6a2e160ea9e431a40e9a68b046ef290.css?tm2bh7" />
+
+  
+
+  <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+
+    
+</head>
+<body class="layout-one-sidebar layout-sidebar-first has-featured-top page-node-996 path-sales-use-tax-index-sales-tax-exemptions site-a3268b65287a427ab46d51cc9d0b7583 path-node node--type-dynamic-page site-dor navbar-layout-compact no-js">
+<script>
+  document.body.className += ' js-loading ';
+</script>
+<a href="#main-content" class="visually-hidden focusable skip-link">
+  Skip to main content
+</a>
+<link type="text/css" rel="stylesheet" href="/themes/custom/style_logonavbar/css/overrides/dor.css" media="all" />
+
+  <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+    
+
+
+  
+
+<div id="page-wrapper" class="header-style-2">
+  <div id="page">
+          <div class="row">
+    <div data-drupal-messages-fallback class="hidden"></div>
+
+  </div>
+
+    
+<header class="des header site-header--style-2">
+  <div class="wrap">
+    <div class="top-bar">
+      <div class="inner-top-wrap">
+        <a id="scgovlogo" class="header-logo-link" href="https://sc.gov/" target="_blank" rel="noopener noreferrer">
+          <img alt="SC.GOV" class="header-logo-image" src="/themes/custom/ngpsb2/images/scgov-logo.svg">
+        </a>
+        <div class="header-navigation">
+            <nav role="navigation" aria-labelledby="block-style-logonavbar-topnav-menu" id="block-style-logonavbar-topnav" class="style-3 block block-menu navigation menu--top-nav">
+                      
+    <div class="visually-hidden" id="block-style-logonavbar-topnav-menu">Top Nav</div>
+    
+
+              
+<ul class="clearfix nav">
+  <li class="nav-item">
+    <a href="https://sc.gov/agency-listing" target="_blank" class="nav-link nav-link-https--scgov-agency-listing">Agency Listing</a>
+  </li>
+  <li class="nav-item">
+    <a href="https://sc.gov/online-services" target="_blank" class="nav-link nav-link-https--scgov-online-services">Online Services</a>
+  </li>
+  <li class="nav-item">
+    <a href="https://sc.gov/cybersecurity-tips" target="_blank" class="nav-link nav-link-https--scgov-cybersecurity-tips">Cybersecurity Tips</a>
+  </li>
+</ul>
+      </nav>
+
+        </div> <!-- /.header-navigation -->
+      </div>
+    </div>
+    <div class="nav-wrapper nav-white">
+      <div class="inner-nav-wrap">
+        <div id="block-style-logonavbar-sitelogo" class="block-content-basic block block-block-content block-block-content58d14b47-09b7-42e6-a3da-d3b601e8058e">
+  
+    
+      <div class="content">
+      
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><a href="/"><img src="/sites/dor/files/images/theme/SCDOR-LOGO.svg" data-entity-type="file" alt="dor logo" width="275" height="37" loading="lazy"></a></div>
+      
+    </div>
+  </div>
+
+        <a href="#" class="menu-toggle"><span>Menu</span><i></i></a>
+        
+        
+
+<div class="site-navigation">
+  <div class="nav-wrap">
+    <div class="main-navigation">
+        <nav role="navigation" aria-labelledby="block-style-logonavbar-main-menu-menu" id="block-style-logonavbar-main-menu" class="des block block-menu navigation menu--main">
+                      
+    <div class="visually-hidden" id="block-style-logonavbar-main-menu-menu">Main navigation</div>
+    
+
+              
+
+							<ul  data-region="primary_menu" id="block-style-logonavbar-main-menu" class="clearfix menu-main menu-extras">
+				
+										<li class="has-children menu-item menu-item--expanded" data-menu-level="0">
+            
+             <span>File &amp; Pay</span>
+  <a class="plus " role="button" tabindex="0">Open File &amp; Pay</a>
+  <div class="flyout">
+          				
+          <ul>
+            
+                            <li class="menu-item" data-menu-level="1">
+                                  <a href="/mydorway" data-drupal-link-system-path="node/266">MyDORWAY Help</a>
+                              </li>
+            
+                            <li class="has-children menu-item menu-item--expanded" data-menu-level="1">
+                                  <a href="/iit" data-drupal-link-system-path="node/271">Individual Income Tax</a>
+                  <a class="plus" role="button" tabindex="0">Open
+                    Individual Income Tax</a>
+                  				
+          <ul>
+            
+                            <li class="menu-item menu-item--collapsed" data-menu-level="2">
+                                  <a href="/iit/iit-file-pay-options" data-drupal-link-system-path="node/276">File &amp; Pay Options</a>
+                              </li>
+            
+                            <li class="menu-item menu-item--collapsed" data-menu-level="2">
+                                  <a href="/iit/prepare-you-file" data-drupal-link-system-path="node/291">Prepare Before You File</a>
+                              </li>
+            
+                            <li class="menu-item" data-menu-level="2">
+                                  <a href="/iit/refunds" data-drupal-link-system-path="node/306">Refunds</a>
+                              </li>
+            
+                            <li class="menu-item" data-menu-level="2">
+                                  <a href="/tax-credits" data-drupal-link-system-path="node/1081">Tax Credits</a>
+                              </li>
+                              </ul>
+
+			
+                              </li>
+            
+                            <li class="has-children menu-item menu-item--expanded" data-menu-level="1">
+                                  <a href="/businesses" data-drupal-link-system-path="node/321">Business Taxes</a>
+                  <a class="plus" role="button" tabindex="0">Open
+                    Business Taxes</a>
+                  				
+          <ul>
+            
+                            <li class="menu-item" data-menu-level="2">
+                                  <a href="/businesses/file-pay-options-businesses" data-drupal-link-system-path="node/326">File &amp; Pay Options by Tax Type</a>
+                              </li>
+            
+                            <li class="menu-item menu-item--collapsed" data-menu-level="2">
+                                  <a href="/businesses/apply-business-tax-account" data-drupal-link-system-path="node/346">Business Tax Application</a>
+                              </li>
+            
+                            <li class="menu-item" data-menu-level="2">
+                                  <a href="/businesses/business-tax-refunds" data-drupal-link-system-path="node/336">Business Tax Refunds</a>
+                              </li>
+                              </ul>
+
+			
+                              </li>
+            
+                            <li class="has-children menu-item menu-item--expanded" data-menu-level="1">
+                                  <a href="/notices-compliance" data-drupal-link-system-path="node/446">Notices &amp; Compliance</a>
+                  <a class="plus" role="button" tabindex="0">Open
+                    Notices &amp; Compliance</a>
+                  				
+          <ul>
+            
+                            <li class="menu-item" data-menu-level="2">
+                                  <a href="/notices-compliance/letters-notices" data-drupal-link-system-path="node/456">I Received a Notice</a>
+                              </li>
+            
+                            <li class="menu-item" data-menu-level="2">
+                                  <a href="/notices-compliance/audit-process" data-drupal-link-system-path="node/491">Audit Process</a>
+                              </li>
+            
+                            <li class="menu-item" data-menu-level="2">
+                                  <a href="/notices-compliance/payment-plan-agreements" data-drupal-link-system-path="node/476">Payment Plan Agreements</a>
+                              </li>
+            
+                            <li class="menu-item menu-item--collapsed" data-menu-level="2">
+                                  <a href="/notices-compliance/setoff-debt-gear" data-drupal-link-system-path="node/466">Setoff Debt &amp; GEAR</a>
+                              </li>
+            
+                            <li class="menu-item" data-menu-level="2">
+                                  <a href="/notices-compliance/appeals-process" data-drupal-link-system-path="node/461">Appeals Process</a>
+                              </li>
+                              </ul>
+
+			
+                              </li>
+            
+                            <li class="menu-item menu-item--expanded" data-menu-level="1">
+                                  <a href="/find-a-form" data-drupal-link-system-path="node/3171">Find a Form</a>
+                              </li>
+                              </ul>
+
+			
+    
+          <div class="flyout-promo-section">
+                                    <div id="flyout-content-26416" class="paragraph paragraph--id--26416 paragraph--type--flyout-content paragraph--view-mode--default flyout-content">
+      <div class="wrap">
+            <div class="clearfix text-formatted field field--name-field-body-text field--type-text-long field--label-hidden field__item"><svg id="Layer_1" version="1.1" viewBox="0 0 5841.77 1000" role="img" aria-label="MyDORWAY"><!-- Generator: Adobe Illustrator 29.7.1, SVG Export Plug-In . SVG Version: 2.1.1 Build 8)  --><defs><style></style></defs><g fill="currentColor"><path class="st0" d="M645.76,470.96c-3.32-89.47-6.62-197.73-6.62-305.98h-3.32c-23.2,95-54.13,201.04-82.84,288.31l-90.58,290.52h-131.45l-79.53-288.31c-24.31-87.26-49.72-193.31-67.39-290.52h-2.21c-4.41,100.53-7.72,215.4-13.25,308.19l-13.25,282.78H-.43L47.07,11.44h224.23l72.91,248.54c23.2,86.16,46.4,178.95,62.97,266.21h3.32c20.98-86.16,46.39-184.48,70.7-267.32L560.71,11.44h219.82l40.86,744.51h-164.58l-11.05-284.99Z" /><path class="st0" d="M1060.07,215.81l80.64,265.11c8.83,32.03,19.87,71.79,26.5,100.52h3.32c7.72-28.73,16.57-69.59,24.29-100.52l66.29-265.11h180.04l-125.91,355.67c-77.33,214.3-129.24,300.46-190,354.58-58.54,50.81-120.4,68.5-162.37,74.01l-35.35-142.5c20.98-3.32,47.49-13.25,72.89-28.71,25.41-13.25,53.02-39.77,69.6-67.38,5.51-7.74,8.83-16.57,8.83-24.31,0-5.53-1.11-14.36-7.74-27.61l-197.72-493.76h186.67Z" /><path class="st0" d="M1517.42,21.39c61.85-9.95,142.5-15.48,227.55-15.48,141.39,0,233.08,25.41,304.88,79.54,77.31,57.44,125.93,149.12,125.93,280.57,0,142.5-51.92,240.8-123.72,301.56-78.43,65.17-197.73,96.11-343.54,96.11-87.26,0-149.12-5.53-191.1-11.05V21.39ZM1686.42,628.92c14.37,3.32,37.56,3.32,58.55,3.32,152.43,1.11,251.86-82.84,251.86-260.69,1.11-154.64-89.47-236.39-234.18-236.39-37.56,0-61.85,3.32-76.22,6.63v487.13Z" /><path class="st0" d="M3178.85,21.39c54.13-8.84,134.76-15.48,224.23-15.48,110.46,0,187.79,16.57,240.81,58.55,44.18,35.35,68.48,87.26,68.48,155.75,0,95-67.39,160.17-131.45,183.37v3.32c51.92,20.99,80.64,70.7,99.41,139.18,23.2,83.95,46.4,181.16,60.76,209.88h-172.32c-12.15-20.99-29.83-81.74-51.92-173.42-19.88-92.79-51.92-118.19-120.4-119.3h-50.82v292.72h-166.79V21.39ZM3345.64,341.72h66.29c83.95,0,133.65-41.97,133.65-107.15,0-68.48-46.39-102.73-123.72-103.83-40.87,0-64.06,3.32-76.22,5.53v205.45Z" /><path class="st0" d="M3947.71,755.96L3770.97,11.44h180.05l56.34,307.09c16.57,88.37,32.03,184.46,44.18,259.58h2.21c12.15-80.63,29.82-170.11,48.6-261.79l62.97-304.88h178.95l59.64,313.71c16.57,87.26,28.73,166.8,39.77,249.64h2.21c11.04-82.84,27.61-170.11,43.07-258.47l60.76-304.88h171.21l-192.2,744.51h-182.25l-62.97-320.34c-14.36-75.12-26.5-144.71-35.35-229.76h-2.21c-13.25,83.95-25.4,154.64-43.07,229.76l-70.7,320.34h-184.48Z" /><path class="st0" d="M4871.21,564.86l-53.02,191.1h-174.53L4871.21,11.44h220.93l230.87,744.51h-181.16l-57.44-191.1h-213.19ZM5060.09,438.93l-46.39-157.96c-13.25-44.19-26.52-99.41-37.56-143.6h-2.21c-11.04,44.19-22.1,100.52-34.24,143.6l-44.18,157.96h164.58Z" /><path class="st0" d="M5429.07,755.96v-304.88l-235.29-439.63h192.21l76.21,178.95c23.2,54.13,38.66,93.9,57.44,142.5h2.21c16.57-46.39,34.24-89.47,56.34-142.5l75.1-178.95h188.9l-245.22,434.12v310.39h-167.91Z" /></g><path class="st0" fill="currentColor" d="M2674.23-.07c-220.81,0-413.39,178.98-413.39,399.83s192.58,399.83,413.39,399.83,419.14-179.02,419.14-399.83S2895.08-.07,2674.23-.07ZM2954.63,512.79c-.15,2.09-.5,4.73-1.82,6.04-3.56,3.56-7.4,7.13-11.74,9.69-5.11,2.98-9.76,5.15-10.27,12.48-.5,7.17-2.6,7.79-9.69,6.04-1.08-.27-2.44-.46-3.41-.04-3.02,1.2-5.08.66-7.4-1.82-3.02-3.22-10-1.43-13.91,3.37-1.94,2.44-3.64,5.11-5.11,7.87-2.32,4.34-1.28,7.21,3.37,9.76-3.56,2.32-7.28,4.38-10.58,6.94-2.94,2.29-5.39,5.23-8.14,7.79-1.94,1.78-3.76,3.87-6.04,5.04-5,2.6-24.25,5.85-24.29,6.85-.27,7.44,3.99,15.81-2.99,18.99-2.44,1.08-4.26,3.41-6.47,5-1.12.81-2.48,1.63-3.8,1.74-8.25.77-15.69,2.87-22.2,8.72-3.53,3.18-8.91,4.3-13.37,6.51-1.74.85-3.37,2.13-4.88,3.37-2.4,2.01-4.34,4.03-8.21,2.29-1.67-.74-4.65,1.43-5.66,1.78-3.53-1.36-10.93-3.17-13.41-3.36-5.27-.43-2.05,4.1-1.82,8.01.15,3.02,1.94,7.21,4.3,8.56,3.64,2.01,3.76,4.07,2.94,7.21-2.71,10.46-11.93,12.79-20.22,16.23-5.54,2.32-10.23-12.22-13.64-5.25-4.57,9.3-12.7,32.45-24.36,34.08-1.86.23-6.39,1.36-9.88,13.21-3.45-2.94-8.87-7.71-12.55-10.31-1.24-.85-3.68-1.16-5.5-1.2-2.21,0-13.02-5.89-12.28-11.55.31-2.4-1.08-5.46-2.6-7.59-2.25-3.06-2.71-5.27.19-8.18,3.84-3.87,2.01-13.6-2.56-16.54-1.39-.89-2.48-2.4-3.33-3.87-1.16-1.94-2.05-4.07-2.83-6.16-.46-1.24-1.2-3.14-.62-3.91,2.4-3.33,1.82-5.39-1.59-7.59-1.63-1.05-30.96-39.71-30.96-40.18-.04-5.77.23-11.58-.15-17.36-.16-2.56-1.39-5.15-2.6-7.48-2.91-5.5-6.2-10.81-8.99-16.39-.54-1.01.39-2.83.74-4.22,1.7-6.28.89-8.06-4.26-11.82-4.26-3.06-7.9-6.97-12.36-9.65-3.91-2.4-8.68-3.41-12.9-5.42-2.94-1.39-5.89-3.18-8.18-5.42-1.16-1.12-1.51-3.84-1.16-5.62.81-4.49-10.54-9.49-12.79-10.81.27-5.93-.89-9.65-5.08-13.17-4.77-4.03-27.16-48.2-37.23-49.55-3.41-.46-5.73-3.8-8.52-8.95-.62-1.08-.81-2.44-1.28-3.64-1.55-3.76-40.41-41.19-44.29-47.35-.23-.43-8.45-9.88-11.35-14.96-3.87-6.7-6.94-14.8-12.67-19.33-3.22-2.01-5.54-11-8.14-16.89-.54-4.3-4.38-9.8-5.93-14.61-2.29-7.13-7.28-12.82-8.1-15.23-1.01-2.98-1.43-6.12-2.44-9.1-1.94-5.81-4.49-7.59-10.62-7.52-3.6.08-7.36,1.2-10.73.39-3.49-.81-7.25-2.67-9.76-5.23-5.11-5.15-9.49-11.04-14.18-16.62-.19-.23-.5-.58-.77-.58-9.8.31-14.14-8.33-21-12.82-3.91-2.6-3.87-5.73-.97-9.49,1.28-1.59,1.7-3.8,2.63-5.7.89-1.78,4.18-7.94,6.2-9.96,4.73-4.77,12.82-10.34,18.33-14.18,2.48-1.74,3.56-3.1,4.65-6.2,1.82-5.19,2.52-7.87,7.59-9.18,11.74-3.1,18.06-5.23,29.68-8.6,1.12-.31,7.32-2.98,7.9-2.63,3.95,2.44,7.83,1.51,7.83,1.51,6.32-3.33,8.68-6.94,15.19-9.76,6.43-2.79,17.01-4.8,23.67-7.05.31-.08,10.27-4.84,10.93-5.31,2.79,3.68,8.64,2.79,13.29,2.52,2.79-.15,5.54-1.24,8.25-1.12,15.92.77,31.89,1.78,47.81,2.67,34.25,1.86,68.46,3.72,102.67,5.54,4.34.23,8.64.31,12.98.46,3.84.19,7.79-.66,9.18,5.39-1.24,4.42-3.42,4.33-.7,8.71,1.55,2.52,5.31-.63,7.56-1.64,4.38-1.98,5.27-.13,9.72-3.23,6.66,9.14,13.25,18.06,19.64,27.12.74,1.01.5,2.83.39,4.26-.39,4.3-.74,8.64-1.51,12.9-.77,4.38,1.05,5.39,5.11,5.39,18.98-.04,37.97.12,56.96.27,32.31.23,64.59.46,96.9.89,2.17.04,4.88,1.16,6.47,2.67,20.92,20.26,41.65,40.76,62.5,61.1,31.81,31.03,63.66,62.03,95.54,92.99,1.28,1.24,3.02,2.05,4.15,3.64-15.54,5.23-28.75,12.59-39.91,23.4-46.8,52.34-45.18,61.33-47.89,76.71-.89,5-.31,10.19-.7,15.27Z" /></svg><p data-start="50" data-end="99">SCDOR’S FREE &amp; SECURE TAX PORTAL</p><p data-start="101" data-end="251">✔ Apply for tax accounts<br>✔ File business tax returns&nbsp;<br>✔ Make and schedule payments<br>✔ Upload requested documents<br>✔ Calculate penalty and interest<br>✔ Apply for licenses and exemptions</p></div>
+      </div>
+    </div>
+  
+                                          <div class="flyout-buttons button-count--2">
+                          
+  <a href="https://mydorway.dor.sc.gov/_/" class="btn btn-outline_light">
+    Log in
+  </a>
+
+                          
+  <a href="https://dor.sc.gov/mydorway-signup" class="btn btn-link">
+    Sign Up
+  </a>
+
+                    </div>
+              </div>
+      </div>
+
+            </li>
+          
+										<li class="has-children menu-item menu-item--expanded menu-item--active-trail" data-menu-level="0">
+            
+             <span>Taxes &amp; Licenses</span>
+  <a class="plus " role="button" tabindex="0">Open Taxes &amp; Licenses</a>
+  <div class="flyout">
+          				
+          <ul>
+            
+                            <li class="menu-item" data-menu-level="1">
+                                  <a href="/iit" data-drupal-link-system-path="node/271">Individual Income Tax</a>
+                              </li>
+            
+                            <li class="has-children menu-item menu-item--expanded menu-item--active-trail" data-menu-level="1">
+                                  <a href="/sales-use-tax-index" data-drupal-link-system-path="node/976">Sales Taxes</a>
+                  <a class="plus" role="button" tabindex="0">Open
+                    Sales Taxes</a>
+                  				
+          <ul>
+            
+                            <li class="menu-item" data-menu-level="2">
+                                  <a href="/sales-use-tax-index/accommodations" data-drupal-link-system-path="node/1011">Accommodations</a>
+                              </li>
+            
+                            <li class="menu-item" data-menu-level="2">
+                                  <a href="/sales-use-tax-index/local-sales-taxes" data-drupal-link-system-path="node/981">Local Sales Taxes</a>
+                              </li>
+            
+                            <li class="menu-item menu-item--collapsed" data-menu-level="2">
+                                  <a href="/sales-use-tax-index/sales-tax" data-drupal-link-system-path="node/1046">Sales</a>
+                              </li>
+            
+                            <li class="menu-item" data-menu-level="2">
+                                  <a href="/sales-use-tax-index/use-tax" data-drupal-link-system-path="node/1061">Use</a>
+                              </li>
+            
+                            <li class="menu-item" data-menu-level="2">
+                                  <a href="/sales-use-tax-index" data-drupal-link-system-path="node/976">(see more)</a>
+                              </li>
+                              </ul>
+
+			
+                              </li>
+            
+                            <li class="has-children menu-item menu-item--expanded" data-menu-level="1">
+                                  <a href="/withholding" data-drupal-link-system-path="node/1101">Withholding Tax</a>
+                  <a class="plus" role="button" tabindex="0">Open
+                    Withholding Tax</a>
+                  				
+          <ul>
+            
+                            <li class="menu-item" data-menu-level="2">
+                                  <a href="/withholding/w-2-1099-upload" data-drupal-link-system-path="node/1116">W-2 &amp; 1099 Upload</a>
+                              </li>
+                              </ul>
+
+			
+                              </li>
+            
+                            <li class="has-children menu-item menu-item--expanded" data-menu-level="1">
+                                  <a href="/alcohol-beverage-licensing-abl" data-drupal-link-system-path="node/586">Alcohol Beverage Licensing (ABL)</a>
+                  <a class="plus" role="button" tabindex="0">Open
+                    Alcohol Beverage Licensing (ABL)</a>
+                  				
+          <ul>
+            
+                            <li class="menu-item menu-item--collapsed" data-menu-level="2">
+                                  <a href="/alcohol-beverage-licensing-abl/license-directory" data-drupal-link-system-path="node/591">Licenses</a>
+                              </li>
+                              </ul>
+
+			
+                              </li>
+            
+                            <li class="has-children menu-item menu-item--expanded" data-menu-level="1">
+                                  <a href="/businesses/apply-business-tax-account" data-drupal-link-system-path="node/346">Licensing</a>
+                  <a class="plus" role="button" tabindex="0">Open
+                    Licensing</a>
+                  				
+          <ul>
+            
+                            <li class="menu-item" data-menu-level="2">
+                                  <a href="/businesses/apply-business-tax-account/licensing-retail-license" data-drupal-link-system-path="node/351">Retail License</a>
+                              </li>
+                              </ul>
+
+			
+                              </li>
+            
+                            <li class="has-children menu-item menu-item--expanded" data-menu-level="1">
+                                  <a href="/property" data-drupal-link-system-path="node/916">Property Taxes</a>
+                  <a class="plus" role="button" tabindex="0">Open
+                    Property Taxes</a>
+                  				
+          <ul>
+            
+                            <li class="menu-item" data-menu-level="2">
+                                  <a href="/property/property-tax-exemptions" data-drupal-link-system-path="node/4276">Property Tax Exemptions</a>
+                              </li>
+            
+                            <li class="menu-item menu-item--collapsed" data-menu-level="2">
+                                  <a href="/property/business-personal-property" data-drupal-link-system-path="node/926">Business Personal Property</a>
+                              </li>
+            
+                            <li class="menu-item" data-menu-level="2">
+                                  <a href="/property" data-drupal-link-system-path="node/916">(see more)</a>
+                              </li>
+                              </ul>
+
+			
+                              </li>
+            
+                            <li class="has-children menu-item menu-item--expanded" data-menu-level="1">
+                                  <a href="/business-income-taxes" data-drupal-link-system-path="node/506">Business Income Taxes</a>
+                  <a class="plus" role="button" tabindex="0">Open
+                    Business Income Taxes</a>
+                  				
+          <ul>
+            
+                            <li class="menu-item menu-item--collapsed" data-menu-level="2">
+                                  <a href="/business-income-taxes/corporate" data-drupal-link-system-path="node/511">Corporate</a>
+                              </li>
+            
+                            <li class="menu-item" data-menu-level="2">
+                                  <a href="/business-income-taxes/fiduciary" data-drupal-link-system-path="node/561">Fiduciary</a>
+                              </li>
+            
+                            <li class="menu-item" data-menu-level="2">
+                                  <a href="/business-income-taxes/partnership" data-drupal-link-system-path="node/571">Partnership</a>
+                              </li>
+            
+                            <li class="menu-item" data-menu-level="2">
+                                  <a href="/business-income-taxes/tax-exempt-organizations" data-drupal-link-system-path="node/581">Tax Exempt Organizations</a>
+                              </li>
+                              </ul>
+
+			
+                              </li>
+            
+                            <li class="menu-item menu-item--expanded" data-menu-level="1">
+                                  <a href="/tax-credits" data-drupal-link-system-path="node/1081">Tax Credits</a>
+                              </li>
+            
+                            <li class="has-children menu-item menu-item--expanded" data-menu-level="1">
+                                  <a href="/tax-index" data-drupal-link-system-path="node/501">Other Taxes &amp; Fees</a>
+                  <a class="plus" role="button" tabindex="0">Open
+                    Other Taxes &amp; Fees</a>
+                  				
+          <ul>
+            
+                            <li class="menu-item" data-menu-level="2">
+                                  <a href="/tax-index/admissions" data-drupal-link-system-path="node/806">Admissions</a>
+                              </li>
+            
+                            <li class="menu-item menu-item--collapsed" data-menu-level="2">
+                                  <a href="/tax-index/alcohol-taxes" data-drupal-link-system-path="node/811">Alcohol Taxes</a>
+                              </li>
+            
+                            <li class="menu-item menu-item--collapsed" data-menu-level="2">
+                                  <a href="/tax-index/bingo" data-drupal-link-system-path="node/836">Bingo</a>
+                              </li>
+            
+                            <li class="menu-item menu-item--collapsed" data-menu-level="2">
+                                  <a href="/tax-index/motor-fuel" data-drupal-link-system-path="node/891">Motor Fuel</a>
+                              </li>
+            
+                            <li class="menu-item menu-item--collapsed" data-menu-level="2">
+                                  <a href="/tax-index/tobacco-nicotine-vapor-taxes" data-drupal-link-system-path="node/4621">Tobacco &amp; Nicotine Vapor Taxes</a>
+                              </li>
+            
+                            <li class="menu-item" data-menu-level="2">
+                                  <a href="/tax-index" data-drupal-link-system-path="node/501">(see more)</a>
+                              </li>
+                              </ul>
+
+			
+                              </li>
+                              </ul>
+
+			
+    
+          <div class="flyout-promo-section">
+                                    <div id="flyout-content-26426" class="paragraph paragraph--id--26426 paragraph--type--flyout-content paragraph--view-mode--default flyout-content">
+      <div class="wrap">
+            <div class="clearfix text-formatted field field--name-field-body-text field--type-text-long field--label-hidden field__item"><img src="/sites/dor/files/inline-images/ReveNewsLogo.png" data-entity-uuid="e3a7c5a8-d0a8-40ba-af85-03f1b5781489" data-entity-type="file" width="1009" height="185" alt="Revenews" loading="lazy"><p class="text-align-center" style="text-transform:uppercase;">The SCDOR’s monthly email newsletter</p><p>✓ Important updates<br>✓ Helpful tips<br>✓ Deadline reminders</p></div>
+      </div>
+    </div>
+  
+                                          <div class="flyout-buttons button-count--1">
+                          
+  <a href="https://visitor.r20.constantcontact.com/d.jsp?llr=7rd5lgsab&amp;p=oi&amp;m=1119052828220&amp;sit=4kl6abgjb&amp;f=6b3dafe2-1c05-48d8-bcd4-ca21e25b9291" class="btn btn-secondary">
+    Sign Up Now
+  </a>
+
+                    </div>
+              </div>
+      </div>
+
+            </li>
+          
+										<li class="has-children menu-item menu-item--expanded" data-menu-level="0">
+            
+             <span>Law &amp; Policy</span>
+  <a class="plus " role="button" tabindex="0">Open Law &amp; Policy</a>
+  <div class="flyout">
+          				
+          <ul>
+            
+                            <li class="has-children menu-item menu-item--expanded" data-menu-level="1">
+                                  <a href="/policy" data-drupal-link-system-path="node/1151">Policy</a>
+                  <a class="plus" role="button" tabindex="0">Open
+                    Policy</a>
+                  				
+          <ul>
+            
+                            <li class="menu-item" data-menu-level="2">
+                                  <a href="/advisory-opinion-search" data-drupal-link-system-path="node/3261">Advisory Opinion Search</a>
+                              </li>
+            
+                            <li class="menu-item" data-menu-level="2">
+                                  <a href="/policy/draft-advisory-opinions" data-drupal-link-system-path="node/1161">Draft Advisory Opinions</a>
+                              </li>
+            
+                            <li class="menu-item" data-menu-level="2">
+                                  <a href="/policy/policy-manuals" data-drupal-link-system-path="node/2841">Policy Manuals</a>
+                              </li>
+                              </ul>
+
+			
+                              </li>
+            
+                            <li class="has-children menu-item menu-item--expanded" data-menu-level="1">
+                                  <a href="/general-counsel" data-drupal-link-system-path="node/1176">Law</a>
+                  <a class="plus" role="button" tabindex="0">Open
+                    Law</a>
+                  				
+          <ul>
+            
+                            <li class="menu-item" data-menu-level="2">
+                                  <a href="/general-counsel" data-drupal-link-system-path="node/1176">General Counsel</a>
+                              </li>
+            
+                            <li class="menu-item" data-menu-level="2">
+                                  <a href="/general-counsel/foia-legal-correspondence" data-drupal-link-system-path="node/1181">FOIA &amp; Legal Correspondence</a>
+                              </li>
+                              </ul>
+
+			
+                              </li>
+                              </ul>
+
+			
+    
+          <div class="flyout-promo-section">
+                                    <div id="flyout-content-26436" class="paragraph paragraph--id--26436 paragraph--type--flyout-content paragraph--view-mode--default flyout-content">
+      <div class="wrap">
+            <div class="field field--name-field-headline field--type-string field--label-hidden field__item">Receive tax policy updates by email</div>
+      </div>
+    </div>
+  
+                                          <div class="flyout-buttons button-count--1">
+                          
+  <a href="http://visitor.r20.constantcontact.com/d.jsp?llr=7rd5lgsab&amp;p=oi&amp;m=1119052828220&amp;sit=4kl6abgjb&amp;f=4b0fc972-1efd-4497-ab3e-fffbf1272eb0" class="btn btn-secondary">
+    Sign Up Now
+  </a>
+
+                    </div>
+              </div>
+      </div>
+
+            </li>
+          
+										<li class="has-children menu-item menu-item--expanded" data-menu-level="0">
+            
+             <span>Connect With Us</span>
+  <a class="plus " role="button" tabindex="0">Open Connect With Us</a>
+  <div class="flyout">
+          				
+          <ul>
+            
+                            <li class="has-children menu-item menu-item--expanded" data-menu-level="1">
+                                  <a href="/tax-education" data-drupal-link-system-path="node/381">Tax Education</a>
+                  <a class="plus" role="button" tabindex="0">Open
+                    Tax Education</a>
+                  				
+          <ul>
+            
+                            <li class="menu-item" data-menu-level="2">
+                                  <a href="/tax-education/taxpayer-education-classes" data-drupal-link-system-path="node/386">Seminars &amp; Workshops</a>
+                              </li>
+            
+                            <li class="menu-item menu-item--collapsed" data-menu-level="2">
+                                  <a href="/tax-education/guides-flyers" data-drupal-link-system-path="node/1251">Guides &amp; Flyers</a>
+                              </li>
+            
+                            <li class="menu-item menu-item--collapsed" data-menu-level="2">
+                                  <a href="/tax-education/security-center" data-drupal-link-system-path="node/396">Fraud &amp; Cybersecurity</a>
+                              </li>
+                              </ul>
+
+			
+                              </li>
+            
+                            <li class="has-children menu-item menu-item--expanded" data-menu-level="1">
+                                  <a href="/contact-us" data-drupal-link-system-path="node/4296">Contact Us</a>
+                  <a class="plus" role="button" tabindex="0">Open
+                    Contact Us</a>
+                  				
+          <ul>
+            
+                            <li class="menu-item" data-menu-level="2">
+                                  <a href="/contact-us/locations" data-drupal-link-system-path="node/1226">Locations</a>
+                              </li>
+                              </ul>
+
+			
+                              </li>
+            
+                            <li class="has-children menu-item menu-item--expanded" data-menu-level="1">
+                                  <a href="/who-we-are" data-drupal-link-system-path="node/1186">Who We Are</a>
+                  <a class="plus" role="button" tabindex="0">Open
+                    Who We Are</a>
+                  				
+          <ul>
+            
+                            <li class="menu-item" data-menu-level="2">
+                                  <a href="/who-we-are/organization" data-drupal-link-system-path="node/1191">Organization</a>
+                              </li>
+            
+                            <li class="menu-item" data-menu-level="2">
+                                  <a href="/who-we-are/careers" data-drupal-link-system-path="node/1201">Careers</a>
+                              </li>
+                              </ul>
+
+			
+                              </li>
+            
+                            <li class="has-children menu-item menu-item--expanded" data-menu-level="1">
+                                  <a href="/communications" data-drupal-link-system-path="node/1236">Communications</a>
+                  <a class="plus" role="button" tabindex="0">Open
+                    Communications</a>
+                  				
+          <ul>
+            
+                            <li class="menu-item" data-menu-level="2">
+                                  <a href="/news" data-drupal-link-system-path="news">News</a>
+                              </li>
+            
+                            <li class="menu-item menu-item--collapsed" data-menu-level="2">
+                                  <a href="/communications/media-kit" data-drupal-link-system-path="node/1246">Media Kit</a>
+                              </li>
+                              </ul>
+
+			
+                              </li>
+            
+                            <li class="has-children menu-item menu-item--expanded" data-menu-level="1">
+                                  <a href="/transparency" data-drupal-link-system-path="node/1276">Transparency</a>
+                  <a class="plus" role="button" tabindex="0">Open
+                    Transparency</a>
+                  				
+          <ul>
+            
+                            <li class="menu-item" data-menu-level="2">
+                                  <a href="/general-counsel/foia-legal-correspondence" data-drupal-link-system-path="node/1181">FOIA &amp; Subpoena Requests</a>
+                              </li>
+            
+                            <li class="menu-item" data-menu-level="2">
+                                  <a href="/transparency/taxpayers-bill-rights" data-drupal-link-system-path="node/1196">Taxpayers&#039; Bill of Rights</a>
+                              </li>
+                              </ul>
+
+			
+                              </li>
+                              </ul>
+
+			
+    
+          <div class="flyout-promo-section">
+                                    <div id="flyout-content-26446" class="paragraph paragraph--id--26446 paragraph--type--flyout-content paragraph--view-mode--default flyout-content">
+      <div class="wrap">
+            <div class="field field--name-field-headline field--type-string field--label-hidden field__item">Join Our Team</div>
+      
+            <div class="clearfix text-formatted field field--name-field-body-text field--type-text-long field--label-hidden field__item"><svg aria-label="south carolina dor department of revenue" role="img" id="Layer_1" version="1.1" viewBox="0 0 1497.54 819.51"><!-- Generator: Adobe Illustrator 29.8.1, SVG Export Plug-In . SVG Version: 2.1.1 Build 2)  --><defs><style></style></defs><path class="st2" fill="#439c46" d="M772.27,119.68c-162.88-2.88-290.88,127.87-291.11,284.94-.22,157.79,129.07,286.03,284.99,285.14,155.01,1.26,283.79-125.27,285.61-280.65,1.89-161.48-126.71-286.72-279.49-289.43ZM1026.56,408.41c-.75.47-1.49.96-2.22,1.45-.66.44-1.31.88-1.95,1.34-.38.26-.76.52-1.13.8-.4.28-.8.57-1.2.86-1.98,1.46-3.9,2.97-5.77,4.52-.34.28-.67.56-1,.85-.43.36-.86.73-1.28,1.1-.58.5-1.14,1.01-1.7,1.52-.54.48-1.07.97-1.59,1.46-.51.47-1,.95-1.49,1.43-.09.08-.17.16-.25.24-.38.37-.76.74-1.13,1.11-.4.4-.8.81-1.2,1.22l-.09.09c-.52.54-1.04,1.07-1.55,1.62-.99,1.05-1.96,2.12-2.92,3.21-.4.45-.79.9-1.18,1.36-.71.82-1.41,1.66-2.1,2.5-.37.44-.73.89-1.08,1.34-.15.17-.29.35-.43.53-.42.52-.83,1.05-1.24,1.59-.46.58-.91,1.18-1.36,1.77-3.03,4.05-5.89,8.27-8.59,12.63-.4.64-.79,1.28-1.18,1.93-.43.71-.86,1.42-1.28,2.14-.85,1.44-1.68,2.89-2.5,4.35-2.51,4.48-5.2,8.6-5.07,14.22.14,5.97-4.72,4.45-7.86,4.11,2.19,3.17,5,6.19,6.56,9.76,1.57,3.59.35,6.9-3.32,9.41-10.69,7.28-21.09,14.99-33.54,19.22-3.76,1.28-6.84,3.49-6.71,8.24.02.8-.76,1.81-1.43,2.43-6.08,5.68-12.1,11.43-18.38,16.89-5.6,4.87-5.74,4.72-11.84.28-.77-.56-1.56-1.1-3.48-2.44,1.91,3.8,3.13,6.46,4.55,9,2.38,4.28,1.62,5.2-2.85,7.91-8.87,5.38-18.31,9.21-27.98,12.85-4.78,1.79-8.6,6.08-12.94,9.12-3.03,2.13-6.17,4.51-8.74,1.19-5.17.7-9.62,1.31-14.66,2,2.63,2.46,5.28,5.46,8.45,7.75,3.12,2.25,3.27,4.96,1.15,7.16-3.06,3.18-6.67,5.97-10.44,8.28-4.17,2.54-8.81,4.31-13.19,6.52-.59.3-.81,1.26-1.27,1.87-3.69,4.83-7.16,9.87-11.23,14.37-1.55,1.72-4.48,2.21-7.52,3.59-1.82,5.06-5.44,7.89-10.56,7.89-.34,0-.68-.01-1.03-.04-.34-.02-.69-.06-1.04-.11-.23-.03-.47-.07-.7-.11-.19-.03-.38-.07-.58-.11h-.01c-.29-.06-.59-.13-.89-.21-.19-.04-.37-.09-.55-.15-1.79-.47-3.56-1.01-5.37-1.38-.94-.19-1.84-.4-2.7-.66-.28-.08-.56-.17-.83-.26-.49-.16-.96-.33-1.41-.53-.26-.1-.51-.22-.75-.34-.33-.16-.65-.33-.96-.5-.01-.01-.02-.01-.02-.02-.25-.15-.49-.3-.73-.46-.09-.06-.17-.12-.25-.18-.21-.15-.41-.31-.61-.48-.69-.58-1.29-1.24-1.79-2.01-.1-.15-.2-.3-.29-.46-.19-.32-.36-.66-.51-1.02-.07-.16-.14-.32-.2-.48-.15-.39-.27-.81-.38-1.24-.05-.19-.09-.39-.13-.59-.18-.87-.27-1.83-.29-2.87-.04-2.29-1.84-4.56-2.86-6.84-1.53-3.38-3.09-6.74-.3-10.28.37-.48.62-1.32.48-1.88-2.35-9.48-4.14-19.26-12.39-25.91-4.65-3.75-9.55-7.23-13.98-11.23-3.06-2.76-3.47-5.92-2.58-10.61,1.09-5.83-.47-12.42-1.97-18.41-1.77-7.05-4.74-13.8-7.12-20.7-2.35-6.81-6.2-12.07-13.55-14.12-2.23-.62-4.28-1.84-6.5-2.54-4.42-1.41-6.59-4.73-9.14-8.44-5.2-7.55-7.91-16.75-15.76-22.64-4.88-3.66-5.02-9.08-2.47-12.78-3.27-4.05-6.39-7.12-8.52-10.76-2.08-3.54-4.9-5.32-8.41-7.18-4.4-2.34-8.49-5.68-11.87-9.36-1.67-1.83-.93-5.66-2.19-8.11-2.05-3.97-4.01-9.28-7.49-10.98-15.31-7.49-23.62-21-32.14-34.52-.36-.56-.59-1.22-1.04-1.69-6.56-6.84-7.67-15.41-9.52-24.33-1.49-7.15-7.23-13.6-11.78-19.85-3.76-5.19-8.64-9.23-16.03-8.15-1.47.22-3.52-.92-4.75-2.04-10.24-9.27-20.31-18.73-30.53-28.03-2.15-1.95-3.2-4-1.57-6.51,4.4-6.77,8.85-13.52,13.52-20.1,2.78-3.92,6.35-7.29,8.98-11.3,3.22-4.91,7.8-6.83,13.2-7.99,4.86-1.04,9.56-2.82,14.41-3.9,2.94-.65,6.05-.58,9.08-.85,1.45-.14,2.99-.05,4.34-.51,13.17-4.55,26.29-9.23,39.47-13.74,1.82-.62,3.92-.78,5.86-.66,19.58,1.17,39.16,2.47,58.74,3.66,13.61.83,27.23,1.51,40.85,2.33,2.64.16,5.28.33,7.93.49,1.53.1,3.06.2,4.6.3,1.41.1,2.81.19,4.23.28,4.34.28,8.74.58,13.25.88,1.37.09,2.76.18,4.16.27-.04.52-.08,1.03-.13,1.53,0,.06,0,.12-.01.19-.13,1.46-.25,2.9-.37,4.37-.04.52-.09,1.03-.13,1.55-.02.26-.05.52-.07.79-.07.79-.14,1.6-.21,2.44-.04.56-.09,1.12-.14,1.7,2.79-1.16,5.27-1.92,7.47-3.17,3.12-1.78,5.34-1.57,7.55,1.55,2.68,3.8,5.53,7.59,8.86,10.81,5.71,5.5,7.96,11.64,4.64,19.71,7.01.38,13.39.92,19.78,1.02,15.49.24,30.99.21,46.48.42,15.48.21,30.96.43,46.43,1.01,2.29.09,4.97,1.72,6.68,3.43,30.99,30.75,61.85,61.63,92.76,92.47,6.37,6.36,12.81,12.64,19.19,18.99.24.24.48.49.72.75.33.37.66.75,1,1.14.62.72,1.24,1.48,1.93,2.26-.87.45-1.73.91-2.58,1.38-2.32,1.28-4.58,2.62-6.76,4.02Z" /><path class="st0" fill="#fff" d="M1497.45,693.58c.28.62-.18,1.34-.86,1.34-1.48,0-2.83,0-4.18,0-25.83,0-51.66-.16-77.49.15-8.98,0-5.7,1.09-8.59-5.51-7.02-19.44-14.9-38.63-20.82-58.4-9.12-30.44-16.4-61.43-25.39-91.91-6.87-23.3-17.56-44.76-35.74-61.75-15.14-14.15-33.29-22.14-53.22-26.52-17.11-3.76-34.47-5.06-51.98-4.98-22.16.11-44.33-.01-66.49-.03-1.38,0-2.76,0-4.56,0-.52,0-.94.42-.94.94v246.17c0,.52-.42.94-.94.94h-84.21c-.52,0-.94-.42-.94-.94V129.87c0-.47.35-.87.82-.93,9.71-1.32,18.92-2.84,28.2-3.73,22.66-2.17,45.33-4.34,68.05-5.89,15.6-1.06,31.26-1.37,46.9-1.51,19.46-.16,38.96-.52,58.38.49,42.21,2.18,83.92,7.51,123.12,24.83,38.7,17.1,67.93,43.77,81.35,84.74,19.92,60.85.86,122.34-54.83,161.3-18.25,12.77-38.2,21.92-59.33,28.72-1.16.37-2.21,1.06-3.28,1.73-.56.35-.6,1.15-.07,1.55,1.1.83,2.62,1.55,3.43,2.14,37.9,13.09,62.82,39.75,79.44,75.33,9.61,20.56,14.34,42.64,20.86,64.18,11.08,36.58,22.43,73.09,34.02,109.52,2.26,7.1,5.9,13.76,9.31,21.25ZM1147.26,389.07c0,.49.38.9.86.94,1.27.11,2.21.22,3.14.22,31.65.01,63.31.28,94.96-.07,26.82-.3,52.99-4.81,77.57-15.97,36.26-16.47,60.9-42.28,64.68-83.85,3.82-42.03-14.45-75.83-50.72-94.75-27.78-14.48-57.83-19.37-88.56-20.4-20.1-.67-40.28.07-60.4.87-11.75.46-27.46,1.59-41.34,5.22.14,45.15.08,96.09.06,141.24,0,7.66-.21,15.31-.23,22.97-.04,14.36-.01,28.72-.01,43.57Z" /><path class="st1" fill="#fff" d="M1033.32,404.39c-2.32,1.28-4.58,2.62-6.76,4.02-.75.47-1.49.96-2.22,1.45-.66.44-1.31.88-1.95,1.34-.38.26-.76.53-1.13.8-.4.28-.8.57-1.2.86-1.98,1.46-3.9,2.97-5.77,4.52-.34.28-.67.56-1,.85-.43.36-.86.73-1.28,1.1-.57.5-1.14,1-1.7,1.52-.54.48-1.07.97-1.59,1.46-.5.47-1,.95-1.49,1.43-.09.08-.17.16-.25.24-.38.36-.75.73-1.13,1.11-.4.41-.8.81-1.2,1.22l-.09.09c-.52.53-1.04,1.07-1.55,1.62-.99,1.05-1.96,2.12-2.92,3.21-.4.45-.79.9-1.18,1.36-.71.82-1.41,1.66-2.1,2.5-.37.44-.73.89-1.08,1.34-.15.17-.29.35-.43.53-.42.53-.84,1.06-1.24,1.59-.46.59-.91,1.18-1.36,1.77-3.03,4.05-5.89,8.27-8.59,12.63-.4.64-.8,1.28-1.18,1.93-.44.71-.86,1.42-1.28,2.14-.85,1.44-1.68,2.89-2.5,4.35-2.51,4.48-5.2,8.6-5.07,14.22.14,5.97-4.72,4.45-7.86,4.11,2.19,3.17,5,6.19,6.56,9.76,1.57,3.59.35,6.9-3.32,9.41-10.69,7.28-21.09,14.99-33.54,19.22-3.76,1.28-6.84,3.49-6.71,8.24.02.8-.76,1.81-1.43,2.43-6.08,5.68-12.1,11.43-18.38,16.89-5.6,4.87-5.74,4.72-11.84.28-.77-.56-1.56-1.1-3.48-2.44,1.91,3.8,3.13,6.46,4.55,9,2.38,4.28,1.62,5.2-2.85,7.91-8.87,5.38-18.31,9.21-27.98,12.85-4.78,1.79-8.6,6.08-12.94,9.12-3.03,2.13-6.17,4.51-8.74,1.19-5.17.7-9.62,1.31-14.66,2,2.63,2.46,5.28,5.46,8.45,7.75,3.12,2.25,3.27,4.96,1.15,7.16-3.06,3.18-6.67,5.97-10.44,8.28-4.17,2.54-8.81,4.31-13.19,6.52-.59.3-.81,1.26-1.27,1.87-3.69,4.83-7.16,9.87-11.23,14.37-1.55,1.72-4.48,2.21-7.52,3.59-1.82,5.06-5.44,7.89-10.56,7.89-.34,0-.68-.01-1.03-.04-.34-.02-.69-.06-1.04-.11-.23-.03-.47-.07-.7-.11-.19-.03-.38-.07-.58-.11h-.01c-.29-.06-.59-.13-.89-.21-.19-.04-.37-.09-.55-.15-.25-.07-.5-.14-.75-.22-1.39-.44-2.8-.8-4.22-1.08-.13-.03-.27-.05-.4-.08-.94-.19-1.84-.4-2.7-.66-.28-.08-.56-.17-.83-.26-.49-.16-.96-.33-1.41-.53-.26-.1-.51-.22-.75-.34-.33-.16-.65-.33-.96-.5-.01-.01-.02-.01-.02-.02-.25-.15-.49-.3-.73-.46-.09-.06-.17-.12-.25-.18-.21-.15-.41-.31-.61-.48-.69-.58-1.29-1.24-1.79-2.01-.11-.15-.2-.31-.29-.46-.19-.32-.36-.66-.51-1.02-.07-.16-.14-.32-.2-.48-.15-.39-.27-.81-.38-1.24-.05-.19-.09-.39-.13-.59-.18-.87-.27-1.83-.29-2.87-.04-2.29-1.84-4.56-2.86-6.84-1.53-3.38-3.09-6.74-.3-10.28.37-.48.62-1.32.48-1.88-2.35-9.48-4.14-19.26-12.39-25.91-4.65-3.75-9.55-7.23-13.98-11.23-3.06-2.76-3.47-5.92-2.58-10.61,1.09-5.83-.47-12.42-1.97-18.41-1.77-7.05-4.74-13.8-7.12-20.7-2.35-6.81-6.2-12.07-13.55-14.12-2.23-.62-4.28-1.84-6.5-2.54-4.42-1.41-6.59-4.73-9.14-8.44-5.2-7.55-7.91-16.75-15.76-22.64-4.88-3.66-5.02-9.08-2.47-12.78-3.27-4.05-6.39-7.12-8.52-10.76-2.08-3.54-4.9-5.32-8.41-7.18-4.4-2.34-8.49-5.68-11.87-9.36-1.67-1.83-.93-5.66-2.19-8.11-2.05-3.97-4.01-9.28-7.49-10.98-15.31-7.49-23.62-21-32.14-34.52-.36-.56-.59-1.22-1.04-1.69-6.56-6.84-7.67-15.41-9.52-24.33-1.49-7.15-7.23-13.6-11.78-19.85-3.76-5.19-8.64-9.23-16.03-8.15-1.47.22-3.52-.92-4.75-2.04-10.24-9.27-20.31-18.73-30.53-28.03-2.15-1.95-3.2-4-1.57-6.51,4.4-6.77,8.85-13.52,13.52-20.1,2.78-3.92,6.35-7.29,8.98-11.3,3.22-4.91,7.8-6.83,13.2-7.99,4.86-1.04,9.56-2.82,14.41-3.9,2.94-.65,6.05-.58,9.08-.85,1.45-.14,2.99-.05,4.34-.51,13.17-4.55,26.29-9.23,39.47-13.74,1.82-.62,3.92-.78,5.86-.66,19.58,1.17,39.16,2.47,58.74,3.66,13.61.83,27.23,1.51,40.85,2.33,2.64.16,5.28.33,7.93.49,1.53.1,3.06.2,4.6.3,1.41.1,2.81.19,4.23.28,4.34.28,8.74.58,13.25.88.81.05,1.62.11,2.43.16.88.06,1.57.78,1.6,1.64,0,.06,0,.12-.01.19-.13,1.46-.25,2.9-.37,4.37-.04.51-.09,1.02-.13,1.55-.02.26-.05.52-.07.79-.07.79-.14,1.6-.21,2.44-.04.56-.09,1.12-.14,1.7,2.79-1.16,5.27-1.92,7.47-3.17,3.12-1.78,5.34-1.57,7.55,1.55,2.68,3.8,5.53,7.59,8.86,10.81,5.71,5.5,7.96,11.64,4.64,19.71,7.01.38,13.39.92,19.78,1.02,15.49.24,30.99.21,46.48.42,15.48.21,30.96.43,46.43,1.01,2.29.09,4.97,1.72,6.68,3.43,30.99,30.75,61.85,61.63,92.76,92.47,6.37,6.36,12.81,12.64,19.19,18.99.24.24.48.49.72.75.33.37.66.75,1,1.14.98,1.14.67,2.92-.65,3.64Z" /><g><path class="st0" fill="#fff" d="M10.82,68.9c4.64,2.86,11.42,5.24,18.56,5.24,10.59,0,16.78-5.59,16.78-13.69,0-7.5-4.28-11.78-15.11-15.95-13.09-4.64-21.18-11.42-21.18-22.73C9.86,9.28,20.22,0,35.81,0c8.21,0,14.16,1.9,17.73,3.93l-2.86,8.45c-2.62-1.43-7.97-3.81-15.23-3.81-10.95,0-15.11,6.55-15.11,12.02,0,7.5,4.88,11.19,15.95,15.47,13.57,5.24,20.47,11.78,20.47,23.56,0,12.38-9.16,23.09-28.08,23.09-7.74,0-16.18-2.26-20.47-5.12l2.62-8.69Z" /><path class="st0" fill="#fff" d="M139.46,40.58c0,27.61-16.78,42.25-37.25,42.25s-36.06-16.42-36.06-40.7C66.15,16.66,81.98,0,103.4,0s36.06,16.78,36.06,40.58ZM77.22,41.89c0,17.14,9.28,32.49,25.59,32.49s25.71-15.11,25.71-33.32c0-15.95-8.33-32.61-25.59-32.61s-25.7,15.83-25.7,33.44Z" /><path class="st0" fill="#fff" d="M163.25,1.31v47.48c0,17.97,7.97,25.59,18.68,25.59,11.9,0,19.52-7.85,19.52-25.59V1.31h10.47v46.77c0,24.63-12.97,34.75-30.35,34.75-16.42,0-28.8-9.4-28.8-34.27V1.31h10.47Z" /><path class="st0" fill="#fff" d="M245.12,10.12h-24.4V1.31h59.38v8.81h-24.51v71.4h-10.47V10.12Z" /><path class="st0" fill="#fff" d="M299.39,1.31v33.56h38.79V1.31h10.47v80.21h-10.47v-37.6h-38.79v37.6h-10.35V1.31h10.35Z" /><path class="st0" fill="#fff" d="M447.9,78.9c-3.81,1.9-11.42,3.81-21.18,3.81-22.61,0-39.63-14.28-39.63-40.58S404.11,0,428.98,0c10,0,16.3,2.14,19.04,3.57l-2.5,8.45c-3.93-1.9-9.52-3.33-16.18-3.33-18.8,0-31.3,12.02-31.3,33.08,0,19.64,11.31,32.25,30.82,32.25,6.31,0,12.73-1.31,16.9-3.33l2.14,8.21Z" /><path class="st0" fill="#fff" d="M474.31,56.29l-8.33,25.23h-10.71L482.53,1.31h12.5l27.37,80.21h-11.07l-8.57-25.23h-28.44ZM500.61,48.2l-7.85-23.09c-1.78-5.24-2.98-10-4.17-14.64h-.24c-1.19,4.76-2.5,9.64-4.05,14.52l-7.85,23.21h24.16Z" /><path class="st0" fill="#fff" d="M534.17,2.38c5.24-1.07,12.73-1.67,19.87-1.67,11.07,0,18.21,2.02,23.21,6.54,4.05,3.57,6.31,9.04,6.31,15.23,0,10.59-6.66,17.61-15.11,20.47v.36c6.19,2.14,9.88,7.85,11.78,16.18,2.62,11.19,4.52,18.92,6.19,22.02h-10.71c-1.31-2.26-3.09-9.16-5.35-19.16-2.38-11.07-6.66-15.23-16.07-15.59h-9.76v34.75h-10.35V2.38ZM544.52,38.91h10.59c11.07,0,18.09-6.07,18.09-15.23,0-10.35-7.5-14.88-18.45-14.99-5,0-8.57.48-10.23.95v29.27Z" /><path class="st0" fill="#fff" d="M667.09,40.58c0,27.61-16.78,42.25-37.25,42.25s-36.06-16.42-36.06-40.7c0-25.47,15.83-42.13,37.25-42.13s36.06,16.78,36.06,40.58ZM604.86,41.89c0,17.14,9.28,32.49,25.59,32.49s25.71-15.11,25.71-33.32c0-15.95-8.33-32.61-25.59-32.61s-25.7,15.83-25.7,33.44Z" /><path class="st0" fill="#fff" d="M680.54,1.31h10.35v71.52h34.27v8.69h-44.63V1.31Z" /><path class="st0" fill="#fff" d="M747.06,1.31v80.21h-10.35V1.31h10.35Z" /><path class="st0" fill="#fff" d="M765.15,81.52V1.31h11.31l25.7,40.58c5.95,9.4,10.59,17.85,14.4,26.06l.24-.12c-.95-10.71-1.19-20.47-1.19-32.96V1.31h9.76v80.21h-10.47l-25.47-40.7c-5.59-8.93-10.95-18.09-14.99-26.78l-.36.12c.59,10.12.83,19.75.83,33.08v34.27h-9.76Z" /><path class="st0" fill="#fff" d="M856.42,56.29l-8.33,25.23h-10.71L864.63,1.31h12.5l27.37,80.21h-11.07l-8.57-25.23h-28.44ZM882.72,48.2l-7.85-23.09c-1.79-5.24-2.97-10-4.17-14.64h-.24c-1.19,4.76-2.5,9.64-4.05,14.52l-7.85,23.21h24.16Z" /></g><g><path class="st0" fill="#fff" d="M178.28,739.06c6.31-.95,13.8-1.67,22.02-1.67,14.88,0,25.47,3.45,32.49,10,7.14,6.54,11.31,15.83,11.31,28.8s-4.05,23.8-11.54,31.18c-7.5,7.5-19.87,11.54-35.46,11.54-7.38,0-13.57-.36-18.8-.95v-78.9ZM188.63,809.99c2.62.48,6.43.59,10.47.59,22.13,0,34.15-12.38,34.15-34.04.12-18.92-10.59-30.94-32.49-30.94-5.36,0-9.4.48-12.14,1.07v63.31Z" /><path class="st0" fill="#fff" d="M299.07,780.59h-31.18v28.92h34.75v8.69h-45.1v-80.21h43.32v8.69h-32.96v25.35h31.18v8.57Z" /><path class="st0" fill="#fff" d="M316.08,738.94c5-.83,11.54-1.55,19.87-1.55,10.23,0,17.73,2.38,22.49,6.67,4.4,3.81,7.02,9.64,7.02,16.78s-2.14,12.97-6.19,17.14c-5.47,5.83-14.4,8.81-24.51,8.81-3.09,0-5.95-.12-8.33-.71v32.13h-10.35v-79.26ZM326.43,777.62c2.26.59,5.12.83,8.57.83,12.5,0,20.11-6.07,20.11-17.14s-7.5-15.71-18.92-15.71c-4.52,0-7.97.36-9.76.83v31.18Z" /><path class="st0" fill="#fff" d="M382.36,792.97l-8.33,25.23h-10.71l27.25-80.21h12.5l27.37,80.21h-11.07l-8.57-25.23h-28.44ZM408.66,784.88l-7.85-23.09c-1.79-5.24-2.98-10-4.17-14.64h-.24c-1.19,4.76-2.5,9.64-4.05,14.52l-7.85,23.21h24.16Z" /><path class="st0" fill="#fff" d="M442.22,739.06c5.24-1.07,12.73-1.67,19.87-1.67,11.07,0,18.21,2.02,23.21,6.55,4.05,3.57,6.31,9.04,6.31,15.23,0,10.59-6.66,17.61-15.11,20.47v.36c6.19,2.14,9.88,7.85,11.78,16.18,2.62,11.19,4.52,18.92,6.19,22.02h-10.71c-1.31-2.26-3.09-9.16-5.36-19.16-2.38-11.07-6.66-15.23-16.07-15.59h-9.76v34.75h-10.35v-79.14ZM452.57,775.6h10.59c11.07,0,18.09-6.07,18.09-15.23,0-10.35-7.5-14.88-18.45-14.99-5,0-8.57.48-10.23.95v29.27Z" /><path class="st0" fill="#fff" d="M522.54,746.8h-24.4v-8.81h59.38v8.81h-24.51v71.4h-10.47v-71.4Z" /><path class="st0" fill="#fff" d="M634.05,782.98c-.59-11.19-1.31-24.63-1.19-34.63h-.36c-2.74,9.4-6.07,19.4-10.12,30.46l-14.16,38.91h-7.85l-12.97-38.2c-3.81-11.31-7.02-21.66-9.28-31.18h-.24c-.24,10-.83,23.44-1.55,35.46l-2.14,34.39h-9.88l5.59-80.21h13.21l13.69,38.79c3.33,9.88,6.07,18.68,8.09,27.01h.36c2.02-8.09,4.88-16.9,8.45-27.01l14.28-38.79h13.21l5,80.21h-10.12l-2.02-35.22Z" /><path class="st0" fill="#fff" d="M703.66,780.59h-31.18v28.92h34.75v8.69h-45.1v-80.21h43.32v8.69h-32.96v25.35h31.18v8.57Z" /><path class="st0" fill="#fff" d="M720.68,818.2v-80.21h11.3l25.71,40.58c5.95,9.4,10.59,17.85,14.4,26.06l.24-.12c-.95-10.71-1.19-20.47-1.19-32.96v-33.56h9.76v80.21h-10.47l-25.47-40.7c-5.59-8.92-10.95-18.09-14.99-26.78l-.36.12c.59,10.12.83,19.75.83,33.08v34.27h-9.76Z" /><path class="st0" fill="#fff" d="M814.21,746.8h-24.4v-8.81h59.38v8.81h-24.51v71.4h-10.47v-71.4Z" /><path class="st0" fill="#fff" d="M951.89,777.26c0,27.61-16.78,42.25-37.25,42.25s-36.06-16.42-36.06-40.7c0-25.47,15.83-42.13,37.25-42.13s36.06,16.78,36.06,40.58ZM889.65,778.57c0,17.14,9.28,32.49,25.59,32.49s25.7-15.11,25.7-33.32c0-15.95-8.33-32.61-25.59-32.61s-25.7,15.83-25.7,33.44Z" /><path class="st0" fill="#fff" d="M965.33,737.99h43.2v8.69h-32.84v26.66h30.35v8.57h-30.35v36.3h-10.35v-80.21Z" /><path class="st0" fill="#fff" d="M1048.51,739.06c5.24-1.07,12.73-1.67,19.87-1.67,11.07,0,18.21,2.02,23.21,6.55,4.05,3.57,6.31,9.04,6.31,15.23,0,10.59-6.66,17.61-15.11,20.47v.36c6.19,2.14,9.88,7.85,11.78,16.18,2.62,11.19,4.52,18.92,6.19,22.02h-10.71c-1.31-2.26-3.09-9.16-5.35-19.16-2.38-11.07-6.67-15.23-16.07-15.59h-9.76v34.75h-10.35v-79.14ZM1058.87,775.6h10.59c11.07,0,18.09-6.07,18.09-15.23,0-10.35-7.5-14.88-18.45-14.99-5,0-8.57.48-10.23.95v29.27Z" /><path class="st0" fill="#fff" d="M1154.07,780.59h-31.18v28.92h34.75v8.69h-45.1v-80.21h43.32v8.69h-32.96v25.35h31.18v8.57Z" /><path class="st0" fill="#fff" d="M1189.76,818.2l-26.18-80.21h11.19l12.5,39.51c3.45,10.83,6.43,20.59,8.57,29.99h.24c2.26-9.28,5.59-19.4,9.16-29.87l13.57-39.63h11.07l-28.68,80.21h-11.42Z" /><path class="st0" fill="#fff" d="M1280.08,780.59h-31.18v28.92h34.75v8.69h-45.1v-80.21h43.32v8.69h-32.96v25.35h31.18v8.57Z" /><path class="st0" fill="#fff" d="M1297.1,818.2v-80.21h11.31l25.71,40.58c5.95,9.4,10.59,17.85,14.4,26.06l.24-.12c-.95-10.71-1.19-20.47-1.19-32.96v-33.56h9.76v80.21h-10.47l-25.47-40.7c-5.59-8.92-10.95-18.09-15-26.78l-.36.12c.59,10.12.83,19.75.83,33.08v34.27h-9.76Z" /><path class="st0" fill="#fff" d="M1385.75,737.99v47.48c0,17.97,7.97,25.58,18.68,25.58,11.9,0,19.52-7.85,19.52-25.58v-47.48h10.47v46.77c0,24.63-12.97,34.75-30.35,34.75-16.42,0-28.8-9.4-28.8-34.27v-47.24h10.47Z" /><path class="st0" fill="#fff" d="M1493.92,780.59h-31.18v28.92h34.75v8.69h-45.1v-80.21h43.32v8.69h-32.96v25.35h31.18v8.57Z" /></g><path class="st0" fill="#fff" d="M0,126.96c45.17-6.82,98.86-11.93,157.67-11.93,106.53,0,182.38,24.72,232.67,71.59,51.13,46.87,80.96,113.35,80.96,206.24s-28.98,170.45-82.67,223.29c-53.69,53.69-142.33,82.67-253.97,82.67-52.84,0-97.16-2.56-134.66-6.82V126.96ZM74.15,634.9c18.75,3.41,46.02,4.26,75,4.26,158.52,0,244.6-88.63,244.6-243.74.85-135.51-75.85-221.59-232.67-221.59-38.35,0-67.33,3.41-86.93,7.67v453.4Z" /></svg></div>
+      </div>
+    </div>
+  
+                                          <div class="flyout-buttons button-count--1">
+                          
+  <a href="/who-we-are/careers" class="btn btn-secondary">
+    Careers
+  </a>
+
+                    </div>
+              </div>
+      </div>
+
+            </li>
+          
+										<li class="menu-item" data-menu-level="0">
+            
+             <a href="https://mydorway.dor.sc.gov" class="mydorwaybtn btn btn-primary">MyDorway</a>
+  <a class="plus " role="button" tabindex="0">Open MyDorway</a>
+  <div class="flyout">
+    
+          <div class="flyout-promo-section">
+                                    <div id="flyout-content-26461" class="paragraph paragraph--id--26461 paragraph--type--flyout-content paragraph--view-mode--default flyout-content">
+      <div class="wrap">
+            <div class="field field--name-field-headline field--type-string field--label-hidden field__item">Log in to your account</div>
+      
+            <div class="clearfix text-formatted field field--name-field-body-text field--type-text-long field--label-hidden field__item"><p class="text-align-center">&nbsp;</p><p class="text-align-center"><a class="btn btn-secondary" href="https://mydorway.dor.sc.gov/">Log in</a>&nbsp;</p><p>&nbsp;</p><p class="text-align-center">New to MyDORWAY?</p></div>
+      </div>
+    </div>
+  
+                                          <div class="flyout-buttons button-count--2">
+                          
+  <a href="https://mydorway.dor.sc.gov/?link=SignUp" class="btn btn-outline_light">
+    Sign Up Now
+  </a>
+
+                          
+  <a href="/mydorway" class="btn btn-link">
+    Learn More
+  </a>
+
+                    </div>
+              </div>
+      </div>
+
+            </li>
+          			        </ul>
+
+			
+
+
+      </nav>
+
+    </div> <!-- /.main-navigation -->
+
+    <a
+      href="#"
+      class="search-toggle"
+      aria-controls="header-search"
+      aria-expanded="false"
+    >
+      <span>Open Search</span>
+    </a>
+
+    <div id="header-search" class="header-search">
+      <form action="/search" method="GET">
+        <label for="s" class="visually-hidden">
+          Search Terms
+        </label>
+        <input
+          name="search"
+          id="s"
+          type="text"
+          class="form-text"
+          placeholder="Enter Search Terms"
+        >
+        <input type="submit" value="Search">
+      </form>
+    </div> <!-- /.header-search -->
+  </div>
+</div> <!-- /.site-navigation -->
+
+
+
+      </div>
+    </div>
+  </div> <!-- /.wrap -->
+</header> <!-- /.site-header -->
+
+
+                    
+
+        
+      <div class="featured-top sub-page dark-blue-gradient-circles" >
+  
+    <aside class="featured-top__inner section clearfix" role="complementary">
+
+                <div class="featured-top-no-image">
+            <div class="container featured-top-hero-content">
+              <div class="align-content-start align-items-start row text-start justify-content-center">
+                <section class="region region-featured-top">
+                  <div id="block-style-logonavbar-page-title" class="block block-core block-page-title-block">
+  
+    
+      <div class="content">
+      
+  <h1 class="title"><span class="field field--name-title field--type-string field--label-hidden">Sales Tax Exemptions</span>
+</h1>
+
+
+    </div>
+  </div>
+<div id="block-style-logonavbar-breadcrumbs" class="block block-system block-system-breadcrumb-block">
+  
+    
+      <div class="content">
+      
+  <nav role="navigation" aria-label="breadcrumb" style="">
+  <ol class="breadcrumb">
+            <li class="breadcrumb-item">
+        <a href="/">Home</a>
+      </li>
+                <li class="breadcrumb-item">
+        <a href="/sales-use-tax-index">Sales &amp; Use Tax Index</a>
+      </li>
+                <li class="breadcrumb-item active">
+        Sales Tax Exemptions
+      </li>
+        </ol>
+</nav>
+
+
+    </div>
+  </div>
+
+                </section>
+              </div>
+            </div>
+          </div>
+        
+            </aside>
+  </div>
+
+    
+        <div id="main-wrapper" class="layout-main-wrapper clearfix">
+              <div id="main" class="container-xxl has-sidebar ">
+          <div class="row row-offcanvas row-offcanvas-left clearfix">
+
+            <main class="main-content col order-last main-content-style2" id="content" role="main">
+              <section class="section">
+                <div id="main-content" tabindex="-1"></div>
+                  <div id="block-style-logonavbar-content" class="block block-system block-system-main-block">
+  
+    
+      <div class="content">
+      
+
+<article data-history-node-id="996" class="node node--type-dynamic-page node--promoted node--view-mode-full clearfix">
+  <header>
+    
+        
+      </header>
+  <div class="node__content clearfix">
+    
+
+
+      <div class="field field--name-field-layout field--type-entity-reference-revisions field--label-hidden accordion" id="adhoc-html-accordion-node-996-field-layout">
+              <div class="field field--name-field-layout field--type-entity-reference-revisions field--label-hidden accordion field__item">      <div id="container-1466" class="paragraph paragraph--id--1466 paragraph--type--container paragraph--view-mode--default container">
+      <div class="wrap">
+      <div class="field field--name-field-layout field--type-entity-reference-revisions field--label-hidden accordion field__items" id="adhoc-html-accordion-paragraph-1466-field-layout">
+              <div class="field__item">    
+
+  <div class="paragraph paragraph--type--two-column-layout paragraph--view-mode--default mb-4">
+          <div class="container">
+      <div class="d-flex row" role="alert">
+        <div class="col-lg-70">
+          
+            <div class="field field--name-field-column-one field--type-entity-reference-revisions field--label-hidden field__item">      <div id="column-container-12096" class="paragraph paragraph--id--12096 paragraph--type--column-container paragraph--view-mode--default column-container">
+      <div class="wrap">
+      <div class="field field--name-field-column-paragraphs field--type-entity-reference-revisions field--label-hidden field__items">
+              <div class="field__item">      <div id="body-12086" class="paragraph paragraph--id--12086 paragraph--type--body paragraph--view-mode--default body">
+      <div class="wrap">
+            <div class="clearfix text-formatted field field--name-field-body-text field--type-text-long field--label-hidden field__item"><p class="fake-h5">South Carolina offers Sales &amp;&nbsp;Use Tax exemptions to qualified taxpayers. Sales &amp; Use Tax is not due when items or organizations qualify for an exemption.</p><p>You will need to provide your file number when applying for an exemption listed below. There is a <strong>45-day review period </strong>for exemption applications submitted to the SCDOR.​​</p><p>You must apply for<em> most</em>&nbsp;Sales &amp;​&nbsp;Use&nbsp;Tax exemptions&nbsp;on <a href="https://mydorway.dor.sc.gov"><strong>MyDORWAY</strong></a>. Review the table below for&nbsp;details about applying for each&nbsp;exemption.</p></div>
+      </div>
+    </div>
+  </div>
+          </div>
+  </div>
+    </div>
+  </div>
+      
+        </div>
+        <div class="col-lg-30">
+         
+            <div class="field field--name-field-column-two field--type-entity-reference-revisions field--label-hidden field__item">      <div id="column-container-12106" class="paragraph paragraph--id--12106 paragraph--type--column-container paragraph--view-mode--default column-container">
+      <div class="wrap">
+      <div class="field field--name-field-column-paragraphs field--type-entity-reference-revisions field--label-hidden field__items">
+              <div class="field__item">      <div id="body-12101" class="paragraph paragraph--id--12101 paragraph--type--body paragraph--view-mode--default body">
+      <div class="wrap">
+            <div class="clearfix text-formatted field field--name-field-body-text field--type-text-long field--label-hidden field__item"><hr><p><a class="btn btn-primary" href="https://mydorway.dor.sc.gov">apply for an exemption on mydorway</a></p><hr><h4>Need help?</h4><p>​​​<strong>Phone: </strong>1-844-89​​8-8542&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p><p><strong>Email: </strong><a href="mailto:SalesTax@dor.sc.gov"><strong>SalesTax@dor.sc.gov</strong></a></p></div>
+      </div>
+    </div>
+  </div>
+          </div>
+  </div>
+    </div>
+  </div>
+      
+        </div>
+      </div>
+      </div>
+      </div>
+</div>
+              <div class="field__item">      <div id="body-21786" class="paragraph paragraph--id--21786 paragraph--type--body paragraph--view-mode--default body">
+      <div class="wrap">
+            <div class="clearfix text-formatted field field--name-field-body-text field--type-text-long field--label-hidden field__item"><h2>How to apply</h2><h4>You must apply for the&nbsp;following exemptions on <a href="https://mydorway.dor.sc.gov/_/"><strong>​​</strong></a><a href="https://mydorway.dor.sc.gov"><strong>MyDORWAY</strong></a>.</h4><table class="table"><thead><tr><th>EXEMPTION</th><th>​REQUIREMENTS​</th></tr></thead><tbody><tr><td>Application for Admissions Tax Exemption (<a href="/find-a-form?search_api_fulltext=l2068&amp;field_category=All&amp;field_document_type=All&amp;field_tax_year=All"><strong>L-20​68</strong></a>)</td><td><ul><li data-list-item-id="e72b4e8667448facfa34430e8c2735e74">​Eleemosynary and nonprofit corporations or organizations are&nbsp;allowed certain exemptions</li><li data-list-item-id="e6e9c33df6b77f534f10d7d8194bd5c7a">Review&nbsp;<a href="http://www.scstatehouse.gov/code/t12c021.php#12-21-2420"><strong>SC Code Section 12-21-2420</strong></a>.</li><li class="ck-list-marker-bold" data-list-item-id="e58411e3646989801ace247846c768b45"><strong>An&nbsp;</strong><a href="/businesses/apply-business-tax-account/licensing-retail-license" data-entity-type="node" data-entity-uuid="86196c76-42f7-4615-b4ff-b5993ff7fcc0" data-entity-substitution="canonical" title="Licensing (Retail License)"><strong>Admissions Tax</strong></a><strong>&nbsp;License is required BEFORE an&nbsp;exemption can be granted.</strong></li></ul></td></tr><tr><td>Application for Exemption Certificate (<a href="/find-a-form?search_api_fulltext=st10&amp;field_category=All&amp;field_document_type=All&amp;field_tax_year=All"><strong>ST-10</strong></a>)</td><td><ul><li data-list-item-id="e5456f7866bc56bfa55ae4badf6d02f92">Review <a href="https://www.scstatehouse.gov/code/t12c036.php#12-36-2120"><strong>SC Code Section&nbsp;12-36-2120</strong></a>&nbsp;for qualifying exemptions from Sales Tax.</li><li data-list-item-id="e5aa9f87df02a512704b4fb9d8e3c0e40"><strong>A&nbsp;</strong><a href="/sales-use-tax-index" data-entity-type="node" data-entity-uuid="e17eb02c-5745-4b70-be4f-edcf3685e8cb" data-entity-substitution="canonical" title="Sales &amp; Use Tax Index"><strong>Sales &amp; Use Tax</strong></a><strong>&nbsp;account&nbsp;is required BEFORE an exemption&nbsp;can be granted.&nbsp;</strong>If you are unsure what type of Sales and ​Use Tax account to apply for, select <strong>Use Tax</strong> on the <a href="/businesses/apply-business-tax-account" data-entity-type="node" data-entity-uuid="876e6359-df9a-4f94-a973-b46dc2f67429" data-entity-substitution="canonical" title="Apply for a Business Tax Account"><strong>MyDORWAY&nbsp;Business Tax Application</strong></a>.</li></ul></td></tr><tr><td>Application for Exemption from Local Tax for Construction Contractors<br>(<a href="/find-a-form?search_api_fulltext=st10c&amp;field_category=All&amp;field_document_type=All&amp;field_tax_year=All"><strong>ST-10C</strong></a>)</td><td><ul><li data-list-item-id="e7683d5914abc5c3f5ff95d083831b4e2">Contractors can apply for an exemption from local Sales &amp; Use Taxes when making purchases of building materials for use under a construction contract if both of the following conditions are met:<ul><li data-list-item-id="e9c7e557246bbdcc67690b583edfeba45">​The construction contract is executed before the imposition date; or</li><li data-list-item-id="e5ab1a665f49a08008dd26dbda20ed1dc">A written bid is submitted before the imposition date culminating in a construction contract entered into before or after the imposition date. A verified copy of the contract must be provided to the SCDOR.</li><li data-list-item-id="ea81ebe016d5ea4d74cf84af99f90f163">Review <a href="/sites/dor/files/Documents/Policy%20Manuals/Chapter%2012%20-%20Local%20Sales%20and%20Use%20Tax.pdf"><strong>Chapter 12</strong></a> of the <a href="/policy/policy-manuals" data-entity-type="node" data-entity-uuid="501bfef1-d197-4d02-b02b-39120d9463d7" data-entity-substitution="canonical" title="Policy Manuals "><strong>Sales &amp; Use Tax Manual</strong></a> for more information.​​​</li><li data-list-item-id="e5e40481a94ea1d05567b6c0e83191cbe"><strong>A&nbsp;</strong><a href="/sales-use-tax-index" data-entity-type="node" data-entity-uuid="e17eb02c-5745-4b70-be4f-edcf3685e8cb" data-entity-substitution="canonical" title="Sales &amp; Use Tax Index"><strong>Sales &amp; Use Tax</strong></a>&nbsp;<strong>account&nbsp;is required BEFORE an exemption can be granted.&nbsp;</strong>If you are unsure what type of Sales and Use Tax account to apply for, select <strong>Use Tax</strong>&nbsp;on the <a href="/businesses/apply-business-tax-account" data-entity-type="node" data-entity-uuid="876e6359-df9a-4f94-a973-b46dc2f67429" data-entity-substitution="canonical" title="Apply for a Business Tax Account"><strong>MyDORWAY Business Tax Application</strong></a>.</li></ul></li></ul></td></tr><tr><td>Application for Exemption for Federal Government Contract (<a href="/find-a-form?search_api_fulltext=st10g&amp;field_category=All&amp;field_document_type=All&amp;field_tax_year=All"><strong>ST-10G</strong></a>)</td><td><ul><li data-list-item-id="e4ac8b1219f3c227e5411b5707104c89c">Contractors can apply for an exemption from Sales &amp; Use Tax when purchasing tangible personal property for federal government contracts.<ul><li data-list-item-id="ead25eda74283202b3ca4a2aaaacdffb1">​​Review <a href="https://www.scstatehouse.gov/code/t12c036.php#12-36-2120"><strong>SC Code Section 12-36-2120(29)</strong></a></li><li data-list-item-id="edaf737e45c89119aa6f225f2f1dd0c4b"><strong>A </strong><a href="/sales-use-tax-index" data-entity-type="node" data-entity-uuid="e17eb02c-5745-4b70-be4f-edcf3685e8cb" data-entity-substitution="canonical" title="Sales &amp; Use Tax Index"><strong>Sales &amp; Use Tax</strong></a><strong> account&nbsp;is required BEFORE an exemption can be granted.&nbsp;</strong>If you are unsure what type of Sales and Use Tax account to apply for, select <strong>Use Tax</strong>&nbsp;on the <a href="/businesses/apply-business-tax-account" data-entity-type="node" data-entity-uuid="876e6359-df9a-4f94-a973-b46dc2f67429" data-entity-substitution="canonical" title="Apply for a Business Tax Account"><strong>MyDORWAY&nbsp;Business Tax Application</strong></a>.</li></ul></li></ul></td></tr><tr><td>Application for Sales Tax Exemption “Exempt Organizations” for Certain Nonprofits&nbsp;(<a href="/find-a-form?search_api_fulltext=st387&amp;field_category=All&amp;field_document_type=All&amp;field_tax_year=All"><strong>ST-387</strong></a>)</td><td><ul><li data-list-item-id="edfe679bfceb1d5f1c381d5302f93e60a">Certain nonprofit organizations in South Carolina are exempt from Sales &amp; Use Tax on items sold by the organizations for charitable purposes.</li><li data-list-item-id="e7ee83490b0a53610e09fc985edb1c78c">The exemption applies only to items purchased for resale and does&nbsp;<strong>NOT</strong>&nbsp;apply to items purchased by an organization for its own&nbsp;use.</li><li data-list-item-id="e3dd7cf0aab38c7c9f4ff91b9c02a3613">Review <a href="https://www.scstatehouse.gov/code/t12c036.php#12-36-2120"><strong>SC Code Section&nbsp;12-36-2120(41)</strong></a></li><li data-list-item-id="e354cc3ff228f5a4e367ac49af258ebc8"><strong>A&nbsp;</strong><a href="/sales-use-tax-index" data-entity-type="node" data-entity-uuid="e17eb02c-5745-4b70-be4f-edcf3685e8cb" data-entity-substitution="canonical" title="Sales &amp; Use Tax Index"><strong>Sales &amp; Use Tax</strong></a><strong>&nbsp;account&nbsp;is required BEFORE an exemption can be granted.&nbsp;</strong>If you are unsure what type of Sales and Use Tax account to apply for, select <strong>Use Tax</strong>&nbsp;on the <a href="/businesses/apply-business-tax-account" data-entity-type="node" data-entity-uuid="876e6359-df9a-4f94-a973-b46dc2f67429" data-entity-substitution="canonical" title="Apply for a Business Tax Account"><strong>MyDORWAY&nbsp;Business Tax Application</strong></a>.</li></ul></td></tr><tr><td>Application for Festival Exemption (<a href="/find-a-form?search_api_fulltext=st393&amp;field_category=All&amp;field_document_type=All&amp;field_tax_year=All"><strong>ST-393</strong></a>)</td><td><ul><li data-list-item-id="ebcfa3dd9039aee1cea04873bf809f972">Organizations devoted exclusively to public or charitable purposes&nbsp;are eligible for an exemption on concession sales at a festival.</li><li data-list-item-id="e6d555cd133b1f221a12adcdc46b10400">Review&nbsp;<a href="https://www.scstatehouse.gov/code/t12c036.php#12-36-2120"><strong>SC Code Section&nbsp;12-36-2120(39)</strong></a></li><li data-list-item-id="e192672545ac647eb47d30ddd9a55a41f"><strong>A&nbsp;</strong><a href="/sales-use-tax-index" data-entity-type="node" data-entity-uuid="e17eb02c-5745-4b70-be4f-edcf3685e8cb" data-entity-substitution="canonical" title="Sales &amp; Use Tax Index"><strong>Sales &amp; Use Tax</strong></a><strong>&nbsp;account&nbsp;is required BEFORE an&nbsp;exemption can be granted.&nbsp;</strong>If you are unsure what type of Sales and Use Tax account to apply for, select <strong>Use Tax</strong>&nbsp;on the <a href="/businesses/apply-business-tax-account" data-entity-type="node" data-entity-uuid="876e6359-df9a-4f94-a973-b46dc2f67429" data-entity-substitution="canonical" title="Apply for a Business Tax Account"><strong>MyDORWAY&nbsp;Business Tax Application</strong></a>.</li></ul><p><span class="mif-info_outline"></span> See our&nbsp;<a href="/tax-education/guides-flyers/events-festivals" data-entity-type="node" data-entity-uuid="475c4b25-01ec-4640-b95e-eb81fb34b2e2" data-entity-substitution="canonical" title="Events &amp; Festivals"><strong>Events &amp; Festivals Guide</strong></a>&nbsp;if you plan to&nbsp;be a host,&nbsp;promoter, or vendor at an&nbsp;event or festival.</p></td></tr><tr><td>Application for Sales Tax Exemption for Foodstuffs Sold to Certain Nonprofit Organizations (<a href="/find-a-form?search_api_fulltext=st396&amp;field_category=All&amp;field_document_type=All&amp;field_tax_year=All"><strong>ST-396</strong></a>)</td><td><ul><li data-list-item-id="e4961ce7bd5f96176792222a93835bcd0">Taxpayers providing meals or foodstuffs for charitable purposes can apply for an exemption from Sales &amp; Use Tax.​​</li><li data-list-item-id="e2dc41b231baec89ac2785658b3e261bd">Review <a href="https://www.scstatehouse.gov/code/t12c036.php#12-36-2120"><strong>SC Code Sections&nbsp;12-36-2120(10)(B)(C)(D)</strong></a></li><li data-list-item-id="e38b3e0c6d79264426577baa66fbca62f"><strong>A&nbsp;</strong><a href="/sales-use-tax-index" data-entity-type="node" data-entity-uuid="e17eb02c-5745-4b70-be4f-edcf3685e8cb" data-entity-substitution="canonical" title="Sales &amp; Use Tax Index"><strong>Sales &amp; Use Tax</strong></a><strong>&nbsp;account&nbsp;is required BEFORE an exemption can be granted.&nbsp;</strong>If you are unsure what type of Sales and Use Tax account to apply for, select <strong>Use Tax</strong> on the <a href="/businesses/apply-business-tax-account"><strong>MyDORWAY&nbsp;Business Tax Application</strong></a>​.</li></ul></td></tr></tbody></table><p>&nbsp;</p><h4>Special instructions&nbsp;</h4><p>Please follow the&nbsp;special instructions provided&nbsp;when applying for&nbsp;the exemptions below.</p><table class="table"><thead><tr><th>​EXEMPTION</th><th>REQUIREMENTS</th></tr></thead><tbody><tr><td>Exemption Certificate (Single Sale Only)<br><a href="/sites/dor/files/forms/ST8.pdf"><strong>ST-8&nbsp;</strong></a></td><td><ul><li data-list-item-id="ec93fcf3e41f78119c46c8e667ce53e6d">​For a full list of purchases eligible for exemption, see the <a href="/sites/dor/files/forms/ST8.pdf"><strong>Exemption Certificate (ST-8)</strong></a>.</li><li data-list-item-id="e34dc64a02f6b659d297c77c61a173bec">Review <a href="https://www.scstatehouse.gov/code/t12c036.php#12-36-2120"><strong>SC Code Section 12-36-2120</strong></a></li><li data-list-item-id="ee8b0f2d81936af257b1bf6fc14ced5d1">If the property purchased is used for purposes other than what is specified, the purchaser assumes full liability and must file a return and pay the tax due. Complete and provide the <a href="/sites/dor/files/forms/ST8.pdf"><strong>Exemption Certificate (ST-8)</strong></a>&nbsp;form&nbsp;directly to the vendor. Do <strong>NOT</strong> submit this form to the SCDOR.​</li></ul></td></tr><tr><td>Resale Certificate<br><a href="/sites/dor/files/forms/ST8A.pdf"><strong>ST-8A&nbsp;</strong></a></td><td><ul><li data-list-item-id="e5112520141cc0ce38f9146d783519e7f">This certificate is intended for use by licensed retail merchants purchasing tangible personal property for resale, lease, or rental purposes. To be valid, the following conditions must be met:<ul><li data-list-item-id="e8cb983aaa1022c814d0efb7e019d185f">​The Resale Certificate presented to the seller by the purchaser must contain all the information required by the SCDOR.</li><li data-list-item-id="ee3354b31c02ee95618ef23f6aa012a91">The seller must not fraudulently fail to collect or pay the tax, or both.</li><li data-list-item-id="eee8f392e3b68b3c36dbb1ca70924b974">The seller must not solicit a purchaser to participate in an unlawful claim that a sale was for resale.​</li></ul></li><li data-list-item-id="eaa86c5a5fc119bad9979dfabe69d4627">The seller must maintain a copy of this certificate to substantiate the exemption in the event of an audit. This certificate is not valid and the seller remains liable for the tax,&nbsp;if the certificate&nbsp;does not meet the above requirements.</li><li data-list-item-id="e7ca2b0e7e6b1502c7e03ec05e6488b1f">Complete and provide the <a href="/sites/dor/files/forms/ST8A.pdf"><strong>Resale Certificate (ST-8A)</strong></a>&nbsp;form directly to the vendor. Do <strong>NOT </strong>submit this form to the SCDOR.</li></ul></td></tr><tr><td>​Agricultural Exemption (The ST-8F&nbsp;has been​ replaced by the SCATE card)<br><a href="https://agriculture.sc.gov/scate/"><strong>SCATE Card </strong><span class="mif-exit"></span></a></td><td><ul><li data-list-item-id="e54df4ca8fdd11554dc2f33aebaf7dfcc">​​​As of <strong>July 1, 2022</strong>, retailers should&nbsp;no longer accept the ST-8F as proof of exemption for agricultural purchases. Instead, farmers must show a <a href="/sales-use-tax-index/sales-tax-exemptions/exemptions-south-carolina-farmers" data-entity-type="node" data-entity-uuid="c532c8d0-09dd-499e-b46a-44b0293b9229" data-entity-substitution="canonical" title="Exemptions for South Carolina Farmers"><strong>South Carolina Agriculture Tax Exemption (SCATE)</strong></a> card to receive agricultural exemptions. The SCATE card is issued by the South Carolina Department of Agriculture (SCDA).</li><li data-list-item-id="ef2a1575f9b1266ce01dfacd6ecbdbc10">For more information, visit <a href="/sales-use-tax-index/sales-tax-exemptions/exemptions-south-carolina-farmers" data-entity-type="node" data-entity-uuid="c532c8d0-09dd-499e-b46a-44b0293b9229" data-entity-substitution="canonical" title="Exemptions for South Carolina Farmers"><strong>dor.sc.gov/farmers</strong></a>.</li><li data-list-item-id="e16af9dc0e26a3b66c1f0e372872261ed">Review <a href="https://www.scstatehouse.gov/code/t12c036.php#12-36-2120"><strong>SC Code Section&nbsp;12-36-2120</strong></a>&nbsp;for qualifying exemptions from Sales Tax.</li></ul><p><strong>Apply at</strong>&nbsp;<a href="https://agriculture.sc.gov/scate/"><strong>SCATEc​ard.com&nbsp;&gt;</strong></a></p></td></tr></tbody></table><p>&nbsp;</p><hr><h3>Need more help?</h3><p><span class="mif-library"></span> ​<strong>Want&nbsp;more information about business structures?</strong><br>Go to&nbsp;<a href="https://www.irs.gov/businesses/small-businesses-self-employed/business-structures"><strong>IRS.gov</strong></a>&nbsp;or the South Carolina Business One Stop at&nbsp;<a href="https://scbos.sc.gov/"><strong>SCBOS.sc.gov</strong></a>.</p><p><span class="mif-laptop"></span> ​<strong>Want to learn more about using MyDORWAY?</strong><br>Visit our<strong>&nbsp;</strong><a href="/mydorway" data-entity-type="node" data-entity-uuid="d8610c74-36ce-4e56-b22a-e983fbb2cce3" data-entity-substitution="canonical" title="MyDORWAY"><strong>MyDORWAY help page</strong></a></p></div>
+      </div>
+    </div>
+  </div>
+          </div>
+  </div>
+    </div>
+  </div>
+          </div>
+  
+  </div>
+</article>
+
+    </div>
+  </div>
+
+
+              </section>
+            </main>
+                                          <div class="sidebar_first sidebar col-md-4 order-first sidebar-style2" id="sidebar_first">
+                  <aside class="section" role="complementary">
+                        <nav role="navigation" aria-labelledby="block-style-logonavbar-mainnavigation-menu" id="block-style-logonavbar-mainnavigation" class="block block-menu navigation menu--main">
+            
+    <h2 id="block-style-logonavbar-mainnavigation-menu">Exemptions</h2>
+    
+
+              
+
+							<ul  data-region="sidebar_first" class="clearfix menu-main menu-extras">
+				
+										<li class="menu-item" data-menu-level="0">
+            
+             <a href="/sales-use-tax-index/sales-tax-exemptions/exemptions-south-carolina-farmers" data-drupal-link-system-path="node/2131">Exemptions for South Carolina Farmers</a>
+
+            </li>
+          			        </ul>
+
+			
+
+
+      </nav>
+
+
+                                                          </aside>
+                </div>
+                                    </div>
+        </div>
+          </div>
+
+    
+
+    
+    <footer class="site-footer pt-5 pt-lg-5">
+      <div class="footer-wrap">
+
+                  <div class="site-footer__top-wrapper container-xxl">
+                          <div class="site-footer__top clearfix">
+                <div class="site-footer__brand">
+                    <div class="row">
+    <div id="block-style-logonavbar-logoaddress" class="style-2 block-content-basic block block-block-content block-block-content16855799-5e4d-45c5-9f7a-d3e73318ceca">
+  
+    
+      <div class="content">
+      
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><img src="/sites/dor/files/inline-images/dorbluelogo.png" data-entity-uuid="747ac1a0-de2e-4fa3-ae9f-bebd50802615" data-entity-type="file" width="149" height="149" alt="South Carolina Department of Revenue Logo" loading="lazy"></div>
+      
+    </div>
+  </div>
+
+  </div>
+
+                </div>
+                <div class="site-footer__first">
+                    <section class="row style-2 region region-footer-first">
+      <nav role="navigation" aria-labelledby="block-style-logonavbar-optionalsocialmediamenu-menu" id="block-style-logonavbar-optionalsocialmediamenu" class="style-2 no-border order-lg-4 w-100 p-0 block block-menu navigation menu--social-media-menu">
+            
+    <div id="block-style-logonavbar-optionalsocialmediamenu-menu">FOLLOW US:</div>
+    
+
+              
+              <ul class="clearfix nav">
+                    <li class="nav-item">
+                <a href="https://visitor.r20.constantcontact.com/d.jsp?llr=7rd5lgsab&amp;p=oi&amp;m=1119052828220&amp;sit=4kl6abgjb&amp;f=6b3dafe2-1c05-48d8-bcd4-ca21e25b9291" class="email-icon nav-link nav-link-https--visitorr20constantcontactcom-djspllr7rd5lgsabpoim1119052828220sit4kl6abgjbf6b3dafe2-1c05-48d8-bcd4-ca21e25b9291">Email</a>
+              </li>
+                <li class="nav-item">
+                <a href="https://www.facebook.com/theSCDOR" class="facebook-icon nav-link nav-link-https--wwwfacebookcom-thescdor">Facebook</a>
+              </li>
+                <li class="nav-item">
+                <a href="https://x.com/theSCDOR" class="twitter-icon nav-link nav-link-https--xcom-thescdor">X</a>
+              </li>
+                <li class="nav-item">
+                <a href="https://www.linkedin.com/company/theSCDOR" class="linked in-icon nav-link linkedin-icon nav-link-https--wwwlinkedincom-company-thescdor" title="Linkedin">Linked In</a>
+              </li>
+                <li class="nav-item">
+                <a href="https://www.instagram.com/thescdor/" class="instagram-icon nav-link nav-link-https--wwwinstagramcom-thescdor-" title="Instagram">Instagram</a>
+              </li>
+                <li class="nav-item">
+                <a href="https://www.youtube.com/channel/UCTBYoFDeMHjTGv9miVqlx8g/videos" class="youtube-icon nav-link nav-link-https--wwwyoutubecom-channel-uctbyofdemhjtgv9mivqlx8g-videos">Youtube</a>
+              </li>
+        </ul>
+  
+
+
+      </nav>
+
+  </section>
+
+                </div>
+                <div class="site-footer__second">
+                    <div class="row">
+      <nav role="navigation" aria-labelledby="block-style-logonavbar-footer2menu-menu" id="block-style-logonavbar-footer2menu" class="block block-menu navigation menu--footer-2-menu">
+                      
+    <div class="visually-hidden" id="block-style-logonavbar-footer2menu-menu">Footer 2 Menu</div>
+    
+
+              
+
+
+                  <ul class="clearfix menu-footer-2-menu">
+                
+                    <li class="menu-item">
+                          <a href="/tax-education/security-center/tax-fraud" data-drupal-link-system-path="node/401">Report Tax Fraud</a>
+                      </li>
+            
+                    <li class="menu-item">
+                          <a href="/general-counsel/foia-legal-correspondence" data-drupal-link-system-path="node/1181">FOIA &amp; Subpoena Requests</a>
+                      </li>
+            
+                    <li class="menu-item">
+                          <a href="/who-we-are/careers" data-drupal-link-system-path="node/1201">Join Our Team</a>
+                      </li>
+            
+                    <li class="menu-item">
+                          <a href="/who-we-are/digital-accessibility-policy" data-drupal-link-system-path="node/4581">Site Accessibility</a>
+                      </li>
+                  </ul>
+        
+
+      </nav>
+
+  </div>
+
+                </div>
+                <div class="site-footer__third">
+                    <div class="row">
+      <nav role="navigation" aria-labelledby="block-style-logonavbar-footer3menu-menu" id="block-style-logonavbar-footer3menu" class="block block-menu navigation menu--footer-3-menu">
+                      
+    <div class="visually-hidden" id="block-style-logonavbar-footer3menu-menu">Footer 3 Menu</div>
+    
+
+              
+
+
+                  <ul class="clearfix menu-footer-3-menu">
+                
+                    <li class="menu-item">
+                          <a href="/who-we-are/privacy" data-drupal-link-system-path="node/1206">Privacy</a>
+                      </li>
+            
+                    <li class="menu-item">
+                          <a href="/contact-us" data-drupal-link-system-path="node/4296">Contact Us</a>
+                      </li>
+            
+                    <li class="menu-item">
+                          <a href="/who-we-are/site-map" data-drupal-link-system-path="node/1216">Site Map</a>
+                      </li>
+                  </ul>
+        
+
+      </nav>
+
+  </div>
+
+                </div>
+              </div>
+                      </div>
+        
+        <hr>
+
+        <div class="site-footer__bottom container-xxl text-center">
+          <div class="site-footer__bottom-nav row">
+            <div class="col-sm col-xs-12">
+              <a class="text-white" href="https://sc.gov" target="_blank"  rel="noopener noreferrer" title="SC.GOV portal">
+                SC.GOV Home
+              </a>
+            </div>
+            <div class="col-sm col-xs-12">
+<a class="text-white" href="https://sc.gov/privacy-and-security-policy" target="_blank" rel="noopener noreferrer">
+
+                SC.GOV Privacy & Security Policy
+              </a>
+            </div>
+            <div class="col-sm col-xs-12">
+<a class="text-white" href="https://sc.gov/help-center" target="_blank" rel="noopener noreferrer" title="SC.GOV Help Center">
+
+                Help Center
+              </a>
+            </div>
+            <div class="col-sm col-xs-12">
+<a class="text-white" href="https://sc.accessgov.com/sc/Forms/Page/sc/sc-contactus" target="_blank" rel="noopener noreferrer" title="Contact SC.GOV Support">
+
+                Contact SC.GOV
+              </a>
+            </div>
+            <div class="col-sm col-xs-12">
+              <a class="text-white" href="https://get.adobe.com/reader/" target="_blank" rel="noopener noreferrer">
+                Download Adobe Reader
+              </a>
+            </div>
+          </div>
+          <div class="site-footer__bottom-copyright">
+            Copyright ©
+            <script type="text/javascript">
+              var dteNow = new Date();
+              var intYear = dteNow.getFullYear();
+              document.write(intYear);
+            </script>
+            State of South Carolina
+          </div>
+            <div class="row">
+    <div id="block-style-logonavbar-googleanalytics" class="block-content-basic block block-block-content block-block-content6b2d3cd6-2f2b-47ba-9f33-52ac71e70067">
+  
+    
+      <div class="content">
+      
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><!-- Google tag (gtag.js) --><script async src="https://www.googletagmanager.com/gtag/js?id=G-LWXMPN72WP"></script><script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-LWXMPN72WP');
+</script></div>
+      
+    </div>
+  </div>
+<div id="block-style-logonavbar-logintomydorway-2" class="myDorwayLogin block-content-basic block block-block-content block-block-content74df6bfb-d543-4d17-b3c0-a321f2c2a800">
+  
+    
+      <div class="content">
+      
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><p><a class="btn btn-secondary" href="https://mydorway.dor.sc.gov/_/">Log in to <img class="site-custom-logo" src="/sites/dor/files/images/theme/MyDORWAY-White.svg" alt="MyDorway" width="99" height="17" loading="lazy"></a></p></div>
+      
+    </div>
+  </div>
+
+  </div>
+
+        </div>
+      </div>
+    </footer>
+  </div>
+</div>
+
+  </div>
+
+<script type="text/javascript" src="/themes/custom/style_logonavbar/js/overrides/dor.js"></script>
+
+<script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","pathPrefix":"","currentPath":"node\/996","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"ckeditorAccordion":{"accordionStyle":{"collapseAll":1,"keepRowsOpen":0,"animateAccordionOpenAndClose":1,"openTabsWithHash":0,"allowHtmlInTitles":0}},"collapsiblock":{"active_pages":false,"slide_speed":200,"cookie_lifetime":null,"switcher_enabled":null,"switcher_class":null},"user":{"uid":0,"permissionsHash":"a2ba9315dbb449bcbdb91c1259b30a65f395b08ffafd02acd86836d827c88b53"},"entity":{"id":"996"}}</script>
+<script src="/themes/custom/ngpsb2/js/popper.min.js?v=0.9.5"></script>
+<script src="/themes/custom/ngpsb2/js/bootstrap.min.js?v=0.9.5"></script>
+<script src="/core/assets/vendor/jquery/jquery.min.js?v=3.7.1"></script>
+<script src="/core/assets/vendor/once/once.min.js?v=1.0.1"></script>
+<script src="/core/misc/drupalSettingsLoader.js?v=10.6.15"></script>
+<script src="/core/misc/drupal.js?v=10.6.15"></script>
+<script src="/core/misc/drupal.init.js?v=10.6.15"></script>
+<script src="/modules/contrib/ckeditor_accordion/js/accordion.frontend.min.js?tm2bh7"></script>
+<script src="https://cdn.jsdelivr.net/npm/js-cookie@3.0.5/dist/js.cookie.min.js"></script>
+<script src="/modules/contrib/collapsiblock/theme/dist/collapsiblock.js?tm2bh7" type="module"></script>
+<script src="/extlink/settings.js"></script>
+<script src="/modules/contrib/extlink/js/extlink.js?tm2bh7"></script>
+<script src="/core/misc/jquery.form.js?v=4.3.0"></script>
+<script src="/themes/custom/ngpsb2/js/slick.js?v=0.9.5"></script>
+<script src="/themes/custom/ngpsb2/js/barrio.js?v=0.9.5"></script>
+<script src="/themes/custom/ngpsb2/js/custom.js?v=0.9.5"></script>
+<script src="/themes/custom/style_logonavbar/js/plugins/fancybox/jquery.fancybox.min.js?v=3.3.1"></script>
+<script src="/themes/custom/style_logonavbar/js/sliders.js?v=1.0.0"></script>
+<script src="/themes/custom/style_logonavbar/js/plugins/typed/typed.min.js?v=1.1.4"></script>
+<script src="/themes/custom/style_logonavbar/js/custom.js?v=0.9.5"></script>
+
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"NRJS-2c7539f8219c23d5717","applicationID":"1272499605","transactionName":"YFVWNRQAWUZSAEMLCVkfdxQVFVhYHBVeBxEZUVcQEwhWakAGVhAFXx5EAAEE","queueTime":13,"applicationTime":6156,"atts":"TBJBQ1waShkRAhVYHUpN","errorBeacon":"bam.nr-data.net","agent":""}</script>
+
+</body>
+</html>

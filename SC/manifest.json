@@ -1,5 +1,70 @@
 [
   {
+    "source_url": "https://businessfilings.sc.gov/",
+    "primary": false,
+    "local_path": "SC/businessfilings.sc.gov-593d752c.html",
+    "content_type": "text/html",
+    "content_sha256": "86a510c35b38e9ba0832b1f1fdc9a4ad760f0a357c8282bf9afaa81719b97401",
+    "perma_url": null,
+    "wayback_url": null,
+    "captured_at": "2026-09-29T20:10:06.122922+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
+  },
+  {
+    "source_url": "https://businessfilings.sc.gov/BusinessFiling/Home/DownloadForms",
+    "primary": false,
+    "local_path": "SC/businessfilings.sc.gov-BusinessFiling-Home-DownloadForms-b38ce94c.html",
+    "content_type": "text/html; charset=utf-8",
+    "content_sha256": "eb31c60df2c31effa920b3f72a1630f6ebf49c43bf28e053a6e450d757be6f46",
+    "perma_url": null,
+    "wayback_url": "https://web.archive.org/web/20260929201223/https://businessfilings.sc.gov/BusinessFiling/Home/CategorizedForms",
+    "captured_at": "2026-09-29T20:10:06.122922+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
+  },
+  {
+    "source_url": "https://dor.sc.gov/",
+    "primary": false,
+    "local_path": "SC/dor.sc.gov-41e16ea7.html",
+    "content_type": "text/html; charset=UTF-8",
+    "content_sha256": "fcd14f2c27462d4e8513e6f249a3fdd2c97e4dc9079cb85797a29726f4cb22e7",
+    "perma_url": null,
+    "wayback_url": null,
+    "captured_at": "2026-09-29T20:10:06.122922+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
+  },
+  {
+    "source_url": "https://dor.sc.gov/sales-use-tax-index/sales-tax-exemptions",
+    "primary": false,
+    "local_path": "SC/dor.sc.gov-sales-use-tax-index-sales-tax-exemptions-e9133d12.html",
+    "content_type": "text/html; charset=UTF-8",
+    "content_sha256": "505d034e4de041af45375920212fca988342047329fc48e50dac01ee0473eabd",
+    "perma_url": null,
+    "wayback_url": "https://web.archive.org/web/20260929201306/https://dor.sc.gov/sales-use-tax-index/sales-tax-exemptions",
+    "captured_at": "2026-09-29T20:10:06.122922+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
+  },
+  {
+    "source_url": "https://sos.sc.gov/",
+    "primary": false,
+    "local_path": "SC/sos.sc.gov-f001c931.html",
+    "content_type": "text/html; charset=UTF-8",
+    "content_sha256": "ba21db1d2d92b26de8f112892daf70b33bb734ea243a1a655b523edc7126ec80",
+    "perma_url": null,
+    "wayback_url": "https://web.archive.org/web/20260929201149/https://sos.sc.gov/",
+    "captured_at": "2026-09-29T20:10:06.122922+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
+  },
+  {
     "source_url": "https://sos.sc.gov/online-filings/charities-pfrs-and-raffles/charities",
     "primary": false,
     "local_path": "SC/sos.sc.gov-online-filings-charities-pfrs-and-raffles-charities.html",
@@ -72,6 +137,32 @@
     "tls_chain_unverified": false
   },
   {
+    "source_url": "https://www.scag.gov/",
+    "primary": false,
+    "local_path": "SC/www.scag.gov-5191b634.html",
+    "content_type": "text/html; charset=utf-8",
+    "content_sha256": "d80184858a5e76444fd9823ed81cb2c05f375111ea9b32c28314606342ac4c13",
+    "perma_url": null,
+    "wayback_url": "https://web.archive.org/web/20260929201045/https://www.scag.gov/",
+    "captured_at": "2026-09-29T20:10:06.122922+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
+  },
+  {
+    "source_url": "https://www.scsos.com/Charities",
+    "primary": false,
+    "local_path": "SC/www.scsos.com-Charities-d548efa4.html",
+    "content_type": "text/html; charset=utf-8",
+    "content_sha256": "c9b630c5b9997ae9d6fde6b095bd2a3554fdec0cdd4f2342e9433923b5794d50",
+    "perma_url": null,
+    "wayback_url": null,
+    "captured_at": "2026-09-29T20:10:06.122922+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
+  },
+  {
     "source_url": "https://www.scstatehouse.gov/code/t33c056.php",
     "primary": true,
     "local_path": "SC/www.scstatehouse.gov-code-t33c056.php.html",
@@ -82,5 +173,18 @@
     "captured_at": "2026-06-12T20:11:46.399835+00:00",
     "signed": true,
     "tls_chain_unverified": false
+  },
+  {
+    "source_url": "https://www.scstatehouse.gov/sess126_2025-2026/bills/4396.htm",
+    "primary": false,
+    "local_path": "SC/www.scstatehouse.gov-sess126_2025-2026-bills-4396.htm-567c1538.html",
+    "content_type": "text/html; charset=iso-8859-1",
+    "content_sha256": "7e22298c9590aca638b05dc084cf873a5deb98a2a5676520127db10ca0781f12",
+    "perma_url": null,
+    "wayback_url": null,
+    "captured_at": "2026-09-29T20:10:06.122922+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
   }
 ]
