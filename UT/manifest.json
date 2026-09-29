@@ -60,6 +60,20 @@
     "tls_chain_unverified": false
   },
   {
+    "source_url": "https://commerce.utah.gov/corporations/renewal-process/",
+    "primary": false,
+    "local_path": "UT/commerce.utah.gov-corporations-renewal-process-3b130eb3.html",
+    "content_type": "text/html",
+    "content_sha256": "ab3cd067c829bca9aca7dbeb61ff95f797f3a29004daf96cfea9927b7ac26ac7",
+    "perma_url": null,
+    "wayback_url": null,
+    "captured_at": "2026-09-29T11:09:13.564756+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "ingested_from_file": true,
+    "provenance": "browser_captured (automated variant): playwright chromium 145.0.7632.6 headless page navigation, raw HTTP response.body() bytes, 2026-09-29 (a script fetch of this host does not return the page; the navigation does)"
+  },
+  {
     "source_url": "https://commerce.utah.gov/dcp/for-businesses/charities/",
     "primary": false,
     "local_path": "UT/commerce.utah.gov-dcp-for-businesses-charities.html",
