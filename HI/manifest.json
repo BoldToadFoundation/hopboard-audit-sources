@@ -180,6 +180,20 @@
     "tls_chain_unverified": false
   },
   {
+    "source_url": "https://data.capitol.hawaii.gov/sessions/session2026/Bills/GM1212_.PDF",
+    "primary": false,
+    "local_path": "HI/data.capitol.hawaii.gov-sessions-session2026-Bills-GM1212_.PDF-b4884ade.PDF",
+    "content_type": "application/pdf",
+    "content_sha256": "ea5dfdd1d1a0177ba8344f3f71e71810ef3b54c9007ffbeb4c10ec0dcc7241bf",
+    "perma_url": null,
+    "wayback_url": null,
+    "captured_at": "2026-09-29T17:44:42.072524+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "ingested_from_file": true,
+    "provenance": "direct fetch 2026-09-29 by curl (data.capitol.hawaii.gov served HTTP 200 application/pdf; this host is not behind the Cloudflare wall on capitol.hawaii.gov); local capture only, no Perma per D-066/R13 (not a source a live deadline rests on)"
+  },
+  {
     "source_url": "https://efile.form990.org/frmNPParticipatingStateSCOHI.asp",
     "primary": false,
     "local_path": "HI/efile.form990.org-frmNPParticipatingStateSCOHI.asp-a4377c48.html",
