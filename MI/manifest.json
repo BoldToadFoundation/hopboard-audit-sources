@@ -50,6 +50,32 @@
     "provenance": "browser_captured per BROWSER_CAPTURE_RUNBOOK: headless Playwright page navigation (networkidle), 2026-09-07, for BATCH11's frame read of MCL 400.283 (Charitable Organizations and Solicitations Act exemptions). The script's own fetch could not archive this host; the headless PAGE NAVIGATION returned 200 / 5,191 rendered chars with 2 occurrences of 'exempt'. Probe kind stated per the guard."
   },
   {
+    "source_url": "https://www.michigan.gov/consumerprotection/-/media/Project/Websites/AG/charities/registration-forms/Fillable-Initial-App-CTS-1-Aug-12-2026.pdf",
+    "primary": false,
+    "local_path": "MI/www.michigan.gov-consumerprotection---media-Project-Websites-AG-charities-regist-c3c45d07.pdf",
+    "content_type": "application/pdf",
+    "content_sha256": "e029b14201b421919957c2a25e3d235b002dd6410bf5b0b9ee973c22c3602a37",
+    "perma_url": null,
+    "wayback_url": "https://web.archive.org/web/20260929205910/https://www.michigan.gov/consumerprotection/-/media/Project/Websites/AG/charities/registration-forms/Fillable-Initial-App-CTS-1-Aug-12-2026.pdf",
+    "captured_at": "2026-09-29T20:59:09.140761+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
+  },
+  {
+    "source_url": "https://www.michigan.gov/consumerprotection/-/media/Project/Websites/consumerprotection/Charities/CTS-02-Renewal-Solicitation-Form-2026-04.pdf",
+    "primary": false,
+    "local_path": "MI/www.michigan.gov-consumerprotection---media-Project-Websites-consumerprotection--a89a7d36.pdf",
+    "content_type": "application/pdf",
+    "content_sha256": "51f5c7e5fcb79da6a831688d59dd76c400bd75ab3c6e7013b15b7e918de3626f",
+    "perma_url": null,
+    "wayback_url": "https://web.archive.org/web/20260929205920/https://www.michigan.gov/consumerprotection/-/media/Project/Websites/consumerprotection/Charities/CTS-02-Renewal-Solicitation-Form-2026-04.pdf",
+    "captured_at": "2026-09-29T20:59:09.140761+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
+  },
+  {
     "source_url": "https://www.michigan.gov/consumerprotection/charities",
     "primary": false,
     "local_path": "MI/www.michigan.gov-consumerprotection-charities-4f9f604f.html",
