@@ -1,0 +1,1734 @@
+<!DOCTYPE html>
+<html  lang="en" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/  dc: http://purl.org/dc/terms/  foaf: http://xmlns.com/foaf/0.1/  og: http://ogp.me/ns#  rdfs: http://www.w3.org/2000/01/rdf-schema#  schema: http://schema.org/  sioc: http://rdfs.org/sioc/ns#  sioct: http://rdfs.org/sioc/types#  skos: http://www.w3.org/2004/02/skos/core#  xsd: http://www.w3.org/2001/XMLSchema# ">
+  <head>
+    <script src="https://use.typekit.net/vvp7pty.js"></script>
+    <script>try{Typekit.load({ async: true });}catch(e){}</script>
+    <meta charset="utf-8" />
+<noscript><style>form.antibot > * { display: none !important; } form.antibot noscript { display: block !important; }</style>
+</noscript><link rel="canonical" href="https://tax.colorado.gov/charities-nonprofits" />
+<meta name="robots" content="index, follow" />
+<meta name="google-site-verification" content="6qIxMBu2EC4va9KdscpnvaW6RlbAU7n-qDl5Ihe6iEY" />
+<meta name="Generator" content="Drupal 10 (https://www.drupal.org)" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="alternate" hreflang="en" href="https://tax.colorado.gov/charities-nonprofits" />
+<link rel="icon" href="/themes/custom/ci_xy/favicon.ico" type="image/vnd.microsoft.icon" />
+
+    <title>Charities &amp; Nonprofits | Department of Revenue - Taxation</title>
+
+        
+    <link rel="stylesheet" media="all" href="/sites/tax/files/css/css_PwmvfwkUC059Vz9CgSOsWLKAD_v0DjXe0m0C4u8VAeI.css?delta=0&amp;language=en&amp;theme=ci_xy&amp;include=eJxtktGSgyAMRX-IyufsYyZAVCoSh-C07tdvsLvaWft2OclAbi4oQhVivpOvXKwX6dB7LiFyhp79KuA514JSDV57AxeQuiWCii6RfOpJ1FeYKa-w5kAlxUyf2o4iRH0RVE0fr3uQ67nMQDPGBCPmkKhApXkBLUMfn-CwlA3aWEWnNy7h92YTY4h5MI65ihpaYMGCg4pR7AFvJzQe_Uh9WmW0p-yaE-MjYJhjhvognMTuh9vr0Ip1pJmAl6prFPsftI7nZofEDtOt7a8N5icKUV3CEYA9VNcXTYFyMArIhrIumDq849MMzIPu3wvZl1T1hZXKjGV6r2Y-8Zv137tOokksq0tRRgpGUvRTm4NEoiZ824ER9hGTphoivqKyV9Ttpo1soulYh0KmOm0YsO3wCvaPJOYv4CMTeyE_tjYS-Q" />
+<link rel="stylesheet" media="all" href="/sites/tax/files/css/css_ZxBssxKd_ekWFk78_L8bBQ8Z9LpoDl30CY8vVIrqCho.css?delta=1&amp;language=en&amp;theme=ci_xy&amp;include=eJxtktGSgyAMRX-IyufsYyZAVCoSh-C07tdvsLvaWft2OclAbi4oQhVivpOvXKwX6dB7LiFyhp79KuA514JSDV57AxeQuiWCii6RfOpJ1FeYKa-w5kAlxUyf2o4iRH0RVE0fr3uQ67nMQDPGBCPmkKhApXkBLUMfn-CwlA3aWEWnNy7h92YTY4h5MI65ihpaYMGCg4pR7AFvJzQe_Uh9WmW0p-yaE-MjYJhjhvognMTuh9vr0Ip1pJmAl6prFPsftI7nZofEDtOt7a8N5icKUV3CEYA9VNcXTYFyMArIhrIumDq849MMzIPu3wvZl1T1hZXKjGV6r2Y-8Zv137tOokksq0tRRgpGUvRTm4NEoiZ824ER9hGTphoivqKyV9Ttpo1soulYh0KmOm0YsO3wCvaPJOYv4CMTeyE_tjYS-Q" />
+<link rel="stylesheet" media="all" href="/sites/tax/files/css/css_2bB19VxCz-z7WT116XAXotHSSCvLgoR6-MOlkmZnWK8.css?delta=2&amp;language=en&amp;theme=ci_xy&amp;include=eJxtktGSgyAMRX-IyufsYyZAVCoSh-C07tdvsLvaWft2OclAbi4oQhVivpOvXKwX6dB7LiFyhp79KuA514JSDV57AxeQuiWCii6RfOpJ1FeYKa-w5kAlxUyf2o4iRH0RVE0fr3uQ67nMQDPGBCPmkKhApXkBLUMfn-CwlA3aWEWnNy7h92YTY4h5MI65ihpaYMGCg4pR7AFvJzQe_Uh9WmW0p-yaE-MjYJhjhvognMTuh9vr0Ip1pJmAl6prFPsftI7nZofEDtOt7a8N5icKUV3CEYA9VNcXTYFyMArIhrIumDq849MMzIPu3wvZl1T1hZXKjGV6r2Y-8Zv137tOokksq0tRRgpGUvRTm4NEoiZ824ER9hGTphoivqKyV9Ttpo1soulYh0KmOm0YsO3wCvaPJOYv4CMTeyE_tjYS-Q" />
+<link rel="stylesheet" media="all" href="/sites/tax/files/asset_injector/css/left_menu_underline-2b41edb1a298cc9c3e0e9cfbbdd0d499.css?tiapjt" />
+<link rel="stylesheet" media="all" href="/sites/tax/files/asset_injector/css/underline_icon_links-82cba112e11fe2c0d23c8c74b40a4bf4.css?tiapjt" />
+<link rel="stylesheet" media="all" href="/sites/tax/files/css/css_G7gilidWdx1zXF5fDFbpo4k0g6nw3GRIZYLQkKlDFs0.css?delta=5&amp;language=en&amp;theme=ci_xy&amp;include=eJxtktGSgyAMRX-IyufsYyZAVCoSh-C07tdvsLvaWft2OclAbi4oQhVivpOvXKwX6dB7LiFyhp79KuA514JSDV57AxeQuiWCii6RfOpJ1FeYKa-w5kAlxUyf2o4iRH0RVE0fr3uQ67nMQDPGBCPmkKhApXkBLUMfn-CwlA3aWEWnNy7h92YTY4h5MI65ihpaYMGCg4pR7AFvJzQe_Uh9WmW0p-yaE-MjYJhjhvognMTuh9vr0Ip1pJmAl6prFPsftI7nZofEDtOt7a8N5icKUV3CEYA9VNcXTYFyMArIhrIumDq849MMzIPu3wvZl1T1hZXKjGV6r2Y-8Zv137tOokksq0tRRgpGUvRTm4NEoiZ824ER9hGTphoivqKyV9Ttpo1soulYh0KmOm0YsO3wCvaPJOYv4CMTeyE_tjYS-Q" />
+
+    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","pathPrefix":"","currentPath":"node\/10756","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"gtag":{"tagId":"G-XZD6CBD7JH","consentMode":false,"otherIds":[],"events":[],"additionalConfigInfo":[]},"ajaxPageState":{"libraries":"eJxtU9u2qzAI_KHUfM5-ZJEENW0MWSHu1v31B7UXT9sXHQZEGABFqEHMZ_KNq_UiHXrPNUTO0LOfBTznVlGawc_YwBWkLYmgoUsk32IS9Q0myjPMOVBNMdO3sKcTov4RFF2-pruS67lOQBPGBCPmkKhCo6mAuqGPN3BY6wJrWVWrf09yPraonfmLhmFChxN-iQ3YcG8OhGuLeQCXZjIu4d9it-cd-6Rfp6hK7XZiDHdYOC19TOlhVp6iPHJU7O9IeyvGMTfRuop9IihVZcmxHZyFC_9SPTCNObV4SAAFKw4KRnnlOr1I49GP1KdZRvuC3Tor4yNgmKIqdCW8iN2M025sTpXC69xVrrnY_6zV3UaaCLg0FVnsO7FG3JZDTeJrLO3BD4kdptO6WCr3nVRl_eW0tlxj0E3TsYWoM4LnMO0TdX3VpaUcTK9vvJLwRPaAO_kdzMA8aM1eyO5Q0Q82qhPWy9Gb-YNuONhBH-92h2e8mYPuoc4FU_didNHL7HRNRgpma2pvrdvWRdhHTHouIeJ-A_aT6jYxjSyia28d6iY1pwEDrqP7JLYLFfO4nNfGfDD_AMIkm0k","theme":"ci_xy","theme_token":null},"ajaxTrustedUrl":{"\/search\/search":true},"ckeditorAccordion":{"accordionStyle":{"collapseAll":1,"keepRowsOpen":1,"animateAccordionOpenAndClose":1,"openTabsWithHash":1,"allowHtmlInTitles":0}},"bootstrap":{"forms_has_error_value_toggle":1,"popover_enabled":1,"popover_animation":1,"popover_auto_close":1,"popover_container":"body","popover_content":"","popover_delay":"0","popover_html":0,"popover_placement":"right","popover_selector":"","popover_title":"","popover_trigger":"click","tooltip_enabled":1,"tooltip_animation":1,"tooltip_container":"body","tooltip_delay":"0","tooltip_html":0,"tooltip_placement":"auto left","tooltip_selector":"","tooltip_trigger":"hover"},"blazy":{"loadInvisible":false,"offset":100,"saveViewportOffsetDelay":50,"loader":true,"unblazy":false,"visibleClass":false},"blazyIo":{"disconnect":false,"rootMargin":"0px","threshold":[0,0.25,0.5,0.75,1]},"slick":{"regionLabel":"carousel","useGroupRole":true,"instructionsText":"","adaptiveHeight":false,"autoplay":false,"useAutoplayToggleButton":true,"pauseOnHover":true,"pauseOnDotsHover":false,"pauseOnFocus":true,"autoplaySpeed":3000,"arrows":true,"arrowsPlacement":"","downArrow":false,"downArrowTarget":"","downArrowOffset":0,"centerMode":false,"centerPadding":"50px","dots":false,"dotsClass":"slick-dots","draggable":true,"fade":false,"focusOnSelect":false,"infinite":true,"initialSlide":0,"lazyLoad":"ondemand","mouseWheel":false,"randomize":false,"rtl":false,"rows":1,"slidesPerRow":1,"slide":"","slidesToShow":1,"slidesToScroll":1,"speed":500,"swipe":true,"swipeToSlide":false,"edgeFriction":0.34999999999999998,"touchMove":true,"touchThreshold":5,"useCSS":true,"cssEase":"ease","cssEaseBezier":"","cssEaseOverride":"","useTransform":true,"easing":"linear","variableWidth":false,"vertical":false,"verticalSwiping":false,"waitForAnimate":true},"TBMegaMenu":{"TBElementsCounter":{"column":null},"theme":"ci_xy","eeb859dc-2687-4d21-ae9a-b1562dd5e88c":{"arrows":"1"}},"googlePSE":{"language":"en","displayWatermark":0},"user":{"uid":0,"permissionsHash":"282a8eb891ba4e002069024f4da367d37cfda3fec299e5105c6c8f0b84518ecd"}}</script>
+<script src="/sites/tax/files/js/js_ajV2UbLmdydKZSbdlJBRFu3orFejGRkpmeLffljtMR0.js?scope=header&amp;delta=0&amp;language=en&amp;theme=ci_xy&amp;include=eJxlUdFugzAM_CEgn7PHyAkmS3Fw5Ljt2NfPpdB2rSIld2eDzmdoDdXn5YRRWdypDRAjy5h58SoQZxQPBAEKdPDRO4LaCYTNNxbNS_KBztgFgt_VbfeOI9nXlJvunBjGHVamdcpEBxUuuR3_EJh2dMVQu8CszXxV90C-CpqprC_FypUvKC-KMpPm2sXsYSzZhrsizM1tpL-TrWhTREJvk56r-8duZf3Ggp6rWj7NvQu3jp_1aa1vUXLVQ0_EAahvupIltYsWSpz7m1vJI1rrjGO2eP1jD-6Bhkl4UVzGbrIXrti4oHvBQ7ukLjEn8xwbujs09AWKUkDmo6qQXLLrnQ9wgp9uM3W3Nmyb0uALJii4nF0A245tY2Ip_pnwh_IH6Zbtug"></script>
+<script src="https://kit.fontawesome.com/29dcdba56a.js" defer crossorigin="anonymous"></script>
+<script src="/modules/contrib/google_tag/js/gtag.js?tiapjt"></script>
+
+  </head>
+  <body class="exclude-node-title path-node page-node-type-landing-page has-glyphicons">
+    <div class="site-wrapper">
+      <a href="#main-content" class="visually-hidden focusable skip-link">
+        Skip to main content
+      </a>
+      
+        <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+    
+
+<header>
+    
+  <div class="region region-co-branding">
+    
+    <div class="container">
+        <section id="block-googletranslate" class="block block-block-content block-block-contentce2a82d9-2097-45f4-94d7-68d7607c4464 clearfix" aria-label="Site Translation">
+  
+    
+
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field--item"><div id="google_translate_element">&nbsp;</div>
+<script type="text/javascript">
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+}
+</script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script></div>
+      
+  </section>
+
+
+    </div>
+  </div>
+
+      <div class="header">
+    <div class="row">
+      <div class="container">
+        <div class="col-sm-7">
+            <div class="region region-global-header">
+                  <a class="header__logo navbar-btn" href="/" aria-label="Department of Revenue - Taxation" title="Department of Revenue - Taxation" rel="home">
+        <img class="header__logo--image" src="/sites/tax/files/logo.svg" alt="Department of Revenue - Taxation" />
+      </a>
+      
+  </div>
+
+        </div>
+        <div class="col-sm-5">
+          <div class="header__search googlesearch">
+            <div class="search-block-form google-cse block block-search block-search-form-block" data-drupal-selector="search-block-form" id="block-searchform" role="search">
+  
+    
+      <form action="/search/search" method="get" id="search-block-form" accept-charset="UTF-8">
+  <div class="form-item js-form-item form-type-search js-form-type-search form-item-keys js-form-item-keys form-no-label form-group">
+      <label for="edit-keys" class="control-label sr-only">Search</label>
+  
+  
+  <div class="input-group"><input title="Enter the terms you wish to search for." data-drupal-selector="edit-keys" class="form-search form-control" placeholder="Search" type="search" id="edit-keys" name="keys" value="" size="40" maxlength="128" data-toggle="tooltip" /><span class="input-group-btn"><button  type="submit" value="Search" class="button js-form-submit form-submit btn" >Search</button></span></div>
+
+  
+  
+  </div>
+<div class="form-actions form-group js-form-wrapper form-wrapper" data-drupal-selector="edit-actions" id="edit-actions"></div>
+
+</form>
+
+  </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+
+                                                                          <div class="top-nav-wrapper">
+          <div class="top-nav color__brand-dark-blue">
+            <div class="container">
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                <div class="region region-navigation">
+    <section id="block-ci-xy-mainnavigation" class="block block-tb-megamenu block-tb-megamenu-menu-blockmain clearfix">
+  
+    
+
+      <nav  class="tbm tbm-main tbm-arrows" id="eeb859dc-2687-4d21-ae9a-b1562dd5e88c" data-breakpoint="1024" aria-label="Main">
+      <button class="tbm-button" type="button">
+      <div class="tbm-button-hamburger-menu-text">Menu</div>
+      <span class="tbm-button-container">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </span>
+    </button>
+    <div class="tbm-collapse ">
+    <ul  class="tbm-nav level-0 items-9" >
+                      
+  <li  class="tbm-item level-1" aria-level="1">
+      <div class="tbm-link-container color__brand-dark-blue">
+            <a href="https://tax.colorado.gov/" class="tbm-link level-1">
+                Home
+          </a>
+            </div>
+    
+</li>
+
+                        
+  <li  class="tbm-item level-1 tbm-item--has-dropdown" aria-level="1">
+      <div class="tbm-link-container color__brand-dark-blue">
+            <a href="/pay" class="tbm-link level-1">
+                Payments
+          </a>
+                <button aria-controls="menu-item-7398c987f2221902911e14b5a0daa4a0" aria-expanded="false" class="tbm-submenu-toggle  always-show color__brand-dark-blue"> <span class="visually-hidden">Toggle Payments  submenu</span></button>
+          </div>
+    <div  class="tbm-submenu tbm-item-child tbm-has-width" style="width: 290px;" id="menu-item-7398c987f2221902911e14b5a0daa4a0">
+      <div class="color__brand-dark-blue">
+  <div  class="tbm-row">
+          <div  class="tbm-column span12">
+  <div class="tbm-column-inner">
+               <ul  class="tbm-subnav level-1 items-9">
+                      
+  <li  class="tbm-item level-2" aria-level="2">
+      <div class="tbm-link-container color__brand-dark-blue">
+            <a href="/electronic-funds-transfer" class="tbm-link level-2">
+                Electronic Funds Transfer
+          </a>
+            </div>
+    
+</li>
+
+                      
+  <li  class="tbm-item level-2" aria-level="2">
+      <div class="tbm-link-container color__brand-dark-blue">
+            <a href="/pay" class="tbm-link level-2">
+                How To Make a Payment
+          </a>
+            </div>
+    
+</li>
+
+                      
+  <li  class="tbm-item level-2" aria-level="2">
+      <div class="tbm-link-container color__brand-dark-blue">
+            <a href="/payment-options" class="tbm-link level-2">
+                Payment Options by Tax Type
+          </a>
+            </div>
+    
+</li>
+
+                      
+  <li  class="tbm-item level-2" aria-level="2">
+      <div class="tbm-link-container color__brand-dark-blue">
+            <a href="/estimated-payments" class="tbm-link level-2">
+                Estimated Payments
+          </a>
+            </div>
+    
+</li>
+
+                      
+  <li  class="tbm-item level-2" aria-level="2">
+      <div class="tbm-link-container color__brand-dark-blue">
+            <a href="/payment-plan" class="tbm-link level-2">
+                Payment Plans
+          </a>
+            </div>
+    
+</li>
+
+                      
+  <li  class="tbm-item level-2" aria-level="2">
+      <div class="tbm-link-container color__brand-dark-blue">
+            <a href="/payments/international-payments" class="tbm-link level-2">
+                International Payments
+          </a>
+            </div>
+    
+</li>
+
+                      
+  <li  class="tbm-item level-2" aria-level="2">
+      <div class="tbm-link-container color__brand-dark-blue">
+            <a href="/collections" class="tbm-link level-2">
+                Collections
+          </a>
+            </div>
+    
+</li>
+
+                      
+  <li  class="tbm-item level-2" aria-level="2">
+      <div class="tbm-link-container color__brand-dark-blue">
+            <a href="/protest-rights" class="tbm-link level-2">
+                Protest Rights
+          </a>
+            </div>
+    
+</li>
+
+                      
+  <li  class="tbm-item level-2" aria-level="2">
+      <div class="tbm-link-container color__brand-dark-blue">
+            <a href="/delinquent-taxpayers-lists" class="tbm-link level-2">
+                Delinquent Taxpayers Lists
+          </a>
+            </div>
+    
+</li>
+
+  </ul>
+
+      </div>
+</div>
+
+      </div>
+</div>
+  </div>
+
+</li>
+
+                        
+  <li  class="tbm-item level-1 tbm-item--has-dropdown" aria-level="1">
+      <div class="tbm-link-container color__brand-dark-blue">
+            <a href="/refund" class="tbm-link level-1">
+                Refund
+          </a>
+                <button aria-controls="menu-item-36a0331842297150fe47965a2fc05b23" aria-expanded="false" class="tbm-submenu-toggle  always-show color__brand-dark-blue"> <span class="visually-hidden">Toggle Refund  submenu</span></button>
+          </div>
+    <div  class="tbm-submenu tbm-item-child tbm-has-width" style="width: 290px;" id="menu-item-36a0331842297150fe47965a2fc05b23">
+      <div class="color__brand-dark-blue">
+  <div  class="tbm-row">
+          <div  class="tbm-column span12">
+  <div class="tbm-column-inner">
+               <ul  class="tbm-subnav level-1 items-3">
+                      
+  <li  class="tbm-item level-2" aria-level="2">
+      <div class="tbm-link-container color__brand-dark-blue">
+            <a href="/direct-deposit-refund" class="tbm-link level-2">
+                Direct Deposit Refund
+          </a>
+            </div>
+    
+</li>
+
+                      
+  <li  class="tbm-item level-2" aria-level="2">
+      <div class="tbm-link-container color__brand-dark-blue">
+            <a href="/intercepted-refunds" class="tbm-link level-2">
+                Intercepted Refund
+          </a>
+            </div>
+    
+</li>
+
+                      
+  <li  class="tbm-item level-2" aria-level="2">
+      <div class="tbm-link-container color__brand-dark-blue">
+            <a href="/protest-rights" class="tbm-link level-2">
+                Protest Rights
+          </a>
+            </div>
+    
+</li>
+
+  </ul>
+
+      </div>
+</div>
+
+      </div>
+</div>
+  </div>
+
+</li>
+
+                      
+  <li  class="tbm-item level-1" aria-level="1">
+      <div class="tbm-link-container color__brand-dark-blue">
+            <a href="/training/online-services" class="tbm-link level-1">
+                Online Services
+          </a>
+            </div>
+    
+</li>
+
+                        
+  <li  class="tbm-item level-1 tbm-item--has-dropdown" aria-level="1">
+      <div class="tbm-link-container color__brand-dark-blue">
+            <a href="/forms-in-number-order" class="tbm-link level-1">
+                Forms
+          </a>
+                <button aria-controls="menu-item-d29795968374a5ca9d055df5261af49b" aria-expanded="false" class="tbm-submenu-toggle  always-show color__brand-dark-blue"> <span class="visually-hidden">Toggle Forms  submenu</span></button>
+          </div>
+    <div  class="tbm-submenu tbm-item-child tbm-has-width" style="width: 290px;" id="menu-item-d29795968374a5ca9d055df5261af49b">
+      <div class="color__brand-dark-blue">
+  <div  class="tbm-row">
+          <div  class="tbm-column span12">
+  <div class="tbm-column-inner">
+               <ul  class="tbm-subnav level-1 items-2">
+                      
+  <li  class="tbm-item level-2" aria-level="2">
+      <div class="tbm-link-container color__brand-dark-blue">
+            <a href="/forms-by-tax-type" class="tbm-link level-2">
+                Forms by Tax Type
+          </a>
+            </div>
+    
+</li>
+
+                      
+  <li  class="tbm-item level-2" aria-level="2">
+      <div class="tbm-link-container color__brand-dark-blue">
+            <a href="/forms-in-number-order" class="tbm-link level-2">
+                Forms in Number Order
+          </a>
+            </div>
+    
+</li>
+
+  </ul>
+
+      </div>
+</div>
+
+      </div>
+</div>
+  </div>
+
+</li>
+
+                        
+  <li  class="tbm-item level-1 tbm-item--has-dropdown" aria-level="1">
+      <div class="tbm-link-container color__brand-dark-blue">
+            <a href="/resources-for-tax-professionals" class="tbm-link level-1">
+                Tax Professionals
+          </a>
+                <button aria-controls="menu-item-0a89d22ce91e450dd4db22a20fea9441" aria-expanded="false" class="tbm-submenu-toggle  always-show color__brand-dark-blue"> <span class="visually-hidden">Toggle Tax Professionals  submenu</span></button>
+          </div>
+    <div  class="tbm-submenu tbm-item-child tbm-has-width" style="width: 290px;" id="menu-item-0a89d22ce91e450dd4db22a20fea9441">
+      <div class="color__brand-dark-blue">
+  <div  class="tbm-row">
+          <div  class="tbm-column span12">
+  <div class="tbm-column-inner">
+               <ul  class="tbm-subnav level-1 items-8">
+                      
+  <li  class="tbm-item level-2" aria-level="2">
+      <div class="tbm-link-container color__brand-dark-blue">
+            <a href="/guidance-publications" class="tbm-link level-2">
+                Tax Guidance Publications
+          </a>
+            </div>
+    
+</li>
+
+                      
+  <li  class="tbm-item level-2" aria-level="2">
+      <div class="tbm-link-container color__brand-dark-blue">
+            <a href="/tax-policy-research" class="tbm-link level-2">
+                Tax Policy &amp; Research
+          </a>
+            </div>
+    
+</li>
+
+                      
+  <li  class="tbm-item level-2" aria-level="2">
+      <div class="tbm-link-container color__brand-dark-blue">
+            <a href="https://cdor.colorado.gov/data-and-reports" class="tbm-link level-2">
+                Data &amp; Reports
+          </a>
+            </div>
+    
+</li>
+
+                      
+  <li  class="tbm-item level-2" aria-level="2">
+      <div class="tbm-link-container color__brand-dark-blue">
+            <a href="/conferee" class="tbm-link level-2">
+                Tax Conferee
+          </a>
+            </div>
+    
+</li>
+
+                      
+  <li  class="tbm-item level-2" aria-level="2">
+      <div class="tbm-link-container color__brand-dark-blue">
+            <a href="/developers" class="tbm-link level-2">
+                Tax Developers
+          </a>
+            </div>
+    
+</li>
+
+                      
+  <li  class="tbm-item level-2" aria-level="2">
+      <div class="tbm-link-container color__brand-dark-blue">
+            <a href="https://tax.colorado.gov/training/education" class="tbm-link level-2">
+                Tax Education &amp; Training
+          </a>
+            </div>
+    
+</li>
+
+                      
+  <li  class="tbm-item level-2" aria-level="2">
+      <div class="tbm-link-container color__brand-dark-blue">
+            <a href="/report-tax-evasion-fraud" class="tbm-link level-2">
+                Report Tax Evasion &amp; Fraud
+          </a>
+            </div>
+    
+</li>
+
+                      
+  <li  class="tbm-item level-2" aria-level="2">
+      <div class="tbm-link-container color__brand-dark-blue">
+            <a href="/voluntary-disclosure-program" class="tbm-link level-2">
+                Voluntary Disclosure Program
+          </a>
+            </div>
+    
+</li>
+
+  </ul>
+
+      </div>
+</div>
+
+      </div>
+</div>
+  </div>
+
+</li>
+
+                        
+  <li  class="tbm-item level-1 tbm-item--has-dropdown" aria-level="1">
+      <div class="tbm-link-container color__brand-dark-blue">
+            <a href="/businesses" class="tbm-link level-1">
+                Businesses
+          </a>
+                <button aria-controls="menu-item-575d6a6c9efbb6b1b2881af2d1332b47" aria-expanded="false" class="tbm-submenu-toggle  always-show color__brand-dark-blue"> <span class="visually-hidden">Toggle Businesses  submenu</span></button>
+          </div>
+    <div  class="tbm-submenu tbm-item-child tbm-has-width" style="width: 290px;" id="menu-item-575d6a6c9efbb6b1b2881af2d1332b47">
+      <div class="color__brand-dark-blue">
+  <div  class="tbm-row">
+          <div  class="tbm-column span12">
+  <div class="tbm-column-inner">
+               <ul  class="tbm-subnav level-1 items-11">
+                      
+  <li  class="tbm-item level-2" aria-level="2">
+      <div class="tbm-link-container color__brand-dark-blue">
+            <a href="/sales-use-tax" class="tbm-link level-2">
+                Sales &amp; Use Tax
+          </a>
+            </div>
+    
+</li>
+
+                      
+  <li  class="tbm-item level-2" aria-level="2">
+      <div class="tbm-link-container color__brand-dark-blue">
+            <a href="/business-income-tax" class="tbm-link level-2">
+                Business Income Tax
+          </a>
+            </div>
+    
+</li>
+
+                      
+  <li  class="tbm-item level-2" aria-level="2">
+      <div class="tbm-link-container color__brand-dark-blue">
+            <a href="/fiduciary-income-tax" class="tbm-link level-2">
+                Fiduciary Income Tax
+          </a>
+            </div>
+    
+</li>
+
+                      
+  <li  class="tbm-item level-2" aria-level="2">
+      <div class="tbm-link-container color__brand-dark-blue">
+            <a href="/withholding-tax" class="tbm-link level-2">
+                Withholding Tax
+          </a>
+            </div>
+    
+</li>
+
+                      
+  <li  class="tbm-item level-2" aria-level="2">
+      <div class="tbm-link-container color__brand-dark-blue">
+            <a href="/excise-fuel-tax" class="tbm-link level-2">
+                Excise &amp; Fuel Tax
+          </a>
+            </div>
+    
+</li>
+
+                      
+  <li  class="tbm-item level-2" aria-level="2">
+      <div class="tbm-link-container color__brand-dark-blue">
+            <a href="/fees" class="tbm-link level-2">
+                Fees &amp; Charges
+          </a>
+            </div>
+    
+</li>
+
+                      
+  <li  class="tbm-item level-2" aria-level="2">
+      <div class="tbm-link-container color__brand-dark-blue">
+            <a href="/severance-tax" class="tbm-link level-2">
+                Severance Tax
+          </a>
+            </div>
+    
+</li>
+
+                      
+  <li  class="tbm-item level-2" aria-level="2">
+      <div class="tbm-link-container color__brand-dark-blue">
+            <a href="/charities-nonprofits" class="tbm-link level-2">
+                Charities &amp; Nonprofits
+          </a>
+            </div>
+    
+</li>
+
+                      
+  <li  class="tbm-item level-2" aria-level="2">
+      <div class="tbm-link-container color__brand-dark-blue">
+            <a href="/guidance-publications" class="tbm-link level-2">
+                Tax Guidance Publications
+          </a>
+            </div>
+    
+</li>
+
+                      
+  <li  class="tbm-item level-2" aria-level="2">
+      <div class="tbm-link-container color__brand-dark-blue">
+            <a href="https://tax.colorado.gov/training/education" class="tbm-link level-2">
+                Tax Education &amp; Training
+          </a>
+            </div>
+    
+</li>
+
+                      
+  <li  class="tbm-item level-2" aria-level="2">
+      <div class="tbm-link-container color__brand-dark-blue">
+            <a href="/tax-fraud-prevention" class="tbm-link level-2">
+                Tax Fraud Prevention
+          </a>
+            </div>
+    
+</li>
+
+  </ul>
+
+      </div>
+</div>
+
+      </div>
+</div>
+  </div>
+
+</li>
+
+                                
+  <li  class="tbm-item level-1 tbm-item--has-dropdown active active-trail" aria-level="1">
+      <div class="tbm-link-container color__brand-dark-blue">
+            <a href="/individuals" class="tbm-link level-1 active-trail">
+                Individuals
+          </a>
+                <button aria-controls="menu-item-7fa91c5fc78ed2261aa74d80a5e6489a" aria-expanded="false" class="tbm-submenu-toggle  always-show color__brand-dark-blue"> <span class="visually-hidden">Toggle Individuals  submenu</span></button>
+          </div>
+    <div  class="tbm-submenu tbm-item-child tbm-has-width" style="width: 290px;" id="menu-item-7fa91c5fc78ed2261aa74d80a5e6489a">
+      <div class="color__brand-dark-blue">
+  <div  class="tbm-row">
+          <div  class="tbm-column span12">
+  <div class="tbm-column-inner">
+               <ul  class="tbm-subnav level-1 items-10">
+                      
+  <li  class="tbm-item level-2" aria-level="2">
+      <div class="tbm-link-container color__brand-dark-blue">
+            <a href="/individual-income-tax" class="tbm-link level-2">
+                Individual Income Tax
+          </a>
+            </div>
+    
+</li>
+
+                      
+  <li  class="tbm-item level-2" aria-level="2">
+      <div class="tbm-link-container color__brand-dark-blue">
+            <a href="/PTC-rebate" class="tbm-link level-2">
+                PTC Rebate
+          </a>
+            </div>
+    
+</li>
+
+                      
+  <li  class="tbm-item level-2" aria-level="2">
+      <div class="tbm-link-container color__brand-dark-blue">
+            <a href="/consumer-use-tax" class="tbm-link level-2">
+                Consumer Use Tax
+          </a>
+            </div>
+    
+</li>
+
+                      
+  <li  class="tbm-item level-2" aria-level="2">
+      <div class="tbm-link-container color__brand-dark-blue">
+            <a href="/estates-trusts" class="tbm-link level-2">
+                Estates &amp; Trusts
+          </a>
+            </div>
+    
+</li>
+
+                      
+  <li  class="tbm-item level-2" aria-level="2">
+      <div class="tbm-link-container color__brand-dark-blue">
+            <a href="/severance-tax" class="tbm-link level-2">
+                Severance Tax
+          </a>
+            </div>
+    
+</li>
+
+                              
+  <li  class="tbm-item level-2 active active-trail" aria-level="2">
+      <div class="tbm-link-container color__brand-dark-blue">
+            <a href="/charities-nonprofits" class="tbm-link level-2 active-trail">
+                Charities &amp; Nonprofits
+          </a>
+            </div>
+    
+</li>
+
+                      
+  <li  class="tbm-item level-2" aria-level="2">
+      <div class="tbm-link-container color__brand-dark-blue">
+            <a href="/guidance-publications" class="tbm-link level-2">
+                Tax Guidance Publications
+          </a>
+            </div>
+    
+</li>
+
+                      
+  <li  class="tbm-item level-2" aria-level="2">
+      <div class="tbm-link-container color__brand-dark-blue">
+            <a href="/training/education" class="tbm-link level-2">
+                Tax Education &amp; Training
+          </a>
+            </div>
+    
+</li>
+
+                      
+  <li  class="tbm-item level-2" aria-level="2">
+      <div class="tbm-link-container color__brand-dark-blue">
+            <a href="/tax-fraud-prevention" class="tbm-link level-2">
+                Tax Fraud Prevention
+          </a>
+            </div>
+    
+</li>
+
+                      
+  <li  class="tbm-item level-2" aria-level="2">
+      <div class="tbm-link-container color__brand-dark-blue">
+            <a href="/rebuilding-after-a-declared-wildfire-disaster-FAQs" class="tbm-link level-2">
+                Wildfire Rebuilding Refund
+          </a>
+            </div>
+    
+</li>
+
+  </ul>
+
+      </div>
+</div>
+
+      </div>
+</div>
+  </div>
+
+</li>
+
+                        
+  <li  class="tbm-item level-1 tbm-item--has-dropdown" aria-level="1">
+      <div class="tbm-link-container color__brand-dark-blue">
+            <a href="/contact-us" class="tbm-link level-1">
+                Contact Us
+          </a>
+                <button aria-controls="menu-item-910f97d23553e6e0957076e2c3b807f1" aria-expanded="false" class="tbm-submenu-toggle  always-show color__brand-dark-blue"> <span class="visually-hidden">Toggle Contact Us  submenu</span></button>
+          </div>
+    <div  class="tbm-submenu tbm-item-child tbm-has-width" style="width: 290px;" id="menu-item-910f97d23553e6e0957076e2c3b807f1">
+      <div class="color__brand-dark-blue">
+  <div  class="tbm-row">
+          <div  class="tbm-column span12">
+  <div class="tbm-column-inner">
+               <ul  class="tbm-subnav level-1 items-7">
+                      
+  <li  class="tbm-item level-2" aria-level="2">
+      <div class="tbm-link-container color__brand-dark-blue">
+            <a href="/contact-us-by-phone" class="tbm-link level-2">
+                By Phone
+          </a>
+            </div>
+    
+</li>
+
+                      
+  <li  class="tbm-item level-2" aria-level="2">
+      <div class="tbm-link-container color__brand-dark-blue">
+            <a href="/contact-us-by-email" class="tbm-link level-2">
+                By Email
+          </a>
+            </div>
+    
+</li>
+
+                      
+  <li  class="tbm-item level-2" aria-level="2">
+      <div class="tbm-link-container color__brand-dark-blue">
+            <a href="/contact-us-by-mail" class="tbm-link level-2">
+                By Mail
+          </a>
+            </div>
+    
+</li>
+
+                      
+  <li  class="tbm-item level-2" aria-level="2">
+      <div class="tbm-link-container color__brand-dark-blue">
+            <a href="/contact-us/tax2go" class="tbm-link level-2">
+                TAX2GO
+          </a>
+            </div>
+    
+</li>
+
+                      
+  <li  class="tbm-item level-2" aria-level="2">
+      <div class="tbm-link-container color__brand-dark-blue">
+            <a href="/visit-a-service-center" class="tbm-link level-2">
+                Visit a Taxpayer Service Center
+          </a>
+            </div>
+    
+</li>
+
+                      
+  <li  class="tbm-item level-2" aria-level="2">
+      <div class="tbm-link-container color__brand-dark-blue">
+            <a href="/ada-accommodation-options" class="tbm-link level-2">
+                Americans with Disabilities Act (ADA) Accommodations
+          </a>
+            </div>
+    
+</li>
+
+                      
+  <li  class="tbm-item level-2" aria-level="2">
+      <div class="tbm-link-container color__brand-dark-blue">
+            <a href="/newsroom" class="tbm-link level-2">
+                Tax Newsroom
+          </a>
+            </div>
+    
+</li>
+
+  </ul>
+
+      </div>
+</div>
+
+      </div>
+</div>
+  </div>
+
+</li>
+
+  </ul>
+
+      </div>
+  </nav>
+
+<script>
+if (window.matchMedia("(max-width: 1024px)").matches) {
+  document.getElementById("eeb859dc-2687-4d21-ae9a-b1562dd5e88c").classList.add('tbm--mobile');
+}
+
+
+</script>
+
+  </section>
+
+
+  </div>
+
+            </div>
+          </div>
+        </div>
+      </header>
+
+
+  		<main id="main-content" tabindex="-1" class="js-quickedit-main-content">
+  
+      
+  <div class="jumbotron">
+      <div class="region region-jumbotron">
+    <section id="block-contentfield" class="block block-fieldblock block-fieldblocknode clearfix">
+  
+    
+
+      <div class="single-jumbo-image unslick slick--optionset--jumbo slick--less" data-blazy="">
+	
+
+
+
+
+
+
+
+
+<div
+    class="jumbo_image"
+    role="figure"
+    style="background-image:url('/sites/tax/files/styles/max_1920/public/volunteers_planting_trees%20%281%29.png');"
+    aria-label="&quot;&quot;"
+    aria-describedby="slide-6456">
+    <div class= "container-fluid color__black-50">
+      <div class="main-content">
+            <div  class="paragraph paragraph--type--jumbo paragraph--view-mode--default">
+          <div class="paragraph__column" id="slide-6456">
+            
+                                <div class="container">
+                    <div class="jumbo_paragraph_title">
+                        
+            <div class="field field--name-field-banner-title field--type-string field--label-hidden field--item">Charities &amp; Nonprofit Organizations</div>
+      
+                    </div>
+                  </div>
+                                              <div class="no_body"></div>
+                        </div>
+        </div>
+      </div>
+    </div>
+</div>
+</div>
+
+  </section>
+
+
+  </div>
+
+  </div>
+
+
+
+            <div style="display:none;">
+        1
+      </div>
+
+              <div class="hideit">
+          
+        </div>
+      
+      <div class="row">
+                <div class="container">
+                            </div>
+                                              <div class="col-sm-12">
+                <div class="region region-header">
+      
+  <h1>Department of Revenue - Taxation</h1>
+
+
+  </div>
+
+            </div>
+                                  <div class="wrap">
+                                        <section class="col-sm-12">
+                                                      <div class="highlighted">  <div class="region region-highlighted">
+    <div data-drupal-messages-fallback class="hidden"></div>
+
+  </div>
+</div>
+                                                                                                        
+                                                  
+              
+
+  <div class="region region-content" >
+      
+<div about="/charities-nonprofits" class="landing-page full clearfix">
+
+  
+  <div>
+    
+      <div>
+
+
+    
+
+
+  
+
+
+<div class="paragraph paragraph--type--bp-columns paragraph--view-mode--default paragraph--width--wide">
+  <div class="paragraph__column ">
+    <div class="paragraph__column--container-wrapper">
+  <div class="container"><div class="paragraph--type--bp-columns__1col">
+      
+
+
+    
+    
+        
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+
+        <div class="paragraph__card paragraph paragraph--type--card-basic card_no-border paragraph--view-mode--default">
+            <div class="paragraph__column">
+                <div class="paragraph__title title_color   ">
+                    <h3 class="mt-0 mb-0">
+                        
+                    </h3>
+                </div>
+                
+            <div class="field field--name-field-card-body field--type-text-long field--label-hidden field--item"><h2 class="text-align-center">Charity and Non-Profit Tax Resources</h2></div>
+      
+                
+            </div>
+    </div>
+
+    </div></div>
+</div>
+  </div>
+</div>
+
+</div>
+      <div>
+
+
+    
+
+
+  
+
+
+<div class="paragraph paragraph--type--bp-columns paragraph--view-mode--default paragraph--width--wide">
+  <div class="paragraph__column ">
+    <div class="paragraph__column--container-wrapper">
+  <div class="container"><div class="paragraph--type--bp-columns__3col">
+      
+
+
+
+
+
+
+    
+        
+    
+   
+    
+
+
+    
+    
+    
+    
+    
+
+    <div class="icon-card-top"> <div class="paragraph__card paragraph paragraph--type--card-icon paragraph--view-mode--default color__grey-sand">
+        <div class="paragraph__column">
+            <div class="paragraph__title">
+                <h3><h3>
+            </div>
+            
+                                     <a class="paragraph__card--icon-link" href="/donate-your-tax-refund-to-charity">
+                                                               <div class="paragraph__card--icon">
+                    <i class="fa fa-hand-holding-heart"></i>
+                </div>
+                                <div class="paragraph__card--icon-text">
+                    
+            <div class="field field--name-field-text field--type-string field--label-hidden field--item">Donate Your Refund to Charity</div>
+      
+                </div>
+            </a>
+                  </div>
+    </div>
+</div>
+
+    </div><div class="paragraph--type--bp-columns__3col">
+      
+
+
+
+
+
+
+    
+        
+    
+   
+    
+
+
+    
+    
+    
+    
+    
+
+    <div class="icon-card-top"> <div class="paragraph__card paragraph paragraph--type--card-icon paragraph--view-mode--default color__grey-sand">
+        <div class="paragraph__column">
+            <div class="paragraph__title">
+                <h3><h3>
+            </div>
+            
+                                     <a class="paragraph__card--icon-link" href="/tax-exemption-qualifications">
+                                                               <div class="paragraph__card--icon">
+                    <i class="fa fa-tasks"></i>
+                </div>
+                                <div class="paragraph__card--icon-text">
+                    
+            <div class="field field--name-field-text field--type-string field--label-hidden field--item">Tax Exemption Qualifications</div>
+      
+                </div>
+            </a>
+                  </div>
+    </div>
+</div>
+
+    </div><div class="paragraph--type--bp-columns__3col">
+      
+
+
+
+
+
+
+    
+        
+    
+   
+    
+
+
+    
+    
+    
+    
+    
+
+    <div class="icon-card-top"> <div class="paragraph__card paragraph paragraph--type--card-icon paragraph--view-mode--default color__grey-sand">
+        <div class="paragraph__column">
+            <div class="paragraph__title">
+                <h3><h3>
+            </div>
+            
+                                     <a class="paragraph__card--icon-link" href="/tax-exemption-application">
+                                                               <div class="paragraph__card--icon">
+                    <i class="fa fa-edit"></i>
+                </div>
+                                <div class="paragraph__card--icon-text">
+                    
+            <div class="field field--name-field-text field--type-string field--label-hidden field--item">How to Apply for Exemption</div>
+      
+                </div>
+            </a>
+                  </div>
+    </div>
+</div>
+
+    </div></div>
+</div>
+  </div>
+</div>
+
+</div>
+      <div>
+
+
+    
+
+
+  
+
+
+<div class="paragraph paragraph--type--bp-columns paragraph--view-mode--default paragraph--width--wide">
+  <div class="paragraph__column ">
+    <div class="paragraph__column--container-wrapper">
+  <div class="container"><div class="paragraph--type--bp-columns__3col">
+      
+
+
+
+
+
+
+    
+        
+    
+   
+    
+
+
+    
+    
+    
+    
+    
+
+    <div class="icon-card-top"> <div class="paragraph__card paragraph paragraph--type--card-icon paragraph--view-mode--default color__grey-sand">
+        <div class="paragraph__column">
+            <div class="paragraph__title">
+                <h3><h3>
+            </div>
+            
+                                     <a class="paragraph__card--icon-link" href="/tax-exempt-purchases">
+                                                               <div class="paragraph__card--icon">
+                    <i class="fa fa-shopping-cart"></i>
+                </div>
+                                <div class="paragraph__card--icon-text">
+                    
+            <div class="field field--name-field-text field--type-string field--label-hidden field--item">Tax Exempt Purchases</div>
+      
+                </div>
+            </a>
+                  </div>
+    </div>
+</div>
+
+    </div><div class="paragraph--type--bp-columns__3col">
+      
+
+
+
+
+
+
+    
+        
+    
+   
+    
+
+
+    
+    
+    
+    
+    
+
+    <div class="icon-card-top"> <div class="paragraph__card paragraph paragraph--type--card-icon paragraph--view-mode--default color__grey-sand">
+        <div class="paragraph__column">
+            <div class="paragraph__title">
+                <h3><h3>
+            </div>
+            
+                                     <a class="paragraph__card--icon-link" href="/fundraising-sales-tax">
+                                                               <div class="paragraph__card--icon">
+                    <i class="fa fa-hand-holding-usd"></i>
+                </div>
+                                <div class="paragraph__card--icon-text">
+                    
+            <div class="field field--name-field-text field--type-string field--label-hidden field--item">Fundraising &amp; Sales Tax</div>
+      
+                </div>
+            </a>
+                  </div>
+    </div>
+</div>
+
+    </div><div class="paragraph--type--bp-columns__3col">
+      
+
+
+
+
+
+
+    
+        
+    
+   
+    
+
+
+    
+    
+    
+    
+    
+
+    <div class="icon-card-top"> <div class="paragraph__card paragraph paragraph--type--card-icon paragraph--view-mode--default color__grey-sand">
+        <div class="paragraph__column">
+            <div class="paragraph__title">
+                <h3><h3>
+            </div>
+            
+                                     <a class="paragraph__card--icon-link" href="/scholarship-granting-organizations">
+                                                               <div class="paragraph__card--icon">
+                    <i class="fa fa-solid fa-trophy-star"></i>
+                </div>
+                                <div class="paragraph__card--icon-text">
+                    
+            <div class="field field--name-field-text field--type-string field--label-hidden field--item">Scholarship Granting Organizations</div>
+      
+                </div>
+            </a>
+                  </div>
+    </div>
+</div>
+
+    </div></div>
+</div>
+  </div>
+</div>
+
+</div>
+      <div>
+
+
+    
+
+
+  
+
+
+<div class="paragraph paragraph--type--bp-columns paragraph--view-mode--default paragraph--width--wide">
+  <div class="paragraph__column ">
+    <div class="paragraph__column--container-wrapper">
+  <div class="container"><div class="paragraph--type--bp-columns__1col">
+      
+
+
+    
+    
+        
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+
+        <div class="paragraph__card paragraph paragraph--type--card-basic card_border paragraph--view-mode--default">
+            <div class="paragraph__column">
+                <div class="paragraph__title title_color color__brand-dark-blue  ">
+                    <h3 class="mt-0 mb-0">
+                        
+                    </h3>
+                </div>
+                
+            <div class="field field--name-field-card-body field--type-text-long field--label-hidden field--item"><h2 class="text-align-center">About Colorado Charitable Organizations</h2><p>Colorado allows charitable organizations to be exempt from state-collected sales tax for purchases made in the conduct of their regular charitable functions and activities. [§39-26-718 (1) (a), C.R.S.] Organizations that are&nbsp;<a href="https://www.irs.gov/charities-non-profits/charitable-organizations/exemption-requirements-501c3-organizations" target="_blank">exempt from federal income tax under 501(c)(3)</a>&nbsp;will generally be approved for a Certificate of Exemption in Colorado. For more information, review the <a href="/tax-exemption-qualifications" target="_blank">Tax Exemption Qualification Criteria</a> web page and&nbsp;<a href="/income-tax-topics-charitable-contributions" target="_blank" data-entity-type="node" data-entity-uuid="aa2927ef-001d-41e9-a09f-6e1b058023a8" data-entity-substitution="canonical" title="Income Tax Topics: Charitable Contributions">Charitable Organization</a>&nbsp;guidance publication.</p><p>Select an option above for more&nbsp;information on&nbsp;charitable and nonprofit organizations. This information also applies to government agencies and certain religious organizations. However, this information does not apply to self-collecting taxation jurisdictions. Self-collecting jurisdictions establish their own tax regulations, and collect their own sales/use tax.</p><p>Please contact each self-collecting jurisdiction directly for information about the tax regulations in that jurisdiction. Visit the&nbsp;<a href="/local-government-sales-tax" target="_blank" title="Local Government Sales Tax">Local Government Sales Tax</a>&nbsp;web page for more information about self-collecting jurisdictions.</p><p><strong>NOTE: Use the&nbsp;</strong><a href="https://dor-taxdonations.uc.r.appspot.com/" target="_blank"><strong>Charity Lookup Tool</strong></a><strong>&nbsp;to find the identification number of a Colorado charitable organization (nonprofit fund) for the Voluntary Contributions Schedule (</strong><a href="/individual-income-tax-forms" target="_blank" data-entity-type="node" data-entity-uuid="ae6f3710-da38-4592-9875-7fe69561af6a" data-entity-substitution="canonical" title="Income Tax Forms for Individuals &amp; Families"><strong>DR 0104CH</strong></a><strong>) on your Individual Income Tax Return (DR 0104).</strong></p><p class="text-align-center">&nbsp;</p><div class="embed-responsive embed-responsive-16by9"><iframe width="560" height="315" src="https://www.youtube.com/embed/jE6XaCKva-0?si=oWQNQ3aXoZcGSkVp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div><p>&nbsp;</p></div>
+      
+                
+            </div>
+    </div>
+
+    </div></div>
+</div>
+  </div>
+</div>
+
+</div>
+  
+  </div>
+
+</div>
+
+
+  </div>
+
+
+                      </section>
+                            </div>
+      </div>
+    </main>
+
+<footer>
+                  <div class="footer__content-footer color__grey-sand">
+              <div class="container">
+                    <div class="region region-footer">
+    <section id="block-blockmainfooter" class="block block-block-content block-block-content8e0f4fc5-1848-4e37-892d-08efb5472307 clearfix">
+  
+    
+
+      
+      <div>
+
+
+
+
+
+
+
+
+<div class="paragraph paragraph--type--bp-columns paragraph--view-mode--default">
+  <div class="paragraph__column ">
+    <div class="paragraph__column--container-wrapper">
+  <div class="container"><div class="paragraph--type--bp-columns__3col">
+      
+
+
+    
+    
+        
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+
+        <div class="paragraph__card paragraph paragraph--type--card-basic card_no-border paragraph--view-mode--default">
+            <div class="paragraph__column">
+                <div class="paragraph__title title_color   ">
+                    <h3 class="mt-0 mb-0">
+                        
+                    </h3>
+                </div>
+                
+            <div class="field field--name-field-card-body field--type-text-long field--label-hidden field--item"><!-- Structured Header Fix --><h2 class="sr-only">TAX Resources</h2><p><span style="font-size:20px;"><strong>Helpful Links</strong></span></p><p><a href="https://tax.colorado.gov/colorado-individual-income-tax-glossary" data-entity-type="external"><strong>Income Tax Glossary</strong></a></p><p><a href="https://tax.colorado.gov/directory" target="_blank"><strong>A-Z Directory</strong></a></p><p><a href="https://cdor.colorado.gov/" target="_blank"><strong>CDOR Homepage</strong></a></p><p><a href="https://www.governmentjobs.com/careers/colorado?keywords=Revenue" target="_blank"><strong>CDOR Careers</strong></a></p><p><a href="/due-date-guide" target="_blank"><strong>Due Date Guide</strong></a></p><p><a href="/how-was-your-service" target="_blank"><strong>How Was Your Service?</strong></a></p><p><a href="https://cdor.colorado.gov/department-of-revenue-open-data-use-terms" target="_blank"><strong>CDOR Open Data Use Terms</strong></a></p><p><a href="https://cdor.colorado.gov/privacy-notice" target="_blank"><strong>CDOR Privacy Notice</strong></a></p></div>
+      
+                
+            </div>
+    </div>
+
+    </div><div class="paragraph--type--bp-columns__3col">
+      
+
+
+    
+    
+        
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+
+        <div class="paragraph__card paragraph paragraph--type--card-basic card_no-border paragraph--view-mode--default">
+            <div class="paragraph__column">
+                <div class="paragraph__title title_color   ">
+                    <h3 class="mt-0 mb-0">
+                        
+                    </h3>
+                </div>
+                
+            <div class="field field--name-field-card-body field--type-text-long field--label-hidden field--item"><p><span style="font-size:20px;"><strong>Contact Us</strong></span></p><p><a href="/email-sign-up" target="_blank"><strong>Sign Up for Email Alerts</strong></a></p><p><a href="https://cdor.colorado.gov/accessibility" target="_blank"><strong>Accessibility Statement</strong></a></p><p><a href="https://docs.google.com/forms/d/e/1FAIpQLSeOmet84NAR-11mDWMFIC-CjOOpP3ojDXabAiKiwNGM-4gnqw/viewform" target="_blank"><strong>ADA Digital Services Request</strong></a></p><p><a href="/contact-us" target="_blank"><strong>Taxpayer Services&nbsp;</strong></a></p><p><a href="/contact-the-collections-section" target="_blank" title="Contact the Collections Section"><strong>Collections Section</strong></a></p><p><a href="/citizens-advocate" target="_blank"><strong>Ask for Help</strong></a><strong>&nbsp;</strong></p><p><a href="/newsroom" target="_blank"><strong>Tax Newsroom</strong></a></p><p><a href="https://cdor.colorado.gov/discrimination-complaint" target="_blank"><strong>Discrimination Complaint Procedure</strong></a></p></div>
+      
+                
+            </div>
+    </div>
+
+    </div><div class="paragraph--type--bp-columns__3col">
+      
+
+
+    
+    
+
+    
+    
+    <div class="paragraph paragraph--type--bp-block paragraph--view-mode--default">
+                <div class="paragraph__column">          
+            
+            <div class="field field--name-field-custom-block-reference field--type-entity-reference field--label-hidden field--item">
+      <div>
+
+
+
+
+
+
+
+
+<div class="paragraph paragraph--type--bp-columns paragraph--view-mode--default">
+  <div class="paragraph__column ">
+    <div class="paragraph__column--container-wrapper">
+  <div class="container"><div class="paragraph--type--bp-columns__1col">
+      
+
+
+    
+    
+
+    
+    
+    <div class="paragraph paragraph--type--bp-block paragraph--view-mode--default">
+                <div class="paragraph__column">          
+            
+            <div class="field field--name-field-custom-block-reference field--type-entity-reference field--label-hidden field--item">
+      <div>
+
+
+
+    
+
+
+  
+
+<div class="paragraph paragraph--type--bp-columns paragraph--view-mode--default color__grey-sand">
+  <div class="paragraph__column ">
+    <div class="paragraph__column--container-wrapper">
+  <div class="container"><div class="paragraph--type--bp-columns__6col">
+      
+
+
+
+<div class="paragraph paragraph--type--bp-image paragraph--view-mode--default paragraph--id--26511">
+  <div class="paragraph__column">
+                      <a href="https://www.facebook.com/ColoradoRevenue/">
+          
+            <div class="field field--name-bp-image-field field--type-image field--label-hidden field--item">  <img loading="lazy" src="/sites/tax/files/2021-06/social_facebook_footer.png" width="150" height="150" alt="Facebook" typeof="foaf:Image" class="img-responsive" />
+
+</div>
+      
+          </a>
+      </div>
+</div>
+
+    </div><div class="paragraph--type--bp-columns__6col">
+      
+
+
+
+<div class="paragraph paragraph--type--bp-image paragraph--view-mode--default paragraph--id--26516">
+  <div class="paragraph__column">
+                      <a href="https://www.linkedin.com/company/corevenue/about/">
+          
+            <div class="field field--name-bp-image-field field--type-image field--label-hidden field--item">  <img loading="lazy" src="/sites/tax/files/2021-06/social_linkedin_footer.png" width="150" height="150" alt="LinkedIn" typeof="foaf:Image" class="img-responsive" />
+
+</div>
+      
+          </a>
+      </div>
+</div>
+
+    </div><div class="paragraph--type--bp-columns__6col">
+      
+
+
+
+<div class="paragraph paragraph--type--bp-image paragraph--view-mode--default paragraph--id--26521">
+  <div class="paragraph__column">
+                      <a href="https://twitter.com/co_revenue?lang=en">
+          
+            <div class="field field--name-bp-image-field field--type-image field--label-hidden field--item">  <img loading="lazy" src="/sites/tax/files/2025-06/X_logo_0.png" width="150" height="153" alt="X Social Media Icon" typeof="foaf:Image" class="img-responsive" />
+
+</div>
+      
+          </a>
+      </div>
+</div>
+
+    </div><div class="paragraph--type--bp-columns__6col">
+      
+
+
+
+<div class="paragraph paragraph--type--bp-image paragraph--view-mode--default paragraph--id--40381">
+  <div class="paragraph__column">
+                      <a href="https://www.instagram.com/co_revenue/?igshid=MzRlODBiNWFlZA%3D%3D">
+          
+            <div class="field field--name-bp-image-field field--type-image field--label-hidden field--item">  <img loading="lazy" src="/sites/tax/files/2025-06/IG_logo.png" width="150" height="150" alt="Instagram Logo Social Media Icon" typeof="foaf:Image" class="img-responsive" />
+
+</div>
+      
+          </a>
+      </div>
+</div>
+
+    </div><div class="paragraph--type--bp-columns__6col">
+      
+
+
+
+<div class="paragraph paragraph--type--bp-image paragraph--view-mode--default paragraph--id--26526">
+  <div class="paragraph__column">
+                      <a href="https://www.youtube.com/channel/UCTArF0A_JsXGM8CWHEPkVwA">
+          
+            <div class="field field--name-bp-image-field field--type-image field--label-hidden field--item">  <img loading="lazy" src="/sites/tax/files/2021-10/social_youtube.croppedv2.png" width="150" height="105" alt="YouTube" typeof="foaf:Image" class="img-responsive" />
+
+</div>
+      
+          </a>
+      </div>
+</div>
+
+    </div><div class="paragraph--type--bp-columns__6col">
+      
+
+
+    
+    
+
+    
+    
+    <div class="paragraph paragraph--type--card-open-embed paragraph--view-mode--default">
+                <div class="paragraph__column">          
+            
+        </div>
+            </div>  
+
+    </div></div>
+</div>
+  </div>
+</div>
+
+</div>
+  </div>
+      
+        </div>
+            </div>  
+
+    </div></div>
+</div>
+  </div>
+</div>
+
+</div>
+      <div>
+
+
+
+
+
+
+
+
+<div class="paragraph paragraph--type--bp-columns paragraph--view-mode--default">
+  <div class="paragraph__column ">
+    <div class="paragraph__column--container-wrapper">
+  <div class="container"><div class="paragraph--type--bp-columns__1col">
+      
+
+
+    
+    
+
+    
+    
+    <div class="paragraph paragraph--type--bp-block paragraph--view-mode--default">
+                <div class="paragraph__column">          
+            
+            <div class="field field--name-field-custom-block-reference field--type-entity-reference field--label-hidden field--item">
+      <div>
+
+
+
+
+
+
+
+
+<div class="paragraph paragraph--type--bp-columns paragraph--view-mode--default">
+  <div class="paragraph__column ">
+    <div class="paragraph__column--container-wrapper">
+  <div class="container"><div class="paragraph--type--bp-columns__1col">
+      
+
+
+    
+    
+
+    
+    
+    <div class="paragraph paragraph--type--card-open-embed paragraph--view-mode--default">
+                <div class="paragraph__column">          
+            
+  <div class="field field--name-field-open-embed field--type-text-long field--label-visually_hidden">
+              <div class="field--item"><style type="text/css">.iframecontainer { position: relative; overflow: hidden; width: 100%; padding-top: 56.25%; } .responsive-iframe { position: absolute; top: 0; left: 0; bottom: 0; right: 0; width: 100%; height: 100%; }
+</style></div>
+          </div>
+
+        </div>
+            </div>  
+
+    </div></div>
+</div>
+  </div>
+</div>
+
+</div>
+  </div>
+      
+        </div>
+            </div>  
+
+    </div></div>
+</div>
+  </div>
+</div>
+
+</div>
+  </div>
+      
+        </div>
+            </div>  
+
+    </div></div>
+</div>
+  </div>
+</div>
+
+</div>
+  
+  </section>
+
+
+  </div>
+
+                  <div style="display:none">
+                    <p>placeholder</p>
+                    </div>
+
+              </div>
+          </div>
+          
+          <div class="global__footer-color color__grey-sand">
+          <div class="footer__global-footer">
+              <div class="container">
+                  <div class="row">
+                      <div class="col-lg-9">
+                          <ul class="footer__global-footer--links">
+                              <li>&#169; 2026 State of Colorado</li>
+                              <li><a href="https://data.colorado.gov/stories/s/fjyf-bdat">Transparency Online</a></li>
+                              <li><a href="https://www.colorado.gov/general-notices">General Notices</a></li>
+                          </ul>
+                      </div>
+                      <div class="col-lg-3">
+                          <div class="footer__logo">
+                              <a class="logo--cogov" aria-label="Colorado Official State Web Portal" href="https://www.colorado.gov">Colorado Official State Web Portal</a>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </footer>
+
+
+
+  </div>
+
+      <div id="disable_messages-debug-div" style="display:none;">
+      <pre></pre>
+    </div>
+
+    </div>
+    <script src="/sites/tax/files/js/js_mGnajSJJp9TVKpiDMNhag5rP9AfAfdMJ-F8HAQVjvTA.js?scope=footer&amp;delta=0&amp;language=en&amp;theme=ci_xy&amp;include=eJxlUdFugzAM_CEgn7PHyAkmS3Fw5Ljt2NfPpdB2rSIld2eDzmdoDdXn5YRRWdypDRAjy5h58SoQZxQPBAEKdPDRO4LaCYTNNxbNS_KBztgFgt_VbfeOI9nXlJvunBjGHVamdcpEBxUuuR3_EJh2dMVQu8CszXxV90C-CpqprC_FypUvKC-KMpPm2sXsYSzZhrsizM1tpL-TrWhTREJvk56r-8duZf3Ggp6rWj7NvQu3jp_1aa1vUXLVQ0_EAahvupIltYsWSpz7m1vJI1rrjGO2eP1jD-6Bhkl4UVzGbrIXrti4oHvBQ7ukLjEn8xwbujs09AWKUkDmo6qQXLLrnQ9wgp9uM3W3Nmyb0uALJii4nF0A245tY2Ip_pnwh_IH6Zbtug"></script>
+<script src="/sites/tax/files/asset_injector/js/accordion_tracker_alabama-d94d9c7055bdf9df5f48e6df544a2775.js?tiapjt"></script>
+<script src="/sites/tax/files/asset_injector/js/datatables_sorting_blue-bb706601a0c0410ef0e57322b0e3eb6c.js?tiapjt"></script>
+<script src="/sites/tax/files/js/js_HBopyOJOlY9j81upk64r9GfNJhcHr0qcWx0J63-19VA.js?scope=footer&amp;delta=3&amp;language=en&amp;theme=ci_xy&amp;include=eJxlUdFugzAM_CEgn7PHyAkmS3Fw5Ljt2NfPpdB2rSIld2eDzmdoDdXn5YRRWdypDRAjy5h58SoQZxQPBAEKdPDRO4LaCYTNNxbNS_KBztgFgt_VbfeOI9nXlJvunBjGHVamdcpEBxUuuR3_EJh2dMVQu8CszXxV90C-CpqprC_FypUvKC-KMpPm2sXsYSzZhrsizM1tpL-TrWhTREJvk56r-8duZf3Ggp6rWj7NvQu3jp_1aa1vUXLVQ0_EAahvupIltYsWSpz7m1vJI1rrjGO2eP1jD-6Bhkl4UVzGbrIXrti4oHvBQ7ukLjEn8xwbujs09AWKUkDmo6qQXLLrnQ9wgp9uM3W3Nmyb0uALJii4nF0A245tY2Ip_pnwh_IH6Zbtug"></script>
+<script src="/themes/custom/ci_xy/js/ckeAccordion.js?tiapjt"></script>
+<script src="/sites/tax/files/js/js_PMm_O4lSJzb68-G8T95j-zcxCrg0liH4qgx1VUXGCY8.js?scope=footer&amp;delta=5&amp;language=en&amp;theme=ci_xy&amp;include=eJxlUdFugzAM_CEgn7PHyAkmS3Fw5Ljt2NfPpdB2rSIld2eDzmdoDdXn5YRRWdypDRAjy5h58SoQZxQPBAEKdPDRO4LaCYTNNxbNS_KBztgFgt_VbfeOI9nXlJvunBjGHVamdcpEBxUuuR3_EJh2dMVQu8CszXxV90C-CpqprC_FypUvKC-KMpPm2sXsYSzZhrsizM1tpL-TrWhTREJvk56r-8duZf3Ggp6rWj7NvQu3jp_1aa1vUXLVQ0_EAahvupIltYsWSpz7m1vJI1rrjGO2eP1jD-6Bhkl4UVzGbrIXrti4oHvBQ7ukLjEn8xwbujs09AWKUkDmo6qQXLLrnQ9wgp9uM3W3Nmyb0uALJii4nF0A245tY2Ip_pnwh_IH6Zbtug"></script>
+<script src="/modules/contrib/ckeditor_accordion/js/accordion.frontend.min.js?tiapjt"></script>
+<script src="/sites/tax/files/js/js_eOjl-AppnjCiqHVS-Sa0QwsS1Qs9YjGZ_nkqo4o4GVU.js?scope=footer&amp;delta=7&amp;language=en&amp;theme=ci_xy&amp;include=eJxlUdFugzAM_CEgn7PHyAkmS3Fw5Ljt2NfPpdB2rSIld2eDzmdoDdXn5YRRWdypDRAjy5h58SoQZxQPBAEKdPDRO4LaCYTNNxbNS_KBztgFgt_VbfeOI9nXlJvunBjGHVamdcpEBxUuuR3_EJh2dMVQu8CszXxV90C-CpqprC_FypUvKC-KMpPm2sXsYSzZhrsizM1tpL-TrWhTREJvk56r-8duZf3Ggp6rWj7NvQu3jp_1aa1vUXLVQ0_EAahvupIltYsWSpz7m1vJI1rrjGO2eP1jD-6Bhkl4UVzGbrIXrti4oHvBQ7ukLjEn8xwbujs09AWKUkDmo6qQXLLrnQ9wgp9uM3W3Nmyb0uALJii4nF0A245tY2Ip_pnwh_IH6Zbtug"></script>
+
+    <script type="text/javascript">
+      /*<![CDATA[*/
+      (function() {
+      var sz = document.createElement('script'); sz.type = 'text/javascript'; sz.async = true;
+      sz.src = 'https://siteimproveanalytics.com/js/siteanalyze_6340083.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sz, s);
+      })();
+      /*]]>*/
+    </script>
+  </body>
+  </html>
