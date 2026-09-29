@@ -114,6 +114,20 @@
     "provenance": "browser_captured (automated variant): playwright chromium 145.0.7632.6 browser-context request after a page navigation on the same site, raw HTTP response.body() bytes, 2026-09-29; linked from the Division's renewal-process page and served via a redirect to commerce.utah.gov/wp-content/uploads/"
   },
   {
+    "source_url": "https://corporations.utah.gov/wp-content/uploads/2025/01/Renewal-with-Changes-DBA.pdf",
+    "primary": false,
+    "local_path": "UT/corporations.utah.gov-wp-content-uploads-2025-01-Renewal-with-Changes-DBA.pdf-a7f2be85.pdf",
+    "content_type": "application/pdf",
+    "content_sha256": "07f62097ff33793a00f81d6160b086faed56895aaddedba769a65aedcc5cafbf",
+    "perma_url": null,
+    "wayback_url": null,
+    "captured_at": "2026-09-29T11:09:13.884601+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "ingested_from_file": true,
+    "provenance": "browser_captured (automated variant): playwright chromium 145.0.7632.6 browser-context request after a page navigation on the same site, raw HTTP response.body() bytes, 2026-09-29; linked from the Division's renewal-process page and served via a redirect to commerce.utah.gov/wp-content/uploads/"
+  },
+  {
     "source_url": "https://corporations.utah.gov/wp-content/uploads/2025/01/Renewal-with-Changes.pdf",
     "primary": false,
     "local_path": "UT/corporations.utah.gov-wp-content-uploads-2025-01-Renewal-with-Changes.pdf-dff47d53.pdf",
