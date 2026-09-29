@@ -27,6 +27,19 @@
     "captured_at_basis": "CORRECTED 2026-08-08 per Tony ruling. This entry's own provenance names the content date: 'authenticated api.perma.cc download (2026-06-12) of our own 2026-05-30 archive'. The perma.cc source_url encodes no date, so the mismatch was visible only in prose \u2014 one of two such cases corpus-wide (with AZ). Prior value (the download date) preserved in ingested_at."
   },
   {
+    "source_url": "https://www.mass.gov/administrative-procedure/ap-101-organizations-exempt-from-sales-tax",
+    "primary": false,
+    "local_path": "MA/www.mass.gov-administrative-procedure-ap-101-organizations-exempt-from-sales-tax-5e97f451.html",
+    "content_type": "text/html; charset=UTF-8",
+    "content_sha256": "7b5dd69be11b6368a0e6c6f86be5823d024bd00c2a86e8a01def385162d2ecaf",
+    "perma_url": null,
+    "wayback_url": "https://web.archive.org/web/20260929202306/https://www.mass.gov/administrative-procedure/ap-101-organizations-exempt-from-sales-tax",
+    "captured_at": "2026-09-29T20:22:16.946293+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
+  },
+  {
     "source_url": "https://www.mass.gov/doc/form-pc-2023-update/download",
     "primary": false,
     "local_path": "MA/www.mass.gov-doc-form-pc-2023-update-download.pdf",
@@ -58,5 +71,18 @@
     "wayback_url": "https://web.archive.org/web/20260531190328/https://www.mass.gov/info-details/online-charity-filing-portal",
     "captured_at": "2026-05-31T19:02:02.333728+00:00",
     "signed": true
+  },
+  {
+    "source_url": "https://www.mass.gov/orgs/the-attorney-generals-non-profit-organizationspublic-charities-division",
+    "primary": false,
+    "local_path": "MA/www.mass.gov-orgs-the-attorney-generals-non-profit-organizationspublic-charities-1e28c306.html",
+    "content_type": "text/html; charset=UTF-8",
+    "content_sha256": "d19a1d725fc10b55c4915b5829953ee1a4bac64ec7828bfc3d6ca40b8f1e512d",
+    "perma_url": null,
+    "wayback_url": "https://web.archive.org/web/20260929202238/https://www.mass.gov/orgs/the-attorney-generals-non-profit-organizationspublic-charities-division",
+    "captured_at": "2026-09-29T20:22:16.946293+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
   }
 ]
