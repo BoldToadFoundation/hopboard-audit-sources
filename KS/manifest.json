@@ -1,5 +1,31 @@
 [
   {
+    "source_url": "https://www.ag.ks.gov/divisions/civil/licensing-inspections/charitable-organization-registration",
+    "primary": false,
+    "local_path": "KS/www.ag.ks.gov-divisions-civil-licensing-inspections-charitable-organization-regi-eb8acbbc.html",
+    "content_type": "text/html; charset=utf-8",
+    "content_sha256": "dd2463903592ab6c586aa83ffa250b5157e60984b062b00a2328f5f5b89c281d",
+    "perma_url": null,
+    "wayback_url": null,
+    "captured_at": "2026-09-29T20:22:50.521237+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
+  },
+  {
+    "source_url": "https://www.ksrevenue.gov/prpecentitylearnmore.html",
+    "primary": false,
+    "local_path": "KS/www.ksrevenue.gov-prpecentitylearnmore.html-bcabd7f4.html",
+    "content_type": "text/html",
+    "content_sha256": "d6eec93cdb14d1e4a77846bbdf3e1a8300cb6ba81fecee33d75470a96fca5e61",
+    "perma_url": null,
+    "wayback_url": "https://web.archive.org/web/20260929202335/https://www.ksrevenue.gov/prpecentitylearnmore.html",
+    "captured_at": "2026-09-29T20:22:50.521237+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
+  },
+  {
     "source_url": "https://www.ksrevisor.gov/statutes/chapters/ch17/017_017_0062.html",
     "primary": true,
     "local_path": "KS/www.ksrevisor.gov-statutes-chapters-ch17-017_017_0062.html.html",
