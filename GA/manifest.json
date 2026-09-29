@@ -71,16 +71,16 @@
   {
     "source_url": "https://rules.sos.ga.gov/gac/590-9-6-.03",
     "primary": false,
-    "local_path": "GA/rules.sos.ga.gov-gac-590-9-6-.03-290546a4.html",
+    "local_path": "GA/rules.sos.ga.gov-gac-590-9-6-.03-290546a4.dom.html",
     "content_type": "text/html",
-    "content_sha256": "7287521a5f109c2d571cd3bab50a212d49f35d222bab1d97cee7202bf1224505",
+    "content_sha256": "fb90577705877ef471bae683de791e07bde3cbd155d98df2e22383d2646fef18",
     "perma_url": null,
     "wayback_url": null,
-    "captured_at": "2026-09-29T21:54:48.150863+00:00",
+    "captured_at": "2026-09-29T21:55:30.990495+00:00",
     "signed": false,
     "tls_chain_unverified": false,
     "ingested_from_file": true,
-    "provenance": "browser_captured (automated variant): playwright chromium headless PAGE NAVIGATION 2026-09-29; bytes are the navigation response body (HTTP 200). Ga. Comp. R. & Regs. r. 590-9-6-.03, whose Authority line links O.C.G.A. 43-17-9 to the Fastcase 2026-edition page captured alongside it."
+    "provenance": "browser_captured (automated variant): playwright chromium headless PAGE NAVIGATION 2026-09-29; bytes are the RENDERED DOM (page.content()) of Ga. Comp. R. & Regs. r. 590-9-6-.03 \u2014 the Authority line that links O.C.G.A. 43-17-9 to the Fastcase 2026-edition page is rendered client-side and is absent from the raw navigation body captured minutes earlier (sha 7287521a\u2026)."
   },
   {
     "source_url": "https://sos.ga.gov/sites/default/files/forms/Application%20-%20Certificate%20of%20Authority%20for%20Profit%20or%20Nonprofit%20Corporation%20(CD%20236).pdf",
