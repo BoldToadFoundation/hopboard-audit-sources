@@ -12,6 +12,19 @@
     "tls_chain_unverified": false
   },
   {
+    "source_url": "https://legislature.idaho.gov/statutesrules/idstat/Title48/T48CH19/",
+    "primary": false,
+    "local_path": "ID/legislature.idaho.gov-statutesrules-idstat-Title48-T48CH19-c678a8ff.html",
+    "content_type": "text/html; charset=UTF-8",
+    "content_sha256": "9b5cf0a7b585d4b71605766be98949acba8b4cce8d27b33ed56689af6b762080",
+    "perma_url": null,
+    "wayback_url": null,
+    "captured_at": "2026-09-29T20:24:21.368912+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
+  },
+  {
     "source_url": "https://legislature.idaho.gov/statutesrules/idstat/title48/t48ch12/",
     "primary": true,
     "local_path": "ID/legislature.idaho.gov-statutesrules-idstat-title48-t48ch12.html",
@@ -22,6 +35,19 @@
     "captured_at": "2026-07-04T09:51:57.258684+00:00",
     "signed": true,
     "tls_chain_unverified": false
+  },
+  {
+    "source_url": "https://www.ag.idaho.gov/consumer-protection/",
+    "primary": false,
+    "local_path": "ID/www.ag.idaho.gov-consumer-protection-8c12799d.html",
+    "content_type": "text/html; charset=UTF-8",
+    "content_sha256": "54afef1b47b2bb77c98bd139e527207b7eab4a622098967f9cd0876a65d70fde",
+    "perma_url": null,
+    "wayback_url": "https://web.archive.org/web/20260929202521/https://www.ag.idaho.gov/consumer-protection/",
+    "captured_at": "2026-09-29T20:24:21.368912+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
   },
   {
     "source_url": "https://www.ag.idaho.gov/content/uploads/2020/05/ICAPA-Frequently-Asked-Questions.pdf",
