@@ -1,5 +1,18 @@
 [
   {
+    "source_url": "https://docs.sos.ri.gov/documents/BusinessServices/631-non-profit-corporation-annual-report.pdf",
+    "primary": false,
+    "local_path": "RI/docs.sos.ri.gov-documents-BusinessServices-631-non-profit-corporation-annual-rep-3b5fb733.pdf",
+    "content_type": "application/pdf",
+    "content_sha256": "ac02f6bef5584d5166c4ec30489089b9e09e6a1230664ba2dd320ce52f017397",
+    "perma_url": null,
+    "wayback_url": "https://web.archive.org/web/20260929200905/https://docs.sos.ri.gov/documents/BusinessServices/631-non-profit-corporation-annual-report.pdf",
+    "captured_at": "2026-09-29T20:08:12.100479+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
+  },
+  {
     "source_url": "https://rules.sos.ri.gov/organizations/subchapter/230-50-05",
     "primary": false,
     "local_path": "RI/rules.sos.ri.gov-organizations-subchapter-230-50-05.html",
@@ -48,6 +61,19 @@
     "tls_chain_unverified": false
   },
   {
+    "source_url": "https://webserver.rilegislature.gov/Statutes/TITLE5/5-53.1/INDEX.HTM",
+    "primary": false,
+    "local_path": "RI/webserver.rilegislature.gov-Statutes-TITLE5-5-53.1-INDEX.HTM-052adb45.html",
+    "content_type": "text/html",
+    "content_sha256": "24f21c52afb9fa36d223391ecb6d58015108e2f0f3caa071ca9e0496f11f77de",
+    "perma_url": null,
+    "wayback_url": null,
+    "captured_at": "2026-09-29T20:08:12.100479+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
+  },
+  {
     "source_url": "https://webserver.rilegislature.gov/Statutes/TITLE7/7-6/7-6-91.htm",
     "primary": true,
     "local_path": "RI/webserver.rilegislature.gov-Statutes-TITLE7-7-6-7-6-91.htm-606b963d.html",
@@ -58,5 +84,31 @@
     "captured_at": "2026-09-05T20:03:54.061311+00:00",
     "signed": true,
     "tls_chain_unverified": false
+  },
+  {
+    "source_url": "https://www.sos.ri.gov/divisions/business-services",
+    "primary": false,
+    "local_path": "RI/www.sos.ri.gov-divisions-business-services-0fbf5bac.html",
+    "content_type": "text/html; charset=utf-8",
+    "content_sha256": "4d11545dc3df363ebb5d2b65f0db5dd383ac99df3290204998594facf275f3ee",
+    "perma_url": null,
+    "wayback_url": null,
+    "captured_at": "2026-09-29T20:08:12.100479+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
+  },
+  {
+    "source_url": "https://www.sos.ri.gov/divisions/business-services/non-profit/file-your-annual-report",
+    "primary": false,
+    "local_path": "RI/www.sos.ri.gov-divisions-business-services-non-profit-file-your-annual-report-5bc5d9a5.html",
+    "content_type": "text/html; charset=utf-8",
+    "content_sha256": "31f3ad569b866d514e1c1c9a2208c347a109a2e1459f6ce9751caec7b44945e2",
+    "perma_url": null,
+    "wayback_url": null,
+    "captured_at": "2026-09-29T20:08:12.100479+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
   }
 ]
