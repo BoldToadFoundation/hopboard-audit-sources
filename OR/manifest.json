@@ -199,6 +199,32 @@
     "tls_chain_unverified": false
   },
   {
+    "source_url": "https://www.doj.state.or.us/wp-content/uploads/2026/01/Form-RF-C-Registration-for-Charitable-Organizations.pdf",
+    "primary": false,
+    "local_path": "OR/www.doj.state.or.us-wp-content-uploads-2026-01-Form-RF-C-Registration-for-Charit-38176e1c.pdf",
+    "content_type": "application/pdf",
+    "content_sha256": "e44d57870e3f28032690baf47250f90233b4e3e1c0591922ab59fcf6de5f26f0",
+    "perma_url": null,
+    "wayback_url": "https://web.archive.org/web/20260929205854/https://www.doj.state.or.us/wp-content/uploads/2026/01/Form-RF-C-Registration-for-Charitable-Organizations.pdf",
+    "captured_at": "2026-09-29T20:58:51.738578+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
+  },
+  {
+    "source_url": "https://www.doj.state.or.us/wp-content/uploads/2026/01/Form-RF-T-Registration-for-Trusts.pdf",
+    "primary": false,
+    "local_path": "OR/www.doj.state.or.us-wp-content-uploads-2026-01-Form-RF-T-Registration-for-Trusts-a0f48490.pdf",
+    "content_type": "application/pdf",
+    "content_sha256": "7da1f639503de2f9cedf3d10d1780fe6b6d34d8f3fd1a59215339b0d2ef377e0",
+    "perma_url": null,
+    "wayback_url": null,
+    "captured_at": "2026-09-29T20:58:51.738578+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
+  },
+  {
     "source_url": "https://www.oregon.gov/dor/programs/businesses/pages/corp-nonprofit.aspx",
     "primary": false,
     "local_path": "OR/www.oregon.gov-dor-programs-businesses-pages-corp-nonprofit.aspx-39388552.html",
