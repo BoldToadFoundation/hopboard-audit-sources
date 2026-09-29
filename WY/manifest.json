@@ -1,5 +1,18 @@
 [
   {
+    "source_url": "https://ag.wyo.gov/law-office-division/consumer-protection-and-antitrust-unit",
+    "primary": false,
+    "local_path": "WY/ag.wyo.gov-law-office-division-consumer-protection-and-antitrust-unit-cf5414bd.html",
+    "content_type": "text/html; charset=utf-8",
+    "content_sha256": "712e1ea29920af7e3eb679e8ffe1dbc2ea8df260e9acced2d1cb78ffa8678836",
+    "perma_url": null,
+    "wayback_url": null,
+    "captured_at": "2026-09-29T21:00:20.697746+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
+  },
+  {
     "source_url": "https://attorneygeneral.wyo.gov/law-office-division/consumer-protection-and-antitrust-unit/telephone-solicitation",
     "primary": false,
     "local_path": "WY/attorneygeneral.wyo.gov-law-office-division-consumer-protection-and-antitrust-un.html",
@@ -24,6 +37,19 @@
     "signed": true,
     "tls_chain_unverified": false,
     "perma_backfilled_at": "2026-07-12T21:11:20.085402+00:00"
+  },
+  {
+    "source_url": "https://sos.wyo.gov/Forms/Default.aspx?root=Business",
+    "primary": false,
+    "local_path": "WY/sos.wyo.gov-Forms-Default.aspx-root-Business-d4795dcc.html",
+    "content_type": "text/html; charset=utf-8",
+    "content_sha256": "034cc7b754ddcc7f5cf87c431fc24044ed55d68d8a87a52ca761362adf8452f3",
+    "perma_url": null,
+    "wayback_url": "https://web.archive.org/web/20260929210039/https://sos.wyo.gov/Forms/Default.aspx?root=Business",
+    "captured_at": "2026-09-29T21:00:20.697746+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
   },
   {
     "source_url": "https://sos.wyo.gov/faqs.aspx?root=BUS",
