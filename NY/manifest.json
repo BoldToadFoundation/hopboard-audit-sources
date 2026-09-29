@@ -1,5 +1,44 @@
 [
   {
+    "source_url": "https://ag.ny.gov/resources/government-organizations/charities-nonprofits-fundraisers/charities-annual-filing-char500",
+    "primary": false,
+    "local_path": "NY/ag.ny.gov-resources-government-organizations-charities-nonprofits-fundraisers-ch-b485d3de.html",
+    "content_type": "text/html; charset=UTF-8",
+    "content_sha256": "682123102083be9e759cb1e2ec7d71aa1ffedc4f34f1054e707a058b20ff2463",
+    "perma_url": null,
+    "wayback_url": null,
+    "captured_at": "2026-09-29T20:12:01.751956+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
+  },
+  {
+    "source_url": "https://ag.ny.gov/resources/government-organizations/charities-nonprofits-fundraisers/forms-and-instructions",
+    "primary": false,
+    "local_path": "NY/ag.ny.gov-resources-government-organizations-charities-nonprofits-fundraisers-fo-18858e0a.html",
+    "content_type": "text/html; charset=UTF-8",
+    "content_sha256": "847286af0d8a6c96da6d3eb5b6bcccf9da275201966e7a11448ec868d72aa2ff",
+    "perma_url": null,
+    "wayback_url": null,
+    "captured_at": "2026-09-29T20:12:01.751956+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
+  },
+  {
+    "source_url": "https://ag.ny.gov/resources/organizations/charities-nonprofits-fundraisers",
+    "primary": false,
+    "local_path": "NY/ag.ny.gov-resources-organizations-charities-nonprofits-fundraisers-d8d77848.html",
+    "content_type": "text/html; charset=UTF-8",
+    "content_sha256": "2f9d8591d9402062698f3a900770958a8717e87b29e7578147e444b7591bab8e",
+    "perma_url": null,
+    "wayback_url": "https://web.archive.org/web/20260929201241/https://ag.ny.gov/resources/government-organizations/charities-nonprofits-fundraisers",
+    "captured_at": "2026-09-29T20:12:01.751956+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
+  },
+  {
     "source_url": "https://ag.ny.gov/sites/default/files/2022-10/Regs-F.pdf",
     "primary": false,
     "local_path": "NY/ag.ny.gov-sites-default-files-2022-10-Regs-F.pdf-e40c49e6.pdf",
@@ -10,6 +49,19 @@
     "captured_at": "2026-09-29T19:41:36.520115+00:00",
     "signed": false,
     "tls_chain_unverified": false
+  },
+  {
+    "source_url": "https://ag.ny.gov/sites/default/files/regulatory-documents/char009.pdf",
+    "primary": false,
+    "local_path": "NY/ag.ny.gov-sites-default-files-regulatory-documents-char009.pdf-3db5896e.pdf",
+    "content_type": "application/pdf",
+    "content_sha256": "9291f7a028d94a4324b5254f8fa315946a884bd405982c7eaa229fbb78f8afbc",
+    "perma_url": null,
+    "wayback_url": null,
+    "captured_at": "2026-09-29T20:12:01.751956+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
   },
   {
     "source_url": "https://ag.ny.gov/sites/default/files/regulatory-documents/char500-user-guide.pdf",
@@ -55,6 +107,19 @@
     "captured_at_basis": "CORRECTED 2026-08-08 per Tony ruling (captured_at = when the BYTES were captured from the source, not when we ingested them). True date read from the 14-digit snapshot timestamp in this entry's own source_url; verified against the Internet Archive CDX index (a snapshot exists at exactly that timestamp, status 200) before the correction was propagated. Prior value was the 2026-06-12 wayback_snapshot re-homing INGEST date, preserved in ingested_at."
   },
   {
+    "source_url": "https://www.charitiesnys.com/",
+    "primary": false,
+    "local_path": "NY/www.charitiesnys.com-d48f5912.html",
+    "content_type": "text/html",
+    "content_sha256": "40eb7eecff5eff9d823082363e1baa789be45f6ec7c886ef5f9eed71a9a5d44c",
+    "perma_url": null,
+    "wayback_url": "https://web.archive.org/web/20260929201241/https://ag.ny.gov/resources/government-organizations/charities-nonprofits-fundraisers",
+    "captured_at": "2026-09-29T20:12:01.751956+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
+  },
+  {
     "source_url": "https://www.nysenate.gov/legislation/laws/EXC/172-B",
     "primary": false,
     "local_path": "NY/www.nysenate.gov-legislation-laws-EXC-172-B.pdf",
@@ -67,5 +132,31 @@
     "tls_chain_unverified": false,
     "ingested_from_file": true,
     "provenance": "Perma RX6X-T2LS (Tony browser capture 2026-07-10; user-uploaded PDF replacing a failed automated capture \u2014 nysenate.gov is Cloudflare-walled to scripted fetch); PDF payload extracted from the perma WARC via authenticated API; thresholds byte-verified pre-ingest"
+  },
+  {
+    "source_url": "https://www.tax.ny.gov/bus/st/exempt.htm",
+    "primary": false,
+    "local_path": "NY/www.tax.ny.gov-bus-st-exempt.htm-536ba08e.html",
+    "content_type": "text/html",
+    "content_sha256": "09443383f5657ed3b950600105bbebe1732f4fbabd66b748dcc644ab788187f4",
+    "perma_url": null,
+    "wayback_url": "https://web.archive.org/web/20260929201320/https://www.tax.ny.gov/bus/st/exempt.htm",
+    "captured_at": "2026-09-29T20:12:01.751956+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
+  },
+  {
+    "source_url": "https://www.tax.ny.gov/pdf/current_forms/ct/ct247.pdf",
+    "primary": false,
+    "local_path": "NY/www.tax.ny.gov-pdf-current_forms-ct-ct247.pdf-aac656e8.pdf",
+    "content_type": "application/pdf",
+    "content_sha256": "6ce212b3b579058235d0a7d38d9fe3ee705ca1cb23003d1d0e0a37e44e12d254",
+    "perma_url": null,
+    "wayback_url": "https://web.archive.org/web/20260920134440/https://www.tax.ny.gov/pdf/current_forms/ct/ct247.pdf",
+    "captured_at": "2026-09-29T20:12:01.751956+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
   }
 ]
