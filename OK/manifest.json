@@ -1,27 +1,79 @@
 [
- {
-  "source_url": "https://www.oklegislature.gov/OK_Statutes/CompleteTitles/os18.pdf",
-  "primary": false,
-  "local_path": "OK/www.oklegislature.gov-OK_Statutes-CompleteTitles-os18.pdf.pdf",
-  "content_type": "application/pdf",
-  "content_sha256": "295515ff3d064e987e39cf36b0782a3bf245381addf685a84cb46ab01861829b",
-  "perma_url": "https://perma.cc/R2KS-GZ3M",
-  "wayback_url": "https://web.archive.org/web/20260717152927/https://www.oklegislature.gov/OK_Statutes/CompleteTitles/os18.pdf",
-  "captured_at": "2026-07-17T15:27:13.656903+00:00",
-  "signed": false,
-  "tls_chain_unverified": false,
-  "note": "source-of-record for 18 O.S. §552.2 (Form 990 definition — the form_990_coupled coupling term) + §552.4 (exemptions); first-party oklegislature.gov, sha 295515ff (recomputed-verified). §552.3 = OSCN CiteID-66919 primary. Redundant Turnstile-wall per-section captures 66918/66920 removed 2026-07-19 (Tony reopen-check: os18.pdf gives a clean verifiable §552.2, so re-capture was redundant)."
- },
- {
-  "source_url": "https://www.oscn.net/applications/oscn/DeliverDocument.asp?CiteID=66919",
-  "primary": true,
-  "local_path": "OK/www.oscn.net-applications-oscn-DeliverDocument.asp-CiteID-66919.html",
-  "content_type": "text/html",
-  "content_sha256": "68aa8a744e0f7829634d85910f83d7f951d5585cde00030a197455847c0609e5",
-  "perma_url": "https://perma.cc/8PFB-HQWZ",
-  "wayback_url": "https://web.archive.org/web/20260717152725/https://www.oscn.net/applications/oscn/DeliverDocument.asp?CiteID=66919",
-  "captured_at": "2026-07-19T10:25:07.012265+00:00",
-  "signed": false,
-  "tls_chain_unverified": false
- }
+  {
+    "source_url": "https://oklahoma.gov/oag/about/divisions/charity-enforcement.html",
+    "primary": false,
+    "local_path": "OK/oklahoma.gov-oag-about-divisions-charity-enforcement.html-88fb63e2.html",
+    "content_type": "text/html;charset=utf-8",
+    "content_sha256": "cf26b9995e02f025c1155371f538d7291003f8f7e554c71f0461e871c2b846fc",
+    "perma_url": null,
+    "wayback_url": null,
+    "captured_at": "2026-09-29T20:15:52.712096+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
+  },
+  {
+    "source_url": "https://oklahoma.gov/oag/about/divisions/charity-enforcement/required-notice.html",
+    "primary": false,
+    "local_path": "OK/oklahoma.gov-oag-about-divisions-charity-enforcement-required-notice.html-bfc36fdd.html",
+    "content_type": "text/html;charset=utf-8",
+    "content_sha256": "70c9d2e59d0d212994e9e0d781ebe79388586a796d7626269a8f924cad08f2ab",
+    "perma_url": null,
+    "wayback_url": null,
+    "captured_at": "2026-09-29T20:15:52.712096+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
+  },
+  {
+    "source_url": "https://www.oklegislature.gov/OK_Statutes/CompleteTitles/os18.pdf",
+    "primary": false,
+    "local_path": "OK/www.oklegislature.gov-OK_Statutes-CompleteTitles-os18.pdf.pdf",
+    "content_type": "application/pdf",
+    "content_sha256": "295515ff3d064e987e39cf36b0782a3bf245381addf685a84cb46ab01861829b",
+    "perma_url": "https://perma.cc/R2KS-GZ3M",
+    "wayback_url": "https://web.archive.org/web/20260717152927/https://www.oklegislature.gov/OK_Statutes/CompleteTitles/os18.pdf",
+    "captured_at": "2026-07-17T15:27:13.656903+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "note": "source-of-record for 18 O.S. \u00a7552.2 (Form 990 definition \u2014 the form_990_coupled coupling term) + \u00a7552.4 (exemptions); first-party oklegislature.gov, sha 295515ff (recomputed-verified). \u00a7552.3 = OSCN CiteID-66919 primary. Redundant Turnstile-wall per-section captures 66918/66920 removed 2026-07-19 (Tony reopen-check: os18.pdf gives a clean verifiable \u00a7552.2, so re-capture was redundant)."
+  },
+  {
+    "source_url": "https://www.oscn.net/applications/oscn/DeliverDocument.asp?CiteID=66919",
+    "primary": true,
+    "local_path": "OK/www.oscn.net-applications-oscn-DeliverDocument.asp-CiteID-66919.html",
+    "content_type": "text/html",
+    "content_sha256": "68aa8a744e0f7829634d85910f83d7f951d5585cde00030a197455847c0609e5",
+    "perma_url": "https://perma.cc/8PFB-HQWZ",
+    "wayback_url": "https://web.archive.org/web/20260717152725/https://www.oscn.net/applications/oscn/DeliverDocument.asp?CiteID=66919",
+    "captured_at": "2026-07-19T10:25:07.012265+00:00",
+    "signed": false,
+    "tls_chain_unverified": false
+  },
+  {
+    "source_url": "https://www.sos.ok.gov/corp/",
+    "primary": false,
+    "local_path": "OK/www.sos.ok.gov-corp-748e4efa.html",
+    "content_type": "text/html; charset=utf-8",
+    "content_sha256": "84a2eeb3944bc770b4f64f50a6b03b2cdeeedb2c2cedda2f00aa57aa6cb3a939",
+    "perma_url": null,
+    "wayback_url": "https://web.archive.org/web/20260929201618/https://www.sos.ok.gov/corp/",
+    "captured_at": "2026-09-29T20:15:52.712096+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
+  },
+  {
+    "source_url": "https://www.sos.ok.gov/forms/FM0101.PDF",
+    "primary": false,
+    "local_path": "OK/www.sos.ok.gov-forms-FM0101.PDF-bd80bb83.pdf",
+    "content_type": "application/pdf",
+    "content_sha256": "6ac42c8278c3a6fd5a83fedfae46a7ef1ee2d7b38e577e3e18b8276ec5d2662b",
+    "perma_url": null,
+    "wayback_url": "https://web.archive.org/web/20260901041416/https://sos.ok.gov/forms/Fm0101.PDF",
+    "captured_at": "2026-09-29T20:15:52.712096+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
+  }
 ]
