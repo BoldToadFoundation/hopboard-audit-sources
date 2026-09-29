@@ -49,6 +49,32 @@
     "tls_chain_unverified": false
   },
   {
+    "source_url": "https://sos.wv.gov/business/charities/charitable-organizations",
+    "primary": false,
+    "local_path": "WV/sos.wv.gov-business-charities-charitable-organizations-adb78e65.html",
+    "content_type": "text/html; charset=utf-8",
+    "content_sha256": "e5e904aee83f4d16ea8c1f2da086b71a66c4167197b2baee31ec404549a9372b",
+    "perma_url": null,
+    "wayback_url": null,
+    "captured_at": "2026-09-29T20:59:30.464578+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
+  },
+  {
+    "source_url": "https://sos.wv.gov/business/registration-and-waivers/register-out-state-foreign-business",
+    "primary": false,
+    "local_path": "WV/sos.wv.gov-business-registration-and-waivers-register-out-state-foreign-business-6f49c6b1.html",
+    "content_type": "text/html; charset=utf-8",
+    "content_sha256": "11df88cfd8c646bbd0be05f32663120c7672576de054e7df49227374e51dbc98",
+    "perma_url": null,
+    "wayback_url": null,
+    "captured_at": "2026-09-29T20:59:30.464578+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
+  },
+  {
     "source_url": "https://tax.wv.gov/Documents/TSD/tsd320.pdf",
     "primary": false,
     "local_path": "WV/tax.wv.gov-Documents-TSD-tsd320.pdf-6862b195.pdf",
