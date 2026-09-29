@@ -48,5 +48,57 @@
     "tls_chain_unverified": false,
     "ingested_from_file": true,
     "provenance": "browser_captured per BROWSER_CAPTURE_RUNBOOK: headless Playwright page navigation (networkidle), 2026-09-07, for BATCH11's frame read of MCL 400.283 (Charitable Organizations and Solicitations Act exemptions). The script's own fetch could not archive this host; the headless PAGE NAVIGATION returned 200 / 5,191 rendered chars with 2 occurrences of 'exempt'. Probe kind stated per the guard."
+  },
+  {
+    "source_url": "https://www.michigan.gov/consumerprotection/charities",
+    "primary": false,
+    "local_path": "MI/www.michigan.gov-consumerprotection-charities-4f9f604f.html",
+    "content_type": "text/html; charset=utf-8",
+    "content_sha256": "086fc72b36b58e4553350a21bd4e77ae2470a1079bd29cecdda4e3f4a484c784",
+    "perma_url": null,
+    "wayback_url": null,
+    "captured_at": "2026-09-29T20:12:53.240363+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
+  },
+  {
+    "source_url": "https://www.michigan.gov/consumerprotection/charities/charitable-organizations",
+    "primary": false,
+    "local_path": "MI/www.michigan.gov-consumerprotection-charities-charitable-organizations-2429bd31.html",
+    "content_type": "text/html; charset=utf-8",
+    "content_sha256": "e310a651767fdb29c0e158681283fbef3fe1f58df4a6baf10e65d84b070a270e",
+    "perma_url": null,
+    "wayback_url": null,
+    "captured_at": "2026-09-29T20:12:53.240363+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
+  },
+  {
+    "source_url": "https://www.michigan.gov/consumerprotection/charities/forms",
+    "primary": false,
+    "local_path": "MI/www.michigan.gov-consumerprotection-charities-forms-0cd88382.html",
+    "content_type": "text/html; charset=utf-8",
+    "content_sha256": "8f679d4f858fd804ff2c171eab0e6afc5b60b1695d0e904c267ff795852528e9",
+    "perma_url": null,
+    "wayback_url": "https://web.archive.org/web/20260929201414/https://www.michigan.gov/consumerprotection/charities/forms",
+    "captured_at": "2026-09-29T20:12:53.240363+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
+  },
+  {
+    "source_url": "https://www.michigan.gov/lara/bureau-list/cscl/corps/michigan-business-roadmap/annual-reports-and-annual-statements",
+    "primary": false,
+    "local_path": "MI/www.michigan.gov-lara-bureau-list-cscl-corps-michigan-business-roadmap-annual-re-cde85236.html",
+    "content_type": "text/html; charset=utf-8",
+    "content_sha256": "f286de8fdc93658807b91476944e645968b61cb145c2fd6f6bcd16e611dba491",
+    "perma_url": null,
+    "wayback_url": "https://web.archive.org/web/20260929201527/https://www.michigan.gov/lara/bureau-list/cscl/corps/michigan-business-roadmap/annual-reports-and-annual-statements",
+    "captured_at": "2026-09-29T20:12:53.240363+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
   }
 ]
