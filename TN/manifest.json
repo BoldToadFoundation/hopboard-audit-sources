@@ -109,6 +109,20 @@
     "provenance": "curl with a Chrome browser User-Agent (plain HTTP GET, no JS), 2026-09-29; the capture tool's own fetcher received 403 for this URL in the same session, so the raw bytes were fetched by curl and ingested"
   },
   {
+    "source_url": "https://sos-prod.tnsosgovfiles.com/s3fs-public/document/SS-6042.pdf",
+    "primary": false,
+    "local_path": "TN/sos-prod.tnsosgovfiles.com-s3fs-public-document-SS-6042.pdf-ea9be348.bin",
+    "content_type": "application/octet-stream",
+    "content_sha256": "287963af2b50ba60c20a4a84467f58cd4a45becee70aa170c79b9592e2267987",
+    "perma_url": null,
+    "wayback_url": null,
+    "captured_at": "2026-09-29T21:07:36.356010+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "ingested_from_file": true,
+    "provenance": "curl with a Chrome browser User-Agent (plain HTTP GET, no JS), 2026-09-29; the capture tool's own fetcher received 403 for this URL in the same session, so the raw bytes were fetched by curl and ingested"
+  },
+  {
     "source_url": "https://sos-tn-gov-files.tnsosfiles.com/forms/SS-6002%20990%20Instruction.pdf",
     "primary": false,
     "local_path": "TN/sos-tn-gov-files.tnsosfiles.com-forms-SS-6002-20990-20Instruction.pdf-336ab21f.bin",
