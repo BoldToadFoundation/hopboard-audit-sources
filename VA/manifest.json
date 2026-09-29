@@ -16,13 +16,12 @@
     "primary": true,
     "local_path": "VA/law.lis.virginia.gov-vacode-title57-chapter5-section57-60-472f492f.html",
     "content_type": "text/html; charset=utf-8",
-    "content_sha256": "f5dc58824af80fad6c2b25887f9bae5814d6ab2d25cadb2e84718b6032037765",
-    "perma_url": null,
-    "wayback_url": "https://web.archive.org/web/20260929223559/https://law.lis.virginia.gov/vacode/title57/chapter5/section57-60/",
-    "captured_at": "2026-09-29T22:35:54.537706+00:00",
+    "content_sha256": "bc46dd0c4e02d15fa7a3b14000cf0cb26a79f74f28630c6c2b8c45a4ad669578",
+    "perma_url": "https://perma.cc/T6MD-UZ4C",
+    "wayback_url": "https://web.archive.org/web/20260907151525/https://law.lis.virginia.gov/vacode/title57/chapter5/section57-60/",
+    "captured_at": "2026-09-07T15:15:18.873255+00:00",
     "signed": false,
-    "tls_chain_unverified": false,
-    "perma_policy": "local_only (D-070)"
+    "tls_chain_unverified": false
   },
   {
     "source_url": "https://law.lis.virginia.gov/vacodefull/title57/chapter5/",
