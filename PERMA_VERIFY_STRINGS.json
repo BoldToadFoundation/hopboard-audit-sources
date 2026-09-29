@@ -2012,6 +2012,10 @@
         "shall be exempt from all the report filing provisions of this Act, except for the requirements set forth in Section 2 of this Act",
         "does not actually receive contributions in excess of $15,000 during any 12 month period ending December 31 of any year"
       ]
+    },
+    "6W45-9LHK": {
+      "skip": "PDF tier (documented skip, 2026-09-29, D-062 capture pass). UT S.B. 40 (2026) enrolled, Laws 2026 ch. 93 (Business Entity Amendments) — enacts §16-1a-212, the annual report to the Division of Corporations; (5)(a)(i) sets it 'on the last day of the anniversary month'; Section 297: effective October 1, 2026. The manifest content_type is application/pdf, so verify_perma's utf-8 WARC grep is BLIND to this artifact by the sweep's own rule (sweep_artifact_integrity._verify_perma_blind) — a string-form entry here would fail COMPLETENESS against the WARC, as S.B. 38's did at the 2026-09-06 UT apply (2NRS-CDUX). The load-bearing strings are verified via the shared extractor against the LOCAL sha-pinned artifact by the by_sha256 entry 9aae3388d215b668f4766f4f87b8e4b8ff36362c6ee62a79d630a40b5640a457 (6 present + a negative control absent, 2026-09-29).",
+      "source_url": "https://le.utah.gov/Session/2026/bills/enrolled/SB0040.pdf"
     }
   },
   "by_sha256": {
@@ -2616,6 +2620,18 @@
         "37-30-26"
       ],
       "verified_byte_present": "2026-09-06 (this entry written only after grepping the archived file)"
+    },
+    "9aae3388d215b668f4766f4f87b8e4b8ff36362c6ee62a79d630a40b5640a457": {
+      "basis": "SB40 enacts Utah Code §16-1a-212: every domestic filing entity and registered foreign entity files an annual report, delivered on the last day of the anniversary month and up to 60 days before it; the bill takes effect October 1, 2026 [verified 2026-09-29 against the local capture via check_perma_sidecar.artifact_text]",
+      "source_url": "https://le.utah.gov/Session/2026/bills/enrolled/SB0040.pdf",
+      "strings": [
+        "Annual report for division.",
+        "Each domestic filing entity and registered foreign entity shall file an annual report with",
+        "shall deliver an annual report to the division each calendar year on the last day of",
+        "may deliver the annual report up to 60 days before the last day of the anniversary",
+        "registered foreign entity's application for authority to conduct affairs in this state",
+        "This bill takes effect on October 1, 2026."
+      ]
     }
   }
 }
