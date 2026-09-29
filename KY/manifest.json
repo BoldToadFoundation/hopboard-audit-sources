@@ -36,6 +36,32 @@
     "tls_chain_unverified": false
   },
   {
+    "source_url": "https://revenue.ky.gov/Forms/51A125%20-%20PE%20Application.pdf",
+    "primary": false,
+    "local_path": "KY/revenue.ky.gov-Forms-51A125-20--20PE-20Application.pdf-f66d573b.pdf",
+    "content_type": "application/pdf",
+    "content_sha256": "daabf077db9e30a1c14c93b33278a1299a5c5bc67cfc21792a10a8c9ca331c53",
+    "perma_url": null,
+    "wayback_url": null,
+    "captured_at": "2026-09-29T20:23:32.339988+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
+  },
+  {
+    "source_url": "https://www.ag.ky.gov/Resources/Consumer-Resources/charity/Pages/registration.aspx",
+    "primary": false,
+    "local_path": "KY/www.ag.ky.gov-Resources-Consumer-Resources-charity-Pages-registration.aspx-5d36ca01.html",
+    "content_type": "text/html; charset=utf-8",
+    "content_sha256": "241b58f8d63e7129b722fb7ebff378063697cb3cf93a4a994537a363a70cdf82",
+    "perma_url": null,
+    "wayback_url": null,
+    "captured_at": "2026-09-29T20:23:32.339988+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
+  },
+  {
     "source_url": "https://www.sos.ky.gov/bus/business-filings/Pages/Annual-Reports.aspx",
     "primary": false,
     "local_path": "KY/www.sos.ky.gov-bus-business-filings-Pages-Annual-Reports.aspx-3995cdd8.html",
