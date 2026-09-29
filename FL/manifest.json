@@ -11,9 +11,10 @@
     "signed": false,
     "tls_chain_unverified": false,
     "perma_failed_guids": [
-      "CPN9-W3U9"
+      "CPN9-W3U9",
+      "96UD-4BSQ"
     ],
-    "perma_policy": "local_only (D-076: this URL serves Online Sunshine navigation chrome, not \u00a7496.406; the section is Perma'd at 7CUD-C9M2)"
+    "perma_policy": "local_only (D-076: Perma's capture of this URL failed twice \u2014 CPN9-W3U9, and the one fresh try 96UD-4BSQ on 2026-09-29, both status 'failed', no WARC. The same section is Perma'd at 7CUD-C9M2, flsenate.gov)"
   },
   {
     "source_url": "https://ccmedia.fdacs.gov/content/download/116033/file/Registration-for-Charitable-Organizations-Guide.pdf",

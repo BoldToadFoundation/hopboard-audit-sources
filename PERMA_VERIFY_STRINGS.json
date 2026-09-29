@@ -2737,11 +2737,6 @@
       "basis": "MCL 400.283(b) — the small-org exemption from the Charitable Organizations and Solicitations Act (MI_SMALL_ORG_BASIS_20260929.sql, Reader A).",
       "note": "D-076 record gap closed 2026-09-29: the full 409-char Reader-A quote was byte-checked present in these pinned bytes (sha MATCH; a planted wrong figure MISSING); only the sidecar entry had never been written."
     },
-    "eac4e7b02dde84f74a44b0f34dd160216ab9f7c45310c3a827973079c57954b4": {
-      "source_url": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0400-0499/0496/Sections/0496.406.html",
-      "skip": "SHELL — the capture fetch of this URL returns the Online Sunshine navigation chrome (5,456 chars after tag-strip) rather than §496.406; the tail of it is a chapter-617 corporate fee schedule, which is how the wrong-section content was noticed. Superseded for load-bearing purposes by 7CUD-C9M2 (flsenate.gov, same section, verified). Kept rather than deleted because deleting a Perma'd artifact orphans its GUID; the disposition is 'do not read this one'. BATCH11 2026-09-07.",
-      "note": "D-076 retirement 2026-09-29: Perma CPN9-W3U9 status 'failed'. Not retried — a fresh capture of this URL would archive the same navigation shell. perma_url nulled, GUID kept in the manifest's perma_failed_guids."
-    },
     "750a402e935980ccd458d0ec2b06a40d8d5d3807925a66c0bffa1a4b84253ee3": {
       "source_url": "https://www.ilga.gov/legislation/ILCS/details?ActName=General%20Not%20For%20Profit%20Corporation%20Act%20of%201986.&ActID=2280&ChapterID=65&SeqStart=11800000&SeqEnd=12200000",
       "strings": [
@@ -2749,6 +2744,15 @@
       ],
       "basis": "IL General Not For Profit Corporation Act of 1986 — annual report of domestic or foreign corporation",
       "note": "D-076 retirement 2026-09-29: Perma ZR3T-C2HC (backfill) and the one fresh try DC4C-LBVY both archived Article 112 (dissolution), not §114.10 'Annual report of domestic or foreign corporation'. The record rests on the local sha-pinned 2026-08-01 capture, which holds §114.10. CURRENCY FLAG: this SeqStart/SeqEnd URL now serves different sections; the annual-report source URL wants a re-read."
+    },
+    "eac4e7b02dde84f74a44b0f34dd160216ab9f7c45310c3a827973079c57954b4": {
+      "source_url": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0400-0499/0496/Sections/0496.406.html",
+      "strings": [
+        "has less than $50,000 in total contributions during a fiscal year",
+        "carried on by volunteers, members, or officers who are not compensated"
+      ],
+      "basis": "Fla. Stat. §496.406(1)(d) — small-org exemption from registration (FL_SMALL_ORG_BASIS_20260929.sql, Reader A).",
+      "note": "CORRECTED 2026-09-29 (D-076). The 09-07 BATCH11 skip read 'SHELL — navigation chrome rather than §496.406'. Measured against these unchanged bytes (fc1bdff): the tag-stripped text holds the full section incl. (1)(d) and its history to ch. 2025-22; the skip did not match the file. Strings replace the skip. Superseded text of the wrong note: SHELL — the capture fetch of this URL returns the Online Sunshine navigation chrome (5,456 chars after tag-strip) rather than §496.406; the tail of it is a chap D-076 fresh capture 2026-09-29 (96UD-4BSQ) replacing failed CPN9-W3U9 (kept in perma_failed_guids). RETIRED 2026-09-29: 96UD-4BSQ also failed at Perma (status 'failed', WARC 404); strings rest on the local sha-pinned copy."
     }
   }
 }
