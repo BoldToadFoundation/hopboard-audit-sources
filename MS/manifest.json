@@ -22,5 +22,57 @@
     "captured_at": "2026-07-05T01:35:13.375187+00:00",
     "signed": true,
     "tls_chain_unverified": true
+  },
+  {
+    "source_url": "https://charities.sos.ms.gov/",
+    "primary": false,
+    "local_path": "MS/charities.sos.ms.gov-8e5fd175.html",
+    "content_type": "text/html",
+    "content_sha256": "530dfa8b8e823ed2cf8f8646349b90fd166c90b848d4dce811b6ca261fa19f0b",
+    "perma_url": null,
+    "wayback_url": null,
+    "captured_at": "2026-09-29T20:18:04.042535+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
+  },
+  {
+    "source_url": "https://www.sos.ms.gov/business-services/annual-reports",
+    "primary": false,
+    "local_path": "MS/www.sos.ms.gov-business-services-annual-reports-a2f5b732.html",
+    "content_type": "text/html; charset=UTF-8",
+    "content_sha256": "3b3b592cc2be098b52ef695f770e4413c4fde4c2ee59e37c9995a66de53a440d",
+    "perma_url": null,
+    "wayback_url": null,
+    "captured_at": "2026-09-29T20:18:04.042535+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
+  },
+  {
+    "source_url": "https://www.sos.ms.gov/business-services/non-profit-requirements",
+    "primary": false,
+    "local_path": "MS/www.sos.ms.gov-business-services-non-profit-requirements-7467d646.html",
+    "content_type": "text/html; charset=UTF-8",
+    "content_sha256": "1ae0a64bc6ba346cdbd4ad3be5b1030e0bab4de9b0d66c96c4364e0afd5f7937",
+    "perma_url": null,
+    "wayback_url": null,
+    "captured_at": "2026-09-29T20:18:04.042535+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
+  },
+  {
+    "source_url": "https://www.sos.ms.gov/charities/charity-online-registration",
+    "primary": false,
+    "local_path": "MS/www.sos.ms.gov-charities-charity-online-registration-53b5b7f8.html",
+    "content_type": "text/html; charset=UTF-8",
+    "content_sha256": "0c207f6f140966a18b7544fff1f5b8b6f546a75830aa47206d807d149398c7c1",
+    "perma_url": null,
+    "wayback_url": "https://web.archive.org/web/20260929201935/https://www.sos.ms.gov/charities/charity-online-registration",
+    "captured_at": "2026-09-29T20:18:04.042535+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
   }
 ]
