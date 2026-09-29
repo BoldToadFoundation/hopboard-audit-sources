@@ -96,6 +96,19 @@
     "tls_chain_unverified": false
   },
   {
+    "source_url": "https://cca.hawaii.gov/breg/registration/fnpc/",
+    "primary": false,
+    "local_path": "HI/cca.hawaii.gov-breg-registration-fnpc-5a0886bb.html",
+    "content_type": "text/html; charset=UTF-8",
+    "content_sha256": "c70e67cde2664078535394f5baed97d2d427f3d25c38a8055b7c25d8b4918cc9",
+    "perma_url": null,
+    "wayback_url": null,
+    "captured_at": "2026-09-29T20:21:48.984101+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
+  },
+  {
     "source_url": "https://cca.hawaii.gov/breg/third-quarter-hawaii-annual-business-reports-due-2026/",
     "primary": false,
     "local_path": "HI/cca.hawaii.gov-breg-third-quarter-hawaii-annual-business-reports-due-2026-62d54c1a.html",
@@ -220,6 +233,19 @@
     "tls_chain_unverified": false
   },
   {
+    "source_url": "https://hbe.ehawaii.gov/",
+    "primary": false,
+    "local_path": "HI/hbe.ehawaii.gov-de1defcd.html",
+    "content_type": "text/html; charset=utf-8",
+    "content_sha256": "f1a7ab6c9ed4ee4c0a11a83faf5b56411c616567a57139fa9eabd11796705768",
+    "perma_url": null,
+    "wayback_url": "https://web.archive.org/web/20260929202152/https://hbe.ehawaii.gov/",
+    "captured_at": "2026-09-29T20:21:48.984101+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
+  },
+  {
     "source_url": "https://hbe.ehawaii.gov/annuals/",
     "primary": false,
     "local_path": "HI/hbe.ehawaii.gov-annuals-524104d0.html",
@@ -286,6 +312,19 @@
     "tls_chain_unverified": false,
     "ingested_from_file": true,
     "provenance": "curl raw response bytes, 2026-09-29 (Hawaii Legislative Reference Bureau, the official source used for the 2026-session supersession check because capitol.hawaii.gov does not serve this machine); ingested via --from-file because each tool run needs a --primary and HI's primaries are already captured"
+  },
+  {
+    "source_url": "https://tax.hawaii.gov/forms/a1_b1_6exempt/",
+    "primary": false,
+    "local_path": "HI/tax.hawaii.gov-forms-a1_b1_6exempt-e4d580e7.html",
+    "content_type": "text/html; charset=UTF-8",
+    "content_sha256": "f697aae369e20bf644587dc4dd777b241950e76352576cce0fe3fdda28529961",
+    "perma_url": null,
+    "wayback_url": "https://web.archive.org/web/20260929202226/https://tax.hawaii.gov/forms/a1_b1_6exempt/",
+    "captured_at": "2026-09-29T20:21:48.984101+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
   },
   {
     "source_url": "https://www.capitol.hawaii.gov/hrscurrent/Vol08_Ch0401-0429/HRS0414D/HRS_0414D-.htm",

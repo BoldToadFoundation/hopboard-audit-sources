@@ -1,0 +1,1850 @@
+<!doctype html>
+<html lang="en-US">
+
+<head>
+  <meta charset="UTF-8">
+<script>
+var gform;gform||(document.addEventListener("gform_main_scripts_loaded",function(){gform.scriptsLoaded=!0}),document.addEventListener("gform/theme/scripts_loaded",function(){gform.themeScriptsLoaded=!0}),window.addEventListener("DOMContentLoaded",function(){gform.domLoaded=!0}),gform={domLoaded:!1,scriptsLoaded:!1,themeScriptsLoaded:!1,isFormEditor:()=>"function"==typeof InitializeEditor,callIfLoaded:function(o){return!(!gform.domLoaded||!gform.scriptsLoaded||!gform.themeScriptsLoaded&&!gform.isFormEditor()||(gform.isFormEditor()&&console.warn("The use of gform.initializeOnLoaded() is deprecated in the form editor context and will be removed in Gravity Forms 3.1."),o(),0))},initializeOnLoaded:function(o){gform.callIfLoaded(o)||(document.addEventListener("gform_main_scripts_loaded",()=>{gform.scriptsLoaded=!0,gform.callIfLoaded(o)}),document.addEventListener("gform/theme/scripts_loaded",()=>{gform.themeScriptsLoaded=!0,gform.callIfLoaded(o)}),window.addEventListener("DOMContentLoaded",()=>{gform.domLoaded=!0,gform.callIfLoaded(o)}))},hooks:{action:{},filter:{}},addAction:function(o,r,e,t){gform.addHook("action",o,r,e,t)},addFilter:function(o,r,e,t){gform.addHook("filter",o,r,e,t)},doAction:function(o){gform.doHook("action",o,arguments)},applyFilters:function(o){return gform.doHook("filter",o,arguments)},removeAction:function(o,r){gform.removeHook("action",o,r)},removeFilter:function(o,r,e){gform.removeHook("filter",o,r,e)},addHook:function(o,r,e,t,n){null==gform.hooks[o][r]&&(gform.hooks[o][r]=[]);var d=gform.hooks[o][r];null==n&&(n=r+"_"+d.length),gform.hooks[o][r].push({tag:n,callable:e,priority:t=null==t?10:t})},doHook:function(r,o,e){var t;if(e=Array.prototype.slice.call(e,1),null!=gform.hooks[r][o]&&((o=gform.hooks[r][o]).sort(function(o,r){return o.priority-r.priority}),o.forEach(function(o){"function"!=typeof(t=o.callable)&&(t=window[t]),"action"==r?t.apply(null,e):e[0]=t.apply(null,e)})),"filter"==r)return e[0]},removeHook:function(o,r,t,n){var e;null!=gform.hooks[o][r]&&(e=(e=gform.hooks[o][r]).filter(function(o,r,e){return!!(null!=n&&n!=o.tag||null!=t&&t!=o.priority)}),gform.hooks[o][r]=e)}});
+</script>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="profile" href="https://gmpg.org/xfn/11">
+  <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-YEL7Z8D3PY"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-YEL7Z8D3PY');
+    </script>
+    <!--BEGIN QUALTRICS WEBSITE FEEDBACK SNIPPET-->
+    <script type='text/javascript'>
+    (function() {
+      var g = function(g) {
+        this.go = function() {
+          var a = document.createElement("script");
+          a.type = "text/javascript";
+          a.src = g;
+          document.body && document.body.appendChild(a)
+        };
+        this.start = function() {
+          var t = this;
+          if ("complete" !== document.readyState) {
+            if (window.addEventListener) {
+              window.addEventListener("load", function() {
+                t.go()
+              }, !1)
+            } else if (window.attachEvent) {
+              window.attachEvent("onload", function() {
+                t.go()
+              })
+            }
+          } else {
+            t.go()
+          }
+        };
+      };
+      try {
+        (new g("https://zncrtdg1q2tuxpwmy-hibcca.siteintercept.qualtrics.com/SIE/?Q_ZID=ZN_cRTDg1Q2TUxpWmy")).start();
+      } catch (i) {}
+    })();
+    </script>
+    <div id='ZN_cRTDg1Q2TUxpWmy'></div>
+    <!--END WEBSITE FEEDBACK SNIPPET-->
+    <!-- Widget JavaScript bundle -->
+<script src="https://cloud.google.com/ai/gen-app-builder/client?hl=en_US"></script>
+ 
+<!-- Search widget element is not visible by default -->
+<gen-search-widget
+  configId="6b1beb2f-2212-4c81-b4a7-cf8b7c3028cc"
+  anchorsTarget="_blank"
+  id="vertex-desktop-widget"
+>
+</gen-search-widget>
+
+<gen-search-widget
+  configId="6b1beb2f-2212-4c81-b4a7-cf8b7c3028cc"
+  anchorsTarget="_blank"
+  id="vertex-mobile-widget"
+>
+</gen-search-widget>
+
+<gen-search-widget
+  configId="6b1beb2f-2212-4c81-b4a7-cf8b7c3028cc"
+  anchorsTarget="_blank"
+  id="vertex-hero-widget"
+>
+</gen-search-widget>
+<!-- Element that opens the widget on click. It does not have to be an input -->
+ <script>
+document.addEventListener("DOMContentLoaded", () => {
+  // Desktop header search
+  const desktopInput = document.getElementById("searchWidgetTrigger1");
+  const desktopWidget = document.getElementById("vertex-desktop-widget");
+
+  // Mobile menu search
+  const mobileInput = document.getElementById("searchWidgetTrigger");
+  const mobileWidget = document.getElementById("vertex-mobile-widget");
+
+  // Hero banner search (front page)
+  const heroInput = document.getElementById("searchWidgetTriggerHero");
+  const heroWidget = document.getElementById("vertex-hero-widget");
+  const heroButton = heroInput && heroInput.closest(".search-wrap")?.querySelector("button");
+
+  function bindVertexSearch(inputElement, widgetElement, buttonElement) {
+    if (!inputElement || !widgetElement) return;
+
+    function triggerSearch() {
+      const queryValue = inputElement.value.trim();
+      if (!queryValue) return;
+
+      if (typeof widgetElement.open === "function") {
+        widgetElement.open();
+      }
+
+      const injectQuery = (attempts) => {
+        if (attempts <= 0) return;
+        const shadow = widgetElement.shadowRoot;
+        const ucsSearchBar = shadow && shadow.querySelector("ucs-search-bar");
+        const searchInput = ucsSearchBar?.shadowRoot?.querySelector("input");
+        if (searchInput) {
+          Object.getOwnPropertyDescriptor(HTMLInputElement.prototype, "value").set.call(searchInput, queryValue);
+          searchInput.dispatchEvent(new Event("input", { bubbles: true }));
+          searchInput.focus();
+          setTimeout(() => {
+            searchInput.dispatchEvent(new KeyboardEvent("keydown", { key: "Enter", code: "Enter", keyCode: 13, bubbles: true }));
+          }, 80);
+        } else {
+          setTimeout(() => injectQuery(attempts - 1), 60);
+        }
+      };
+
+      setTimeout(() => injectQuery(15), 120);
+    }
+
+    inputElement.addEventListener("keydown", (event) => {
+      if (event.key === "Enter") {
+        event.preventDefault();
+        triggerSearch();
+      }
+    });
+
+    if (buttonElement) {
+      buttonElement.addEventListener("click", (event) => {
+        event.preventDefault();
+        triggerSearch();
+      });
+    }
+  }
+
+  bindVertexSearch(desktopInput, desktopWidget);
+  bindVertexSearch(mobileInput, mobileWidget);
+  bindVertexSearch(heroInput, heroWidget, heroButton);
+});
+</script>
+
+  <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+
+	<!-- This site is optimized with the Yoast SEO plugin v28.1 - https://yoast.com/product/yoast-seo-wordpress/ -->
+	<title>Foreign Nonprofit Corporations - DCCA Hawaii</title>
+	<link rel="canonical" href="https://cca.hawaii.gov/breg/registration/fnpc/" />
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="Foreign Nonprofit Corporations - DCCA Hawaii" />
+	<meta property="og:url" content="https://cca.hawaii.gov/breg/registration/fnpc/" />
+	<meta property="og:site_name" content="DCCA Hawaii" />
+	<meta property="article:publisher" content="https://www.facebook.com/DCCAHawaii/" />
+	<meta property="article:modified_time" content="2026-01-27T03:15:13+00:00" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:site" content="@DCCAHawaii" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/cca.hawaii.gov\/breg\/registration\/fnpc\/","url":"https:\/\/cca.hawaii.gov\/breg\/registration\/fnpc\/","name":"Foreign Nonprofit Corporations - DCCA Hawaii","isPartOf":{"@id":"https:\/\/cca.hawaii.gov\/#website"},"datePublished":"2026-01-07T09:44:09+00:00","dateModified":"2026-01-27T03:15:13+00:00","breadcrumb":{"@id":"https:\/\/cca.hawaii.gov\/breg\/registration\/fnpc\/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/cca.hawaii.gov\/breg\/registration\/fnpc\/"]}]},{"@type":"BreadcrumbList","@id":"https:\/\/cca.hawaii.gov\/breg\/registration\/fnpc\/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https:\/\/www.cca.hawaii.gov\/"},{"@type":"ListItem","position":2,"name":"Registration","item":"https:\/\/www.cca.hawaii.gov\/breg\/registration\/"},{"@type":"ListItem","position":3,"name":"Foreign Nonprofit Corporations"}]},{"@type":"WebSite","@id":"https:\/\/cca.hawaii.gov\/#website","url":"https:\/\/cca.hawaii.gov\/","name":"DCCA Hawaii","description":"","publisher":{"@id":"https:\/\/cca.hawaii.gov\/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https:\/\/cca.hawaii.gov\/?s={search_term_string}"},"query-input":{"@type":"PropertyValueSpecification","valueRequired":true,"valueName":"search_term_string"}}],"inLanguage":"en-US"},{"@type":"Organization","@id":"https:\/\/cca.hawaii.gov\/#organization","name":"DCCA Hawaii","url":"https:\/\/cca.hawaii.gov\/","logo":{"@type":"ImageObject","inLanguage":"en-US","@id":"https:\/\/cca.hawaii.gov\/#\/schema\/logo\/image\/","url":"https:\/\/www.cca.hawaii.gov\/wp-content\/uploads\/2025\/11\/DCCA-logo.svg","contentUrl":"https:\/\/www.cca.hawaii.gov\/wp-content\/uploads\/2025\/11\/DCCA-logo.svg","width":1,"height":1,"caption":"DCCA Hawaii"},"image":{"@id":"https:\/\/cca.hawaii.gov\/#\/schema\/logo\/image\/"},"sameAs":["https:\/\/www.facebook.com\/DCCAHawaii\/","https:\/\/x.com\/DCCAHawaii","https:\/\/www.linkedin.com\/company\/hidcca\/","https:\/\/www.youtube.com\/user\/DCCAHawaii","https:\/\/www.instagram.com\/hidcca\/?hl=en"]}]}</script>
+	<!-- / Yoast SEO plugin. -->
+
+
+<link rel='dns-prefetch' href='//cca.hawaii.gov' />
+<link rel="alternate" type="application/rss+xml" title="DCCA Hawaii &raquo; Feed" href="https://cca.hawaii.gov/feed/" />
+<link rel="alternate" type="application/rss+xml" title="DCCA Hawaii &raquo; Comments Feed" href="https://cca.hawaii.gov/comments/feed/" />
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://cca.hawaii.gov/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fcca.hawaii.gov%2Fbreg%2Fregistration%2Ffnpc%2F" />
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://cca.hawaii.gov/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fcca.hawaii.gov%2Fbreg%2Fregistration%2Ffnpc%2F&#038;format=xml" />
+<style id="wp-img-auto-sizes-contain-inline-css">
+img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
+/*# sourceURL=wp-img-auto-sizes-contain-inline-css */
+</style>
+<link rel='stylesheet' id='wpra-lightbox-css' href='https://cca.hawaii.gov/wp-content/plugins/wp-rss-aggregator/core/css/jquery-colorbox.css?ver=1.4.33' media='all' />
+<style id="wp-emoji-styles-inline-css">
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+/*# sourceURL=wp-emoji-styles-inline-css */
+</style>
+<style id="wp-block-library-inline-css">
+:root{--wp-block-synced-color:#7a00df;--wp-block-synced-color--rgb:122,0,223;--wp-bound-block-color:var(--wp-block-synced-color);--wp-editor-canvas-background:#ddd;--wp-admin-theme-color:#007cba;--wp-admin-theme-color--rgb:0,124,186;--wp-admin-theme-color-darker-10:#006ba1;--wp-admin-theme-color-darker-10--rgb:0,107,160.5;--wp-admin-theme-color-darker-20:#005a87;--wp-admin-theme-color-darker-20--rgb:0,90,135;--wp-admin-border-width-focus:2px}@media (min-resolution:192dpi){:root{--wp-admin-border-width-focus:1.5px}}.wp-element-button{cursor:pointer}:root .has-very-light-gray-background-color{background-color:#eee}:root .has-very-dark-gray-background-color{background-color:#313131}:root .has-very-light-gray-color{color:#eee}:root .has-very-dark-gray-color{color:#313131}:root .has-vivid-green-cyan-to-vivid-cyan-blue-gradient-background{background:linear-gradient(135deg,#00d084,#0693e3)}:root .has-purple-crush-gradient-background{background:linear-gradient(135deg,#34e2e4,#4721fb 50%,#ab1dfe)}:root .has-hazy-dawn-gradient-background{background:linear-gradient(135deg,#faaca8,#dad0ec)}:root .has-subdued-olive-gradient-background{background:linear-gradient(135deg,#fafae1,#67a671)}:root .has-atomic-cream-gradient-background{background:linear-gradient(135deg,#fdd79a,#004a59)}:root .has-nightshade-gradient-background{background:linear-gradient(135deg,#330968,#31cdcf)}:root .has-midnight-gradient-background{background:linear-gradient(135deg,#020381,#2874fc)}:root{--wp--preset--font-size--normal:16px;--wp--preset--font-size--huge:42px}.has-regular-font-size{font-size:1em}.has-larger-font-size{font-size:2.625em}.has-normal-font-size{font-size:var(--wp--preset--font-size--normal)}.has-huge-font-size{font-size:var(--wp--preset--font-size--huge)}:root .has-text-align-center{text-align:center}:root .has-text-align-left{text-align:left}:root .has-text-align-right{text-align:right}.has-fit-text{white-space:nowrap!important}#end-resizable-editor-section{display:none}.aligncenter{clear:both}.items-justified-left{justify-content:flex-start}.items-justified-center{justify-content:center}.items-justified-right{justify-content:flex-end}.items-justified-space-between{justify-content:space-between}.screen-reader-text{word-wrap:normal!important;border:0;clip-path:inset(50%);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px;word-break:normal!important}.screen-reader-text:focus{background-color:#ddd;clip-path:none;color:#444;display:block;font-size:1em;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}html :where(.has-border-color){border-style:solid}html :where([style^=border-color],[style*=";border-color"],[style*="; border-color"]){border-style:solid}html :where([style^=border-top-color],[style*=";border-top-color"],[style*="; border-top-color"]){border-top-style:solid}html :where([style^=border-right-color],[style*=";border-right-color"],[style*="; border-right-color"]){border-right-style:solid}html :where([style^=border-bottom-color],[style*=";border-bottom-color"],[style*="; border-bottom-color"]){border-bottom-style:solid}html :where([style^=border-left-color],[style*=";border-left-color"],[style*="; border-left-color"]){border-left-style:solid}html :where([style^=border-width],[style*=";border-width"],[style*="; border-width"]){border-style:solid}html :where([style^=border-top-width],[style*=";border-top-width"],[style*="; border-top-width"]){border-top-style:solid}html :where([style^=border-right-width],[style*=";border-right-width"],[style*="; border-right-width"]){border-right-style:solid}html :where([style^=border-bottom-width],[style*=";border-bottom-width"],[style*="; border-bottom-width"]){border-bottom-style:solid}html :where([style^=border-left-width],[style*=";border-left-width"],[style*="; border-left-width"]){border-left-style:solid}html :where(img[class*=wp-image-]){height:auto;max-width:100%}:where(figure){margin:0 0 1em}html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:var(--wp-admin--admin-bar--height,0px)}@media screen and (max-width:600px){html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:0px}}
+
+/*# sourceURL=/wp-includes/css/dist/block-library/common.min.css */
+</style>
+<style id="classic-theme-styles-inline-css">
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+/*# sourceURL=/wp-includes/css/classic-themes.min.css */
+</style>
+
+<style id="global-styles-inline-css">
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgb(6,147,227) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgb(252,185,0) 0%,rgb(255,105,0) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgb(255,105,0) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgb(255, 255, 255), 6px 6px rgb(0, 0, 0);--wp--preset--shadow--crisp: 6px 6px 0px rgb(0, 0, 0);}.wp-block-button{--wp--preset--dimension--25: 25%;--wp--preset--dimension--50: 50%;--wp--preset--dimension--75: 75%;--wp--preset--dimension--100: 100%;}:where(body) { margin: 0; }:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}body{padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;}:root :where(.wp-element-button, .wp-block-button__link){background-color: #32373c;border-width: 0;color: #fff;font-family: inherit;font-size: inherit;font-style: inherit;font-weight: inherit;letter-spacing: inherit;line-height: inherit;padding-top: calc(0.667em + 2px);padding-right: calc(1.333em + 2px);padding-bottom: calc(0.667em + 2px);padding-left: calc(1.333em + 2px);text-decoration: none;text-transform: inherit;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+/*# sourceURL=global-styles-inline-css */
+</style>
+
+<link rel='stylesheet' id='bsearch-style-css' href='https://cca.hawaii.gov/wp-content/plugins/better-search/includes/frontend/css/bsearch-styles.min.css?ver=4.3.0' media='all' />
+<link rel='stylesheet' id='xo-event-calendar-css' href='https://cca.hawaii.gov/wp-content/plugins/xo-event-calendar/css/xo-event-calendar.css?ver=3.2.10' media='all' />
+<link rel='stylesheet' id='xo-event-calendar-event-calendar-css' href='https://cca.hawaii.gov/wp-content/plugins/xo-event-calendar/build/event-calendar/style-index.css?ver=3.2.10' media='all' />
+<link rel='stylesheet' id='dcc-style-main-css' href='https://cca.hawaii.gov/wp-content/themes/dcca/dcca-hawaii/src/assets/dist/main.css?ver=1790713329' media='all' />
+<link rel='stylesheet' id='tablepress-default-css' href='https://cca.hawaii.gov/wp-content/plugins/tablepress/css/build/default.css?ver=3.3' media='all' />
+<script id="jquery-core-js" src="https://cca.hawaii.gov/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"></script>
+<script id="jquery-migrate-js" src="https://cca.hawaii.gov/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"></script>
+<link rel="https://api.w.org/" href="https://cca.hawaii.gov/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="https://cca.hawaii.gov/wp-json/wp/v2/breg/4574" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://cca.hawaii.gov/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 7.1.2" />
+<link rel='shortlink' href='https://cca.hawaii.gov/?p=4574' />
+<link rel="icon" href="https://cca.hawaii.gov/wp-content/uploads/2025/11/cropped-og-image-Photoroom-1-32x32.png" sizes="32x32" />
+<link rel="icon" href="https://cca.hawaii.gov/wp-content/uploads/2025/11/cropped-og-image-Photoroom-1-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://cca.hawaii.gov/wp-content/uploads/2025/11/cropped-og-image-Photoroom-1-180x180.png" />
+<meta name="msapplication-TileImage" content="https://cca.hawaii.gov/wp-content/uploads/2025/11/cropped-og-image-Photoroom-1-270x270.png" />
+<style id="wp-custom-css">
+
+.page-id-4094 .section-heading p,
+.page-id-4266 .section-heading p{
+    max-width: 100%;
+}
+
+/* .img-and-text-wrap.v3 .card-wrap .text-wrap ul li.no-link {
+    color: white;
+} */
+
+.btn-wrapper.left-align {
+    text-align: left;
+}
+
+.img-and-text-wrap.v3.bg-ultramarine-blue .text-wrap ul li.no-link::after {
+  display: none;
+}
+body.single .nav-next {
+    display: none;
+}
+
+.btn-wrapper-internal {
+    text-align: center;
+    margin: 20px 0px;
+}
+.btn-wrapper-internal a {
+    margin-bottom: 10px;
+}
+
+/* #gform_submit_button_3 {
+    display: none;
+} */
+
+.secondary-navigation .third-level {
+    left:auto;
+    right: calc(100% + 64px);
+}
+
+.bg-cobalt-blue.web-alert-two {
+	display: none;
+}
+main#main-content.alert-open.alert-open-2 {
+    margin-top: 9.5rem;
+}
+
+.card-wrap.v6 .card-gap1 {
+    --bs-gutter-x: 32px;
+    --bs-gutter-y: 32px;
+}
+
+/* Change the header alert background color */
+.web-alert, 
+.web-alert p,
+.web-alert a {
+    background-color: #F5D25A;
+	  color: #000000 !important; 
+}
+</style>
+<link rel='stylesheet' id='gravity_forms_theme_reset-css' href='https://cca.hawaii.gov/wp-content/plugins/gravityforms/assets/css/dist/gravity-forms-theme-reset.min.css?ver=2.10.2' media='all' />
+<link rel='stylesheet' id='gravity_forms_theme_foundation-css' href='https://cca.hawaii.gov/wp-content/plugins/gravityforms/assets/css/dist/gravity-forms-theme-foundation.min.css?ver=2.10.2' media='all' />
+<link rel='stylesheet' id='gravity_forms_theme_framework-css' href='https://cca.hawaii.gov/wp-content/plugins/gravityforms/assets/css/dist/gravity-forms-theme-framework.min.css?ver=2.10.2' media='all' />
+<link rel='stylesheet' id='gravity_forms_orbital_theme-css' href='https://cca.hawaii.gov/wp-content/plugins/gravityforms/assets/css/dist/gravity-forms-orbital-theme.min.css?ver=2.10.2' media='all' />
+
+</head>
+
+<body class="wp-singular breg-template-default single single-breg postid-4574 wp-theme-dcca">
+    <!-- Skip to main content link -->
+  <a href="#main-content" class="skip-link visually-hidden-focusable">Skip to main content</a>
+  <!-- Main content section for skip link -->
+
+  
+<header class="fixed-top ">
+<!-- Header news alert section -->
+<div id="webAlertCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2000">
+  <div class="carousel-inner">
+            <!-- Add slide 1 -->
+    <div class="carousel-item active">
+      <div class="web-alert bg-prussian-blue">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-lg-12 ">
+              <div class="inner-wrap">
+                <p>For information on how to prepare for Tropical Cyclone Nolo visit ready.hawaii.gov  <a href="http://ready.hawaii.gov" target="">Learn more <i data-lucide="chevron-right" class="icon"></i>
+                  </a>                 </p>
+                <button class="dismiss-btn" type="button">
+        <i data-lucide="x" aria-hidden="true"></i>
+             <span class="visually-hidden">Close alert</span>
+                     </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+            
+  </div>
+</div>
+<!-- end section -->
+    <div class="main-header">
+      <div class="container-fluid">
+        <div class="header-row">
+          <!-- Left Section: Seal + Logo -->
+          <div class="header-left">
+            <div class="navbar-brand">
+              <a href="https://cca.hawaii.gov">
+                <img src="https://cca.hawaii.gov/wp-content/uploads/2026/01/DCCA_Logo.png" alt="DCCA Logo" width="163" height="59" />
+              </a>
+            </div>
+                        <nav class="main-menu" aria-label="Main navigation">
+              <ul>
+                                <li><a href="https://cca.hawaii.gov/file-a-complaint/"
+                    aria-label="File a Complaint Link">File a Complaint</a>
+                </li>
+                                <li><a href="https://cca.hawaii.gov/resources/"
+                    aria-label="Resources Link">Resources</a>
+                </li>
+                                <li><a href="https://cca.hawaii.gov/home/jobs/"
+                    aria-label="Job Opportunities Link">Job Opportunities</a>
+                </li>
+                              </ul>
+            </nav>
+                      </div>
+          <div class="header-right">
+            <div class="search-wrap-header">
+              <form role="search" method="get" class="search-form" action="https://cca.hawaii.gov/">
+                <div class="icon">
+                  <i data-lucide="search" aria-hidden="true"></i>
+                </div>
+                <label for="searchWidgetTrigger1" class="visually-hidden">Search the website</label>
+                <input id="searchWidgetTrigger1" type="text" placeholder="Search" name="s"
+                  value="">
+              </form>
+              <!-- <input placeholder="Search here" id="searchWidgetTrigger" /> -->
+              <button class="search-btn" aria-label="Search">
+                <i data-lucide="search" aria-hidden="true"></i>
+              </button>
+            </div>
+            <!-- Language Selector -->
+            <div class="language-selector">
+              <div class="gtranslate_wrapper"></div>
+            </div>
+            <!-- Close Button -->
+            <button class="toggle-btn" aria-label="open mega menu">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="lucide lucide-menu-icon lucide-menu">
+                <path d="M4 5h16" />
+                <path d="M4 12h16" />
+                <path d="M4 19h16" />
+              </svg> <span>Menu</span> </button>
+          </div>
+        </div>
+      </div>
+      <!------>
+      <div class="mega-menu-wrap" style="display:none;">
+        <div class="container-fluid">
+          <div class="row g-0">
+            <div class="col-12 col-lg-4 col-xl-3  mega-menu-nav">
+              <div class="inner-wrap">
+                <button class="navbar-close-btn" aria-label="Close">
+                  <i data-lucide="x"></i> Close </button>
+                <div>
+                  <h2 class="h4">Menu</h2>
+                  <form role="search" method="get" class="search-form" action="https://cca.hawaii.gov/">
+                    <i data-lucide="search" aria-hidden="true"></i>
+                    <label for="searchWidgetTrigger" class="visually-hidden">Search the website</label>
+                    <input type="text" id="searchWidgetTrigger" placeholder="Search" name="s"
+                      value="">
+                  </form>
+                  <ul>
+
+                    <!-- Mobile links for main menu -->
+                                        <li class="mobile-only">
+                      <a href="https://cca.hawaii.gov/file-a-complaint/"
+                        aria-label="File a Complaint">File a Complaint                      </a>
+                    </li>
+                                        <li class="mobile-only">
+                      <a href="https://cca.hawaii.gov/resources/"
+                        aria-label="Resources">Resources                      </a>
+                    </li>
+                                        <li class="mobile-only">
+                      <a href="https://cca.hawaii.gov/home/jobs/"
+                        aria-label="Job Opportunities">Job Opportunities                      </a>
+                    </li>
+                    
+                    <!-- Mega Menu -->
+                                        <li class="has-dropdown">
+                      <a href=#"
+                        data-target="service-highlights">Service Highlights                        <i data-lucide="chevron-right" class="icon"></i>
+                      </a>
+
+                      <!-- Mega Menu Mobile Dropdown -->
+                                            <ul class="sub-menu">
+                                                <li>
+                          <a href="https://hbe.ehawaii.gov/annuals/#/"
+                            target="">File an Annual Report                            <i data-lucide="arrow-up-right"></i>
+                          </a>
+                        </li>
+                                                <li>
+                          <a href="https://cca.hawaii.gov/business-check/"
+                            target="">Business Search & Documents                            <i data-lucide="arrow-up-right"></i>
+                          </a>
+                        </li>
+                                                <li>
+                          <a href="https://mypvl.dcca.hawaii.gov/public-license-search/"
+                            target="">Verify a Professional                            <i data-lucide="arrow-up-right"></i>
+                          </a>
+                        </li>
+                                                <li>
+                          <a href="https://cca.hawaii.gov/ocp/scams/"
+                            target="">Consumer Scam Alerts                            <i data-lucide="arrow-up-right"></i>
+                          </a>
+                        </li>
+                                                <li>
+                          <a href="https://hbe.ehawaii.gov/documents/search.html?mobile=N&site_preference=normal"
+                            target="">Certificate of Good Standing                            <i data-lucide="arrow-up-right"></i>
+                          </a>
+                        </li>
+                                                <li>
+                          <a href="https://mypvl.dcca.hawaii.gov/"
+                            target="">Renew license                            <i data-lucide="arrow-up-right"></i>
+                          </a>
+                        </li>
+                                              </ul>
+                                            <!-- End Mega Menu Mobile Dropdown -->
+                    </li>
+                                        <li class="has-dropdown">
+                      <a href=https://cca.hawaii.gov/consumers/"
+                        data-target="consumers-and-public">Consumers and Public                        <i data-lucide="chevron-right" class="icon"></i>
+                      </a>
+
+                      <!-- Mega Menu Mobile Dropdown -->
+                                            <ul class="sub-menu">
+                                                <li>
+                          <a href="https://cca.hawaii.gov/file-a-complaint/"
+                            target="">Utility and Cable Issues                            <i data-lucide="arrow-up-right"></i>
+                          </a>
+                        </li>
+                                                <li>
+                          <a href="/pvl/hire-a-licensed-contractor/"
+                            target="">Hire a Licensed Contractor                            <i data-lucide="arrow-up-right"></i>
+                          </a>
+                        </li>
+                                                <li>
+                          <a href="https://cca.hawaii.gov/business-check/"
+                            target="">Business Check                             <i data-lucide="arrow-up-right"></i>
+                          </a>
+                        </li>
+                                                <li>
+                          <a href="/rico/lemon-law/"
+                            target="">Lemon Law                            <i data-lucide="arrow-up-right"></i>
+                          </a>
+                        </li>
+                                                <li>
+                          <a href="https://cca.hawaii.gov/landlord-tenant-information-center/"
+                            target="">Landlord-Tenant Information                            <i data-lucide="arrow-up-right"></i>
+                          </a>
+                        </li>
+                                                <li>
+                          <a href="https://cca.hawaii.gov/ocp/notices/"
+                            target="">Consumer Notices                            <i data-lucide="arrow-up-right"></i>
+                          </a>
+                        </li>
+                                              </ul>
+                                            <!-- End Mega Menu Mobile Dropdown -->
+                    </li>
+                                        <li class="has-dropdown">
+                      <a href=https://cca.hawaii.gov/business/"
+                        data-target="businesses-and-professionals">Businesses and Professionals                        <i data-lucide="chevron-right" class="icon"></i>
+                      </a>
+
+                      <!-- Mega Menu Mobile Dropdown -->
+                                            <ul class="sub-menu">
+                                                <li>
+                          <a href="https://cca.hawaii.gov/bac/steps-to-starting-a-business/"
+                            target="">Start a Business                            <i data-lucide="arrow-up-right"></i>
+                          </a>
+                        </li>
+                                                <li>
+                          <a href="https://vendors.ehawaii.gov/hce/"
+                            target="">Manage Compliance                            <i data-lucide="arrow-up-right"></i>
+                          </a>
+                        </li>
+                                                <li>
+                          <a href="/rico/the-regulated-industries/"
+                            target="">Regulated Industries                            <i data-lucide="arrow-up-right"></i>
+                          </a>
+                        </li>
+                                                <li>
+                          <a href="/dfi/learn-more-about-banks/"
+                            target="">Institutions                            <i data-lucide="arrow-up-right"></i>
+                          </a>
+                        </li>
+                                                <li>
+                          <a href="https://mypvl.dcca.hawaii.gov/"
+                            target="">My PVL Portal                            <i data-lucide="arrow-up-right"></i>
+                          </a>
+                        </li>
+                                              </ul>
+                                            <!-- End Mega Menu Mobile Dropdown -->
+                    </li>
+                                        <li class="has-dropdown">
+                      <a href=https://cca.hawaii.gov/resources/"
+                        data-target="resources">Resources                        <i data-lucide="chevron-right" class="icon"></i>
+                      </a>
+
+                      <!-- Mega Menu Mobile Dropdown -->
+                                            <ul class="sub-menu">
+                                                <li>
+                          <a href="https://cca.hawaii.gov/hfic/"
+                            target="">Foreclosure Information Center                            <i data-lucide="arrow-up-right"></i>
+                          </a>
+                        </li>
+                                                <li>
+                          <a href="/dfi/learn-about-your-money/"
+                            target="">Financial Education Resources                            <i data-lucide="arrow-up-right"></i>
+                          </a>
+                        </li>
+                                                <li>
+                          <a href="https://cca.hawaii.gov/ins/insurance-division-consumer-resources/"
+                            target="">Consumer Insurance Info                            <i data-lucide="arrow-up-right"></i>
+                          </a>
+                        </li>
+                                                <li>
+                          <a href="https://hbe.ehawaii.gov/annuals/"
+                            target="_blank">BREG Annual Reports Filing                            <i data-lucide="arrow-up-right"></i>
+                          </a>
+                        </li>
+                                                <li>
+                          <a href="https://cca.hawaii.gov/breg/registration/"
+                            target="">Business Registration Forms                            <i data-lucide="arrow-up-right"></i>
+                          </a>
+                        </li>
+                                                <li>
+                          <a href="https://portal.ehawaii.gov/home/online-services/business-data-list-builder/"
+                            target="">Business Data List Builder                            <i data-lucide="arrow-up-right"></i>
+                          </a>
+                        </li>
+                                              </ul>
+                                            <!-- End Mega Menu Mobile Dropdown -->
+                    </li>
+                                      </ul>
+                </div>
+                                <div class="bottom-btn">
+                                    <a href="https://cca.hawaii.gov/about/"
+                    class="btn btn-outline-primary">About Us</a>
+                                    <a href="https://cca.hawaii.gov/contact-us/"
+                    class="btn btn-outline-primary">Contact Us</a>
+                                  </div>
+                              </div>
+            </div> <!-- div mega-menu-nav -->
+
+            <div class="col-12 col-lg-8 col-xl-9 mega-menu-content">
+                            <div class="inner-wrap is-active"
+                data-content="service-highlights"
+                aria-hidden="false">
+                <h2 class="h4">Service Highlights</h2>
+                <div class="row">
+                                    <div class="col-12 col-lg-6 col-xl-4">
+                    <div class="card">
+                      <div class="card-icon">
+                        <img src="https://cca.hawaii.gov/wp-content/uploads/2025/11/mega-menu-ic1.svg" alt="" aria-hidden="true" width="35" height="35">
+                      </div>
+                      <div class="card-body">
+                        <h3 class="h6">File an Annual Report</h3>
+                        <p>Submit annual reports for active business entities online
+</p>
+                      </div>
+                                            <div class="card-action">
+                        <a href="https://hbe.ehawaii.gov/annuals/#/" class="btn text-link"
+                          target="_self"><span>File Report <i
+                            data-lucide="arrow-up-right"></i></span>
+                        </a>
+                      </div>
+                                          </div>
+                  </div>
+                                    <div class="col-12 col-lg-6 col-xl-4">
+                    <div class="card">
+                      <div class="card-icon">
+                        <img src="https://cca.hawaii.gov/wp-content/uploads/2025/11/mega-menu-ic2.svg" alt="" aria-hidden="true" width="35" height="35">
+                      </div>
+                      <div class="card-body">
+                        <h3 class="h6">Business Search & Documents</h3>
+                        <p>Look up businesses and purchase official registration documents</p>
+                      </div>
+                                            <div class="card-action">
+                        <a href="https://cca.hawaii.gov/business-check/" class="btn text-link"
+                          target="_self"><span>Start Search <i
+                            data-lucide="arrow-up-right"></i></span>
+                        </a>
+                      </div>
+                                          </div>
+                  </div>
+                                    <div class="col-12 col-lg-6 col-xl-4">
+                    <div class="card">
+                      <div class="card-icon">
+                        <img src="https://cca.hawaii.gov/wp-content/uploads/2025/11/mega-menu-ic3.svg" alt="" aria-hidden="true" width="35" height="35">
+                      </div>
+                      <div class="card-body">
+                        <h3 class="h6">Verify a Professional</h3>
+                        <p>Confirm the active status and standing of any professional license</p>
+                      </div>
+                                            <div class="card-action">
+                        <a href="https://mypvl.dcca.hawaii.gov/public-license-search/" class="btn text-link"
+                          target="_self"><span>Check a License <i
+                            data-lucide="arrow-up-right"></i></span>
+                        </a>
+                      </div>
+                                          </div>
+                  </div>
+                                    <div class="col-12 col-lg-6 col-xl-4">
+                    <div class="card">
+                      <div class="card-icon">
+                        <img src="https://cca.hawaii.gov/wp-content/uploads/2025/11/mega-menu-ic4.svg" alt="" aria-hidden="true" width="35" height="35">
+                      </div>
+                      <div class="card-body">
+                        <h3 class="h6">Consumer Scam Alerts</h3>
+                        <p>Stay ahead of fraud with timely warnings and safety tips</p>
+                      </div>
+                                            <div class="card-action">
+                        <a href="https://cca.hawaii.gov/ocp/scams/" class="btn text-link"
+                          target="_self"><span>See Alerts <i
+                            data-lucide="arrow-up-right"></i></span>
+                        </a>
+                      </div>
+                                          </div>
+                  </div>
+                                    <div class="col-12 col-lg-6 col-xl-4">
+                    <div class="card">
+                      <div class="card-icon">
+                        <img src="https://cca.hawaii.gov/wp-content/uploads/2025/11/mega-menu-ic5.svg" alt="" aria-hidden="true" width="35" height="35">
+                      </div>
+                      <div class="card-body">
+                        <h3 class="h6">Certificate of Good Standing</h3>
+                        <p>Purchase official proof of business registration and compliance</p>
+                      </div>
+                                            <div class="card-action">
+                        <a href="https://hbe.ehawaii.gov/documents/search.html?mobile=N&site_preference=normal" class="btn text-link"
+                          target="_self"><span>Order Now <i
+                            data-lucide="arrow-up-right"></i></span>
+                        </a>
+                      </div>
+                                          </div>
+                  </div>
+                                    <div class="col-12 col-lg-6 col-xl-4">
+                    <div class="card">
+                      <div class="card-icon">
+                        <img src="https://cca.hawaii.gov/wp-content/uploads/2025/11/mega-menu-ic6.svg" alt="" aria-hidden="true" width="35" height="35">
+                      </div>
+                      <div class="card-body">
+                        <h3 class="h6">Renew license</h3>
+                        <p>Keep credentials active by paying renewal fees online</p>
+                      </div>
+                                            <div class="card-action">
+                        <a href="https://mypvl.dcca.hawaii.gov/" class="btn text-link"
+                          target="_self"><span>Renew Now <i
+                            data-lucide="arrow-up-right"></i></span>
+                        </a>
+                      </div>
+                                          </div>
+                  </div>
+                                  </div>
+              </div>
+                            <div class="inner-wrap "
+                data-content="consumers-and-public"
+                aria-hidden="false">
+                <h2 class="h4">Consumers and Public</h2>
+                <div class="row">
+                                    <div class="col-12 col-lg-6 col-xl-4">
+                    <div class="card">
+                      <div class="card-icon">
+                        <img src="https://cca.hawaii.gov/wp-content/uploads/2025/11/mega-menu-ic7.svg" alt="" aria-hidden="true" width="35" height="35">
+                      </div>
+                      <div class="card-body">
+                        <h3 class="h6">Utility and Cable Issues</h3>
+                        <p>Resolve disputes with utility providers and cable franchises</p>
+                      </div>
+                                            <div class="card-action">
+                        <a href="https://cca.hawaii.gov/file-a-complaint/" class="btn text-link"
+                          target="_self"><span>Get Utility Help <i
+                            data-lucide="arrow-up-right"></i></span>
+                        </a>
+                      </div>
+                                          </div>
+                  </div>
+                                    <div class="col-12 col-lg-6 col-xl-4">
+                    <div class="card">
+                      <div class="card-icon">
+                        <img src="https://cca.hawaii.gov/wp-content/uploads/2025/11/mega-menu-ic8.svg" alt="" aria-hidden="true" width="35" height="35">
+                      </div>
+                      <div class="card-body">
+                        <h3 class="h6">Hire a Licensed Contractor</h3>
+                        <p>Tips and tools to verify a contractor or professional license online</p>
+                      </div>
+                                            <div class="card-action">
+                        <a href="/pvl/hire-a-licensed-contractor/" class="btn text-link"
+                          target="_self"><span>Get Hiring Tips <i
+                            data-lucide="arrow-up-right"></i></span>
+                        </a>
+                      </div>
+                                          </div>
+                  </div>
+                                    <div class="col-12 col-lg-6 col-xl-4">
+                    <div class="card">
+                      <div class="card-icon">
+                        <img src="https://cca.hawaii.gov/wp-content/uploads/2025/11/mega-menu-ic9.svg" alt="" aria-hidden="true" width="35" height="35">
+                      </div>
+                      <div class="card-body">
+                        <h3 class="h6">Business Check </h3>
+                        <p>Research tools to verify businesses and their complaint history</p>
+                      </div>
+                                            <div class="card-action">
+                        <a href="https://cca.hawaii.gov/business-check/" class="btn text-link"
+                          target="_self"><span>View Tools and Resources <i
+                            data-lucide="arrow-up-right"></i></span>
+                        </a>
+                      </div>
+                                          </div>
+                  </div>
+                                    <div class="col-12 col-lg-6 col-xl-4">
+                    <div class="card">
+                      <div class="card-icon">
+                        <img src="https://cca.hawaii.gov/wp-content/uploads/2025/11/mega-menu-ic10.svg" alt="" aria-hidden="true" width="35" height="35">
+                      </div>
+                      <div class="card-body">
+                        <h3 class="h6">Lemon Law</h3>
+                        <p>Is your new motor vehicle suffering from repeated problems, and is it under the manufacturers warranty?</p>
+                      </div>
+                                            <div class="card-action">
+                        <a href="/rico/lemon-law/" class="btn text-link"
+                          target="_self"><span>See if You Qualify <i
+                            data-lucide="arrow-up-right"></i></span>
+                        </a>
+                      </div>
+                                          </div>
+                  </div>
+                                    <div class="col-12 col-lg-6 col-xl-4">
+                    <div class="card">
+                      <div class="card-icon">
+                        <img src="https://cca.hawaii.gov/wp-content/uploads/2025/11/mega-menu-ic11.svg" alt="" aria-hidden="true" width="35" height="35">
+                      </div>
+                      <div class="card-body">
+                        <h3 class="h6">Landlord-Tenant Information</h3>
+                        <p>Consult the official handbook on renter and landlord rights</p>
+                      </div>
+                                            <div class="card-action">
+                        <a href="https://cca.hawaii.gov/landlord-tenant-information-center/" class="btn text-link"
+                          target="_self"><span>View Handbook <i
+                            data-lucide="arrow-up-right"></i></span>
+                        </a>
+                      </div>
+                                          </div>
+                  </div>
+                                    <div class="col-12 col-lg-6 col-xl-4">
+                    <div class="card">
+                      <div class="card-icon">
+                        <img src="https://cca.hawaii.gov/wp-content/uploads/2025/11/mega-menu-ic12.svg" alt="" aria-hidden="true" width="35" height="35">
+                      </div>
+                      <div class="card-body">
+                        <h3 class="h6">Consumer Notices</h3>
+                        <p>Latest warnings on local scams and data security breaches</p>
+                      </div>
+                                            <div class="card-action">
+                        <a href="https://cca.hawaii.gov/ocp/notices/" class="btn text-link"
+                          target="_self"><span>See All Alerts <i
+                            data-lucide="arrow-up-right"></i></span>
+                        </a>
+                      </div>
+                                          </div>
+                  </div>
+                                  </div>
+              </div>
+                            <div class="inner-wrap "
+                data-content="businesses-and-professionals"
+                aria-hidden="false">
+                <h2 class="h4">Businesses and Professionals</h2>
+                <div class="row">
+                                    <div class="col-12 col-lg-6 col-xl-4">
+                    <div class="card">
+                      <div class="card-icon">
+                        <img src="https://cca.hawaii.gov/wp-content/uploads/2025/12/business1.webp" alt="" aria-hidden="true" width="35" height="35">
+                      </div>
+                      <div class="card-body">
+                        <h3 class="h6">Start a Business</h3>
+                        <p>Register entities, reserve trade names, and apply for licenses
+</p>
+                      </div>
+                                            <div class="card-action">
+                        <a href="https://cca.hawaii.gov/bac/steps-to-starting-a-business/" class="btn text-link"
+                          target="_self"><span>Get Started <i
+                            data-lucide="arrow-up-right"></i></span>
+                        </a>
+                      </div>
+                                          </div>
+                  </div>
+                                    <div class="col-12 col-lg-6 col-xl-4">
+                    <div class="card">
+                      <div class="card-icon">
+                        <img src="https://cca.hawaii.gov/wp-content/uploads/2025/12/business2.webp" alt="" aria-hidden="true" width="35" height="35">
+                      </div>
+                      <div class="card-body">
+                        <h3 class="h6">Manage Compliance</h3>
+                        <p>Submit annual reports and verify continuing education status
+</p>
+                      </div>
+                                            <div class="card-action">
+                        <a href="https://vendors.ehawaii.gov/hce/" class="btn text-link"
+                          target="_self"><span>Manage Compliance Online <i
+                            data-lucide="arrow-up-right"></i></span>
+                        </a>
+                      </div>
+                                          </div>
+                  </div>
+                                    <div class="col-12 col-lg-6 col-xl-4">
+                    <div class="card">
+                      <div class="card-icon">
+                        <img src="https://cca.hawaii.gov/wp-content/uploads/2025/12/business3.webp" alt="" aria-hidden="true" width="35" height="35">
+                      </div>
+                      <div class="card-body">
+                        <h3 class="h6">Regulated Industries</h3>
+                        <p>Is your current occupation in a regulated industry?</p>
+                      </div>
+                                            <div class="card-action">
+                        <a href="/rico/the-regulated-industries/" class="btn text-link"
+                          target="_self"><span>View Regulated Industries <i
+                            data-lucide="arrow-up-right"></i></span>
+                        </a>
+                      </div>
+                                          </div>
+                  </div>
+                                    <div class="col-12 col-lg-6 col-xl-4">
+                    <div class="card">
+                      <div class="card-icon">
+                        <img src="https://cca.hawaii.gov/wp-content/uploads/2025/11/mega-menu-ic16.svg" alt="" aria-hidden="true" width="35" height="35">
+                      </div>
+                      <div class="card-body">
+                        <h3 class="h6">Institutions</h3>
+                        <p>Compliance mandates for regulated financial institutions</p>
+                      </div>
+                                            <div class="card-action">
+                        <a href="/dfi/learn-more-about-banks/" class="btn text-link"
+                          target="_self"><span>View Institution Resources <i
+                            data-lucide="arrow-up-right"></i></span>
+                        </a>
+                      </div>
+                                          </div>
+                  </div>
+                                    <div class="col-12 col-lg-6 col-xl-4">
+                    <div class="card">
+                      <div class="card-icon">
+                        <img src="https://cca.hawaii.gov/wp-content/uploads/2025/12/business5.webp" alt="" aria-hidden="true" width="35" height="35">
+                      </div>
+                      <div class="card-body">
+                        <h3 class="h6">My PVL Portal</h3>
+                        <p>Renew licenses and update personal records via online portal</p>
+                      </div>
+                                            <div class="card-action">
+                        <a href="https://mypvl.dcca.hawaii.gov/" class="btn text-link"
+                          target="_self"><span>Go to My PVL <i
+                            data-lucide="arrow-up-right"></i></span>
+                        </a>
+                      </div>
+                                          </div>
+                  </div>
+                                  </div>
+              </div>
+                            <div class="inner-wrap "
+                data-content="resources"
+                aria-hidden="false">
+                <h2 class="h4">Resources</h2>
+                <div class="row">
+                                    <div class="col-12 col-lg-6 col-xl-4">
+                    <div class="card">
+                      <div class="card-icon">
+                        <img src="https://cca.hawaii.gov/wp-content/uploads/2025/11/mega-menu-ic18.svg" alt="" aria-hidden="true" width="35" height="35">
+                      </div>
+                      <div class="card-body">
+                        <h3 class="h6">Foreclosure Information Center</h3>
+                        <p>Prevent foreclosure and understand assistance options</p>
+                      </div>
+                                            <div class="card-action">
+                        <a href="https://cca.hawaii.gov/hfic/" class="btn text-link"
+                          target="_self"><span>Review Options <i
+                            data-lucide="arrow-up-right"></i></span>
+                        </a>
+                      </div>
+                                          </div>
+                  </div>
+                                    <div class="col-12 col-lg-6 col-xl-4">
+                    <div class="card">
+                      <div class="card-icon">
+                        <img src="https://cca.hawaii.gov/wp-content/uploads/2025/11/mega-menu-ic17.svg" alt="" aria-hidden="true" width="35" height="35">
+                      </div>
+                      <div class="card-body">
+                        <h3 class="h6">Financial Education Resources</h3>
+                        <p>Make informed decisions on banking and personal finance</p>
+                      </div>
+                                            <div class="card-action">
+                        <a href="/dfi/learn-about-your-money/" class="btn text-link"
+                          target="_self"><span>View Resources <i
+                            data-lucide="arrow-up-right"></i></span>
+                        </a>
+                      </div>
+                                          </div>
+                  </div>
+                                    <div class="col-12 col-lg-6 col-xl-4">
+                    <div class="card">
+                      <div class="card-icon">
+                        <img src="https://cca.hawaii.gov/wp-content/uploads/2025/11/mega-menu-ic20.svg" alt="" aria-hidden="true" width="35" height="35">
+                      </div>
+                      <div class="card-body">
+                        <h3 class="h6">Consumer Insurance Info</h3>
+                        <p>Clarify policy details, claims processes, and your rights</p>
+                      </div>
+                                            <div class="card-action">
+                        <a href="https://cca.hawaii.gov/ins/insurance-division-consumer-resources/" class="btn text-link"
+                          target="_self"><span>Know Your Rights <i
+                            data-lucide="arrow-up-right"></i></span>
+                        </a>
+                      </div>
+                                          </div>
+                  </div>
+                                    <div class="col-12 col-lg-6 col-xl-4">
+                    <div class="card">
+                      <div class="card-icon">
+                        <img src="https://cca.hawaii.gov/wp-content/uploads/2025/12/resources4.webp" alt="" aria-hidden="true" width="35" height="35">
+                      </div>
+                      <div class="card-body">
+                        <h3 class="h6">BREG Annual Reports Filing</h3>
+                        <p>File your annual business report online</p>
+                      </div>
+                                            <div class="card-action">
+                        <a href="https://hbe.ehawaii.gov/annuals/" class="btn text-link"
+                          target="_blank"><span>File Report <i
+                            data-lucide="arrow-up-right"></i></span>
+                        </a>
+                      </div>
+                                          </div>
+                  </div>
+                                    <div class="col-12 col-lg-6 col-xl-4">
+                    <div class="card">
+                      <div class="card-icon">
+                        <img src="https://cca.hawaii.gov/wp-content/uploads/2025/11/mega-menu-ic14.svg" alt="" aria-hidden="true" width="35" height="35">
+                      </div>
+                      <div class="card-body">
+                        <h3 class="h6">Business Registration Forms</h3>
+                        <p>Download forms and fee schedules for business registration</p>
+                      </div>
+                                            <div class="card-action">
+                        <a href="https://cca.hawaii.gov/breg/registration/" class="btn text-link"
+                          target="_self"><span>View All Forms <i
+                            data-lucide="arrow-up-right"></i></span>
+                        </a>
+                      </div>
+                                          </div>
+                  </div>
+                                    <div class="col-12 col-lg-6 col-xl-4">
+                    <div class="card">
+                      <div class="card-icon">
+                        <img src="https://cca.hawaii.gov/wp-content/uploads/2025/12/resources6.webp" alt="" aria-hidden="true" width="35" height="35">
+                      </div>
+                      <div class="card-body">
+                        <h3 class="h6">Business Data List Builder</h3>
+                        <p>Buy custom lists of local businesses and professionals</p>
+                      </div>
+                                            <div class="card-action">
+                        <a href="https://portal.ehawaii.gov/home/online-services/business-data-list-builder/" class="btn text-link"
+                          target="_self"><span>Create a Data List <i
+                            data-lucide="arrow-up-right"></i></span>
+                        </a>
+                      </div>
+                                          </div>
+                  </div>
+                                  </div>
+              </div>
+                            <!-- End Inner wrap -->
+
+            </div> <!-- div mega-menu-content -->
+          </div> <!-- div row -->
+        </div> <!-- div container -->
+      </div> <!-- div mega-menu-wrap -->
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main id="main-content">
+<div class="secondary-navigation">
+  <nav class="navbar navbar-expand-xl">
+    <div class="container">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"> BREG Division Menu <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="chevron-down" class="lucide lucide-chevron-down chevron-icon">
+          <path d="m6 9 6 6 6-6"></path>
+        </svg>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mx-auto">
+            <!-- Check main Menu -->
+                        <li class="nav-item dropdown">
+                <a target="_self" class="nav-link dropdown-toggle" href="https://cca.hawaii.gov/breg/" role="button" aria-haspopup="true" aria-expanded="false"> BREG Home</a>
+
+             <!-- Check if it has submenu -->
+                        
+            </li>
+                    <li class="nav-item dropdown">
+                <a target="_self" class="nav-link dropdown-toggle" href="#" role="button" aria-haspopup="true" aria-expanded="false"> Consumers <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="chevron-down" class="lucide lucide-chevron-down chevron-icon"><path d="m6 9 6 6 6-6"></path></svg></a>
+
+             <!-- Check if it has submenu -->
+                          <div class="dropdown-menu-wrapper">
+                <ul class="dropdown-menu second-level" role="menu">
+                                            <li class="nav-item">
+                            <a class="nav-link" target="_self" href="https://hbe.ehawaii.gov/documents/search.html" role="menuitem" tabindex="-1">Business Name Search </a>
+                        </li>
+                                                                <li class="nav-item">
+                            <a class="nav-link" target="_blank" href="https://hbe.ehawaii.gov/BizEx/home.eb" role="menuitem" tabindex="-1">Register a Business Online</a>
+                        </li>
+                                                                <li class="nav-item">
+                            <a class="nav-link" target="_blank" href="https://hbe.ehawaii.gov/documents/search.html?mobile=N&site_preference=normal" role="menuitem" tabindex="-1">Purchase a Certificate of Good Standing or Other Documents</a>
+                        </li>
+                                                                <li class="nav-item">
+                            <a class="nav-link" target="_blank" href="https://hbe.ehawaii.gov/annuals/" role="menuitem" tabindex="-1">Business Anual Report Filing</a>
+                        </li>
+                                                        </ul>
+              </div>
+                        
+            </li>
+                    <li class="nav-item dropdown">
+                <a target="_self" class="nav-link dropdown-toggle" href="#" role="button" aria-haspopup="true" aria-expanded="false"> Spotlight <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="chevron-down" class="lucide lucide-chevron-down chevron-icon"><path d="m6 9 6 6 6-6"></path></svg></a>
+
+             <!-- Check if it has submenu -->
+                          <div class="dropdown-menu-wrapper">
+                <ul class="dropdown-menu second-level" role="menu">
+                                            <li class="nav-item">
+                            <a class="nav-link" target="_blank" href="https://cca.hawaii.gov/breg/registration/" role="menuitem" tabindex="-1">Registration Forms, Fees and Information</a>
+                        </li>
+                                                                <li class="nav-item">
+                            <a class="nav-link" target="_blank" href="https://cca.hawaii.gov/breg/filing-tips/" role="menuitem" tabindex="-1">Filing Tips</a>
+                        </li>
+                                                                <li class="nav-item">
+                            <a class="nav-link" target="_blank" href="https://cca.hawaii.gov/breg/faqs/" role="menuitem" tabindex="-1">FAQs</a>
+                        </li>
+                                                                <li class="nav-item">
+                            <a class="nav-link" target="_blank" href="https://hbe.ehawaii.gov/" role="menuitem" tabindex="-1">Online Services</a>
+                        </li>
+                                                                <li class="nav-item">
+                            <a class="nav-link" target="_blank" href="https://cca.hawaii.gov/breg/legalinfo/" role="menuitem" tabindex="-1">BREG Business Entity Types</a>
+                        </li>
+                                                        </ul>
+              </div>
+                        
+            </li>
+                  
+        </ul>
+      </div>
+    </div>
+  </nav>
+</div>
+
+<section class="bg-off-white hero-wrap v3">
+  <div class="inner-wrap">
+    <div class="banner-img">
+      <!--<img src="https://cca.hawaii.gov/wp-content/uploads/2026/01/mounten1.webp" alt="Hero image"  class="img-fluid" />-->
+    </div>
+    <div class="container  hero-content">
+      <div class="row">
+        <div class="col-12">
+          <h1>Foreign Nonprofit Corporations</h1>
+                  </div>
+      </div>
+    </div>
+  </div>
+  <div class="off-white-border"></div>
+</section>
+
+<section class=" bg-off-white card-wrap v4" id="">
+
+  <div class="container with-lode-more section-96">
+      <div class="row card-gap">
+                  <div class="col-12 col-lg-4">
+                <div class="card">
+          <div class="card-body">
+            <h3 class="h6" id="simple-card-4574-6abc1df1bc702">Register online </h3>
+          </div>
+          <div class="action">
+            <span class="visually-hidden" id="simple-card-4574-6abc1df1bc702-link" aria-hidden="true">Go to</span>
+                        <a href="https://hbe.ehawaii.gov/BizEx/home.eb" class="btn btn-arrow" aria-labelledby="simple-card-4574-6abc1df1bc702-link simple-card-4574-6abc1df1bc702" target="_blank">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="chevron-right" aria-hidden="true" class="lucide lucide-chevron-right">
+                <path d="m9 18 6-6-6-6"></path>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+            <div class="col-12 col-lg-4">
+                <div class="card">
+          <div class="card-body">
+            <h3 class="h6" id="simple-card-4574-6abc1df1bc742">Fees</h3>
+          </div>
+          <div class="action">
+            <span class="visually-hidden" id="simple-card-4574-6abc1df1bc742-link" aria-hidden="true">Go to</span>
+                        <a href="https://cca.hawaii.gov/breg/registration/fnpc/fees/" class="btn btn-arrow" aria-labelledby="simple-card-4574-6abc1df1bc742-link simple-card-4574-6abc1df1bc742">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="chevron-right" aria-hidden="true" class="lucide lucide-chevron-right">
+                <path d="m9 18 6-6-6-6"></path>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+            <div class="col-12 col-lg-4">
+                <div class="card">
+          <div class="card-body">
+            <h3 class="h6" id="simple-card-4574-6abc1df1bc762">Complete listing of all fillable PDF forms</h3>
+          </div>
+          <div class="action">
+            <span class="visually-hidden" id="simple-card-4574-6abc1df1bc762-link" aria-hidden="true">Go to</span>
+                        <a href="https://cca.hawaii.gov/breg/registration/fnpc/forms/" class="btn btn-arrow" aria-labelledby="simple-card-4574-6abc1df1bc762-link simple-card-4574-6abc1df1bc762">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="chevron-right" aria-hidden="true" class="lucide lucide-chevron-right">
+                <path d="m9 18 6-6-6-6"></path>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+                  <div class="btn-wrapper">
+        <button class="btn" type="button">LODE MORE</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+        
+<section class="section-96 bg-white general-section" >
+     <div class="container">
+          <div class="row">
+               <div class="col-12 col-lg-12">
+                    <div class="text-wrap">
+                                                                                               <p>To register a Foreign Nonprofit Corporation in Hawaii, you must file an <strong>Application for Certificate of Authority for Foreign Corporation </strong>(<strong><a href="https://files.hawaii.gov/dcca/breg/registration/forms/fc-1-pdf.pdf" target="_blank" rel="noopener noreferrer">Form FC-1</a></strong>), along with the appropriate filing fee(s) with the Department of Commerce and Consumer Affairs (DCCA), Business Registration Division. Registrations can be filed <a href="https://hbe.ehawaii.gov/BizEx/home.eb" target="_blank" rel="noopener noreferrer">online</a>, or by email, mail, or fax.</p>
+<p>Filing fees are NOT REFUNDABLE. The fee for filing an Application for Certificate of Authority for Foreign Corporation (Form FC-1) is $25.00, with an additional fee of $25.00 for expedited service. The fee for a certified copy of a filing is $10.00 plus $0.25 per page. There is an additional <a href="/breg/state-archive-preservation-fee/" target="_blank" rel="noopener noreferrer">State Archives fee</a> of $1.00.</p>
+<p>Date of registration will be the date that the Application for Certificate of Authority for Foreign Corporation is filed in compliance with the Hawaii Nonprofit Corporations Act (Hawaii Revised Statutes <a href="https://www.capitol.hawaii.gov/hrscurrent/Vol08_Ch0401-0429/hrs0414d/HRS_0414D-0001.htm" target="_blank" rel="noopener noreferrer">Chapter 414D</a>).</p>
+<p><strong>Instructions for paper filings</strong><br />
+Be sure all information has been entered correctly, and that the information is complete and LEGIBLE before submitting a filing to the DCCA. Paper filings of the Application must be typewritten or printed and signed in BLACK INK and are accepted at our service window, and via email, mail and fax. Legible scanned, photocopied, or faxed documents will be accepted.  Document pages must be standard letter-sized (8.5 x 11 inches) and if signatures are not plainly legible, the name must be typed below each signature.</p>
+<p>Attach an original certificate of good standing duly authenticated by the proper officer of the state or country of origination and dated not more than sixty (60) days prior to the filing of this application. If the certificate of good standing is in a foreign language, a translation attested to under oath by the translator must accompany the certificate.</p>
+<p><strong>Payment</strong><br />
+Make checks payable to the DEPARTMENT OF COMMERCE AND CONSUMER AFFAIRS, for the exact amount. A $25.00 fee will be assessed on dishonored checks.</p>
+<p>Mail completed form and payment together to P.O. Box 40, Honolulu, HI 96810 or deliver to 335 Merchant Street, Room 201, Honolulu, HI 96813.</p>
+<p>Credit card information must accompany email and fax filings. We accept Visa, MasterCard, Discover, American Express, Diners Club, or JCB. Use the <a href="/wp-content/uploads/2025/12/BREG_Credit-Card-Transaction-Form_fillable-1.pdf" target="_blank" rel="noopener">Business Registration Division Credit Card Transaction Form</a>, <strong>OR</strong> be sure to include the following information in order for payment to be processed: credit card number, credit card type, name of cardholder, card expiration date, CVV code, amount of charge, indicate expedited or regular review, a contact telephone number and an email address.</p>
+<p>To email document filings, please send to <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="c5a7b7a0a2e8a1aaa6ace8a3aca9acaba285a1a6a6a4ebada4b2a4acaceba2aab3">[email&#160;protected]</a>. To fax, send to (808) 586-2733.</p>
+<p>For more information and/or assistance, please see our <a href="/breg/faqs/" target="_blank" rel="noopener">FAQs</a> page or <a href="/breg/" target="_blank" rel="noopener">contact</a> us at (808) 586-2727 or <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="d3b1a1b6b493b7b0b0b2fdbbb2a4b2babafdb4bca5">[email&#160;protected]</a>.</p>
+<p>We also have <a href="https://cca.hawaii.gov/bac/" target="_blank" rel="noopener">Business Action Centers</a> that offer in-person assistance with government filings and more.</p>
+                                                  </div>
+                </div>
+            </div>
+     </div>
+</section>
+
+<style> #gform_2 #field_2_4{
+	display:none !important;
+}</style></main>
+<!-- Footer -->
+<footer class="bg-off-white">
+      <!-- Newsletter Subscription Section -->
+     <div class="bg-ultramarine-blue text-only v1  ">
+      <div class="container ">
+        <div class="bg-prussian-blue">
+          <div class="row">
+            <div class="col-12   col-lg-7  text-wrap">
+              <p class="section-eyebrow">Get Notified</p>
+              <h2>Be the First to Know! Subscribe to Our Updates</h2>
+            </div>
+            <div class="col-12  col-lg-5  form-wrap v3">
+              
+                <div class='gf_browser_unknown gform_wrapper gform-theme gform-theme--foundation gform-theme--framework gform-theme--orbital' data-form-theme='orbital' data-form-index='0' id='gform_wrapper_2' ><style>#gform_wrapper_2[data-form-index="0"].gform-theme,[data-parent-form="2_0"]{--gf-color-primary: #204ce5;--gf-color-primary-rgb: 32, 76, 229;--gf-color-primary-contrast: #fff;--gf-color-primary-contrast-rgb: 255, 255, 255;--gf-color-primary-darker: #001AB3;--gf-color-primary-lighter: #527EFF;--gf-color-secondary: #fff;--gf-color-secondary-rgb: 255, 255, 255;--gf-color-secondary-contrast: #112337;--gf-color-secondary-contrast-rgb: 17, 35, 55;--gf-color-secondary-darker: #F5F5F5;--gf-color-secondary-lighter: #FFFFFF;--gf-color-out-ctrl-light: rgba(17, 35, 55, 0.1);--gf-color-out-ctrl-light-rgb: 17, 35, 55;--gf-color-out-ctrl-light-darker: rgba(104, 110, 119, 0.35);--gf-color-out-ctrl-light-lighter: #F5F5F5;--gf-color-out-ctrl-dark: #585e6a;--gf-color-out-ctrl-dark-rgb: 88, 94, 106;--gf-color-out-ctrl-dark-darker: #112337;--gf-color-out-ctrl-dark-lighter: rgba(17, 35, 55, 0.65);--gf-color-in-ctrl: #fff;--gf-color-in-ctrl-rgb: 255, 255, 255;--gf-color-in-ctrl-contrast: #112337;--gf-color-in-ctrl-contrast-rgb: 17, 35, 55;--gf-color-in-ctrl-darker: #F5F5F5;--gf-color-in-ctrl-lighter: #FFFFFF;--gf-color-in-ctrl-primary: #204ce5;--gf-color-in-ctrl-primary-rgb: 32, 76, 229;--gf-color-in-ctrl-primary-contrast: #fff;--gf-color-in-ctrl-primary-contrast-rgb: 255, 255, 255;--gf-color-in-ctrl-primary-darker: #001AB3;--gf-color-in-ctrl-primary-lighter: #527EFF;--gf-color-in-ctrl-light: rgba(17, 35, 55, 0.1);--gf-color-in-ctrl-light-rgb: 17, 35, 55;--gf-color-in-ctrl-light-darker: rgba(104, 110, 119, 0.35);--gf-color-in-ctrl-light-lighter: #F5F5F5;--gf-color-in-ctrl-dark: #585e6a;--gf-color-in-ctrl-dark-rgb: 88, 94, 106;--gf-color-in-ctrl-dark-darker: #112337;--gf-color-in-ctrl-dark-lighter: rgba(17, 35, 55, 0.65);--gf-radius: 3px;--gf-font-size-secondary: 14px;--gf-font-size-tertiary: 13px;--gf-icon-ctrl-number: url("data:image/svg+xml,%3Csvg width='8' height='14' viewBox='0 0 8 14' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M4 0C4.26522 5.96046e-08 4.51957 0.105357 4.70711 0.292893L7.70711 3.29289C8.09763 3.68342 8.09763 4.31658 7.70711 4.70711C7.31658 5.09763 6.68342 5.09763 6.29289 4.70711L4 2.41421L1.70711 4.70711C1.31658 5.09763 0.683417 5.09763 0.292893 4.70711C-0.0976311 4.31658 -0.097631 3.68342 0.292893 3.29289L3.29289 0.292893C3.48043 0.105357 3.73478 0 4 0ZM0.292893 9.29289C0.683417 8.90237 1.31658 8.90237 1.70711 9.29289L4 11.5858L6.29289 9.29289C6.68342 8.90237 7.31658 8.90237 7.70711 9.29289C8.09763 9.68342 8.09763 10.3166 7.70711 10.7071L4.70711 13.7071C4.31658 14.0976 3.68342 14.0976 3.29289 13.7071L0.292893 10.7071C-0.0976311 10.3166 -0.0976311 9.68342 0.292893 9.29289Z' fill='rgba(17, 35, 55, 0.65)'/%3E%3C/svg%3E");--gf-icon-ctrl-select: url("data:image/svg+xml,%3Csvg width='10' height='6' viewBox='0 0 10 6' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M0.292893 0.292893C0.683417 -0.097631 1.31658 -0.097631 1.70711 0.292893L5 3.58579L8.29289 0.292893C8.68342 -0.0976311 9.31658 -0.0976311 9.70711 0.292893C10.0976 0.683417 10.0976 1.31658 9.70711 1.70711L5.70711 5.70711C5.31658 6.09763 4.68342 6.09763 4.29289 5.70711L0.292893 1.70711C-0.0976311 1.31658 -0.0976311 0.683418 0.292893 0.292893Z' fill='rgba(17, 35, 55, 0.65)'/%3E%3C/svg%3E");--gf-icon-ctrl-search: url("data:image/svg+xml,%3Csvg width='640' height='640' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M256 128c-70.692 0-128 57.308-128 128 0 70.691 57.308 128 128 128 70.691 0 128-57.309 128-128 0-70.692-57.309-128-128-128zM64 256c0-106.039 85.961-192 192-192s192 85.961 192 192c0 41.466-13.146 79.863-35.498 111.248l154.125 154.125c12.496 12.496 12.496 32.758 0 45.254s-32.758 12.496-45.254 0L367.248 412.502C335.862 434.854 297.467 448 256 448c-106.039 0-192-85.962-192-192z' fill='rgba(17, 35, 55, 0.65)'/%3E%3C/svg%3E");--gf-label-space-y-secondary: var(--gf-label-space-y-md-secondary);--gf-ctrl-border-color: #686e77;--gf-ctrl-size: var(--gf-ctrl-size-md);--gf-ctrl-label-color-primary: #112337;--gf-ctrl-label-color-secondary: #112337;--gf-ctrl-choice-size: var(--gf-ctrl-choice-size-md);--gf-ctrl-checkbox-check-size: var(--gf-ctrl-checkbox-check-size-md);--gf-ctrl-radio-check-size: var(--gf-ctrl-radio-check-size-md);--gf-ctrl-btn-font-size: var(--gf-ctrl-btn-font-size-md);--gf-ctrl-btn-padding-x: var(--gf-ctrl-btn-padding-x-md);--gf-ctrl-btn-size: var(--gf-ctrl-btn-size-md);--gf-ctrl-btn-border-color-secondary: #686e77;--gf-ctrl-file-btn-bg-color-hover: #EBEBEB;--gf-field-img-choice-size: var(--gf-field-img-choice-size-md);--gf-field-img-choice-card-space: var(--gf-field-img-choice-card-space-md);--gf-field-img-choice-check-ind-size: var(--gf-field-img-choice-check-ind-size-md);--gf-field-img-choice-check-ind-icon-size: var(--gf-field-img-choice-check-ind-icon-size-md);--gf-field-pg-steps-number-color: rgba(17, 35, 55, 0.8);}</style><div id='gf_2' class='gform_anchor' tabindex='-1'></div><form method='post' enctype='multipart/form-data' target='gform_ajax_frame_2' id='gform_2'  action='/breg/registration/fnpc/#gf_2' data-formid='2' novalidate>
+                        <div class='gform-body gform_body'><div id='gform_fields_2' class='gform_fields top_label form_sublabel_below description_below validation_below'><fieldset id="field_2_4" class="gfield gfield--type-name gfield--input-type-name gfield--width-full field_sublabel_above gfield--no-description field_description_below hidden_label field_validation_below gfield_visibility_visible"  ><legend class='gfield_label gform-field-label gfield_label_before_complex' >Name</legend><div class='ginput_complex ginput_container ginput_container--name no_prefix has_first_name no_middle_name has_last_name no_suffix gf_name_has_2 ginput_container_name gform-grid-row' id='input_2_4'>
+                            
+                            <span id='input_2_4_3_container' class='name_first gform-grid-col gform-grid-col--size-auto' >
+                                                    <label for='input_2_4_3' class='gform-field-label gform-field-label--type-sub '>First</label>
+                                                    <input type='text' name='input_4.3' id='input_2_4_3' value='Name'   aria-required='false'     />
+                                                </span>
+                            
+                            <span id='input_2_4_6_container' class='name_last gform-grid-col gform-grid-col--size-auto' >
+                                                            <label for='input_2_4_6' class='gform-field-label gform-field-label--type-sub '>Last</label>
+                                                            <input type='text' name='input_4.6' id='input_2_4_6' value='Last Name'   aria-required='false'     />
+                                                        </span>
+                            
+                        </div></fieldset><fieldset id="field_2_1" class="gfield gfield--type-email gfield--input-type-email gfield_contains_required field_sublabel_above gfield--no-description field_description_above hidden_label field_validation_below gfield_visibility_visible"  ><legend class='gfield_label gform-field-label gfield_label_before_complex' >Email<span class="gfield_required"><span class="gfield_required gfield_required_text">(Required)</span></span></legend><div class='ginput_complex ginput_container ginput_container_email gform-grid-row' id='input_2_1_container'>
+                                <span id='input_2_1_1_container' class='ginput_left gform-grid-col gform-grid-col--size-auto'>
+                                    <label for='input_2_1' class='gform-field-label gform-field-label--type-sub '>Enter Email</label>
+                                    <input class='' type='email' name='input_1' id='input_2_1' value=''    aria-required="true" aria-invalid="false"  />
+                                </span>
+                                <span id='input_2_1_2_container' class='ginput_right gform-grid-col gform-grid-col--size-auto'>
+                                    <label for='input_2_1_2' class='gform-field-label gform-field-label--type-sub '>Confirm Email</label>
+                                    <input class='' type='email' name='input_1_2' id='input_2_1_2' value=''    aria-required="true" aria-invalid="false"  />
+                                </span>
+                                <div class='gf_clear gf_clear_complex'></div>
+                            </div></fieldset><div id="field_2_3" class="gfield gfield--type-hidden gfield--input-type-hidden gfield--width-full gform_hidden field_sublabel_below gfield--no-description field_description_below field_validation_below gfield_visibility_visible"  ><div class='ginput_container ginput_container_text'><input name='input_3' id='input_2_3' type='hidden' class='gform_hidden'  aria-invalid="false" value='https://cca.hawaii.gov/breg/registration/fnpc/' /></div></div><div id="field_2_5" class="gfield gfield--type-hidden gfield--input-type-hidden gfield--width-full gform_hidden field_sublabel_below gfield--no-description field_description_below field_validation_below gfield_visibility_visible"  ><div class='ginput_container ginput_container_text'><input name='input_5' id='input_2_5' type='hidden' class='gform_hidden'  aria-invalid="false" value='breg' /></div></div></div></div>
+        <div class='gform-footer gform_footer top_label'> <input type='submit' id='gform_submit_button_2' class='gform_button button' onclick='gform.submission.handleButtonClick(this);' data-submission-type='submit' value='Subscribe'  /> <input type='hidden' name='gform_ajax' value='form_id=2&amp;title=&amp;description=&amp;tabindex=0&amp;theme=orbital&amp;styles=[]&amp;hash=ef15e89b2de3f4f511fb9e990d684b55' />
+            <input type='hidden' class='gform_hidden' name='gform_submission_method' data-js='gform_submission_method_2' value='iframe' />
+            <input type='hidden' class='gform_hidden' name='gform_theme' data-js='gform_theme_2' id='gform_theme_2' value='orbital' />
+            <input type='hidden' class='gform_hidden' name='gform_style_settings' data-js='gform_style_settings_2' id='gform_style_settings_2' value='[]' />
+            <input type='hidden' class='gform_hidden' name='is_submit_2' value='1' />
+            <input type='hidden' class='gform_hidden' name='gform_submit' value='2' />
+            
+            <input type='hidden' class='gform_hidden' name='gform_currency' data-currency='USD' value='akz07dEYQnx3p90ewE9dtbsUX+ggsImi0mMq/243uM+Q15cVM+kuI+aEYN3t1TszQodHgxFx2KaTzZG5a3m7X8k3yY0pgY9oIHBvPqWMKWG+k58=' />
+            <input type='hidden' class='gform_hidden' name='gform_unique_id' value='' />
+            <input type='hidden' class='gform_hidden' name='state_2' value='WyJbXSIsIjE1Mjk5NDk1NzRhNmZkZmViYTcxNDNmNmU3ZmYwNDVhIl0=' />
+            <input type='hidden' autocomplete='off' class='gform_hidden' name='gform_target_page_number_2' id='gform_target_page_number_2' value='0' />
+            <input type='hidden' autocomplete='off' class='gform_hidden' name='gform_source_page_number_2' id='gform_source_page_number_2' value='1' />
+            <input type='hidden' name='gform_field_values' value='' />
+            
+        </div>
+                        </form>
+                        </div>
+		                <iframe style='display:none;width:0px;height:0px;' src='about:blank' name='gform_ajax_frame_2' id='gform_ajax_frame_2' title='This iframe contains the logic required to handle Ajax powered Gravity Forms.'></iframe>
+		                <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+gform.initializeOnLoaded( function() {gformInitSpinner( 2, 'https://cca.hawaii.gov/wp-content/plugins/gravityforms/images/spinner.svg', false );jQuery('#gform_ajax_frame_2').on('load',function(){var contents = jQuery(this).contents().find('*').html();var is_postback = contents.indexOf('GF_AJAX_POSTBACK') >= 0;if(!is_postback){return;}var form_content = jQuery(this).contents().find('#gform_wrapper_2');var is_confirmation = jQuery(this).contents().find('#gform_confirmation_wrapper_2').length > 0;var is_redirect = contents.indexOf('gformRedirect(){') >= 0;var is_form = form_content.length > 0 && ! is_redirect && ! is_confirmation;var mt = parseInt(jQuery('html').css('margin-top'), 10) + parseInt(jQuery('body').css('margin-top'), 10) + 100;if(is_form){jQuery('#gform_wrapper_2').html(form_content.html());if(form_content.hasClass('gform_validation_error')){jQuery('#gform_wrapper_2').addClass('gform_validation_error');} else {jQuery('#gform_wrapper_2').removeClass('gform_validation_error');}setTimeout( function() { /* delay the scroll by 50 milliseconds to fix a bug in chrome */ jQuery(document).scrollTop(jQuery('#gform_wrapper_2').offset().top - mt); }, 50 );if(window['gformInitDatepicker']) {gformInitDatepicker();}if(window['gformInitPriceFields']) {gformInitPriceFields();}var current_page = jQuery('#gform_source_page_number_2').val();gformInitSpinner( 2, 'https://cca.hawaii.gov/wp-content/plugins/gravityforms/images/spinner.svg', false );jQuery(document).trigger('gform_page_loaded', [2, current_page]);window['gf_submitting_2'] = false;}else if(!is_redirect){var confirmation_content = jQuery(this).contents().find('.GF_AJAX_POSTBACK').html();if(!confirmation_content){confirmation_content = contents;}jQuery('#gform_wrapper_2').replaceWith(confirmation_content);jQuery(document).scrollTop(jQuery('#gf_2').offset().top - mt);jQuery(document).trigger('gform_confirmation_loaded', [2]);window['gf_submitting_2'] = false;wp.a11y.speak(jQuery('#gform_confirmation_message_2').text());}else{jQuery('#gform_2').append(contents);if(window['gformRedirect']) {gformRedirect();}}jQuery(document).trigger("gform_pre_post_render", [{ formId: "2", currentPage: "current_page", abort: function() { this.preventDefault(); } }]);        if (event && event.defaultPrevented) {                return;        }        const gformWrapperDiv = document.getElementById( "gform_wrapper_2" );        if ( gformWrapperDiv ) {            const visibilitySpan = document.createElement( "span" );            visibilitySpan.id = "gform_visibility_test_2";            gformWrapperDiv.insertAdjacentElement( "afterend", visibilitySpan );        }        const visibilityTestDiv = document.getElementById( "gform_visibility_test_2" );        let postRenderFired = false;        function triggerPostRender() {            if ( postRenderFired ) {                return;            }            postRenderFired = true;            gform.core.triggerPostRenderEvents( 2, current_page );            if ( visibilityTestDiv ) {                visibilityTestDiv.parentNode.removeChild( visibilityTestDiv );            }        }        function debounce( func, wait, immediate ) {            var timeout;            return function() {                var context = this, args = arguments;                var later = function() {                    timeout = null;                    if ( !immediate ) func.apply( context, args );                };                var callNow = immediate && !timeout;                clearTimeout( timeout );                timeout = setTimeout( later, wait );                if ( callNow ) func.apply( context, args );            };        }        const debouncedTriggerPostRender = debounce( function() {            triggerPostRender();        }, 200 );        if ( visibilityTestDiv && visibilityTestDiv.offsetParent === null ) {            const observer = new MutationObserver( ( mutations ) => {                mutations.forEach( ( mutation ) => {                    if ( mutation.type === 'attributes' && visibilityTestDiv.offsetParent !== null ) {                        debouncedTriggerPostRender();                        observer.disconnect();                    }                });            });            observer.observe( document.body, {                attributes: true,                childList: false,                subtree: true,                attributeFilter: [ 'style', 'class' ],            });        } else {            triggerPostRender();        }    } );} );
+</script>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="blue-border"></div>
+    </div> 
+  
+  <!-- Main Footer Section -->
+  <div class="main-footer section-64">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-lg-5">
+          <div class="footer-info">
+            <div class="footer-logo">
+              <img src="https://cca.hawaii.gov/wp-content/uploads/2025/11/DCCA-logo.svg" alt="DCCA Hawaii logo" class="img-fluid">
+            </div>
+            <p>Our mission at the Department of Commerce and Consumer Affairs is to protect Hawaiʻi’s consumers and service its business community with respect and fairness to the interests of both.</p>
+
+            <ul class="social-links">
+                                <li>
+                    <a href="https://x.com/DCCAHawaii"
+                      aria-label="Twitter" target="_blank">
+                      <img src="https://cca.hawaii.gov/wp-content/uploads/2025/11/x.svg"
+                        alt="Twitter"></a>
+                  </li>
+                                <li>
+                    <a href="https://www.linkedin.com/company/hidcca/"
+                      aria-label="Linkedin" target="_blank">
+                      <img src="https://cca.hawaii.gov/wp-content/uploads/2025/11/in.svg"
+                        alt="Linkedin"></a>
+                  </li>
+                                <li>
+                    <a href="https://www.facebook.com/DCCAHawaii/"
+                      aria-label="Facebook" target="_blank">
+                      <img src="https://cca.hawaii.gov/wp-content/uploads/2025/11/fb.svg"
+                        alt="Facebook"></a>
+                  </li>
+                                <li>
+                    <a href="https://www.youtube.com/user/DCCAHawaii"
+                      aria-label="Youtube" target="_blank">
+                      <img src="https://cca.hawaii.gov/wp-content/uploads/2025/11/you-tube.svg"
+                        alt="Youtube"></a>
+                  </li>
+                                <li>
+                    <a href="https://www.instagram.com/hidcca/?hl=en"
+                      aria-label="Instagram" target="_blank">
+                      <img src="https://cca.hawaii.gov/wp-content/uploads/2025/11/insta.svg"
+                        alt="Instagram"></a>
+                  </li>
+                          </ul>
+
+          </div>
+
+        </div>
+        <div class="col-12 col-lg-7">
+          <div class="row">
+            <div class="col-12 col-lg-4 col-md-4">
+              <ul class="social-links">
+                                    <li>
+                      <a href="https://cca.hawaii.gov/contact-us/"
+                        aria-label="View Contact Us">
+                        Contact Us</a>
+                    </li>
+                                    <li>
+                      <a href="https://cca.hawaii.gov/news-releases/"
+                        aria-label="View News">
+                        News</a>
+                    </li>
+                                    <li>
+                      <a href="https://cca.hawaii.gov/faqs/"
+                        aria-label="View FAQs">
+                        FAQs</a>
+                    </li>
+                                    <li>
+                      <a href="https://cca.hawaii.gov/about/"
+                        aria-label="View About">
+                        About</a>
+                    </li>
+                              </ul>
+            </div>
+            <div class="col-12 col-lg-4 col-md-4">
+              <ul>
+                                    <li>
+                      <a href="https://cca.hawaii.gov/hawaii-revised-statutes/"
+                        aria-label="View Revised Statutes">
+                        Revised Statutes</a>
+                    </li>
+                                    <li>
+                      <a href="https://cca.hawaii.gov/hawaii-administrative-rules/"
+                        aria-label="View Administrative Rules">
+                        Administrative Rules</a>
+                    </li>
+                                    <li>
+                      <a href="https://cca.hawaii.gov/proposed-rulemaking/"
+                        aria-label="View Proposed Rule making">
+                        Proposed Rule making</a>
+                    </li>
+                                    <li>
+                      <a href="https://cca.hawaii.gov/reports/"
+                        aria-label="View Legislative Reporting">
+                        Legislative Reporting</a>
+                    </li>
+                                    <li>
+                      <a href="https://cca.hawaii.gov/landlord-tenant-information-center/"
+                        aria-label="View Landlord Tenant Information">
+                        Landlord Tenant Information</a>
+                    </li>
+                              </ul>
+            </div>
+
+            <div class="col-12 col-lg-4 col-md-4">
+              <ul>
+                                    <li>
+                      <a href="https://cca.hawaii.gov/home/open-records-request/"
+                        aria-label="View Open Record Request">
+                        Open Record Request</a>
+                    </li>
+                                    <li>
+                      <a href="https://portal.ehawaii.gov/page/terms-of-use/"
+                        aria-label="View Terms of use">
+                        Terms of use</a>
+                    </li>
+                                    <li>
+                      <a href="https://portal.ehawaii.gov/accessibility.html"
+                        aria-label="View Accessibility">
+                        Accessibility</a>
+                    </li>
+                                    <li>
+                      <a href="https://portal.ehawaii.gov/page/privacy-policy/"
+                        aria-label="View Privacy Policy">
+                        Privacy Policy</a>
+                    </li>
+                                    <li>
+                      <a href="https://cca.hawaii.gov/home/jobs/"
+                        aria-label="View Jobs">
+                        Jobs</a>
+                    </li>
+                              </ul>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Copyright Section -->
+  <div class="copyright">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <p>© 2026 DCCA Hawaii | All Rights Reserved</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scroll to top button -->
+  <button id="scrollTopBtn" class="ct-scroll-to-top" aria-label="Scroll to top" data-scroll-to-top-attached="true">
+    <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <circle opacity="0" cx="30" cy="30" r="29.5" fill="white" stroke="white"></circle>
+        <path d="M30 37L30 22M30 22L26 26M30 22L34 26" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+    </svg>
+  </button>
+</footer>
+
+<script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","/wp-content/uploads/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/dcca/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+<style> #gform_2 #field_2_4{
+	display:none !important;
+}</style>    <script>
+    document.addEventListener("click", function(e) {
+        var btn = e.target.closest("#gform_submit_button_7");
+        if (!btn) return;
+        
+        var key = "gf7_tab_id";
+        
+        // Prevent multiple tab opens before reload.
+        if (sessionStorage.getItem(key)) return;
+        
+        // Generate unique tab ID for this submission (timestamp + random).
+        // Each submit gets a new ID, so a new tab opens each time.
+        var uniqueTabId = "gf7_redirect_tab_" + Date.now() + "_" + Math.random().toString(36).substr(2, 9);
+        
+        // Open blank tab with unique ID (user action = no popup blocker).
+        // This tab will be navigated to the redirect URL in the confirmation script.
+        window.open("", uniqueTabId);
+        
+        // Store the unique tab ID for the confirmation script to use.
+        sessionStorage.setItem(key, uniqueTabId);
+    });
+    </script>
+            <script type="text/javascript">
+            /* <![CDATA[ */
+           document.querySelectorAll("ul.nav-menu").forEach(
+               ulist => { 
+                    if (ulist.querySelectorAll("li").length == 0) {
+                        ulist.style.display = "none";
+
+                                            } 
+                }
+           );
+            /* ]]> */
+        </script>
+        <script id="xo-event-calendar-ajax-js-extra">
+var xo_event_calendar_object = {"ajax_url":"https://cca.hawaii.gov/wp-admin/admin-ajax.php","action":"xo_event_calendar_month"};
+var xo_simple_calendar_object = {"ajax_url":"https://cca.hawaii.gov/wp-admin/admin-ajax.php","action":"xo_simple_calendar_month"};
+//# sourceURL=xo-event-calendar-ajax-js-extra
+</script>
+<script id="xo-event-calendar-ajax-js" src="https://cca.hawaii.gov/wp-content/plugins/xo-event-calendar/js/ajax.js?ver=3.2.10"></script>
+<script id="dcca-script-main-js" src="https://cca.hawaii.gov/wp-content/themes/dcca/dcca-hawaii/src/assets/dist/main.min.js?ver=1790713329"></script>
+<script id="news-ajax-load-more-js-extra">
+var newsAjax = {"ajaxurl":"https://cca.hawaii.gov/wp-admin/admin-ajax.php","nonce":"39be9f5eb6"};
+//# sourceURL=news-ajax-load-more-js-extra
+</script>
+<script id="news-ajax-load-more-js" src="https://cca.hawaii.gov/wp-content/themes/dcca/js/news-ajax.js?ver=1.0.0"></script>
+<script id="wp-dom-ready-js" src="https://cca.hawaii.gov/wp-includes/js/dist/dom-ready.min.js?ver=3fe927cab37bf38d6a23"></script>
+<script id="wp-hooks-js" src="https://cca.hawaii.gov/wp-includes/js/dist/hooks.min.js?ver=f0f188028580e8dc1255"></script>
+<script id="wp-i18n-js" src="https://cca.hawaii.gov/wp-includes/js/dist/i18n.min.js?ver=1dfe7db3940c23ea9216"></script>
+<script id="wp-i18n-js-after">
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+//# sourceURL=wp-i18n-js-after
+</script>
+<script id="wp-a11y-js" src="https://cca.hawaii.gov/wp-includes/js/dist/a11y.min.js?ver=31c6cec5a4ff7aff483d"></script>
+<script id="gform_json-js" defer='defer' src="https://cca.hawaii.gov/wp-content/plugins/gravityforms/js/jquery.json.min.js?ver=2.10.2"></script>
+<script id="gform_gravityforms-js-extra">
+var gform_i18n = {"datepicker":{"days":{"monday":"Mo","tuesday":"Tu","wednesday":"We","thursday":"Th","friday":"Fr","saturday":"Sa","sunday":"Su"},"months":{"january":"January","february":"February","march":"March","april":"April","may":"May","june":"June","july":"July","august":"August","september":"September","october":"October","november":"November","december":"December"},"firstDay":1,"iconText":"Select date"}};
+var gf_legacy_multi = [];
+var gform_gravityforms = {"strings":{"invalid_file_extension":"This type of file is not allowed. Must be one of the following:","delete_file":"Delete this file","in_progress":"in progress","file_exceeds_limit":"File exceeds size limit","illegal_extension":"This type of file is not allowed.","max_reached":"Maximum number of files reached","unknown_error":"There was a problem while saving the file on the server","currently_uploading":"Please wait for the uploading to complete","cancel":"Cancel","cancel_upload":"Cancel this upload","cancelled":"Cancelled","error":"Error","message":"Message"},"vars":{"images_url":"https://cca.hawaii.gov/wp-content/plugins/gravityforms/images"}};
+var gf_global = {"gf_currency_config":{"name":"U.S. Dollar","symbol_left":"$","symbol_right":"","symbol_padding":"","thousand_separator":",","decimal_separator":".","decimals":2,"code":"USD"},"base_url":"https://cca.hawaii.gov/wp-content/plugins/gravityforms","number_formats":[],"spinnerUrl":"https://cca.hawaii.gov/wp-content/plugins/gravityforms/images/spinner.svg","version_hash":"6a92494e92db2ac3b433a2130f9dace2","strings":{"newRowAdded":"New row added.","rowRemoved":"Row removed","formSaved":"The form has been saved.  The content contains the link to return and complete the form."}};
+//# sourceURL=gform_gravityforms-js-extra
+</script>
+<script id="gform_gravityforms-js" defer='defer' src="https://cca.hawaii.gov/wp-content/plugins/gravityforms/js/gravityforms.min.js?ver=2.10.2"></script>
+<script id="gform_placeholder-js" defer='defer' src="https://cca.hawaii.gov/wp-content/plugins/gravityforms/js/placeholders.jquery.min.js?ver=2.10.2"></script>
+<script id="gform_gravityforms_utils-js" defer='defer' src="https://cca.hawaii.gov/wp-content/plugins/gravityforms/assets/js/dist/utils.min.js?ver=3f278756f0a3032bed328ff6a9f6c01d"></script>
+<script id="gform_gravityforms_theme_vendors-js" defer='defer' src="https://cca.hawaii.gov/wp-content/plugins/gravityforms/assets/js/dist/vendor-theme.min.js?ver=7c651d0ba638ce98b9c65141edddd567"></script>
+<script id="gform_gravityforms_theme-js-extra">
+var gform_theme_config = {"common":{"form":{"honeypot":{"version_hash":"6a92494e92db2ac3b433a2130f9dace2"},"ajax":{"ajaxurl":"https://cca.hawaii.gov/wp-admin/admin-ajax.php","ajax_submission_nonce":"52ce7f5b1e","i18n":{"step_announcement":"Step %1$s of %2$s, %3$s","unknown_error":"There was an unknown error processing your request. Please try again.","error_403":"The request was blocked (403 error) for unknown security reasons. Remove any code-like text (scripts or DB queries) and try again."}}}},"hmr_dev":"","public_path":"https://cca.hawaii.gov/wp-content/plugins/gravityforms/assets/js/dist/","config_nonce":"973d36e688"};
+//# sourceURL=gform_gravityforms_theme-js-extra
+</script>
+<script id="gform_gravityforms_theme-js" defer='defer' src="https://cca.hawaii.gov/wp-content/plugins/gravityforms/assets/js/dist/scripts-theme.min.js?ver=301fdc9aa6144168f3b854c4c2c8f6d3"></script>
+<script id="wp-emoji-settings" type="application/json">
+{"baseUrl":"https://s.w.org/images/core/emoji/17.0.2/72x72/","ext":".png","svgUrl":"https://s.w.org/images/core/emoji/17.0.2/svg/","svgExt":".svg","source":{"concatemoji":"https://cca.hawaii.gov/wp-includes/js/wp-emoji-release.min.js?ver=7.1.2"}}
+</script>
+<script type="module">
+/*! This file is auto-generated */
+var e="script#wp-emoji-settings",t=document.querySelector(e);if(!(t instanceof HTMLScriptElement))throw new Error("Element missing: "+e);const r=JSON.parse(t.text),s=(window._wpemojiSettings=r,"wpEmojiSettingsSupports"),o=["flag","emoji"];function i(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(s,JSON.stringify(t))}catch(e){}}function c(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0);const r=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);return t.every((e,t)=>e===r[t])}function p(e,t){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var n=e.getImageData(16,16,1,1);for(let e=0;e<n.data.length;e++)if(0!==n.data[e])return!1;return!0}function u(e,t,n,r){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\udde8\ud83c\uddf6","\ud83c\udde8\u200b\ud83c\uddf6")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!r(e,"\ud83e\u1fac8")}return!1}function f(e,t,n,r){let a;const s=(a="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):document.createElement("canvas")).getContext("2d",{willReadFrequently:!0}),o=(s.textBaseline="top",s.font="600 32px Arial",{});return e.forEach(e=>{o[e]=t(s,e,n,r)}),o}function a(e){var t=document.createElement("script");t.src=e,t.defer=!0,document.head.appendChild(t)}r.supports={everything:!0,everythingExceptFlag:!0},new Promise(t=>{let n=function(){try{var e=JSON.parse(sessionStorage.getItem(s));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(o),u.toString(),c.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"});const a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=e=>{i(n=e.data),a.terminate(),t(n)})}catch(e){}i(n=f(o,u,c,p))}t(n)}).then(e=>{for(const n in e)r.supports[n]=e[n],r.supports.everything=r.supports.everything&&r.supports[n],"flag"!==n&&(r.supports.everythingExceptFlag=r.supports.everythingExceptFlag&&r.supports[n]);var t;r.supports.everythingExceptFlag=r.supports.everythingExceptFlag&&!r.supports.flag,r.supports.everything||((t=r.source||{}).concatemoji?a(t.concatemoji):t.wpemoji&&t.twemoji&&(a(t.twemoji),a(t.wpemoji)))});
+//# sourceURL=https://cca.hawaii.gov/wp-includes/js/wp-emoji-loader.min.js
+</script>
+<script>
+gform.initializeOnLoaded( function() { jQuery(document).on('gform_post_render', function(event, formId, currentPage){if(formId == 2) {if(typeof Placeholders != 'undefined'){
+                        Placeholders.enable();
+                    }} } );jQuery(document).on('gform_post_conditional_logic', function(event, formId, fields, isInit){} ) } );
+</script>
+<script>
+gform.initializeOnLoaded( function() {jQuery(document).trigger("gform_pre_post_render", [{ formId: "2", currentPage: "1", abort: function() { this.preventDefault(); } }]);        if (event && event.defaultPrevented) {                return;        }        const gformWrapperDiv = document.getElementById( "gform_wrapper_2" );        if ( gformWrapperDiv ) {            const visibilitySpan = document.createElement( "span" );            visibilitySpan.id = "gform_visibility_test_2";            gformWrapperDiv.insertAdjacentElement( "afterend", visibilitySpan );        }        const visibilityTestDiv = document.getElementById( "gform_visibility_test_2" );        let postRenderFired = false;        function triggerPostRender() {            if ( postRenderFired ) {                return;            }            postRenderFired = true;            gform.core.triggerPostRenderEvents( 2, 1 );            if ( visibilityTestDiv ) {                visibilityTestDiv.parentNode.removeChild( visibilityTestDiv );            }        }        function debounce( func, wait, immediate ) {            var timeout;            return function() {                var context = this, args = arguments;                var later = function() {                    timeout = null;                    if ( !immediate ) func.apply( context, args );                };                var callNow = immediate && !timeout;                clearTimeout( timeout );                timeout = setTimeout( later, wait );                if ( callNow ) func.apply( context, args );            };        }        const debouncedTriggerPostRender = debounce( function() {            triggerPostRender();        }, 200 );        if ( visibilityTestDiv && visibilityTestDiv.offsetParent === null ) {            const observer = new MutationObserver( ( mutations ) => {                mutations.forEach( ( mutation ) => {                    if ( mutation.type === 'attributes' && visibilityTestDiv.offsetParent !== null ) {                        debouncedTriggerPostRender();                        observer.disconnect();                    }                });            });            observer.observe( document.body, {                attributes: true,                childList: false,                subtree: true,                attributeFilter: [ 'style', 'class' ],            });        } else {            triggerPostRender();        }    } );
+</script>
+<!-- <script>window.gtranslateSettings = {"default_language":"en","wrapper_selector":".gtranslate_wrapper","flag_style":"3d"}</script> -->
+<script>
+  window.gtranslateSettings = {
+    default_language: "en",
+    wrapper_selector: ".gtranslate_wrapper",
+    flag_style: "3d",
+    native_language_names: {
+      "chk": "Chuukese",
+      "ilo": "Ilocano",
+      "mh": "Marshallese",
+      "to": "Tongan"
+    },
+    alt_flags: {
+      "chk": "fm",
+      "ilo": "ph",
+      "mh": "mh",
+      "to": "to"
+    },
+    languages: [
+      "en",
+      "fr",
+      "de",
+      "haw",
+      "ja",
+      "ko",
+      "zh-CN", // Mandarin
+      "zh-TW", // Cantonese substitute
+      "sm",
+      "es",
+      "tl",
+      "th",
+      "vi",
+      "chk", // Chuukese
+      "ilo", // Ilocano (was iloc)
+      "mh", // Marshallese (was mah)
+      "to", // Tongan
+      "ceb"
+    ]
+  };
+</script>
+<script src="https://cdn.gtranslate.net/widgets/latest/popup.js" defer></script>
+<script>
+  (function() {
+    var langData = [
+      { name: "Chuukese", flag: "fm", cdn: "flagcdn" },
+      { name: "Ilocano", flag: "ph", cdn: "gtranslate" },
+      { name: "Marshallese", flag: "mh", cdn: "flagcdn" },
+      { name: "Tongan", flag: "to", cdn: "gtranslate" }
+    ];
+    var flagUrls = {
+      gtranslate: "https://cdn.gtranslate.net/flags/svg/countries/",
+      flagcdn: "https://flagcdn.com/"
+    };
+
+    function fixBrokenFlagSrcs() {
+      var wrapper = document.querySelector(".gtranslate_wrapper");
+      if (!wrapper) return;
+      wrapper.querySelectorAll("a.glink").forEach(function(a) {
+        var span = a.querySelector("span");
+        var img = a.querySelector("img");
+        if (!img || !span) return;
+        var spanText = (span.textContent || "").trim();
+        var src = img.getAttribute("src") || img.getAttribute("data-gt-lazy-src") || "";
+        if (spanText === "English") {
+          var usUrl = "https://cdn.gtranslate.net/flags/svg/countries/us.svg";
+          img.src = usUrl;
+          img.setAttribute("data-gt-lazy-src", usUrl);
+        } else if (src && !src.startsWith("http") && (src === "us" || src === "usa")) {
+          img.src = "https://cdn.gtranslate.net/flags/svg/countries/us.svg";
+          img.setAttribute("data-gt-lazy-src", img.src);
+        }
+      });
+    }
+
+    function fixLangLabels() {
+      var container = document.querySelector(".gt_white_content") || document.querySelector(".gtranslate_wrapper");
+      if (!container) return;
+      fixBrokenFlagSrcs();
+      var idx = 0;
+      container.querySelectorAll("a.glink").forEach(function(a) {
+        var span = a.querySelector("span");
+        if (!span || (span.textContent || "").trim() !== "undefined" || idx >= langData.length) return;
+        var data = langData[idx];
+        span.textContent = data.name;
+        var img = a.querySelector("img");
+        if (!img) {
+          img = document.createElement("img");
+          img.alt = "";
+          img.setAttribute("aria-hidden", "true");
+          img.style.cssText = "width:24px;height:24px;border-radius:4px;margin-right:16px;";
+          a.insertBefore(img, a.firstChild);
+        }
+        img.src = flagUrls[data.cdn] + data.flag + ".svg";
+        idx++;
+      });
+    }
+
+    function runFix() {
+      fixLangLabels();
+      setTimeout(fixLangLabels, 150);
+      setTimeout(fixLangLabels, 600);
+    }
+
+    document.addEventListener("DOMContentLoaded", function() {
+      runFix();
+      setTimeout(runFix, 2500);
+    });
+    document.addEventListener("click", function(e) {
+      if (e.target.closest(".gt_switcher-popup, .gt_container-unisv1")) setTimeout(runFix, 400);
+    }, true);
+  })();
+</script>
+<script>
+  let lastScrollTop = 0;
+  let disableScrollBehavior = false;
+
+  const header = document.querySelector('header');
+  const megaMenu = document.querySelector('.mega-menu-wrap');
+
+  // Disable scroll behavior on specific clicks
+  document.addEventListener('click', (e) => {
+    if (
+      e.target.closest('.section-navigation .scroll-wrapper li a') ||
+      e.target.closest('.section-navigation .scroll-btn')
+    ) {
+      disableScrollBehavior = true;
+
+      // Re-enable after scrolling finishes
+      setTimeout(() => {
+        disableScrollBehavior = false;
+      }, 800); // adjust if needed
+    }
+  });
+
+  window.addEventListener('scroll', () => {
+    if (disableScrollBehavior) return;
+
+    const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+
+    // Check if mega menu is visible
+    const isMegaMenuOpen =
+      megaMenu && getComputedStyle(megaMenu).display !== "none";
+
+    if (isMegaMenuOpen) {
+      header.classList.add('show');
+      header.classList.remove('hide');
+      lastScrollTop = scrollTop;
+      return;
+    }
+
+    if (scrollTop > 120 && scrollTop > lastScrollTop) {
+      // scrolling down
+      header.classList.add('hide');
+      header.classList.remove('show');
+    } else if (scrollTop < lastScrollTop) {
+      // scrolling up
+      header.classList.add('show');
+      header.classList.remove('hide');
+    }
+
+    lastScrollTop = Math.max(scrollTop, 0);
+  });
+
+  // Scroll to the element with the hash id on load and on hashchange.
+  // If target is behind "Show More" or inside a collapsed FAQ, click Show More and/or open the FAQ first.
+
+  function scrollToHashElement() {
+    const hash = window.location.hash;
+    if (!hash || hash.length <= 1) return;
+
+    const id = decodeURIComponent(hash.substring(1));
+    const el = document.getElementById(id);
+    if (!el) return;
+
+    function doScroll() {
+      const target = document.getElementById(id);
+      if (!target) return;
+      requestAnimationFrame(function() {
+        const rect = target.getBoundingClientRect();
+        const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+        const top = Math.max(0, rect.top + scrollTop - 16);
+        window.scrollTo({
+          top: top,
+          behavior: 'smooth'
+        });
+      });
+    }
+
+    function openAccordionPanel(collapseEl, accordionBtn) {
+      if (!collapseEl || !accordionBtn) return;
+      var parentId = collapseEl.getAttribute('data-bs-parent');
+      if (parentId) {
+        var parent = document.querySelector(parentId);
+        if (parent) {
+          parent.querySelectorAll('.accordion-collapse.show').forEach(function(other) {
+            if (other !== collapseEl) {
+              other.classList.remove('show');
+              var btn = other.closest('.accordion-item') && other.closest('.accordion-item').querySelector(
+                '.accordion-button');
+              if (btn) {
+                btn.classList.add('collapsed');
+                btn.setAttribute('aria-expanded', 'false');
+              }
+            }
+          });
+        }
+      }
+      collapseEl.classList.add('show');
+      accordionBtn.classList.remove('collapsed');
+      accordionBtn.setAttribute('aria-expanded', 'true');
+    }
+
+    const accordionItem = el.classList.contains('accordion-item') ? el : el.closest('.accordion-item');
+    const accordionWrap = el.closest('.accordion-wrap.v2');
+    const showMoreBtn = accordionWrap ?
+      accordionWrap.querySelector('.btn-wrapper .btn.btn-outline-primary') :
+      null;
+    const btnText = (showMoreBtn && (showMoreBtn.textContent || '').trim().toLowerCase()) || '';
+    const isShowMoreBtn = btnText.indexOf('show more') !== -1;
+    const isShowMoreClosed = showMoreBtn && isShowMoreBtn &&
+      showMoreBtn.getAttribute('aria-expanded') !== 'true';
+
+    const collapseEl = accordionItem ? accordionItem.querySelector('.accordion-collapse') : (el.classList.contains(
+      'accordion-collapse') ? el : el.closest('.accordion-collapse'));
+    const accordionBtn = accordionItem ? accordionItem.querySelector('.accordion-button') : null;
+    const isCollapseClosed = accordionBtn && collapseEl && !collapseEl.classList.contains('show');
+
+    if (isShowMoreClosed && showMoreBtn) {
+      showMoreBtn.click();
+      setTimeout(function() {
+        if (isCollapseClosed && accordionBtn) {
+          openAccordionPanel(collapseEl, accordionBtn);
+          setTimeout(doScroll, 450);
+        } else {
+          setTimeout(doScroll, 50);
+        }
+      }, 400);
+    } else if (isCollapseClosed && accordionBtn) {
+      openAccordionPanel(collapseEl, accordionBtn);
+      setTimeout(doScroll, 450);
+    } else {
+      doScroll();
+    }
+  }
+
+  window.addEventListener('DOMContentLoaded', function() {
+    if (window.location.hash) {
+      setTimeout(scrollToHashElement, 80);
+    }
+
+    // Open external links in new tab
+    var links = document.querySelectorAll('a[href]');
+    var currentHost = window.location.hostname;
+
+    links.forEach(function(link) {
+      var href = link.getAttribute('href');
+      if (!href) return;
+
+      var isPdf = href.toLowerCase().endsWith('.pdf');
+      var isExternal = link.hostname && link.hostname !== currentHost;
+
+      if (isExternal || isPdf) {
+        link.target = '_blank';
+        link.rel = (link.rel ? link.rel + ' ' : '') + 'noopener noreferrer';
+      }
+    });
+  });
+
+  window.addEventListener('hashchange', function() {
+    scrollToHashElement();
+  });
+</script>
+<!-- Scroll to top button -->
+<script>
+  // Get the button
+  var scrollTopBtn = document.getElementById("scrollTopBtn");
+
+  // When the user scrolls down 100px from the top of the document, show the button
+  window.onscroll = function() {
+      if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+          scrollTopBtn.style.display = "block";
+      } else {
+          scrollTopBtn.style.display = "none";
+      }
+  };
+
+  // When the user clicks on the button, scroll to the top of the document smoothly
+  scrollTopBtn.onclick = function() {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+</script>
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    var currentDomain = window.location.hostname.replace(/^www\./,'');
+    var externalLinkSvg = '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-external-link-icon lucide-external-link" aria-hidden="true"><path d="M15 3h6v6"/><path d="M10 14 21 3"/><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg>';
+    document.querySelectorAll('.card-wrap .action a').forEach(function(link) {
+        var linkHost;
+        try {
+            var tempURL = new URL(link.href, window.location.origin);
+            linkHost = tempURL.hostname.replace(/^www\./,'');
+        } catch(e) {
+            return;
+        }
+        var isExternal = linkHost && linkHost !== currentDomain;
+        var iconEl = link.querySelector('svg.lucide-chevron-right, svg[data-lucide="chevron-right"]');
+        if (!iconEl) iconEl = link.querySelector('svg');
+        if (!iconEl) return;
+        if (isExternal) {
+            var wrap = document.createElement('i');
+            wrap.innerHTML = externalLinkSvg;
+            var newSvg = wrap.firstElementChild;
+            iconEl.parentNode.replaceChild(newSvg, iconEl);
+        }
+        // Internal link: keep current chevron-right icon (no change)
+    });
+});
+(function () {
+     function applyDateOrderAttribute() {
+          var dateCells = document.querySelectorAll('#tablepress-14 tbody td.column-3.dt-type-date');
+
+          dateCells.forEach(function (td) {
+               var text = td.textContent.trim(); // e.g. 06/15/1978
+               if (!text) return;
+
+               var parts = text.split('/');
+               if (parts.length !== 3) return;
+
+               var mm = parts[0].trim().padStart(2, '0');
+               var dd = parts[1].trim().padStart(2, '0');
+               var yyyy = parts[2].trim();
+
+               td.setAttribute('data-order', yyyy + '-' + mm + '-' + dd);
+          });
+     }
+
+     // Set data-order before table scripts initialize sorting.
+     applyDateOrderAttribute();
+})();
+
+const observer = new MutationObserver(() => {
+  const btn = document.getElementById("QSIFeedbackButton-btn");
+
+  if (btn && !btn.hasAttribute("aria-label")) {
+    btn.setAttribute("aria-label", "Feedback");
+    btn.setAttribute("tabindex", "0");
+
+    observer.disconnect();
+  }
+});
+
+observer.observe(document.body, {
+  childList: true,
+  subtree: true,
+});
+</script>
+<script>window.__CF$cv$params={r:'a42db2c22eff1bfa',t:'MTc5MDcxMzMyOA==',u:'01a0eed4f905742e8251eed0df4fb46f',ut:'QDmEr_1ctLuABhz8Uf_QfTnSAEUBHqY5JX5hn._2DYY-1790713329-1.2.1.1-L1x8A18KP9UXyeeUvFMz8XN.Qu7KSNGGYXqvMZxK2DZb1BmiT7JlUQJHE0.MC.dcXhDb7qxMpCnntQpyAZkeuEBi8lE7ygfdqxBcjOoK.Kw',i:60};(function(){if(!document.body)return;var s=document.createElement('script');s.src='/cdn-cgi/challenge-platform/scripts/precursor/main.js';document.head.appendChild(s);})();</script></body>
+
+</html>
