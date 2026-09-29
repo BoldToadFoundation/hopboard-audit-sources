@@ -149,6 +149,20 @@
     "tls_chain_unverified": false
   },
   {
+    "source_url": "https://sos.tn.gov/charities/guides/initial-registration",
+    "primary": false,
+    "local_path": "TN/sos.tn.gov-charities-guides-initial-registration-1b05815e.bin",
+    "content_type": "application/octet-stream",
+    "content_sha256": "12bdac23afccee76852797463bc1a16ef2a6c993b8c0007374a2d9a485a5a173",
+    "perma_url": null,
+    "wayback_url": null,
+    "captured_at": "2026-09-29T21:07:36.267597+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "ingested_from_file": true,
+    "provenance": "curl with a Chrome browser User-Agent (plain HTTP GET, no JS), 2026-09-29; the capture tool's own fetcher received 403 for this URL in the same session, so the raw bytes were fetched by curl and ingested"
+  },
+  {
     "source_url": "https://www.tn.gov/content/dam/tn/revenue/documents/forms/sales/f1306901.pdf",
     "primary": false,
     "local_path": "TN/www.tn.gov-content-dam-tn-revenue-documents-forms-sales-f1306901.pdf-b9e0ad1f.pdf",
