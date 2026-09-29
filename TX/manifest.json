@@ -1,5 +1,17 @@
 [
   {
+    "source_url": "https://comptroller.texas.gov/taxes/franchise/pir-oir-filing-req.php",
+    "primary": false,
+    "local_path": "TX/comptroller.texas.gov-taxes-franchise-pir-oir-filing-req.php-d1bf533b.html",
+    "content_type": "text/html; charset=UTF-8",
+    "content_sha256": "500b66fbb3ee8060c8c8372c6b0cdb2dbf7a104d884558f059fda45dd16ac528",
+    "perma_url": "https://perma.cc/TUE7-C78S",
+    "wayback_url": "https://web.archive.org/web/20260926155317/https://comptroller.texas.gov/taxes/franchise/pir-oir-filing-req.php",
+    "captured_at": "2026-09-29T19:43:14.911835+00:00",
+    "signed": false,
+    "tls_chain_unverified": false
+  },
+  {
     "source_url": "https://tcss.legis.texas.gov/resources/BC/htm/BC.302.htm",
     "primary": true,
     "local_path": "TX/tcss.legis.texas.gov-resources-BC-htm-BC.302.htm.html",
