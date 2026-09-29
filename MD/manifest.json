@@ -1,5 +1,18 @@
 [
   {
+    "source_url": "https://dat.maryland.gov/",
+    "primary": false,
+    "local_path": "MD/dat.maryland.gov-7608db70.html",
+    "content_type": "text/html; charset=utf-8",
+    "content_sha256": "301bf2aa7448a5827d964bffb06be8d83c8aa7da408e4abee9f9e3189ecf9c78",
+    "perma_url": null,
+    "wayback_url": null,
+    "captured_at": "2026-09-29T20:09:52.326124+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
+  },
+  {
     "source_url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gbr&section=6-102",
     "primary": true,
     "local_path": "MD/mgaleg.maryland.gov-mgawebsite-Laws-StatuteText-article-gbr-section-6-102-d744110d.html",
@@ -24,6 +37,32 @@
     "tls_chain_unverified": false
   },
   {
+    "source_url": "https://onestop.md.gov/forms/sos-solicitor-initial-registration-form-62f3e17c7f7e3200016a4e2d",
+    "primary": false,
+    "local_path": "MD/onestop.md.gov-forms-sos-solicitor-initial-registration-form-62f3e17c7f7e3200016-289f8287.html",
+    "content_type": "text/html; charset=utf-8",
+    "content_sha256": "611e1282344f38a028f2e5308c6373e470bc9a2cabe588d6bbffd6deb222c9c5",
+    "perma_url": null,
+    "wayback_url": "https://web.archive.org/web/20260929201227/https://onestop.md.gov/forms/sos-solicitor-initial-registration-form-62f3e17c7f7e3200016a4e2d",
+    "captured_at": "2026-09-29T20:09:52.326124+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
+  },
+  {
+    "source_url": "https://sos.maryland.gov/Charity/pages/instructions.aspx",
+    "primary": false,
+    "local_path": "MD/sos.maryland.gov-Charity-pages-instructions.aspx-1c2e0387.html",
+    "content_type": "text/html; charset=utf-8",
+    "content_sha256": "27117764afc94953105ee6ebd8b09f12a39afbdfebb57bd49f5d7cddcd3f1d3a",
+    "perma_url": null,
+    "wayback_url": null,
+    "captured_at": "2026-09-29T20:09:52.326124+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
+  },
+  {
     "source_url": "https://sos.maryland.gov/Documents/AnnualUpdateForm.pdf",
     "primary": false,
     "local_path": "MD/sos.maryland.gov-Documents-AnnualUpdateForm.pdf.pdf",
@@ -34,5 +73,57 @@
     "captured_at": "2026-07-05T13:22:29.788981+00:00",
     "signed": true,
     "tls_chain_unverified": false
+  },
+  {
+    "source_url": "https://sos.maryland.gov/documents/cor-92.pdf",
+    "primary": false,
+    "local_path": "MD/sos.maryland.gov-documents-cor-92.pdf-c0a6a3b4.pdf",
+    "content_type": "application/pdf",
+    "content_sha256": "c989248be31952abe4dc7a5e5e0fdb5e4b49987ee204f69a08e3512a52b5bbc7",
+    "perma_url": null,
+    "wayback_url": null,
+    "captured_at": "2026-09-29T20:09:52.326124+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
+  },
+  {
+    "source_url": "https://sos.maryland.gov/documents/suretybond.pdf",
+    "primary": false,
+    "local_path": "MD/sos.maryland.gov-documents-suretybond.pdf-c26c5e80.pdf",
+    "content_type": "application/pdf",
+    "content_sha256": "9e03ca73e089aacb39dc164ee97e422c52f939939472236c9ab8fddc72aa96bd",
+    "perma_url": null,
+    "wayback_url": null,
+    "captured_at": "2026-09-29T20:09:52.326124+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
+  },
+  {
+    "source_url": "https://www.marylandtaxes.gov/",
+    "primary": false,
+    "local_path": "MD/www.marylandtaxes.gov-04d3061a.html",
+    "content_type": "text/html;charset=utf-8",
+    "content_sha256": "6f5bab27cf35aefd55065558f27beecf938447f9f73f4849b7fa444d61cff0da",
+    "perma_url": null,
+    "wayback_url": "https://web.archive.org/web/20260929201138/https://www.marylandcomptroller.gov/",
+    "captured_at": "2026-09-29T20:09:52.326124+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
+  },
+  {
+    "source_url": "https://www.marylandtaxes.gov/business/sales-use/tax-exemptions/",
+    "primary": false,
+    "local_path": "MD/www.marylandtaxes.gov-business-sales-use-tax-exemptions-55825907.html",
+    "content_type": "text/html;charset=UTF-8",
+    "content_sha256": "85c51020d18b1a3bfe0704482a67b3ebf3b64e394fb0e43c94fc74fe3312d8cf",
+    "perma_url": null,
+    "wayback_url": null,
+    "captured_at": "2026-09-29T20:09:52.326124+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
   }
 ]
