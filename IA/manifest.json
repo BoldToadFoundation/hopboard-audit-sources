@@ -43,6 +43,32 @@
     "perma_backfilled_at": "2026-07-12T21:05:58.519541+00:00"
   },
   {
+    "source_url": "https://www.iowaattorneygeneral.gov/for-businesses/charities-nonprofits-fundraising-information/",
+    "primary": false,
+    "local_path": "IA/www.iowaattorneygeneral.gov-for-businesses-charities-nonprofits-fundraising-info-b8eacf34.html",
+    "content_type": "text/html;charset=UTF-8",
+    "content_sha256": "fe5c08a2dbf976ba731ca3416aa2a77639be2b6efd152b83c3b8fab09baf06e6",
+    "perma_url": null,
+    "wayback_url": null,
+    "captured_at": "2026-09-29T20:59:41.325691+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
+  },
+  {
+    "source_url": "https://www.iowaattorneygeneral.gov/for-businesses/charities-nonprofits-fundraising-information/charitable-trust-registration/",
+    "primary": false,
+    "local_path": "IA/www.iowaattorneygeneral.gov-for-businesses-charities-nonprofits-fundraising-info-5977b2ae.html",
+    "content_type": "text/html;charset=UTF-8",
+    "content_sha256": "4eab4fe3dfb761faa4343ac2fad66cb3a7b952de2ebc641b397a31417ddb305b",
+    "perma_url": null,
+    "wayback_url": "https://web.archive.org/web/20260929210005/https://www.iowaattorneygeneral.gov/for-businesses/charities-nonprofits-fundraising-information/charitable-trust-registration",
+    "captured_at": "2026-09-29T20:59:41.325691+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
+  },
+  {
     "source_url": "https://www.iowaattorneygeneral.gov/for-businesses/charities-nonprofits-fundraising-information/professional-fundraisers",
     "primary": false,
     "local_path": "IA/www.iowaattorneygeneral.gov-for-businesses-charities-nonprofits-fundraising-info-ac9fa7bb.html",
@@ -56,6 +82,19 @@
     "ingested_from_file": true,
     "provenance": "clobber recapture 2026-07-09 (session-6 A6): re-fetched live via curl (browser-UA, HTTP 200, WAF-checked: 0 WAF markers / real charity-registration content) + ingested through --from-file because the tool's --source path requires a fetchable --primary; slug-collision resolved by the collision-aware slugify (Track-2 fix). Secondary/corroborative AG page.",
     "perma_backfilled_at": "2026-07-12T21:06:05.122305+00:00"
+  },
+  {
+    "source_url": "https://www.iowaattorneygeneral.gov/for-businesses/charities-nonprofits-fundraising-information/professional-fundraisers/",
+    "primary": false,
+    "local_path": "IA/www.iowaattorneygeneral.gov-for-businesses-charities-nonprofits-fundraising-info-3fed732f.html",
+    "content_type": "text/html;charset=UTF-8",
+    "content_sha256": "7ada7579535b4f1ab0f02fb4c5593120cbaeb112a295703232187ed8b7cf37a0",
+    "perma_url": null,
+    "wayback_url": null,
+    "captured_at": "2026-09-29T20:59:41.325691+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
   },
   {
     "source_url": "https://www.iowaattorneygeneral.gov/media/cms/FundraiserFormRevised3_D3AFBBE149EAE.pdf",
