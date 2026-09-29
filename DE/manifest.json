@@ -1,5 +1,17 @@
 [
   {
+    "source_url": "https://corp.delaware.gov/frtax/",
+    "primary": false,
+    "local_path": "DE/corp.delaware.gov-frtax-10f1ce71.html",
+    "content_type": "text/html; charset=UTF-8",
+    "content_sha256": "ee61a1492c14afe7172587da39d83117f4662df065908f67640e951274d54d5d",
+    "perma_url": "https://perma.cc/Z583-QUHZ",
+    "wayback_url": "https://web.archive.org/web/20260929193944/https://corp.delaware.gov/frtax/",
+    "captured_at": "2026-09-29T19:39:36.487525+00:00",
+    "signed": false,
+    "tls_chain_unverified": false
+  },
+  {
     "source_url": "https://delcode.delaware.gov/title6/c025/sc10/index.html",
     "primary": true,
     "local_path": "DE/delcode.delaware.gov-title6-c025-sc10-index.html.html",
