@@ -1,5 +1,19 @@
 [
   {
+    "source_url": "https://dbr.ri.gov/banking-securities-and-charitable-organizations/securities-and-charities/charitable-organizations",
+    "primary": false,
+    "local_path": "RI/dbr.ri.gov-banking-securities-and-charitable-organizations-securities-and-charit-6b5b428a.html",
+    "content_type": "text/html",
+    "content_sha256": "8096f23cef958c89fe156bc6955c02e211d5ea830503060ace88ddd5df8acc5b",
+    "perma_url": null,
+    "wayback_url": null,
+    "captured_at": "2026-09-29T21:07:37.004566+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "ingested_from_file": true,
+    "provenance": "browser_captured (automated variant): playwright chromium headless PAGE NAVIGATION, raw main-frame document response.body() (HTTP 200) recorded after the site's JavaScript challenge cleared, 2026-09-29"
+  },
+  {
     "source_url": "https://docs.sos.ri.gov/documents/BusinessServices/631-non-profit-corporation-annual-report.pdf",
     "primary": false,
     "local_path": "RI/docs.sos.ri.gov-documents-BusinessServices-631-non-profit-corporation-annual-rep-3b5fb733.pdf",
