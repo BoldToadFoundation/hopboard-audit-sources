@@ -1,0 +1,861 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+    <meta id="viewport" name="viewport" content="user-scalable=0, width=device-width, height=device-height, initial-scale=0.5, maximum-scale=0.5" />
+    <meta http-equiv="X-UA-Compatible" content="IE=8,9,10">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
+    <meta name="format-detection" content="telephone=no">
+    <!--css styles starts-->
+    <link rel="shortcut icon" src="/Themes/Images/favicon.ico" type="image/x-icon">
+    <link rel="icon" src="/Themes/Images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="/Themes/INBIZHome/owl.carousel.min.css?5/5/2026">
+    <link rel="stylesheet" type="text/css" href="/Themes/INBIZHome/accordian_style.css?5/5/2026">
+    <link rel="stylesheet" type="text/css" href="/Themes/INBIZHome/magnific-popup.css?5/5/2026">
+    <link rel="stylesheet" type="text/css" href="/Themes/INBIZHome/font-awesome.min.css?5/5/2026">
+    <link rel="stylesheet" type="text/css" href="/Themes/INBIZHome/easy-responsive-tabs.css?5/5/2026" />
+    <link rel="stylesheet" type="text/css" href="/Themes/INBIZHome/style.css?5/5/2026">
+    <link rel="stylesheet" type="text/css" href="/Themes/INBIZHome/all.css?5/5/2026">
+    <link rel="stylesheet" type="text/css" href="/Themes/INBIZHome/header.css?5/5/2026">
+    <link rel="stylesheet" type="text/css" href="/Themes/INBIZHome/footer.css?5/5/2026">
+    <link rel="stylesheet" type="text/css" href="/Themes/INBIZHome/responsive.css?5/5/2026" media="screen">
+
+    <link rel="stylesheet" href="https://chatbot-script.sosin.gov/styles.css" type="text/css" />
+
+    <!--css styles ends-->
+    <!--google/webkitt fonts embeddeds here-->
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false"></script>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,700,600,800" rel="stylesheet" type="text/css">
+    <!--google/webkitt fonts embeddeds here-->
+    <!--common jquery starts-->
+    <script src="/Scripts/INBIZHOME/jquery-3.6.0.min.js?5/5/2026"></script>
+    <script src="/Scripts/INBIZHOME/jquery-migrate-3.3.2.min.js?5/5/2026"></script>
+
+    <!--common jquery end-->
+    <!--Google Map-->
+    <style>
+        .count_small_home {
+            background: #900;
+            color: #fff;
+            border-radius: 20px;
+            padding: 3px 8px;
+            font-size: 12px;
+            position: absolute;
+            margin-left: -5px;
+            margin-top: -20px;
+            font-weight: bold;
+        }
+
+        .start-a-business .start-businesscnt {
+            padding-top: 80px !important;
+            padding-bottom: 80px !important;
+        }
+
+        .white-popup {
+            position: relative;
+            border-radius: 12px;
+            background: #FFF;
+            padding: 20px;
+            width: auto;
+            max-width: 460px;
+            margin: 20px auto;
+        }
+
+        .btn {
+            padding: 10px 24px;
+            border-radius: 12px;
+            display: table;
+            background-color: #8cd4f5;
+            color: white;
+            box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.2);
+            transition: 0.6s all;
+            cursor: pointer;
+            margin: 0 auto;
+        }
+
+        .social-icons {
+            color: #fff;
+        }
+    </style>
+    <meta name="google-site-verification" content="Fl1RAZMU3u46BknX6ZNmVWWMJsbw6zCRdHe4r6eWskY" />
+</head>
+
+<body>
+    <noscript>
+        <iframe src="//www.googletagmanager.com/ns.html?id=GTM-TJ5MNK"
+                height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <!-- Google Tag Manager -->
+    <script>
+        (function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-P4W697Q');</script>
+    <!-- End Google Tag Manager -->
+    <div class="wrapper">
+        <!--header section starts-->
+        <header>
+            <div class="top-header cf">
+                <div class="logo-new">
+                    <a href="http://www.in.gov/core/" title="IN.gov" target="_blank">
+                        <img src="/Themes/Images/navbar-img-new.png" alt="INBIZ" />
+                    </a>
+                </div>
+                <div class="logo">
+                    <a href="/BOS/Home/Index" title="INBIZ">
+                        <img src="/Themes/Images/logo.svg" alt="INBIZ" title="INBIZ" />
+                    </a>
+                </div>
+                <nav>
+                    <div class="solution">
+                        <ul class="enumenu_ul menu solution-menu">
+                            <li><a href="/start-business" title="Start a Business">Start a Business</a></li>
+                            <li class="sub-level">
+                                <a href="/business-filings" title="Manage Business">Manage Business</a>
+                                <ul>
+                                    <li><a href="/business-filings/Checklist">Indiana Business Roadmap</a></li>
+                                    <li><a href="/business-filings/business-entityreport" title="Business Entity Report">Business Entity Report</a></li>
+                                    <li><a href="/business-filings/admin-dissolution" title="Administrative Dissolution/Revocation">Administrative Dissolution/Revocation</a></li>
+                                    <li><a href="/BOS/SOS.Reinstatement/CertificateOfClearance" title="Business Reinstatement">Business Reinstatement</a></li>
+                                    <li><a href="/business-filings/close-business" title="Close a Business">Close a Business</a></li>
+                                    <li><a href="/business-filings/information-requests" title="Information Requests">Information Requests</a></li>
+                                    <li><a href="/Inbiz/BulkDataServices/Index" title="Bulk Data Services">Bulk Data Services</a></li>
+                                    <li><a href="https://www.in.gov/sos/business/2373.htm" target="_blank" title="SOS Forms">SOS Forms</a></li>
+                                    <li><a href="/BOI/" title="Beneficial Owner Reporting Requirement">Beneficial Owner Reporting Requirement</a></li>
+                                </ul>
+                            </li>
+                            <li class="sub-level">
+                                <a href="/business-filings/registration" title="Registrations">Registrations</a>
+                                <ul>
+                                    <li>
+                                        <a href="/taxes-fees" title="Taxes & Fees" class="menubelow">Taxes & Fees</a>
+                                        <ul>
+                                            <li><a href="/taxes-fees/tax-registration" title="Tax Registration">Tax Registration</a></li>
+                                            <li><a href="/taxes-fees/tax-registration/sole-proprietorship" title="Sole Proprietorship">Sole Proprietorship</a></li>
+                                            <li><a href="/taxes-fees/tax-registration/out-of-state" title="Out-of-State">Out-of-State</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="sub-level">
+                                        <a href="/workforce" title="Workforce Management">Workforce Management</a>
+                                        <ul>
+                                            <li><a href="/workforce/wage-reporting" title="Wage Reporting">Wage Reporting</a></li>
+                                            <li><a href="/workforce/unemployment" title="Unemployment">Unemployment</a></li>
+                                            <li><a href="/workforce/indiana-career-connect" title="Indiana Career Connect">Indiana Career Connect</a></li>
+                                            <li><a href="https://www.in.gov/dwd/career-training-adult-ed/octs/" title="Office of Career & Technical Schools" target="_blank">Office of Career & Technical Schools</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="/business-filings/trademarks" title="Trademarks">Trademarks</a></li>
+                                    <li class="sub-level">
+                                        <a href="/business-filings/ucc" title="UCC">UCC</a>
+                                        <ul>
+                                            <li><a href="/UCC/UCCXMLInformation/Index" title="XML">UCC XML</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="/UnclaimedProperty/Home/Index" title="Unclaimed Property">Unclaimed Property</a></li>
+                                    <li><a href="/BOS/SOS.Business/Transition?New=true" title="Register a Foreign Business">Register a Foreign Business</a></li>
+                                </ul>
+                            </li>
+                            <li class="sub-level">
+                                <a href="/certification" title="Certification">Certification</a>
+                                <ul>
+                                    <li><a href="/certification/licensing" title="Licensing">Licensing</a></li>
+                                    <li><a href="/certification/notary" title="Notary Information">Notaries Public</a></li>
+                                    <li><a href="/certification/real-estate-transfer" title="Real Estate Broker License Transfer">Real Estate Broker License Transfer</a></li>
+                                    
+                                </ul>
+                            </li>
+                            <li class="sub-level">
+                                <a href="/about" title="About">About</a>
+                                <ul>
+                                    <li><a href="/about/contact" title="Contact">Contact</a></li>
+                                    <li><a href="/about/partners" title="Partners">Partners</a></li>
+                                    <!--<li><a href="/about/news" title="News">News</a></li>-->
+                                    <li><a href='/Inbiz/BusinessStatistics/Index' target="_blank" title="Business Statistics">Business Statistics</a></li>
+                                    <li><a href="/about/faq/" title="FAQs">FAQs</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+                <div class="header-right">
+
+                    <div class="hidden-menu">
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="login custom-login">
+            <div class="main cf" style="margin-left: 10px; margin-right: 20px; max-width:none">
+                
+                <div class="col-12">
+                    <a href="http://www.in.gov/sos/" target="_blank" style="margin-left: 0">
+
+                        <img src="/Themes/Images/SOS_logo.png" alt="SOS Logo" title="SOS Logo" />
+
+                    </a>
+                    <div class="button-wrapper-filter">
+                            <a href="#" title="SIGN IN" style="margin-top:5px; margin-bottom:8px;" onclick="location.href = '/BOS/Home/Account/SignIn'" class="btn-common login-btn">LOG IN</a>
+                            <div class="col-12" style="font-size:13px;">
+                                <a href="https://www.in.gov/access/" target="_blank" style="color:white;text-decoration:underline;margin-left:27px;">Login Help</a>
+                            </div>
+                        <div id="ie-warn" class="white-popup mfp-hide">
+                            <div align="center" style="padding-top:29px;padding-bottom:10px">
+                                <img width="65" height="65" src="/Themes/Images/iconfinder_alert.png">
+                            </div>
+                            <br />
+                            <p>Effective August 1, 2021, you will no longer be able to access INBiz using Internet Explorer. To continue using INBiz without disruption, you must use a supported browser.  INBiz is accessible on Microsoft Edge (IE replacement), Google Chrome, Mozilla Firefox or Apple Safari. </p>
+                            <br />
+                            <br />
+                            <div id="confirmBut" style="margin:0;">
+                                <input onclick="closePopupiewarn();" title="Close this message" type="button" class="btn"
+                                       value="OK">
+                            </div>
+                        </div>
+                        <div id="ie-stop" class="white-popup mfp-hide">
+                            <div align="center" style="padding-top:29px;padding-bottom:10px">
+                                <img width="65" height="65" src="/Themes/Images/iconfinder_alert.png">
+                            </div>
+                            <br />
+                            <p>Internet Explorer is no longer supported by Microsoft. To access INBiz, you must use a supported browser.  INBiz is accessible on Microsoft Edge (IE replacement), Google Chrome, Mozilla Firefox or Apple Safari. </p>
+                            <br />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="search-header">
+            <div class="main cf">
+                <div class="col-6">
+                    <!--googleoff: all-->
+                    <h1 style="font-size: 13px;" id="spanLayoutHeader">
+                        <a href="https://outlook.office365.com/owa/calendar/AppointmentScheduler1@state.in.us/bookings/" target="_blank" style="color:#357EC7;text-decoration: underline">SOS - Business Services Appointment Scheduler</a>
+                        &emsp;&emsp;
+                    </h1>
+                    <!--googleon: all-->
+                </div>
+                <div class="col-6">
+                    <div class="search-sec">
+                        <form name="csesearchbox" action="/site-search/" method="get">
+                            <ul class="searchul">
+                                <li><a href="#" id="serchinput" title="Search the Site"><i class="fa fa-search"></i> <span>Search the Site</span></a></li>
+                                <li class="searchinput">
+                                    <input type="search" id="secondarySearchBar" title="Search" placeholder="SEARCH" name="query" autocomplete="off">
+                                    <input type="hidden" name="collection" value="inbiz">
+                                    <input type="hidden" name="profile" value="_default">
+                                    
+                                    <i class="fa fa-search"></i>
+                                </li>
+                                <li><strong>or</strong></li>
+                                <li><a href='/BOS/PublicSearch/Search' title="Search for a Record"><i class="fa fa-search"></i> <span>Search for a Record</span></a></li>
+                            </ul>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+
+<head>
+    <title>Business Entity Reports</title>
+
+  <link rel="stylesheet" type="text/css" href="../../Themes/INBIZHome/nice-select.min.css" />
+  <style>
+    .register-now h2 {
+    font-size: 20px;
+    }
+
+    .register-now h2>strong {
+    font-size: 29px;
+    }
+
+    .ber-page #verticalTab.resp-vtabs .resp-tabs-container {
+    padding-top: 75px;
+    min-height: 550px;
+    }
+
+    .ber-page .start-a-business .btn-common {
+    margin-top: 15px;
+    margin-bottom: 30px;
+    }
+
+    .ber-page #verticalTab.resp-vtabs .resp-tab-content a {
+    color: #f5b133;
+    text-decoration: underline;
+    }
+
+    .ber-page #verticalTab.resp-vtabs .resp-tab-content ul {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.85px;
+    line-height: 1.65;
+    list-style: disc;
+    }
+
+    .ber-page #verticalTab.resp-vtabs .resp-tab-content ul li {
+    margin-left: 20px;
+    }
+
+    .ber-page #verticalTab.resp-vtabs .resp-tab-content ul li ul {
+    margin-top: 0;
+    }
+
+    .ber-page #verticalTab.resp-vtabs .resp-tab-content ul li ul li {
+    list-style-type: circle;
+    }
+  </style>
+  <script src="../../Scripts/INBIZHOME/jquery.min.js"></script>
+  
+</head> 
+<form method='post' id='form1'>
+  <div class="wrapper ber-page" style="opacity: 1 !important;">
+    <div class="start-a-business">
+      <div class="main">
+        <div class="row">
+          <div class="col8">
+            <div class="start-businesscnt">
+              <h2>I’m Ready to File the Business Entity Report.</h2>
+              <p style="margin-bottom:20px">
+              </p>
+              <a href="/bos/sos.businessentityreport/businesssearch" class="btn-common btn-yellow" title="File My Report">File My Report</a>
+              <h2 style="margin-top:40px">Essential Information for Maintaining the Active Status of Your Business.</h2>
+              <p style="margin-bottom:20px">
+                Every business is required to file a Business Entity Report (BER) with the Secretary of State.  This is not the same thing as filing your taxes.
+                <br></br>
+                <strong>Failure to file will result in the Administrative Dissolution or Revocation of your business.</strong>
+              </p>
+
+            </div>
+          </div>
+          <div class="col4 bg-set" style="background-image: url('/Themes/Images/berimg1.jpg');">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="things-start-business">
+      <div class="main">
+        <div class="row">
+          <div class="col4">
+            <div class="register-now">
+              <h2>
+                Everything you need to know about
+                <strong>
+                  BUSINESS ENTITY <br /> REPORTS
+                </strong>
+              </h2>
+            </div>
+          </div>
+
+          <div class="col8">
+
+            <!--vertical Tab-->
+            <div id="verticalTab">
+              <ul class="resp-tabs-list">
+                <li>Who Files a Report</li>
+                <li>What Info is Required</li>
+                <li>When Reports are Due</li>
+                <li>Where Reports are Filed</li>
+                <li>Why Reports are Filed</li>
+                <li>Failing to File</li>
+                <li>Reminders</li>
+                <li>Filing Fees</li>
+              </ul>
+              <div class="resp-tabs-container">
+                <div>
+                  <div class="tab-cntinner">
+                    <h3>All Businesses Registered with the Secretary of State Must File a Business Entity Report</h3>
+                    <ul class="info-list">
+                      <li>Corporations, Limited Liability Companies, Nonprofit Corporations, Limited Partnerships, Limited Liability Partnerships, Benefit Corporations, Business Trusts and Agricultural Cooperatives are required to file.</li>
+                      <li>General Partnerships and Sole Proprietorships do not register with the Secretary of State and do not file a report.</li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div>
+                  <div class="tab-cntinner">
+
+                    <h3>Required Information in the Business Entity Report</h3>
+                    <p style="margin-bottom:20px">
+                      This is your opportunity to make sure your business information is current.  The following information must be added or updated:
+                    </p>
+                    <ul class="info-list">
+                      <li>Principal office address</li>
+                      <li>
+                        Registered agent name and address
+                        <ul>
+                          <li>The registered agent is an individual or business authorized to receive service of process, notice or demand that is served on the business.</li>
+                          <li>The registered agent address must be an Indiana address.  If you do not have an Indiana address, you may hire a service company or law firm to serve as your registered agent.</li>
+                          <li>A business cannot serve as its own registered agent.</li>
+                        </ul>
+                      </li>
+                      <li>
+                        Depending on the entity type, at least one officer or governing person
+                        <ul>
+                          <li>A governing person is an individual under whose direction the activities and affairs of the entity are managed.  This includes officers, directors, general partners, managers (if manager-managed) and members (if member-managed).</li>
+                        </ul>
+                      </li>
+                      <li>
+                        Business email address
+                        <ul>
+                          <li>It is essential that you maintain a current business email address.  You will receive reminders to pay your report and notices when changes to your business record are submitted on INBiz. These notices will help you prevent business identity theft.</li>
+                        </ul>
+                      </li>
+                      <li>
+                        Professional Corporations must include at least one shareholder that is licensed in Indiana as a professional.  The shareholder information must exactly match the data maintained by <a href="https://mylicense.in.gov/EVerification/Search.aspx" target="_blank">Indiana Professional Licensing Agency (IPLA)</a>.
+                      </li>
+                    </ul>
+
+                  </div>
+                </div>
+
+                <div>
+                  <div class="tab-cntinner">
+                    <h3>When the Business Entity Report is Due</h3>
+                    <ul class="info-list">
+                      <li>
+                        <strong>First Report:</strong> The first report is due two years after the business is formed or registered.
+                      </li>
+                      <li>
+                        <strong>Filing Cycle:</strong> Reports must be filed every other year to maintain the business’ active status.
+                      </li>
+                      <li>
+                        <strong>Due Date:</strong> The month and day the business was formed or registered. You have until the end of the month before the report is considered past due.
+                      </li>
+                      <li>
+                        <strong>Search:</strong> You can use the <a href="https://bsd.sos.in.gov/publicbusinesssearch" target="_blank">Business Search</a> to determine the due date.  Locate your business in the search results and click the Business ID. The Business Details page displays the due date.
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div>
+                  <div class="tab-cntinner">
+                    <h3>Where Reports are Filed</h3>
+                    <p style="margin-bottom:20px" />
+                    <ul class="info-list">
+                      <li>
+                        Business Entity Reports are filed with the Indiana Secretary of State. Reports can be filed on <a href="/bos/sos.businessentityreport/businesssearch" target="_blank">INBiz</a> or submitted by <a href="https://www.in.gov/sos/business/division-forms/business-forms/" target="_blank">Paper.</a>
+                      </li>
+                      <li>
+                        Benefit of Filing on INBiz
+                        <ul>
+                          <li>INBiz helps ensure filings are not rejected.  90% of paper forms are rejected due to forms being filled out incorrectly.</li>
+                          <li>INBiz also provides faster processing times and lower filing fees.</li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div>
+                  <div class="tab-cntinner">
+                    <h3>Why Business Entity Reports are Required</h3>
+                    <p style="margin-bottom:20px">The Secretary of State must maintain a public record of businesses operating in Indiana. It is essential that the information is current.</p>
+                    <p style="margin-bottom:20px">
+                      Indiana Statute requires businesses to submit a Business Entity Report. <a href="https://iga.in.gov/legislative/laws/2022/ic/titles/023/#23-0.5-2-13" target="_blank">See Indiana Code 23-0.5-2-13.</a>
+                    </p>
+                  </div>
+                </div>
+
+                <div>
+                  <div class="tab-cntinner">
+                    <h3>Consequences of Failing to File</h3>
+                    <p style="margin-bottom:20px">Failing to file a Business Entity Report will result in the administrative dissolution or revocation of your business.  Indiana businesses are administratively dissolved, and foreign businesses are revoked.</p>
+
+                    <h3>Why it’s Important to Avoid Administrative Dissolution or Revocation</h3>
+                    <ul class="info-list">
+                      <li>Administratively dissolved or revoked businesses may not carry on any business activities except applying for reinstatement or those activities necessary in winding up its affairs and liquidating assets.</li>
+                      <li>To reinstate your business, you must first receive a tax clearance from Department of Revenue which can take 4-6 weeks to process.</li>
+                      <li>You may lose the rights to your business name and assumed names.  These names are only protected for 120 days after being administratively dissolved or revoked.</li>
+					  <li>A business that was administratively dissolved or revoked for more than 5 years may now submit an application for reinstatement. This must be filed <a href="https://www.in.gov/sos/business/division-forms/business-forms/reinstatement/" target="_blank">by paper </a>.</li>
+					</ul>
+                  </div>
+                </div>
+
+
+                <div>
+                  <div class="tab-cntinner">
+                    <h3>Business Entity Report Reminders</h3>
+                    <ul class="info-list">
+                      <li>Maintaining Current Information with the Secretary of State is essential to receiving reminders!</li>
+                      <li>Email reminders are sent 90 and 30 days prior to the report due date to the business email and registered agent email.</li>
+                      <li>If a business has not responded to the email reminders, the office mails a paper reminder.</li>
+                      <li>
+                        Past Due Notices
+                        <ul>
+                          <li>If the report is not paid by the due date, a Past Due Notice will be sent to the business email and the registered agent email.</li>
+                        </ul>
+                      </li>
+                      <li>
+                        Pending Administrative Dissolution of Revocation Notice
+                        <ul>
+                          <li>If there is no response to the Past Due Notice, a Pending Administrative Dissolution or Revocation notice will be mailed to the business.</li>
+                        </ul>
+                      </li>
+                      <li>
+                        Administrative Dissolution or Revocation Notice
+                        <ul>
+                          <li>If there is no response to the Pending Administrative Dissolution or Revocation notice, an Administrative Dissolution or Revocation notice postcard will be mailed to the business.</li>
+                        </ul>
+                      </li>
+                      <li>Paper notices are mailed to the principal office address, the registered agent address or a governing person’s address depending on what is on record.</li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div>
+                  <div class="tab-cntinner">
+                    <h3>Filing Fees</h3>
+                    <ul class="info-list">
+                      <li>
+                        For-Profit Businesses
+                        <ul>
+                          <li>$32.00 on INBiz</li>
+                          <li>$50.00 by Paper</li>
+                        </ul>
+                      </li>
+                      <li>
+                        Nonprofit Businesses
+                        <ul>
+                          <li>$22.00 on INBiz</li>
+                          <li>$20.00 by Paper</li>
+                        </ul>
+                      </li>
+                    </ul>
+
+
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+        </div> 
+      </div>
+    </div>
+
+    <div class="business_entry">
+      <div class="main">
+        <div class="row">
+          <div class="col12">
+            <div class="main-heading">
+              <img src="../../Themes/Images/arrow.png" class="arrow_icon" /><h2>3 Keys of Business Entity Reports</h2>
+              </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col4">
+            <div class="entries">
+              <div class="number">
+                <img src="../../Themes/Images/one.png" />
+              </div>
+              <div class="entry_content">
+                <h3>Start Reporting</h3>
+                <hr class="line_brk" />
+                  <p>Your business entity report is due two years after registering.</p>
+                </div>
+            </div>
+          </div>
+          <div class="col4">
+            <div class="entries">
+              <div class="number">
+                <img src="../../Themes/Images/two.png" />
+              </div>
+              <div class="entry_content">
+                <h3>Maintain Active Status</h3>
+                <hr class="line_brk" />
+                  <p>Your business entity report must be filed every other year. This is a separate requirement from paying your taxes.</p>
+                </div>
+            </div>
+          </div>
+          <div class="col4">
+            <div class="entries last_entry">
+              <div class="number">
+                <img src="../../Themes/Images/three.png" />
+              </div>
+              <div class="entry_content">
+                <h3>Avoid Revocation</h3>
+                <hr class="line_brk" />
+                  <p>Failure to file your business entity report will result in the administrative dissolution or revocation of your business.</p>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--<div class="indiana-banner bg-set" style="background-image: url('/Themes/Images/berimg3.jpg');">
+      <div class="main">
+        <div class="indiana-cnt">
+          <h2>
+            <strong>Ready to</strong>Get started?
+          </h2>
+          <div class="btn-set">
+            <a href="/bos/sos.businessentityreport/businesssearch" class="btn-common btn-yellow" title="File Now">File Now</a>
+          </div>
+        </div>
+      </div>
+    </div>-->
+    
+  </div>
+  
+
+</form>
+<script src="/Scripts/INBIZHOME/easyResponsiveTabs.js?5/5/2026"></script>
+
+<script type="text/javascript">
+  $(document).ready(function () {
+  $('#spanLayoutHeader').text("Business Entity Reports");
+  });
+
+  $('#verticalTab').easyResponsiveTabs({
+  type: 'vertical',
+  width: 'auto',
+  fit: true
+  });
+</script>
+
+        <!-- partner-logo start -->
+
+        <div class="partner-logo">
+
+            <div class="main">
+
+                <div class="partner-logo-innr">
+
+                    <h5>Working together for you.</h5>
+
+                    <ul class="partner-logo-list">
+
+                        <li>
+
+                            <a href="http://www.in.gov/core/" target="_blank">
+
+                                <img src="/Themes/Images/partner-logo1.png" alt="Seal of the State of Indiana" title="Seal of the State of Indiana" />
+
+                            </a>
+
+                        </li>
+
+                        <li>
+
+                            <a href="http://www.in.gov/sos/" target="_blank">
+
+                                <img src="/Themes/Images/partner-logo2.png" alt="Secrelary of state" title="Secretary of state" />
+
+                            </a>
+
+                        </li>
+
+                        <li>
+
+                            <a href="http://www.in.gov/dor/" target="_blank">
+
+                                <img src="/Themes/Images/partner-logo3.png" alt="DOR" title="DOR" />
+
+                            </a>
+
+                        </li>
+
+                        <li>
+
+                            <a href="http://www.in.gov/dwd/" target="_blank">
+
+                                <img src="/Themes/Images/partner-logo4.png" alt="WORKFORCE" title="WORKFORCE" />
+
+                            </a>
+
+                        </li>
+
+                        <li>
+
+                            <a href="http://www.in.gov/pla/" target="_blank">
+
+                                <img src="/Themes/Images/partner-logo6.png" alt="PLA" title="PLA" />
+
+                            </a>
+
+                        </li>
+
+                        <li>
+
+                            <a href="http://www.in.gov/attorneygeneral" target="_blank">
+
+                                <img src="/Themes/Images/partner-logo8.png" alt="Attorney General" title="Attorney General" />
+
+                            </a>
+
+                        </li>
+
+                        <li>
+
+                            <a href="http://www.in.gov/iot/" target="_blank">
+
+                                <img src="/Themes/Images/partner-logo5.png" alt="Indiana Office of Technology" title="Indiana Office of Technology" />
+
+                            </a>
+
+                        </li>
+
+                        <li>
+
+                            <a href="https://isbdc.org/" target="_blank">
+
+                                <img src="/Themes/Images/ISBDC-PartnerLogo.png" alt="Indiana Small Business Development Center" title="Indiana Small Business Development Center" />
+
+                            </a>
+
+                        </li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- partner-logo start -->
+        <!--footer starts here-->
+
+        <footer>
+
+            <div class="main cf">
+
+                <div class="left-footer">
+                    <!-- Updated 6-11-2021 -->
+                    <ul class="social-icons">
+
+                        <li><a href="https://www.facebook.com/cdiegomorales/" title="facebook" target="_blank"><i class="fab fa-facebook"></i></a></li>
+
+                        <li><a href="https://www.youtube.com/channel/UCNrfToHq7TyGuczgrewGn1w" title="youtube" target="_blank"><i class="fab fa-youtube" aria-hidden="true"></i></a></li>
+
+                        <li><a href="https://www.instagram.com/cdiegomorales/ " title="instagram" target="_blank"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
+
+                        <li><a href="https://twitter.com/SOSDiegoMorales" title="twitter" target="_blank"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
+
+                    </ul>
+                    <!-- Updated 6-11-2021 -->
+                    <a href="/about/contact" class="contact-a" title="contact us">contact us</a>
+
+                </div>
+
+
+
+                <div class="right-footer">
+
+                    <ul class="copyright-ul">
+
+                        <!-- Updated 6-11-2021 -->
+                        <li>&copy; 2026 </li><!-- Updated 6-11-2021 -->
+
+                        <li><a href="http://www.in.gov/core/privacy.html" title="Privacy Policy">Privacy Policy</a></li>
+
+                        <li><a href="http://www.in.gov/core/accessibility.html" title="Accessibility Policy">Accessibility Policy</a></li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </footer>
+
+        <!--footer ends here-->
+    </div>
+    <div class="preloader">
+        <img src="/Themes/Images/arrow-bg.png" alt="" title="">
+        <img src="/Themes/Images/nav-arrow-right.jpg" alt="" title="">
+        <img src="/Themes/Images/plus.png" alt="" title="">
+        <img src="/Themes/Images/minus.png" alt="" title=""><img src="/Themes/Images/minus-with-bracket.png" alt="" title=""><img src="/Themes/Images/plus-with-bracket.png" alt="" title="">
+    </div>
+    <script src="/Scripts/INBIZHOME/menu.js?5/5/2026"></script>
+    <script src="/Scripts/INBIZHOME/owl.carousel.min.js?5/5/2026"></script>
+    <script src="/Scripts/INBIZHOME/accordion.js?5/5/2026"></script>
+    <script src="/Scripts/INBIZHOME/easyResponsiveTabs.js?5/5/2026"></script>
+    <script src="/Scripts/INBIZHOME/jquery.magnific-popup.min.js?5/5/2026"></script>
+    <script src="/Scripts/INBIZHOME/general.js?5/5/2026"></script>
+    <script type="text/javascript" src="/Scripts/INBIZHOME/placeholder.js?5/5/2026"></script>
+
+    
+    <chatbot-widget></chatbot-widget>
+    <script src="https://chatbot-script.sosin.gov/polyfills.js"
+            type="module"></script>
+    <script src="https://chatbot-script.sosin.gov/main.js"
+            type="module"></script>
+
+</body>
+</html>
+<script>
+    function isIE(userAgent) {
+        userAgent = userAgent || navigator.userAgent;
+        return userAgent.indexOf("MSIE ") > -1 || userAgent.indexOf("Trident/") > -1 || userAgent.indexOf("Edge/") > -1;
+    }
+
+    (function ($) {
+        $(window).on("load", function () {
+            if (isIE()) {
+                if ($(".belive-do")[0]) {
+                    if (2 == '2') {
+                        $.magnificPopup.open({
+                            items: {
+                                src: '#ie-stop'
+                            },
+                            type: 'inline',
+                            showCloseBtn: false
+                        }, 0)
+                    }
+                    else if (2 == '1') {
+                        $.magnificPopup.open({
+                            items: {
+                                src: '#ie-warn'
+                            },
+                            type: 'inline',
+                            showCloseBtn: false
+                        }, 0)
+                    }
+                };
+            }
+        });
+    })(jQuery);
+
+    function closePopupiewarn() {
+        $("#ie-warn").magnificPopup('close');
+    }
+    $('body').click(function (e) {
+        if (isIE() && 2 == '2') {
+            if ($(".belive-do")[0]) {
+                $.magnificPopup.open({
+                    items: {
+                        src: '#ie-stop'
+                    },
+                    type: 'inline',
+                    showCloseBtn: false
+                }, 0)
+            };
+        }
+    });
+    $('nav').click(function (e) {
+        if (isIE() && 2 == '2') {
+            e.preventDefault();
+            if ($(".belive-do")[0]) {
+                $.magnificPopup.open({
+                    items: {
+                        src: '#ie-stop'
+                    },
+                    type: 'inline',
+                    showCloseBtn: false
+                }, 0)
+            };
+        }
+    });
+</script>

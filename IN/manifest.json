@@ -47,6 +47,18 @@
     "perma_backfilled_at": "2026-07-12T21:06:23.146294+00:00"
   },
   {
+    "source_url": "https://inbiz.in.gov/business-filings/business-entityreport",
+    "primary": false,
+    "local_path": "IN/inbiz.in.gov-business-filings-business-entityreport-8400f113.html",
+    "content_type": "text/html; charset=utf-8",
+    "content_sha256": "e9deeb488f8ccf27193a85f68070e851251bd461f08a3255f8796f511d166619",
+    "perma_url": "https://perma.cc/D59J-PXR4",
+    "wayback_url": "https://web.archive.org/web/20260829075001/https://inbiz.in.gov/business-filings/business-entityreport",
+    "captured_at": "2026-09-29T19:40:08.479819+00:00",
+    "signed": false,
+    "tls_chain_unverified": false
+  },
+  {
     "source_url": "https://web.archive.org/web/20260519002526/https://inbiz.in.gov/business-filings/business-entityreport",
     "primary": false,
     "local_path": "IN/web.archive.org-web-20260519002526-https-inbiz.in.gov-business-filings-business-.html",
