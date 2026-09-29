@@ -24,6 +24,32 @@
     "tls_chain_unverified": false
   },
   {
+    "source_url": "https://law.lis.virginia.gov/vacodefull/title57/chapter5/",
+    "primary": false,
+    "local_path": "VA/law.lis.virginia.gov-vacodefull-title57-chapter5-474e33ae.html",
+    "content_type": "text/html; charset=utf-8",
+    "content_sha256": "c0cab83330651f387a409efe2e398bfef9d06b7dbc02fe5d73147b71f12a5c12",
+    "perma_url": null,
+    "wayback_url": null,
+    "captured_at": "2026-09-29T20:20:07.720938+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
+  },
+  {
+    "source_url": "https://www.scc.virginia.gov/businesses/business-faqs/annual-registration-fees/",
+    "primary": false,
+    "local_path": "VA/www.scc.virginia.gov-businesses-business-faqs-annual-registration-fees-59a46fd4.html",
+    "content_type": "text/html",
+    "content_sha256": "34f98276740d78ecf01d26f73162a42fbb97910bcdce54ddb2621cae2c4f2f47",
+    "perma_url": null,
+    "wayback_url": null,
+    "captured_at": "2026-09-29T20:20:07.720938+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
+  },
+  {
     "source_url": "https://www.vdacs.virginia.gov/food-charitable-solicitation.shtml",
     "primary": false,
     "local_path": "VA/www.vdacs.virginia.gov-food-charitable-solicitation.shtml.html",
@@ -36,6 +62,19 @@
     "tls_chain_unverified": false
   },
   {
+    "source_url": "https://www.vdacs.virginia.gov/pdf/oca100exemption.pdf",
+    "primary": false,
+    "local_path": "VA/www.vdacs.virginia.gov-pdf-oca100exemption.pdf-9a88e9ae.pdf",
+    "content_type": "application/pdf",
+    "content_sha256": "455263f66fb20f4c2f3055a311edcb3c4c13755f39ce43b33d907f68871003aa",
+    "perma_url": null,
+    "wayback_url": "https://web.archive.org/web/20260705012532/https://www.vdacs.virginia.gov/pdf/oca100exemption.pdf",
+    "captured_at": "2026-09-29T20:20:07.720938+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
+  },
+  {
     "source_url": "https://www.vdacs.virginia.gov/pdf/oca102registrationstatement.pdf",
     "primary": false,
     "local_path": "VA/www.vdacs.virginia.gov-pdf-oca102registrationstatement.pdf.pdf",
@@ -46,5 +85,18 @@
     "captured_at": "2026-07-05T01:24:50.825781+00:00",
     "signed": true,
     "tls_chain_unverified": false
+  },
+  {
+    "source_url": "https://www.vdacs.virginia.gov/pdf/ocrp120solicitationnotice.pdf",
+    "primary": false,
+    "local_path": "VA/www.vdacs.virginia.gov-pdf-ocrp120solicitationnotice.pdf-9389e49d.pdf",
+    "content_type": "application/pdf",
+    "content_sha256": "a7094b4281929c51d8e54f5f3a38b3ee107cb67d63c59036a2394f29fddfdc1f",
+    "perma_url": null,
+    "wayback_url": null,
+    "captured_at": "2026-09-29T20:20:07.720938+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
   }
 ]
