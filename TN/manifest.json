@@ -95,6 +95,20 @@
     "tls_chain_unverified": false
   },
   {
+    "source_url": "https://sos.tn.gov/charities",
+    "primary": false,
+    "local_path": "TN/sos.tn.gov-charities-0583c6ed.bin",
+    "content_type": "application/octet-stream",
+    "content_sha256": "6ac5b33653792f06f57c82adcf04b6aad2ef41932e325cb1afc06e68a8bcf3ce",
+    "perma_url": null,
+    "wayback_url": null,
+    "captured_at": "2026-09-29T21:07:29.971375+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "ingested_from_file": true,
+    "provenance": "curl with a Chrome browser User-Agent (plain HTTP GET, no JS), 2026-09-29; the capture tool's own fetcher received 403 for this URL in the same session, so the raw bytes were fetched by curl and ingested"
+  },
+  {
     "source_url": "https://sos.tn.gov/charities/faqs",
     "primary": false,
     "local_path": "TN/sos.tn.gov-charities-faqs.html",

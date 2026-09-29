@@ -1,0 +1,921 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+<script type="text/javascript" src="/ruxitagentjs_ICA7NVfqrux_10345260810170330.js" data-dtconfig="rid=RID_-1362504774|rpid=681610951|domain=tn.gov|reportUrl=/rb_bf81688xgw|app=ff9064cb0860e2fd|cuc=7ltdqbi0|owasp=1|mel=100000|expw=1|featureHash=ICA7NVfqrux|dpvc=1|lastModification=1789609003942|tp=500,50,0|rdnt=1|uxrgce=1|srbbv=2|agentUri=/ruxitagentjs_ICA7NVfqrux_10345260810170330.js"></script><script async src="https://www.googletagmanager.com/gtag/js?id=UA-3640513-25"></script>
+<script>window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments)};gtag("js", new Date());gtag("set", "developer_id.dMDhkMT", true);gtag("config", "UA-3640513-25", {"groups":"default","anonymize_ip":true,"page_placeholder":"PLACEHOLDER_page_path"});</script>
+<meta name="Generator" content="Drupal 10 (https://www.drupal.org)" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Serif:regular|Bitter:regular|Crimson+Text:regular|Libre+Baskerville:regular|Cormorant+Garamond:regular|Roboto:regular,100|Noto+Sans+Georgian:100,600|Adamina:regular|ABeeZee:regular|Alata:regular|Frank+Ruhl+Libre:300|Catamaran:300&amp;subset=latin,cyrillic,georgian&amp;display=swap" media="all" />
+<link rel="icon" href="/themes/custom/sostngov_bootstrap4/favicon.ico" type="image/vnd.microsoft.icon" />
+
+    <title>Charities | Tennessee Secretary of State</title>
+    <link rel="stylesheet" media="all" href="/libraries/slick/slick/slick.css?tltrnq" />
+<link rel="stylesheet" media="all" href="/modules/contrib/slick/css/layout/slick.module.css?tltrnq" />
+<link rel="stylesheet" media="all" href="/core/assets/vendor/jquery.ui/themes/base/core.css?tltrnq" />
+<link rel="stylesheet" media="all" href="/core/assets/vendor/jquery.ui/themes/base/controlgroup.css?tltrnq" />
+<link rel="stylesheet" media="all" href="/core/assets/vendor/jquery.ui/themes/base/checkboxradio.css?tltrnq" />
+<link rel="stylesheet" media="all" href="/core/assets/vendor/jquery.ui/themes/base/resizable.css?tltrnq" />
+<link rel="stylesheet" media="all" href="/core/assets/vendor/jquery.ui/themes/base/button.css?tltrnq" />
+<link rel="stylesheet" media="all" href="/core/assets/vendor/jquery.ui/themes/base/dialog.css?tltrnq" />
+<link rel="stylesheet" media="all" href="/core/themes/stable9/css/core/components/progress.module.css?tltrnq" />
+<link rel="stylesheet" media="all" href="/core/themes/stable9/css/core/components/ajax-progress.module.css?tltrnq" />
+<link rel="stylesheet" media="all" href="/core/themes/stable9/css/system/components/align.module.css?tltrnq" />
+<link rel="stylesheet" media="all" href="/core/themes/stable9/css/system/components/fieldgroup.module.css?tltrnq" />
+<link rel="stylesheet" media="all" href="/core/themes/stable9/css/system/components/container-inline.module.css?tltrnq" />
+<link rel="stylesheet" media="all" href="/core/themes/stable9/css/system/components/clearfix.module.css?tltrnq" />
+<link rel="stylesheet" media="all" href="/core/themes/stable9/css/system/components/details.module.css?tltrnq" />
+<link rel="stylesheet" media="all" href="/core/themes/stable9/css/system/components/hidden.module.css?tltrnq" />
+<link rel="stylesheet" media="all" href="/core/themes/stable9/css/system/components/item-list.module.css?tltrnq" />
+<link rel="stylesheet" media="all" href="/core/themes/stable9/css/system/components/js.module.css?tltrnq" />
+<link rel="stylesheet" media="all" href="/core/themes/stable9/css/system/components/nowrap.module.css?tltrnq" />
+<link rel="stylesheet" media="all" href="/core/themes/stable9/css/system/components/position-container.module.css?tltrnq" />
+<link rel="stylesheet" media="all" href="/core/themes/stable9/css/system/components/reset-appearance.module.css?tltrnq" />
+<link rel="stylesheet" media="all" href="/core/themes/stable9/css/system/components/resize.module.css?tltrnq" />
+<link rel="stylesheet" media="all" href="/core/themes/stable9/css/system/components/system-status-counter.css?tltrnq" />
+<link rel="stylesheet" media="all" href="/core/themes/stable9/css/system/components/system-status-report-counters.css?tltrnq" />
+<link rel="stylesheet" media="all" href="/core/themes/stable9/css/system/components/system-status-report-general-info.css?tltrnq" />
+<link rel="stylesheet" media="all" href="/core/themes/stable9/css/system/components/tablesort.module.css?tltrnq" />
+<link rel="stylesheet" media="all" href="/modules/contrib/blazy/css/blazy.css?tltrnq" />
+<link rel="stylesheet" media="all" href="/modules/contrib/blazy/css/components/blazy.loading.css?tltrnq" />
+<link rel="stylesheet" media="all" href="/core/modules/ckeditor5/css/ckeditor5.dialog.fix.css?tltrnq" />
+<link rel="stylesheet" media="all" href="/core/themes/stable9/css/media/oembed.formatter.css?tltrnq" />
+<link rel="stylesheet" media="all" href="/core/themes/stable9/css/views/views.module.css?tltrnq" />
+<link rel="stylesheet" media="all" href="/core/assets/vendor/jquery.ui/themes/base/theme.css?tltrnq" />
+<link rel="stylesheet" media="all" href="/libraries/slick/slick/slick-theme.css?tltrnq" />
+<link rel="stylesheet" media="all" href="/modules/contrib/collapsiblock/theme/dist/collapsiblock.css?tltrnq" />
+<link rel="stylesheet" media="all" href="https://use.fontawesome.com/releases/v5.13.1/css/all.css" />
+<link rel="stylesheet" media="all" href="https://use.fontawesome.com/releases/v5.13.1/css/v4-shims.css" />
+<link rel="stylesheet" media="all" href="/modules/contrib/slick/css/theme/slick.theme--default.css?tltrnq" />
+<link rel="stylesheet" media="all" href="/modules/contrib/slick/css/theme/slick.theme.css?tltrnq" />
+<link rel="stylesheet" media="all" href="/modules/custom/sos_admin_enhancements/css/style.css?tltrnq" />
+<link rel="stylesheet" media="all" href="/modules/custom/sos_dashboards/css/toolbar.css?tltrnq" />
+<link rel="stylesheet" media="all" href="/modules/custom/sos_dashboards/css/style.css?tltrnq" />
+<link rel="stylesheet" media="all" href="/modules/custom/sos_panel_layouts/css/grid_layout.css?tltrnq" />
+<link rel="stylesheet" media="all" href="/core/themes/stable9/css/core/assets/vendor/normalize-css/normalize.css?tltrnq" />
+<link rel="stylesheet" media="all" href="/themes/contrib/bootstrap4/css/components/action-links.css?tltrnq" />
+<link rel="stylesheet" media="all" href="/themes/contrib/bootstrap4/css/components/breadcrumb.css?tltrnq" />
+<link rel="stylesheet" media="all" href="/themes/contrib/bootstrap4/css/components/container-inline.css?tltrnq" />
+<link rel="stylesheet" media="all" href="/themes/contrib/bootstrap4/css/components/details.css?tltrnq" />
+<link rel="stylesheet" media="all" href="/themes/contrib/bootstrap4/css/components/exposed-filters.css?tltrnq" />
+<link rel="stylesheet" media="all" href="/themes/contrib/bootstrap4/css/components/field.css?tltrnq" />
+<link rel="stylesheet" media="all" href="/themes/contrib/bootstrap4/css/components/form.css?tltrnq" />
+<link rel="stylesheet" media="all" href="/themes/contrib/bootstrap4/css/components/icons.css?tltrnq" />
+<link rel="stylesheet" media="all" href="/themes/contrib/bootstrap4/css/components/inline-form.css?tltrnq" />
+<link rel="stylesheet" media="all" href="/themes/contrib/bootstrap4/css/components/item-list.css?tltrnq" />
+<link rel="stylesheet" media="all" href="/themes/contrib/bootstrap4/css/components/links.css?tltrnq" />
+<link rel="stylesheet" media="all" href="/themes/contrib/bootstrap4/css/components/menu.css?tltrnq" />
+<link rel="stylesheet" media="all" href="/themes/contrib/bootstrap4/css/components/more-link.css?tltrnq" />
+<link rel="stylesheet" media="all" href="/themes/contrib/bootstrap4/css/components/pager.css?tltrnq" />
+<link rel="stylesheet" media="all" href="/themes/contrib/bootstrap4/css/components/tabledrag.css?tltrnq" />
+<link rel="stylesheet" media="all" href="/themes/contrib/bootstrap4/css/components/tableselect.css?tltrnq" />
+<link rel="stylesheet" media="all" href="/themes/contrib/bootstrap4/css/components/tablesort.css?tltrnq" />
+<link rel="stylesheet" media="all" href="/themes/contrib/bootstrap4/css/components/textarea.css?tltrnq" />
+<link rel="stylesheet" media="all" href="/themes/contrib/bootstrap4/css/components/ui-dialog.css?tltrnq" />
+<link rel="stylesheet" media="all" href="/themes/contrib/bootstrap4/css/components/messages.css?tltrnq" />
+<link rel="stylesheet" media="all" href="/themes/contrib/bootstrap4/css/components/progress.css?tltrnq" />
+<link rel="stylesheet" media="all" href="/themes/contrib/bootstrap4/css/components/dialog.css?tltrnq" />
+<link rel="stylesheet" media="all" href="/themes/contrib/bootstrap4/css/style.css?tltrnq" />
+<link rel="stylesheet" media="all" href="/themes/custom/sostngov_bootstrap4/css/style.css?tltrnq" />
+<link rel="stylesheet" media="all" href="/themes/custom/sostngov_bootstrap4/bootstrap-icons/font/bootstrap-icons.css?tltrnq" />
+
+    
+  </head>
+  <body class="fontyourface path-group">
+        <a href="#main-content" class="visually-hidden focusable skip-link">
+      Skip to main content
+    </a>
+    
+      <div class="dialog-off-canvas-main-canvas d-flex flex-column h-100" data-off-canvas-main-canvas>
+    
+
+<div id="page-wrapper" class="page-division-landing-page page-division-2">
+
+  <div id="page">
+    <div class="container-fluid">
+      <header id="header" class="header" role="banner">
+        <div id="capstone-header" class="row">
+        <!-- These were col-lg-auto - all 3 -->
+        <!-- <div class="col-lg-1 col-md-4 col-sm-4 col-12 sos-portrait"> -->
+
+        <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 col-12 logo-slogan-wrapper"> <!-- logo-slogan wrapper -->
+            <div class="sos-portrait">
+              <a class="sos-home-link" href="/">
+                <img src="/themes/custom/sostngov_bootstrap4/images/SecHargettHeaderImage.jpg" class="img-res hargett-homepage-img" alt="Secretary of State Tre Hargett Portrait Photo"/>
+              </a>
+            </div>
+            <div class="capstone-word-col">
+                              <div class="capstone-wording">
+                  <a class="sos-home-link" href="/">
+                    <div class="tn-font-style">Tennessee</div>
+                    <div class="sos-font-style">Secretary of State</div>
+                    <div class="sos-name-style">Tre Hargett</div>
+                  </a>
+                </div>
+                          </div>
+          </div> <!-- end logo-slogan wrapper -->
+
+          <div class="col-xl-9 col-lg-8 col-md-12 col-sm-12 col-12 nav-wrapper"> <!-- nav wrapper -->
+            <div class="sos-header-nav">
+              <!-- MENU SECTION -->
+              <div class="navbar navbar-expand-lg sos-navigation-bar navbar-dark">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- <div class="collapse navbar-collapse col-12 col-md-auto p-0 justify-content-end" id="navbarSupportedContent"> -->
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <div class="region region-menu-section-capstone">
+    <nav role="navigation" aria-labelledby="block-mainnavigation-menu" id="block-mainnavigation" class="block block-menu navigation menu--main">
+            
+  <h5 class="visually-hidden" id="block-mainnavigation-menu">Main navigation</h5>
+  
+
+        
+        <ul data-region="menu_section_capstone" class="navbar-nav mr-auto">
+                                <li class="nav-item">
+              <a href="/businesses" title="Businesses">
+            <div class="main-menu-icon-wrapper">  <img loading="lazy" src="https://sos-prod.tnsosgovfiles.com/s3fs-public/icons/1010.svg?VersionId=H5C.xvct2l45rNO.PE7yf.bBaNTpA57D" alt="briefcase" />
+
+</div>
+
+          Businesses
+        </a>
+                  </li>
+  
+                              <li class="nav-item">
+              <a href="/charities" title="Charities">
+            <div class="main-menu-icon-wrapper">  <img loading="lazy" src="https://sos-prod.tnsosgovfiles.com/s3fs-public/icons/1014.svg?VersionId=phEQVAxinSHy5JuTPRsmXlIH1VQ2nFgV" alt="Handshake" />
+
+</div>
+
+          Charities
+        </a>
+                  </li>
+  
+                              <li class="nav-item">
+              <a href="/civics" title="Civics">
+            <div class="main-menu-icon-wrapper">  <img loading="lazy" src="https://sos-prod.tnsosgovfiles.com/s3fs-public/icons/SOSWebIcons_Civics.png?VersionId=Ei5XROK94oRhKFZ9dUgaMccvxHN6YcXa" width="157" height="122" alt="Civics" />
+
+</div>
+
+          Civics
+        </a>
+                  </li>
+  
+                              <li class="nav-item">
+              <a href="/elections" title="Elections">
+            <div class="main-menu-icon-wrapper">  <img loading="lazy" src="https://sos-prod.tnsosgovfiles.com/s3fs-public/sos_icons/SOSWebIcons_Vote.png?VersionId=isfQwhv6Bpps_8Gq9.lZOgTKBmGKv4hY" width="210" height="209" alt="Vote Icon" />
+
+</div>
+
+          Elections
+        </a>
+                  </li>
+  
+                              <li class="nav-item">
+              <a href="/publications" title="Publications">
+            <div class="main-menu-icon-wrapper">  <img loading="lazy" src="https://sos-prod.tnsosgovfiles.com/s3fs-public/icons/1034.svg?VersionId=Lfj_yrDemR2S0GG8vVBbhvJx_ZyNtXv5" alt="Open Book" />
+
+</div>
+
+          Publications
+        </a>
+                  </li>
+  
+                              <li class="nav-item">
+              <a href="/tsla" title="Library &amp; Archives">
+            <div class="main-menu-icon-wrapper">  <img loading="lazy" src="https://sos-prod.tnsosgovfiles.com/s3fs-public/icons/1047.svg?VersionId=QSO8rnUxZc6qVzFKYvr8pnb1ZCogeNC8" alt="4 books standing up" />
+
+</div>
+
+          Library &amp; Archives
+        </a>
+                  </li>
+  
+                              <li class="nav-item">
+              <a href="/safeAtHome" title="Safe At Home">
+            <div class="main-menu-icon-wrapper">  <img loading="lazy" src="https://sos-prod.tnsosgovfiles.com/s3fs-public/icons/SOSWebIcons_SafeAtHome.png?VersionId=.49GbGjMXEXKgrilVL_EU4V2Rl76ewkp" width="158" height="122" alt="Safe At Home" />
+
+</div>
+
+          Safe At Home
+        </a>
+                  </li>
+  
+                              <li class="nav-item">
+              <a href="https://tbat.tnsos.gov/" title="TBAT">
+            <div class="main-menu-icon-wrapper">  <img loading="lazy" src="https://sos-prod.tnsosgovfiles.com/s3fs-public/icons/TBAT%20Logo_web90x90_WhiteTBAT.png?VersionId=h8ZHveaxv9sGVatBYR7xn7TX2M6tL9Ps" width="375" height="375" alt="Tennessee Businesses Against Trafficking" />
+
+</div>
+
+          TBAT
+        </a>
+                  </li>
+  
+                              <li class="nav-item">
+              <a href="/apd" title="Hearings">
+            <div class="main-menu-icon-wrapper">  <img loading="lazy" src="https://sos-prod.tnsosgovfiles.com/s3fs-public/icons/1001.svg?VersionId=1WIyBSvs508PnPdjiG4COSPG0XAXHm4y" alt="Legal scale" />
+
+</div>
+
+          Hearings
+        </a>
+                  </li>
+  
+      </ul>
+    
+
+
+  
+  </nav>
+
+  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+        </div>
+              </header>
+
+              <div class="row">
+          <div class="col-12">
+              <div class="region region-alert-banner">
+    <div class="views-element-container block block-views block-views-blockalerts-block-1" id="block-views-block-alerts-block-1">
+  
+    
+      <div><div class="red-alert-container alert-banner view--blazy view view-alerts view-id-alerts view-display-id-block_1 js-view-dom-id-7334a08a495d99269422b15df4796246cf4f2f023b33a0b6348728684eb8924a">
+  
+    
+      
+      <div class="view-content">
+      <div class="slick blazy slick--view slick--view--alerts slick--view--alerts--block-1 slick--view--alerts-block-block-1 unslick slick--skin--default slick--optionset--default slick--less" data-blazy=""><div class="slide__content"><div class="slide__media">    <div class="media media--blazy media--slick media--image is-b-loading">        </div></div>
+  <div class="slide__caption"><div class="slide__description"><div class="views-field views-field-field-body"><div class="field-content"><p>
+    On Tuesday, September 29, 2026, the TNCaB payment portal will be unavailable from 7:00 PM until 8:00 AM on Wednesday, September 30, 2026, due to scheduled maintenance. During this time, you will still be able to access your TNCaB account; however, you will not be able to make online payments.
+</p></div></div></div>
+</div></div>
+</div>
+
+    </div>
+  
+          </div>
+</div>
+
+  </div>
+<div class="views-element-container block block-views block-views-blockalerts-block-2" id="block-views-block-alerts-block-2">
+  
+    
+      <div><div class="yellow-alert-container alert-banner view--blazy view view-alerts view-id-alerts view-display-id-block_2 js-view-dom-id-c0c1b9ff268dcb44ad24cf80aa1fe9980e7fbda78d9de284253b67104b24928c">
+  
+    
+      
+  
+          </div>
+</div>
+
+  </div>
+
+  </div>
+
+          </div>
+        </div>
+      
+      <div class="row" id="middle-search-services" style="background-image: url(https://sos-prod.tnsosgovfiles.com/backgrounds/Bus-services-5-low.jpg?VersionId=6pTp135ObfFfiEdiZfk5AKlRLRLqOspR)">
+                  <div class="col-12" id="division-landing-page-header">
+              <div class="region region-division-landing-page-header">
+    <div id="block-division-landing-page-title" class="block block-ctools-block block-entity-fieldgrouplabel">
+  
+    
+                  <h1 class="field__item">Charities</h1>
+      
+  </div>
+
+  </div>
+
+          </div>
+        
+                  <div class="col-12">
+            <div class="new-search-bar">
+                <div class="region region-main-search">
+    <div class="views-exposed-form block block-views block-views-exposed-filter-blocksearch-page-1 primary-search-container" data-drupal-selector="views-exposed-form-search-page-1" id="block-exposedformsearchpage-1">
+  
+    
+      <form action="/search" method="get" id="views-exposed-form-search-page-1" accept-charset="UTF-8">
+  <div class="primary-search" >
+  <div class="js-form-item form-item js-form-type-textfield form-type-textfield js-form-item-search-keywords form-item-search-keywords">
+      <label for="edit-search-keywords">Fulltext search</label>
+        
+  <input placeholder="What would you like to find?" data-drupal-selector="edit-search-keywords" type="text" id="edit-search-keywords" name="search_keywords" value="" size="30" maxlength="128" class="form-text form-control" />
+
+
+        </div>
+<div data-drupal-selector="edit-actions" class="form-actions js-form-wrapper form-wrapper" id="edit-actions"><input data-drupal-selector="edit-submit-search" type="submit" id="edit-submit-search" value="Search" class="button js-form-submit form-submit" />
+</div>
+
+</div>
+
+</form>
+
+  </div>
+<div class="views-element-container block block-views block-views-blockprimary-promoted-links-lp-lp-prime-promo-links" id="block-views-block-primary-promoted-links-lp-lp-prime-promo-links">
+  
+    
+      <div><div class="landing-page-circular-promoted-items view view-primary-promoted-links-lp view-id-primary_promoted_links_lp view-display-id-lp_prime_promo_links js-view-dom-id-1a34ebb558c6a88ecb9dd961154a5fcd55805e7e6e6f16eb65cc61d61854bfaa">
+  
+    
+      
+      <div class="view-content">
+        <div class="views-view-grid horizontal cols-5 clearfix">
+            <div class="views-row clearfix row-1">
+                  <div class="promoted-item-field-wrapper"><div class="views-field views-field-nothing"><span class="field-content"><a class="primary-promoted-item" href="https://tncab.tnsos.gov/registered-charities-search" target="https://tncab.tnsos.gov/registered-charities-search">
+  <div class="primary-promoted-icon">
+      <img loading="lazy" src="https://sos-prod.tnsosgovfiles.com/s3fs-public/icons/1107.svg?VersionId=S559h8UsHZHTmjxsW3H6v.geS3Vq1_wx" alt="search" />
+
+
+   	<span class="primary-promoted-title">Charitable Entity Search</span>
+	  </div></a></span></div></div>
+                  <div class="promoted-item-field-wrapper"><div class="views-field views-field-nothing"><span class="field-content"><a class="primary-promoted-item" href="https://tncab.tnsos.gov/portal" target="https://tncab.tnsos.gov/portal">
+  <div class="primary-promoted-icon">
+      <img loading="lazy" src="https://sos-prod.tnsosgovfiles.com/s3fs-public/icons/1080.svg?VersionId=YT0hBlVeP1dbSspo670O6KeuaV5y3B4u" alt="document with heart" />
+
+
+   	<span class="primary-promoted-title">Register or Renew a Charity Online</span>
+	  </div></a></span></div></div>
+                  <div class="promoted-item-field-wrapper"><div class="views-field views-field-nothing"><span class="field-content"><a class="primary-promoted-item" href="https://tncab.tnsos.gov/portal" target="https://tncab.tnsos.gov/portal">
+  <div class="primary-promoted-icon">
+      <img loading="lazy" src="https://sos-prod.tnsosgovfiles.com/s3fs-public/icons/1089.svg?VersionId=niRM9Sf7hEjQW.9ROnBv2M_nhSfXyDfm" alt="document" />
+
+
+   	<span class="primary-promoted-title">Apply for a Gaming Event</span>
+	  </div></a></span></div></div>
+                  <div class="promoted-item-field-wrapper"><div class="views-field views-field-nothing"><span class="field-content"><a class="primary-promoted-item" href="https://tncab.tnsos.gov/portal/charity-event-search" target="https://tncab.tnsos.gov/portal/charity-event-search">
+  <div class="primary-promoted-icon">
+      <img loading="lazy" src="https://sos-prod.tnsosgovfiles.com/s3fs-public/icons/1108.svg?VersionId=EbXxUayKJMYt15VwuFPsDOm0oOQdTTfK" alt="search files" />
+
+
+   	<span class="primary-promoted-title">Search for Gaming Events</span>
+	  </div></a></span></div></div>
+                  <div class="promoted-item-field-wrapper"><div class="views-field views-field-nothing"><span class="field-content"><a class="primary-promoted-item" href="https://tncab.tnsos.gov/portal/Workflow/Run?workflowId=g46fa9c8e-44a2-46d3-b887-51a694975986&amp;typeName=File%20Complaint%20on%20a%20Charity&amp;ewd=6gWiWwQpz9SX5Ml4LD%2b9PpBMxgEsE%2fMCSPO01p1hCz7IyALbucEpIR%2fJKnERUIMroU131A%3d%3d&amp;additionalData=e30%3D" target="https://tncab.tnsos.gov/portal/Workflow/Run?workflowId=g46fa9c8e-44a2-46d3-b887-51a694975986&amp;typeName=File%20Complaint%20on%20a%20Charity&amp;ewd=6gWiWwQpz9SX5Ml4LD%2b9PpBMxgEsE%2fMCSPO01p1hCz7IyALbucEpIR%2fJKnERUIMroU131A%3d%3d&amp;additionalData=e30%3D">
+  <div class="primary-promoted-icon">
+      <img loading="lazy" src="https://sos-prod.tnsosgovfiles.com/s3fs-public/icons/SOSWebIcons_ContactUs.png?VersionId=K4tII5DiXbjHYT0b_2mBwFjqFyGWf2sM" width="157" height="122" alt="Contact Us" />
+
+
+   	<span class="primary-promoted-title">File a Nonprofit Complaint</span>
+	  </div></a></span></div></div>
+              </div>
+      </div>
+
+    </div>
+  
+          </div>
+</div>
+
+  </div>
+
+
+  </div>
+
+            </div>
+          </div>
+                      </div>
+
+      
+      <!-- content portion -->
+      <a id="main-content" tabindex="-1"></a>
+
+        <section class="row">
+    <div class="col-12" role="main">
+        <div class="region region-content">
+    
+<div class="panel-display bartlett clearfix">
+  <div class="container-fluid layout">
+	<div class="row">
+		<div class="col-12 panel-panel">
+			<div id="promoted-guide-inner">
+				<div class="block-region-secondary-promoted-links"><div class="views-element-container block block-views block-views-blocksecondary-promoted-links-block-1">
+  
+    
+      <div><div class="view view-secondary-promoted-links view-id-secondary_promoted_links view-display-id-block_1 js-view-dom-id-5ba156e5b7a79be0b43ccd3df9df923a488c8b1abb61ecfc80d2893a70ca6fca">
+  
+    
+      
+      <div class="view-content">
+          <div class="views-view-grid horizontal cols-2 clearfix">
+            <div class="row views-row clearfix row-1">
+                  <div class="col-lg-6 col-md-12 views-col col-1"><div class="views-field views-field-nothing"><span class="field-content"><a class="secondary-promoted-button" href="/charities/pages/how-to-use-the-charity-business-filing-system" target="">
+  <div class="secondary-promoted-icon">
+      <img loading="lazy" src="https://sos-prod.tnsosgovfiles.com/s3fs-public/icons/InformationIcon-01.png?VersionId=Kj7Vaowy6DUXrZzRJtYRwDVBelF07JCS" width="313" height="313" alt="Information Icon" />
+
+
+  </div>
+   	<span class="secondary-promoted-title">How to Use the New Charity &amp; Business Filing System</span>	
+	</a></span></div></div>
+                  <div class="col-lg-6 col-md-12 views-col col-2"><div class="views-field views-field-nothing"><span class="field-content"><a class="secondary-promoted-button" href="/charities/pages/disaster-relief-fundraising" target="">
+  <div class="secondary-promoted-icon">
+      <img loading="lazy" src="https://sos-prod.tnsosgovfiles.com/s3fs-public/icons/1093.svg?VersionId=eE0b41tgmwpYHEPhjlMnST2Q2ZJjIBTz" alt="documents in a box" />
+
+
+  </div>
+       <span class="secondary-promoted-title">Disaster Relief Fundraising</span>
+	</a></span></div></div>
+              </div>
+          <div class="row views-row clearfix row-2">
+                  <div class="col-lg-6 col-md-12 views-col col-1"><div class="views-field views-field-nothing"><span class="field-content"><a class="secondary-promoted-button" href="/charities/pages/charitable-organizations-helpful-links" target="">
+  <div class="secondary-promoted-icon">
+      <img loading="lazy" src="https://sos-prod.tnsosgovfiles.com/s3fs-public/icons/1008.svg?VersionId=pB6nemaSxSUyPZG9iQYv6ZShiOeKYee9" alt="legal checklist" />
+
+
+  </div>
+       <span class="secondary-promoted-title">Charitable Organizations Helpful Links</span>
+	</a></span></div></div>
+                  <div class="col-lg-6 col-md-12 views-col col-2"><div class="views-field views-field-nothing"><span class="field-content"><a class="secondary-promoted-button" href="/charities/pages/file-search-athlete-agents" target="">
+  <div class="secondary-promoted-icon">
+      <img loading="lazy" src="https://sos-prod.tnsosgovfiles.com/s3fs-public/icons/1072.svg?VersionId=smphWpC70oS2CYMdoCy1roOD._VcaZ4M" alt="Document with person" />
+
+
+  </div>
+       <span class="secondary-promoted-title">File &amp; Search Athlete Agents</span>
+	</a></span></div></div>
+              </div>
+          <div class="row views-row clearfix row-3">
+                  <div class="col-lg-6 col-md-12 views-col col-1"><div class="views-field views-field-nothing"><span class="field-content"><a class="secondary-promoted-button" href="https://tncab.tnsos.gov/portal/professional-solicitor-search" target="https://tncab.tnsos.gov/portal/professional-solicitor-search">
+  <div class="secondary-promoted-icon">
+      <img loading="lazy" src="https://sos-prod.tnsosgovfiles.com/s3fs-public/icons/1107.svg?VersionId=S559h8UsHZHTmjxsW3H6v.geS3Vq1_wx" alt="search" />
+
+
+  </div>
+   	<span class="secondary-promoted-title">Professional Solicitors</span>
+	</a></span></div></div>
+                  <div class="col-lg-6 col-md-12 views-col col-2"><div class="views-field views-field-nothing"><span class="field-content"><a class="secondary-promoted-button" href="/charities/guides/charitable-gaming-event-faqs" target="">
+  <div class="secondary-promoted-icon">
+      <img loading="lazy" src="https://sos-prod.tnsosgovfiles.com/s3fs-public/icons/SOSWebIcons_Guides.png?VersionId=l7oKKBBy4Yu.smcie9NHW6aksCHXQspP" width="313" height="314" alt="Direction Sign" />
+
+
+  </div>
+       <span class="secondary-promoted-title">Charitable Gaming Event FAQs</span>
+	</a></span></div></div>
+              </div>
+          <div class="row views-row clearfix row-4">
+                  <div class="col-lg-6 col-md-12 views-col col-1"><div class="views-field views-field-nothing"><span class="field-content"><a class="secondary-promoted-button" href="/charities/guides/understanding-donation-bins" target="">
+  <div class="secondary-promoted-icon">
+      <img loading="lazy" src="https://sos-prod.tnsosgovfiles.com/s3fs-public/icons/SOSWebIcons_Guides.png?VersionId=l7oKKBBy4Yu.smcie9NHW6aksCHXQspP" width="313" height="314" alt="Direction Sign" />
+
+
+  </div>
+       <span class="secondary-promoted-title">Understanding Donation Bins</span>
+	</a></span></div></div>
+                  <div class="col-lg-6 col-md-12 views-col col-2"><div class="views-field views-field-nothing"><span class="field-content"><a class="secondary-promoted-button" href="https://tncab.tnsos.gov/portal" target="https://tncab.tnsos.gov/portal">
+  <div class="secondary-promoted-icon">
+      <img loading="lazy" src="https://sos-prod.tnsosgovfiles.com/s3fs-public/icons/1098.svg?VersionId=lHrC4szGZIZehS8cJD5R1R9E1sggGDGE" alt="sign document" />
+
+
+  </div>
+   	<span class="secondary-promoted-title">File a Notice of Establishment of Catastrophic Illness Trust</span>
+	</a></span></div></div>
+              </div>
+      </div>
+
+    </div>
+  
+          </div>
+</div>
+
+  </div>
+</div>
+			</div>
+		</div>
+  </div>
+  <div class="row">
+		<div class="col-12">
+			<div class="block-region-news-announcements"><div class="views-element-container block block-views block-views-blocklp-promo-news-announce-lp-promo-news">
+  
+      <h2>Charities News</h2>
+    
+      <div><div class="promoted-news-announcements slick-carousel-view view--blazy view view-lp-promo-news-announce view-id-lp_promo_news_announce view-display-id-lp_promo_news js-view-dom-id-aa13287b11cc6f4d7a942b1ed5a5675227b3cd8405b84e48b87ef66645f01203">
+  
+    
+      
+      <div class="view-content">
+      <div class="slick blazy slick--view slick--view--lp-promo-news-announce slick--view--lp-promo-news-announce--lp-promo-news slick--view--lp-promo-news-announce-block-lp-promo-news unslick slick--skin--default slick--optionset--sos-promoted-content slick--less" data-blazy="">  <div class="slick__slide slide slide--0"><div class="views-field views-field-field-teaser__image"><div class="field-content"><a href="/newsroom/press-releases/secretary-of-state-tre-hargett-warns-tennesseans-about-donation-scams" title="  Secretary of State Tre Hargett Warns Tennesseans About Donation Scams Claiming to Support Tornado and Flood Victims">
+      <img loading="lazy" src="https://sos-prod.tnsosgovfiles.com/s3fs-public/styles/slick_media/public/images/Large_Press_Release_Graphic.png?VersionId=6Yix20SAJh4JWjz4HrFleSiELFTf7epT&amp;itok=gXGGmMKc" width="853" height="480" alt="PR Graphic" class="image-style-slick-media" />
+
+
+
+    <h3>  Secretary of State Tre Hargett Warns Tennesseans About Donation Scams Claiming to Support Tornado and Flood Victims</h3>
+</a></div></div><div class="views-field views-field-field-content-summary"><div class="field-content"></div></div></div>
+</div>
+
+    </div>
+  
+          </div>
+</div>
+
+  </div>
+</div>
+		</div>
+  </div>
+  <div class="row" id="highlighted-icon-links">
+    <div class="col-12" >
+      <div class="block-region-faqs-guides-services-forms"><div class="views-element-container block block-views block-views-blocklp-highlighted-content-w-icons-block-4">
+  
+    
+      <div><div class="highlighted-icon-links-container view view-lp-highlighted-content-w-icons view-id-lp_highlighted_content_w_icons view-display-id-block_4 js-view-dom-id-7f6f1cfd6d78634a3d1190f2a2698b7d91040b8b0abec9d54e4acebfbf3128dc">
+  
+    
+      
+      <div class="view-content">
+      <div>
+  
+  <ul class="list-unstyled row">
+
+          <li class="col-sm-12 col-md-6 col-lg-3">  <a href="/charities/services/charity-forms" title="View all forms for Charities">
+    <span class="highlighted-icon-links-title">Forms</span>
+      <img loading="lazy" src="https://sos-prod.tnsosgovfiles.com/s3fs-public/icons/bi-clipboard-white.svg?VersionId=mDikXMLsN0OjeuPs1HhNjwyOHuTLCSZZ" alt="Clipboard Icon" />
+
+
+  </a>
+</li>
+<li class="col-sm-12 col-md-6 col-lg-3">     <a href="/charities/guides" title="View all Guides for Charities">
+    <span class="highlighted-icon-links-title">Guides</span>
+      <img loading="lazy" src="https://sos-prod.tnsosgovfiles.com/s3fs-public/icons/bi-signpost-2-white.svg?VersionId=efR5zZbxbrMEZeDqeL5lt7TbEiXlstau" alt="Signpost Icon" />
+
+
+  </a>
+</li>
+<li class="col-sm-12 col-md-6 col-lg-3">   <a href="/charities/faqs" title="View all frequently asked questions for Charities">
+    <span class="highlighted-icon-links-title">FAQs</span>
+      <img loading="lazy" src="https://sos-prod.tnsosgovfiles.com/s3fs-public/icons/bi-patch-question-white.svg?VersionId=qtp0bPWjWyVxZ6CDFRNFzoADv8ceuNuR" alt="Question Mark With Patch" />
+
+
+  </a>
+</li>
+<li class="col-sm-12 col-md-6 col-lg-3">    <a href="/charities/services" title="View all services for Charities">
+    <span class="highlighted-icon-links-title">Services</span>
+      <img loading="lazy" src="https://sos-prod.tnsosgovfiles.com/s3fs-public/icons/concierge-bell-solid%20%281%29.svg?VersionId=kKekuu.rF0dugeX.4zqpuaaIi.eO52HH" alt="Service bell" />
+
+
+  </a></li>
+    
+  </ul>
+
+</div>
+
+    </div>
+  
+          </div>
+</div>
+
+  </div>
+</div>
+    </div>
+  </div>
+  <div class="row">
+		<div class="col-12">
+			<div class="block-region-division-videos"><div class="views-element-container block block-views block-views-blockgroup-division-videos-lp-div-videos">
+  
+    
+      <div><div class="division-promoted-videos slick-carousel-view view--blazy view view-group-division-videos view-id-group_division_videos view-display-id-lp_div_videos js-view-dom-id-d81f0c12087e7e632414e9b1a295b313f989780cc5383faab12667cde0c67475">
+  
+    
+      
+      <div class="view-content">
+      <div class="slick blazy slick--view slick--view--group-division-videos slick--view--group-division-videos--lp-div-videos slick--view--group-division-videos-block-lp-div-videos slick--skin--default slick--optionset--sos-promoted-content" data-blazy=""><div id="slick-5bd1806d569" data-slick="{&quot;count&quot;:7,&quot;total&quot;:7,&quot;infinite&quot;:false,&quot;mobileFirst&quot;:true,&quot;lazyLoad&quot;:&quot;blazy&quot;,&quot;slidesPerRow&quot;:3,&quot;responsive&quot;:[{&quot;breakpoint&quot;:1,&quot;settings&quot;:{&quot;rows&quot;:0}},{&quot;breakpoint&quot;:768,&quot;settings&quot;:{&quot;rows&quot;:0,&quot;slidesPerRow&quot;:2,&quot;slidesToShow&quot;:2}},{&quot;breakpoint&quot;:1024,&quot;settings&quot;:{&quot;rows&quot;:0,&quot;slidesPerRow&quot;:3,&quot;slidesToShow&quot;:3}}]}" class="slick__slider">  <div class="slick__slide slide slide--0"><article class="media media--type-remote-video media--view-mode-default">
+  
+      
+            <div class="field field--name-field-media-oembed-video field--type-string field--label-hidden field__item"><iframe src="https://sos.tn.gov/media/oembed?url=https%3A//youtu.be/HQDIUI3RuvE&amp;max_width=500&amp;max_height=280&amp;hash=SkpsUwh5eneBmPMfSFEcmQPHz5nc-S-okkEmELFt0cY" width="498" height="280" class="media-oembed-content" loading="eager" title="Charitable Gaming Events Application Training: How to Apply to Conduct a Charitable Gaming Event"></iframe>
+</div>
+      
+  </article>
+</div>
+  <div class="slick__slide slide slide--1"><article class="media media--type-remote-video media--view-mode-default">
+  
+      
+            <div class="field field--name-field-media-oembed-video field--type-string field--label-hidden field__item"><iframe src="https://sos.tn.gov/media/oembed?url=https%3A//www.youtube.com/watch%3Fv%3DvZVDpaNMrQk&amp;max_width=500&amp;max_height=280&amp;hash=ejhlQrv6TopFA0X06QJFWSX4HwVX23H9Lu8A55g4MBM" width="498" height="280" class="media-oembed-content" loading="eager" title="Easy Steps to Wise Giving in Tennessee"></iframe>
+</div>
+      
+  </article>
+</div>
+  <div class="slick__slide slide slide--2"><article class="media media--type-remote-video media--view-mode-default">
+  
+      
+            <div class="field field--name-field-media-oembed-video field--type-string field--label-hidden field__item"><iframe src="https://sos.tn.gov/media/oembed?url=https%3A//www.youtube.com/watch%3Fv%3DG5Hi1QZCRu8%26feature%3Dyoutu.be&amp;max_width=500&amp;max_height=280&amp;hash=Wr9R6MiErnB6jjrtkqi1yRiRRYfApuHXXLWyvI4u3jU" width="498" height="280" class="media-oembed-content" loading="eager" title="Charity Renewal Training"></iframe>
+</div>
+      
+  </article>
+</div>
+  <div class="slick__slide slide slide--3"><article class="media media--type-remote-video media--view-mode-default">
+  
+      
+            <div class="field field--name-field-media-oembed-video field--type-string field--label-hidden field__item"><iframe src="https://sos.tn.gov/media/oembed?url=https%3A//www.youtube.com/watch%3Fv%3Dz6beFQDzq1g&amp;max_width=500&amp;max_height=280&amp;hash=paq6mXap1PjP5BAIzW-RBHdYeQVxhe6Qfq0BdrEeAYA" width="498" height="280" class="media-oembed-content" loading="eager" title="October 11, 2021: Secretary of State Gives Tennessee Charities a Reduction on Annual Fees"></iframe>
+</div>
+      
+  </article>
+</div>
+  <div class="slick__slide slide slide--4"><article class="media media--type-remote-video media--view-mode-default">
+  
+      
+            <div class="field field--name-field-media-oembed-video field--type-string field--label-hidden field__item"><iframe src="https://sos.tn.gov/media/oembed?url=https%3A//www.youtube.com/watch%3Fv%3Db-j-O0hYjA8&amp;max_width=500&amp;max_height=280&amp;hash=hwetDgZW-ybb9g8arFH3XspP9tfNxDsxTM70LMrMGtg" width="498" height="280" class="media-oembed-content" loading="eager" title="Secretary Hargett Announces Federal Suit Against Four Sham Cancer Charities"></iframe>
+</div>
+      
+  </article>
+</div>
+  <div class="slick__slide slide slide--5"><article class="media media--type-remote-video media--view-mode-default">
+  
+      
+            <div class="field field--name-field-media-oembed-video field--type-string field--label-hidden field__item"><iframe src="https://sos.tn.gov/media/oembed?url=https%3A//www.youtube.com/watch%3Fv%3D7DqtSKhoCkY&amp;max_width=500&amp;max_height=280&amp;hash=TCQga9J2b1aA4sS8cq83zYRd3wV8UcVaz7wlEtMFQCs" width="498" height="280" class="media-oembed-content" loading="eager" title="Secretary Hargett Announces Fake Cancer Charities Shutdown, Leader Agrees to Lifetime Ban"></iframe>
+</div>
+      
+  </article>
+</div>
+  <div class="slick__slide slide slide--6"><article class="media media--type-remote-video media--view-mode-default">
+  
+      
+            <div class="field field--name-field-media-oembed-video field--type-string field--label-hidden field__item"><iframe src="https://sos.tn.gov/media/oembed?url=https%3A//www.youtube.com/watch%3Fv%3DHvX-1wneMvo&amp;max_width=500&amp;max_height=280&amp;hash=A9YSxuxiWZgHRLuZIPWxW4UR8R_fzziekf5hSZUuTZc" width="498" height="280" class="media-oembed-content" loading="eager" title="New Donation Bin Law Goes Into Effect July 1, 2015"></iframe>
+</div>
+      
+  </article>
+</div>
+</div>
+          <nav role="navigation" class="slick__arrow">
+        <button type="button" data-role="none" class="slick-prev" aria-label="Previous">Previous</button><button type="button" data-role="none" class="slick-next" aria-label="Next">Next</button>
+      </nav>
+    </div>
+
+    </div>
+  
+          </div>
+</div>
+
+  </div>
+</div>
+		</div>
+  </div>
+</div>
+
+  </div>
+
+    </div>
+  </section>
+    </div>
+    <footer class="container-fluid">
+
+      <div class="row informational-footer">
+        <div class="col-md-2">
+                        <div class="region region-footer-row-one-one">
+    <div id="block-footerstateseal" class="block block-block-content block-block-content75145f58-5571-44f7-887a-f50775fda54e">
+  
+    
+      
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><p><img alt="Tennessee's State Seal" class="tri-star-img" src="/themes/custom/sostngov_bootstrap4/images/state_seal.png"></p>
+</div>
+      
+  </div>
+
+  </div>
+
+                  </div>
+        <div class="col-md-4 footer-tre-hargett">
+                        <div class="region region-footer-hargett">
+    <div id="block-footerabouttrehargett" class="block block-block-content block-block-content012fc7da-5e92-4a49-9d56-3391435e3383">
+  
+    
+      
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><h3>Mission Statement</h3>
+<p style="font-size: 1.8em;"><span>Our mission is to exceed the expectations of our customers, the taxpayers, by operating at the highest levels of accuracy, cost-effectiveness, and accountability in a customer-centered environment.</span></p>
+<p>&nbsp;</p>
+</div>
+      
+  </div>
+
+  </div>
+
+                  </div>
+        <div class="col-md-2">
+                        <div class="region region-footer-row-one-three">
+    <div id="block-footertristarlogo" class="block block-block-content block-block-contente36e0380-8a7d-41e5-934b-b41624340d75">
+  
+    
+      
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><p><img alt="Tennessee State's Tri-Star Logo" class="tri-star-img" src="/themes/custom/sostngov_bootstrap4/images/tri_star.png"></p>
+</div>
+      
+  </div>
+
+  </div>
+
+                  </div>
+        <div class="col-md-4 footer-about-sos">
+                        <div class="region region-footer-sec-of-state">
+    <div id="block-footerabouttheofficeofsos" class="block block-block-content block-block-content02719aa7-9e4b-4e37-8b86-6a9d8ff0a1a7">
+  
+    
+      
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><h3>Secretary of State Tre Hargett</h3>
+<p>Tre Hargett was elected by the Tennessee General Assembly to serve as Tennessee’s 37th secretary of state in 2009 and re-elected in 2013, 2017, 2021, and 2025. Secretary Hargett is the chief executive officer of the Department of State with oversight of more than 300 employees. He also serves on 16 boards and commissions, on two of which he is the presiding member. The services and oversight found in the Secretary of State's office reach every department and agency in state government.</p>
+</div>
+      
+  </div>
+
+  </div>
+
+                  </div>
+      </div>
+
+      <nav class="row additional-links-footer" aria-label="Footer">
+        <div class="col-md-4 footer-sos-link-section">
+                        <div class="region region-footer-links-section-left">
+    <div id="block-footerlinksleft" class="block block-block-content block-block-content74151b76-c39f-40a8-992e-087b40a92caa">
+  
+    
+      
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><div id="footer-informational-links">
+<h3>CUSTOMER SUPPORT</h3>
+<div><a href="/newsroom/pages/contact-us-tennessee-secretary-state">Contact Us</a></div>
+<div><a href="/tsla/plan-your-visit">Library &amp; Archives Visitor Information </a></div>
+<div>&nbsp;</div>
+<h3>DEPARTMENT INFORMATION</h3>
+<div><a href="/newsroom/pages/about-tennessee-secretary-states-office">About the Secretary of State's Office</a></div>
+<div><a href="/newsroom/pages/about-our-leadership">Secretary of State Bio</a></div>
+<div><a href="/newsroom">Secretary of State Newsroom</a></div>
+<div><a href="/newsroom/pages/sign-email-updates">Sign up for Email Updates</a></div>
+</div>
+</div>
+      
+  </div>
+
+  </div>
+
+                  </div>
+        <div class="col-md-4 footer-sos-link-section">
+                        <div class="region region-footer-links-section-middle">
+    <div id="block-footerlinksmiddle" class="block block-block-content block-block-content40b03506-9bb0-457c-84bc-d26b958fd672">
+  
+    
+      
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><h3>DIVISIONS</h3>
+<div id="footer-division-links">
+<div><a href="/apd">Administrative Hearings</a></div>
+<div><a href="/businesses">Business Services</a></div>
+<div><a href="/charities">Charitable Solicitations and Gaming</a></div>
+<div><a href="/elections">Elections</a></div>
+<div><a href="/hr">Human Resources</a></div>
+<div><a href="/tsla">Library &amp; Archives</a></div>
+<div><a href="/publications">Publications</a></div>
+<div><a href="/rmd">Records Management</a></div>
+</div>
+</div>
+      
+  </div>
+
+  </div>
+
+                  </div>
+        <div class="col-md-4 footer-sos-link-section">
+                        <div class="region region-footer-links-section-right">
+    <div id="block-footerlinksright" class="block block-block-content block-block-contentd5be70ae-9ca0-4d6e-9275-dace099c1eb0">
+  
+    
+      
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><h3>LINKS</h3>
+<div id="footer-additional-links">
+<div><a href="https://capitol.tn.gov/">Tennessee General Assembly</a></div>
+<div><a href="https://www.tn.gov/tref/">Bureau of Ethics and Campaign Finance</a></div>
+<div><a href="http://www.lexisnexis.com/hottopics/tncode/">Tennessee Code Unannotated</a></div>
+<div><a href="https://www.comptroller.tn.gov/">State Comptroller</a></div>
+<div><a href="https://treasury.tn.gov/">State Treasurer</a></div>
+<div><a href="/TitleVI">Title VI Information</a></div>
+<div><a href="/newsroom/services/public-records-policy">Public Records Policy and Records Request Form</a></div>
+</div>
+</div>
+      
+  </div>
+
+  </div>
+
+                  </div>
+      </nav>
+
+      <div class="row" id="ending-footer-logo-icons" >
+        <div class="col-md-4 footer-tn-logo">
+                        <div class="region region-footer-tn-logo">
+    <div id="block-footersostnlogo" class="block block-block-content block-block-content3f9ab15b-2734-4de2-9cc0-469d1480f177">
+  
+    
+      <div id="tri-star-logo-footer">
+        <img alt="Tri Star Logo" src="/themes/custom/sostngov_bootstrap4/images/tri_star_transparent.png" />
+    </div>
+    <div id="footer-logo-wording">
+        <div class="footer-logo-tenn">Tennessee</div>
+        <div class="footer-logo-sos">Secretary of State</div>
+    </div>
+  </div>
+  </div>
+
+                  </div>
+        <div class="col-md-8 footer-social-media-icons">
+                        <div class="region region-footer-social-media-icons">
+    <div id="block-floatingsocialmediafootersection" class="block block-block-content block-block-contentdb097e5b-736e-4189-9a04-65cdfb46b770">
+  
+    
+      
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><div id="footer-social-media-icons"><a href="https://x.com/tnsecofstate"><img class="x-social-icon" alt width="70px" src="/themes/custom/sostngov_bootstrap4/images/logo-x-white.png"></a> <a href="https://www.facebook.com/TennesseeSecretaryofState"><img alt src="/sites/default/files/social_media_icons/facebook-icon.png"></a> <a href="https://www.instagram.com/tnsecofstate/"><img alt src="/sites/default/files/social_media_icons/instagram-icon.png"></a> <a href="https://www.youtube.com/c/sectrehargett"><img alt src="/sites/default/files/social_media_icons/youtube-icon.png"></a><a href="/newsroom/pages/sign-email-updates"><img alt src="/sites/default/files/social_media_icons/subscribe-icon.png"></a></div>
+<div>© 2026 Tennessee Secretary&nbsp;of State |&nbsp;<a href="/newsroom/pages/web-and-social-media-policies">Web and Social Media Policies</a></div>
+</div>
+      
+  </div>
+
+  </div>
+
+                  </div>
+      </div>
+
+    </footer>
+  </div> <!-- closing page div -->
+</div>  <!-- closing page-wrapper div -->
+
+  </div>
+
+    
+    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","pathPrefix":"","currentPath":"group\/2","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"ajaxPageState":{"libraries":"eJyFUl1ugzAMvlAgL7sPchID7pwY4dCOnr4JsJV2k_ZifX-KLTuO4b5aR9LCBb6M22mtB_YMqkyaD84C4YCT8NoT8zedJZLiwWboD3RDNxknkjXPMH1YBzV04j-wuWjDkLE2e_oDiwNuNK9MaTg7EVVhQDVemGFSciz-03qZ0dRik8wRmO5oekkZbqgS0Z5wW4arVP8NtDpSNIPIwNhBAl4zebXvgokYCKxgdBjavvbPGWdTVlgm22rrVV94BEptwB4Wzi9GHjGiUdEOQqTUYRoh-aKVeewu1Q4dxbL7665v8QA6OoE5qH3CzZkgIXcMqyzljV9KzeQ0yLU7rdmvnrGZeBko_Rl4u5CumjHud74S3tRudf9hZyFKWBgfwX37yw","theme":"sostngov_bootstrap4","theme_token":null},"ajaxTrustedUrl":{"\/search":true},"google_analytics":{"account":"UA-3640513-25","trackOutbound":true,"trackMailto":true,"trackTel":true,"trackDownload":true,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip"},"collapsiblock":{"active_pages":true,"slide_speed":200,"cookie_lifetime":null,"switcher_enabled":null,"switcher_class":null},"views":{"ajax_path":"\/views\/ajax","ajaxViews":{"views_dom_id:d81f0c12087e7e632414e9b1a295b313f989780cc5383faab12667cde0c67475":{"view_name":"group_division_videos","view_display_id":"lp_div_videos","view_args":"2","view_path":"\/group\/2","view_base_path":"group\/%\/all-videos","view_dom_id":"d81f0c12087e7e632414e9b1a295b313f989780cc5383faab12667cde0c67475","pager_element":0},"views_dom_id:aa13287b11cc6f4d7a942b1ed5a5675227b3cd8405b84e48b87ef66645f01203":{"view_name":"lp_promo_news_announce","view_display_id":"lp_promo_news","view_args":"2","view_path":"\/group\/2","view_base_path":"group\/%\/all-promoted-news","view_dom_id":"aa13287b11cc6f4d7a942b1ed5a5675227b3cd8405b84e48b87ef66645f01203","pager_element":0},"views_dom_id:5ba156e5b7a79be0b43ccd3df9df923a488c8b1abb61ecfc80d2893a70ca6fca":{"view_name":"secondary_promoted_links","view_display_id":"block_1","view_args":"2","view_path":"\/group\/2","view_base_path":"group\/%\/all-promoted-links","view_dom_id":"5ba156e5b7a79be0b43ccd3df9df923a488c8b1abb61ecfc80d2893a70ca6fca","pager_element":0},"views_dom_id:1a34ebb558c6a88ecb9dd961154a5fcd55805e7e6e6f16eb65cc61d61854bfaa":{"view_name":"primary_promoted_links_lp","view_display_id":"lp_prime_promo_links","view_args":"2","view_path":"\/group\/2","view_base_path":"admin\/group\/%\/primary-promoted-links","view_dom_id":"1a34ebb558c6a88ecb9dd961154a5fcd55805e7e6e6f16eb65cc61d61854bfaa","pager_element":0}}},"blazy":{"loadInvisible":false,"offset":100,"saveViewportOffsetDelay":50,"validateDelay":25,"container":"","loader":true,"unblazy":false,"visibleClass":false,"useAjax":true},"blazyIo":{"disconnect":false,"rootMargin":"0px","threshold":[0,0.25,0.5,0.75,1]},"slick":{"accessibility":true,"adaptiveHeight":false,"autoplay":false,"pauseOnHover":true,"pauseOnDotsHover":false,"pauseOnFocus":true,"autoplaySpeed":3000,"arrows":true,"downArrow":false,"downArrowTarget":"","downArrowOffset":0,"centerMode":false,"centerPadding":"50px","dots":false,"dotsClass":"slick-dots","draggable":true,"fade":false,"focusOnSelect":false,"infinite":true,"initialSlide":0,"lazyLoad":"ondemand","mouseWheel":false,"randomize":false,"rtl":false,"rows":1,"slidesPerRow":1,"slide":"","slidesToShow":1,"slidesToScroll":1,"speed":500,"swipe":true,"swipeToSlide":false,"edgeFriction":0.35,"touchMove":true,"touchThreshold":5,"useCSS":true,"cssEase":"ease","cssEaseBezier":"","cssEaseOverride":"","useTransform":true,"easing":"linear","variableWidth":false,"vertical":false,"verticalSwiping":false,"waitForAnimate":true},"user":{"uid":0,"permissionsHash":"ae613174e36d193da460f683639a5e5a62bf000d2283b5472a606ee16c60c14d"}}</script>
+<script src="/modules/contrib/blazy/js/polyfill/blazy.polyfill.min.js?tltrnq"></script>
+<script src="/core/assets/vendor/jquery/jquery.min.js?v=3.7.1"></script>
+<script src="/modules/contrib/blazy/js/polyfill/blazy.classlist.min.js?tltrnq"></script>
+<script src="/modules/contrib/blazy/js/polyfill/blazy.promise.min.js?tltrnq"></script>
+<script src="/modules/contrib/blazy/js/polyfill/blazy.raf.min.js?tltrnq"></script>
+<script src="/core/assets/vendor/once/once.min.js?v=1.0.1"></script>
+<script src="/modules/contrib/slick/js/jquery-type-polyfill.min.js?tltrnq"></script>
+<script src="/core/misc/drupalSettingsLoader.js?v=10.6.17"></script>
+<script src="/core/misc/drupal.js?v=10.6.17"></script>
+<script src="/core/misc/drupal.init.js?v=10.6.17"></script>
+<script src="/core/misc/debounce.js?v=10.6.17"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/version-min.js?v=10.6.17"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/data-min.js?v=10.6.17"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/disable-selection-min.js?v=10.6.17"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/jquery-patch-min.js?v=10.6.17"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/scroll-parent-min.js?v=10.6.17"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/unique-id-min.js?v=10.6.17"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/focusable-min.js?v=10.6.17"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/keycode-min.js?v=10.6.17"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/plugin-min.js?v=10.6.17"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/widget-min.js?v=10.6.17"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/labels-min.js?v=10.6.17"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/widgets/controlgroup-min.js?v=10.6.17"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/form-reset-mixin-min.js?v=10.6.17"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/widgets/mouse-min.js?v=10.6.17"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/widgets/checkboxradio-min.js?v=10.6.17"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/widgets/draggable-min.js?v=10.6.17"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/widgets/resizable-min.js?v=10.6.17"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/widgets/button-min.js?v=10.6.17"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/widgets/dialog-min.js?v=10.6.17"></script>
+<script src="/modules/contrib/blazy/js/dblazy.min.js?tltrnq"></script>
+<script src="/modules/contrib/blazy/js/plugin/blazy.once.min.js?tltrnq"></script>
+<script src="/modules/contrib/blazy/js/plugin/blazy.sanitizer.min.js?tltrnq"></script>
+<script src="/modules/contrib/blazy/js/plugin/blazy.dom.min.js?tltrnq"></script>
+<script src="/modules/contrib/blazy/js/base/blazy.base.min.js?tltrnq"></script>
+<script src="/modules/contrib/blazy/js/plugin/blazy.dataset.min.js?tltrnq"></script>
+<script src="/modules/contrib/blazy/js/plugin/blazy.viewport.min.js?tltrnq"></script>
+<script src="/modules/contrib/blazy/js/plugin/blazy.xlazy.min.js?tltrnq"></script>
+<script src="/modules/contrib/blazy/js/plugin/blazy.observer.min.js?tltrnq"></script>
+<script src="/modules/contrib/blazy/js/plugin/blazy.loading.min.js?tltrnq"></script>
+<script src="/modules/contrib/blazy/js/polyfill/blazy.webp.min.js?tltrnq"></script>
+<script src="/modules/contrib/blazy/js/base/blazy.min.js?tltrnq"></script>
+<script src="/modules/contrib/blazy/js/base/io/bio.min.js?tltrnq"></script>
+<script src="/libraries/slick/slick/slick.min.js?v=1.x"></script>
+<script src="/modules/contrib/blazy/js/base/io/bio.media.min.js?tltrnq"></script>
+<script src="/modules/contrib/blazy/js/base/blazy.drupal.min.js?tltrnq"></script>
+<script src="/modules/contrib/blazy/js/blazy.load.min.js?tltrnq"></script>
+<script src="/modules/contrib/blazy/js/blazy.compat.min.js?tltrnq"></script>
+<script src="/core/assets/vendor/tabbable/index.umd.min.js?v=6.3.0"></script>
+<script src="/core/assets/vendor/tua-body-scroll-lock/tua-bsl.umd.min.js?v=10.6.17"></script>
+<script src="/core/misc/progress.js?v=10.6.17"></script>
+<script src="/core/assets/vendor/loadjs/loadjs.min.js?v=4.3.0"></script>
+<script src="/core/misc/announce.js?v=10.6.17"></script>
+<script src="/core/misc/message.js?v=10.6.17"></script>
+<script src="/core/misc/ajax.js?v=10.6.17"></script>
+<script src="/modules/contrib/blazy/js/base/io/bio.ajax.min.js?tltrnq"></script>
+<script src="/themes/contrib/bootstrap4/dist/bootstrap/4.6.2/dist/js/bootstrap.bundle.min.js?v=4.6.2.1"></script>
+<script src="https://cdn.jsdelivr.net/npm/js-cookie@3.0.5/dist/js.cookie.min.js"></script>
+<script src="/modules/contrib/collapsiblock/theme/dist/collapsiblock.js?tltrnq" type="module"></script>
+<script src="/modules/contrib/google_analytics/js/google_analytics.js?v=10.6.17"></script>
+<script src="/modules/contrib/slick/js/slick.load.min.js?v=10.6.17"></script>
+<script src="/core/misc/displace.js?v=10.6.17"></script>
+<script src="/core/misc/jquery.tabbable.shim.js?v=10.6.17"></script>
+<script src="/core/misc/position.js?v=10.6.17"></script>
+<script src="/core/misc/dialog/dialog-deprecation.js?v=10.6.17"></script>
+<script src="/core/misc/dialog/dialog.js?v=10.6.17"></script>
+<script src="/core/misc/dialog/dialog.position.js?v=10.6.17"></script>
+<script src="/core/misc/dialog/dialog.jquery-ui.js?v=10.6.17"></script>
+<script src="/core/modules/ckeditor5/js/ckeditor5.dialog.fix.js?v=10.6.17"></script>
+<script src="/core/misc/dialog/dialog.ajax.js?v=10.6.17"></script>
+<script src="/themes/custom/sostngov_bootstrap4/node_modules/jquery-cycle/index.js?tltrnq"></script>
+<script src="/core/misc/jquery.form.js?v=4.3.0"></script>
+<script src="/core/modules/views/js/base.js?v=10.6.17"></script>
+<script src="/core/modules/views/js/ajax_view.js?v=10.6.17"></script>
+
+  </body>
+</html>
