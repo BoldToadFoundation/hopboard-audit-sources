@@ -1,5 +1,31 @@
 [
   {
+    "source_url": "https://ag.nv.gov/",
+    "primary": false,
+    "local_path": "NV/ag.nv.gov-454bb020.html",
+    "content_type": "text/html; charset=utf-8",
+    "content_sha256": "5ef420bf5a6f17d4cb9e40127220fc1402996f2374f48a8b5a49d0c39ca54a91",
+    "perma_url": null,
+    "wayback_url": "https://web.archive.org/web/20260929201606/https://ag.nv.gov/",
+    "captured_at": "2026-09-29T20:15:27.333996+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
+  },
+  {
+    "source_url": "https://tax.nv.gov/",
+    "primary": false,
+    "local_path": "NV/tax.nv.gov-e08b86de.html",
+    "content_type": "text/html; charset=UTF-8",
+    "content_sha256": "87891e09308c77330ad9edde69f504c307379ac6c7dfef592b7db949642c0c96",
+    "perma_url": null,
+    "wayback_url": null,
+    "captured_at": "2026-09-29T20:15:27.333996+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
+  },
+  {
     "source_url": "https://www.leg.state.nv.us/NRS/NRS-076.html",
     "primary": false,
     "local_path": "NV/www.leg.state.nv.us-NRS-NRS-076.html.html",
