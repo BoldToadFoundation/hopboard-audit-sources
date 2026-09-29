@@ -228,6 +228,19 @@
     "tls_chain_unverified": false
   },
   {
+    "source_url": "https://dlcp.dc.gov/",
+    "primary": false,
+    "local_path": "DC/dlcp.dc.gov-e12e6d43.html",
+    "content_type": "text/html; charset=UTF-8",
+    "content_sha256": "3406b39d960b80c64618773391d586a9571c339f6de8bc78f5ce9b6e5e787884",
+    "perma_url": null,
+    "wayback_url": "https://web.archive.org/web/20260929201718/https://dlcp.dc.gov/",
+    "captured_at": "2026-09-29T20:17:01.908207+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
+  },
+  {
     "source_url": "https://dlcp.dc.gov/BBLRenewalOverview",
     "primary": false,
     "local_path": "DC/dlcp.dc.gov-BBLRenewalOverview.html",
@@ -262,6 +275,19 @@
     "captured_at": "2026-09-03T22:31:01.138675+00:00",
     "signed": false,
     "tls_chain_unverified": false
+  },
+  {
+    "source_url": "https://dlcp.dc.gov/sites/default/files/dc/sites/DLCP/publication/attachments/FN-1%20Foreign%20Registration%20Statement.pdf",
+    "primary": false,
+    "local_path": "DC/dlcp.dc.gov-sites-default-files-dc-sites-DLCP-publication-attachments-FN-1-20For-b5bcb5df.pdf",
+    "content_type": "application/pdf",
+    "content_sha256": "fb8fb3125c967cdc169ace5fb81e7857223e602077359aea359daabb64c79c16",
+    "perma_url": null,
+    "wayback_url": "https://web.archive.org/web/20260224043815/https://dlcp.dc.gov/sites/default/files/dc/sites/DLCP/publication/attachments/FN-1%20Foreign%20Registration%20Statement.pdf",
+    "captured_at": "2026-09-29T20:17:01.908207+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
   },
   {
     "source_url": "https://web.archive.org/web/20260523173834/https://code.dccouncil.gov/us/dc/council/code/sections/44-1704",
