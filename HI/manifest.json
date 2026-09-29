@@ -194,6 +194,20 @@
     "provenance": "direct fetch 2026-09-29 by curl (data.capitol.hawaii.gov served HTTP 200 application/pdf; this host is not behind the Cloudflare wall on capitol.hawaii.gov); local capture only, no Perma per D-066/R13 (not a source a live deadline rests on)"
   },
   {
+    "source_url": "https://data.capitol.hawaii.gov/sessions/session2026/bills/HB1810_CD1_.pdf",
+    "primary": false,
+    "local_path": "HI/data.capitol.hawaii.gov-sessions-session2026-bills-HB1810_CD1_.pdf-97f4ce7f.pdf",
+    "content_type": "application/pdf",
+    "content_sha256": "d545f21181711bfd456a64b3950d7576403878f152eb3116821a3cb9e2a256ff",
+    "perma_url": null,
+    "wayback_url": null,
+    "captured_at": "2026-09-29T17:44:52.338502+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "ingested_from_file": true,
+    "provenance": "direct fetch 2026-09-29 by curl (data.capitol.hawaii.gov served HTTP 200 application/pdf; this host is not behind the Cloudflare wall on capitol.hawaii.gov); local capture only, no Perma per Tony R13 2026-09-29 (not a source a live deadline rests on)"
+  },
+  {
     "source_url": "https://efile.form990.org/frmNPParticipatingStateSCOHI.asp",
     "primary": false,
     "local_path": "HI/efile.form990.org-frmNPParticipatingStateSCOHI.asp-a4377c48.html",
