@@ -1,5 +1,70 @@
 [
   {
+    "source_url": "https://illinoisattorneygeneral.gov/Consumer-Protection/Charities/",
+    "primary": false,
+    "local_path": "IL/illinoisattorneygeneral.gov-Consumer-Protection-Charities-454887fe.html",
+    "content_type": "text/html;charset=UTF-8",
+    "content_sha256": "744f3b5ba94db41f26abf6ab66810c663fa3168f279d4b0bb8b22469d74c6f9f",
+    "perma_url": null,
+    "wayback_url": "https://web.archive.org/web/20260929201516/https://illinoisattorneygeneral.gov/Consumer-Protection/Charities/",
+    "captured_at": "2026-09-29T20:13:33.880799+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
+  },
+  {
+    "source_url": "https://illinoisattorneygeneral.gov/Consumer-Protection/Charities/Building-Better-Charities/Charity-Registration/",
+    "primary": false,
+    "local_path": "IL/illinoisattorneygeneral.gov-Consumer-Protection-Charities-Building-Better-Charit-b256483d.html",
+    "content_type": "text/html;charset=UTF-8",
+    "content_sha256": "44d29c0bc84bbe22c992dab99ae295efa469402f29f060e9db35367d6659c603",
+    "perma_url": null,
+    "wayback_url": null,
+    "captured_at": "2026-09-29T20:13:33.880799+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
+  },
+  {
+    "source_url": "https://illinoisattorneygeneral.gov/Page-Attachments/2024%20Audit%20Threshold%20Insert.pdf",
+    "primary": false,
+    "local_path": "IL/illinoisattorneygeneral.gov-Page-Attachments-2024-20Audit-20Threshold-20Insert.p-af96878c.pdf",
+    "content_type": "application/pdf",
+    "content_sha256": "42045fff00ca8bd844ab833e488a60a4251961ea90f1461fab3138ca205a94ab",
+    "perma_url": null,
+    "wayback_url": null,
+    "captured_at": "2026-09-29T20:13:33.880799+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
+  },
+  {
+    "source_url": "https://illinoisattorneygeneral.gov/Page-Attachments/Form%20CO-1_Registration%20Statement.pdf",
+    "primary": false,
+    "local_path": "IL/illinoisattorneygeneral.gov-Page-Attachments-Form-20CO-1_Registration-20Statemen-7c073be6.pdf",
+    "content_type": "application/pdf",
+    "content_sha256": "bebc76ef39f4b825b4c1426fa9684fb526aa3789a054c94867950abc4488a9e4",
+    "perma_url": null,
+    "wayback_url": null,
+    "captured_at": "2026-09-29T20:13:33.880799+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
+  },
+  {
+    "source_url": "https://illinoisattorneygeneral.gov/Page-Attachments/charitable_instructions.pdf",
+    "primary": false,
+    "local_path": "IL/illinoisattorneygeneral.gov-Page-Attachments-charitable_instructions.pdf-148943b1.pdf",
+    "content_type": "application/pdf",
+    "content_sha256": "3f152ee710226c8fa0f03e126e5ab04481fa33db324b6b989543056caa5510fa",
+    "perma_url": null,
+    "wayback_url": "https://web.archive.org/web/20260929201507/https://illinoisattorneygeneral.gov/Page-Attachments/charitable_instructions.pdf",
+    "captured_at": "2026-09-29T20:13:33.880799+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
+  },
+  {
     "source_url": "https://www.ilga.gov/documents/legislation/ilcs/documents/022504600K3.htm",
     "primary": true,
     "local_path": "IL/www.ilga.gov-documents-legislation-ilcs-documents-022504600K3.htm-5cb769f3.html",
@@ -61,5 +126,18 @@
     "captured_at": "2026-07-05T01:44:18.353648+00:00",
     "signed": true,
     "tls_chain_unverified": false
+  },
+  {
+    "source_url": "https://www.ilsos.gov/departments/business-services/annual-reports/nfp-instructions.html",
+    "primary": false,
+    "local_path": "IL/www.ilsos.gov-departments-business-services-annual-reports-nfp-instructions.html-5e1ed1c0.html",
+    "content_type": "text/html;charset=utf-8",
+    "content_sha256": "9b59e8d03e54e420fc32ea75aa2cebd45f4bdc09a691aa3a409c505892603553",
+    "perma_url": null,
+    "wayback_url": null,
+    "captured_at": "2026-09-29T20:13:33.880799+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
   }
 ]
