@@ -24,6 +24,32 @@
     "perma_backfilled_at": "2026-07-12T21:07:12.051938+00:00"
   },
   {
+    "source_url": "https://mm.nh.gov/files/uploads/doj/remote-docs/form-nhct-11-application-for-registration.pdf",
+    "primary": false,
+    "local_path": "NH/mm.nh.gov-files-uploads-doj-remote-docs-form-nhct-11-application-for-registratio-9b2b6c21.pdf",
+    "content_type": "application/pdf",
+    "content_sha256": "e264540aa4573b002a83f801838c0b6da38f882da4eec725c84cb2632a232c91",
+    "perma_url": null,
+    "wayback_url": "https://web.archive.org/web/20260929202304/https://mm.nh.gov/files/uploads/doj/remote-docs/form-nhct-11-application-for-registration.pdf",
+    "captured_at": "2026-09-29T20:22:52.582464+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
+  },
+  {
+    "source_url": "https://mm.nh.gov/files/uploads/doj/remote-docs/form-nhct-12-annual-report.pdf",
+    "primary": false,
+    "local_path": "NH/mm.nh.gov-files-uploads-doj-remote-docs-form-nhct-12-annual-report.pdf-7420c5a9.pdf",
+    "content_type": "application/pdf",
+    "content_sha256": "611cec10d003bd581c818e4b2f64d248620b7af798771243523333e81edf042b",
+    "perma_url": null,
+    "wayback_url": null,
+    "captured_at": "2026-09-29T20:22:52.582464+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
+  },
+  {
     "source_url": "https://mm.nh.gov/files/uploads/doj/remote-docs/jus-400-adopted-rule.pdf",
     "primary": false,
     "local_path": "NH/mm.nh.gov-files-uploads-doj-remote-docs-jus-400-adopted-rule.pdf.pdf",
@@ -46,5 +72,18 @@
     "captured_at": "2026-05-29T09:59:14.545282+00:00",
     "signed": true,
     "perma_backfilled_at": "2026-07-12T21:07:24.198202+00:00"
+  },
+  {
+    "source_url": "https://www.doj.nh.gov/bureaus/charitable-trusts",
+    "primary": false,
+    "local_path": "NH/www.doj.nh.gov-bureaus-charitable-trusts-badaaf37.html",
+    "content_type": "text/html; charset=UTF-8",
+    "content_sha256": "471fa11b91294bf9a1ee95ffb436a7026a78833dfb5022d418ddd54a1f7c1826",
+    "perma_url": null,
+    "wayback_url": null,
+    "captured_at": "2026-09-29T20:22:52.582464+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
   }
 ]
