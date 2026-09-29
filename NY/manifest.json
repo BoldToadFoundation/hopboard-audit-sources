@@ -1,5 +1,17 @@
 [
   {
+    "source_url": "https://ag.ny.gov/sites/default/files/2022-10/Regs-F.pdf",
+    "primary": false,
+    "local_path": "NY/ag.ny.gov-sites-default-files-2022-10-Regs-F.pdf-e40c49e6.pdf",
+    "content_type": "application/pdf",
+    "content_sha256": "2a0db5e4140cf22a5ea5a2ed556175741f48397093e68a8ff8a067f569a1bc72",
+    "perma_url": "https://perma.cc/E3JF-XRDZ",
+    "wayback_url": "https://web.archive.org/web/20260929194138/https://ag.ny.gov/sites/default/files/2022-10/Regs-F.pdf",
+    "captured_at": "2026-09-29T19:41:36.520115+00:00",
+    "signed": false,
+    "tls_chain_unverified": false
+  },
+  {
     "source_url": "https://ag.ny.gov/sites/default/files/regulatory-documents/char500-user-guide.pdf",
     "primary": false,
     "local_path": "NY/ag.ny.gov-sites-default-files-regulatory-documents-char500-user-guide.pdf.pdf",
