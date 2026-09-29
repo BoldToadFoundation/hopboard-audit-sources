@@ -2016,6 +2016,57 @@
     "6W45-9LHK": {
       "skip": "PDF tier (documented skip, 2026-09-29, D-062 capture pass). UT S.B. 40 (2026) enrolled, Laws 2026 ch. 93 (Business Entity Amendments) — enacts §16-1a-212, the annual report to the Division of Corporations; (5)(a)(i) sets it 'on the last day of the anniversary month'; Section 297: effective October 1, 2026. The manifest content_type is application/pdf, so verify_perma's utf-8 WARC grep is BLIND to this artifact by the sweep's own rule (sweep_artifact_integrity._verify_perma_blind) — a string-form entry here would fail COMPLETENESS against the WARC, as S.B. 38's did at the 2026-09-06 UT apply (2NRS-CDUX). The load-bearing strings are verified via the shared extractor against the LOCAL sha-pinned artifact by the by_sha256 entry 9aae3388d215b668f4766f4f87b8e4b8ff36362c6ee62a79d630a40b5640a457 (6 present + a negative control absent, 2026-09-29).",
       "source_url": "https://le.utah.gov/Session/2026/bills/enrolled/SB0040.pdf"
+    },
+    "3N9Q-VBFC": {
+      "basis": "Utah Code §16-1a-212 as codified, the version effective 10/1/2026 (enacted by S.B. 40, Laws 2026 ch. 93): the annual report to the Division of Corporations is delivered on the last day of the anniversary month, unless the division sets a different period by rule; up to 60 days early [D-059 source; verified against the local capture 2026-09-29]",
+      "source_url": "https://le.utah.gov/xcode/Title16/Chapter1A/C16-1a-S212_2026050620261001.html",
+      "strings": [
+        "16-1a-212.",
+        "Annual report for division.",
+        "Unless the division specifies a different time period by rule",
+        "shall deliver an annual report to the division each calendar year on the last day of the anniversary month",
+        "may deliver the annual report up to 60 days before the last day of the anniversary month"
+      ]
+    },
+    "V8KJ-Z5WP": {
+      "basis": "le.utah.gov xcode shell page for §16-1a-212; it loads the versioned text C16-1a-S212_2026050620261001 labelled Effective 10/1/2026 (captured alongside as 3N9Q-VBFC)",
+      "source_url": "https://le.utah.gov/xcode/Title16/Chapter1A/16-1a-S212.html",
+      "strings": [
+        "Effective 10/1/2026",
+        "C16-1a-S212_2026050620261001"
+      ]
+    },
+    "5J2D-GYLU": {
+      "basis": "Utah Admin. Code R154-100 Administrative Procedures Act Rule (Division of Corporations and Commercial Code, current rules, read 2026-09-29): read for a rule under §16-1a-212(5)(a) setting a different annual-report period — none (no provision on annual-report timing)",
+      "source_url": "https://adminrules.utah.gov/api/public/getfile/uac-html/11d3ed97-02d8-4867-9db1-5b4446db9d9d.html/R154-100.html",
+      "strings": [
+        "Terms used in this rule that are defined in the Administrative Procedures Act, Title 63G, Chapter 4, and not",
+        "otherwise defined in this section shall have the respective meanings given the terms in the Administrative Procedures Act, Title"
+      ]
+    },
+    "PQ84-XSDT": {
+      "basis": "Utah Admin. Code R154-1 Central Filing System for Agricultural Product Liens (Division of Corporations and Commercial Code, current rules, read 2026-09-29): read for a rule under §16-1a-212(5)(a) setting a different annual-report period — none (no provision on annual-report timing)",
+      "source_url": "https://adminrules.utah.gov/api/public/getfile/uac-html/16e8d60f-f110-4b7c-934c-0aa6c67e196b.html/R154-1.html",
+      "strings": [
+        "Terms used in this rule that are defined in the Food Security Act of 1985, 7 U.S.C. Section 1631 or Section R154-2-100",
+        "and not otherwise defined in this section shall have the respective meanings given the terms in 7 U.S.C. Section 1631 and Section"
+      ]
+    },
+    "8B2C-2PHX": {
+      "basis": "Utah Admin. Code R154-2 Filing Office Rules (Division of Corporations and Commercial Code, current rules, read 2026-09-29): read for a rule under §16-1a-212(5)(a) setting a different annual-report period — none (no provision on annual-report timing)",
+      "source_url": "https://adminrules.utah.gov/api/public/getfile/uac-html/b9832f71-c1e1-47cc-a049-0e34e5235b5a.html/R154-2.html",
+      "strings": [
+        "Terms used this rule that are defined in the UCC and not otherwise defined in this section shall have the respective",
+        "an address that purports to be a mailing address outside the United State of America."
+      ]
+    },
+    "NNY3-XJ4T": {
+      "basis": "Utah Admin. Code R154-3 Decentralized Autonomous Organization Act Rule (Division of Corporations and Commercial Code, current rules, read 2026-09-29): read for a rule under §16-1a-212(5)(a) setting a different annual-report period — none (no provision on annual-report timing)",
+      "source_url": "https://adminrules.utah.gov/api/public/getfile/uac-html/ce6b49b3-5d3a-4756-a7bc-5c7c683d34e7.html/R154-3.html",
+      "strings": [
+        "This rule is adopted by the Division under the authority of Sections 48-5-103 and 48-5-109 to enable the division to",
+        "Terms used in this rule are defined in Title 48, Chapter 5, Decentralized Autonomous Organization Act. In"
+      ]
     }
   },
   "by_sha256": {
