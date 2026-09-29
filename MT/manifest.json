@@ -34,5 +34,18 @@
     "captured_at": "2026-07-04T10:05:22.022324+00:00",
     "signed": true,
     "tls_chain_unverified": false
+  },
+  {
+    "source_url": "https://mca.legmt.gov/bills/mca/title_0300/chapter_0140/part_0140/sections_index.html",
+    "primary": false,
+    "local_path": "MT/mca.legmt.gov-bills-mca-title_0300-chapter_0140-part_0140-sections_index.html-e5e4bbeb.html",
+    "content_type": "text/html",
+    "content_sha256": "bd742d2fbe6eef595d4fd97edc25a90f275a232cb642d8c77d0fe09f068936e0",
+    "perma_url": null,
+    "wayback_url": "https://web.archive.org/web/20260929210157/https://mca.legmt.gov/bills/mca/title_0300/chapter_0140/part_0140/sections_index.html",
+    "captured_at": "2026-09-29T21:01:43.773096+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
   }
 ]
