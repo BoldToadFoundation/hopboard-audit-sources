@@ -105,5 +105,18 @@
     "captured_at": "2026-07-05T01:49:31.892071+00:00",
     "signed": true,
     "tls_chain_unverified": false
+  },
+  {
+    "source_url": "https://www.tn.gov/content/dam/tn/revenue/documents/forms/sales/f1306901.pdf",
+    "primary": false,
+    "local_path": "TN/www.tn.gov-content-dam-tn-revenue-documents-forms-sales-f1306901.pdf-b9e0ad1f.pdf",
+    "content_type": "application/pdf",
+    "content_sha256": "6851b6a3186a206b84125a1c4777313918893533d74b2366adbe82ac354c6655",
+    "perma_url": null,
+    "wayback_url": "https://web.archive.org/web/20260929200816/https://www.tn.gov/content/dam/tn/revenue/documents/forms/sales/f1306901.pdf",
+    "captured_at": "2026-09-29T20:06:55.547494+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
   }
 ]
