@@ -110,6 +110,19 @@
     "provenance": "browser_capture_2026-08-08"
   },
   {
+    "source_url": "https://arkansasag.gov/divisions/public-protection/finances/charitable-giving/",
+    "primary": false,
+    "local_path": "AR/arkansasag.gov-divisions-public-protection-finances-charitable-giving-5c232b38.html",
+    "content_type": "text/html; charset=UTF-8",
+    "content_sha256": "ea32a1959c1aeb62d6e1de11facbc5d159ac643d6c22a65064aaee1cb03707d3",
+    "perma_url": null,
+    "wayback_url": null,
+    "captured_at": "2026-09-29T20:08:53.270273+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
+  },
+  {
     "source_url": "https://arkleg.state.ar.us/Acts/FTPDocument?path=%2FACTS%2F2019R%2FPublic%2F&file=137.pdf&ddBienniumSession=2019%2F2019R",
     "primary": true,
     "local_path": "AR/arkleg.state.ar.us-Acts-FTPDocument-path-2FACTS-2F2019R-2FPublic-2F-file-137.pdf.pdf",
@@ -120,5 +133,83 @@
     "captured_at": "2026-07-05T13:21:31.954216+00:00",
     "signed": true,
     "tls_chain_unverified": false
+  },
+  {
+    "source_url": "https://www.sos.arkansas.gov/business-commercial-services-bcs/for-charities",
+    "primary": false,
+    "local_path": "AR/www.sos.arkansas.gov-business-commercial-services-bcs-for-charities-63e8b3f4.html",
+    "content_type": "text/html; charset=UTF-8",
+    "content_sha256": "9c35ee19963eb5d62d35a9b89ae3e87eaf32fae79fc4904d66fc1ef27654ae52",
+    "perma_url": null,
+    "wayback_url": null,
+    "captured_at": "2026-09-29T20:08:53.270273+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
+  },
+  {
+    "source_url": "https://www.sos.arkansas.gov/business-commercial-services-bcs/franchise-tax/non-profit-annual-reports/",
+    "primary": false,
+    "local_path": "AR/www.sos.arkansas.gov-business-commercial-services-bcs-franchise-tax-non-profit-a-5d895774.html",
+    "content_type": "text/html; charset=UTF-8",
+    "content_sha256": "242f1c795fa41d3fb71332d9eb2bef78d5a56ecedaa1acaa7d38192eb3941f36",
+    "perma_url": null,
+    "wayback_url": "https://web.archive.org/web/20260929201132/https://www.sos.arkansas.gov/business-commercial-services-bcs/franchise-tax/non-profit-annual-reports/",
+    "captured_at": "2026-09-29T20:08:53.270273+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
+  },
+  {
+    "source_url": "https://www.sos.arkansas.gov/business-commercial-services-bcs/nonprofit-charitable-entities/charitable-entities",
+    "primary": false,
+    "local_path": "AR/www.sos.arkansas.gov-business-commercial-services-bcs-nonprofit-charitable-entit-9016924d.html",
+    "content_type": "text/html; charset=UTF-8",
+    "content_sha256": "3600fc9b3c731c3fd1f8b966baafd9a58bc43a75ffe7eb6253dc878ef84c44b9",
+    "perma_url": null,
+    "wayback_url": "https://web.archive.org/web/20260929200920/https://www.sos.arkansas.gov/business-commercial-services-bcs/nonprofit-charitable-entities/charitable-entities",
+    "captured_at": "2026-09-29T20:08:53.270273+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
+  },
+  {
+    "source_url": "https://www.sos.arkansas.gov/uploads/SoS_-CharitableRegistrationInArkansas.pdf",
+    "primary": false,
+    "local_path": "AR/www.sos.arkansas.gov-uploads-SoS_-CharitableRegistrationInArkansas.pdf-458d954e.pdf",
+    "content_type": "application/pdf",
+    "content_sha256": "5f1f05fc9c79586aef313a1d63f4f19e715219ed5e6e11dbc76a2e5676d97981",
+    "perma_url": null,
+    "wayback_url": null,
+    "captured_at": "2026-09-29T20:08:53.270273+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
+  },
+  {
+    "source_url": "https://www.sos.arkansas.gov/uploads/SoS_CR-01_CharitableOrganizationRegistrationForm_Rev_7-21-17.pdf",
+    "primary": false,
+    "local_path": "AR/www.sos.arkansas.gov-uploads-SoS_CR-01_CharitableOrganizationRegistrationForm_Re-c7a92469.pdf",
+    "content_type": "application/pdf",
+    "content_sha256": "8f48fb96079152adb6a4eccc9e69779b3de5e58fe730646d52bd2ace9221ed0b",
+    "perma_url": null,
+    "wayback_url": null,
+    "captured_at": "2026-09-29T20:08:53.270273+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
+  },
+  {
+    "source_url": "https://www.sos.arkansas.gov/uploads/bcs/SoS_EX-01_ExemptOrganizationVerification2025.pdf",
+    "primary": false,
+    "local_path": "AR/www.sos.arkansas.gov-uploads-bcs-SoS_EX-01_ExemptOrganizationVerification2025.pd-ce7047e4.pdf",
+    "content_type": "application/pdf",
+    "content_sha256": "9ffaf004ca276242c228ba0e87ad279109f206b69acbb002784ec3f18646476e",
+    "perma_url": null,
+    "wayback_url": null,
+    "captured_at": "2026-09-29T20:08:53.270273+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
   }
 ]
