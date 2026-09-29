@@ -1,5 +1,18 @@
 [
   {
+    "source_url": "https://business4.wv.gov/operatemybusiness/Pages/Annual-Reporting.aspx",
+    "primary": false,
+    "local_path": "WV/business4.wv.gov-operatemybusiness-Pages-Annual-Reporting.aspx-a3813931.html",
+    "content_type": "text/html; charset=utf-8",
+    "content_sha256": "22720d74f74e07fba2dba30c8e963dd69d7f08d001b6353b65d48139a882cfeb",
+    "perma_url": null,
+    "wayback_url": null,
+    "captured_at": "2026-09-29T20:22:07.142062+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
+  },
+  {
     "source_url": "https://code.wvlegislature.gov/29-19-5/",
     "primary": true,
     "local_path": "WV/code.wvlegislature.gov-29-19-5.html",
@@ -34,5 +47,18 @@
     "captured_at": "2026-07-31T16:54:46.806232+00:00",
     "signed": false,
     "tls_chain_unverified": false
+  },
+  {
+    "source_url": "https://tax.wv.gov/Documents/TSD/tsd320.pdf",
+    "primary": false,
+    "local_path": "WV/tax.wv.gov-Documents-TSD-tsd320.pdf-6862b195.pdf",
+    "content_type": "application/pdf",
+    "content_sha256": "744b273502beb7f11b97dfee5cebf2e89e1e7b44bb9850562cc498955faf9f54",
+    "perma_url": null,
+    "wayback_url": null,
+    "captured_at": "2026-09-29T20:22:07.142062+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
   }
 ]
