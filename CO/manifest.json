@@ -1,5 +1,18 @@
 [
   {
+    "source_url": "https://content.leg.colorado.gov/sites/default/files/images/olls/crs2024-title-06.pdf",
+    "primary": false,
+    "local_path": "CO/content.leg.colorado.gov-sites-default-files-images-olls-crs2024-title-06.pdf-09094698.pdf",
+    "content_type": "application/pdf",
+    "content_sha256": "560ff6d64b5afdf2a3bc5ac917a392269d16270a029b252ff8f7957deb38b423",
+    "perma_url": null,
+    "wayback_url": null,
+    "captured_at": "2026-09-29T20:02:57.889186+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
+  },
+  {
     "source_url": "https://leg.colorado.gov/sites/default/files/images/olls/crs2023-title-06.pdf",
     "primary": true,
     "local_path": "CO/leg.colorado.gov-sites-default-files-images-olls-crs2023-title-06.pdf.pdf",
@@ -10,6 +23,32 @@
     "captured_at": "2026-07-02T09:05:39.984474+00:00",
     "signed": true,
     "tls_chain_unverified": false
+  },
+  {
+    "source_url": "https://www.coloradosos.gov/pubs/charities/CCSARegInstr.html",
+    "primary": false,
+    "local_path": "CO/www.coloradosos.gov-pubs-charities-CCSARegInstr.html-5585b698.html",
+    "content_type": "text/html",
+    "content_sha256": "d8243c1ff44ad9d1f8821d00d3d5d5beb684dc8281aa4c1627fb3a902c00710b",
+    "perma_url": null,
+    "wayback_url": "https://web.archive.org/web/20260929200314/https://www.coloradosos.gov/pubs/charities/CCSARegInstr.html",
+    "captured_at": "2026-09-29T20:02:57.889186+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
+  },
+  {
+    "source_url": "https://www.coloradosos.gov/pubs/charities/FAQ/disclosure.html",
+    "primary": false,
+    "local_path": "CO/www.coloradosos.gov-pubs-charities-FAQ-disclosure.html-76642a26.html",
+    "content_type": "text/html",
+    "content_sha256": "e41758017b56105ef310fd7dec3a8a5b6248384b7f9aaa3808b81f34bf6f3d92",
+    "perma_url": null,
+    "wayback_url": "https://web.archive.org/web/20260929200619/https://www.coloradosos.gov/pubs/charities/FAQ/disclosure.html",
+    "captured_at": "2026-09-29T20:02:57.889186+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
   },
   {
     "source_url": "https://www.coloradosos.gov/pubs/charities/charitableHome.html",
@@ -59,5 +98,83 @@
     "signed": true,
     "tls_chain_unverified": false,
     "primary_demoted": "2026-07-09 CO promote: singular-primary invariant (guard exactly-one-primary); statute OLLS PDF is the corrected-method basis; renew.html retained as secondary per CO.sql sign-off (the lossy operational framing that missed the earlier-of coupling)"
+  },
+  {
+    "source_url": "https://www.coloradosos.gov/pubs/charities/instructions/solicitors/registrationLine.html",
+    "primary": false,
+    "local_path": "CO/www.coloradosos.gov-pubs-charities-instructions-solicitors-registrationLine.html-b507421d.html",
+    "content_type": "text/html",
+    "content_sha256": "b73a3febca4415186df8f931f5b7364749efb9d549051b305e2adc9a533c89a4",
+    "perma_url": null,
+    "wayback_url": null,
+    "captured_at": "2026-09-29T20:02:57.889186+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
+  },
+  {
+    "source_url": "https://www.sos.state.co.us/pubs/charities/FAQ/registration.html",
+    "primary": false,
+    "local_path": "CO/www.sos.state.co.us-pubs-charities-FAQ-registration.html-85650e9b.html",
+    "content_type": "text/html",
+    "content_sha256": "66c558bd92bc41301937457dc0b18aa4e803957005313a5cbffddece8b2c24a0",
+    "perma_url": null,
+    "wayback_url": "https://web.archive.org/web/20260929200455/https://www.sos.state.co.us/pubs/charities/FAQ/registration.html",
+    "captured_at": "2026-09-29T20:02:57.889186+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
+  },
+  {
+    "source_url": "https://www.sos.state.co.us/pubs/charities/charitableHome.html",
+    "primary": false,
+    "local_path": "CO/www.sos.state.co.us-pubs-charities-charitableHome.html-9e11767d.html",
+    "content_type": "text/html",
+    "content_sha256": "738f34ef73ae19d6e4009d16a7f7198e8b91bbfafdd45e37e3f36be0b6f0b627",
+    "perma_url": null,
+    "wayback_url": null,
+    "captured_at": "2026-09-29T20:02:57.889186+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
+  },
+  {
+    "source_url": "https://www.sos.state.co.us/pubs/charities/filings.html",
+    "primary": false,
+    "local_path": "CO/www.sos.state.co.us-pubs-charities-filings.html-d7b0276c.html",
+    "content_type": "text/html",
+    "content_sha256": "7f426708d6380a1b8f51eadb30306ca15004793941ece2f0a4df8e31dccae8f2",
+    "perma_url": null,
+    "wayback_url": null,
+    "captured_at": "2026-09-29T20:02:57.889186+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
+  },
+  {
+    "source_url": "https://www.sos.state.co.us/pubs/info_center/fees/business.html",
+    "primary": false,
+    "local_path": "CO/www.sos.state.co.us-pubs-info_center-fees-business.html-719424ef.html",
+    "content_type": "text/html",
+    "content_sha256": "61b435aa939d3883ba8077e8ae6124090eba09c7e2bfd6327fb98a08a7525505",
+    "perma_url": null,
+    "wayback_url": null,
+    "captured_at": "2026-09-29T20:02:57.889186+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
+  },
+  {
+    "source_url": "https://www.sos.state.co.us/pubs/info_center/fees/charitable.html",
+    "primary": false,
+    "local_path": "CO/www.sos.state.co.us-pubs-info_center-fees-charitable.html-f4a3b154.html",
+    "content_type": "text/html",
+    "content_sha256": "b77919b8558c9f5a4a837bab5ed44b330afe34ec90abcfd4a4e1942922694499",
+    "perma_url": null,
+    "wayback_url": "https://web.archive.org/web/20260929200552/https://www.sos.state.co.us/pubs/info_center/fees/charitable.html",
+    "captured_at": "2026-09-29T20:02:57.889186+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
   }
 ]
