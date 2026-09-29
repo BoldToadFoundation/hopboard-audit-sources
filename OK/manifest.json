@@ -51,6 +51,19 @@
     "tls_chain_unverified": false
   },
   {
+    "source_url": "https://www.oscn.net/applications/oscn/DeliverDocument.asp?CiteID=66920",
+    "primary": false,
+    "local_path": "OK/www.oscn.net-applications-oscn-DeliverDocument.asp-CiteID-66920-00ff6f3d.html",
+    "content_type": "text/html",
+    "content_sha256": "a2f86a54dbb97c7bb035114f27f9f61f4966a085dc3051e164478a7b3d6d90ae",
+    "perma_url": null,
+    "wayback_url": "https://web.archive.org/web/20260717152838/https://www.oscn.net/applications/oscn/DeliverDocument.asp?CiteID=66920",
+    "captured_at": "2026-09-29T21:06:33.482782+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
+  },
+  {
     "source_url": "https://www.sos.ok.gov/corp/",
     "primary": false,
     "local_path": "OK/www.sos.ok.gov-corp-748e4efa.html",
