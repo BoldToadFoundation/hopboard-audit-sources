@@ -290,6 +290,32 @@
     "perma_policy": "local_only (D-070)"
   },
   {
+    "source_url": "https://dlcp.dc.gov/sites/default/files/dc/sites/DLCP/service_content/attachments/Charitable%20Services%20Business%20Worksheet%20%28Fillable%29_0.pdf",
+    "primary": false,
+    "local_path": "DC/dlcp.dc.gov-sites-default-files-dc-sites-DLCP-service_content-attachments-Charit-78402066.pdf",
+    "content_type": "application/pdf",
+    "content_sha256": "3035515a1ea004bcfaf26cd5c81157e0e89c34af799a3ad3f149cf7c5f8d1aad",
+    "perma_url": null,
+    "wayback_url": null,
+    "captured_at": "2026-09-29T21:05:26.758428+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
+  },
+  {
+    "source_url": "https://otr.cfo.dc.gov/page/exemptions-audit-division",
+    "primary": false,
+    "local_path": "DC/otr.cfo.dc.gov-page-exemptions-audit-division-dd261bbd.html",
+    "content_type": "text/html; charset=UTF-8",
+    "content_sha256": "7984770b6104dfc73dd1763a0eaad131e1adb548d53477ad33209e7b4b43e0d1",
+    "perma_url": null,
+    "wayback_url": "https://web.archive.org/web/20260929210614/https://otr.cfo.dc.gov/page/exemptions-audit-division",
+    "captured_at": "2026-09-29T21:05:26.758428+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
+  },
+  {
     "source_url": "https://web.archive.org/web/20260523173834/https://code.dccouncil.gov/us/dc/council/code/sections/44-1704",
     "primary": false,
     "local_path": "DC/web.archive.org-web-20260523173834-https-code.dccouncil.gov-us-dc-council-code-s.html",
