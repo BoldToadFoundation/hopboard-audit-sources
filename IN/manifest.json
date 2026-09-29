@@ -76,6 +76,19 @@
     "captured_at_basis": "CORRECTED 2026-08-08 per Tony ruling (captured_at = when the BYTES were captured from the source, not when we ingested them). True date read from the 14-digit snapshot timestamp in this entry's own source_url; verified against the Internet Archive CDX index (a snapshot exists at exactly that timestamp, status 200) before the correction was propagated. Prior value was the 2026-06-12 wayback_snapshot re-homing INGEST date, preserved in ingested_at."
   },
   {
+    "source_url": "https://www.in.gov/attorneygeneral/consumer-protection-division/charities-and-donors/",
+    "primary": false,
+    "local_path": "IN/www.in.gov-attorneygeneral-consumer-protection-division-charities-and-donors-ed455b1c.html",
+    "content_type": "text/html; charset=UTF-8",
+    "content_sha256": "bb9a5f38aa19db643d6c88c1e64e012fd2bc670e1ae84b4e51f8760cf71f6a80",
+    "perma_url": null,
+    "wayback_url": "https://web.archive.org/web/20260929202529/https://www.in.gov/attorneygeneral/consumer-protection-division/charities-and-donors/",
+    "captured_at": "2026-09-29T20:25:15.347999+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
+  },
+  {
     "source_url": "https://www.in.gov/attorneygeneral/consumer-protection-division/charities-and-donors/charitable-fundraising/",
     "primary": false,
     "local_path": "IN/www.in.gov-attorneygeneral-consumer-protection-division-charities-and-donors-cha.html",
