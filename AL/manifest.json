@@ -25,6 +25,19 @@
     "perma_policy": "local_only (D-070)"
   },
   {
+    "source_url": "https://www.alabamaag.gov/wp-content/uploads/2026/05/File-Consumer-AL-Charitable-Organization-Registration.pdf",
+    "primary": false,
+    "local_path": "AL/www.alabamaag.gov-wp-content-uploads-2026-05-File-Consumer-AL-Charitable-Organiz-65f49fc9.pdf",
+    "content_type": "application/pdf",
+    "content_sha256": "91bfdb233eb39b7b323ef9c0657a8cb4df4669a7812a46dfbbf396be2179e9f5",
+    "perma_url": null,
+    "wayback_url": null,
+    "captured_at": "2026-09-29T20:59:26.645886+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
+  },
+  {
     "source_url": "https://www.alabamaag.gov/wp-content/uploads/2026/05/File-Consumer-AL-Charitable-Organization-Renewal.pdf",
     "primary": false,
     "local_path": "AL/www.alabamaag.gov-wp-content-uploads-2026-05-File-Consumer-AL-Charitable-Organiz.pdf",
