@@ -12,6 +12,19 @@
     "tls_chain_unverified": false
   },
   {
+    "source_url": "https://azdor.gov/tax-credits/certification-qcos-and-qfcos",
+    "primary": false,
+    "local_path": "AZ/azdor.gov-tax-credits-certification-qcos-and-qfcos-f80fcc5d.html",
+    "content_type": "text/html; charset=UTF-8",
+    "content_sha256": "b8577c40c5f3c4c665385e9010487cd03a754c68a9549ff3e113e499597165b1",
+    "perma_url": null,
+    "wayback_url": "https://web.archive.org/web/20260929202150/https://azdor.gov/tax-credits/certification-qcos-and-qfcos",
+    "captured_at": "2026-09-29T20:20:38.356566+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
+  },
+  {
     "source_url": "https://azsos.gov/business/other-services/veterans-charities-organizations",
     "primary": false,
     "local_path": "AZ/azsos.gov-business-other-services-veterans-charities-organizations.html",
@@ -42,6 +55,19 @@
     "provenance": "wayback_snapshot re-homing 2026-06-12: id_ raw-variant fetch of the verification row's archive_snapshot_url; load-bearing content byte-grepped at fetch ('annual report': 23 hits); shell-signature sweep (extended 2026-06-12) clean; converts the Wayback-only row to local-backed per the 2026-06-11 local-artifact-required standard",
     "ingested_at": "2026-06-12T19:52:26.144144+00:00",
     "captured_at_basis": "CORRECTED 2026-08-08 per Tony ruling (captured_at = when the BYTES were captured from the source, not when we ingested them). True date read from the 14-digit snapshot timestamp in this entry's own source_url; verified against the Internet Archive CDX index (a snapshot exists at exactly that timestamp, status 200) before the correction was propagated. Prior value was the 2026-06-12 wayback_snapshot re-homing INGEST date, preserved in ingested_at."
+  },
+  {
+    "source_url": "https://www.azcc.gov/docs/default-source/corps-files/instructions/c011i-instructions-articles-of-inc-nonprofit.pdf?sfvrsn=eac39497_2",
+    "primary": false,
+    "local_path": "AZ/www.azcc.gov-docs-default-source-corps-files-instructions-c011i-instructions-art-31906722.pdf",
+    "content_type": "application/pdf",
+    "content_sha256": "edbf900337e35e657973ae3b468266923feaf3be09dc45c712b42718982ea1f8",
+    "perma_url": null,
+    "wayback_url": null,
+    "captured_at": "2026-09-29T20:20:38.356566+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
   },
   {
     "source_url": "https://www.azleg.gov/ars/10/03122.htm",
@@ -126,5 +152,18 @@
     "captured_at": "2026-07-03T15:07:18.862910+00:00",
     "signed": false,
     "tls_chain_unverified": false
+  },
+  {
+    "source_url": "https://www.azleg.gov/legtext/51leg/1r/laws/0234.pdf",
+    "primary": false,
+    "local_path": "AZ/www.azleg.gov-legtext-51leg-1r-laws-0234.pdf-a15687d0.pdf",
+    "content_type": "application/pdf",
+    "content_sha256": "d38b5f3973703befe132b239f1f65462c9853075871b43ca66653db9771732cb",
+    "perma_url": null,
+    "wayback_url": "https://web.archive.org/web/20260929202039/https://www.azleg.gov/legtext/51leg/1r/laws/0234.pdf",
+    "captured_at": "2026-09-29T20:20:38.356566+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
   }
 ]
