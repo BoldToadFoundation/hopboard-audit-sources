@@ -1,5 +1,19 @@
 [
   {
+    "source_url": "https://advance.lexis.com/container/?pdmfid=1000516&pdtocsearchterm=43-17-9+paid+solicitor+calendar+years&pdtocsearchoption=docsonly",
+    "primary": false,
+    "local_path": "GA/advance.lexis.com-container-pdmfid-1000516-pdtocsearchterm-43-17-9-paid-solicito-20cad195.html",
+    "content_type": "text/html",
+    "content_sha256": "23d5ca8dc218a346cdd4551f72a4fc9280cbca32082e4f7ef4930c0e77179053",
+    "perma_url": null,
+    "wayback_url": null,
+    "captured_at": "2026-09-29T21:54:34.829457+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "ingested_from_file": true,
+    "provenance": "browser_captured (automated variant): playwright chromium headless PAGE NAVIGATION 2026-09-29 to the Georgia General Assembly public access to the Official Code of Georgia Annotated (advance.lexis.com, the link sos.ga.gov/page/charitable-solicitations-act-and-rules gives for the Act), terms search '43-17-9 paid solicitor calendar years'; bytes are the rendered results page (page.content()), whose O.C.G.A. 43-17-9 hit carries the (a)(5) text as a search snippet and the section's history note; session crid dropped from the URL. Opening the document itself returned a RobotValidation captcha to the same headless page navigation."
+  },
+  {
     "source_url": "https://consumer.georgia.gov/consumer-topics/charities",
     "primary": false,
     "local_path": "GA/consumer.georgia.gov-consumer-topics-charities-af9dce56.html",
