@@ -109,6 +109,20 @@
     "provenance": "curl with a Chrome browser User-Agent (plain HTTP GET, no JS), 2026-09-29; the capture tool's own fetcher received 403 for this URL in the same session, so the raw bytes were fetched by curl and ingested"
   },
   {
+    "source_url": "https://sos-tn-gov-files.tnsosfiles.com/forms/SS-6002%20990%20Instruction.pdf",
+    "primary": false,
+    "local_path": "TN/sos-tn-gov-files.tnsosfiles.com-forms-SS-6002-20990-20Instruction.pdf-336ab21f.bin",
+    "content_type": "application/octet-stream",
+    "content_sha256": "5ef8941d4aa12dc640aa00bc4f95d953cb932aeb3aea505eca56891f9078c16c",
+    "perma_url": null,
+    "wayback_url": null,
+    "captured_at": "2026-09-29T21:07:36.176236+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "ingested_from_file": true,
+    "provenance": "curl with a Chrome browser User-Agent (plain HTTP GET, no JS), 2026-09-29; the capture tool's own fetcher received 403 for this URL in the same session, so the raw bytes were fetched by curl and ingested"
+  },
+  {
     "source_url": "https://sos.tn.gov/charities",
     "primary": false,
     "local_path": "TN/sos.tn.gov-charities-0583c6ed.bin",
