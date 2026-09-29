@@ -39,6 +39,32 @@
     "perma_backfilled_at": "2026-07-12T21:07:30.272803+00:00"
   },
   {
+    "source_url": "https://www.nj.gov/treasury/taxation/exemptintro.shtml",
+    "primary": false,
+    "local_path": "NJ/www.nj.gov-treasury-taxation-exemptintro.shtml-c051789f.html",
+    "content_type": "text/html",
+    "content_sha256": "fe9ac6508785e24b16fa5223ba16a353e4ce0ebf4bff1d44152c6536c8b50353",
+    "perma_url": null,
+    "wayback_url": "https://web.archive.org/web/20260929202411/https://www.nj.gov/treasury/taxation/exemptintro.shtml",
+    "captured_at": "2026-09-29T20:23:58.022189+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
+  },
+  {
+    "source_url": "https://www.njconsumeraffairs.gov/charities/pages/charities-registration-information.aspx",
+    "primary": false,
+    "local_path": "NJ/www.njconsumeraffairs.gov-charities-pages-charities-registration-information.asp-cb95410a.html",
+    "content_type": "text/html",
+    "content_sha256": "d02032286070b4dd9d8fbd985a7bdca8af8edf52b89ff177db3bfcb2c8a9c43d",
+    "perma_url": null,
+    "wayback_url": null,
+    "captured_at": "2026-09-29T20:23:58.022189+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
+  },
+  {
     "source_url": "https://www.njconsumeraffairs.gov/regulations/Chapter-30-Rules-of-the-Office-of-Consumer-Protection.pdf",
     "primary": true,
     "local_path": "NJ/www.njconsumeraffairs.gov-regulations-Chapter-30-Rules-of-the-Office-of-Consumer-46ddbd9d.pdf",
