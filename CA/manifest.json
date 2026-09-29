@@ -1,5 +1,18 @@
 [
   {
+    "source_url": "https://cdtfa.ca.gov/industry/nonprofit-organizations/getting-started.htm",
+    "primary": false,
+    "local_path": "CA/cdtfa.ca.gov-industry-nonprofit-organizations-getting-started.htm-9e46fa89.html",
+    "content_type": "text/html",
+    "content_sha256": "bc7dac1ddc7cb26f3a19a06752dd098985aa88745053fbf2bddc273e48fd48ed",
+    "perma_url": null,
+    "wayback_url": null,
+    "captured_at": "2026-09-29T19:57:56.136044+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
+  },
+  {
     "source_url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=6210.&lawCode=CORP",
     "primary": true,
     "local_path": "CA/leginfo.legislature.ca.gov-faces-codes_displaySection.xhtml-sectionNum-6210.-law-19f502ba.html",
@@ -17,6 +30,71 @@
       "QNC8-DDUR"
     ],
     "perma_backfilled_at": "2026-08-18T11:15:44.330194+00:00"
+  },
+  {
+    "source_url": "https://oag.ca.gov/charities",
+    "primary": false,
+    "local_path": "CA/oag.ca.gov-charities-f4f32356.html",
+    "content_type": "text/html; charset=utf-8",
+    "content_sha256": "f26598beb4d672b59b84df2356e8c2be182cda4783bb6f7fb910ea5af7133093",
+    "perma_url": null,
+    "wayback_url": "https://web.archive.org/web/20260929195800/https://oag.ca.gov/charities",
+    "captured_at": "2026-09-29T19:57:56.136044+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
+  },
+  {
+    "source_url": "https://oag.ca.gov/charities/delinquency",
+    "primary": false,
+    "local_path": "CA/oag.ca.gov-charities-delinquency-b2d15c8e.html",
+    "content_type": "text/html; charset=utf-8",
+    "content_sha256": "31d951e3525538f154aa08ca9334a64da9844485744e905e2f91aeea40b74090",
+    "perma_url": null,
+    "wayback_url": "https://web.archive.org/web/20260929200126/https://oag.ca.gov/charities/delinquency",
+    "captured_at": "2026-09-29T19:57:56.136044+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
+  },
+  {
+    "source_url": "https://oag.ca.gov/charities/forms",
+    "primary": false,
+    "local_path": "CA/oag.ca.gov-charities-forms-3c997e87.html",
+    "content_type": "text/html; charset=utf-8",
+    "content_sha256": "0c225bbd10404039afea01c5bd6e646a7248dfeaa7a4db3172734e7147b409bc",
+    "perma_url": null,
+    "wayback_url": null,
+    "captured_at": "2026-09-29T19:57:56.136044+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
+  },
+  {
+    "source_url": "https://oag.ca.gov/charities/initial-reg",
+    "primary": false,
+    "local_path": "CA/oag.ca.gov-charities-initial-reg-a7131b74.html",
+    "content_type": "text/html; charset=utf-8",
+    "content_sha256": "7054200046d6171d8c059c1b7a832a5f8086b61203b00d72a87ba615ca6aace0",
+    "perma_url": null,
+    "wayback_url": null,
+    "captured_at": "2026-09-29T19:57:56.136044+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
+  },
+  {
+    "source_url": "https://oag.ca.gov/charities/pf/cf",
+    "primary": false,
+    "local_path": "CA/oag.ca.gov-charities-pf-cf-18283318.html",
+    "content_type": "text/html; charset=utf-8",
+    "content_sha256": "f9322129771c508f956756e0f3c6a23d26f64d5cf879568281c9676f8c61055c",
+    "perma_url": null,
+    "wayback_url": null,
+    "captured_at": "2026-09-29T19:57:56.136044+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
   },
   {
     "source_url": "https://oag.ca.gov/charities/renewals",
@@ -44,6 +122,45 @@
     "primary_demoted": "2026-07-10 SAME-SESSION demote: captured as intended official primary, then byte-read FAILED CURRENCY \u2014 Last-Modified 2013, and its \u00a7305 is amendment MARKUP (old offset text + inserted day:15 text flattened adjacent by extraction). Retained as superseded-historical evidence of the rule flip-flop (offset -> day:15 (2013) -> offset (current)). NEVER a verify-string source: it byte-contains BOTH forms, so any string check against it is ambiguous by construction."
   },
   {
+    "source_url": "https://oag.ca.gov/system/files/media/ct-tr1-form.pdf",
+    "primary": false,
+    "local_path": "CA/oag.ca.gov-system-files-media-ct-tr1-form.pdf-4b2a6fc5.pdf",
+    "content_type": "application/pdf",
+    "content_sha256": "75a36b76dfe36a0972b42a4535e738049335ccec6b27adaa202962edbcd940d3",
+    "perma_url": null,
+    "wayback_url": null,
+    "captured_at": "2026-09-29T19:57:56.136044+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
+  },
+  {
+    "source_url": "https://oag.ca.gov/system/files/media/ct1-form.pdf",
+    "primary": false,
+    "local_path": "CA/oag.ca.gov-system-files-media-ct1-form.pdf-41eebdf3.pdf",
+    "content_type": "application/pdf",
+    "content_sha256": "dd58fc45ec20042d6ea76910e130ada1865b88d0507d643e6d21e6b0e3488f61",
+    "perma_url": null,
+    "wayback_url": null,
+    "captured_at": "2026-09-29T19:57:56.136044+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
+  },
+  {
+    "source_url": "https://oag.ca.gov/system/files/media/initialReg.pdf",
+    "primary": false,
+    "local_path": "CA/oag.ca.gov-system-files-media-initialReg.pdf-459e68cb.pdf",
+    "content_type": "application/pdf",
+    "content_sha256": "1fa54fc5c4eddff7bf266880cf4b949500a210f1dafa8f45ea5a22cff124b495",
+    "perma_url": null,
+    "wayback_url": "https://web.archive.org/web/20260731065059/https://oag.ca.gov/system/files/media/initialReg.pdf",
+    "captured_at": "2026-09-29T19:57:56.136044+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
+  },
+  {
     "source_url": "https://oag.ca.gov/system/files/media/rrf1_form.pdf",
     "primary": false,
     "local_path": "CA/oag.ca.gov-system-files-media-rrf1_form.pdf.pdf",
@@ -54,6 +171,19 @@
     "captured_at": "2026-06-10T23:01:02.207164+00:00",
     "signed": true,
     "tls_chain_unverified": false
+  },
+  {
+    "source_url": "https://www.ftb.ca.gov/file/business/types/charities-nonprofits/index.html",
+    "primary": false,
+    "local_path": "CA/www.ftb.ca.gov-file-business-types-charities-nonprofits-index.html-8500d892.html",
+    "content_type": "text/html",
+    "content_sha256": "267fb4917661d6c6157acc0509d1c0d1e8225f30d0fd42808bfc09f9f810986e",
+    "perma_url": null,
+    "wayback_url": null,
+    "captured_at": "2026-09-29T19:57:56.136044+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
   },
   {
     "source_url": "https://www.law.cornell.edu/regulations/california/11-CCR-305",

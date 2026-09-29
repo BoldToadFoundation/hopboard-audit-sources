@@ -1,0 +1,719 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!--[if IE 9]>    <html class="no-js ie9 oldie" lang="en"> <![endif]-->
+<!--[if (gt IE 9)]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+<head>
+<!--
+California State Template
+Version 5.0
+
+Based on Twitter Bootstrap
+-->
+<meta charset="utf-8">
+<title>Getting Started &mdash; Tax Guide for Nonprofit Organizations</title>
+<meta name="Author" content="California Department of Tax and Fee Administration" />
+<meta name="Description" content="Although many nonprofit and religious organizations are exempt from federal and state income tax, there is no similar broad exemption from California sales and use tax. While there is no general sales tax exclusion for nonprofit organizations, certain types of organizations are eligible for specific tax exemptions and exclusions." />
+<meta name="Keywords" content="Taxes, Fees, Nonprofit, Religious, Charitable, Schools, Human Services, Veterans, Organizations, Exempt, Exemption, Welfare Exemption, Donations, Volunteer" />
+
+<meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
+
+<!-- Public Sans Font
+Load the recommended Public Sans Font.  Removing this section will use System-UI font stack instead.
+-->
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link
+  href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=block"
+  rel="stylesheet" />
+<!-- End Public Sans Font --> 
+
+<!-- State Template CSS Begin --> 
+<!-- Core CSS -->
+<link rel="stylesheet" href="/css/cagov.core.css" />
+
+<!-- Colorscheme CSS -->
+<link rel="stylesheet" href="/css/colortheme-oceanside.css" />
+
+<!-- Custom CSS -->
+<link rel="stylesheet" href="/css/custom.css"/>
+<!-- State Template CSS End --> 
+
+<!-- FontAwesome CSS -->
+<link rel="stylesheet" href="/css/v4-shims.min.css">
+<link rel="stylesheet" href="/css/all.min.css">
+
+<!-- Full Calendar CSS -->
+<link rel="stylesheet" href="/css/fullcalendar.css"/>
+
+<!-- CDT Statewide Alert - Added 8/25/23 --> 
+<script defer src="https://alert.cdt.ca.gov" crossorigin="anonymous"></script> 
+
+<!-- Load jQuery from CDN with fallback to local copy --> 
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" 
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" 
+    crossorigin="anonymous"></script> 
+<script>
+    //Fall back to local copy if no jquery found
+    if (typeof jQuery == 'undefined') {
+        document.write(unescape("%3Cscript src='/js/libs/jquery-3.6.0.min.js' type='text/javascript'%3E%3C/script%3E"));
+    }
+</script> 
+
+<!-- apple touch icons -->
+<link
+  rel="apple-touch-icon-precomposed"
+  sizes="100x100"
+  href="/images/apple-touch-icon-precomposed.png" />
+<link rel="icon" sizes="192x192" href="/images/apple-touch-icon-192x192.png" />
+<link
+  rel="apple-touch-icon-precomposed"
+  sizes="180x180"
+  href="/images/apple-touch-icon-180x180.png" />
+<link
+  rel="apple-touch-icon-precomposed"
+  sizes="152x152"
+  href="/images/apple-touch-icon-152x152.png" />
+<link
+  rel="apple-touch-icon-precomposed"
+  sizes="144x144"
+  href="/images/apple-touch-icon-144x144.png" />
+<link
+  rel="apple-touch-icon-precomposed"
+  sizes="120x120"
+  href="/images/apple-touch-icon-120x120.png" />
+<link
+  rel="apple-touch-icon-precomposed"
+  sizes="114x114"
+  href="/images/apple-touch-icon-114x114.png" />
+<link
+  rel="apple-touch-icon-precomposed"
+  sizes="72x72"
+  href="/images/apple-touch-icon-72x72.png" />
+<link
+  rel="apple-touch-icon-precomposed"
+  href="/images/apple-touch-icon-57x57.png" />
+<link rel="icon" href="/images/apple-touch-icon-57x57.png" />
+<link rel="apple-touch-icon" href="/images/apple-touch-icon.png" />
+<link rel="icon" href="/favicon.ico" />
+
+<!-- Include Google Analytics --> 
+<!--Google Tag Manager -->
+<script>
+	(function (w, d, s, l, i) {
+		w[l] = w[l] || []; w[l].push({
+			'gtm.start':
+				new Date().getTime(), event: 'gtm.js'
+		}); var f = d.getElementsByTagName(s)[0],
+			j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+				'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+	})(window, document, 'script', 'dataLayer', 'GTM-W42NR96R');
+</script> 
+
+<script type="text/javascript">
+	var defaultActiveLink = "";
+</script>
+</head>
+
+<body>
+
+<header role="banner" id="header" class="global-header fixed"> 
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "California Department of Tax and Fee Administration | (.gov)",
+  "url": "https://cdtfa.ca.gov"
+}
+</script>
+  <div id="skip-to-content" class="sr-only"> <a href="#main-content" class="p-a-sm">Skip to Main Content</a> </div>
+  
+  <!-- Alert Banner Begin -->
+  <div data-nosnippet>
+    <div class="alert alert-cdtfa alert-dismissable hidden" role="banner" aria-labelledby="banner-alert">
+      <button type="button" class="close ms-lg-auto" data-bs-dismiss="alert" aria-label="Close"> <span class="ca-gov-icon-close-mark" aria-hidden="true"></span> </button>
+      <p class="sr-only" id="banner-alert">Alert from California Department of Tax and Fee Administration</p>
+      <div class="alert-heading h4 m-t-0"><strong>ALERT</strong></div>
+      <p>If you have been <strong>affected by a California disaster</strong>, please refer to our <a href="https://www.cdtfa.ca.gov/services/state-of-emergency-tax-relief.htm">State of Emergency Tax Relief</a> page for a list of declared disasters and instructions on how to apply for relief.</p>
+ 
+    </div>
+  </div>
+  <!-- Alert Banner End --> 
+  
+  <!-- Include Utility Header --> 
+    <div class="utility-header p-y-sm">
+    <div class="container">
+      <div class="flex-row">
+        <div class="social-media-links">
+          <div class="header-cagov-logo align-middle"> 
+			  <a href="https://www.ca.gov/"><span class="sr-only">CA.gov</span><span class="ca-gov-logo-svg"></span></a> 
+          </div>
+        </div>
+        <div class="settings-links align-middle"> <a href="https://onlineservices.cdtfa.ca.gov/?Link=Landing" class="btn btn-light p-x-sm p-y-sm ms-0" role="button">Login</a> <a href="https://onlineservices.cdtfa.ca.gov/eserv/?Link=RegLanding" class="btn btn-light p-x-sm p-y-sm ms-2" role="button">Register</a> <a href="/languages.htm" class="btn btn-light p-x-sm p-y-sm ms-2" role="button">Translate</a> </div>
+      </div>
+    </div>
+  </div> 
+  
+  <!-- Include Branding --> 
+  <!-- header branding -->
+<div class="section-default">
+  <div class="branding">
+    <div class="header-organization-banner"> <a href="/">
+      <div class="logo-assets"> <img
+            src="/images/CDTFA-logo.png"
+            class="logo-img"
+            alt="CDTFA logo"
+            style="aspect-ratio: 80 / 70" />
+        <div class="logo-text"> <span class="logo-state">California Department of</span> <span class="logo-dept">Tax and Fee Administration</span> </div>
+      </div>
+      </a> 
+    </div>
+  </div>
+</div> 
+  
+  <!-- Include Mobile Controls --> 
+  <!-- mobile navigation controls -->
+<div class="mobile-controls"> 
+  <span class="mobile-control-group mobile-header-icons"> 
+  <!-- Add more mobile controls here. These will be on the right side of the mobile page header section --> 
+  </span>
+  <div class="mobile-control-group main-nav-icons">
+    <button
+      id="nav-icon3"
+      type="button"
+      class="mobile-control toggle-menu"
+      aria-expanded="false"
+      aria-controls="navigation"> 
+		<span></span> 
+		<span></span> 
+		<span></span> 
+		<span></span> 
+		<span class="sr-only">Menu</span> 
+    </button>
+  </div>
+</div>
+  
+  <div class="navigation-search full-width-nav container"> 
+    
+    <!-- Include Search --> 
+    <style>
+.gsc-search-button {
+    display: revert !important;
+}
+</style>
+<!-- Main Search Begin -->
+<div id="head-search" class="search-container featured-search">
+  <div class="container">
+    <form id="Search" class="pos-rel" action="/serp.htm">
+      <span class="sr-only" id="SearchInput">Custom Google Search</span>
+      <input type="search" id="q" name="q" aria-labelledby="SearchInput" placeholder="Search CDTFA" class="search-textfield height-50" />
+      <button type="submit" class="gsc-search-button m-l-0"><span class="ca-gov-icon-search font-size-20"></span> <span class="sr-only">Submit</span></button>
+      <div class="close-search-btn">
+        <button class="close-search gsc-clear-button border-0 bg-transparent pos-rel" type="reset"><span class="sr-only">Close Search</span></button>
+      </div>
+    </form>
+  </div>
+</div>
+<!-- Main Search End --> 
+    
+    <!-- Include Navigation --> 
+    <style>
+a.second-level-link {
+    display: block !important;
+  }
+</style>
+
+<!-- Dropdown Navigation Begin -->
+<nav id="navigation" class="main-navigation dropdown">
+  <ul id="nav_list" class="top-level-nav">
+    <li class="nav-item">
+      <a class="first-level-link">How Do I&hellip;</a>
+      <div class="sub-nav">
+        <ul class="second-level-nav">
+          <li>
+            <a href="/services/file-a-return.htm" class="second-level-link">File a Return</a>
+          </li>
+            <li><a href="/services/make-a-prepayment.htm" class="second-level-link">Make a Return Prepayment</a></li>
+          <li>
+            <a href="/taxes-and-fees/rates.htm" class="second-level-link">Find Your Tax Rate</a>
+          </li>
+          <li>
+            <a href="/notices.htm" class="second-level-link">Identify a Letter or Notice</a>
+          </li>
+          <li>
+            <a href="/services/make-a-payment.htm" class="second-level-link">Make a Payment</a>
+          </li>
+          <li>
+            <a href="/services/registration.htm" class="second-level-link">Register for a Permit, License, or Account</a>
+          </li>
+          <li>
+            <a href="/report-violation.htm" class="second-level-link">Report a Violation</a>
+          </li>
+          <li>
+            <a href="/services/request-relief.htm" class="second-level-link">Request an Extension or Relief</a>
+          </li>
+          <li>
+            <a href="https://onlineservices.cdtfa.ca.gov/?Link=PermitSearch" class="second-level-link">Verify a Permit, License, or Account</a>
+          </li>
+        </ul>
+      </div>
+    </li>
+    <li class="nav-item">
+      <a class="first-level-link">Tax Programs</a>
+      <div class="sub-nav">
+        <ul class="second-level-nav">
+          <li>
+            <a href="/taxes-and-fees/sutprograms.htm" class="second-level-link">Sales &amp; Use Tax</a>
+          </li>
+          <li>
+            <a href="/taxes-and-fees/stfprograms.htm" class="second-level-link">Special Taxes &amp; Fees</a>
+          </li>
+        </ul>
+      </div>
+    </li>
+    <li class="nav-item">
+      <a class="first-level-link">Tax Resources</a>
+      <div class="sub-nav">
+        <ul class="second-level-nav">
+          <li>
+            <a href="/taxes-and-fees/calculate.htm" class="second-level-link">Calculators</a>
+          </li>
+          <li>
+            <a href="/tax-education/" class="second-level-link">Tax Education</a>
+          </li>
+          <li>
+            <a href="/formspubs/" class="second-level-link">Forms &amp; Publications</a>
+          </li>
+          <li>
+            <a href="/industry/" class="second-level-link">Industry Guides</a>
+          </li>
+          <li>
+            <a href="/industry/local-jurisdictions-and-districts/" class="second-level-link">Tax Guide for Local Jurisdictions and Districts</a>
+          </li>
+          <li>
+            <a href="/legal/research-and-statistics/reports-and-resources.htm" class="second-level-link">Research &amp; Data Tools</a>
+          </li>
+          <li>
+            <a href="/tra/" class="second-level-link">Taxpayers' Rights Advocate</a>
+          </li>        
+		</ul>
+      </div>
+    </li>
+    <li class="nav-item">
+      <a class="first-level-link">Join Us</a>
+      <div class="sub-nav">
+        <ul class="second-level-nav">
+          <li>
+            <a href="/doing-business-with-cdtfa.htm" class="second-level-link">Doing Business with California</a>
+          </li>
+          <li>
+            <a href="/jobs/" class="second-level-link">Jobs with CDTFA</a>
+          </li>
+          <li>
+            <a href="/subscribe/" class="second-level-link">Sign Up for Updates</a>
+          </li>        
+        </ul>
+      </div>
+    </li>
+    <li class="nav-item">
+      <a class="first-level-link">Contact Us</a>
+      <div class="sub-nav">
+        <ul class="second-level-nav">
+          <li>
+            <a href="/contact.htm" class="second-level-link">Key Contacts</a>
+          </li>
+          <li>
+            <a href="/customer-service-dashboard/" class="second-level-link">Call Wait Times</a>
+          </li>
+          <li>
+            <a href="/office-locations.htm" class="second-level-link">Office Locations</a>
+          </li>   
+          <li>
+            <a href="/SocialMedia/" class="second-level-link">Social Media</a>
+          </li>        
+        </ul>
+      </div>
+    </li>
+  </ul>
+</nav>
+<!-- Dropdown Navigation End --> 
+    
+  </div>
+</header>
+
+
+<div id="main-content" class="main-content">
+    <main class="main-primary">
+        <div class="section section-cdtfa">
+            <div class="container">
+                <div><img src="/images/industry/state-capitol.png" alt="California State Capitol Building" class="banner-img"></div>
+                <nav aria-labelledby="breadcrumbs" lang="en" dir="ltr">
+  <p id="breadcrumbs" class="sr-only">Breadcrumbs:</p>
+  <ol class="breadcrumb dynamic">
+    <li><a href="/">Home</a></li>
+  </ol>
+</nav>
+                <h1 class="bm-b-0">Tax Guide for Nonprofit Organizations<br>
+                    <span class="h2">Getting Started</span></h1>
+            </div>
+        </div>
+        <div class="container p-t-md">
+            <div class="row">
+                <div class="col-lg-3 m-t-sm"> 
+                    <nav aria-label="list navigation">
+	<ul class="list-navigation">
+		<li><a href="/industry/nonprofit-organizations/">Overview</a></li>
+		<li><a href="/industry/nonprofit-organizations/getting-started.htm">Getting Started</a></li>
+		<li><a href="/industry/nonprofit-organizations/industry-topics.htm">Industry Topics</a></li>
+		<li><a href="/industry/nonprofit-organizations/types-of-organizations.htm">Types of Organizations</a></li>
+		<li><a href="/industry/nonprofit-organizations/resources.htm">Resources</a></li>
+    	<li><a href="/industry/" class="uplevel"><span class="sr-only">Back to </span>Industry Guides</a></li>
+	</ul>
+</nav>
+ 
+                </div>
+                <div class="col-lg-9 p-b-lg">
+                    <p>Although many nonprofit and religious organizations are exempt from federal and state income tax, there is no similar broad exemption from California sales and use tax. While there is no general sales tax exclusion for nonprofit organizations, certain types of organizations are eligible for specific tax exemptions and exclusions.</p>
+                    <p>You will find these tools helpful in registering or maintaining your account or researching valuable information about your nonprofit organization.</p>
+                    <h2>Registration</h2>
+                    <p><a href="/services/registration.htm">Online Registration</a> &mdash; Register with us for your seller's permit, or add a business location to an existing account.</p>
+                    <h2>Filing and Payments</h2>
+                    <ul>
+                        <li><a href="/taxes-and-fees/sales-use-tax-returns-filing-dates.htm">Tax Return Filing Deadlines</a> &mdash; Find your filing due dates.</li>
+                        <li><a href="/services/file-a-return.htm">File a Tax Return Online</a> &mdash; Our online filing service is easy, fast, and free!</li>
+                        <li><a href="/services/make-a-payment.htm">Online Payment Options</a> &mdash; Make payments online for tax and fee programs.</li>
+                        <li><a href="/formspubs/cdtfa345web.pdf">Notice of Business Change</a> &mdash; Keep your information current by using this form to notify us of any business changes.</li>
+                    </ul>
+                    <p>You may find these links helpful in determining which Income and Property tax exemptions you may qualify for.</p>
+                    <ul>
+                        <li><a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=214.&lawCode=RTC">Revenue and Taxation Code 214 &ldquo;welfare exemption&rdquo;</a></li>
+                        <li><a href="https://oag.ca.gov/sites/all/files/agweb/pdfs/gambling/revtaxcode.pdf">Revenue and Taxation Code 23701</a></li>
+                        <li><a href="https://www.irs.gov/charities-non-profits/charitable-organizations/exemption-requirements-section-501c3-organizations">Internal Revenue Code Section 501(c)(3)</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </main>
+</div>
+
+<!-- Global Footer Begin -->
+<footer id="footer" class="global-footer">
+  <aside class="p-y-sm section-impact site-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3"> 
+          <!-- Leadership Links Begin -->
+          <h3 class="h4 m-b-0">Leadership</h3>
+          <ul class="list-unstyled leadership">
+            <li class="gov"><strong>Gavin Newsom</strong><br>
+              <span class="small"><a href="https://www.gov.ca.gov/">Governor</a></span> </li>
+            <li class="m-t-sm govops"><strong>Nick Maduros</strong><br>
+              <span class="small"><a href="https://www.govops.ca.gov/about/leadership/">Secretary, Government Operations Agency</a></span> </li>
+            <li class="m-t-sm cdtfa-dir"><strong>Trista Gonzalez</strong><br>
+              <span class="small">Director, CDTFA</span> </li>
+          </ul>
+          <!-- Leadership Links End --> 
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3"> 
+          <!-- Quick Links Begin -->
+          <h3 class="h4 m-b-0">Quick Links</h3>
+          <ul class="list-unstyled">
+            <li><a href="/about.htm">About CDTFA</a></li>
+            <li><a href="/external-tax-resources.htm">External Tax Resources</a></li>
+            <li><a href="/legal/tax-scams.htm">Fraud Awareness</a></li>
+            <li><a href="/jobs/">Job Opportunities</a></li>
+            <li><a href="/industry/local-jurisdictions-and-districts/">Tax Guide for Local Jurisdictions and Districts</a></li>
+          </ul>
+          <!-- Quick Links End --> 
+        </div>
+        
+        <!-- State Campaigns Begin -->
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
+          <h3 class="h4 m-b-0">State Campaigns</h3>
+          <ul class="list-unstyled">
+            <li><a href="https://covid19.ca.gov/">COVID-19 Updates</a></li>
+            <li><a href="https://www.flexalert.org/">Flex Alert</a></li>
+            <li><a href="https://registertovote.ca.gov">Register to Vote</a></li>
+            <li><a href="https://saveourwater.com">Save Our Water</a></li>
+          </ul>
+        </div>
+        <!-- State Campaigns End --> 
+        
+        <!-- Contact Links Begin -->
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
+          <h3 class="h4 m-b-0">Contact Us</h3>
+          <ul class="list-unstyled">
+            <li><a href="/contact.htm">Key Contacts</a></li>
+			<li><a href="/customer-service-dashboard/">Call Wait Times</a></li>
+            <li><a href="/office-locations.htm">Office Locations</a></li>
+            <li><a href="/SocialMedia/">Social Media</a></li>
+          </ul>
+          <!--<a class="btn btn-outline-highlight m-t-md" href="/SocialMedia/">Social Media</a>-->
+          <div class="social-media-footer m-y-sm"><a href="https://www.facebook.com/CDTFA" class="ca-gov-icon-facebook m-r-sm" aria-hidden="false"><span class="sr-only">Facebook</span></a> <a href="https://twitter.com/cdtfa" class="ca-gov-icon-twitter m-r-sm" aria-hidden="false"><span class="sr-only">Twitter</span></a> <a href="https://www.youtube.com/channel/UChhR8089KCKrv2p4bbipu8w" class="ca-gov-icon-youtube m-r-sm" aria-hidden="false"><span class="sr-only">YouTube</span></a> <a href="https://www.linkedin.com/company/cdtfa?trk=top_nav_home" class="ca-gov-icon-linkedin m-r-sm" aria-hidden="false"><span class="sr-only">LinkedIn</span></a> <a href="https://www.instagram.com/CDTFA/" class="ca-gov-icon-instagram m-r-sm" aria-hidden="false"><span class="sr-only">Instagram</span></a> </div>
+        </div>
+        <!-- Contact Links End --> 
+      </div>
+      <hr class="yellow-rule m-y-md">
+      
+      <!-- Miscellaneous Footer Links Begin -->
+      <div class="d-flex">
+        <ul class="footer-links m-t-sm">
+          <li><a href="/use.htm">Conditions of Use</a></li>
+          /
+          <li><a href="/privacy.htm">Privacy Policy</a></li>
+          /
+          <li><a href="/accessibility.htm">Accessibility</a></li>
+          /
+          <li><a href="#accessibility-modal" data-bs-toggle="modal" id="acc-cert-button"><span class="ca-gov-icon-certificate" style="font-size:1em !important;line-height: 1em !important;"></span> Accessibility Certificate</a></li>
+          /
+          <li><a href="/languages.htm">Languages</a></li>
+        </ul>
+      </div>
+      <!-- Miscellaneous Footer Links End --> 
+    </div>
+    
+    <!-- Copyright Statement Begin -->
+    <div class="copyright">
+      <div class="container text-left"> <span aria-hidden="true">&copy;</span> <span id="thisyear"> 
+        <script>
+          document.getElementById('thisyear').appendChild(document.createTextNode(new Date().getFullYear()))
+        </script> 
+        </span> California Department of Tax and Fee Administration</div>
+    </div>
+    <!-- Copyright Statement End --> 
+  </aside>
+  
+  <!-- Back to Top -->
+  <button class="return-top"> <span class="sr-only">Back to top</span></button>
+  
+  <!-- Accessibility Certification Modal Begin -->
+  <div class="modal fade" id="accessibility-modal" role="dialog">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 class="modal-title m-t-sm">Website Accessibility Certification</h3>
+          <button type="button" class="close" data-bs-dismiss="modal"> <span class="sr-only">Close modal</span> <span class="ca-gov-icon-close-mark" aria-hidden="true"></span> </button>
+        </div>
+        <div class="modal-body">
+          <p>We strive to provide a website that is easy to use and understand. Our goal is to provide a good web experience for all visitors.</p>
+          <h4>Agency</h4>
+          <p>California Department of Tax and Fee Administration</p>
+          <h4>Certification date</h4>
+          <p>June 5, 2025</p>
+          <a href="mailto:AccessibilityTechnologyInquiry&#64;cdtfa.ca.gov" class="btn btn-secondary m-y-sm" role="button"><span><strong>Accessibility Technology Inquiry</strong></span></a>
+          <p>The undersigned certify that, as of June 5, 2025, the website of the California Department of Tax and Fee Administration is designed, developed, and maintained to be accessible. This denotes compliance with the following:</p>
+          <ul>
+            <li>California Government Code Sections 7405, 11135, and 11546.1</li>
+            <li>Web Content Accessibility Guidelines 2.1 published by the Web Accessibility Initiative of the World Wide Web Consortium</li>
+            <li>At a minimum Level AA success criteria</li>
+          </ul>
+          <div class="row">
+            <div class="half"> <img src="/images/tg-signature.png" alt="Trista Gonzalez Signature"><br>
+              June 25, 2025<br>
+              Trista Gonzalez<br>
+              Director </div>
+            <div class="half"> <img src="/images/sc-signature.png" alt="Scott Capulong Signature"><br>
+              June 6, 2025<br>
+              Scott Capulong<br>
+              Chief Information Officer </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-highlight" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Accessibility Certification Modal End --> 
+  
+</footer>
+<!-- Global Footer End --> 
+
+<!-- Sweet Alert -- Removed More/Less collapsible in mobile to fix accessibility issues -->
+<script>
+	$(document).ready(function () {
+		$('div.alert.alert-cdtfa.alert-dismissable[role="banner"]').on("close.bs.alert", function () {
+			sessionStorage.setItem('cnit', 'dog');
+		});
+		if (sessionStorage.getItem('cnit') == null) {
+			$('div.alert.alert-cdtfa.alert-dismissable[role="banner"]').removeClass('hidden');
+		}
+	});
+</script>
+
+<!-- DataTables -->
+<script src="/js/libs/jquery.dataTables.min.js"></script>
+<script src="/js/libs/jquery.dataTables.sorting.natural.js"></script>
+
+<!-- Load template core -->
+<script src="/js/cagov.core.js"></script>
+
+<!-- Inputmask -->
+<script src="/js/libs/jquery.inputmask.bundle.min.js"></script>
+
+<!-- Siteimprove -->
+<script async src="https://siteimproveanalytics.com/js/siteanalyze_6187384.js"></script>
+<script>
+	//removing grid role form datatables, inaccurate role
+	$(document).on('init.dt', function (e, settings) {
+		$('table.dataTable').removeAttr('role');
+		$('.k-widget.k-dropdown').removeAttr('role');
+	});
+
+	// General document ready. Add actions to run after page loads.
+	$(function () {
+
+		//force toggle ids to be unique
+		var i = 0;
+		$("a[id^='ui-collapse-']").each(function (i) {
+			var indexVal = i.toString();
+			var idVal = ("000" + indexVal).slice(-3);
+			var newID = "ui-collapse-" + idVal;
+			$(this).attr("id", newID);
+			$(this).parent().next().attr("aria-labelledby", newID);
+			var arco = $(this).parent().next().attr('id');
+			$(this).attr("aria-controls", arco);
+		});
+
+		//remove incorrect aria attribute
+		$("[role*='tabpanel']").removeAttr("aria-multiselectable");
+
+		//adding needed aria label
+		$("div[role='tabpanel'],[role='tablist']").each(function () {
+			var tempLabel = $(this).attr("aria-labelledby");
+			$(this).removeAttr("aria-labelledby").attr("aria-label", tempLabel);
+		});
+
+	});
+</script>
+
+<!-- V6 side page nav used on new and existing tax/fee guides -->
+<script>
+$(document).ready(function () {
+  var path = window.location.href; 
+  // because the 'href' property of the DOM element is the absolute path
+  $('nav .list-navigation a').each(function() {
+    if (this.href === path) {
+      $(this).addClass('active');
+    }
+  });
+});
+</script>
+
+<!--This function populates the breadcrumb section of the page. Adapted from http://webstandards.ca.gov/tools/design-enhancements/breadcrumbs/ to use jQuery -->
+<script>
+function breadcrumbs() {
+    if ($(".breadcrumb.dynamic")[0]) { // Make sure browser supports getElementById and breadcrumb_dynamic exists
+        var wrkLocation = location.href;
+        var wrkLength = wrkLocation.indexOf("#");  // Find the begining of any anchor reference
+        if (wrkLength !== -1) {
+            wrkLocation = wrkLocation.substr(0, wrkLength);  // Remove the anchor reference
+        }
+        var wrkLength = wrkLocation.indexOf("?");  // Find the begining of the query string
+        if (wrkLength !== -1) {
+            wrkLocation = wrkLocation.substr(0, wrkLength);  // Remove the query string
+        }
+
+        wrkLocation = unescape(wrkLocation);
+
+        //var re = /<\S[^>]*>/g; // Remove html tags from a string
+        var re = /<.*/g; // remove < and anything after
+        wrkLocation = wrkLocation.replace(re, "");
+
+        var arrURL = wrkLocation.split("/"); // Array containing the current location, split at the slashes
+        var output = '<li><a href="/">Home</a></li>'; // The string which will be output to the browser, starts with a link to the home page
+        var path = '/'; // Link for the crumbs
+
+        // If last item is blank or index.* or default.*, remove it
+        if (arrURL[arrURL.length - 1] === '' || arrURL[arrURL.length - 1].match(/^index\.|^default\./i)) {
+            arrURL.length--;
+        }
+
+        if (arrURL.length > 3) {
+            for (counter = 3; counter < arrURL.length - 1; counter++) {  // Loop to display the links
+                path += arrURL[counter] + '/';  // always end links to folder with '/' 
+                output += '<li><a href="' + path + '">' + arrURL[counter].replace(/(_|-)/g, ' ') + '</a></li>';
+            }
+
+            // Adds a class of active to the current page
+            output += '<li class="active">' + arrURL[arrURL.length - 1].replace(/(_|-)/g, ' ').replace(/\.\w{3,5}$/, '') + '</li>';
+        }
+
+        $(".breadcrumb.dynamic").html(output);  // Display the breadcrumbs
+    }
+}
+
+$(document).ready(function () {
+    breadcrumbs();
+});
+</script>
+
+<!--This function adds a custom class to the radio button lists in order to apply v6 template formatting -->
+<script>
+    $(function () {
+        // handle HTML entities in text
+        $("input, textarea").on("blur", function () {
+            var newVal = $(this).val().replace(/</g, "&lt;").replace(/>/g, "&gt;");
+            $(this).val(newVal);
+        });
+
+        // radio button lists
+        $('.form-check-rbl input').addClass('form-check-input');
+        $('.form-check-rbl label').addClass('form-check-label');
+    })
+</script>
+
+<!-- Adds bottom margin to tables if they have a horizontal scrollbar to prevent butting up against another table -->
+<script>
+    const tables = document.querySelectorAll('.table-responsive');
+        tables.forEach(table => {
+          if (table.scrollWidth > table.clientWidth) {
+            table.style.marginBottom = '2rem'; // Change '20px' to your preferred size
+          }
+        });
+</script>
+
+<!-- Adds AWS Chat -->
+<!-- Start of AWS Connect Chat code -->
+<script src="https://drw4n52t5nvb2.cloudfront.net/lex-web-ui-loader.min.js"></script>
+<script>
+  var loaderOpts = {
+    baseUrl: 'https://drw4n52t5nvb2.cloudfront.net/',
+    shouldLoadMinDeps: true
+  };
+  var loader = new ChatBotUiLoader.IframeLoader(loaderOpts);
+  var chatbotUiConfig = {
+          /* Example of setting session attributes on parent page
+          lex: {
+            sessionAttributes: {
+              userAgent: navigator.userAgent,
+              QNAClientFilter: ''
+            }
+          }
+          */
+        };
+  loader.load(chatbotUiConfig)
+    .catch(function (error) { console.error(error); });
+	function toggleChat() {
+      function isBotMinimized() {
+        var elementId = loader.options.elementId;
+        var minimizedClass = 'lex-web-ui-iframe--minimize';
+        return $('#' + elementId).hasClass(minimizedClass);
+      }
+
+      return Promise.resolve()
+        .then(function () {
+          return !isBotMinimized() || loader.api.toggleMinimizeUi();
+        })
+        .catch(function (err) { console.error('Error toggling chat. ', err); });
+}
+</script>
+<!-- End of AWS Connect Chat code -->
+
+</body>
+</html>
