@@ -177,6 +177,20 @@
     "provenance": "curl with a Chrome browser User-Agent (plain HTTP GET, no JS), 2026-09-29; the capture tool's own fetcher received 403 for this URL in the same session, so the raw bytes were fetched by curl and ingested"
   },
   {
+    "source_url": "https://sos.tn.gov/charities/guides/renewal-registration",
+    "primary": false,
+    "local_path": "TN/sos.tn.gov-charities-guides-renewal-registration-9788c096.bin",
+    "content_type": "application/octet-stream",
+    "content_sha256": "ef8aa83050740af837d80d7f6ee86032af67968199d1025d6280b3d140d4c857",
+    "perma_url": null,
+    "wayback_url": null,
+    "captured_at": "2026-09-29T21:07:36.447270+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "ingested_from_file": true,
+    "provenance": "curl with a Chrome browser User-Agent (plain HTTP GET, no JS), 2026-09-29; the capture tool's own fetcher received 403 for this URL in the same session, so the raw bytes were fetched by curl and ingested"
+  },
+  {
     "source_url": "https://www.tn.gov/content/dam/tn/revenue/documents/forms/sales/f1306901.pdf",
     "primary": false,
     "local_path": "TN/www.tn.gov-content-dam-tn-revenue-documents-forms-sales-f1306901.pdf-b9e0ad1f.pdf",
