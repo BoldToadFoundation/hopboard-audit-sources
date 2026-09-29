@@ -36,6 +36,18 @@
     "tls_chain_unverified": false
   },
   {
+    "source_url": "https://le.utah.gov/Session/2026/bills/enrolled/SB0040.pdf",
+    "primary": true,
+    "local_path": "UT/le.utah.gov-Session-2026-bills-enrolled-SB0040.pdf-42278bee.pdf",
+    "content_type": "application/pdf",
+    "content_sha256": "9aae3388d215b668f4766f4f87b8e4b8ff36362c6ee62a79d630a40b5640a457",
+    "perma_url": "https://perma.cc/6W45-9LHK",
+    "wayback_url": "https://web.archive.org/web/20260929105258/https://le.utah.gov/Session/2026/bills/enrolled/SB0040.pdf",
+    "captured_at": "2026-09-29T10:52:55.685216+00:00",
+    "signed": false,
+    "tls_chain_unverified": false
+  },
+  {
     "source_url": "https://le.utah.gov/xcode/Title13/Chapter22/13-22-S104.html",
     "primary": false,
     "local_path": "UT/le.utah.gov-xcode-Title13-Chapter22-13-22-S104.html-54311527.html",
