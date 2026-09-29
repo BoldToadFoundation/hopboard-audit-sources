@@ -25,6 +25,19 @@
     "tls_chain_unverified": false
   },
   {
+    "source_url": "https://webserver.rilegislature.gov/Statutes/TITLE44/44-18/44-18-30.HTM",
+    "primary": false,
+    "local_path": "RI/webserver.rilegislature.gov-Statutes-TITLE44-44-18-44-18-30.HTM-671c83fe.html",
+    "content_type": "text/html",
+    "content_sha256": "e070c6718e471e5a00a7e0ca4aa26600a2224ad72aa358d63744b0bbc1e4dcc3",
+    "perma_url": null,
+    "wayback_url": "https://web.archive.org/web/20260929210258/https://webserver.rilegislature.gov/Statutes/TITLE44/44-18/44-18-30.HTM",
+    "captured_at": "2026-09-29T21:02:54.340212+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
+  },
+  {
     "source_url": "https://webserver.rilegislature.gov/Statutes/TITLE5/5-53.1/5-53.1-2.htm",
     "primary": true,
     "local_path": "RI/webserver.rilegislature.gov-Statutes-TITLE5-5-53.1-5-53.1-2.htm.html",
