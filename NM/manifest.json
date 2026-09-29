@@ -1,5 +1,19 @@
 [
   {
+    "source_url": "https://nmdoj.gov/get-help/charities/",
+    "primary": false,
+    "local_path": "NM/nmdoj.gov-get-help-charities-760f133b.html",
+    "content_type": "text/html",
+    "content_sha256": "9a0fd6a3717c4b9ab3e94dc535ebbec2bf10e6cdc54f37304042a7d77cf8b0bf",
+    "perma_url": null,
+    "wayback_url": null,
+    "captured_at": "2026-09-29T21:07:37.094181+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "ingested_from_file": true,
+    "provenance": "browser_captured (automated variant): playwright chromium headless PAGE NAVIGATION, raw main-frame document response.body() (HTTP 200) recorded after the site's JavaScript challenge cleared, 2026-09-29"
+  },
+  {
     "source_url": "https://nmonesource.com/nmos/nmsa/en/4423/1/document.do",
     "primary": true,
     "local_path": "NM/nmonesource.com-nmos-nmsa-en-4423-1-document.do.pdf",
