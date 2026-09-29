@@ -70,11 +70,15 @@
     "local_path": "IL/www.ilga.gov-documents-legislation-ilcs-documents-022504600K3.htm-5cb769f3.html",
     "content_type": "text/html",
     "content_sha256": "bc3466af55cd59611ac11aa393988ca9bd780517040093e0b8d982154b926e7d",
-    "perma_url": "https://perma.cc/D3GD-GKZQ",
+    "perma_url": "https://perma.cc/D6ZH-BWFF",
     "wayback_url": "https://web.archive.org/web/20260908202439/https://www.ilga.gov/documents/legislation/ilcs/documents/022504600K3.htm",
     "captured_at": "2026-09-08T20:24:34.508885+00:00",
     "signed": false,
-    "tls_chain_unverified": true
+    "tls_chain_unverified": true,
+    "perma_failed_guids": [
+      "D3GD-GKZQ"
+    ],
+    "perma_backfilled_at": "2026-09-29T23:19:17.300146+00:00"
   },
   {
     "source_url": "https://www.ilga.gov/documents/legislation/ilcs/documents/022504600K4.htm",
@@ -106,14 +110,18 @@
     "local_path": "IL/www.ilga.gov-legislation-ILCS-details-ActName-General-20Not-20For-20Profit-20Cor.html",
     "content_type": "text/html",
     "content_sha256": "750a402e935980ccd458d0ec2b06a40d8d5d3807925a66c0bffa1a4b84253ee3",
-    "perma_url": "https://perma.cc/ZR3T-C2HC",
+    "perma_url": null,
     "wayback_url": null,
     "captured_at": "2026-08-01T09:39:34.167725+00:00",
     "signed": false,
     "tls_chain_unverified": false,
     "ingested_from_file": true,
     "provenance": "805 ILCS 105 Art. 14 (Reports), bearing 105/114.10. ILGA 403s non-browser User-Agents (capture tool sends hopboard-audit-capture/1.0), so fetched 2026-08-01 with a standard browser UA and ingested via --from-file per the documented UA-gated path (precedent: IN IC 23-7-8). Content-verified BEFORE ingest to contain '105/114.10)' + the annual-report text.",
-    "perma_backfilled_at": "2026-08-18T11:15:50.504699+00:00"
+    "perma_failed_guids": [
+      "ZR3T-C2HC",
+      "DC4C-LBVY"
+    ],
+    "perma_policy": "local_only (D-076: Perma captured this URL twice, ZR3T-C2HC and DC4C-LBVY 2026-09-29, and both hold 805 ILCS 105 Article 112, not \u00a7114.10 \u2014 the URL serves Perma a different range than the 2026-08-01 local ingest)"
   },
   {
     "source_url": "https://www.illinoisattorneygeneral.gov/Page-Attachments/FormAG990ILFilingInstuctions.pdf",

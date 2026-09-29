@@ -438,13 +438,6 @@
       "skip": "binary artifact (pdf/zip/docx); Perma capture exists (149750B WARC) but verify-perma's raw-byte grep can't read a binary payload — the intended PDF SKIP. Load-bearing strings verified against the LOCAL bytes via by_sha256 (df37705bb027…).",
       "source_url": "https://publications.tnsosfiles.com/acts/113/pub/pc0615.pdf"
     },
-    "6RCT-69FR": {
-      "basis": "MCL 450.2911(1): nonprofit annual report due October 1 each year (MI corporate breadth read, 2026-07-19)",
-      "source_url": "https://www.legislature.mi.gov/Laws/MCL?objectName=MCL-450-2911",
-      "strings": [
-        "shall file a report with the administrator not later than October 1 of e"
-      ]
-    },
     "6VNS-3G4V": {
       "note": "verified byte-present against the LOCAL archived artifact 2026-07-06 (batch-2 crank)",
       "source_url": "https://legislature.vermont.gov/statutes/section/09/063/02473",
@@ -1935,13 +1928,6 @@
         "receives $1 million or more in annual contributions, the financial statement shall be audited by an independent certified public accountant."
       ]
     },
-    "ZR3T-C2HC": {
-      "basis": "IL General Not For Profit Corporation Act of 1986 — annual report of domestic or foreign corporation",
-      "source_url": "https://www.ilga.gov/legislation/ILCS/details?ActName=General%20Not%20For%20Profit%20Corporation%20Act%20of%201986.&ActID=2280&ChapterID=65&SeqStart=11800000&SeqEnd=12200000",
-      "strings": [
-        "Annual report of domestic or foreign corporation"
-      ]
-    },
     "ZS3B-QTZR": {
       "basis": "strings verified present in local artifact ME/www.mainelegislature.org-legis-statutes-9-title9sec5004.html.html",
       "source_url": "https://www.mainelegislature.org/legis/statutes/9/title9sec5004.html",
@@ -1959,10 +1945,6 @@
       "strings": [
         "carried on by volunteers, members, or officers who are not compensated"
       ]
-    },
-    "CPN9-W3U9": {
-      "source_url": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0400-0499/0496/Sections/0496.406.html",
-      "skip": "SHELL — the capture fetch of this URL returns the Online Sunshine navigation chrome (5,456 chars after tag-strip) rather than §496.406; the tail of it is a chapter-617 corporate fee schedule, which is how the wrong-section content was noticed. Superseded for load-bearing purposes by 7CUD-C9M2 (flsenate.gov, same section, verified). Kept rather than deleted because deleting a Perma'd artifact orphans its GUID; the disposition is 'do not read this one'. BATCH11 2026-09-07."
     },
     "RSE7-KYDC": {
       "source_url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gbr&section=6-102",
@@ -2003,15 +1985,6 @@
     "5XWD-VAQ8": {
       "source_url": "https://www.njconsumeraffairs.gov/regulations/Chapter-30-Rules-of-the-Office-of-Consumer-Protection.pdf",
       "skip": "PDF THAT YIELDS NO TEXT — pdftotext -layout extracts ZERO characters from this artifact, so no verification string can be taken from it and NJ remains UNREADABLE for the frame read. Captured and kept because the bytes are the record of the attempt; the disposition is 'held, unreadable', not 'covered'. NJ's statute (N.J.S.A. 45:17A-26) is still owed: justia 403s under headless PAGE NAVIGATION (not a fetch). BATCH11 2026-09-07."
-    },
-    "D3GD-GKZQ": {
-      "basis": "225 ILCS 460/3 — captured 2026-09-08 under Tony's NARROW BREAK of the capture halt (one member only). Answers the question IL's cell was abstaining on: does Illinois grant a small-org exemption at $15,000? IT DOES — and it is an exemption from ANNUAL REPORTING, not from registration. The §3(a) chapeau conditions it on having filed a registration statement under §2 AND an Attorney General determination, and expressly excepts §2 from the exemption. The engine served it as an exemption FROM registration, so the figure is right and the duty it controls is wrong (UNDER-WARN on registration). The three strings pin exactly that: the chapeau's precondition, the chapeau's scope-and-exception, and the $15,000 clause with its fixed 12-month-ending-December-31 period. ⚠ TLS: www.ilga.gov served an INCOMPLETE CERT CHAIN on this fetch and the capture used the script's documented --allow-incomplete-chain opt-in (tls_chain_unverified=true). IL's three earlier ilga.gov captures (2026-07-05, 2026-08-01) carry tls_chain_unverified=false, so the chain CHANGED since August. Bytes are SHA-256'd. ✅ COMPENSATING CONTROL DISCHARGED 2026-09-08 (Tony ruled: take the Wayback witness). The independent Internet Archive copy at web.archive.org/web/20260908202439/ was fetched raw and ALL THREE strings above are present in it (contains_all -> []). Text similarity to our local capture 0.9638, and the entire 1,571-char delta is TWO fragments, both Wayback's own injection: its bundle-playback.js tags and its \"FILE ARCHIVED ON 20:24:39 Sep 08, 2026\" banner — NO inserted fragment contains statutory text. So a THIRD PARTY observed this text at this URL at that timestamp, independently of us and of ILGA's certificate chain. That is what discharges the downgrade; the earlier internal-consistency check (ILGA header template, consecutive par. 5103/5104, source-note convention) ruled out substitution and a wrong-site page but could never rule out a template-faithful fabrication.",
-      "source_url": "https://www.ilga.gov/documents/legislation/ilcs/documents/022504600K3.htm",
-      "strings": [
-        "Upon initial filing of a registration statement pursuant to Section 2 of this Act",
-        "shall be exempt from all the report filing provisions of this Act, except for the requirements set forth in Section 2 of this Act",
-        "does not actually receive contributions in excess of $15,000 during any 12 month period ending December 31 of any year"
-      ]
     },
     "6W45-9LHK": {
       "skip": "PDF tier (documented skip, 2026-09-29, D-062 capture pass). UT S.B. 40 (2026) enrolled, Laws 2026 ch. 93 (Business Entity Amendments) — enacts §16-1a-212, the annual report to the Division of Corporations; (5)(a)(i) sets it 'on the last day of the anniversary month'; Section 297: effective October 1, 2026. The manifest content_type is application/pdf, so verify_perma's utf-8 WARC grep is BLIND to this artifact by the sweep's own rule (sweep_artifact_integrity._verify_perma_blind) — a string-form entry here would fail COMPLETENESS against the WARC, as S.B. 38's did at the 2026-09-06 UT apply (2NRS-CDUX). The load-bearing strings are verified via the shared extractor against the LOCAL sha-pinned artifact by the by_sha256 entry 9aae3388d215b668f4766f4f87b8e4b8ff36362c6ee62a79d630a40b5640a457 (6 present + a negative control absent, 2026-09-29).",
@@ -2117,6 +2090,25 @@
     "E3JF-XRDZ": {
       "skip": "PDF tier (documented skip, 2026-09-29, D-062/D-070 bulk capture). NY AG Charities Bureau Regs-F (13 NYCRR Part 91 guidance PDF): registration and annual filing deadlines. The manifest content_type is application/pdf, so verify_perma's utf-8 WARC read cannot see the text; the strings live in by_sha256 against the local bytes.",
       "source_url": "https://ag.ny.gov/sites/default/files/2022-10/Regs-F.pdf"
+    },
+    "D6ZH-BWFF": {
+      "basis": "225 ILCS 460/3 — captured 2026-09-08 under Tony's NARROW BREAK of the capture halt (one member only). Answers the question IL's cell was abstaining on: does Illinois grant a small-org exemption at $15,000? IT DOES — and it is an exemption from ANNUAL REPORTING, not from registration. The §3(a) chapeau conditions it on having filed a registration statement under §2 AND an Attorney General determination, and expressly excepts §2 from the exemption. The engine served it as an exemption FROM registration, so the figure is right and the duty it controls is wrong (UNDER-WARN on registration). The three strings pin exactly that: the chapeau's precondition, the chapeau's scope-and-exception, and the $15,000 clause with its fixed 12-month-ending-December-31 period. ⚠ TLS: www.ilga.gov served an INCOMPLETE CERT CHAIN on this fetch and the capture used the script's documented --allow-incomplete-chain opt-in (tls_chain_unverified=true). IL's three earlier ilga.gov captures (2026-07-05, 2026-08-01) carry tls_chain_unverified=false, so the chain CHANGED since August. Bytes are SHA-256'd. ✅ COMPENSATING CONTROL DISCHARGED 2026-09-08 (Tony ruled: take the Wayback witness). The independent Internet Archive copy at web.archive.org/web/20260908202439/ was fetched raw and ALL THREE strings above are present in it (contains_all -> []). Text similarity to our local capture 0.9638, and the entire 1,571-char delta is TWO fragments, both Wayback's own injection: its bundle-playback.js tags and its \"FILE ARCHIVED ON 20:24:39 Sep 08, 2026\" banner — NO inserted fragment contains statutory text. So a THIRD PARTY observed this text at this URL at that timestamp, independently of us and of ILGA's certificate chain. That is what discharges the downgrade; the earlier internal-consistency check (ILGA header template, consecutive par. 5103/5104, source-note convention) ruled out substitution and a wrong-site page but could never rule out a template-faithful fabrication.",
+      "source_url": "https://www.ilga.gov/documents/legislation/ilcs/documents/022504600K3.htm",
+      "strings": [
+        "Upon initial filing of a registration statement pursuant",
+        "shall be exempt from all the report filing provisions",
+        "except for the requirements set forth in Section 2 of this Act",
+        "does not actually receive contributions in excess of $15,000 during any 12 month period ending December 31 of any year"
+      ],
+      "note": "D-076 fresh capture 2026-09-29 (D6ZH-BWFF) replacing failed D3GD-GKZQ (kept in the manifest's perma_failed_guids). Strings re-cut 2026-09-29 at the source's own CRLF line breaks: the WARC grep matches raw bytes and cannot span a line break, so the 3 normalized strings failed on a GOOD capture (HTTP 200, all text present). Same load-bearing content: the §3(a) precondition, the scope, the §2 exception, the $15,000 clause."
+    },
+    "N6JH-D4WY": {
+      "basis": "MCL 450.2911(1): nonprofit annual report due October 1 each year (MI corporate breadth read, 2026-07-19)",
+      "source_url": "https://www.legislature.mi.gov/Laws/MCL?objectName=MCL-450-2911",
+      "strings": [
+        "shall file a report with the administrator not later than October 1 of e"
+      ],
+      "note": "D-076 fresh capture 2026-09-29 (N6JH-D4WY) replacing failed 6RCT-69FR (kept in the manifest's perma_failed_guids)."
     }
   },
   "by_sha256": {
@@ -2735,6 +2727,28 @@
         "registered foreign entity's application for authority to conduct affairs in this state",
         "This bill takes effect on October 1, 2026."
       ]
+    },
+    "d6381fcad4fbf5f75baf92f69eca1a12ae7b5a6100a298960c51b4d366d1da76": {
+      "source_url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-400-283",
+      "strings": [
+        "does not actually receive contributions of more than $25,000.00 during any 12-month period",
+        "makes available to its members and the public a financial statement of its activities for its most recent fiscal year"
+      ],
+      "basis": "MCL 400.283(b) — the small-org exemption from the Charitable Organizations and Solicitations Act (MI_SMALL_ORG_BASIS_20260929.sql, Reader A).",
+      "note": "D-076 record gap closed 2026-09-29: the full 409-char Reader-A quote was byte-checked present in these pinned bytes (sha MATCH; a planted wrong figure MISSING); only the sidecar entry had never been written."
+    },
+    "eac4e7b02dde84f74a44b0f34dd160216ab9f7c45310c3a827973079c57954b4": {
+      "source_url": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0400-0499/0496/Sections/0496.406.html",
+      "skip": "SHELL — the capture fetch of this URL returns the Online Sunshine navigation chrome (5,456 chars after tag-strip) rather than §496.406; the tail of it is a chapter-617 corporate fee schedule, which is how the wrong-section content was noticed. Superseded for load-bearing purposes by 7CUD-C9M2 (flsenate.gov, same section, verified). Kept rather than deleted because deleting a Perma'd artifact orphans its GUID; the disposition is 'do not read this one'. BATCH11 2026-09-07.",
+      "note": "D-076 retirement 2026-09-29: Perma CPN9-W3U9 status 'failed'. Not retried — a fresh capture of this URL would archive the same navigation shell. perma_url nulled, GUID kept in the manifest's perma_failed_guids."
+    },
+    "750a402e935980ccd458d0ec2b06a40d8d5d3807925a66c0bffa1a4b84253ee3": {
+      "source_url": "https://www.ilga.gov/legislation/ILCS/details?ActName=General%20Not%20For%20Profit%20Corporation%20Act%20of%201986.&ActID=2280&ChapterID=65&SeqStart=11800000&SeqEnd=12200000",
+      "strings": [
+        "Annual report of domestic or foreign corporation"
+      ],
+      "basis": "IL General Not For Profit Corporation Act of 1986 — annual report of domestic or foreign corporation",
+      "note": "D-076 retirement 2026-09-29: Perma ZR3T-C2HC (backfill) and the one fresh try DC4C-LBVY both archived Article 112 (dissolution), not §114.10 'Annual report of domestic or foreign corporation'. The record rests on the local sha-pinned 2026-08-01 capture, which holds §114.10. CURRENCY FLAG: this SeqStart/SeqEnd URL now serves different sections; the annual-report source URL wants a re-read."
     }
   }
 }
