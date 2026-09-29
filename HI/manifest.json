@@ -246,6 +246,20 @@
     "provenance": "curl raw response bytes, 2026-09-29 (Hawaii Legislative Reference Bureau, the official source used for the 2026-session supersession check because capitol.hawaii.gov does not serve this machine); ingested via --from-file because each tool run needs a --primary and HI's primaries are already captured"
   },
   {
+    "source_url": "https://lrb.hawaii.gov/wp-content/uploads/2026_SupplementalInfo.pdf",
+    "primary": false,
+    "local_path": "HI/lrb.hawaii.gov-wp-content-uploads-2026_SupplementalInfo.pdf-6e22b1ce.pdf",
+    "content_type": "application/pdf",
+    "content_sha256": "74d43cfa18d426298bdd80ab92be4d7e53be51bc8be99d930909cda06f6dc201",
+    "perma_url": null,
+    "wayback_url": null,
+    "captured_at": "2026-09-29T11:11:37.636025+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "ingested_from_file": true,
+    "provenance": "curl raw response bytes, 2026-09-29 (Hawaii Legislative Reference Bureau, the official source used for the 2026-session supersession check because capitol.hawaii.gov does not serve this machine); ingested via --from-file because each tool run needs a --primary and HI's primaries are already captured"
+  },
+  {
     "source_url": "https://www.capitol.hawaii.gov/hrscurrent/Vol08_Ch0401-0429/HRS0414D/HRS_0414D-.htm",
     "primary": false,
     "local_path": "HI/www.capitol.hawaii.gov-hrscurrent-Vol08_Ch0401-0429-HRS0414D-HRS_0414D-.htm-22b87470.capitol.hawaii.gov-hrscurrent-Vol08_Ch0401-0429-HRS0414D-HRS_0414D-.htm",
