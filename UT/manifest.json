@@ -100,6 +100,20 @@
     "tls_chain_unverified": false
   },
   {
+    "source_url": "https://commerce.utah.gov/wp-content/uploads/2021/10/renewal.pdf",
+    "primary": false,
+    "local_path": "UT/commerce.utah.gov-wp-content-uploads-2021-10-renewal.pdf-d6f46716.pdf",
+    "content_type": "application/pdf",
+    "content_sha256": "00ffef7260193e7747cd6ebb9e9a96f925fabb65f71d72beeab94f06b13b8766",
+    "perma_url": null,
+    "wayback_url": null,
+    "captured_at": "2026-09-29T11:09:13.988987+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "ingested_from_file": true,
+    "provenance": "browser_captured (automated variant): playwright chromium 145.0.7632.6 browser-context request after a page navigation on the same site, raw HTTP response.body() bytes, 2026-09-29; the DCCC Annual Report/Renewal form the 2026-07-13 UT read cited for 'Anniversary date of the entity'; not linked from the Division's current renewal-process page"
+  },
+  {
     "source_url": "https://corporations.utah.gov/wp-content/uploads/2025/01/Renewal-WO-Changes.pdf",
     "primary": false,
     "local_path": "UT/corporations.utah.gov-wp-content-uploads-2025-01-Renewal-WO-Changes.pdf-c057c0b1.pdf",
