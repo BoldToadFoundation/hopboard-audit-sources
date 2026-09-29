@@ -10,5 +10,44 @@
     "captured_at": "2026-07-05T13:25:12.623432+00:00",
     "signed": true,
     "tls_chain_unverified": false
+  },
+  {
+    "source_url": "https://tap.state.nm.us/",
+    "primary": false,
+    "local_path": "NM/tap.state.nm.us-d0e84079.html",
+    "content_type": "text/html; charset=utf-8",
+    "content_sha256": "71513ef7470e8788bab3993a67c12aaf277d555d6308351f0ac24fab70e30565",
+    "perma_url": null,
+    "wayback_url": null,
+    "captured_at": "2026-09-29T20:16:02.945450+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
+  },
+  {
+    "source_url": "https://www.tax.newmexico.gov/businesses/information-for-non-profits/",
+    "primary": false,
+    "local_path": "NM/www.tax.newmexico.gov-businesses-information-for-non-profits-baaa6e43.html",
+    "content_type": "text/html; charset=UTF-8",
+    "content_sha256": "997a37c209cad813a0a28291e8b370e866cf7f7e1a85d3a28f50a4c467e605d7",
+    "perma_url": null,
+    "wayback_url": null,
+    "captured_at": "2026-09-29T20:16:02.945450+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
+  },
+  {
+    "source_url": "https://www.tax.newmexico.gov/businesses/non-taxable-transaction-certificates-nttc/",
+    "primary": false,
+    "local_path": "NM/www.tax.newmexico.gov-businesses-non-taxable-transaction-certificates-nttc-f3b08f76.html",
+    "content_type": "text/html; charset=UTF-8",
+    "content_sha256": "540c0235902d89cf4b9560d47770f6091819e669ce8209892471a1b698db69db",
+    "perma_url": null,
+    "wayback_url": null,
+    "captured_at": "2026-09-29T20:16:02.945450+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
   }
 ]
