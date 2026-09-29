@@ -1,5 +1,31 @@
 [
   {
+    "source_url": "https://ago.vermont.gov/attorney-generals-office-divisions-and-unit/consumer-protection/charities-and-paid-fundraisers",
+    "primary": false,
+    "local_path": "VT/ago.vermont.gov-attorney-generals-office-divisions-and-unit-consumer-protection--7e4c64bd.html",
+    "content_type": "text/html; charset=UTF-8",
+    "content_sha256": "0bdc2ceb3a262d9bc6f0580a397355ec08a6e622cb23319c2288853cd49b6c59",
+    "perma_url": null,
+    "wayback_url": null,
+    "captured_at": "2026-09-29T20:24:29.407545+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
+  },
+  {
+    "source_url": "https://ago.vermont.gov/divisions/charities-and-paid-fundraisers/charitable-solicitations-law",
+    "primary": false,
+    "local_path": "VT/ago.vermont.gov-divisions-charities-and-paid-fundraisers-charitable-solicitation-906c4eb7.html",
+    "content_type": "text/html; charset=UTF-8",
+    "content_sha256": "438b1778b884e507ec3bf86c6fa0100528badfaa1d3a8bcfc538332a445f336e",
+    "perma_url": null,
+    "wayback_url": null,
+    "captured_at": "2026-09-29T20:24:29.407545+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
+  },
+  {
     "source_url": "https://ago.vermont.gov/sites/ago/files/2025-11/Chritable-Nonprofit-Board-Guidance.pdf",
     "primary": false,
     "local_path": "VT/ago.vermont.gov-sites-ago-files-2025-11-Chritable-Nonprofit-Board-Guidance.pdf.pdf",
