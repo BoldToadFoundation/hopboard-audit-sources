@@ -177,6 +177,20 @@
     "tls_chain_unverified": false
   },
   {
+    "source_url": "https://sos.tn.gov/charities/guides/charitable-organization-exemption-request-guide",
+    "primary": false,
+    "local_path": "TN/sos.tn.gov-charities-guides-charitable-organization-exemption-request-guide-2e484a4b.bin",
+    "content_type": "application/octet-stream",
+    "content_sha256": "096c54742f0dff81228fefa49de3f38ef789c7a3273d4af21ee2de7cc3628810",
+    "perma_url": null,
+    "wayback_url": null,
+    "captured_at": "2026-09-29T21:07:36.630951+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "ingested_from_file": true,
+    "provenance": "curl with a Chrome browser User-Agent (plain HTTP GET, no JS), 2026-09-29; the capture tool's own fetcher received 403 for this URL in the same session, so the raw bytes were fetched by curl and ingested"
+  },
+  {
     "source_url": "https://sos.tn.gov/charities/guides/initial-registration",
     "primary": false,
     "local_path": "TN/sos.tn.gov-charities-guides-initial-registration-1b05815e.bin",
