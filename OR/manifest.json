@@ -60,6 +60,19 @@
     "tls_chain_unverified": false
   },
   {
+    "source_url": "https://secure.sos.state.or.us/oard/displayDivisionRules.action?selectedDivision=289",
+    "primary": false,
+    "local_path": "OR/secure.sos.state.or.us-oard-displayDivisionRules.action-selectedDivision-289-562d1262.html",
+    "content_type": "text/html; charset=UTF-8",
+    "content_sha256": "8467d871e54a09cdd8d1050a86e37b82840e2baede067b83a5def014f65aed8f",
+    "perma_url": null,
+    "wayback_url": null,
+    "captured_at": "2026-09-29T20:03:55.241703+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
+  },
+  {
     "source_url": "https://secure.sos.state.or.us/oard/viewAttachment.action?ruleVrsnRsn=10457",
     "primary": true,
     "local_path": "OR/secure.sos.state.or.us-oard-viewAttachment.action-ruleVrsnRsn-10457.pdf",
@@ -72,6 +85,45 @@
     "perma_backfilled_at": "2026-08-18T11:15:56.798625+00:00"
   },
   {
+    "source_url": "https://sos.oregon.gov/business/Pages/foreign-nonprofit-corporation-forms.aspx",
+    "primary": false,
+    "local_path": "OR/sos.oregon.gov-business-Pages-foreign-nonprofit-corporation-forms.aspx-5bc1c022.html",
+    "content_type": "text/html; charset=utf-8",
+    "content_sha256": "fcf2677befeff18eb5bbd44f83e459ba8bc349b37a76c354bb6baea44e37361f",
+    "perma_url": null,
+    "wayback_url": "https://web.archive.org/web/20260929200537/https://sos.oregon.gov/business/register/pages/foreign-nonprofit-corporation-forms.aspx",
+    "captured_at": "2026-09-29T20:03:55.241703+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
+  },
+  {
+    "source_url": "https://www.doj.state.or.us/charitable-activities/",
+    "primary": false,
+    "local_path": "OR/www.doj.state.or.us-charitable-activities-31d0007e.html",
+    "content_type": "text/html; charset=UTF-8",
+    "content_sha256": "b901b926c7d4199ed2f8f2e4bb716cc217d1fed2ae8653ef39cca6a0625af7d8",
+    "perma_url": null,
+    "wayback_url": null,
+    "captured_at": "2026-09-29T20:03:55.241703+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
+  },
+  {
+    "source_url": "https://www.doj.state.or.us/charitable-activities/annual-reporting-for-charities/file-your-annual-report/",
+    "primary": false,
+    "local_path": "OR/www.doj.state.or.us-charitable-activities-annual-reporting-for-charities-file-yo-936e3c08.html",
+    "content_type": "text/html; charset=UTF-8",
+    "content_sha256": "32e67ce998364c21c6c032a2e8d6281d94524d891ad783713003157732395a6b",
+    "perma_url": null,
+    "wayback_url": null,
+    "captured_at": "2026-09-29T20:03:55.241703+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
+  },
+  {
     "source_url": "https://www.doj.state.or.us/charitable-activities/annual-reporting-for-charities/request-filing-extension-annual-reports/",
     "primary": false,
     "local_path": "OR/www.doj.state.or.us-charitable-activities-annual-reporting-for-charities-request.html",
@@ -82,6 +134,45 @@
     "captured_at": "2026-05-27T15:42:05.929959+00:00",
     "signed": true,
     "perma_backfilled_at": "2026-07-12T21:09:03.390085+00:00"
+  },
+  {
+    "source_url": "https://www.doj.state.or.us/charitable-activities/for-professional-fundraisers/for-professional-fundraisers/",
+    "primary": false,
+    "local_path": "OR/www.doj.state.or.us-charitable-activities-for-professional-fundraisers-for-profe-8c09058d.html",
+    "content_type": "text/html; charset=UTF-8",
+    "content_sha256": "1735bcad48d66922ba16424508504db422511881461eae66e576c4d44c7279e0",
+    "perma_url": null,
+    "wayback_url": null,
+    "captured_at": "2026-09-29T20:03:55.241703+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
+  },
+  {
+    "source_url": "https://www.doj.state.or.us/charitable-activities/laws-guides-for-charities/statutes-and-rules-governing-oregon-nonprofits/",
+    "primary": false,
+    "local_path": "OR/www.doj.state.or.us-charitable-activities-laws-guides-for-charities-statutes-and-863dbb46.html",
+    "content_type": "text/html; charset=UTF-8",
+    "content_sha256": "0d4d9ec94376bb40cd70659f41af6ce14212777f938111f61e74b280167d13ea",
+    "perma_url": null,
+    "wayback_url": null,
+    "captured_at": "2026-09-29T20:03:55.241703+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
+  },
+  {
+    "source_url": "https://www.doj.state.or.us/charitable-activities/starting-or-closing-a-charity/registering-a-new-charity/",
+    "primary": false,
+    "local_path": "OR/www.doj.state.or.us-charitable-activities-starting-or-closing-a-charity-register-08ed5f8a.html",
+    "content_type": "text/html; charset=UTF-8",
+    "content_sha256": "dc4f88b5e99d2c25b68818ad21029ad7b92ebbd43c8653ec46b953990b51a51a",
+    "perma_url": null,
+    "wayback_url": null,
+    "captured_at": "2026-09-29T20:03:55.241703+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
   },
   {
     "source_url": "https://www.doj.state.or.us/wp-content/uploads/2026/01/2025_web_ct-12.pdf",
@@ -106,5 +197,18 @@
     "captured_at": "2026-06-10T23:13:55.681041+00:00",
     "signed": true,
     "tls_chain_unverified": false
+  },
+  {
+    "source_url": "https://www.oregon.gov/dor/programs/businesses/pages/corp-nonprofit.aspx",
+    "primary": false,
+    "local_path": "OR/www.oregon.gov-dor-programs-businesses-pages-corp-nonprofit.aspx-39388552.html",
+    "content_type": "text/html; charset=utf-8",
+    "content_sha256": "2cc4afa65cef7141822f83cc0c01e1c36a57dacd76aff3c5dc1200777f9dcbe0",
+    "perma_url": null,
+    "wayback_url": null,
+    "captured_at": "2026-09-29T20:03:55.241703+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
   }
 ]
