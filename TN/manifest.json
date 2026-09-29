@@ -95,6 +95,20 @@
     "tls_chain_unverified": false
   },
   {
+    "source_url": "https://sos-prod.tnsosgovfiles.com/s3fs-public/document/SS-6001.pdf",
+    "primary": false,
+    "local_path": "TN/sos-prod.tnsosgovfiles.com-s3fs-public-document-SS-6001.pdf-fef37a08.bin",
+    "content_type": "application/octet-stream",
+    "content_sha256": "533c90e4e6fa5c30f60f7fca094a0cf2e7d8143f4b07180048355860a7602e7b",
+    "perma_url": null,
+    "wayback_url": null,
+    "captured_at": "2026-09-29T21:07:36.084200+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "ingested_from_file": true,
+    "provenance": "curl with a Chrome browser User-Agent (plain HTTP GET, no JS), 2026-09-29; the capture tool's own fetcher received 403 for this URL in the same session, so the raw bytes were fetched by curl and ingested"
+  },
+  {
     "source_url": "https://sos.tn.gov/charities",
     "primary": false,
     "local_path": "TN/sos.tn.gov-charities-0583c6ed.bin",
