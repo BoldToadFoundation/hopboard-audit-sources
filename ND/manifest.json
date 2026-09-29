@@ -1,5 +1,18 @@
 [
   {
+    "source_url": "https://firststop.sos.nd.gov/forms/charitable",
+    "primary": false,
+    "local_path": "ND/firststop.sos.nd.gov-forms-charitable-081f5446.html",
+    "content_type": "text/html; charset=UTF-8",
+    "content_sha256": "51b11352fa4b92b3fd31a787d6520efac02e7cdafc581ce7382213c74f390401",
+    "perma_url": null,
+    "wayback_url": "https://web.archive.org/web/20260929201904/https://firststop.sos.nd.gov/forms/charitable",
+    "captured_at": "2026-09-29T20:19:00.341299+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
+  },
+  {
     "source_url": "https://ndlegis.gov/cencode/t10c33.pdf",
     "primary": false,
     "local_path": "ND/ndlegis.gov-cencode-t10c33.pdf.pdf",
@@ -24,6 +37,19 @@
     "tls_chain_unverified": false
   },
   {
+    "source_url": "https://www.nd.gov/eforms/Doc/sfn11303.pdf",
+    "primary": false,
+    "local_path": "ND/www.nd.gov-eforms-Doc-sfn11303.pdf-1015a6f5.pdf",
+    "content_type": "application/pdf",
+    "content_sha256": "15bc4984b0008103b5b539b45abd948e996285dfe9ba67c2dfcb87d2e5ee9ce9",
+    "perma_url": null,
+    "wayback_url": null,
+    "captured_at": "2026-09-29T20:19:00.341299+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
+  },
+  {
     "source_url": "https://www.sos.nd.gov/business/nonprofit-services/charitable-organizations",
     "primary": false,
     "local_path": "ND/www.sos.nd.gov-business-nonprofit-services-charitable-organizations.html",
@@ -46,5 +72,31 @@
     "captured_at": "2026-07-17T13:56:25.175732+00:00",
     "signed": false,
     "tls_chain_unverified": false
+  },
+  {
+    "source_url": "https://www.tax.nd.gov/sites/www/files/documents/guidelines/business/sales-use/guideline-exempt-organizations.pdf",
+    "primary": false,
+    "local_path": "ND/www.tax.nd.gov-sites-www-files-documents-guidelines-business-sales-use-guideline-2eb5650b.pdf",
+    "content_type": "application/pdf",
+    "content_sha256": "545655da29240c19f46a92156826dcb6c56d19a770318f2503f332c7509d1011",
+    "perma_url": null,
+    "wayback_url": "https://web.archive.org/web/20260929202145/https://www.tax.nd.gov/sites/www/files/documents/guidelines/business/sales-use/guideline-exempt-organizations.pdf",
+    "captured_at": "2026-09-29T20:19:00.341299+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
+  },
+  {
+    "source_url": "https://www.tax.nd.gov/tax-exemptions-credits/sales-tax-exemptions",
+    "primary": false,
+    "local_path": "ND/www.tax.nd.gov-tax-exemptions-credits-sales-tax-exemptions-1c5cf3f9.html",
+    "content_type": "text/html; charset=UTF-8",
+    "content_sha256": "88df3958c7149ee6b11d798fafc612cfb94ce601d856fcbdbd4420447c495843",
+    "perma_url": null,
+    "wayback_url": null,
+    "captured_at": "2026-09-29T20:19:00.341299+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
   }
 ]
