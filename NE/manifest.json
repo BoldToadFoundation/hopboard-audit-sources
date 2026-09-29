@@ -48,6 +48,19 @@
     "tls_chain_unverified": false
   },
   {
+    "source_url": "https://nebraskalegislature.gov/laws/statutes.php?statute=30-3802",
+    "primary": false,
+    "local_path": "NE/nebraskalegislature.gov-laws-statutes.php-statute-30-3802-5e3e8c1c.html",
+    "content_type": "text/html; charset=UTF-8",
+    "content_sha256": "617f86fd6501234197fed9e3a55dae6ec76ed92b1977ac66d9aa6940fa84cc08",
+    "perma_url": null,
+    "wayback_url": null,
+    "captured_at": "2026-09-29T20:25:46.653255+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
+  },
+  {
     "source_url": "https://nebraskalegislature.gov/laws/statutes.php?statute=87-302",
     "primary": false,
     "local_path": "NE/nebraskalegislature.gov-laws-statutes.php-statute-87-302.html",
@@ -94,6 +107,19 @@
     "captured_at": "2026-08-15T17:03:54.333323+00:00",
     "signed": false,
     "tls_chain_unverified": false
+  },
+  {
+    "source_url": "https://sos.nebraska.gov/business-services/select-nonprofit-corporation-statutes",
+    "primary": false,
+    "local_path": "NE/sos.nebraska.gov-business-services-select-nonprofit-corporation-statutes-f3385021.html",
+    "content_type": "text/html; charset=UTF-8",
+    "content_sha256": "d02bc8ceb280b71ef184b25664681cb30878ea681037b7d1421c2d3ec7748309",
+    "perma_url": null,
+    "wayback_url": null,
+    "captured_at": "2026-09-29T20:25:46.653255+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
   },
   {
     "source_url": "https://sos.nebraska.gov/licensing/information-charitable-solicitors",
