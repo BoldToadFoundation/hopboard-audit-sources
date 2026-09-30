@@ -13,6 +13,20 @@
     "perma_policy": "local_only (D-070)"
   },
   {
+    "source_url": "https://www.ag.ks.gov/home/showpublisheddocument/2630/639040916899800000",
+    "primary": false,
+    "local_path": "KS/www.ag.ks.gov-home-showpublisheddocument-2630-639040916899800000-d87a2f1e.pdf",
+    "content_type": "application/pdf",
+    "content_sha256": "2fc1db0d7c38110e4ce89eafe4cc56be3535d08058815a2032e7cb3a6225f00d",
+    "perma_url": null,
+    "wayback_url": null,
+    "captured_at": "2026-09-30T12:35:22.208259+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "ingested_from_file": true,
+    "provenance": "browser_captured (automated variant): headed Chromium session 2026-09-30 \u2014 page navigation to the AG charitable registration page, then the linked PDF requested with that session; a plain curl fetch with a browser user agent got HTTP 403 (Akamai)"
+  },
+  {
     "source_url": "https://www.kslegislature.gov/li/b2025_26/statute/017_000_0000_chapter/017_017_0000_article/017_017_0061_section/017_017_0061_k/",
     "primary": false,
     "local_path": "KS/www.kslegislature.gov-li-b2025_26-statute-017_000_0000_chapter-017_017_0000_arti-f2d7dbb3.html",

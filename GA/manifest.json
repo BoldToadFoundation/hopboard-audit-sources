@@ -84,6 +84,20 @@
     "note": "D-076 (2026-09-29): NOT known-short. The served page could not be compared with this capture: a fresh headless render on 2026-09-29 showed only the site header after 60 s (the rule text is script-loaded). The bytes read as a whole page (header, the two-sentence rule, Cite as, Authority: O.C.G.A. 43-17-9 and 43-17-10, history to the 2004 rule, footer), but that is a reading of the saved copy, not a comparison. Kept as a saved copy: a write that cannot newly tell an org it is exempt or needs to do less may rest on it (D-076, hopboard sweep_artifact_integrity.py --artifact); an exempt-direction write may not. Its CONFIRMED_GENUINE_TINY entry (hopboard 77fa331) was removed."
   },
   {
+    "source_url": "https://sos.ga.gov/sites/default/files/2022-01/c-100_initial_and_reinstatement_charity_registration_update_11.8_.2018_4.pdf",
+    "primary": false,
+    "local_path": "GA/sos.ga.gov-sites-default-files-2022-01-c-100_initial_and_reinstatement_charity_r-487e5916.pdf",
+    "content_type": "application/pdf",
+    "content_sha256": "c11fa4b43a475d1ae9d589ed31e91627b14abcd492bcab9c09df89951213da0c",
+    "perma_url": null,
+    "wayback_url": "https://web.archive.org/web/20260309190506/https://sos.ga.gov/sites/default/files/2022-01/c-100_initial_and_reinstatement_charity_registration_update_11.8_.2018_4.pdf",
+    "captured_at": "2026-09-30T12:35:22.095068+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "ingested_from_file": true,
+    "provenance": "wayback_snapshot: raw id_ copy of https://web.archive.org/web/20260309190506/https://sos.ga.gov/sites/default/files/2022-01/c-100_initial_and_reinstatement_charity_registration_update_11.8_.2018_4.pdf fetched 2026-09-30; the live sos.ga.gov URL answered a Cloudflare challenge to a curl fetch with a browser user agent AND to a headed Chromium page navigation held for 45 s (2026-09-30), so the current form could not be read directly"
+  },
+  {
     "source_url": "https://sos.ga.gov/sites/default/files/forms/Application%20-%20Certificate%20of%20Authority%20for%20Profit%20or%20Nonprofit%20Corporation%20(CD%20236).pdf",
     "primary": false,
     "local_path": "GA/sos.ga.gov-sites-default-files-forms-Application-20--20Certificate-20of-20Author-44dcb6ed.bin",

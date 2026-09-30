@@ -2770,6 +2770,29 @@
         "TO REGISTER OR RE-REGISTER WITH THE ILLINOIS ATTORNEY GENERAL",
         "The Solicitation for Charity Act and Charitable Trust Act require a $15.00 registration fee for all initial registrations."
       ]
+    },
+    "e2e0911da6eefa4f172fb713088222ffa7d46f0ff5823354b285e2f27a78baf6": {
+      "basis": "Conn. Gen. Stat. §21a-190d(6) (chapter 419d, the Solicitation of Charitable Funds Act): the small-organization exemption and its no-compensated-solicitor condition. Primary with no Perma link, so the pre-apply tier needs its load-bearing strings checked on the LOCAL bytes (E5-2); added 2026-09-30 for CT_SOLICITOR_CONDITION_20260930.sql. Verified with artifact_extract; a planted 'ninety thousand dollars' fragment reported missing.",
+      "source_url": "https://www.cga.ct.gov/current/pub/chap_419d.htm",
+      "strings": [
+        "(6) Any charitable organization which normally receives less than fifty thousand dollars in contributions annually, provided such organization does not compensate any person primarily to conduct solicitations."
+      ]
+    },
+    "3b2e98d224cb6717f7bcc475c4ed5fd9480bce25df696cbc77fd410d8e29e260": {
+      "basis": "13-B MRSA chapter 13 (annual reports of nonprofit corporations), §1301. A primary PDF: verify_perma cannot read the WARC, so the pre-apply tier needs its strings checked on the LOCAL bytes (E5-2). No committed artifact cites it (checked 2026-09-30); the strings pin the chapter's identity and §1301's operative duty. Verified with artifact_extract (pdftotext); a planted fragment reported missing.",
+      "source_url": "https://legislature.maine.gov/statutes/13-B/title13-Bch13.pdf",
+      "strings": [
+        "§1301. Annual report of domestic and foreign corporations; excuse",
+        "Each domestic corporation, unless excused as provided in subsection 5, and each foreign corporation authorized to carry on activities in this State shall deliver for filing, within the time prescribed by this Act, an annual report to the Secretary of State"
+      ]
+    },
+    "ef9d72564a536c87c78165b0e49a1436c75caa1d63df7c7b2d229cefd4736373": {
+      "basis": "9 MRSA chapter 385 (Charitable Solicitations Act): §5004's duty to pay the application and license fees set under §5015-A, and §5015-A's rule-making authority for them. A primary PDF: verify_perma cannot read the WARC, so the pre-apply tier needs its strings checked on the LOCAL bytes (E5-2); added 2026-09-30 for ME_INITIAL_FEE_20260930.sql. Strings copied from the extracted text (it uses a non-breaking hyphen in 5015-A); a planted fragment reported missing.",
+      "source_url": "https://legislature.maine.gov/statutes/9/title9ch385.pdf",
+      "strings": [
+        "shall file a license application with the director and pay the application and license fees as set under section 5015‑A",
+        "The director may establish by rule fees for purposes authorized under this chapter in amounts that are reasonable and necessary for their respective purposes"
+      ]
     }
   }
 }

@@ -75,6 +75,19 @@
     "perma_policy": "local_only (D-070)"
   },
   {
+    "source_url": "https://sos.wv.gov/media/329/download?inline",
+    "primary": false,
+    "local_path": "WV/sos.wv.gov-media-329-download-inline-17dd64df.pdf",
+    "content_type": "application/pdf",
+    "content_sha256": "cae5c9e7bfd577b9fcac2029cbbc3e8446fa6d47bfc8d4c52b1d3e0b5f9a7aa4",
+    "perma_url": null,
+    "wayback_url": "https://web.archive.org/web/20260930123510/https://sos.wv.gov/media/329/download?inline",
+    "captured_at": "2026-09-30T12:34:58.685399+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
+  },
+  {
     "source_url": "https://tax.wv.gov/Documents/TSD/tsd320.pdf",
     "primary": false,
     "local_path": "WV/tax.wv.gov-Documents-TSD-tsd320.pdf-6862b195.pdf",
