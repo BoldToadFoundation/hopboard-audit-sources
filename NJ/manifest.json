@@ -70,13 +70,14 @@
     "primary": false,
     "local_path": "NJ/www.njconsumeraffairs.gov-charities-pages-charities-registration-information.asp-cb95410a.html",
     "content_type": "text/html",
-    "content_sha256": "d02032286070b4dd9d8fbd985a7bdca8af8edf52b89ff177db3bfcb2c8a9c43d",
+    "content_sha256": "62713a889cf1bfc08514e016494a4f2d7dc468db99a5b8ec68b22ef8ecb5596e",
     "perma_url": null,
     "wayback_url": null,
-    "captured_at": "2026-09-29T20:23:58.022189+00:00",
+    "captured_at": "2026-09-30T14:14:31.231533+00:00",
     "signed": false,
     "tls_chain_unverified": false,
-    "perma_policy": "local_only (D-070)"
+    "ingested_from_file": true,
+    "provenance": "headed Chromium page navigation (playwright, headless=False) on 2026-09-30, page.content() after load plus 8 s: HTTP 200, title \"Pages - Charities Registration & Investigation Section\", about 17,800 characters of visible text. Replaces the 2026-09-29 entry (sha d0203228), which saved the site challenge script (212 bytes) instead of the page."
   },
   {
     "source_url": "https://www.njconsumeraffairs.gov/regulations/Chapter-30-Rules-of-the-Office-of-Consumer-Protection.pdf",
