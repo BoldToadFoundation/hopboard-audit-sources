@@ -11,6 +11,19 @@
     "signed": true
   },
   {
+    "source_url": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleXI/Chapter68/Section18",
+    "primary": false,
+    "local_path": "MA/malegislature.gov-Laws-GeneralLaws-PartI-TitleXI-Chapter68-Section18-80a9df4a.html",
+    "content_type": "text/html; charset=utf-8",
+    "content_sha256": "e79b8b8f498263246c0aef40f65d354c9f455da732f88cc7e6f367e9aed247ba",
+    "perma_url": null,
+    "wayback_url": null,
+    "captured_at": "2026-09-30T14:55:13.244640+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
+  },
+  {
     "source_url": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleXI/Chapter68/Section20",
     "primary": false,
     "local_path": "MA/malegislature.gov-Laws-GeneralLaws-PartI-TitleXI-Chapter68-Section20-d1e171b1.html",
