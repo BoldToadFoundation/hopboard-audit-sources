@@ -81,7 +81,7 @@
   },
   {
     "source_url": "https://www.njconsumeraffairs.gov/regulations/Chapter-30-Rules-of-the-Office-of-Consumer-Protection.pdf",
-    "primary": true,
+    "primary": false,
     "local_path": "NJ/www.njconsumeraffairs.gov-regulations-Chapter-30-Rules-of-the-Office-of-Consumer-46ddbd9d.pdf",
     "content_type": "text/html",
     "content_sha256": "d02032286070b4dd9d8fbd985a7bdca8af8edf52b89ff177db3bfcb2c8a9c43d",
@@ -89,7 +89,9 @@
     "wayback_url": null,
     "captured_at": "2026-09-07T15:17:50.358813+00:00",
     "signed": false,
-    "tls_chain_unverified": false
+    "tls_chain_unverified": false,
+    "primary_demoted": "2026-09-30 (Tony): RETIRED as evidence; a failed capture is not a source. NJ's remaining primary is the N.J.S.A. 45:17A-23 extract (2790eb4f).",
+    "note": "RETIRED 2026-09-30 (Tony's instruction; GA rules.sos.ga.gov note is the precedent): a FAILED capture, not evidence. The 212 bytes are the site's Incapsula challenge script, saved as .pdf on 2026-09-07 (Perma 5XWD-VAQ8 holds the same failure). Recapture attempted 2026-09-30: curl with a browser user agent got HTTP 404; a headed Chromium page navigation got 404 'Page not found'. The document is gone from this address, not walled. The charities rules now live at https://www.njconsumeraffairs.gov/regulations/Chapter-48-Charitable-Fund-Raising.pdf (N.J.A.C. 13:48, captured locally 2026-09-30). Nothing cites this entry (0 prod verification rows, read events or requirement rows; no phase_b artifact). Kept so the failure stays on record; disclosed in hopboard's KNOWN_DEGRADED (sweep_artifact_integrity.py), pinned by hopboard tests/test_sweep_retired_nj_chapter30.py. Do not cite it."
   },
   {
     "source_url": "https://www.njconsumeraffairs.gov/regulations/Chapter-48-Charitable-Fund-Raising.pdf",
