@@ -186,5 +186,18 @@
     "signed": false,
     "tls_chain_unverified": false,
     "perma_policy": "local_only (D-070)"
+  },
+  {
+    "source_url": "https://www.scstatehouse.gov/sess126_2025-2026/bills/715.htm",
+    "primary": false,
+    "local_path": "SC/www.scstatehouse.gov-sess126_2025-2026-bills-715.htm-11b7a097.html",
+    "content_type": "text/html; charset=iso-8859-1",
+    "content_sha256": "1f07166ac20252254e0f9ae3215b38fcd37b5f09154b9b03b473ef4f4ae6e4dd",
+    "perma_url": null,
+    "wayback_url": "https://web.archive.org/web/20260930130154/https://www.scstatehouse.gov/sess126_2025-2026/bills/715.htm",
+    "captured_at": "2026-09-30T13:01:50.962103+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
   }
 ]
