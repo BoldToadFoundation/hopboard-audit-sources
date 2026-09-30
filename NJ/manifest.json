@@ -39,6 +39,20 @@
     "perma_backfilled_at": "2026-07-12T21:07:30.272803+00:00"
   },
   {
+    "source_url": "https://pub.njleg.state.nj.us/statutes/STATUTES-TEXT.zip#45:17A-26",
+    "primary": false,
+    "local_path": "NJ/pub.njleg.state.nj.us-statutes-STATUTES-TEXT.zip-45-17A-26-20e2cdf7.txt",
+    "content_type": "text/plain",
+    "content_sha256": "61893e25c90ed3add2c311f640c94b302b6894148f10b5304f7171027f9a62cb",
+    "perma_url": null,
+    "wayback_url": null,
+    "captured_at": "2026-09-30T14:14:24.084249+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "ingested_from_file": true,
+    "provenance": "per-section extract of N.J.S.A. 45:17A-26: lines 485691-485716 of STATUTES.TXT inside STATUTES-TEXT.zip (file dated 2026-09-30 06:00; HTTP Last-Modified Wed, 30 Sep 2026 10:00:44 GMT; fetched 2026-09-30 by curl with a browser user agent, HTTP 200, 41,343,034 bytes, zip sha256 dc9b7ebaece78517d10dff7bcf5391e696e2b98f1c9450b78620eec5d6b63b40); extracted verbatim, CRLF kept; same method as the 45:17A-23 entry. Section history line: L.1994,c.16,s.9; amended 2005, c.283, s.5."
+  },
+  {
     "source_url": "https://www.nj.gov/treasury/taxation/exemptintro.shtml",
     "primary": false,
     "local_path": "NJ/www.nj.gov-treasury-taxation-exemptintro.shtml-c051789f.html",
