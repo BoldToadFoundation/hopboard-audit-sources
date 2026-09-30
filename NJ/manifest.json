@@ -90,5 +90,19 @@
     "captured_at": "2026-09-07T15:17:50.358813+00:00",
     "signed": false,
     "tls_chain_unverified": false
+  },
+  {
+    "source_url": "https://www.njconsumeraffairs.gov/regulations/Chapter-48-Charitable-Fund-Raising.pdf",
+    "primary": false,
+    "local_path": "NJ/www.njconsumeraffairs.gov-regulations-Chapter-48-Charitable-Fund-Raising.pdf-4c97a180.pdf",
+    "content_type": "application/pdf",
+    "content_sha256": "91c0586654ec6a2403e8db7e3b61358008e641cbaa45006764f40ca73ed762eb",
+    "perma_url": null,
+    "wayback_url": null,
+    "captured_at": "2026-09-30T14:15:13.946568+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "ingested_from_file": true,
+    "provenance": "fetched 2026-09-30 through a headed Chromium browser context (playwright, headless=False; page.request.get after navigating the charities Laws and Regulations page, which links N.J.A.C. 13:48): HTTP 200, application/pdf, 393,199 bytes, 54 pages, PDF dated 2022-05-16. The current home of the charities rules; the previously cited Chapter-30 URL now answers 404 Page not found to the same browser."
   }
 ]
