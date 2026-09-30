@@ -198,6 +198,19 @@
     "primary_promoted": "2026-07-10 Tony ruling (CA fix): CCR \u00a7305 is the deadline authority (regulation > agency page > form). This is the only CURRENT regulation-text artifact in hand \u2014 tier documented: aggregator mirror (Cornell LII) of the current CCR; the OFFICIAL publisher (govt.westlaw.com/calregs) is browser-path-only (walled to scripted capture, logged); amendment-check anchors = the AG renewals page + RRF-1 Rev. 01/2024, both current and byte-bearing the same offset rule."
   },
   {
+    "source_url": "https://www.law.cornell.edu/regulations/california/11-CCR-306",
+    "primary": false,
+    "local_path": "CA/www.law.cornell.edu-regulations-california-11-CCR-306-74e4753a.html",
+    "content_type": "text/html; charset=utf-8",
+    "content_sha256": "73042a9ab108b72745eadab3a7b4bdb5161f4018b426876d79ec8e8cc28a0337",
+    "perma_url": null,
+    "wayback_url": "https://web.archive.org/web/20260930142119/https://www.law.cornell.edu/regulations/california/11-CCR-306",
+    "captured_at": "2026-09-30T14:21:15.643618+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
+  },
+  {
     "source_url": "https://www.sos.ca.gov/business-programs/business-entities/forms/corporations-statement-information",
     "primary": false,
     "local_path": "CA/www.sos.ca.gov-business-programs-business-entities-forms-corporations-statement--8ca63707.html",
