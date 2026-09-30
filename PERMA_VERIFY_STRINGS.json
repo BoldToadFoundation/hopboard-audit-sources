@@ -2753,6 +2753,23 @@
       ],
       "basis": "Fla. Stat. §496.406(1)(d) — small-org exemption from registration (FL_SMALL_ORG_BASIS_20260929.sql, Reader A).",
       "note": "CORRECTED 2026-09-29 (D-076). The 09-07 BATCH11 skip read 'SHELL — navigation chrome rather than §496.406'. Measured against these unchanged bytes (fc1bdff): the tag-stripped text holds the full section incl. (1)(d) and its history to ch. 2025-22; the skip did not match the file. Strings replace the skip. Superseded text of the wrong note: SHELL — the capture fetch of this URL returns the Online Sunshine navigation chrome (5,456 chars after tag-strip) rather than §496.406; the tail of it is a chap D-076 fresh capture 2026-09-29 (96UD-4BSQ) replacing failed CPN9-W3U9 (kept in perma_failed_guids). RETIRED 2026-09-29: 96UD-4BSQ also failed at Perma (status 'failed', WARC 404); strings rest on the local sha-pinned copy."
+    },
+    "24c7eed61a97baee284c76c7abc4393ae76d88c611c1944cc0bac38b3d50cbd1": {
+      "basis": "225 ILCS 460/2(a) (Solicitation for Charity Act, registration): the $15 registration fee that accompanies the registration statement, owed by every charitable organization not excepted by Section 3 (§3(a) keeps 'the requirements set forth in Section 2'). Load-bearing for IL_INITIAL_FEE_20260929.sql (initial_fee_flat NULL -> 15). Captured first-party 2026-09-29, local only (D-070); tls_chain_unverified, corroborated by the identical-sha Wayback copy (manifest note). Strings verified against the LOCAL bytes with artifact_extract; a planted '$25' fragment reported missing.",
+      "source_url": "https://www.ilga.gov/documents/legislation/ilcs/documents/022504600K2.htm",
+      "strings": [
+        "Every charitable organization, except as otherwise provided in Section 3 of this Act",
+        "shall, prior to any solicitation, file with the Attorney General upon forms prescribed by him, a registration statement, accompanied by a registration fee of $15",
+        "(Source: P.A. 90-469, eff. 8-17-97; 91-444, eff. 8-6-99.)"
+      ]
+    },
+    "3f152ee710226c8fa0f03e126e5ab04481fa33db324b6b989543056caa5510fa": {
+      "basis": "Illinois Attorney General, Form CO.REG.INS (Revised 1/19), registration instructions: the agency administers the §2(a) fee as a $15.00 registration fee for all initial registrations. Reader B for IL_INITIAL_FEE_20260929.sql. Strings verified against the LOCAL bytes with artifact_extract (pdftotext); a planted '$25' fragment reported missing.",
+      "source_url": "https://illinoisattorneygeneral.gov/Page-Attachments/charitable_instructions.pdf",
+      "strings": [
+        "TO REGISTER OR RE-REGISTER WITH THE ILLINOIS ATTORNEY GENERAL",
+        "The Solicitation for Charity Act and Charitable Trust Act require a $15.00 registration fee for all initial registrations."
+      ]
     }
   }
 }

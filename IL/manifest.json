@@ -65,6 +65,20 @@
     "perma_policy": "local_only (D-070)"
   },
   {
+    "source_url": "https://www.ilga.gov/documents/legislation/ilcs/documents/022504600K2.htm",
+    "primary": true,
+    "local_path": "IL/www.ilga.gov-documents-legislation-ilcs-documents-022504600K2.htm-f297d8c2.html",
+    "content_type": "text/html",
+    "content_sha256": "24c7eed61a97baee284c76c7abc4393ae76d88c611c1944cc0bac38b3d50cbd1",
+    "perma_url": null,
+    "wayback_url": "https://web.archive.org/web/20251016130549/https://ilga.gov/Documents/legislation/ilcs/documents/022504600K2.htm",
+    "captured_at": "2026-09-30T01:33:32.998179+00:00",
+    "signed": false,
+    "tls_chain_unverified": true,
+    "perma_policy": "local_only (D-070)",
+    "note": "225 ILCS 460/2 (Solicitation for Charity Act, registration; the $15 registration fee in \u00a72(a)). tls_chain_unverified: ilga.gov served an incomplete chain (curl rc 60, 2026-09-29). Compensating control, same day: the Wayback copy at wayback_url, fetched raw (id_) through archive.org's own TLS, hashes to the SAME sha256 (24c7eed6...), so these bytes are corroborated by a second path. Section source note: '(Source: P.A. 90-469, eff. 8-17-97; 91-444, eff. 8-6-99.)'. Local only (D-070: a fee, not a deadline)."
+  },
+  {
     "source_url": "https://www.ilga.gov/documents/legislation/ilcs/documents/022504600K3.htm",
     "primary": true,
     "local_path": "IL/www.ilga.gov-documents-legislation-ilcs-documents-022504600K3.htm-5cb769f3.html",

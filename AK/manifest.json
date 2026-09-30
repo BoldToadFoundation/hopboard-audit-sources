@@ -11,7 +11,7 @@
     "signed": false,
     "tls_chain_unverified": false,
     "perma_policy": "local_only (D-070)",
-    "note": "D-076 (2026-09-29): short page (about 1.9 KB of visible text), the Department of Law payment form (Charity Name, Price, EIN, registration period ending 8/31/2027). Compared with the page as served on 2026-09-29 by one scripted fetch with a browser user agent: HTTP 200, title 'Department of Law - Make a Payment', and all 77 visible text lines identical to this capture. The F5 rejection reported earlier that day did not reproduce on that fetch. Not entered as known-short: a write that cannot newly tell an org it is exempt or needs to do less rests on this saved copy (D-076, hopboard sweep_artifact_integrity.py --artifact); an exempt-direction write would need it digest-pinned first."
+    "note": "D-076 (2026-09-29): KNOWN-SHORT, digest-pinned in hopboard's CONFIRMED_GENUINE_TINY (sweep_artifact_integrity.py; tests/test_sweep_genuine_tiny_ak_payment.py). A short page (about 1.9 KB of visible text): the Department of Law charity registration payment form (Charity Name, Price, EIN, registration period ending 8/31/2027). Compared with the page as served twice on 2026-09-29 by scripted fetches with a browser user agent: HTTP 200, title 'Department of Law - Make a Payment', all 77 visible text lines identical to this capture. The F5 rejection reported earlier that day did not reproduce; at pin time the capture tool's own user agent got the real page too, so its cause is unknown. The pin covers these bytes only; a re-capture must be compared again."
   },
   {
     "source_url": "https://www.akleg.gov/basis/statutes.asp#45.68",
