@@ -10,7 +10,8 @@
     "captured_at": "2026-09-29T20:24:37.569330+00:00",
     "signed": false,
     "tls_chain_unverified": false,
-    "perma_policy": "local_only (D-070)"
+    "perma_policy": "local_only (D-070)",
+    "note": "D-076 (2026-09-29): short page (about 1.9 KB of visible text), the Department of Law payment form (Charity Name, Price, EIN, registration period ending 8/31/2027). Compared with the page as served on 2026-09-29 by one scripted fetch with a browser user agent: HTTP 200, title 'Department of Law - Make a Payment', and all 77 visible text lines identical to this capture. The F5 rejection reported earlier that day did not reproduce on that fetch. Not entered as known-short: a write that cannot newly tell an org it is exempt or needs to do less rests on this saved copy (D-076, hopboard sweep_artifact_integrity.py --artifact); an exempt-direction write would need it digest-pinned first."
   },
   {
     "source_url": "https://www.akleg.gov/basis/statutes.asp#45.68",
