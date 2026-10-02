@@ -2009,13 +2009,14 @@
         "C16-1a-S212_2026050620261001"
       ]
     },
-    "5J2D-GYLU": {
-      "basis": "Utah Admin. Code R154-100 Administrative Procedures Act Rule (Division of Corporations and Commercial Code, current rules, read 2026-09-29): read for a rule under §16-1a-212(5)(a) setting a different annual-report period — none (no provision on annual-report timing)",
-      "source_url": "https://adminrules.utah.gov/api/public/getfile/uac-html/11d3ed97-02d8-4867-9db1-5b4446db9d9d.html/R154-100.html",
+    "6SBS-5KYK": {
+      "basis": "Utah Admin. Code R154-100 Administrative Procedures Act Rule (Division of Corporations and Commercial Code, current rules): read for a rule under §16-1a-212(5)(a) setting a different annual-report period — none (no provision on annual-report timing). The public rule page; the WARC holds the page's /api/public/getHTML response (78,947 bytes, the full rule) and its DOM snapshot, both carrying these strings.",
+      "source_url": "https://adminrules.utah.gov/public/rule/R154-100/Current%20Rules",
       "strings": [
         "Terms used in this rule that are defined in the Administrative Procedures Act, Title 63G, Chapter 4, and not",
         "otherwise defined in this section shall have the respective meanings given the terms in the Administrative Procedures Act, Title"
-      ]
+      ],
+      "note": "Supersedes 5J2D-GYLU (the site's app shell; kept in the manifest's perma_failed_guids on the getfile entry). Relay hopboard green #4; hopboard BATCH19 §33."
     },
     "LPA3-68YW": {
       "basis": "Utah Admin. Code R154-1 Central Filing System for Agricultural Product Liens (Division of Corporations and Commercial Code, current rules): read for a rule under §16-1a-212(5)(a) setting a different annual-report period — none (no provision on annual-report timing). The public rule page; the WARC holds the page's /api/public/getHTML response (95,111 bytes, the full rule) and its DOM snapshot, both carrying these strings.",
@@ -2115,6 +2116,14 @@
     }
   },
   "by_sha256": {
+    "72048ad15895d5fe51ebd0868a8d05d1a4f0086c3ed9fdb041d095a314ac4b37": {
+      "basis": "Utah Admin. Code R154-100, the superseded getfile copy (read 2026-09-29) [moved from by_perma_guid 5J2D-GYLU when the entry was superseded: that Perma copy holds the site's app shell; the citation is now the public rule page, Perma 6SBS-5KYK]. Strings verified against the LOCAL sha-pinned bytes.",
+      "source_url": "https://adminrules.utah.gov/api/public/getfile/uac-html/11d3ed97-02d8-4867-9db1-5b4446db9d9d.html/R154-100.html",
+      "strings": [
+        "Terms used in this rule that are defined in the Administrative Procedures Act, Title 63G, Chapter 4, and not",
+        "otherwise defined in this section shall have the respective meanings given the terms in the Administrative Procedures Act, Title"
+      ]
+    },
     "cdc696d06d4e76bef16aff3376a3c53031171a51a17294dcf3fa4ec8b2c92b24": {
       "basis": "Utah Admin. Code R154-1, the superseded getfile copy (read 2026-09-29) [moved from by_perma_guid PQ84-XSDT when the entry was superseded: that Perma copy holds the site's app shell; the citation is now the public rule page, Perma LPA3-68YW]. Strings verified against the LOCAL sha-pinned bytes.",
       "source_url": "https://adminrules.utah.gov/api/public/getfile/uac-html/16e8d60f-f110-4b7c-934c-0aa6c67e196b.html/R154-1.html",

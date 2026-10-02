@@ -5,7 +5,12 @@
     "local_path": "UT/adminrules.utah.gov-api-public-getfile-uac-html-11d3ed97-02d8-4867-9db1-5b4446db-9494d3b6.html",
     "content_type": "text/html",
     "content_sha256": "72048ad15895d5fe51ebd0868a8d05d1a4f0086c3ed9fdb041d095a314ac4b37",
-    "perma_url": "https://perma.cc/5J2D-GYLU",
+    "perma_url": null,
+    "perma_failed_guids": [
+      "5J2D-GYLU"
+    ],
+    "perma_policy": "local_only (D-076 record shape: SUPERSEDED, not deleted. This getfile URL serves the rule only to requests that do not ask for HTML, so Perma's browser archived the site's 2,224-byte app shell, not R154-100. The citation moved to the public rule page in superseded_by, Perma 6SBS-5KYK, which holds the rule text. This copy's text equals that Perma copy's getHTML text under hopboard BATCH19 §31's pre-registered comparison. Relay hopboard green #2 and #4; hopboard BATCH19 §31, §33.)",
+    "superseded_by": "https://adminrules.utah.gov/public/rule/R154-100/Current%20Rules",
     "wayback_url": "https://web.archive.org/web/20260929110308/https://adminrules.utah.gov/api/public/getfile/uac-html/11d3ed97-02d8-4867-9db1-5b4446db9d9d.html/R154-100.html",
     "captured_at": "2026-09-29T11:01:19.118162+00:00",
     "signed": false,
@@ -95,13 +100,14 @@
     "local_path": "UT/adminrules.utah.gov-public-rule-R154-100-Current-20Rules-1e934832.html",
     "content_type": "text/html",
     "content_sha256": "a96baa8900dce6a550d003f32a9af7612ba55bb3b6d015373eced2b2a564015f",
-    "perma_url": null,
+    "perma_url": "https://perma.cc/6SBS-5KYK",
     "wayback_url": null,
     "captured_at": "2026-10-02T21:37:06.438546+00:00",
     "signed": false,
     "tls_chain_unverified": false,
     "ingested_from_file": true,
-    "provenance": "browser_captured: headless Chromium (Playwright) page navigation to the public rule page; DOM saved with page.content() after network idle plus 3 s; the page loads the rule text through /api/public/getHTML/uac-html/11d3ed97-02d8-4867-9db1-5b4446db9d9d.html; three renders hashed identical (relay hopboard green #2, #4). Supersedes the getfile entry for R154-100, whose Perma copy 5J2D-GYLU holds the site app shell, not the rule (BATCH19 \u00a730)."
+    "provenance": "browser_captured: headless Chromium (Playwright) page navigation to the public rule page; DOM saved with page.content() after network idle plus 3 s; the page loads the rule text through /api/public/getHTML/uac-html/11d3ed97-02d8-4867-9db1-5b4446db9d9d.html; three renders hashed identical (relay hopboard green #2, #4). Supersedes the getfile entry for R154-100, whose Perma copy 5J2D-GYLU holds the site app shell, not the rule (BATCH19 \u00a730).",
+    "perma_backfilled_at": "2026-10-02T21:37:11.667240+00:00"
   },
   {
     "source_url": "https://adminrules.utah.gov/public/rule/R154-2/Current%20Rules",
