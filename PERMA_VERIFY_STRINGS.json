@@ -2017,29 +2017,32 @@
         "otherwise defined in this section shall have the respective meanings given the terms in the Administrative Procedures Act, Title"
       ]
     },
-    "PQ84-XSDT": {
-      "basis": "Utah Admin. Code R154-1 Central Filing System for Agricultural Product Liens (Division of Corporations and Commercial Code, current rules, read 2026-09-29): read for a rule under §16-1a-212(5)(a) setting a different annual-report period — none (no provision on annual-report timing)",
-      "source_url": "https://adminrules.utah.gov/api/public/getfile/uac-html/16e8d60f-f110-4b7c-934c-0aa6c67e196b.html/R154-1.html",
+    "LPA3-68YW": {
+      "basis": "Utah Admin. Code R154-1 Central Filing System for Agricultural Product Liens (Division of Corporations and Commercial Code, current rules): read for a rule under §16-1a-212(5)(a) setting a different annual-report period — none (no provision on annual-report timing). The public rule page; the WARC holds the page's /api/public/getHTML response (95,111 bytes, the full rule) and its DOM snapshot, both carrying these strings.",
+      "source_url": "https://adminrules.utah.gov/public/rule/R154-1/Current%20Rules",
       "strings": [
         "Terms used in this rule that are defined in the Food Security Act of 1985, 7 U.S.C. Section 1631 or Section R154-2-100",
         "and not otherwise defined in this section shall have the respective meanings given the terms in 7 U.S.C. Section 1631 and Section"
-      ]
+      ],
+      "note": "Supersedes PQ84-XSDT (the site's app shell; kept in the manifest's perma_failed_guids on the getfile entry). Relay hopboard green #2; hopboard BATCH19 §31."
     },
-    "8B2C-2PHX": {
-      "basis": "Utah Admin. Code R154-2 Filing Office Rules (Division of Corporations and Commercial Code, current rules, read 2026-09-29): read for a rule under §16-1a-212(5)(a) setting a different annual-report period — none (no provision on annual-report timing)",
-      "source_url": "https://adminrules.utah.gov/api/public/getfile/uac-html/b9832f71-c1e1-47cc-a049-0e34e5235b5a.html/R154-2.html",
+    "PE9N-DWGD": {
+      "basis": "Utah Admin. Code R154-2 Filing Office Rules (Division of Corporations and Commercial Code, current rules): read for a rule under §16-1a-212(5)(a) setting a different annual-report period — none (no provision on annual-report timing). The public rule page; the WARC holds the page's /api/public/getHTML response (192,271 bytes, the full rule) and its DOM snapshot, both carrying these strings.",
+      "source_url": "https://adminrules.utah.gov/public/rule/R154-2/Current%20Rules",
       "strings": [
         "Terms used this rule that are defined in the UCC and not otherwise defined in this section shall have the respective",
         "an address that purports to be a mailing address outside the United State of America."
-      ]
+      ],
+      "note": "Supersedes 8B2C-2PHX (the site's app shell; kept in the manifest's perma_failed_guids on the getfile entry). Relay hopboard green #2; hopboard BATCH19 §31."
     },
-    "NNY3-XJ4T": {
-      "basis": "Utah Admin. Code R154-3 Decentralized Autonomous Organization Act Rule (Division of Corporations and Commercial Code, current rules, read 2026-09-29): read for a rule under §16-1a-212(5)(a) setting a different annual-report period — none (no provision on annual-report timing)",
-      "source_url": "https://adminrules.utah.gov/api/public/getfile/uac-html/ce6b49b3-5d3a-4756-a7bc-5c7c683d34e7.html/R154-3.html",
+    "X95U-GUEY": {
+      "basis": "Utah Admin. Code R154-3 Decentralized Autonomous Organization Act Rule (Division of Corporations and Commercial Code, current rules): read for a rule under §16-1a-212(5)(a) setting a different annual-report period — none (no provision on annual-report timing). The public rule page; the WARC holds the page's /api/public/getHTML response (116,362 bytes, the full rule) and its DOM snapshot, both carrying these strings.",
+      "source_url": "https://adminrules.utah.gov/public/rule/R154-3/Current%20Rules",
       "strings": [
         "This rule is adopted by the Division under the authority of Sections 48-5-103 and 48-5-109 to enable the division to",
         "Terms used in this rule are defined in Title 48, Chapter 5, Decentralized Autonomous Organization Act. In"
-      ]
+      ],
+      "note": "Supersedes NNY3-XJ4T (the site's app shell; kept in the manifest's perma_failed_guids on the getfile entry). Relay hopboard green #2; hopboard BATCH19 §31."
     },
     "2THA-GYHL": {
       "basis": "Ohio Rev. Code §1716.02: the charitable organization's annual registration statement is refiled on or before the fifteenth day of the fifth calendar month after fiscal-year close, or by any federal extension date, whichever is later [D-062/D-070 bulk capture of corpus-cited deadline sources, 2026-09-29; strings verified against the local capture via check_perma_sidecar.artifact_text]",
@@ -2112,6 +2115,30 @@
     }
   },
   "by_sha256": {
+    "cdc696d06d4e76bef16aff3376a3c53031171a51a17294dcf3fa4ec8b2c92b24": {
+      "basis": "Utah Admin. Code R154-1, the superseded getfile copy (read 2026-09-29) [moved from by_perma_guid PQ84-XSDT when the entry was superseded: that Perma copy holds the site's app shell; the citation is now the public rule page, Perma LPA3-68YW]. Strings verified against the LOCAL sha-pinned bytes.",
+      "source_url": "https://adminrules.utah.gov/api/public/getfile/uac-html/16e8d60f-f110-4b7c-934c-0aa6c67e196b.html/R154-1.html",
+      "strings": [
+        "Terms used in this rule that are defined in the Food Security Act of 1985, 7 U.S.C. Section 1631 or Section R154-2-100",
+        "and not otherwise defined in this section shall have the respective meanings given the terms in 7 U.S.C. Section 1631 and Section"
+      ]
+    },
+    "3b5d85e00e5632955eff7232c24c8181e5123d7ec7196cb3a87ed0889b8366b3": {
+      "basis": "Utah Admin. Code R154-2, the superseded getfile copy (read 2026-09-29) [moved from by_perma_guid 8B2C-2PHX when the entry was superseded: that Perma copy holds the site's app shell; the citation is now the public rule page, Perma PE9N-DWGD]. Strings verified against the LOCAL sha-pinned bytes.",
+      "source_url": "https://adminrules.utah.gov/api/public/getfile/uac-html/b9832f71-c1e1-47cc-a049-0e34e5235b5a.html/R154-2.html",
+      "strings": [
+        "Terms used this rule that are defined in the UCC and not otherwise defined in this section shall have the respective",
+        "an address that purports to be a mailing address outside the United State of America."
+      ]
+    },
+    "b45dc9a0a1931726d33dd8711b20c7411d9d61e6ab159ceebcaf337424de3237": {
+      "basis": "Utah Admin. Code R154-3, the superseded getfile copy (read 2026-09-29) [moved from by_perma_guid NNY3-XJ4T when the entry was superseded: that Perma copy holds the site's app shell; the citation is now the public rule page, Perma X95U-GUEY]. Strings verified against the LOCAL sha-pinned bytes.",
+      "source_url": "https://adminrules.utah.gov/api/public/getfile/uac-html/ce6b49b3-5d3a-4756-a7bc-5c7c683d34e7.html/R154-3.html",
+      "strings": [
+        "This rule is adopted by the Division under the authority of Sections 48-5-103 and 48-5-109 to enable the division to",
+        "Terms used in this rule are defined in Title 48, Chapter 5, Decentralized Autonomous Organization Act. In"
+      ]
+    },
     "2f932d408c187b94744edb3819832d382814fd769b08dafb5ce40a172dfe5e19": {
       "basis": "Mo. Rev. Stat. §407.478 (no bar to private civil actions) — ingested via --from-file 2026-09-05 (BATCH3 item 1, A1; same-UA curl probe of the live page). No Perma: the capture CLI's --primary slot could not be used without re-capturing the archived load-bearing primary §407.456 (a retake would orphan the predecessor verification row 84 cites). Completeness capture; strings verified against the LOCAL sha-pinned bytes.",
       "source_url": "https://revisor.mo.gov/main/OneSection.aspx?section=407.478",
