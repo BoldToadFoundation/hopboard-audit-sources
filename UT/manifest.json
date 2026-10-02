@@ -65,13 +65,28 @@
     "local_path": "UT/adminrules.utah.gov-public-rule-R154-1-Current-20Rules-8a68ca46.html",
     "content_type": "text/html",
     "content_sha256": "02c94b714089f846275c4bd086bb04e5b98d25505400c4a679571f42cdfb794c",
-    "perma_url": null,
+    "perma_url": "https://perma.cc/LPA3-68YW",
     "wayback_url": null,
     "captured_at": "2026-10-02T00:43:53.486274+00:00",
     "signed": false,
     "tls_chain_unverified": false,
     "ingested_from_file": true,
-    "provenance": "browser_captured: headless Chromium (Playwright) page navigation to the public rule page; DOM saved with page.content() after network idle plus 3 s; the page loads the rule text through /api/public/getHTML/uac-html/16e8d60f-f110-4b7c-934c-0aa6c67e196b.html; three renders hashed identical (relay hopboard green #2). Supersedes the getfile entry for R154-1, whose Perma copy PQ84-XSDT holds the site app shell, not the rule (BATCH19 \u00a730)."
+    "provenance": "browser_captured: headless Chromium (Playwright) page navigation to the public rule page; DOM saved with page.content() after network idle plus 3 s; the page loads the rule text through /api/public/getHTML/uac-html/16e8d60f-f110-4b7c-934c-0aa6c67e196b.html; three renders hashed identical (relay hopboard green #2). Supersedes the getfile entry for R154-1, whose Perma copy PQ84-XSDT holds the site app shell, not the rule (BATCH19 \u00a730).",
+    "perma_backfilled_at": "2026-10-02T00:44:01.648995+00:00"
+  },
+  {
+    "source_url": "https://adminrules.utah.gov/public/rule/R154-2/Current%20Rules",
+    "primary": false,
+    "local_path": "UT/adminrules.utah.gov-public-rule-R154-2-Current-20Rules-c4f7f443.html",
+    "content_type": "text/html",
+    "content_sha256": "ef055f1d5a3a132635461784d5d3c5367087161dff0839816d4add3c3b631fa1",
+    "perma_url": null,
+    "wayback_url": null,
+    "captured_at": "2026-10-02T00:44:45.988271+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "ingested_from_file": true,
+    "provenance": "browser_captured: headless Chromium (Playwright) page navigation to the public rule page; DOM saved with page.content() after network idle plus 3 s; the page loads the rule text through /api/public/getHTML/uac-html/b9832f71-c1e1-47cc-a049-0e34e5235b5a.html; three renders hashed identical (relay hopboard green #2). Supersedes the getfile entry for R154-2, whose Perma copy 8B2C-2PHX holds the site app shell, not the rule (BATCH19 \u00a730)."
   },
   {
     "source_url": "https://commerce.utah.gov/corporations/faqs/",
