@@ -89,6 +89,20 @@
     "provenance": "browser_captured: headless Chromium (Playwright) page navigation to the public rule page; DOM saved with page.content() after network idle plus 3 s; the page loads the rule text through /api/public/getHTML/uac-html/b9832f71-c1e1-47cc-a049-0e34e5235b5a.html; three renders hashed identical (relay hopboard green #2). Supersedes the getfile entry for R154-2, whose Perma copy 8B2C-2PHX holds the site app shell, not the rule (BATCH19 \u00a730)."
   },
   {
+    "source_url": "https://adminrules.utah.gov/public/rule/R154-3/Current%20Rules",
+    "primary": false,
+    "local_path": "UT/adminrules.utah.gov-public-rule-R154-3-Current-20Rules-8beaa728.html",
+    "content_type": "text/html",
+    "content_sha256": "77582e08306a50497ae8a7da66b82fa7c395406a72bde5c2d2bc1e5146b08532",
+    "perma_url": null,
+    "wayback_url": null,
+    "captured_at": "2026-10-02T00:44:51.090368+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "ingested_from_file": true,
+    "provenance": "browser_captured: headless Chromium (Playwright) page navigation to the public rule page; DOM saved with page.content() after network idle plus 3 s; the page loads the rule text through /api/public/getHTML/uac-html/ce6b49b3-5d3a-4756-a7bc-5c7c683d34e7.html; three renders hashed identical (relay hopboard green #2). Supersedes the getfile entry for R154-3, whose Perma copy NNY3-XJ4T holds the site app shell, not the rule (BATCH19 \u00a730)."
+  },
+  {
     "source_url": "https://commerce.utah.gov/corporations/faqs/",
     "primary": false,
     "local_path": "UT/commerce.utah.gov-corporations-faqs-b24a5cfd.html",
