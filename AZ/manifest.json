@@ -57,6 +57,32 @@
     "captured_at_basis": "CORRECTED 2026-08-08 per Tony ruling (captured_at = when the BYTES were captured from the source, not when we ingested them). True date read from the 14-digit snapshot timestamp in this entry's own source_url; verified against the Internet Archive CDX index (a snapshot exists at exactly that timestamp, status 200) before the correction was propagated. Prior value was the 2026-06-12 wayback_snapshot re-homing INGEST date, preserved in ingested_at."
   },
   {
+    "source_url": "https://www.azcc.gov/docs/default-source/corps-files/fee-schedules/fee-schedule-corporations6def4cc74b1a47129d16c2b1c3851bda.pdf",
+    "primary": false,
+    "local_path": "AZ/www.azcc.gov-docs-default-source-corps-files-fee-schedules-fee-schedule-corporat-d86f407b.pdf",
+    "content_type": "application/pdf",
+    "content_sha256": "494d6efaf94c1d542235644d08e3ab0d963e8d394c59bf72f0c1a5847c9b835b",
+    "perma_url": null,
+    "wayback_url": null,
+    "captured_at": "2026-10-04T17:37:19.928343+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
+  },
+  {
+    "source_url": "https://www.azcc.gov/docs/default-source/corps-files/forms/c018-application-for-authorityf0a7642459b14cc8b59ae368ff35fd6d.pdf",
+    "primary": false,
+    "local_path": "AZ/www.azcc.gov-docs-default-source-corps-files-forms-c018-application-for-authorit-e7d48a43.pdf",
+    "content_type": "application/pdf",
+    "content_sha256": "5c738ca3758041faee2e92e9c4715c0f89e12a8a8c278e8c34ea0ea866547aef",
+    "perma_url": null,
+    "wayback_url": null,
+    "captured_at": "2026-10-04T17:37:19.928343+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
+  },
+  {
     "source_url": "https://www.azcc.gov/docs/default-source/corps-files/instructions/c011i-instructions-articles-of-inc-nonprofit.pdf?sfvrsn=eac39497_2",
     "primary": false,
     "local_path": "AZ/www.azcc.gov-docs-default-source-corps-files-instructions-c011i-instructions-art-31906722.pdf",
@@ -65,6 +91,19 @@
     "perma_url": null,
     "wayback_url": null,
     "captured_at": "2026-09-29T20:20:38.356566+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
+  },
+  {
+    "source_url": "https://www.azcc.gov/docs/default-source/corps-files/instructions/c018i-instructions-application-for-authority5432c624ef494608810196b6feb8c2f0.pdf",
+    "primary": false,
+    "local_path": "AZ/www.azcc.gov-docs-default-source-corps-files-instructions-c018i-instructions-app-8f5b88f9.pdf",
+    "content_type": "application/pdf",
+    "content_sha256": "c098383ed7fe9237d78a8ca3b499f1b25047eac5f94ae5f264714c88dd048dec",
+    "perma_url": null,
+    "wayback_url": null,
+    "captured_at": "2026-10-04T17:37:19.928343+00:00",
     "signed": false,
     "tls_chain_unverified": false,
     "perma_policy": "local_only (D-070)"
@@ -162,6 +201,19 @@
     "perma_url": null,
     "wayback_url": "https://web.archive.org/web/20260929202039/https://www.azleg.gov/legtext/51leg/1r/laws/0234.pdf",
     "captured_at": "2026-09-29T20:20:38.356566+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
+  },
+  {
+    "source_url": "https://www.azleg.gov/viewdocument/?docName=https://www.azleg.gov/ars/10/03122.htm",
+    "primary": false,
+    "local_path": "AZ/www.azleg.gov-viewdocument-docName-https-www.azleg.gov-ars-10-03122.htm-309b0352.html",
+    "content_type": "text/html; charset=UTF-8",
+    "content_sha256": "4941aad0211e122e25132c4e023a10770826ef4ee6713094e5775f1ab9e0dcce",
+    "perma_url": null,
+    "wayback_url": null,
+    "captured_at": "2026-10-04T17:37:19.928343+00:00",
     "signed": false,
     "tls_chain_unverified": false,
     "perma_policy": "local_only (D-070)"
