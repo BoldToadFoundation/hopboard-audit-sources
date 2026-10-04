@@ -74,6 +74,19 @@
     "perma_policy": "local_only (D-070)"
   },
   {
+    "source_url": "https://nebraskalegislature.gov/laws/statutes.php?statute=33-101",
+    "primary": false,
+    "local_path": "NE/nebraskalegislature.gov-laws-statutes.php-statute-33-101-01d9df3e.html",
+    "content_type": "text/html; charset=UTF-8",
+    "content_sha256": "5b37534ad40178ba486108b610e4a7a66227fa3147202f53a28476ffeca37254",
+    "perma_url": null,
+    "wayback_url": null,
+    "captured_at": "2026-10-04T21:46:18.359588+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
+  },
+  {
     "source_url": "https://nebraskalegislature.gov/laws/statutes.php?statute=87-302",
     "primary": false,
     "local_path": "NE/nebraskalegislature.gov-laws-statutes.php-statute-87-302.html",
@@ -171,6 +184,19 @@
     "captured_at": "2026-07-02T09:18:52.997687+00:00",
     "signed": true,
     "tls_chain_unverified": false
+  },
+  {
+    "source_url": "https://sos.nebraska.gov/sites/default/files/doc/business-services/Corporations/Forms/ApplicationForCertificateofAuthorityFNP.pdf",
+    "primary": false,
+    "local_path": "NE/sos.nebraska.gov-sites-default-files-doc-business-services-Corporations-Forms-Ap-96191d1a.pdf",
+    "content_type": "application/pdf",
+    "content_sha256": "835bc8bd6c524022ff773d51a3031694adb868eac976c5a7c696b424c1a3d850",
+    "perma_url": null,
+    "wayback_url": "https://web.archive.org/web/20261004214619/https://sos.nebraska.gov/sites/default/files/doc/business-services/Corporations/Forms/ApplicationForCertificateofAuthorityFNP.pdf",
+    "captured_at": "2026-10-04T21:46:18.359588+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
   },
   {
     "source_url": "https://sos.nebraska.gov/sites/default/files/doc/business-services/Corporations/Reinstatement/NPReinstatement.pdf",
