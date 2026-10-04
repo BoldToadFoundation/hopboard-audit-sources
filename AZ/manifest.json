@@ -133,6 +133,19 @@
     "tls_chain_unverified": false
   },
   {
+    "source_url": "https://www.azleg.gov/ars/13/03302.htm",
+    "primary": false,
+    "local_path": "AZ/www.azleg.gov-ars-13-03302.htm-b5dfb513.html",
+    "content_type": "text/html",
+    "content_sha256": "0a2e13cdd265c31585a11cd3839c97b6dce1ff4907a6c37f0ed311672c28514d",
+    "perma_url": null,
+    "wayback_url": null,
+    "captured_at": "2026-10-04T17:50:56.855990+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
+  },
+  {
     "source_url": "https://www.azleg.gov/ars/13/03722.htm",
     "primary": false,
     "local_path": "AZ/www.azleg.gov-ars-13-03722.htm.html",
@@ -143,6 +156,19 @@
     "captured_at": "2026-07-03T15:07:18.862910+00:00",
     "signed": false,
     "tls_chain_unverified": false
+  },
+  {
+    "source_url": "https://www.azleg.gov/ars/44/01273.htm",
+    "primary": false,
+    "local_path": "AZ/www.azleg.gov-ars-44-01273.htm-52bd75e7.html",
+    "content_type": "text/html",
+    "content_sha256": "e8c82e0644f353038509513a6f8b3ffebeb0b9d3e1485949bbbf800aa1daec46",
+    "perma_url": null,
+    "wayback_url": null,
+    "captured_at": "2026-10-04T17:50:56.855990+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
   },
   {
     "source_url": "https://www.azleg.gov/ars/44/06551.htm",
@@ -167,6 +193,32 @@
     "captured_at": "2026-07-03T15:07:18.862910+00:00",
     "signed": false,
     "tls_chain_unverified": false
+  },
+  {
+    "source_url": "https://www.azleg.gov/ars/5/00403.htm",
+    "primary": false,
+    "local_path": "AZ/www.azleg.gov-ars-5-00403.htm-a1822cca.html",
+    "content_type": "text/html",
+    "content_sha256": "45997030aae7ae2ae2c7183c0d537445386010c4c43455d2f45c78873b62d5b1",
+    "perma_url": null,
+    "wayback_url": "https://web.archive.org/web/20261004175501/https://www.azleg.gov/ars/5/00403.htm",
+    "captured_at": "2026-10-04T17:50:56.855990+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
+  },
+  {
+    "source_url": "https://www.azleg.gov/arsDetail/?title=44",
+    "primary": false,
+    "local_path": "AZ/www.azleg.gov-arsDetail-title-44-4e77120f.html",
+    "content_type": "text/html; charset=UTF-8",
+    "content_sha256": "d94ce9ec0575a829ba42012e62a14185c5c7bb11aecfdca7aa03225cdfc3621e",
+    "perma_url": null,
+    "wayback_url": null,
+    "captured_at": "2026-10-04T17:50:56.855990+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
   },
   {
     "source_url": "https://www.azleg.gov/arstitle/",
