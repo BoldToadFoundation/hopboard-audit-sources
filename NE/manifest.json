@@ -173,6 +173,19 @@
     "tls_chain_unverified": false
   },
   {
+    "source_url": "https://sos.nebraska.gov/sites/default/files/doc/business-services/Corporations/Reinstatement/NPReinstatement.pdf",
+    "primary": false,
+    "local_path": "NE/sos.nebraska.gov-sites-default-files-doc-business-services-Corporations-Reinstat-6b9f8b8c.pdf",
+    "content_type": "application/pdf",
+    "content_sha256": "22b6fdc40fedc07232ff083ac86f68d15e131ceaa99126b612388a0676eb80ab",
+    "perma_url": null,
+    "wayback_url": "https://web.archive.org/web/20261004195957/https://sos.nebraska.gov/sites/default/files/doc/business-services/Corporations/Reinstatement/NPReinstatement.pdf",
+    "captured_at": "2026-10-04T19:59:56.820296+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
+  },
+  {
     "source_url": "https://web.archive.org/web/20260326000515/https://nebraskalegislature.gov/laws/statutes.php?statute=21-19,172",
     "primary": false,
     "local_path": "NE/web.archive.org-web-20260326000515-https-nebraskalegislature.gov-laws-statutes.p.html",
@@ -187,5 +200,18 @@
     "provenance": "wayback_snapshot re-homing 2026-06-12: id_ raw-variant fetch of the verification row's archive_snapshot_url; load-bearing content byte-grepped at fetch ('21-19,172': 6 hits); shell-signature sweep (extended 2026-06-12) clean; converts the Wayback-only row to local-backed per the 2026-06-11 local-artifact-required standard",
     "ingested_at": "2026-06-12T19:52:26.532307+00:00",
     "captured_at_basis": "CORRECTED 2026-08-08 per Tony ruling (captured_at = when the BYTES were captured from the source, not when we ingested them). True date read from the 14-digit snapshot timestamp in this entry's own source_url; verified against the Internet Archive CDX index (a snapshot exists at exactly that timestamp, status 200) before the correction was propagated. Prior value was the 2026-06-12 wayback_snapshot re-homing INGEST date, preserved in ingested_at."
+  },
+  {
+    "source_url": "https://www.nebraska.gov/apps-sos-edocs/",
+    "primary": false,
+    "local_path": "NE/www.nebraska.gov-apps-sos-edocs-afbaba09.html",
+    "content_type": "text/html;charset=UTF-8",
+    "content_sha256": "d0bd2e4e8c17d81b67e0fabf549e948d414e1c8ce0b1c1390d4f6831c22afaed",
+    "perma_url": null,
+    "wayback_url": null,
+    "captured_at": "2026-10-04T19:59:56.820296+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
   }
 ]
