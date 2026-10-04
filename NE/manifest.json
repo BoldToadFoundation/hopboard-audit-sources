@@ -12,6 +12,19 @@
     "tls_chain_unverified": false
   },
   {
+    "source_url": "https://nebraskalegislature.gov/laws/browse-chapters.php?chapter=80",
+    "primary": false,
+    "local_path": "NE/nebraskalegislature.gov-laws-browse-chapters.php-chapter-80-bc9b4f9e.html",
+    "content_type": "text/html; charset=UTF-8",
+    "content_sha256": "c3164d794ed3d7eaf0a4a03b39efb30bcc25e1aa36c0ea0896959a690f4b1c73",
+    "perma_url": null,
+    "wayback_url": null,
+    "captured_at": "2026-10-04T17:57:42.883859+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
+  },
+  {
     "source_url": "https://nebraskalegislature.gov/laws/statutes.php?statute=21-19,172",
     "primary": true,
     "local_path": "NE/nebraskalegislature.gov-laws-statutes.php-statute-21-19-172-bd3cd85a.html",
@@ -71,6 +84,32 @@
     "captured_at": "2026-07-02T09:18:52.997687+00:00",
     "signed": true,
     "tls_chain_unverified": false
+  },
+  {
+    "source_url": "https://nebraskalegislature.gov/laws/statutes.php?statute=9-232.01",
+    "primary": false,
+    "local_path": "NE/nebraskalegislature.gov-laws-statutes.php-statute-9-232.01-e1e1149c.html",
+    "content_type": "text/html; charset=UTF-8",
+    "content_sha256": "c3bd3ade29a2e6513699e19001ef330b1cf006532e9d45b0e1b98587e24ad11d",
+    "perma_url": null,
+    "wayback_url": null,
+    "captured_at": "2026-10-04T17:57:42.883859+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
+  },
+  {
+    "source_url": "https://nebraskalegislature.gov/laws/statutes.php?statute=9-424",
+    "primary": false,
+    "local_path": "NE/nebraskalegislature.gov-laws-statutes.php-statute-9-424-01012092.html",
+    "content_type": "text/html; charset=UTF-8",
+    "content_sha256": "f58353a37cd5bbfad1391bb6c6218a73002741272e289338bee80a83b1c19569",
+    "perma_url": null,
+    "wayback_url": null,
+    "captured_at": "2026-10-04T17:57:42.883859+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
   },
   {
     "source_url": "https://protectthegoodlife.nebraska.gov/nonprofit-corporations",
