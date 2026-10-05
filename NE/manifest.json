@@ -49,6 +49,19 @@
     "tls_chain_unverified": false
   },
   {
+    "source_url": "https://nebraskalegislature.gov/laws/statutes.php?statute=21-614",
+    "primary": false,
+    "local_path": "NE/nebraskalegislature.gov-laws-statutes.php-statute-21-614-5946d628.html",
+    "content_type": "text/html; charset=UTF-8",
+    "content_sha256": "b7c6d0e69fb5b583f6d16a92b52530c98841d7aa540d06aa950ce3667cb4b77c",
+    "perma_url": null,
+    "wayback_url": null,
+    "captured_at": "2026-10-05T10:11:22.949174+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
+  },
+  {
     "source_url": "https://nebraskalegislature.gov/laws/statutes.php?statute=28-1440",
     "primary": true,
     "local_path": "NE/nebraskalegislature.gov-laws-statutes.php-statute-28-1440.html",
@@ -82,6 +95,32 @@
     "perma_url": null,
     "wayback_url": null,
     "captured_at": "2026-10-04T21:46:18.359588+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
+  },
+  {
+    "source_url": "https://nebraskalegislature.gov/laws/statutes.php?statute=81-1231",
+    "primary": false,
+    "local_path": "NE/nebraskalegislature.gov-laws-statutes.php-statute-81-1231-9ad9638b.html",
+    "content_type": "text/html; charset=UTF-8",
+    "content_sha256": "e521a90bd04999d8f17ce5a95ea95167db25d849b602a98b19f6cd1539c174b3",
+    "perma_url": null,
+    "wayback_url": null,
+    "captured_at": "2026-10-05T10:11:22.949174+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
+  },
+  {
+    "source_url": "https://nebraskalegislature.gov/laws/statutes.php?statute=81-1240",
+    "primary": false,
+    "local_path": "NE/nebraskalegislature.gov-laws-statutes.php-statute-81-1240-1c4aa69d.html",
+    "content_type": "text/html; charset=UTF-8",
+    "content_sha256": "c6810c6dc9819636df909b32cf6a3c78797ba83ed497ddb532a5198fb2a57e79",
+    "perma_url": null,
+    "wayback_url": null,
+    "captured_at": "2026-10-05T10:11:22.949174+00:00",
     "signed": false,
     "tls_chain_unverified": false,
     "perma_policy": "local_only (D-070)"
