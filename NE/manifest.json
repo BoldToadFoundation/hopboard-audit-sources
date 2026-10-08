@@ -12,6 +12,19 @@
     "tls_chain_unverified": false
   },
   {
+    "source_url": "https://nebraskalegislature.gov/laws/browse-chapters.php?chapter=21",
+    "primary": false,
+    "local_path": "NE/nebraskalegislature.gov-laws-browse-chapters.php-chapter-21-d3a5cd7e.html",
+    "content_type": "text/html; charset=UTF-8",
+    "content_sha256": "f144fdec3f6835f789b3a32d978f3499395a475f536593debe3bb2dcb37a65eb",
+    "perma_url": null,
+    "wayback_url": "https://web.archive.org/web/20261008002155/https://nebraskalegislature.gov/laws/browse-chapters.php?chapter=21",
+    "captured_at": "2026-10-08T00:21:51.182513+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
+  },
+  {
     "source_url": "https://nebraskalegislature.gov/laws/browse-chapters.php?chapter=80",
     "primary": false,
     "local_path": "NE/nebraskalegislature.gov-laws-browse-chapters.php-chapter-80-bc9b4f9e.html",
