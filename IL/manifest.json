@@ -104,6 +104,32 @@
     "perma_policy": "local_only (D-070)"
   },
   {
+    "source_url": "https://www.ilga.gov/agencies/JCAR/EntirePart?titlepart=01400400",
+    "primary": false,
+    "local_path": "IL/www.ilga.gov-agencies-JCAR-EntirePart-titlepart-01400400-9ad8e155.html",
+    "content_type": "text/html; charset=utf-8",
+    "content_sha256": "187d290a51769444460a4d4be2851f79f761fc86f9505a97b992a19770ec4613",
+    "perma_url": null,
+    "wayback_url": "https://web.archive.org/web/20261013173251/https://www.ilga.gov/agencies/JCAR/EntirePart?titlepart=01400400",
+    "captured_at": "2026-10-13T17:32:48.215110+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
+  },
+  {
+    "source_url": "https://www.ilga.gov/agencies/JCAR/EntirePart?titlepart=01400480",
+    "primary": false,
+    "local_path": "IL/www.ilga.gov-agencies-JCAR-EntirePart-titlepart-01400480-a09e571f.html",
+    "content_type": "text/html; charset=utf-8",
+    "content_sha256": "8a11a848b6ae8e083398c9047fce3c7d674d70b161823836297a8098216f360f",
+    "perma_url": null,
+    "wayback_url": null,
+    "captured_at": "2026-10-13T17:32:48.215110+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
+  },
+  {
     "source_url": "https://www.ilga.gov/documents/legislation/ilcs/documents/022504600K2.htm",
     "primary": true,
     "local_path": "IL/www.ilga.gov-documents-legislation-ilcs-documents-022504600K2.htm-f297d8c2.html",
