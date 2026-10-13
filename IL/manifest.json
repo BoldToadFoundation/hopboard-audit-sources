@@ -65,6 +65,45 @@
     "perma_policy": "local_only (D-070)"
   },
   {
+    "source_url": "https://www.ilga.gov/Legislation/ILCS/Articles?ActID=1369&ChapterID=24&Chapter=PROFESSIONS,%20OCCUPATIONS,%20AND%20BUSINESS%20OPERATIONS&MajorTopic=REGULATION",
+    "primary": false,
+    "local_path": "IL/www.ilga.gov-Legislation-ILCS-Articles-ActID-1369-ChapterID-24-Chapter-PROFESSIO-efc710b4.html",
+    "content_type": "text/html; charset=utf-8",
+    "content_sha256": "e0aaf2face482ff78ae4cfa67f783d75b895d302824468c000b820fa31a57154",
+    "perma_url": null,
+    "wayback_url": null,
+    "captured_at": "2026-10-13T17:11:19.882682+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
+  },
+  {
+    "source_url": "https://www.ilga.gov/Legislation/ILCS/Articles?ActID=2127&ChapterID=61&Chapter=TRUSTS%20AND%20FIDUCIARIES&MajorTopic=RIGHTS%20AND%20REMEDIES",
+    "primary": false,
+    "local_path": "IL/www.ilga.gov-Legislation-ILCS-Articles-ActID-2127-ChapterID-61-Chapter-TRUSTS-20-93a087d9.html",
+    "content_type": "text/html; charset=utf-8",
+    "content_sha256": "3c2a200d36a431144903615d529401b089cbb144f54ce1be2d76565d9bda4291",
+    "perma_url": null,
+    "wayback_url": null,
+    "captured_at": "2026-10-13T17:11:19.882682+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
+  },
+  {
+    "source_url": "https://www.ilga.gov/Legislation/ILCS/Articles?ActID=2280&ChapterID=65&Chapter=BUSINESS%20ORGANIZATIONS&MajorTopic=BUSINESS%20AND%20EMPLOYMENT",
+    "primary": false,
+    "local_path": "IL/www.ilga.gov-Legislation-ILCS-Articles-ActID-2280-ChapterID-65-Chapter-BUSINESS--6d98e1f1.html",
+    "content_type": "text/html; charset=utf-8",
+    "content_sha256": "1dfc8e761fa5f0a16347046c8c01cddb122f01acc8fc021d109b87a75100eb2d",
+    "perma_url": null,
+    "wayback_url": "https://web.archive.org/web/20261013171254/https://www.ilga.gov/Legislation/ILCS/Articles?ActID=2280&ChapterID=65&Chapter=BUSINESS%20ORGANIZATIONS&MajorTopic=BUSINESS%20AND%20EMPLOYMENT",
+    "captured_at": "2026-10-13T17:11:19.882682+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
+  },
+  {
     "source_url": "https://www.ilga.gov/documents/legislation/ilcs/documents/022504600K2.htm",
     "primary": true,
     "local_path": "IL/www.ilga.gov-documents-legislation-ilcs-documents-022504600K2.htm-f297d8c2.html",
