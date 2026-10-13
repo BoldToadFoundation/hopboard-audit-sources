@@ -38,6 +38,19 @@
     "perma_policy": "local_only (D-070)"
   },
   {
+    "source_url": "https://nebraskalegislature.gov/laws/statutes.php?statute=21-19,131",
+    "primary": false,
+    "local_path": "NE/nebraskalegislature.gov-laws-statutes.php-statute-21-19-131-afc1f6b0.html",
+    "content_type": "text/html; charset=UTF-8",
+    "content_sha256": "a2e00246bc48783ca7810e5d8bad0d48836160ba8804c42272a59e6a8ada7878",
+    "perma_url": null,
+    "wayback_url": null,
+    "captured_at": "2026-10-13T17:18:30.901070+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
+  },
+  {
     "source_url": "https://nebraskalegislature.gov/laws/statutes.php?statute=21-19,172",
     "primary": true,
     "local_path": "NE/nebraskalegislature.gov-laws-statutes.php-statute-21-19-172-bd3cd85a.html",
@@ -60,6 +73,19 @@
     "captured_at": "2026-08-15T17:03:54.333323+00:00",
     "signed": false,
     "tls_chain_unverified": false
+  },
+  {
+    "source_url": "https://nebraskalegislature.gov/laws/statutes.php?statute=21-1918",
+    "primary": false,
+    "local_path": "NE/nebraskalegislature.gov-laws-statutes.php-statute-21-1918-899710d1.html",
+    "content_type": "text/html; charset=UTF-8",
+    "content_sha256": "598295a50897e23259793634d2a60434816dc3ff3c1873238f709b4d4aaeeda8",
+    "perma_url": null,
+    "wayback_url": "https://web.archive.org/web/20261013172000/https://nebraskalegislature.gov/laws/statutes.php?statute=21-1918",
+    "captured_at": "2026-10-13T17:18:30.901070+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
   },
   {
     "source_url": "https://nebraskalegislature.gov/laws/statutes.php?statute=21-614",
@@ -100,6 +126,45 @@
     "perma_policy": "local_only (D-070)"
   },
   {
+    "source_url": "https://nebraskalegislature.gov/laws/statutes.php?statute=30-3810",
+    "primary": false,
+    "local_path": "NE/nebraskalegislature.gov-laws-statutes.php-statute-30-3810-6684dd3e.html",
+    "content_type": "text/html; charset=UTF-8",
+    "content_sha256": "b38af859e48b2aae5f796fa04c86bd6053eee37e5b6192c1d47ff2ab444c7bf7",
+    "perma_url": null,
+    "wayback_url": "https://web.archive.org/web/20261013171853/https://nebraskalegislature.gov/laws/statutes.php?statute=30-3810",
+    "captured_at": "2026-10-13T17:18:30.901070+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
+  },
+  {
+    "source_url": "https://nebraskalegislature.gov/laws/statutes.php?statute=30-3831",
+    "primary": false,
+    "local_path": "NE/nebraskalegislature.gov-laws-statutes.php-statute-30-3831-ca04067e.html",
+    "content_type": "text/html; charset=UTF-8",
+    "content_sha256": "ae92bbb96d2923d6215db672d311508f800db685cebe358cb2116ab0779f3572",
+    "perma_url": null,
+    "wayback_url": "https://web.archive.org/web/20261013171931/https://nebraskalegislature.gov/laws/statutes.php?statute=30-3831",
+    "captured_at": "2026-10-13T17:18:30.901070+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
+  },
+  {
+    "source_url": "https://nebraskalegislature.gov/laws/statutes.php?statute=30-3878",
+    "primary": false,
+    "local_path": "NE/nebraskalegislature.gov-laws-statutes.php-statute-30-3878-f3811dd2.html",
+    "content_type": "text/html; charset=UTF-8",
+    "content_sha256": "19004d6a6df6aab8666533355bd523a6778f32cb2f09fa066ffe1f7d1a94f8b4",
+    "perma_url": null,
+    "wayback_url": "https://web.archive.org/web/20261013171912/https://nebraskalegislature.gov/laws/statutes.php?statute=30-3878",
+    "captured_at": "2026-10-13T17:18:30.901070+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
+  },
+  {
     "source_url": "https://nebraskalegislature.gov/laws/statutes.php?statute=33-101",
     "primary": false,
     "local_path": "NE/nebraskalegislature.gov-laws-statutes.php-statute-33-101-01d9df3e.html",
@@ -134,6 +199,19 @@
     "perma_url": null,
     "wayback_url": null,
     "captured_at": "2026-10-05T10:11:22.949174+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
+  },
+  {
+    "source_url": "https://nebraskalegislature.gov/laws/statutes.php?statute=84-906.07",
+    "primary": false,
+    "local_path": "NE/nebraskalegislature.gov-laws-statutes.php-statute-84-906.07-da756fe6.html",
+    "content_type": "text/html; charset=UTF-8",
+    "content_sha256": "6db9c57fe85f84633c4cf855719cd2e79b86ee415477dd4052ffbd84486e4817",
+    "perma_url": null,
+    "wayback_url": "https://web.archive.org/web/20261013171834/https://nebraskalegislature.gov/laws/statutes.php?statute=84-906.07",
+    "captured_at": "2026-10-13T17:18:30.901070+00:00",
     "signed": false,
     "tls_chain_unverified": false,
     "perma_policy": "local_only (D-070)"
