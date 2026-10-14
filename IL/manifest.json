@@ -104,6 +104,19 @@
     "perma_policy": "local_only (D-070)"
   },
   {
+    "source_url": "https://www.ilga.gov/Legislation/PublicActs/View/104-0687",
+    "primary": false,
+    "local_path": "IL/www.ilga.gov-Legislation-PublicActs-View-104-0687-013e0cf6.html",
+    "content_type": "text/html; charset=utf-8",
+    "content_sha256": "b4c1efa52088d6003bab51c340fca3bc820df3196991ac4af6c3baf503bcd094",
+    "perma_url": null,
+    "wayback_url": "https://web.archive.org/web/20261014041931/https://www.ilga.gov/Legislation/PublicActs/View/104-0687",
+    "captured_at": "2026-10-14T04:17:37.589293+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
+  },
+  {
     "source_url": "https://www.ilga.gov/agencies/JCAR/EntirePart?titlepart=01400400",
     "primary": false,
     "local_path": "IL/www.ilga.gov-agencies-JCAR-EntirePart-titlepart-01400400-9ad8e155.html",
@@ -184,6 +197,19 @@
     "tls_chain_unverified": false
   },
   {
+    "source_url": "https://www.ilga.gov/legislation/ILCS/details?ActID=1293&ChapterID=24&SeqStart=0&SeqEnd=2000000000",
+    "primary": false,
+    "local_path": "IL/www.ilga.gov-legislation-ILCS-details-ActID-1293-ChapterID-24-SeqStart-0-SeqEnd--dca00471.html",
+    "content_type": "text/html; charset=utf-8",
+    "content_sha256": "009cfe960390e7aef1ce82fbe23894f8a242256de32d214da8ce90411918be65",
+    "perma_url": null,
+    "wayback_url": "https://web.archive.org/web/20261014041801/https://www.ilga.gov/legislation/ILCS/details?ActID=1293&ChapterID=24&SeqStart=0&SeqEnd=2000000000",
+    "captured_at": "2026-10-14T04:17:37.589293+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
+  },
+  {
     "source_url": "https://www.ilga.gov/legislation/ILCS/details?ActID=2280&ChapterID=65&SeqStart=0&SeqEnd=99999999",
     "primary": false,
     "local_path": "IL/www.ilga.gov-legislation-ILCS-details-ActID-2280-ChapterID-65-SeqStart-0-SeqEnd--c84b0723.html",
@@ -192,6 +218,45 @@
     "perma_url": null,
     "wayback_url": "https://web.archive.org/web/20261013172647/https://www.ilga.gov/legislation/ILCS/details?ActID=2280&ChapterID=65&SeqStart=0&SeqEnd=99999999",
     "captured_at": "2026-10-13T17:26:43.539709+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
+  },
+  {
+    "source_url": "https://www.ilga.gov/legislation/ILCS/details?ActID=2465&ChapterID=21&SeqStart=0&SeqEnd=2000000000",
+    "primary": false,
+    "local_path": "IL/www.ilga.gov-legislation-ILCS-details-ActID-2465-ChapterID-21-SeqStart-0-SeqEnd--35b7cc2f.html",
+    "content_type": "text/html; charset=utf-8",
+    "content_sha256": "c0941aaa8a50aeba9cf1a2bb6a68b74eba801fa8d1efa62e833c68ed380768f8",
+    "perma_url": null,
+    "wayback_url": "https://web.archive.org/web/20261014041741/https://www.ilga.gov/legislation/ILCS/details?ActID=2465&ChapterID=21&SeqStart=0&SeqEnd=2000000000",
+    "captured_at": "2026-10-14T04:17:37.589293+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
+  },
+  {
+    "source_url": "https://www.ilga.gov/legislation/ILCS/details?ActID=4001&ChapterID=61&SeqStart=0&SeqEnd=2000000000",
+    "primary": false,
+    "local_path": "IL/www.ilga.gov-legislation-ILCS-details-ActID-4001-ChapterID-61-SeqStart-0-SeqEnd--0d9478bd.html",
+    "content_type": "text/html; charset=utf-8",
+    "content_sha256": "4c1f681866539f8e4502b901fe6a65c2766f59b62d14614914452b0de0ec67c1",
+    "perma_url": null,
+    "wayback_url": "https://web.archive.org/web/20261014041825/https://www.ilga.gov/legislation/ILCS/details?ActID=4001&ChapterID=61&SeqStart=0&SeqEnd=2000000000",
+    "captured_at": "2026-10-14T04:17:37.589293+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
+  },
+  {
+    "source_url": "https://www.ilga.gov/legislation/ILCS/details?ActID=770&ChapterID=13&SeqStart=0&SeqEnd=2000000000",
+    "primary": false,
+    "local_path": "IL/www.ilga.gov-legislation-ILCS-details-ActID-770-ChapterID-13-SeqStart-0-SeqEnd-2-3ed2516d.html",
+    "content_type": "text/html; charset=utf-8",
+    "content_sha256": "13aab46f927285996282ef211de077be29e1ce1d10af0f8cfe60ea29dcccaf4d",
+    "perma_url": null,
+    "wayback_url": null,
+    "captured_at": "2026-10-14T04:17:37.589293+00:00",
     "signed": false,
     "tls_chain_unverified": false,
     "perma_policy": "local_only (D-070)"
