@@ -197,6 +197,58 @@
     "tls_chain_unverified": false
   },
   {
+    "source_url": "https://www.ilga.gov/ftp/JCAR/AdminCode/014/014001600000130R.html",
+    "primary": false,
+    "local_path": "IL/www.ilga.gov-ftp-JCAR-AdminCode-014-014001600000130R.html-49ebc6fc.html",
+    "content_type": "text/html",
+    "content_sha256": "56b1a37a9a5057e55a67ccf03e2063dbaa33ada24af7da26748ef76dd2a8712c",
+    "perma_url": null,
+    "wayback_url": null,
+    "captured_at": "2026-10-17T17:29:22.930899+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
+  },
+  {
+    "source_url": "https://www.ilga.gov/ftp/JCAR/AdminCode/014/014001600000180R.html",
+    "primary": false,
+    "local_path": "IL/www.ilga.gov-ftp-JCAR-AdminCode-014-014001600000180R.html-d0afca8b.html",
+    "content_type": "text/html",
+    "content_sha256": "98a4c0dcaa7063f2a33474af10f0e86e7464d7f2051ae9c98b44a31dfb1683a1",
+    "perma_url": null,
+    "wayback_url": null,
+    "captured_at": "2026-10-17T17:29:22.930899+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
+  },
+  {
+    "source_url": "https://www.ilga.gov/ftp/JCAR/AdminCode/014/014001600000200R.html",
+    "primary": false,
+    "local_path": "IL/www.ilga.gov-ftp-JCAR-AdminCode-014-014001600000200R.html-e04edac7.html",
+    "content_type": "text/html",
+    "content_sha256": "24ce9190f009c498eec5b7ca839e0acbd3fc003b2a4fbe170def59691671d760",
+    "perma_url": null,
+    "wayback_url": null,
+    "captured_at": "2026-10-17T17:29:22.930899+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
+  },
+  {
+    "source_url": "https://www.ilga.gov/ftp/JCAR/AdminCode/014/014001600000300R.html",
+    "primary": false,
+    "local_path": "IL/www.ilga.gov-ftp-JCAR-AdminCode-014-014001600000300R.html-530ff6ee.html",
+    "content_type": "text/html",
+    "content_sha256": "5cbe2351e46056f7402e221ef48db25e935d10104735610597a294406a431ad8",
+    "perma_url": null,
+    "wayback_url": null,
+    "captured_at": "2026-10-17T17:29:22.930899+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "perma_policy": "local_only (D-070)"
+  },
+  {
     "source_url": "https://www.ilga.gov/legislation/ILCS/details?ActID=1293&ChapterID=24&SeqStart=0&SeqEnd=2000000000",
     "primary": false,
     "local_path": "IL/www.ilga.gov-legislation-ILCS-details-ActID-1293-ChapterID-24-SeqStart-0-SeqEnd--dca00471.html",
