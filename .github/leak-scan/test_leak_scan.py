@@ -605,3 +605,81 @@ class SelfCheckTests(unittest.TestCase):
         self.r.commit()
         rc, out = self.r.pre_push()
         self.assertEqual(rc, 0, out)
+
+
+# Stand-ins for the scanner's own imports, planted through PYTHONPATH. Each records that it ran, then exits 0 at
+# import, so a scanner that imports one ends there and reports success before either gate runs. A module the
+# interpreter already holds at startup can't stand in for anything, so it is left out.
+PLANT_NAMES = ("argparse", "collections", "hashlib", "json", "re", "shutil", "subprocess", "tempfile")
+PLANT_SRC = "import sys\nwith open({marker!r}, 'a') as _f:\n    _f.write({name!r} + '\\n')\nsys.exit(0)\n"
+
+
+class IsolationTests(unittest.TestCase):
+    """hopboard D-172 (claude-system's gate suite, its pythonpath-plant case): the scanner restarts under python3 -I
+    before it imports anything the interpreter didn't load at startup, keeping its arguments and stdin, so no
+    PYTHONPATH entry can supply a module it imports. Written before the change and run on the scanner without it.
+
+    WHAT THIS WOULD STILL PASS IF THE RESTART WERE BROKEN: a plant these names don't cover, and anything that runs
+    at interpreter startup before the scanner's first line (a planted sitecustomize), which only an -I on the
+    command that starts Python can stop."""
+
+    def setUp(self):
+        self.r = PrePushRepo()
+        self.r.set_gate(1)                  # the identity gate refuses; only a scanner ended early lets a push through
+        d = Path(tempfile.mkdtemp(prefix="leakscan-plant-"))
+        self.addCleanup(shutil.rmtree, d, True)
+        self.marker, mods = d / "ran", d / "mods"
+        mods.mkdir()
+        held = subprocess.run([sys.executable, "-c", "import sys; print('\\n'.join(sys.modules))"], env=self.r.env,
+                              capture_output=True, text=True).stdout.split()
+        for name in PLANT_NAMES:
+            if name not in held:
+                (mods / f"{name}.py").write_text(PLANT_SRC.format(marker=str(self.marker), name=name))
+        self.plant = {"PYTHONPATH": str(mods)}
+        live = subprocess.run([sys.executable, "-c", "import json"], env={**self.r.env, **self.plant},
+                              capture_output=True)
+        self.assertEqual((live.returncode, self.ran()), (0, ["json"]), "the plant isn't live")
+        self.marker.unlink()
+
+    def tearDown(self):
+        self.r.close()
+
+    def ran(self):
+        return self.marker.read_text().split() if self.marker.exists() else []
+
+    def test_a_planted_module_never_runs_and_the_identity_refusal_stands(self):
+        self.r.commit()
+        rc, out = self.r.pre_push(**self.plant)
+        self.assertEqual(self.ran(), [], out)
+        self.assertEqual(rc, 1, out)
+        self.assertIn("the identity gate refused", out)
+
+    def test_a_real_git_push_with_a_planted_module_is_refused(self):
+        self.r.install_hook()
+        before = self.r.git("ls-remote", "origin", "refs/heads/main").split()[0]
+        self.r.write("notes.md", "clean\n")
+        self.r.commit()
+        r = subprocess.run(["git", "push", "origin", "main"], cwd=self.r.dir, env={**self.r.env, **self.plant},
+                           capture_output=True, text=True, timeout=300)
+        self.assertEqual(self.ran(), [], r.stderr)
+        self.assertNotEqual(r.returncode, 0, r.stderr)
+        self.assertIn("the identity gate refused", r.stderr)
+        self.assertEqual(self.r.git("ls-remote", "origin", "refs/heads/main").split()[0], before)
+
+    def test_a_planted_module_cannot_end_a_ci_scan_early(self):
+        self.r.write("notes.md", f"see {MARK}\n")
+        self.r.commit()
+        rc, out = self.r.scan("--mode", "tree", **self.plant)
+        self.assertEqual(self.ran(), [], out)
+        self.assertEqual(rc, 1, out)
+        self.assertIn("FINDINGS", out)
+
+    def test_a_clean_push_with_a_planted_module_goes_through_with_its_stdin_and_arguments(self):
+        self.r.set_gate(0)
+        self.r.commit()
+        lines = self.r.lines()
+        rc, out = self.r.pre_push(lines, **self.plant)
+        self.assertEqual(self.ran(), [], out)
+        self.assertEqual(rc, 0, out)
+        self.assertEqual(Path(f"{self.r.gate}.stdin").read_text().split("\n")[0], lines[0])
+        self.assertEqual(Path(f"{self.r.gate}.args").read_text().split(), ["origin", str(self.r.remote)])

@@ -39,7 +39,26 @@ clone refuses, as does a copy it can't read. That catches a half-done edit, such
 the identity-gate call. A deliberate edit can delete the check, as --no-verify skips every hook;
 that residual is accepted. A self-check that compared this file with itself would pass every test
 but the ones that edit it without committing.
+
+STARTED ISOLATED (hopboard D-172). Its first step, before any import the interpreter didn't make at
+startup, restarts it under python3 -I with the same arguments and stdin, so no PYTHONPATH entry can
+stand in for a module it imports; a run already isolated doesn't restart, so it can't loop. It
+imports nothing from its own folder, which -I drops from the path. Code that runs at interpreter
+startup, before this file's first line (a planted sitecustomize), only an -I on the command that
+starts Python can stop.
 """
+import sys
+
+if __name__ == "__main__" and not sys.flags.isolated:     # sys and os are loaded at startup
+    import os
+    try:
+        os.execv(sys.executable, [sys.executable, "-I", *(["-B"] if sys.flags.dont_write_bytecode else []),
+                                  *sys.argv])
+    except (OSError, ValueError) as e:
+        print(f"leak-scan: CANNOT RUN: it could not restart under python3 -I ({e}) (hopboard D-172)",
+              file=sys.stderr)
+        sys.exit(2)
+
 import argparse
 import hashlib
 import json
@@ -47,7 +66,6 @@ import os
 import re
 import shutil
 import subprocess
-import sys
 import tempfile
 from collections import Counter
 
