@@ -31,6 +31,14 @@ gitleaks alone.
 WHAT ITS SELF-TEST WOULD STILL PASS IF THE SCAN WERE BROKEN: the tests plant synthetic values;
 they prove the plumbing, not that the real LEAK_PATTERN is complete. A leak in a form the pattern
 does not hold passes, and so does a leak inside a pinned capture, by design.
+
+CHECKED, NOT TRUSTED (hopboard D-171). In pre-push mode this file starts both gates, so before
+either runs it compares its own bytes with the copy in its own clone's HEAD, found from where this
+file lives and read with no inherited GIT_* variable and no replace refs; a grafts file or a shallow
+clone refuses, as does a copy it can't read. That catches a half-done edit, such as one that drops
+the identity-gate call. A deliberate edit can delete the check, as --no-verify skips every hook;
+that residual is accepted. A self-check that compared this file with itself would pass every test
+but the ones that edit it without committing.
 """
 import argparse
 import hashlib
@@ -247,12 +255,70 @@ def scan_units(gitleaks, units, pattern):
     return ver, cred, cred_where, pat, pat_where
 
 
+SELF = os.path.realpath(__file__)
+SELF_GIT_ENV = {k: v for k, v in os.environ.items() if not k.startswith("GIT_")}
+SELF_GIT_ENV["GIT_NO_REPLACE_OBJECTS"] = "1"
+
+
+def _self_git(where, *args):
+    """A git call no inherited GIT_* variable steers and no replace ref answers; None when git fails."""
+    r = subprocess.run(["git", "--no-replace-objects", "-C", where, *args], capture_output=True,
+                       stdin=subprocess.DEVNULL, env=SELF_GIT_ENV)
+    return r.stdout if r.returncode == 0 else None
+
+
+def check_self():
+    """hopboard D-171: this file's bytes must equal the copy in its own clone's HEAD."""
+    here_dir = os.path.dirname(SELF)
+    top, grafts, shallow = (_self_git(here_dir, "rev-parse", *a) for a in
+                            (["--show-toplevel"], ["--path-format=absolute", "--git-path", "info/grafts"],
+                             ["--is-shallow-repository"]))
+    top, grafts, shallow = ((x or b"").decode("utf-8", "surrogateescape").strip() for x in (top, grafts, shallow))
+    if not top or not grafts or shallow not in ("true", "false"):
+        raise CannotRun("this scanner's own clone, or whether it has grafts or is shallow, could not be determined, "
+                        "so its committed copy can't be read (hopboard D-171)")
+    if os.path.lexists(grafts):
+        raise CannotRun("this clone has a grafts file (info/grafts), which can rewrite the history the scanner's "
+                        "committed copy is read from; remove it and push again (hopboard D-171)")
+    if shallow == "true":
+        raise CannotRun("this clone is shallow; fetch its whole history (git fetch --unshallow) and push again "
+                        "(hopboard D-171)")
+    rel = os.path.relpath(SELF, os.path.realpath(top))
+    head = (_self_git(top, "rev-parse", "--verify", "--quiet", "HEAD^{commit}") or b"").decode().strip()
+    if not head:
+        raise CannotRun("this clone has no HEAD commit to check the scanner against (hopboard D-171)")
+    entries = {}
+    for rec in (_self_git(top, "ls-tree", "-z", "--full-tree", head, "--", rel) or b"").split(b"\0"):
+        if rec:
+            meta, _, path = rec.partition(b"\t")
+            entries[path.decode("utf-8", "surrogateescape")] = meta.split()
+    if rel not in entries:
+        raise CannotRun(f"this clone's HEAD (commit {head[:9]}) carries no {rel}, so the scanner has no committed "
+                        f"copy to be checked against; commit it and push again (hopboard D-171)")
+    mode, kind, sha = entries[rel]
+    committed = _self_git(top, "cat-file", "blob", sha.decode()) if kind == b"blob" and mode in (
+        b"100644", b"100755") else None
+    if committed is None:
+        raise CannotRun(f"{rel} could not be read from this clone's HEAD (commit {head[:9]}): not a regular file, or "
+                        f"git cat-file failed; the clone may be missing objects (git fsck) (hopboard D-171)")
+    with open(SELF, "rb") as fh:
+        here = fh.read()
+    if here != committed:
+        a, b = here.splitlines(), committed.splitlines()
+        line = next((i for i, (x, y) in enumerate(zip(a, b), 1) if x != y), min(len(a), len(b)) + 1)
+        raise CannotRun(f"this scanner ({rel}) differs from the copy in this clone's HEAD (commit {head[:9]}): "
+                        f"{len(here)} bytes here, {len(committed)} there, first difference at line {line}. A "
+                        f"half-done edit never starts the gates (hopboard D-171). Finish the edit and commit it, or "
+                        f"restore the file (git restore {rel}), then push again")
+
+
 def pre_push(repo, gitleaks, gate, hook_args, lines):
     """This clone's pre-push hook (hopboard D-057): hopboard's identity gate first, with the same
     stdin and arguments, then a credential scan (gitleaks) of the OUTGOING commits' project-written
     content, skipping pinned captures exactly as CI does. No LEAK_PATTERN here: it is a GitHub
     secret, and CI applies it. Refuses when either refuses. The terminal is local, so findings name
-    paths and line numbers; never text."""
+    paths and line numbers; never text. Before either gate runs, this file checks itself (D-171)."""
+    check_self()
     if not gate or not (os.path.isfile(gate) and os.access(gate, os.X_OK)):
         raise CannotRun("the identity gate is missing or not executable; this hook refuses without it")
     remote = hook_args[0] if hook_args else "origin"

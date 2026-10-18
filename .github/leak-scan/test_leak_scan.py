@@ -338,10 +338,16 @@ if __name__ == "__main__":
 
 class PrePushRepo(Repo):
     """Repo plus a local bare remote holding the baseline, and a stand-in for hopboard's
-    identity gate that records the stdin and arguments it was given and exits as told."""
+    identity gate that records the stdin and arguments it was given and exits as told. The
+    scanner under test is committed into the repo where the clone carries it, and run from
+    there, because in pre-push mode it checks itself against its own repository's HEAD
+    (hopboard D-171)."""
 
     def __init__(self):
         super().__init__()
+        self.script = self.dir / ".github" / "leak-scan" / "leak_scan.py"
+        self.write(".github/leak-scan/leak_scan.py", SCRIPT.read_bytes())
+        self.commit("the scanner, where the clone carries it")
         self.remote = Path(str(self.dir) + "-remote.git")
         subprocess.run(["git", "init", "-q", "--bare", "-b", "main", str(self.remote)], env=self.env,
                        check=True, capture_output=True)
@@ -359,7 +365,7 @@ class PrePushRepo(Repo):
         return [f"refs/heads/main {self.head()} refs/heads/main {self.git('rev-parse', 'refs/remotes/origin/main')}"]
 
     def pre_push(self, lines=None, gate=True, **env):
-        args = [sys.executable, str(SCRIPT), "--repo", str(self.dir), "--pre-push"]
+        args = [sys.executable, str(self.script), "--repo", str(self.dir), "--pre-push"]
         if gate:
             args += ["--identity-gate", str(self.gate)]
         e = {**self.env, **env}
@@ -373,7 +379,7 @@ class PrePushRepo(Repo):
     def install_hook(self):
         """The same shape as the clone's real wrapper: exec the shared script with the gate."""
         h = self.dir / ".git" / "hooks" / "pre-push"
-        h.write_text(f'#!/usr/bin/env bash\nexec "{sys.executable}" "{SCRIPT}" --pre-push '
+        h.write_text(f'#!/usr/bin/env bash\nexec "{sys.executable}" "{self.script}" --pre-push '
                      f'--identity-gate "{self.gate}" "$@"\n')
         h.chmod(0o755)
 
@@ -499,3 +505,103 @@ class PrePushTests(unittest.TestCase):
         self.assertIn("aws-access-token", bad.stderr + bad.stdout)
         self.assertNotIn(CRED, bad.stderr + bad.stdout)
         self.assertEqual(self.r.git("ls-remote", "origin", "refs/heads/main").split()[0], before)
+
+
+# The call a half-done edit might drop: the one that runs hopboard's identity gate.
+GATE_CALL = 'g = subprocess.run([gate, *hook_args], input="".join(l + "\\n" for l in lines).encode())'
+GATE_SKIPPED = "g = subprocess.CompletedProcess([], 0)"
+
+
+class SelfCheckTests(unittest.TestCase):
+    """hopboard D-171: in pre-push mode the scanner refuses when its bytes differ from the copy
+    in its own clone's HEAD, before it runs hopboard's identity gate or its credential scan.
+    Written before the change and run on the scanner without it."""
+
+    def setUp(self):
+        self.r = PrePushRepo()
+        self.r.set_gate(1)                  # the identity gate refuses; only a skipped call lets a push through
+
+    def tearDown(self):
+        self.r.close()
+
+    def skip_the_gate(self, path):
+        src = path.read_text()
+        self.assertEqual(src.count(GATE_CALL), 1, "the identity-gate call this test removes has moved")
+        path.write_text(src.replace(GATE_CALL, GATE_SKIPPED))
+
+    def head_blob(self):
+        return self.r.git("rev-parse", "HEAD:.github/leak-scan/leak_scan.py")
+
+    def assert_refused_before_the_gate(self, rc, out, why):
+        self.assertNotEqual(rc, 0, out)
+        self.assertIn(why, out)
+        self.assertFalse(Path(f"{self.r.gate}.stdin").exists(), "the identity gate ran before the self-check")
+
+    def test_an_uncommitted_edit_that_skips_the_identity_gate_is_refused(self):
+        self.r.commit()
+        self.skip_the_gate(self.r.script)
+        rc, out = self.r.pre_push()
+        self.assert_refused_before_the_gate(rc, out, "differs from the copy in this clone's HEAD")
+
+    def test_a_scanner_whose_committed_copy_cannot_be_read_is_refused(self):
+        self.r.set_gate(0)
+        self.r.commit()                     # first: `git add` can write a racily-clean file's blob again
+        blob = self.head_blob()
+        (self.r.dir / ".git" / "objects" / blob[:2] / blob[2:]).unlink()
+        self.assertNotEqual(subprocess.run(["git", "cat-file", "-e", blob], cwd=self.r.dir, env=self.r.env)
+                            .returncode, 0)
+        rc, out = self.r.pre_push()
+        self.assert_refused_before_the_gate(rc, out, "could not be read")
+
+    def test_a_replace_ref_cannot_make_an_edited_scanner_match_head(self):
+        self.r.commit()
+        self.skip_the_gate(self.r.script)
+        edited = self.r.git("hash-object", "-w", str(self.r.script))
+        self.r.git("replace", self.head_blob(), edited)
+        rc, out = self.r.pre_push()
+        self.assert_refused_before_the_gate(rc, out, "differs from the copy in this clone's HEAD")
+
+    def test_an_inherited_GIT_DIR_cannot_supply_the_committed_copy(self):
+        """A second repository whose HEAD carries the edited scanner; GIT_DIR names it. The check must read
+        the scanner's own clone, found from where the scanner lives."""
+        other = Path(tempfile.mkdtemp(prefix="leakscan-other-"))
+        self.addCleanup(shutil.rmtree, other, True)
+        self.r.commit()
+        self.skip_the_gate(self.r.script)
+        subprocess.run(["git", "init", "-q", "-b", "main", str(other)], env=self.r.env, check=True)
+        (other / ".github" / "leak-scan").mkdir(parents=True)
+        shutil.copy(self.r.script, other / ".github" / "leak-scan" / "leak_scan.py")
+        for a in (["add", "-A"], ["commit", "-q", "-m", "edited"]):
+            subprocess.run(["git", *a], cwd=other, env=self.r.env, check=True, capture_output=True)
+        rc, out = self.r.pre_push(GIT_DIR=str(other / ".git"))
+        self.assert_refused_before_the_gate(rc, out, "differs from the copy in this clone's HEAD")
+
+    def test_a_grafts_file_refuses(self):
+        self.r.set_gate(0)
+        self.r.commit()
+        (self.r.dir / ".git" / "info").mkdir(exist_ok=True)
+        (self.r.dir / ".git" / "info" / "grafts").write_text("")
+        rc, out = self.r.pre_push()
+        self.assert_refused_before_the_gate(rc, out, "grafts")
+
+    def test_a_shallow_clone_refuses(self):
+        self.r.set_gate(0)
+        shallow = Path(tempfile.mkdtemp(prefix="leakscan-shallow-"))
+        self.addCleanup(shutil.rmtree, shallow, True)
+        subprocess.run(["git", "clone", "-q", "--depth", "1", f"file://{self.r.dir}", str(shallow / "c")],
+                       env=self.r.env, check=True, capture_output=True)
+        c = shallow / "c"
+        head = subprocess.run(["git", "rev-parse", "HEAD"], cwd=c, env=self.r.env, capture_output=True,
+                              text=True).stdout.strip()
+        r = subprocess.run([sys.executable, str(c / ".github" / "leak-scan" / "leak_scan.py"), "--repo", str(c),
+                            "--pre-push", "--identity-gate", str(self.r.gate), "origin", str(self.r.remote)],
+                           input=f"(delete) {ZERO} refs/heads/old {head}\n", env=self.r.env,
+                           capture_output=True, text=True)
+        self.assert_refused_before_the_gate(r.returncode, r.stdout + r.stderr, "shallow")
+
+    def test_a_committed_change_to_the_scanner_goes_through(self):
+        self.r.set_gate(0)
+        self.r.write(".github/leak-scan/leak_scan.py", self.r.script.read_text() + "\n# a committed change\n")
+        self.r.commit()
+        rc, out = self.r.pre_push()
+        self.assertEqual(rc, 0, out)
