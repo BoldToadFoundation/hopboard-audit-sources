@@ -377,9 +377,9 @@ class PrePushRepo(Repo):
         return r.returncode, out
 
     def install_hook(self):
-        """The same shape as the clone's real wrapper: exec the shared script with the gate."""
+        """The same shape as the clone's real wrapper: exec the shared script, under -I (hopboard D-173), with the gate."""
         h = self.dir / ".git" / "hooks" / "pre-push"
-        h.write_text(f'#!/usr/bin/env bash\nexec "{sys.executable}" "{self.script}" --pre-push '
+        h.write_text(f'#!/usr/bin/env bash\nexec "{sys.executable}" -I "{self.script}" --pre-push '
                      f'--identity-gate "{self.gate}" "$@"\n')
         h.chmod(0o755)
 
@@ -683,3 +683,86 @@ class IsolationTests(unittest.TestCase):
         self.assertEqual(rc, 0, out)
         self.assertEqual(Path(f"{self.r.gate}.stdin").read_text().split("\n")[0], lines[0])
         self.assertEqual(Path(f"{self.r.gate}.args").read_text().split(), ["origin", str(self.r.remote)])
+
+
+def installed_hook():
+    """This clone's untracked pre-push, found through git from where this file lives; None where there is none (CI)."""
+    r = subprocess.run(["git", "rev-parse", "--path-format=absolute", "--git-common-dir"],
+                       cwd=Path(__file__).resolve().parent, capture_output=True, text=True)
+    p = Path(r.stdout.strip()) / "hooks" / "pre-push" if r.returncode == 0 and r.stdout.strip() else None
+    return p if p and p.is_file() else None
+
+
+TERM = "zqstandin-term-7"                # what the stand-in identity gate refuses
+# A sitecustomize.py runs while the interpreter starts, before the scanner's first line, so the scanner's own restart
+# (hopboard D-172) can't reach it. This one records the program it ran in, then ends the interpreter with exit 0.
+STARTUP_SRC = ("import os, sys\nwith open({marker!r}, 'a') as _f:\n"
+               "    _f.write(os.path.basename((getattr(sys, 'argv', None) or ['?'])[0] or '?') + '\\n')\n"
+               "os._exit(0)\n")
+
+
+@unittest.skipIf(installed_hook() is None, "THIS CHECK DID NOT RUN: this clone has no installed pre-push (it is "
+                                           "untracked, so CI has none)")
+class InstalledHookTests(unittest.TestCase):
+    """hopboard D-173: this clone's untracked pre-push starts the scanner with python3 -I, so a sitecustomize.py on
+    PYTHONPATH never runs. A scratch copy of the hook as installed, its gate= line pointed at a stand-in identity gate
+    that refuses a stand-in term, pushes from a scratch clone to a scratch remote. Written before the hook's edit and
+    run on the hook as it stood.
+
+    WHAT THIS WOULD STILL PASS IF THE HOOK WERE BROKEN: a startup file inside the interpreter's own install, which
+    D-173 accepts as a residual; and where this clone has no installed hook, nothing runs."""
+
+    def setUp(self):
+        self.r = PrePushRepo()
+        self.r.gate.write_text('#!/usr/bin/env bash\n'
+                               'while read -r _lref lsha _rref _rsha; do\n'
+                               f'  if git grep -q -F -e "{TERM}" "$lsha" -- 2>/dev/null; then\n'
+                               '    echo "[stand-in identity gate] a stand-in term: refused" >&2; exit 1\n'
+                               '  fi\n'
+                               'done\n'
+                               'exit 0\n')
+        lines = installed_hook().read_text().splitlines(keepends=True)
+        at = [i for i, line in enumerate(lines) if line.startswith("gate=")]
+        self.assertEqual(len(at), 1, "the installed hook's gate= line has moved")
+        lines[at[0]] = f"gate={self.r.gate}\n"
+        h = self.r.dir / ".git" / "hooks" / "pre-push"
+        h.write_text("".join(lines))
+        h.chmod(0o755)
+        d = Path(tempfile.mkdtemp(prefix="leakscan-startup-"))
+        self.addCleanup(shutil.rmtree, d, True)
+        self.marker = d / "ran"
+        (d / "sitecustomize.py").write_text(STARTUP_SRC.format(marker=str(self.marker)))
+        self.env = {**self.r.env, "PYTHONPATH": str(d)}
+        live = subprocess.run(["python3", "-c", "pass"], env=self.env, capture_output=True)
+        self.assertEqual((live.returncode, self.ran()), (0, ["-c"]), "the startup plant isn't live")
+        self.marker.unlink()
+
+    def tearDown(self):
+        self.r.close()
+
+    def ran(self):
+        return self.marker.read_text().split() if self.marker.exists() else []
+
+    def push(self):
+        return subprocess.run(["git", "push", "origin", "main"], cwd=self.r.dir, env=self.env, capture_output=True,
+                              text=True, timeout=300)
+
+    def test_a_startup_plant_never_runs_and_a_stand_in_term_is_still_refused(self):
+        before = self.r.git("ls-remote", "origin", "refs/heads/main").split()[0]
+        self.r.write("notes.md", f"see {TERM}\n")
+        self.r.commit()
+        r = self.push()
+        self.assertEqual(self.ran(), [], r.stderr)
+        self.assertNotEqual(r.returncode, 0, r.stderr)
+        self.assertIn("a stand-in term: refused", r.stderr)
+        self.assertIn("the identity gate refused", r.stderr)
+        self.assertEqual(self.r.git("ls-remote", "origin", "refs/heads/main").split()[0], before)
+
+    def test_a_clean_push_goes_through_the_plant_never_runs_and_no_bytecode_lands_in_the_clone(self):
+        self.r.write("notes.md", "clean\n")
+        self.r.commit()
+        r = self.push()
+        self.assertEqual(self.ran(), [], r.stderr)
+        self.assertEqual(r.returncode, 0, r.stderr)
+        self.assertEqual(self.r.git("ls-remote", "origin", "refs/heads/main").split()[0], self.r.head())
+        self.assertEqual(sorted(str(p.relative_to(self.r.dir)) for p in self.r.dir.rglob("__pycache__")), [])
