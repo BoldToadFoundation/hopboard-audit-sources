@@ -293,6 +293,20 @@
     "provenance": "extracted byte for byte from the Legislative Counsel bulk file https://downloads.leginfo.legislature.ca.gov/pubinfo_2025.zip (sha256 b0b614a2061dd16d468cddbd4921604365f052a5c21ea18056b2606136e04ec1, Last-Modified Mon, 19 Oct 2026 04:26:10 GMT, fetched 2026-10-24, kept whole at /mnt/data/ngo-go/hopboard-corpora/CA/raw/), zip member LAW_SECTION_TBL_9793.lob, the LAW_SECTION_TBL row for CORP 6910. (id CORP6910.19971878, history: Amended by Stats. 1997, Ch. 187, Sec. 8.   Effective January 1, 1998.); re-extract with: unzip -p pubinfo_2025.zip LAW_SECTION_TBL_9793.lob | sha256sum (expect b45ff55b7634f9f8bcec1d68686938f8a815e236cfbdc25745d0a39c99841c45). D-045 amendment 2 (Tony 2026-10-24) approves this host for California statutes."
   },
   {
+    "source_url": "https://govt.westlaw.com/calregs/Document/I4DD02290F02B11EE83108B7740328564?viewType=FullText&originationContext=documenttoc&transitionType=CategoryPageItem&contextData=(sc.Default)",
+    "primary": false,
+    "local_path": "CA/govt.westlaw.com-calregs-Document-I4DD02290F02B11EE83108B7740328564-viewType-Ful-61e31152.pdf",
+    "content_type": "application/pdf",
+    "content_sha256": "f74dd3289289fcfc962e69301c75dfe3555d3083565b505c6b548f5d305dd389",
+    "perma_url": null,
+    "wayback_url": null,
+    "captured_at": "2026-10-25T22:48:21.684374+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "ingested_from_file": true,
+    "provenance": "browser_captured per BROWSER_CAPTURE_RUNBOOK (queue 699; hopboard yellow #2-direct2, session 6f4920d9): Tony's own Chrome 156 page navigation and print-to-PDF (Skia/PDF m156) of 11 CCR \u00a7 307 on govt.westlaw.com, the OAL's official CCR publisher (D-045 amendment 1); PDF created 2026-10-25 17:25:52 CDT, saved 17:25:57 CDT. A print, not the page's own bytes. Byte-identical (but for one trailing newline) to the PDF in Tony's Perma link E6L4-36TJ (created 2026-10-25T22:31:21Z), whose record names this URL."
+  },
+  {
     "source_url": "https://govt.westlaw.com/calregs/Document/I51C5C6C0F02B11EE83108B7740328564?viewType=FullText&originationContext=documenttoc&transitionType=CategoryPageItem&contextData=(sc.Default)",
     "primary": false,
     "local_path": "CA/govt.westlaw.com-calregs-Document-I51C5C6C0F02B11EE83108B7740328564-viewType-Ful-3b45150f.pdf",
