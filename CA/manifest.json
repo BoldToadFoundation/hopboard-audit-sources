@@ -293,6 +293,20 @@
     "provenance": "extracted byte for byte from the Legislative Counsel bulk file https://downloads.leginfo.legislature.ca.gov/pubinfo_2025.zip (sha256 b0b614a2061dd16d468cddbd4921604365f052a5c21ea18056b2606136e04ec1, Last-Modified Mon, 19 Oct 2026 04:26:10 GMT, fetched 2026-10-24, kept whole at /mnt/data/ngo-go/hopboard-corpora/CA/raw/), zip member LAW_SECTION_TBL_9793.lob, the LAW_SECTION_TBL row for CORP 6910. (id CORP6910.19971878, history: Amended by Stats. 1997, Ch. 187, Sec. 8.   Effective January 1, 1998.); re-extract with: unzip -p pubinfo_2025.zip LAW_SECTION_TBL_9793.lob | sha256sum (expect b45ff55b7634f9f8bcec1d68686938f8a815e236cfbdc25745d0a39c99841c45). D-045 amendment 2 (Tony 2026-10-24) approves this host for California statutes."
   },
   {
+    "source_url": "https://govt.westlaw.com/calregs/Browse/Home/California/CaliforniaCodeofRegulations?guid=I0731B6A05A1E11EC8227000D3A7C4BC3",
+    "primary": false,
+    "local_path": "CA/govt.westlaw.com-calregs-Browse-Home-California-CaliforniaCodeofRegulations-guid-9b6d65ff. Law _ Division 1.\u2003Attorney General - California Code of Regulations.pdf",
+    "content_type": "application/pdf",
+    "content_sha256": "143a64e5490a18f249ef7759abfc336b631de05cd21a5bb08657335cbf435fe4",
+    "perma_url": null,
+    "wayback_url": null,
+    "captured_at": "2026-10-25T22:48:22.047101+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "ingested_from_file": true,
+    "provenance": "browser_captured per BROWSER_CAPTURE_RUNBOOK (queue 699; hopboard yellow #2-direct2, session 6f4920d9): Tony's own Chrome 156 page navigation and print-to-PDF (Skia/PDF m156) of the CCR's Title 11, Division 1 (Attorney General) browse page on govt.westlaw.com, the OAL's official CCR publisher (D-045 amendment 1); PDF created 2026-10-25 17:23:38 CDT, saved 17:24:42 CDT. A print, not the page's own bytes. Its URL is read from the PDF's footer, truncated there after the guid. Tony's Perma link 5MCU-M97U holds this same PDF (byte-identical but for one trailing newline) but records a different URL, a Westlaw browse page (guid I0686D530ED8F11EEB407AAEE37DD7B27) that served a check page to Perma."
+  },
+  {
     "source_url": "https://govt.westlaw.com/calregs/Document/I4DD02290F02B11EE83108B7740328564?viewType=FullText&originationContext=documenttoc&transitionType=CategoryPageItem&contextData=(sc.Default)",
     "primary": false,
     "local_path": "CA/govt.westlaw.com-calregs-Document-I4DD02290F02B11EE83108B7740328564-viewType-Ful-61e31152.pdf",
