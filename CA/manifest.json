@@ -349,6 +349,20 @@
     "provenance": "browser_captured per BROWSER_CAPTURE_RUNBOOK (queue 699; hopboard yellow #2-direct2, session 6f4920d9): Tony's own Chrome 156 page navigation and print-to-PDF (Skia/PDF m156) of 11 CCR \u00a7 300.2 on govt.westlaw.com, the OAL's official CCR publisher (D-045 amendment 1); PDF created 2026-10-25 17:25:16 CDT, saved 17:25:23 CDT. A print, not the page's own bytes. Byte-identical (but for one trailing newline) to the PDF in Tony's Perma link X5EG-69PZ (created 2026-10-25T22:28:41Z), whose record names this URL."
   },
   {
+    "source_url": "https://govt.westlaw.com/calregs/Document/I7BC19C10F02B11EE83108B7740328564?viewType=FullText&originationContext=documenttoc&transitionType=CategoryPageItem&contextData=(sc.Default)",
+    "primary": true,
+    "local_path": "CA/govt.westlaw.com-calregs-Document-I7BC19C10F02B11EE83108B7740328564-viewType-Ful-eba8f858.pdf",
+    "content_type": "application/pdf",
+    "content_sha256": "66036b4a581dcded7008ebae614e952179e86483e9ac4cfa7785357c0fae2324",
+    "perma_url": null,
+    "wayback_url": null,
+    "captured_at": "2026-10-25T22:48:21.565137+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "ingested_from_file": true,
+    "provenance": "browser_captured per BROWSER_CAPTURE_RUNBOOK (queue 699; hopboard yellow #2-direct2, session 6f4920d9): Tony's own Chrome 156 page navigation and print-to-PDF (Skia/PDF m156) of 11 CCR \u00a7 305 on govt.westlaw.com, the OAL's official CCR publisher (D-045 amendment 1); PDF created 2026-10-25 17:25:41 CDT, saved 17:25:47 CDT. A print, not the page's own bytes. Byte-identical (but for one trailing newline) to the PDF in Tony's Perma link 6DBR-WLJ4 (created 2026-10-25T22:30:03Z), whose record names this URL."
+  },
+  {
     "source_url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=6210.&lawCode=CORP",
     "primary": true,
     "local_path": "CA/leginfo.legislature.ca.gov-faces-codes_displaySection.xhtml-sectionNum-6210.-law-19f502ba.html",
