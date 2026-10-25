@@ -27,6 +27,20 @@
     "provenance": "extracted byte for byte from the Legislative Counsel bulk file https://downloads.leginfo.legislature.ca.gov/pubinfo_2025.zip (sha256 b0b614a2061dd16d468cddbd4921604365f052a5c21ea18056b2606136e04ec1, Last-Modified Mon, 19 Oct 2026 04:26:10 GMT, fetched 2026-10-24, kept whole at /mnt/data/ngo-go/hopboard-corpora/CA/raw/), zip member LAW_SECTION_TBL_73387.lob, the LAW_SECTION_TBL row for GOV 12581. (id GOV12581.20216162, history: Repealed (in Sec. 1) and added by Stats. 2021, Ch. 616, Sec. 2.   (AB 488)   Effective January 1, 2022.   Operative Janu); re-extract with: unzip -p pubinfo_2025.zip LAW_SECTION_TBL_73387.lob | sha256sum (expect 432fa836d833f7cff5054e8ca9dfaf44136c1141677e5b002512c920aef6944d). D-045 amendment 2 (Tony 2026-10-24) approves this host for California statutes."
   },
   {
+    "source_url": "https://downloads.leginfo.legislature.ca.gov/pubinfo_2025.zip#LAW_SECTION_TBL_73428.lob",
+    "primary": false,
+    "local_path": "CA/downloads.leginfo.legislature.ca.gov-pubinfo_2025.zip-LAW_SECTION_TBL_73428.lob-7ca72004.lob",
+    "content_type": "application/octet-stream",
+    "content_sha256": "b427922946cc275e5be021c04947f15526259f7f847350ac2003de6730ea3c27",
+    "perma_url": null,
+    "wayback_url": null,
+    "captured_at": "2026-10-25T00:36:44.369924+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "ingested_from_file": true,
+    "provenance": "extracted byte for byte from the Legislative Counsel bulk file https://downloads.leginfo.legislature.ca.gov/pubinfo_2025.zip (sha256 b0b614a2061dd16d468cddbd4921604365f052a5c21ea18056b2606136e04ec1, Last-Modified Mon, 19 Oct 2026 04:26:10 GMT, fetched 2026-10-24, kept whole at /mnt/data/ngo-go/hopboard-corpora/CA/raw/), zip member LAW_SECTION_TBL_73428.lob, the LAW_SECTION_TBL row for GOV 12582. (id GOV12582.20049193, history: Amended by Stats. 2004, Ch. 919, Sec. 3.   Effective January 1, 2005.); re-extract with: unzip -p pubinfo_2025.zip LAW_SECTION_TBL_73428.lob | sha256sum (expect b427922946cc275e5be021c04947f15526259f7f847350ac2003de6730ea3c27). D-045 amendment 2 (Tony 2026-10-24) approves this host for California statutes."
+  },
+  {
     "source_url": "https://downloads.leginfo.legislature.ca.gov/pubinfo_2025.zip#LAW_SECTION_TBL_775.lob",
     "primary": false,
     "local_path": "CA/downloads.leginfo.legislature.ca.gov-pubinfo_2025.zip-LAW_SECTION_TBL_775.lob-0e6e25c1.lob",
