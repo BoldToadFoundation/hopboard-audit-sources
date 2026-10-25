@@ -27,6 +27,20 @@
     "provenance": "extracted byte for byte from the Legislative Counsel bulk file https://downloads.leginfo.legislature.ca.gov/pubinfo_2025.zip (sha256 b0b614a2061dd16d468cddbd4921604365f052a5c21ea18056b2606136e04ec1, Last-Modified Mon, 19 Oct 2026 04:26:10 GMT, fetched 2026-10-24, kept whole at /mnt/data/ngo-go/hopboard-corpora/CA/raw/), zip member LAW_SECTION_TBL_14064.lob, the LAW_SECTION_TBL row for GOV 12582.1. (id GOV12582.1.19591258, history: Added by Stats. 1959, Ch. 1258.); re-extract with: unzip -p pubinfo_2025.zip LAW_SECTION_TBL_14064.lob | sha256sum (expect b22a02ea0c21e0de4edd8970c6c8293ed508fd806f0cba92af668e5f6f2b9a3f). D-045 amendment 2 (Tony 2026-10-24) approves this host for California statutes."
   },
   {
+    "source_url": "https://downloads.leginfo.legislature.ca.gov/pubinfo_2025.zip#LAW_SECTION_TBL_14294.lob",
+    "primary": false,
+    "local_path": "CA/downloads.leginfo.legislature.ca.gov-pubinfo_2025.zip-LAW_SECTION_TBL_14294.lob-5bcbc08d.lob",
+    "content_type": "application/octet-stream",
+    "content_sha256": "555d8ff236177907fc50d13322b5b769140dfc6a5a4ffe1334d9064c955b15c9",
+    "perma_url": null,
+    "wayback_url": null,
+    "captured_at": "2026-10-25T00:36:44.818388+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "ingested_from_file": true,
+    "provenance": "extracted byte for byte from the Legislative Counsel bulk file https://downloads.leginfo.legislature.ca.gov/pubinfo_2025.zip (sha256 b0b614a2061dd16d468cddbd4921604365f052a5c21ea18056b2606136e04ec1, Last-Modified Mon, 19 Oct 2026 04:26:10 GMT, fetched 2026-10-24, kept whole at /mnt/data/ngo-go/hopboard-corpora/CA/raw/), zip member LAW_SECTION_TBL_14294.lob, the LAW_SECTION_TBL row for GOV 12586. (id GOV12586.202150109, history: Amended by Stats. 2021, Ch. 50, Sec. 109.   (AB 378)   Effective January 1, 2022.); re-extract with: unzip -p pubinfo_2025.zip LAW_SECTION_TBL_14294.lob | sha256sum (expect 555d8ff236177907fc50d13322b5b769140dfc6a5a4ffe1334d9064c955b15c9). D-045 amendment 2 (Tony 2026-10-24) approves this host for California statutes."
+  },
+  {
     "source_url": "https://downloads.leginfo.legislature.ca.gov/pubinfo_2025.zip#LAW_SECTION_TBL_72782.lob",
     "primary": false,
     "local_path": "CA/downloads.leginfo.legislature.ca.gov-pubinfo_2025.zip-LAW_SECTION_TBL_72782.lob-5c6070d7.lob",
