@@ -321,6 +321,20 @@
     "provenance": "browser_captured per BROWSER_CAPTURE_RUNBOOK (queue 699; hopboard yellow #2-direct2, session 6f4920d9): Tony's own Chrome 156 page navigation and print-to-PDF (Skia/PDF m156) of 11 CCR \u00a7 300 on govt.westlaw.com, the OAL's official CCR publisher (D-045 amendment 1); PDF created 2026-10-25 17:24:48 CDT, saved 17:24:52 CDT. A print, not the page's own bytes. Byte-identical (but for one trailing newline) to the PDF in Tony's Perma link AY3G-3E7J (created 2026-10-25T22:27:01Z), whose record names this URL."
   },
   {
+    "source_url": "https://govt.westlaw.com/calregs/Document/I60EBA520F02B11EE83108B7740328564?viewType=FullText&originationContext=documenttoc&transitionType=CategoryPageItem&contextData=(sc.Default)",
+    "primary": false,
+    "local_path": "CA/govt.westlaw.com-calregs-Document-I60EBA520F02B11EE83108B7740328564-viewType-Ful-58e99104.pdf",
+    "content_type": "application/pdf",
+    "content_sha256": "b27627c23a5e6200ad6a40c550c9bd7febbd7e08f295075c4ca657c17f314acf",
+    "perma_url": null,
+    "wayback_url": null,
+    "captured_at": "2026-10-25T22:48:21.447863+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "ingested_from_file": true,
+    "provenance": "browser_captured per BROWSER_CAPTURE_RUNBOOK (queue 699; hopboard yellow #2-direct2, session 6f4920d9): Tony's own Chrome 156 page navigation and print-to-PDF (Skia/PDF m156) of 11 CCR \u00a7 301 on govt.westlaw.com, the OAL's official CCR publisher (D-045 amendment 1); PDF created 2026-10-25 17:25:28 CDT, saved 17:25:34 CDT. A print, not the page's own bytes. Byte-identical (but for one trailing newline) to the PDF in Tony's Perma link 7BRU-R53Y (created 2026-10-25T22:29:53Z), whose record names this URL."
+  },
+  {
     "source_url": "https://govt.westlaw.com/calregs/Document/I6D0CCF00F02B11EEA2BE8E964EFA30A4?viewType=FullText&originationContext=documenttoc&transitionType=CategoryPageItem&contextData=(sc.Default)",
     "primary": false,
     "local_path": "CA/govt.westlaw.com-calregs-Document-I6D0CCF00F02B11EEA2BE8E964EFA30A4-viewType-Ful-abb25701.pdf",
