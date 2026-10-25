@@ -293,6 +293,20 @@
     "provenance": "extracted byte for byte from the Legislative Counsel bulk file https://downloads.leginfo.legislature.ca.gov/pubinfo_2025.zip (sha256 b0b614a2061dd16d468cddbd4921604365f052a5c21ea18056b2606136e04ec1, Last-Modified Mon, 19 Oct 2026 04:26:10 GMT, fetched 2026-10-24, kept whole at /mnt/data/ngo-go/hopboard-corpora/CA/raw/), zip member LAW_SECTION_TBL_9793.lob, the LAW_SECTION_TBL row for CORP 6910. (id CORP6910.19971878, history: Amended by Stats. 1997, Ch. 187, Sec. 8.   Effective January 1, 1998.); re-extract with: unzip -p pubinfo_2025.zip LAW_SECTION_TBL_9793.lob | sha256sum (expect b45ff55b7634f9f8bcec1d68686938f8a815e236cfbdc25745d0a39c99841c45). D-045 amendment 2 (Tony 2026-10-24) approves this host for California statutes."
   },
   {
+    "source_url": "https://govt.westlaw.com/calregs/Document/I5E9B7390F02B11EE8FC9D14757ADFBA1?viewType=FullText&originationContext=documenttoc&transitionType=CategoryPageItem&contextData=(sc.Default)&bhcp=1",
+    "primary": false,
+    "local_path": "CA/govt.westlaw.com-calregs-Document-I5E9B7390F02B11EE8FC9D14757ADFBA1-viewType-Ful-f35e7f94.pdf",
+    "content_type": "application/pdf",
+    "content_sha256": "92efbb8f96f8bb52b48bab72411aca7d529f8453924661eeefecda535f6b9605",
+    "perma_url": null,
+    "wayback_url": null,
+    "captured_at": "2026-10-25T22:48:21.057278+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "ingested_from_file": true,
+    "provenance": "browser_captured per BROWSER_CAPTURE_RUNBOOK (queue 699; hopboard yellow #2-direct2, session 6f4920d9): Tony's own Chrome 156 page navigation and print-to-PDF (Skia/PDF m156) of 11 CCR \u00a7 300 on govt.westlaw.com, the OAL's official CCR publisher (D-045 amendment 1); PDF created 2026-10-25 17:24:48 CDT, saved 17:24:52 CDT. A print, not the page's own bytes. Byte-identical (but for one trailing newline) to the PDF in Tony's Perma link AY3G-3E7J (created 2026-10-25T22:27:01Z), whose record names this URL."
+  },
+  {
     "source_url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=6210.&lawCode=CORP",
     "primary": true,
     "local_path": "CA/leginfo.legislature.ca.gov-faces-codes_displaySection.xhtml-sectionNum-6210.-law-19f502ba.html",
