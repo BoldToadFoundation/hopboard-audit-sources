@@ -192,6 +192,20 @@
     "provenance": "headless chromium page navigation, 2026-10-25, of this URL on the approved rules portal (relay hopboard cyan #2, session c4eff806): the preamble of the 34 TexReg 9169 adoption of amendments to 1 TAC ch. 79 (among them 79.27), Texas Register issue of 12/18/2009. The preamble's text is not in that page's own bytes: the page loads it into an embedded frame served from texas-sos.appianportalsgov-dynamic.com (/rules-and-meetings/webcontent/.../richTextFieldWithTables/index.html), a host the same TLS certificate covers (CN *.appianportalsgov.com, SAN *.appianportalsgov-dynamic.com; measured by openssl that day). This file is that frame's DOM serialized after load (Playwright frame.content()), 12297 bytes, sha256 62d22c57222791d1adc8c65bdfc5254408509b32a957b2e0baa5a6af53777e58: a rendered derivative of the frame, not the server's raw response bytes."
   },
   {
+    "source_url": "https://texas-sos.appianportalsgov.com/rules-and-meetings?recordId=210855&interface=VIEW_TEXAS_REGISTER_PREAMBLE_SUMMARY",
+    "primary": false,
+    "local_path": "TX/texas-sos.appianportalsgov.com-rules-and-meetings-recordId-210855-interface-VIEW-53750122.html",
+    "content_type": "text/html",
+    "content_sha256": "8a26cd8611df366bd806ae5df8a86f30f0b875d8103e8f3c0a140938760f0346",
+    "perma_url": null,
+    "wayback_url": null,
+    "captured_at": "2026-10-25T18:39:02.770384+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "ingested_from_file": true,
+    "provenance": "headless chromium page navigation, 2026-10-25, of this URL on the approved rules portal (relay hopboard cyan #2, session c4eff806): the preamble of the 34 TexReg 9177 adoption of new 1 TAC 105.1, 105.4 and 105.7, Texas Register issue of 12/18/2009. The preamble's text is not in that page's own bytes: the page loads it into an embedded frame served from texas-sos.appianportalsgov-dynamic.com (/rules-and-meetings/webcontent/.../richTextFieldWithTables/index.html), a host the same TLS certificate covers (CN *.appianportalsgov.com, SAN *.appianportalsgov-dynamic.com; measured by openssl that day). This file is that frame's DOM serialized after load (Playwright frame.content()), 4050 bytes, sha256 8a26cd8611df366bd806ae5df8a86f30f0b875d8103e8f3c0a140938760f0346: a rendered derivative of the frame, not the server's raw response bytes."
+  },
+  {
     "source_url": "https://web.archive.org/web/20260517213806/https://comptroller.texas.gov/taxes/franchise/pir-oir-filing-req.php",
     "primary": false,
     "local_path": "TX/web.archive.org-web-20260517213806-https-comptroller.texas.gov-taxes-franchise-p.html",
