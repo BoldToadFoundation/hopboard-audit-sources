@@ -97,6 +97,20 @@
     "tls_chain_unverified": false
   },
   {
+    "source_url": "https://texas-sos.appianportalsgov.com/rules-and-meetings?recordId=143578&queryAsDate=10%2F25%2F2026&interface=VIEW_TAC_SUMMARY&$locale=en_US",
+    "primary": false,
+    "local_path": "TX/texas-sos.appianportalsgov.com-rules-and-meetings-recordId-143578-queryAsDate-10-3129a9ce.html",
+    "content_type": "text/html",
+    "content_sha256": "d36576c2feaf7278bce1dabe093fafb67a476b19c03ee27f9bfd867a8f3670bb",
+    "perma_url": null,
+    "wayback_url": null,
+    "captured_at": "2026-10-25T17:36:09.146569+00:00",
+    "signed": false,
+    "tls_chain_unverified": false,
+    "ingested_from_file": true,
+    "provenance": "headless chromium page navigation, 2026-10-25 12:35 CDT, of this URL on the approved rules portal (relay hopboard cyan #1, session c4eff806). The rule text of 1 TAC 79.27 is not in that page's own bytes: the page loads it into an embedded frame served from texas-sos.appianportalsgov-dynamic.com (/rules-and-meetings/webcontent/.../richTextFieldWithTables/index.html). This file is that frame's DOM serialized after load (Playwright frame.content()), 3,661 bytes, sha256 d36576c2feaf7278bce1dabe093fafb67a476b19c03ee27f9bfd867a8f3670bb: a rendered derivative of the frame, not the server's raw response bytes. The page's second frame (the source note, not ingested) reads: adopted to be effective February 18, 1998, 23 TexReg 1528; amended to be effective January 1, 2010, 34 TexReg 9169."
+  },
+  {
     "source_url": "https://web.archive.org/web/20260517213806/https://comptroller.texas.gov/taxes/franchise/pir-oir-filing-req.php",
     "primary": false,
     "local_path": "TX/web.archive.org-web-20260517213806-https-comptroller.texas.gov-taxes-franchise-p.html",
